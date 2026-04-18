@@ -27,7 +27,7 @@
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR, LIPS, STUBBLE)
-	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_WATER_BREATHING, TRAIT_GOOD_SWIM)
+	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_NODROWN, TRAIT_SWIMMER)
 	use_skintones = TRUE
 
 	possible_ages = NORMAL_AGES_LIST
