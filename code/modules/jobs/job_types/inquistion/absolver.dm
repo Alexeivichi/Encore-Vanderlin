@@ -71,6 +71,7 @@
 /datum/job/absolver/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 	GLOB.inquisition.add_member_to_school(spawned, "Sanctae", 0, "Absolver")
+	spawned.add_chem_effect(CE_PAINKILLER, 10, "[type]")
 
 	add_verb(spawned, /mob/living/carbon/human/proc/view_inquisition)
 
