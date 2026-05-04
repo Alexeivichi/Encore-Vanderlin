@@ -352,7 +352,7 @@
 
 /obj/item/weapon/knife/dagger/steel/dirk/hertannea/Initialize(mapload)
 	. = ..()
-	enchant(/datum/enchantment/hertanneagift)
+	enchant(/datum/enchantment/on_hit/hertanneagift)
 
 
 //................ Silver Dagger ............... //

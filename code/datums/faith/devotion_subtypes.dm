@@ -3,7 +3,7 @@
 		CLERIC_T0 = list(/datum/action/cooldown/spell/healing, /datum/action/cooldown/spell/status/guidance, /datum/action/cooldown/spell/instill_perfection,),
 		CLERIC_T1 = list(/datum/action/cooldown/spell/mend_item, /datum/action/cooldown/spell/undirected/bless_crops, /datum/action/cooldown/spell/undirected/conjure_item/summon_leech/erdl,),
 		CLERIC_T2 = list(/datum/action/cooldown/spell/projectile/swordfish, /datum/action/cooldown/spell/sacred_flame, /datum/action/cooldown/spell/undirected/call_to_arms,  /datum/action/cooldown/spell/aoe/abrogation,),
-		CLERIC_T3 = list(/datum/action/cooldown/spell/avert, /datum/action/cooldown/spell/vicious_mockery,),
+		CLERIC_T3 = list(/datum/action/cooldown/spell/avert, /datum/action/cooldown/spell/projectile/vicious_mockery,),
 	)
 	traits = list(TRAIT_DIVINE_SERVANT, TRAIT_DIVINE_CENTRIST)
 
@@ -96,7 +96,7 @@
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/undirected/list_target/vicious_mimicry,
-		CLERIC_T2 = list(/datum/action/cooldown/spell/status/wheel, /datum/action/cooldown/spell/vicious_mockery, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T2 = list(/datum/action/cooldown/spell/status/wheel, /datum/action/cooldown/spell/projectile/vicious_mockery, /datum/action/cooldown/spell/aoe/abrogation),
 		CLERIC_T3 = list(/datum/action/cooldown/spell/undirected/jaunt/illusory_prop, /datum/action/cooldown/spell/undirected/jaunt/ethereal_jaunt/miracle),
 	)
 	viable_tasks = list(
