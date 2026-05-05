@@ -108,7 +108,7 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 	var/socks = "Nude"
 
 	/// Skin color.
-	var/skin_tone = "caucasian1"
+	var/skin_tone = SKIN_COLOR_CONTINENTAL
 
 	/// Eye color.
 	var/eye_color = "000"
@@ -1668,7 +1668,7 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 						if(color_hex2num(new_voice) < 230)
 							to_chat(user, "<font color='red'>This voice color is too dark for mortals.</font>")
 							return
-						voice_color = sanitize_hexcolor(new_voice)
+						voice_color = sanitize_hexcolor(new_voice, include_crunch = FALSE)
 
 				if("headshot")
 					to_chat(user, span_notice("Please use an image of the head and shoulder area to maintain immersion level. Lastly, ["<span class='bold'>do not use a real life photo or ANYTHING AI generated.</span>"]"))
