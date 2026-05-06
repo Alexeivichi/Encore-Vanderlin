@@ -1119,7 +1119,7 @@
 	max_integrity = 100
 	sellprice = 40
 	buckleverb = "crucifie"
-	can_buckle = 1
+	can_buckle = TRUE
 	buckle_lying = 0
 	breakoutextra = 10 MINUTES
 	dir = NORTH
