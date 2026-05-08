@@ -2695,7 +2695,7 @@
 /turf/open/floor/tile/kitchen,
 /area/indoors/wilderness/tavern)
 "ED" = (
-/obj/effect/decal/cleanable/roguerune/arcyne/summoning/mid,
+/obj/effect/decal/cleanable/ritual_rune/arcyne/summoning/mid,
 /mob/living/simple_animal/hostile/retaliate/elemental/behemoth,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/cobble,
