@@ -24,7 +24,7 @@
 							/obj/item/natural/stone = 23,
 							/obj/item/natural/rock = 8,
 							/obj/item/grown/log/tree/stick = 16,
-							/obj/structure/closet/dirthole/closed/loot = 3,
+							/obj/structure/closet/dirthole/closed = 3,
 							/obj/item/restraints/legcuffs/beartrap/armed/camouflage = 7,
 							/obj/structure/flora/grass/pyroclasticflowers = 15,
 							/obj/structure/flora/grass/thorn_bush = 25,
