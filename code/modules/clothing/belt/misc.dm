@@ -300,6 +300,7 @@
 
 /obj/item/storage/backpack/satchel/otavan
 	name = "Aelondan leather satchel"
+	examine_name = "satchel"
 	desc = "A made to last leather bag from the center of Wavehearth. It's Aelonda's finest."
 	icon_state = "osatchel"
 	item_state = "osatchel"

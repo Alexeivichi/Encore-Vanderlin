@@ -56,6 +56,7 @@
 
 /obj/item/clothing/gloves/leather/otavan
 	name = "aelondan leather gloves"
+	examine_name = "leather gloves"
 	desc = "A pair of heavy Aelondan leather gloves, commonly used by fencers, renowned for their quality."
 	icon_state = "fencergloves"
 	item_state = "fencergloves"
@@ -74,7 +75,7 @@
 
 /obj/item/clothing/gloves/leather/otavan/inqgloves
 	name = "inquisitorial leather gloves"
-	desc = "Gloves of worn leather. Alas, the angrosian fetish wrapped around one is but a powerless replica."
+	desc = "Gloves of worn leather. Alas, the psydonian fetish wrapped around one is but a powerless replica."
 	icon_state = "inqgloves"
 	item_state = "inqgloves"
 

@@ -15,6 +15,7 @@
 
 /obj/item/clothing/cloak/angrostabard/alt
 	name = "open angrosian tabard"
+	examine_name = "angrosian tabard"
 	desc = "Used by more radical followers of the Inquisition."
 	body_parts_covered = null
 	icon_state = "psydontabardalt"
@@ -25,7 +26,7 @@
 	switch(open_wear)
 		if(FALSE)
 			name = "inquisitorial tabard"
-			desc = "A long vest bearing Angrosian symbology"
+			desc = "A long vest bearing Psydonian symbology"
 			body_parts_covered = null
 			icon_state = "psydontabardalt"
 			item_state = "psydontabardalt"
@@ -33,7 +34,7 @@
 			to_chat(usr, span_warning("Now wearing ENDURINGLY!"))
 		if(TRUE)
 			name = "inquisitorial tabard"
-			desc = "A long vest bearing Angrosian symbology"
+			desc = "A long vest bearing Psydonian symbology"
 			body_parts_covered = CHEST|GROIN
 			icon_state = "psydontabard"
 			item_state = "psydontabard"
