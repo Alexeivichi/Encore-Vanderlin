@@ -131,3 +131,24 @@
 	name = "angrosian cuirass"
 	icon_state = "ornatecuirass"
 	desc = "An ornate steel cuirass with tassets, favored by the Angrosian sects of the Katholikos."
+
+/obj/item/clothing/armor/cuirass/fluted/gold
+	name = "golden cuirass"
+	icon_state = "goldcuirass"
+	desc = "A resplendant cuirass of pure gold, fitted with tassets for additional coverage. It is dressed atop a besilked arming jacket to ensure the absolute comfort of its wearer, and the holy sigil has been meticulously formed from its slanted plates."
+	armor_class = AC_HEAVY
+	anvilrepair = null
+	melting_material = /datum/material/gold
+	melt_amount = 100
+	grid_height = 96
+	grid_width = 96
+	sellprice = 300
+
+/obj/item/clothing/armor/cuirass/fluted/gold/heroic
+	name = "golden heroic cuirass"
+	icon_state = "heroiccuirass"
+	desc = "A resplendant cuirass of pure gold, fitted with tassets for additional coverage. It has been meticulously waxed-and-assembled from dozens of smaller golden plates, in order to replicate the statuesque physique of the Goblet's legendary heroes."
+
+/obj/item/clothing/armor/cuirass/fluted/gold/king
+	name = "golden heroic cuirass"
+	sellprice = 400

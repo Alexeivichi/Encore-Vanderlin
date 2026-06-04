@@ -499,6 +499,21 @@
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/divine
 
+/datum/artificer_recipe/psycross/deceivers
+	name = "Deceivers Psycross"
+	required_item = /obj/item/ingot/gold
+	created_item = /obj/item/clothing/neck/psycross/deceivers
+
+/datum/artificer_recipe/psycross/archdevils
+	name = "Hellish Psycross"
+	required_item = /obj/item/ingot/gold
+	created_item = /obj/item/clothing/neck/psycross/archdevils
+
+/datum/artificer_recipe/psycross/hertannea
+	name = "Hertannean Psycross"
+	required_item = /obj/item/ingot/gold
+	created_item = /obj/item/clothing/neck/psycross/hertannea
+
 /datum/artificer_recipe/psycross/akan
 	name = "Akan Psycross"
 	required_item = /obj/item/ingot/silver
