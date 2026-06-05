@@ -17,6 +17,7 @@
 	item_weight = 4.5 KILOGRAMS
 
 	possible_item_intents = list(/datum/intent/shoot/musket, /datum/intent/shoot/musket/arc, POLEARM_BASH)
+	gripped_intents = list(/datum/intent/shoot/musket, /datum/intent/shoot/musket/arc, POLEARM_BASH)
 	force = 10
 	can_parry = TRUE
 	wdefense = AVERAGE_PARRY
@@ -36,11 +37,52 @@
 /obj/item/gun/ballistic/powder/musket/Initialize(mapload)
 	. = ..()
 	bayonet = new(src)
+	possible_item_intents = list(/datum/intent/shoot/musket, /datum/intent/shoot/musket/arc, SPEAR_THRUST)
+	gripped_intents = list(/datum/intent/shoot/musket, /datum/intent/shoot/musket/arc, POLEARM_THRUST)
+	. = ..()
+	AddElement(/datum/element/gun_launches_little_guys, throwing_force = 1, throwing_range = 1)
 
 /obj/item/gun/ballistic/powder/musket/Destroy(force)
 	if(!QDELETED(bayonet))
 		QDEL_NULL(bayonet)
 	return ..()
+
+/obj/item/gun/ballistic/powder/musket/Exited(atom/movable/exited, atom/newLoc)
+	. = ..()
+	if(exited == bayonet)
+		bayonet = null
+
+/obj/item/gun/ballistic/powder/musket/update_icon_state()
+	. = ..()
+	icon_state = "[base_icon_state][cocked ? "_cocked" : ""][ramrod ? "_ramrod" : ""][bayonet ? "_bayonet" : ""]" // God weeps
+
+/obj/item/gun/ballistic/powder/musket/attackby(obj/item/attacking_item, mob/living/user, list/modifiers)
+	. = ..()
+	if(!bayonet && istype(attacking_item, /obj/item/weapon/knife/dagger/bayonet))
+		balloon_alert(user, "attached!")
+		user.transferItemToLoc(attacking_item, src)
+		bayonet = attacking_item
+		update_appearance(UPDATE_ICON_STATE)
+
+/obj/item/gun/ballistic/powder/musket/attack_hand_secondary(mob/user, list/modifiers)
+	. = ..()
+	if(. == SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN)
+		return
+
+	if(!bayonet)
+		return
+
+	balloon_alert(user, "removed!")
+	user.put_in_hands(bayonet)
+	update_appearance(UPDATE_ICON_STATE)
+
+	return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
+
+/obj/item/gun/ballistic/powder/musket/pre_attack(atom/target, mob/living/user, list/modifiers)
+	. = ..()
+	if(bayonet && user.cmode) // Bayonet acts as a proxy attacker if present
+		INVOKE_ASYNC(bayonet, TYPE_PROC_REF(/obj/item, melee_attack_chain), user, target, modifiers - RIGHT_CLICK)
+		return TRUE
 
 /obj/item/gun/ballistic/powder/musket/getonmobprop(tag)
 	. = ..()

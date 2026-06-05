@@ -604,14 +604,9 @@
 	if(!active)
 		to_chat(user, span_warning("It's not primed."))
 		return
-	if(HAS_TRAIT(M, TRAIT_BLOODLOSS_IMMUNE))
+	if(!CAN_HAVE_BLOOD(M) || !M.get_blood_volume())
 		to_chat(user, span_warning("They don't have any blood to sample."))
 		return
-	if(iscarbon(M))
-		var/mob/living/carbon/C = M
-		if(NOBLOOD in C.dna.species.species_traits)
-			to_chat(user, span_warning("They don't have any blood to sample."))
-			return
 	if(full)
 		to_chat(user, span_warning("It's full."))
 		return
@@ -806,6 +801,10 @@
 	desc = "Used to wrap around the target."
 	no_attack = TRUE
 
+/obj/item/inqarticles/garrote/Destroy()
+	reset_garrote()
+	. = ..()
+
 /obj/item/inqarticles/garrote/atom_break(damage_flag, silent)
 	. = ..()
 	if(!ismob(loc))
@@ -852,7 +851,7 @@
 	var/mob/living/garrote_victim = victim?.resolve()
 	if(garrote_victim)
 		REMOVE_TRAIT(garrote_victim, TRAIT_MUTE, "garroteCordage")
-	UnregisterSignal(garrote_victim, list(COMSIG_LIVING_RESIST_GRAB, COMSIG_QDELETING))
+	UnregisterSignal(garrote_victim, list(COMSIG_LIVING_RESIST_GRAB, COMSIG_QDELETING, COMSIG_CARBON_ATTEMPT_BREATHE))
 	victim = null
 
 	var/mob/living/last_garrote_user = lastuser?.resolve()
@@ -950,6 +949,7 @@
 	ADD_TRAIT(target, TRAIT_MUTE, "garroteCordage")
 	RegisterSignal(target, COMSIG_LIVING_RESIST_GRAB, PROC_REF(on_victim_resist))
 	RegisterSignal(target, COMSIG_QDELETING, PROC_REF(reset_garrote))
+	RegisterSignal(target, COMSIG_CARBON_ATTEMPT_BREATHE, PROC_REF(block_breath))
 	RegisterSignal(user, COMSIG_ATOM_NO_LONGER_PULLING, PROC_REF(reset_garrote))
 	victim = WEAKREF(target)
 	lastuser = WEAKREF(user)
@@ -966,6 +966,9 @@
 			take_damage(max_integrity * 0.05)
 		else
 			take_damage(max_integrity * 0.1)
+
+/obj/item/inqarticles/garrote/proc/block_breath(datum/source)
+	return BREATHE_SKIP_BREATH
 
 /obj/item/inqarticles/garrote/razor // To yische, who said not to give this out constantly, I respectfully disagree when it comes to assassin
 	name = "profane razor" // It's very not non lethal now.  Strangle your prey with glee

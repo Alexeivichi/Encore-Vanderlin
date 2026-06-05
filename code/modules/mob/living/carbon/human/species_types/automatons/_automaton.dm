@@ -77,9 +77,9 @@
 	species_traits = list(
 		NO_UNDERWEAR,
 		NOTRANSSTING,
-		NOBLOOD,
 	)
 	inherent_traits = list(
+		TRAIT_NOBLOOD,
 		TRAIT_BLOODLOSS_IMMUNE,
 		TRAIT_NORMALIZED_BLOOD,
 		TRAIT_NOMOOD,
@@ -96,7 +96,8 @@
 		TRAIT_NOSLEEP,
 		TRAIT_SLEEPIMMUNE,
 		TRAIT_TOXIMMUNE,
-		TRAIT_FEARLESS
+		TRAIT_FEARLESS,
+		TRAIT_NO_ORGAN_PROCESS
 	)
 
 	statsheet_male = /datum/attribute_holder/sheet/job/species/automaton
@@ -148,7 +149,6 @@
 	C.AddComponent(/datum/component/steam_life)
 	C.AddComponent(/datum/component/command_follower)
 	C.AddComponent(/datum/component/augmentable)
-	C.AddComponent(/datum/component/easy_repair)
 	C.AddComponent(/datum/component/damage_shutdown)
 	C.apply_status_effect(/datum/status_effect/automaton_unshackled)
 

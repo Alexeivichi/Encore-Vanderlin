@@ -55,7 +55,7 @@
 				record_round_statistic(STATS_CLERGY_DEATHS)
 			if(mind.has_antag_datum(/datum/antagonist/vampire))
 				record_round_statistic(STATS_VAMPIRES_KILLED)
-			if(mind.has_antag_datum(/datum/antagonist/zombie) || mind.has_antag_datum(/datum/antagonist/skeleton) || mind.has_antag_datum(/datum/antagonist/lich))
+			if(IS_DEADITE(src) || mind.has_antag_datum(/datum/antagonist/skeleton) || mind.has_antag_datum(/datum/antagonist/lich))
 				record_round_statistic(STATS_DEADITES_KILLED)
 
 	if(!gibbed)
@@ -64,6 +64,7 @@
 				zombie_check()
 
 	stop_sound_channel(CHANNEL_HEARTBEAT)
+	heartbeat_sound = BEAT_NONE
 	pulse = PULSE_NONE
 	for(var/thing in getorganslotlist(ORGAN_SLOT_HEART))
 		var/obj/item/organ/heart/heart = thing
@@ -119,7 +120,7 @@
 		SSblackbox.ReportDeath(src)
 		log_message("has died (BRUTE: [src.getBruteLoss()], BURN: [src.getFireLoss()], TOX: [src.getToxLoss()], OXY: [src.getOxyLoss()], CLONE: [src.getCloneLoss()])", LOG_ATTACK)
 
-/mob/living/carbon/human/proc/zombie_check()
+/mob/living/carbon/proc/zombie_check()
 	if(!mind)
 		return
 	var/datum/antagonist/zombie = mind.has_antag_datum(/datum/antagonist/zombie)
@@ -156,7 +157,6 @@
 	. = ..()
 	if(!.)
 		return
-	pump_heart(forced_pump = 1.3)
 	var/datum/job/human_job = SSjob.GetJob(job)
 	if(human_job)
 		switch(human_job.type)

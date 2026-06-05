@@ -1,5 +1,6 @@
 /datum/repeatable_crafting_recipe/gani
 	abstract_type = /datum/repeatable_crafting_recipe/gani
+	subtypes_allowed = TRUE
 	category = "Gani"
 
 /datum/repeatable_crafting_recipe/gani/sacrifice_growing

@@ -840,7 +840,7 @@
 	character.grant_undead_eyes()
 
 	character.mob_biotypes |= MOB_UNDEAD
-	character.dna?.species?.species_traits |= NOBLOOD
+	character.dna?.species?.inherent_traits |= TRAIT_NOBLOOD
 	character.dna?.species?.soundpack_m = new /datum/voicepack/skeleton()
 	character.dna?.species?.soundpack_f = new /datum/voicepack/skeleton()
 
@@ -853,6 +853,7 @@
 	ADD_TRAIT(character, TRAIT_TOXIMMUNE, BE_SPECIAL_TRAIT)
 	ADD_TRAIT(character, TRAIT_NOSLEEP, BE_SPECIAL_TRAIT)
 	ADD_TRAIT(character, TRAIT_SHOCKIMMUNE, BE_SPECIAL_TRAIT)
+	ADD_TRAIT(character, TRAIT_NOBLOOD, BE_SPECIAL_TRAIT)
 
 	character.update_body()
 
