@@ -1,3 +1,11 @@
+	/*==============*
+	*				*
+	*	Half-Orc		*
+	*				*
+	*===============*/
+
+//	( + Dead Nose )
+
 /mob/living/carbon/human/species/halforc
 	race = /datum/species/halforc
 
@@ -5,17 +13,7 @@
 	raw_attribute_list = list(
 		STAT_STRENGTH = 2,
 		STAT_PERCEPTION = -2,
-		STAT_INTELLIGENCE = -2,
 		STAT_CONSTITUTION = 2,
-		STAT_ENDURANCE = 1,
-	)
-
-/datum/attribute_holder/sheet/job/species/halforc/female
-	raw_attribute_list = list(
-		STAT_STRENGTH = 2,
-		STAT_PERCEPTION = -1,
-		STAT_INTELLIGENCE = -2,
-		STAT_CONSTITUTION = 1,
 		STAT_ENDURANCE = 1,
 	)
 
@@ -27,10 +25,20 @@
 		"Nortic Accent" = ACCENT_NORTIC,
 	)
 	native_language = "Orcish"
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Half Orcs</b><br>\
+	Half-Orcs are born from the union of Orcs and another humanoid race (most often but not exclusively Humans). While welcome in civilised society, they \
+	are typically kept to the fringes of it. Trueborn Orcs are often tribal, isolationist, and distrustful of outsiders - if not outright aggressive - due \
+	to a history of persecution by the more mainstream peoples of the world. This is not entirely without merit, as various myths, legends, and hearsay tell \
+	of Orcs suffering from demonic influence, corruption, or even distant ancestral lineage to demons. Whatever the truth, True Orcs suffer from unnaturally \
+	bloodthirsty and violent compulsions, meaning many have a violent history with the other peoples of the Goblet. On occasion though, some Orcs overcome \
+	this, and come into contact with other races, leading to such progeny. Half-Orcs are the underdogs and underprivileged in the societies of the Goblet, only \
+	in the recent decades achieving more widespread acceptance to their presence within society, and while many have forged a place for themselves, many more still \
+	chafe under the boot of discrimination and exploitation. Some choose to prove their worth regardless, some instead fall into crime and banditry as a protest or \
+	because they have no choice... while some cursed few constantly grapple with a war inside their hearts, the ancestral blood-hunger raging like a beast caged for amusement.\
+	+2 Strength, +2 Constitution, +1 Endurance, -2 Perception"
 
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)
-	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_DEADNOSE, TRAIT_STINKY)
+	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_DEADNOSE)
 
 	allowed_voicetypes_m = VOICE_TYPES_MASCANDRO
 
@@ -73,7 +81,7 @@
 	offset_features_f = list()
 
 	statsheet_male = /datum/attribute_holder/sheet/job/species/halforc
-	statsheet_female = /datum/attribute_holder/sheet/job/species/halforc/female
+	statsheet_female = /datum/attribute_holder/sheet/job/species/halforc
 
 	enflamed_icon = "widefire"
 
@@ -107,8 +115,7 @@
 		ORGAN_SLOT_GUTS = /obj/item/organ/guts,
 	)
 
-	nutrition_mod = 2 // 200% higher hunger rate. Hungry, hungry horcs
-	hygiene_mod = 1.5
+	nutrition_mod = 1.2 // 120% higher hunger rate. Hungry, hungry horcs
 
 /datum/species/halforc/check_roundstart_eligible()
 	return TRUE
@@ -123,9 +130,6 @@
 	..()
 	C.grant_language(/datum/language/orcish)
 	to_chat(C, span_info("I can speak Orcish with ,o before my speech."))
-	if(ishuman(C)) //Horcs are STINKY
-		var/mob/living/carbon/human/stinky_horc = C
-		stinky_horc.hygiene = HYGIENE_LEVEL_DISGUSTING
 
 /datum/species/halforc/on_species_loss(mob/living/carbon/C)
 	. = ..()
@@ -137,15 +141,15 @@
 
 /datum/species/halforc/get_skin_list()
 	return list(
-		"Cyanosis" = SKIN_COLOR_SHELLCREST,
-		"Abrasion" = SKIN_COLOR_BLOOD_AXE,
-		"Pustule" = SKIN_COLOR_GROONN, //Changed name from Gronn, which no longer aligned with lore here or elsewhere.
-		"Necrosis" = SKIN_COLOR_BLACK_HAMMER,
-		"Abscess" = SKIN_COLOR_SKULL_SEEKER,
-		"Staph" = SKIN_COLOR_CRESCENT_FANG,
-		"Bogfoot" = SKIN_COLOR_MURKWALKER,
-		"Exsanguinated" = SKIN_COLOR_SHATTERHORN,
-		"Cauterized" = SKIN_COLOR_SPIRITCRUSHER
+		"Shellcrest" = SKIN_COLOR_SHELLCREST,
+		"Bloodaxe" = SKIN_COLOR_BLOOD_AXE,
+		"Gronn" = SKIN_COLOR_GROONN, //Changed name from Gronn, which no longer aligned with lore here or elsewhere.
+		"Blackhammer" = SKIN_COLOR_BLACK_HAMMER,
+		"Skullseeker" = SKIN_COLOR_SKULL_SEEKER,
+		"Crescent Fang" = SKIN_COLOR_CRESCENT_FANG,
+		"Murkwalker" = SKIN_COLOR_MURKWALKER,
+		"Shatterhorn" = SKIN_COLOR_SHATTERHORN,
+		"Spiritcrusher" = SKIN_COLOR_SPIRITCRUSHER
 	)
 
 /datum/species/halforc/get_hairc_list()

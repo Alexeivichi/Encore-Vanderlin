@@ -20,7 +20,14 @@
 	name = "Tiefling"
 	id = SPEC_ID_TIEFLING
 	native_language = "Infernal"
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Tiefling</b><br>\
+	Tieflings or Daemonkin are the wiry tendrils of the infernal Hells creeping out in a more subtle manner. \
+	These are folk who are the offspring of the soulless mingling with another who possesses Thauma. \
+	It is assumed that, prior to the Big Burn, such things were biologically impossible. \
+	However, after Angros' betrayal, Tieflings began to appear in the world; different from demons in that they possess Thauma, \
+	but carrying the burden of the monstrous features endemic to Hell's minions. \
+	Expect to be treated very poorly in-character and shunned from the majority of Holy circles by selecting this species.<br>\
+	+2 Perception, +1 Intelligence, +1 Speed, -1 Constitution, -1 Fortune"
 
 	skin_tone_wording = "Progenitor"
 

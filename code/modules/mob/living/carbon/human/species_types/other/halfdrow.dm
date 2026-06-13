@@ -9,7 +9,7 @@
 
 /datum/attribute_holder/sheet/job/species/halfdrow
 	raw_attribute_list = list(
-		STAT_PERCEPTION = 1,
+		STAT_PERCEPTION = -1,
 		STAT_INTELLIGENCE = 1,
 		STAT_SPEED = 1,
 	)
@@ -21,12 +21,18 @@
 		"Humen Accent" = "Common",
 		"Dark Elf Accent" = "Elfish"
 	)
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Half-Drow</b><br>\
+	Half-Drow are born from a union of Human and Dark Elf parents. While there's little tangible physical difference between a Half-Elf \
+	and a Half-Drow, the distinction is more cultural. Dark Elves are rare on the surface of the Goblet, only becoming more common in the recent years, \
+	and many outright scoff at the idea of mingling their blood with a race as fleeting as Humans. This makes Half-Drow a rarity, compared to their Aelondan cousins. \
+	Still, times change, and many younger Dark Elves make for the surface, rather than hear one more dusty tale about the Arnkin Dynasty from their elders, leading \
+	to inevitable unions. <br>\
+	+1 Intelligence, +1 Speed, -1 Perception"
 
 	default_color = "FFFFFF"
 
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)
-	inherent_traits = list(TRAIT_NOMOBSWAP)
+	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_NIGHT_OWL, TRAIT_DARKVISION)
 
 	use_skintones = TRUE
 	possible_ages = NORMAL_AGES_LIST

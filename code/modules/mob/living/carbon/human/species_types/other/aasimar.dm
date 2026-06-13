@@ -22,7 +22,16 @@
 	name = "Aasimar"
 	id = SPEC_ID_AASIMAR
 	native_language = "Celestial"
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Aasimar</b><br>\
+	Aasimar are born of a rare union between Humans and elemental spirits. \
+	They bear the mark of their celestial touch through many varying physical features. \
+	Their looks resemble the traditional characteristics of whichever of the Gods the spirit parent was associated with. \
+	Most commonly, Aasimar are similar to Humans, albeit taller, and possess uncanny beauty. \
+	They have strangely colored skin and are more intelligent and physically durable than the average Human, albiet slower. \
+	Because of their upbringing, they make for natural conduits for godly powers. \
+	The Goblet's populace holds them with a mixture of uneasy fear, respect, or both. \
+	It is also widely believed that an Aasimar's death is a bad omen...<br>\
+	+2 Intelligence, +1 Constitution, +1 Endurance, -1 Speed"
 
 	skin_tone_wording = "Craft"
 

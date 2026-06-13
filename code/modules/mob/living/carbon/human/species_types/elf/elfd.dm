@@ -18,25 +18,19 @@
 		STAT_SPEED = 2,
 	)
 
-/datum/attribute_holder/sheet/job/species/dark/female
-	raw_attribute_list = list(
-		STAT_STRENGTH = 1,
-		STAT_PERCEPTION = -1,
-		STAT_INTELLIGENCE = 1,
-		STAT_CONSTITUTION = 1,
-		STAT_ENDURANCE = 1,
-		STAT_SPEED = 1
-	)
-
 /datum/species/elf/dark
 	name = "Dark Elf"
 	id = SPEC_ID_DROW
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Dark Elf</b><br>\
+	Elves, are a generic term for tall, pointy-eared humanoids of whom trace their original heritage to the ancient mysterious Arnkin Dynasty. \
+	These ones are of a dark complexion and originate mostly from subterranean settlements.\
+	Previously rare but in recent times, more and more dark elves can be seen on the surface.<br>\
+	+1 Intelligence, +2 Endurance, +2 Speed, -1 Strength, -1 Perception"
 
 	skin_tone_wording = "Parent House"
 
 	species_traits = list(EYECOLOR,HAIR,FACEHAIR,LIPS,OLDGREY)
-	inherent_traits = list(TRAIT_NOMOBSWAP)
+	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_NIGHT_OWL, TRAIT_DARKVISION)
 	use_skintones = 1
 	disliked_food = NONE
 	liked_food = NONE
@@ -114,7 +108,7 @@
 	)
 
 	statsheet_male = /datum/attribute_holder/sheet/job/species/dark
-	statsheet_female = /datum/attribute_holder/sheet/job/species/dark/female
+	statsheet_female = /datum/attribute_holder/sheet/job/species/dark
 	enflamed_icon = "widefire"
 
 	body_markings = list(
