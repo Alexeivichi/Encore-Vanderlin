@@ -11,18 +11,17 @@
 
 /datum/attribute_holder/sheet/job/species/demihuman
 	raw_attribute_list = list(
-		STAT_STRENGTH = -1,
-		STAT_PERCEPTION = 2,
-		STAT_INTELLIGENCE = 1,
-		STAT_CONSTITUTION = -1,
-		STAT_SPEED = 1,
-		STAT_FORTUNE = -1
+		STAT_PERCEPTION = 1,
 	)
 
 /datum/species/demihuman
-	name = "Beast-Kin"
+	name = "Otherkin"
 	id = SPEC_ID_HOLLOWKIN
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "A product of any variety of upbringing in all the globe- in being called Otherkin, one is generally classified as a lesser-populated species. \
+	Never having had the forefront of the world's attention before the creation of the Goblet, they now consist of a huge minority of leftovers in the new world. \
+	This selection enables the player to create their own species; beware that all normal server rules, especially believability, are still enforced. \
+	You are solely responsible for your character's origins. \
+	+1 Perception."
 
 	allowed_pronouns = PRONOUNS_LIST
 

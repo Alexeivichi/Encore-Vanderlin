@@ -115,6 +115,9 @@
 		/datum/customizer/bodypart_feature/hair/facial/humanoid,
 		/datum/customizer/bodypart_feature/accessory,
 		/datum/customizer/bodypart_feature/face_detail,
+		/datum/customizer/organ/ears/demihuman,
+		/datum/customizer/organ/horns/demihuman,
+		/datum/customizer/organ/tail/demihuman,
 	)
 
 	body_markings = list(
@@ -148,19 +151,15 @@
 
 /datum/species/tieberian/get_skin_list()
 	var/static/list/skin_colors = sortList(list(
-		"Crimson Land" = SKIN_COLOR_CRIMSON_LAND, // - (Bright red)
-		"Sun Stained" = SKIN_COLOR_SUNSTAINED, // - (Dark orange)
-		"Sundered" = SKIN_COLOR_SUNDERED, //  - (Orange)
-		"Zarkana" = SKIN_COLOR_ARCANA, // - (Dark violet)
-		"Zarconum" = SKIN_COLOR_ZARCONUM, // - (Pink)
-		"Flayer" = SKIN_COLOR_FLAYER, // - (Purple)
-		"Abyssium" = SKIN_COLOR_ABYSS, // - (Navy blue)
-		"Castillian" = SKIN_COLOR_CASTILLIAN, // - (Pale red)
-		"Asturias" = SKIN_COLOR_ASTURIAS, // - (Clay red)
-		"Vaquero" = SKIN_COLOR_VAQUERO, // - (Earthly red)
-		"Zanguine" = SKIN_COLOR_ZANGUINE, // - (Dark violet)
-		"Ash" = SKIN_COLOR_ASH, // - (Pale blue)
-		"Arlenneth" = SKIN_COLOR_ARLENNETH, // - (Lavender blue)
+		"First Sage" = SKIN_COLOR_LOVELOST,
+		"Second Sage" = SKIN_COLOR_MALEVOLEKET,
+		"Third Sage" = SKIN_COLOR_GARGANT,
+		"Fourth Sage" = SKIN_COLOR_LOSTURGE,
+		"Fifth Sage" = SKIN_COLOR_PROTOMOS,
+		"Sixth Sage" = SKIN_COLOR_HEAVEN,
+		"Seventh Sage" = SKIN_COLOR_VISTAMATRA,
+		"Artenfel" = SKIN_COLOR_AGATROS,
+		"Gemini" = SKIN_COLOR_GEMINI
 	))
 
 	return skin_colors

@@ -31,7 +31,7 @@
 	Because of their upbringing, they make for natural conduits for godly powers. \
 	The Goblet's populace holds them with a mixture of uneasy fear, respect, or both. \
 	It is also widely believed that an Aasimar's death is a bad omen...<br>\
-	+2 Intelligence, +1 Constitution, +1 Endurance, -1 Speed"
+	+2 Intelligence, +1 Constitution, +1 Endurance, -1 Speed, 10% Pain Resist, 20% Bleed Resist"
 
 	skin_tone_wording = "Craft"
 
@@ -102,6 +102,9 @@
 		/datum/customizer/bodypart_feature/hair/facial/humanoid,
 		/datum/customizer/bodypart_feature/accessory,
 		/datum/customizer/bodypart_feature/face_detail,
+		/datum/customizer/organ/ears/demihuman,
+		/datum/customizer/organ/horns/demihuman,
+		/datum/customizer/organ/tail/demihuman,
 	)
 
 	body_markings = list(

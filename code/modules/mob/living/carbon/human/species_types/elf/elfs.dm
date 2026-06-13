@@ -4,7 +4,6 @@
 	*				*
 	*===============*/
 
-//	( + Night Vision )
 
 
 /mob/living/carbon/human/species/elf/snow

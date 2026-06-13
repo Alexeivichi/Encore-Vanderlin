@@ -27,7 +27,7 @@
 	and many outright scoff at the idea of mingling their blood with a race as fleeting as Humans. This makes Half-Drow a rarity, compared to their Aelondan cousins. \
 	Still, times change, and many younger Dark Elves make for the surface, rather than hear one more dusty tale about the Arnkin Dynasty from their elders, leading \
 	to inevitable unions. <br>\
-	+1 Intelligence, +1 Speed, -1 Perception"
+	+1 Intelligence, +1 Speed, -1 Perception, Darkvision"
 
 	default_color = "FFFFFF"
 

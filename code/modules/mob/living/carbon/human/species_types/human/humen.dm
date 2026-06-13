@@ -4,8 +4,6 @@
 	*				*
 	*===============*/
 
-//	( +1 Fortune )
-
 /mob/living/carbon/human/species/human/northern
 	race = /datum/species/human/northern
 
@@ -17,7 +15,7 @@
 	)
 
 /datum/species/human/northern
-	name = "Humen"
+	name = "Human"
 	id = SPEC_ID_HUMEN
 	multiple_accents = list(
 		"No Accent" = ACCENT_NONE,

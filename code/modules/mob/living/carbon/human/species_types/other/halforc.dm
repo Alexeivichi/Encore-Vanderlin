@@ -25,17 +25,16 @@
 		"Nortic Accent" = ACCENT_NORTIC,
 	)
 	native_language = "Orcish"
-	desc = "<b>Half Orcs</b><br>\
-	Half-Orcs are born from the union of Orcs and another humanoid race (most often but not exclusively Humans). While welcome in civilised society, they \
-	are typically kept to the fringes of it. Trueborn Orcs are often tribal, isolationist, and distrustful of outsiders - if not outright aggressive - due \
-	to a history of persecution by the more mainstream peoples of the world. This is not entirely without merit, as various myths, legends, and hearsay tell \
-	of Orcs suffering from demonic influence, corruption, or even distant ancestral lineage to demons. Whatever the truth, True Orcs suffer from unnaturally \
-	bloodthirsty and violent compulsions, meaning many have a violent history with the other peoples of the Goblet. On occasion though, some Orcs overcome \
-	this, and come into contact with other races, leading to such progeny. Half-Orcs are the underdogs and underprivileged in the societies of the Goblet, only \
-	in the recent decades achieving more widespread acceptance to their presence within society, and while many have forged a place for themselves, many more still \
-	chafe under the boot of discrimination and exploitation. Some choose to prove their worth regardless, some instead fall into crime and banditry as a protest or \
-	because they have no choice... while some cursed few constantly grapple with a war inside their hearts, the ancestral blood-hunger raging like a beast caged for amusement.\
-	+2 Strength, +2 Constitution, +1 Endurance, -2 Perception"
+	desc = "<b>Half-Orcs</b><br>\
+    Half-Orcs are a race of bulky humanoids, descended from the union of humanoids and true Orcs. While present in civilised society today, \
+	they are typically kept to the fringes of it. Trueborn Orcs are often tribal, isolationist, and aggressive; they have centuries of violent \
+	history with the other peoples of the Goblet, and not without reason, as they are creatures tainted by Hell. This leaves the origins of \
+	Half-Orcs mysterious - though the widely accepted tale is that of the divine interference of Erdl, the Bloodfather. The tale states that He \
+	saw incredible potential in Orcs, though the taint of Hell vexed Him. It was He, with powers divine, who took the strength of true Orcs and \
+	combined it with the mind and soul of Men, seeking to create a whole greater than the sum of its parts; in doing so, the first Half-Orcs were born. \
+	This act divided the Pantheon however, and many mortals yet feared these people who resembled the vicious Orcs. Only within the last century have \
+	Half-Orcs carved out the beginnings of societal tolerance... \
+    +2 Strength, +2 Constitution, +1 Endurance, -2 Perception, Dead Nose, 20% Hunger Increase"
 
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)
 	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_DEADNOSE)
