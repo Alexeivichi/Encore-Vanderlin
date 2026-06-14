@@ -23,7 +23,7 @@
 	id = SPEC_ID_DROW
 	desc = "<b>Dark Elf</b><br>\
 	Elves, are a generic term for tall, pointy-eared humanoids of whom trace their original heritage to the ancient mysterious Arnkin Dynasty. \
-	These ones are of a dark complexion and originate mostly from subterranean settlements.\
+	Dark Elves, informally referred to as Drow at times by surfacers, are of a dark complexion and originate mostly from subterranean settlements.\
 	Previously rare but in recent times, more and more dark elves can be seen on the surface.<br>\
 	+1 Intelligence, +2 Endurance, +2 Speed, -1 Strength, -1 Perception, Darkvision"
 

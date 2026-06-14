@@ -23,14 +23,13 @@
 	id = SPEC_ID_AASIMAR
 	native_language = "Celestial"
 	desc = "<b>Aasimar</b><br>\
-	Aasimar are born of a rare union between Humans and elemental spirits. \
-	They bear the mark of their celestial touch through many varying physical features. \
-	Their looks resemble the traditional characteristics of whichever of the Gods the spirit parent was associated with. \
-	Most commonly, Aasimar are similar to Humans, albeit taller, and possess uncanny beauty. \
-	They have strangely colored skin and are more intelligent and physically durable than the average Human, albiet slower. \
-	Because of their upbringing, they make for natural conduits for godly powers. \
-	The Goblet's populace holds them with a mixture of uneasy fear, respect, or both. \
-	It is also widely believed that an Aasimar's death is a bad omen...<br>\
+	Aasimar are born from the rare union of mortals and spirits, a comingling of mortal tenacity and ethereal power. \
+	They bear the mark of this spiritual touch through many varying physical features, as varied and diverse as there \
+	are spirits; however these traits tend towards the elemental alignment that their spirit parent is associated with. \
+	Among the common people of the Goblet, Aasimar are viewed with a mixture of uneasy fear, awed respect, or both. \
+	Because of their nature, they make for natural conduits for divine powers, and the Katholikos eagerly welcomes them \
+	into their ranks. Wise, resillient, enduring and unaging, the death of an Aasimar is considered a terrible omen, \
+	as doom is sure to follow. \
 	+2 Intelligence, +1 Constitution, +1 Endurance, -1 Speed, 10% Pain Resist, 20% Bleed Resist"
 
 	skin_tone_wording = "Craft"

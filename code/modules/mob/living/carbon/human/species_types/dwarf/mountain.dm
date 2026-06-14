@@ -18,17 +18,21 @@
 	raw_attribute_list = list(
 		STAT_STRENGTH = 1,
 		STAT_PERCEPTION = -2,
-		STAT_INTELLIGENCE = 0,
 		STAT_CONSTITUTION = 2,
 		STAT_ENDURANCE = 2,
 		STAT_SPEED = -1,
-		STAT_FORTUNE = 0
 	)
 
 /datum/species/dwarf/mountain
 	name = "Dwarf"
 	id = SPEC_ID_DWARF
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Dwarf</b><br>\
+	Dwarves are a short and stout race of humanoids, possessed of a proud history of craftsmen, \
+	architects, warriors, and sorcerous excellence. To many surfacers, Dwarves are most known \
+	for their beards and booze, but their history is so much more. From the fortresses of Tor Bachtershild \
+	to the jagged spires of the Holy Towers, the Dwarven people span at least half the world and still stand proud, \
+	despite the enemies within and without that might see them bend the knee. \
+	+1 Strength, +2 Constitution, +2 Endurance, -2 Perception, -1 Speed, Poison Resistance"
 
 	skin_tone_wording = "Ore Attunement"
 

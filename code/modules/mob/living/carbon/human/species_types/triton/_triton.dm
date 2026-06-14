@@ -7,21 +7,12 @@
 		/datum/attribute/skill/misc/swimming = 40,
 	)
 
-/datum/attribute_holder/sheet/job/species/triton/male
-	raw_attribute_list = list(
-		STAT_STRENGTH = -1,
-		STAT_PERCEPTION = -2,
-		STAT_CONSTITUTION = -2,
-		STAT_SPEED = 1,
-		STAT_INTELLIGENCE = 2
-	)
-
-/datum/attribute_holder/sheet/job/species/triton/female
+/datum/attribute_holder/sheet/job/species/triton/stats
 	raw_attribute_list = list(
 		STAT_STRENGTH = 2,
-		STAT_PERCEPTION = -4,
+		STAT_PERCEPTION = -2, //They potentially hit very hard, so penalty to accuracy. No eye/nose targetting meta please.
 		STAT_CONSTITUTION = 3,
-		STAT_SPEED = -3
+		STAT_SPEED = -3, //If you have strongbite, good swimmer, underwater breathing, +2 str and +3 con; you're a murder machine, especially in the water. You need to be SLOW.
 	)
 
 /datum/species/triton
@@ -30,7 +21,15 @@
 	native_language = "Deepspeak"
 	changesource_flags = WABBAJACK
 
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Triton</b><br>\
+	Fearsome and powerful aquatic humanoids that resemble sharks, Tritons are native \
+	to the shallow regions of the Goblet's oceans. Originally populating the region now \
+	known as Angros' Dying Sea, countless were forced to flee after the Big Burn as the \
+	Mad God's head sank into its depths, spawning monsters and boiling the sea as it cooled. \
+	In the aftermath, many can be found as refugees in any major port city in the Goblet, or \
+	in small coastal settlements dotted throughout the Sea of Fire. Many are scared off by their \
+	frightening appearance, but the Triton are not an inherently violent people. \
+	+2 Strength, +3 Constitution, -2 Perception, -3 Speed, Good Swimmer, Water Breathing, Strong Bite, Fishface"
 
 	possible_ages = NORMAL_AGES_LIST
 
@@ -39,36 +38,23 @@
 	use_skintones = TRUE
 
 	species_traits = list(NO_UNDERWEAR, HAIR, FACEHAIR, OLDGREY)
-	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_WATER_BREATHING, TRAIT_GOOD_SWIM, TRAIT_FISHFACE)
-	inherent_traits_f = list(TRAIT_STRONGBITE)
+	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_WATER_BREATHING, TRAIT_GOOD_SWIM, TRAIT_FISHFACE, TRAIT_STRONGBITE)
 	inherent_sheet = /datum/attribute_holder/sheet/job/species/triton
 
-	allowed_voicetypes_f = list(
-		VOICE_TYPE_MASC,
-	)
+	statsheet_male = /datum/attribute_holder/sheet/job/species/triton/stats
+	statsheet_female = /datum/attribute_holder/sheet/job/species/triton/stats
 
-	allowed_voicetypes_m = list(
-		VOICE_TYPE_ANDRO
-	)
+	limbs_icon_m = 'icons/roguetown/mob/bodies/f/triton.dmi'
+	limbs_icon_f = 'icons/roguetown/mob/bodies/m/triton.dmi'
 
-	statsheet_male = /datum/attribute_holder/sheet/job/species/triton/male
-	statsheet_female = /datum/attribute_holder/sheet/job/species/triton/female
-
-	limbs_icon_m = 'icons/roguetown/mob/bodies/m/triton.dmi'
-	limbs_icon_f = 'icons/roguetown/mob/bodies/f/triton.dmi'
-
-	soundpack_m = /datum/voicepack/female
-	soundpack_f = /datum/voicepack/male
-
-	swap_female_clothes = TRUE
-	swap_male_clothes = TRUE
+	soundpack_m = /datum/voicepack/male
+	soundpack_f = /datum/voicepack/female
 
 	meat = list(/obj/item/reagent_containers/food/snacks/meat/triton = 1)
 	exotic_bloodtype = /datum/blood_type/human/triton
 	enflamed_icon = "widefire"
 
-	// FEMALE from Male Humen
-	offset_features_m = list(
+	offset_features_f = list(
 		OFFSET_RING = list(0,0),\
 		OFFSET_GLOVES = list(0,0),\
 		OFFSET_WRISTS = list(0,0),\
@@ -87,8 +73,7 @@
 		OFFSET_UNDIES = list(0,0),\
 	)
 
-	// MALE from Female Humen
-	offset_features_f = list(
+	offset_features_m = list(
 		OFFSET_RING = list(0,-1),\
 		OFFSET_GLOVES = list(0,0),\
 		OFFSET_WRISTS = list(0,0),\
