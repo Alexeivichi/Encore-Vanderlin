@@ -3,18 +3,30 @@
 
 /datum/attribute_holder/sheet/job/species/formikrag
 	raw_attribute_list = list(
-		STAT_STRENGTH = -2,
-		STAT_PERCEPTION = -1,
-		STAT_INTELLIGENCE = -2,
-		STAT_ENDURANCE = 1,
-		STAT_SPEED = -2
+		STAT_STRENGTH = -4,
+		STAT_PERCEPTION = 2,
+		STAT_INTELLIGENCE = 2,
+		STAT_CONSTITUTION = -4,
+		STAT_ENDURANCE = 2,
+		STAT_SPEED = 2,
 	)
 
 /datum/species/kobold/formikrag
-	name = "Formikrag Kobold"
+	name = "Hobknoblit"
 	id = SPEC_ID_KOBOLD_FORMIKRAG
 	id_override = SPEC_ID_KOBOLD
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Hobknoblit</b><br>\
+	Hobknoblits are a twisted bastardization of the common Knoblit through the evil manipulation \
+	of the Faerie Devil, Hertannea. Her tampering was intended to create a legion of monsters to \
+	serve Her bidding in Palasi Necra. Though no matter how hard She toiled, She could never mold \
+	them to suit Her needs. Hobknoblits are a somewhat recent creation, being dark-scaled, more \
+	rancid and quick-witted Knoblits with a set of wings gifted by Her touch. Assumedly, Hertannea \
+	uses the Hobknoblits as Her eyes and ears beyond Palasi Necra, but many believe She simply wanted \
+	them to go away and made them our problems instead. Unlike normal Knoblits, Hobknoblits are seen \
+	as daemonic imps in nature, and are often killed whenever they are seen by civilized folk. \
+	+2 Perception, +2 Intelligence, +2 Endurance, +2 Speed, -4 Strength, -4 Constitution, Tiny, Darkvision"
+
+	allowed_pronouns = PRONOUNS_LIST_IT_ONLY
 
 	statsheet_male = /datum/attribute_holder/sheet/job/species/formikrag
 
@@ -42,14 +54,3 @@
 		/datum/customizer/bodypart_feature/face_detail,
 	)
 
-	hungry_hungry_kobold = FALSE
-
-/datum/species/kobold/formikrag/preference_accessible(datum/preferences/prefs)
-	. = ..()
-	if(!.)
-		return
-
-	if(!prefs?.parent)
-		return FALSE
-
-	return prefs.parent.has_triumph_buy(TRIUMPH_BUY_FORMIKRAG_KOBOLD)

@@ -26,18 +26,27 @@
 
 /datum/attribute_holder/sheet/job/species/kobold
 	raw_attribute_list = list(
-		STAT_STRENGTH = -4,
-		STAT_PERCEPTION = -2,
-		STAT_INTELLIGENCE = -2,
-		STAT_CONSTITUTION = -4,
-		STAT_ENDURANCE = 2,
-		STAT_SPEED = 2,
+		STAT_STRENGTH = -2,
+		STAT_PERCEPTION = -1,
+		STAT_ENDURANCE = 1,
+		STAT_SPEED = 1,
 	)
 
 /datum/species/kobold
-	name = "Kobold"
+	name = "Knoblit"
 	id = SPEC_ID_KOBOLD
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Knoblit</b><br>\
+	Knoblits, also known disparagingly as 'Termites', are a diminutive race of craven reptiles. \
+	Only barely tolerated in society for their remarkable and uncanny skill at mining, Knoblits \
+	are very effective at sniffing out treasure. To the consternation of many though, they \
+	also have a tendency to eat it, too. Knoblits are known to eat precious metals, gemstones, \
+	and even rock itself; able to carve tunnels with their constantly growing teeth alone - hence the \
+	moniker 'Termites'. Most Knoblits eke out lives with their clans in the wilds, though occasionally \
+	they make attempts to integrate into towns and cities. Such attempts never work, lest they keep their \
+	treasure-eating tendencies in check. They are especially frowned upon on Domotan Island, especially in \
+	the new era of treasure hunting. A Knoblit who covets the treasure of their neighbour is liable to \
+	disappear. \
+	+2 Speed, +1 Endurance, -2 Strength, -2 Constitution, Tiny, Darkvision"
 
 	skin_tone_wording = "Scale Color"
 	default_color = "FFFFFF"
@@ -46,8 +55,6 @@
 	inherent_traits = list(TRAIT_TINY, TRAIT_DARKVISION)
 
 	statsheet_male = /datum/attribute_holder/sheet/job/species/kobold
-
-	allowed_pronouns = PRONOUNS_LIST_IT_ONLY
 
 	possible_ages = NORMAL_AGES_LIST
 	use_skintones = TRUE
