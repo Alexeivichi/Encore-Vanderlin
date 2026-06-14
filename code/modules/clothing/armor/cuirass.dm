@@ -16,7 +16,7 @@
 	max_integrity = INTEGRITY_STRONG
 	item_weight = 7 KILOGRAMS
 
-//................ Grenzelhoft Cuirass ............... //
+//................ Sterkenstadten Cuirass ............... //this is literally just grenzelhoft
 /obj/item/clothing/armor/cuirass/sterkenstadten
 	name = "Sterkenstadten cuirass"
 	desc = "Simple armor, but made from Sterkenstadten black-steel, famed afar for its strength."
