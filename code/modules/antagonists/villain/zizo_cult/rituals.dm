@@ -504,7 +504,7 @@ GLOBAL_LIST_INIT(ritualslist, build_envy_rituals())
 	var/mob/living/carbon/human/target = locate() in center.contents
 	if(!target)
 		return
-	target.set_faction(FACTION_UNDEAD)
+	target.set_faction(list(FACTION_UNDEAD))
 	target.add_spell(/datum/action/cooldown/spell/gravemark)
 	target.add_spell(/datum/action/cooldown/spell/control_undead)
 	target.add_spell(/datum/action/cooldown/spell/decompose)
