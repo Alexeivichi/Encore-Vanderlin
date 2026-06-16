@@ -1061,7 +1061,7 @@
 // --------- GOLD -----------
 /datum/anvil_recipe/armor/gold
 	required_material = /obj/item/ingot/gold
-	craftdiff = 3 // harder to work with. mostly jewelry
+	craftdiff = 6
 	abstract_type = /datum/anvil_recipe/armor/gold
 ///////////////////////////////////////////////
 
@@ -1397,11 +1397,6 @@
 	name = "Angrosian Chain Gloves"
 	required_material = /obj/item/ingot/silverblessed
 	created_item = /obj/item/clothing/gloves/chain/angros
-
-/datum/anvil_recipe/armor/gold
-	abstract_type = /datum/anvil_recipe/armor/gold
-	craftdiff = SKILL_LEVEL_LEGENDARY
-	required_material = /obj/item/ingot/gold
 
 /datum/anvil_recipe/armor/gold/armet
 	name = "Golden Knight's Armet (+1 Gold, +2 Silk)"
