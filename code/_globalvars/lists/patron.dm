@@ -1,3 +1,5 @@
+GLOBAL_LIST_INIT(faith_list, init_faith_list())
+
 /proc/init_faith_list()
 	var/list/faiths = list()
 	for(var/datum/faith/faith as anything in subtypesof(/datum/faith))
@@ -8,6 +10,8 @@
 
 	return faiths
 
+GLOBAL_LIST_EMPTY(patrons_by_name)
+GLOBAL_LIST_EMPTY(patrons_by_faith)
 GLOBAL_LIST_INIT(patron_list, init_patron_lists())
 
 /proc/init_patron_lists()

@@ -2,7 +2,6 @@
 	switch(group_key)
 		if("noble") return GLOB.noble_positions
 		if("garrison") return GLOB.garrison_positions
-		if("gallowband") return GLOB.gallowband_positions
 		if("church") return GLOB.church_positions
 		if("inquisition") return GLOB.inquisition_positions
 		if("serf") return GLOB.serf_positions

@@ -461,7 +461,7 @@
 	created_item = /obj/item/clothing/armor/leather/splint
 	output_amount = 2
 
-/datum/anvil_recipe/armor/iron/brigandine/light
+/datum/anvil_recipe/armor/iron/light_brigandine
 	name = "Lightweight Brigandine (+cloth)"
 	additional_items = list(/obj/item/natural/cloth)
 	created_item = /obj/item/clothing/armor/brigandine/light
@@ -472,6 +472,7 @@
 	required_material = /obj/item/ingot/steel
 	abstract_type = /datum/anvil_recipe/armor/steel
 	craftdiff = 2
+
 ///////////////////////////////////////////////
 
 // STEEL ARMOR
@@ -1064,19 +1065,6 @@
 	created_item = /obj/item/clothing/shoes/boots/armor/silver
 	craftdiff = 4
 
-//////////////////////////////////////////////////////////////////////////////////////////////
-// --------- GOLD -----------
-/datum/anvil_recipe/armor/gold
-	required_material = /obj/item/ingot/gold
-	craftdiff = 6
-	abstract_type = /datum/anvil_recipe/armor/gold
-///////////////////////////////////////////////
-
-/datum/anvil_recipe/armor/gold/mask
-	name = "Gold Mask"
-	created_item = /obj/item/clothing/face/facemask/goldmask
-
-//////////////////////////////////////////////////////////////////////////////////////////////
 // --------- BLACKSTEEL -----------
 /datum/anvil_recipe/armor/blacksteel
 	required_material = /obj/item/ingot/blacksteel
@@ -1405,6 +1393,15 @@
 	name = "Angrosian Chain Gloves"
 	required_material = /obj/item/ingot/silverblessed
 	created_item = /obj/item/clothing/gloves/chain/angros
+
+/datum/anvil_recipe/armor/gold
+	required_material = /obj/item/ingot/gold
+	craftdiff = 5 // harder to work with. mostly jewelry
+	abstract_type = /datum/anvil_recipe/armor/gold
+
+/datum/anvil_recipe/armor/gold/mask
+	name = "Gold Mask"
+	created_item = /obj/item/clothing/face/facemask/goldmask
 
 /datum/anvil_recipe/armor/gold/armet
 	name = "Golden Knight's Armet (+1 Gold, +2 Silk)"

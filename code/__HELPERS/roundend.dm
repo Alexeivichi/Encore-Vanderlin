@@ -31,9 +31,7 @@
 
 	log_game("The round has ended.")
 
-	INVOKE_ASYNC(world, TYPE_PROC_REF(/world, flush_byond_tracy))
-
-	to_chat(world, "<BR><BR><BR><span class='reallybig'>So ends this tale on Domotan Island.</span>")
+	to_chat(world, "<BR><BR><BR><span class='reallybig'>So ends this tale of [SSmapping.config?.map_name || "Vanderlin"].</span>")
 	get_end_reason()
 
 	var/list/key_list = list()
