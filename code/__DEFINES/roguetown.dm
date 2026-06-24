@@ -9,8 +9,6 @@
 #define COLORFUL_PATRONS		list("Angros", "Visires", "Akan", "Gani", "Mjallidhorn", "Valdala", "Mordsol", "Iliope", "Erdl", "Goler Kanh", "Pomette", "Archdevils", "The One Envy", "Deceivers", "Hertannea", "The Great Hunt", "The Black Briar")
 #define TEMPLE_PATRON_NAMES		list("Visires", "Akan", "Gani", "Mjallidhorn", "Valdala", "Mordsol", "Iliope", "Erdl", "Goler Kanh", "Pomette")
 
-GLOBAL_LIST_INIT(curse_names, list())
-
 #define TEN_CURSES list(\
 	/datum/curse/visires,\
 	/datum/curse/akan,\

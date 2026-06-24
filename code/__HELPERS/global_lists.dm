@@ -94,14 +94,6 @@
 		L[path] = new path()
 	return L
 
-/proc/init_curse_names()
-	GLOB.curse_names = list()
-	for(var/datum/curse/curse_type as anything in subtypesof(/datum/curse))
-		if(IS_ABSTRACT(curse_type))
-			continue
-		GLOB.curse_names |= initial(curse_type.name)
-		GLOB.curse_names[initial(curse_type.name)] = new curse_type
-
 /// Inits atoms used in crafting recipes
 /proc/init_crafting_recipes_atoms()
 	for(var/datum/anvil_recipe/recipe as anything in GLOB.anvil_recipes)
