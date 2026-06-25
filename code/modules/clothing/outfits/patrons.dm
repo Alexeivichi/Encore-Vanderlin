@@ -332,3 +332,4 @@
 	desc = "A silver mask, forever locked in a rigor of uncontestable joy, reminiscent of a comedy mask. Designed to elicit dread in the opponents of the Inquisition."
 	icon_state = "psydonmask"
 	item_state = "psydonmask"
+	melting_material = /datum/material/silver

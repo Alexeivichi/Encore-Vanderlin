@@ -240,15 +240,15 @@
 	name = "Advisor (Hand)"
 	shirt = /obj/item/clothing/shirt/undershirt/fancy
 	backr = /obj/item/storage/backpack/satchel/black
+	armor = /obj/item/clothing/armor/gambeson/hand
+	pants = /obj/item/clothing/pants/tights/colored/black
+	shoes = /obj/item/clothing/shoes/boots
+	beltl = /obj/item/weapon/sword/rapier/caneblade/hand
 	backpack_contents = list(
 		/obj/item/weapon/knife/dagger/steel = 1,
 		/obj/item/reagent_containers/glass/bottle/poison = 1,
 		/obj/item/paper/scroll/frumentarii/roundstart = 1
 	)
-	armor = /obj/item/clothing/armor/gambeson/hand
-	pants = /obj/item/clothing/pants/tights/colored/black
-	shoes = /obj/item/clothing/shoes/boots
-	beltl = /obj/item/weapon/sword/rapier/caneblade/hand
 	scabbards = list(/obj/item/weapon/scabbard/cane/hand)
 
 /datum/attribute_holder/sheet/job/huntsmaster
@@ -343,6 +343,11 @@
 	backl = /obj/item/gun/ballistic/bow/long
 	backr = /obj/item/storage/backpack/satchel
 	wrists = /obj/item/clothing/wrists/bracers/leather
+	armor = /obj/item/clothing/armor/leather/jerkin/belted/long
+	pants = /obj/item/clothing/pants/trou/leathertights
+	shoes = /obj/item/clothing/shoes/boots/hunter
+	beltl = /obj/item/ammo_holder/quiver/arrows
+	beltr = /obj/item/weapon/sword/rapier/dec
 	backpack_contents = list(
 		/obj/item/weapon/knife/dagger/steel = 1,
 		/obj/item/reagent_containers/glass/bottle/poison = 1,
@@ -351,11 +356,6 @@
 		/obj/item/bait = 1,
 		/obj/item/flashlight/flare/torch/lantern/bronzelamptern = 1,
 	)
-	armor = /obj/item/clothing/armor/leather/jerkin/belted/long
-	pants = /obj/item/clothing/pants/trou/leathertights
-	shoes = /obj/item/clothing/shoes/boots/leather/advanced
-	beltl = /obj/item/ammo_holder/quiver/arrows
-	beltr = /obj/item/weapon/sword/rapier/dec
 	scabbards = list(/obj/item/weapon/scabbard/sword/royal)
 
 /datum/job/advclass/hand/huntsmaster/after_spawn(mob/living/carbon/human/H)
