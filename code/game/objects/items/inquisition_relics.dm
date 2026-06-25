@@ -1325,9 +1325,8 @@
 	if(do_after(user, time_taken, attacked))
 		playsound(src, 'sound/items/blackmirror_needle.ogg', 95, FALSE, 3)
 		attacked.flash_fullscreen("redflash3")
-		attacked.adjustBruteLoss(5)
-		attacked.blood_volume = max(attacked.blood_volume - 20, 0)
-		attacked.handle_blood()
+		attacked.adjustBruteLoss(40, damage_type = BCLASS_PIERCE, can_crit = FALSE)
+		attacked.adjust_bloodpool(-240)
 		feeder = WEAKREF(attacked)
 		openstate = "bloody"
 		fedblood = TRUE

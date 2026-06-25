@@ -1979,7 +1979,7 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 	var/damage_amount = damage
 	var/list/mods = list()
 	if(!can_crit)
-		mods = list(CRIT_MOD_CHANCE = -100)
+		mods = list(CRIT_MOD_CHANCE = CANT_CRIT)
 	switch(damagetype)
 		if(BRUTE)
 			H.damageoverlaytemp = 20
@@ -2033,7 +2033,7 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 					if(BP.receive_damage(0, damage_amount, flashes = flashes))
 						H.update_damage_overlays()
 				else
-					BP.bodypart_attacked_by(BCLASS_BURN, damage_amount, modifiers = list(CRIT_MOD_CHANCE = -100)) // burns can't crit
+					BP.bodypart_attacked_by(BCLASS_BURN, damage_amount, modifiers = list(CRIT_MOD_CHANCE = CANT_CRIT)) // burns can't crit
 					H.update_damage_overlays()
 			else
 				H.adjustFireLoss(damage_amount)
