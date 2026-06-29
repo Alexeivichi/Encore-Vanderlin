@@ -215,7 +215,7 @@
 	if(stat >= UNCONSCIOUS || !can_speak_vocal())
 		return
 	record_round_statistic(STATS_ARCHDEVILS_PRAISED)
-	src.say(SPAN_GOD_ARCHDEVILS(pick(LIST_PRAISE_HELL)), sanitize = FALSE, language = /datum/language/undead)
+	say(pick(LIST_PRAISE_HELL), spans = list("god_archdevils"), sanitize = FALSE, language = /datum/language/undead)
 	playsound(src, 'sound/vo/cult/praise.ogg', 45, 1)
 	log_say("[src] has praised the Archdevils! (hell cultist verb)")
 
