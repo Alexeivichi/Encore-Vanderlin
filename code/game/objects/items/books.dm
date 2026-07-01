@@ -1120,7 +1120,7 @@
 	fence = TRUE
 
 /obj/item/book/bibble
-	name = "The Motonium"
+	name = "The Book"
 	icon_state = "bibble_0"
 	base_icon_state = "bibble"
 	title = "bible"
@@ -1134,17 +1134,17 @@
 	var/current_verse_range = "Random Verse"
 	var/list/verse_ranges = list(           // Patron divied up by line in txt file
 		"Seperation" = list(1, 4),
-		"Elementalism" = list(5, 9),
-		"Visires" = list(10, 12),
-		"Gani" = list(13, 15),
-		"Valdala" = list(16, 19),
-		"Akan" = list(20, 22),
-		"Goler Kanh" = list(23, 26),
-		"Alaqshir" = list(27, 29),
-		"Pomette" = list(30, 32),
-		"Iliope" = list(33, 36),
-		"Erdl" = list(37, 39),
-		"Mjallidhorn" = list(40, 42),
+		"Heavens" = list(5, 9),
+		"Astrata" = list(10, 12),
+		"Dendor" = list(13, 15),
+		"Necra" = list(16, 19),
+		"Noc" = list(20, 22),
+		"Malum" = list(23, 26),
+		"Ravox" = list(27, 29),
+		"Eora" = list(30, 32),
+		"Xylix" = list(33, 36),
+		"Pestra" = list(37, 39),
+		"Abyssor" = list(40, 42),
 		"Random Verse" = null
 		)
 
@@ -1208,14 +1208,20 @@
 
 	to_chat(user, span_notice("You will read a section from [choice]."))
 
-/obj/item/book/bibble/attack(mob/living/M, mob/user, list/modifiers)
-	if(is_priest_job(user.mind?.assigned_role))
-		if(!user.can_read(src))
-			return
-		M.apply_status_effect(/datum/status_effect/buff/blessed)
-		user.visible_message(span_notice("[user] blesses [M]."))
-		playsound(user, 'sound/magic/bless.ogg', 100, FALSE)
-		return
+/obj/item/book/bibble/interact_with_atom(atom/interacting_with, mob/living/user, list/modifiers)
+	if(!isliving(interacting_with) || !is_priest_job(user.mind?.assigned_role))
+		return NONE
+
+	if(!user.can_read(src))
+		return ITEM_INTERACT_BLOCKING
+
+	var/mob/living/M = interacting_with
+
+	M.apply_status_effect(/datum/status_effect/buff/blessed)
+	user.visible_message(span_notice("[user] blesses [M]."), span_notice("I bless [M]."))
+	playsound(user, 'sound/magic/bless.ogg', 100, FALSE)
+
+	return ITEM_INTERACT_SUCCESS
 
 /datum/status_effect/buff/blessed
 	id = "blessed"
@@ -1254,7 +1260,7 @@
 	base_icon_state = "book5"
 	bookfile = "knowledge.json"
 
-/obj/item/book/secret/iliope
+/obj/item/book/secret/xylix
 	name = "Book of Gold"
 	desc = "{<font color='red'><blink>An ominous book with untold powers.</blink></font>}"
 	icon_state ="xylix_0"
@@ -1263,7 +1269,7 @@
 	base_icon_state = "pellbookmimic"
 	bookfile = "xylix.json"
 
-/obj/item/book/iliope/attack_self(mob/user, list/modifiers)
+/obj/item/book/xylix/attack_self(mob/user, list/modifiers)
 	user.update_inv_hands()
 	to_chat(user, "<span class='notice'>You feel laughter echo in your head.</span>")
 
@@ -1298,7 +1304,7 @@
 
 /obj/item/book/robber
 	name = "Reading for Robbers"
-	desc = "By Flavius of Gani"
+	desc = "By Flavius of Dendor"
 	icon_state ="basic_book_0"
 	base_icon_state = "basic_book"
 	bookfile = "tales4.json"
@@ -1324,23 +1330,23 @@
 	base_icon_state = "book8"
 	bookfile = "tales7.json"
 
-/obj/item/book/mjallidhorn
+/obj/item/book/abyssor
 	name = "A Tale of Those Who Live At Sea"
 	desc = "By Bellum Aegir"
 	icon_state ="book2_0"
 	base_icon_state = "book2"
 	bookfile = "tales8.json"
 
-/obj/item/book/valdala
-	name = "Burial Rites for Valdala"
-	desc = "By Hunlaf, Gravedigger. Revised by Lenore, Priest of Valdala."
+/obj/item/book/necra
+	name = "Burial Rites for Necra"
+	desc = "By Hunlaf, Gravedigger. Revised by Lenore, Priest of Necra."
 	icon_state ="book6_0"
 	base_icon_state = "book6"
 	bookfile = "tales9.json"
 
-/obj/item/book/akan
+/obj/item/book/noc
 	name = "Dreamseeker"
-	desc = "By Hunlaf, Gravedigger. Revised by Lenore, Priest of Valdala."
+	desc = "By Hunlaf, Gravedigger. Revised by Lenore, Priest of Necra."
 	icon_state ="book6_0"
 	base_icon_state = "book6"
 	bookfile = "tales10.json"
@@ -1492,20 +1498,24 @@
 	for(var/obj/item/paper/page as anything in pages)
 		compiled_pages += "<p>[page.info]</p>\n"
 
-/obj/item/manuscript/attackby(obj/item/I, mob/living/user, list/modifiers)
+/obj/item/manuscript/item_interaction(mob/living/user, obj/item/tool, list/modifiers)
+	if(user.cmode)
+		return NONE
+
 	// why is a book crafting kit using the craft system, but crafting a book isn't?
 	// Well, *for some reason*, the crafting system is made in such a way
 	// as to make reworking it to allow you to put reqs vars in the crafted item near *impossible.*
-	if(istype(I, /obj/item/book_crafting_kit))
-		var/obj/item/book/playerbook/PB = new /obj/item/book/playerbook(get_turf(I.loc), TRUE, user, compiled_pages)
-		qdel(I)
+	if(istype(tool, /obj/item/book_crafting_kit))
+		var/obj/item/book/playerbook/PB = new /obj/item/book/playerbook(get_turf(tool), TRUE, user, compiled_pages)
+		qdel(tool)
 		if(user.Adjacent(PB))
 			PB.add_fingerprint(user)
 			user.put_in_hands(PB)
-		return qdel(src)
+		qdel(src)
+		return ITEM_INTERACT_SUCCESS
 
-	if((I.type == /obj/item/paper) || (I.type == /obj/item/paper/scroll))
-		var/obj/item/paper/inserted_paper = I
+	if((tool.type == /obj/item/paper) || (tool.type == /obj/item/paper/scroll))
+		var/obj/item/paper/inserted_paper = tool
 		if(length(pages) == 8)
 			to_chat(user, span_warning("I can not find a place to put [inserted_paper] into [src]..."))
 			return
@@ -1515,8 +1525,41 @@
 		to_chat(user, span_notice("I put [inserted_paper] into [src]."))
 		update_pages()
 		updateUsrDialog()
+		return ITEM_INTERACT_SUCCESS
 
-	return ..()
+/obj/item/manuscript/item_interaction_secondary(mob/living/user, obj/item/tool, list/modifiers)
+	if(user.cmode)
+		return NONE
+
+	if(!istype(tool, /obj/item/natural/feather))
+		return NONE
+
+	if(written)
+		to_chat(user, "<span class='notice'>The manuscript has already been authored and titled.</span>")
+		return ITEM_INTERACT_BLOCKING
+
+	// Prompt user to populate manuscript fields
+	var/newtitle = dd_limittext(SANITIZE_HEAR_MESSAGE(input(user, "Enter the title of the manuscript:") as text|null), MAX_CHARTER_LEN)
+	var/newauthor = dd_limittext(SANITIZE_HEAR_MESSAGE(input(user, "Enter the author's name:") as text|null), MAX_CHARTER_LEN)
+	var/newcategory = input(user, "Select the category of the manuscript:") in list("Apocrypha & Grimoires", "Myths & Tales", "Legends & Accounts", "Thesis", "Eoratica")
+	var/newicon = book_icons[input(user, "Choose a book style", "Book Style") as anything in book_icons]
+
+	if(newtitle && newauthor && newcategory)
+		name = newtitle
+		author = newauthor
+		category = newcategory
+		ckey = user.ckey
+		select_icon = newicon
+		icon_state = "paperwrite"
+		to_chat(user, "<span class='notice'>You have successfully authored and titled the manuscript.</span>")
+		var/complete = tgui_alert(user, "Is the manuscript finished?", "WORDS OF NOC", DEFAULT_INPUT_CHOICES)
+		SEND_SIGNAL(user, COMSIG_BOOK_WRITTEN)
+		if(complete == CHOICE_YES && compiled_pages)
+			written = TRUE
+	else
+		to_chat(user, "<span class='notice'>You must fill out all fields to complete the manuscript.</span>")
+
+	return ITEM_INTERACT_SUCCESS
 
 /obj/item/manuscript/examine(mob/user)
 	. = ..()
@@ -1577,39 +1620,6 @@
 	dat += "<a href='byond://?src=[REF(src)];close=1' style='position:absolute;right:50px'>Close</a>"
 	user << browse(dat, "window=reading;size=1000x700;can_close=1;can_minimize=0;can_maximize=0;can_resize=0;")
 	onclose(user, "reading", src)
-
-
-/obj/item/manuscript/attackby_secondary(obj/item/I, mob/user, list/modifiers)
-	. = ..()
-	if(. == SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN)
-		return
-
-	if(istype(I, /obj/item/natural/feather))
-		if(written)
-			to_chat(user, "<span class='notice'>The manuscript has already been authored and titled.</span>")
-			return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
-		// Prompt user to populate manuscript fields
-		var/newtitle = dd_limittext(SANITIZE_HEAR_MESSAGE(input(user, "Enter the title of the manuscript:") as text|null), MAX_CHARTER_LEN)
-		var/newauthor = dd_limittext(SANITIZE_HEAR_MESSAGE(input(user, "Enter the author's name:") as text|null), MAX_CHARTER_LEN)
-		var/newcategory = input(user, "Select the category of the manuscript:") in list("Apocrypha & Grimoires", "Myths & Tales", "Legends & Accounts", "Thesis", "Heretical")
-		var/newicon = book_icons[input(user, "Choose a book style", "Book Style") as anything in book_icons]
-
-		if(newtitle && newauthor && newcategory)
-			name = newtitle
-			author = newauthor
-			category = newcategory
-			ckey = user.ckey
-			select_icon = newicon
-			icon_state = "paperwrite"
-			to_chat(user, "<span class='notice'>You have successfully authored and titled the manuscript.</span>")
-			var/complete = tgui_alert(user, "Is the manuscript finished?", "WORDS OF AKAN", DEFAULT_INPUT_CHOICES)
-			SEND_SIGNAL(user, COMSIG_BOOK_WRITTEN)
-			if(complete == CHOICE_YES && compiled_pages)
-				written = TRUE
-		else
-			to_chat(user, "<span class='notice'>You must fill out all fields to complete the manuscript.</span>")
-
-		return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
 
 /obj/item/manuscript/update_icon_state()
 	. = ..()
@@ -1683,8 +1693,8 @@ ____________End of Example*/
 	base_icon_state = "knowledge"
 	bookfile = "MagicalTheory.json"
 
-/obj/item/book/vowvaldalapage
-	name = "Valdala's Vow of Silence"
+/obj/item/book/vownecrapage
+	name = "Necra's Vow of Silence"
 	desc = "A faded page, with seemingly no author."
 	icon_state = "book8_0"
 	base_icon_state = "book8"
@@ -1736,22 +1746,28 @@ ____________End of Example*/
 	bookfile = "Neu_cooking.json"
 
 /obj/item/book/bibble/psy
-	name = "Angrosian Motonium"
+	name = "The PSY Book"
 	icon_state = "bibble_0" // change when sprites avaliable
 	base_icon_state = "bibble"
-	title = "angrosian bible"
+	title = "psydon bible"
 	dat = "gott.json"
 	verses_file = "strings/psybibble.txt"
 	can_select_verse_ranges = FALSE
 
-/obj/item/book/bibble/psy/attack(mob/living/M, mob/living/user, list/modifiers)
-	if(istype(user) && istype(user.patron, /datum/patron/angros))
-		if(!user.can_read(src))
-			return
-		M.apply_status_effect(/datum/status_effect/buff/blessed)
-		user.visible_message(span_notice("[user] blesses [M]."))
-		playsound(user, 'sound/magic/bless.ogg', 100, FALSE)
-		return
+/obj/item/book/bibble/psy/interact_with_atom(atom/interacting_with, mob/living/user, list/modifiers)
+	if(!isliving(interacting_with) || !istype(user.patron, /datum/patron/psydon))
+		return NONE
+
+	if(!user.can_read(src))
+		return ITEM_INTERACT_BLOCKING
+
+	var/mob/living/M = interacting_with
+
+	M.apply_status_effect(/datum/status_effect/buff/blessed)
+	user.visible_message(span_notice("[user] blesses [M]."), span_notice("I bless [M]."))
+	playsound(user, 'sound/magic/bless.ogg', 100, FALSE)
+
+	return ITEM_INTERACT_SUCCESS
 
 /datum/status_effect/buff/blessed
 	id = "blessed"

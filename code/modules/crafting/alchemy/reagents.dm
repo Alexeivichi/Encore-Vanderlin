@@ -455,7 +455,7 @@ If you want to expand on poisons theres tons of fun effects TG chemistry has tha
 					archdevils_lover.real_name = dna_cache.real_name
 					archdevils_lover.bloody_hands++
 					archdevils_lover.update_inv_gloves()
-					playsound(get_turf(archdevils_lover), pick('sound/combat/gib (1).ogg','sound/combat/gib (2).ogg'), 100, FALSE, 3)
+					playsound(archdevils_lover, pick('sound/combat/gib (1).ogg','sound/combat/gib (2).ogg'), 100, FALSE, 3)
 					archdevils_lover.spawn_gibs(TRUE)
 					archdevils_lover.emote("agony")
 					archdevils_lover.visible_message(span_danger("[archdevils_lover]'s skin writhes unnaturaly, mutating into daemonkin!"), span_userdanger("MY SKIN BURNS!! THE HELLS' CORRUPTION HAS CLAIMED ME!!"))
