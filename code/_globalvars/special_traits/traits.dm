@@ -278,7 +278,7 @@
 	clamped_adjustment = list(
 		/datum/attribute/skill/misc/stealing = list(50, 50),
 		/datum/attribute/skill/misc/sneaking = list(40, 40),
-		/datum/attribute/skill/misc/climbing = list(30, 30),
+		/datum/attribute/skill/misc/climbing = list(50, 50),
 	)
 
 /datum/special_trait/thief
@@ -1058,3 +1058,63 @@
 /datum/special_trait/sage_phobia/on_apply(mob/living/carbon/human/character, silent)
 	ADD_TRAIT(character, TRAIT_SAGE_PHOBIA, "[type]")
 	character.gain_trauma(/datum/brain_trauma/mild/phobia/sages)
+
+/datum/special_trait/nrftw
+	name = "No Rest for the Wicked"
+	greet_text = span_notice("Healing miracles scorch me, and there is no place for me in the Forever War or any afterlife for that matter.")
+	weight = 15
+
+/datum/special_trait/nrftw/on_apply(mob/living/carbon/human/character, silent)
+	ADD_TRAIT(character, TRAIT_VISIRES_CURSE, BE_SPECIAL_TRAIT)
+	ADD_TRAIT(character, TRAIT_VALDALA_CURSE, BE_SPECIAL_TRAIT)
+
+/datum/special_trait/magickisntreal
+	name = "Magick isn't real idiot"
+	greet_text = span_notice("After studying a strange tome with a black clover on the cover, I've come to realize magick isn't real!")
+	weight = 30
+
+/datum/special_trait/magickisntreal/on_apply(mob/living/carbon/human/character, silent)
+	ADD_TRAIT(character, TRAIT_AKAN_CURSE, BE_SPECIAL_TRAIT)
+	ADD_TRAIT(character, TRAIT_ANTIMAGIC, BE_SPECIAL_TRAIT)
+
+/datum/special_trait/swordstoplowshares
+	name = "Blood on my hands"
+	greet_text = span_notice("After much violence in my home and abroad, the very thought of violence disgusts me.")
+	weight = 30
+
+/datum/special_trait/swordstoplowshares/on_apply(mob/living/carbon/human/character, silent)
+	ADD_TRAIT(character, TRAIT_MORDSOL_CURSE, BE_SPECIAL_TRAIT)
+
+/datum/special_trait/misfortuneire
+	name = "Misfortune's Ire"
+	greet_text = span_notice("Something I have done has angered Iliope, and it has cursed me.")
+	weight = 30
+
+/datum/special_trait/misfortuneire/on_apply(mob/living/carbon/human/character, silent)
+	ADD_TRAIT(character, TRAIT_ILIOPE_CURSE, BE_SPECIAL_TRAIT)
+
+/datum/special_trait/hatesaffection
+	name = "Philophobia"
+	greet_text = span_notice("I have an intense fear of affection and emotional connection.")
+	weight = 30
+
+/datum/special_trait/hatesaffection/on_apply(mob/living/carbon/human/character, silent)
+	ADD_TRAIT(character, TRAIT_POMETTE_CURSE, BE_SPECIAL_TRAIT)
+
+/datum/special_trait/kingsbane
+	name = "King's Bane"
+	greet_text = span_notice("A strange toxin was used on me, and the very memory of coins sends chills down my spine.")
+	weight = 30
+
+/datum/special_trait/kingsbane/on_apply(mob/living/carbon/human/character, silent)
+	ADD_TRAIT(character, TRAIT_DECEIVERS_CURSE, BE_SPECIAL_TRAIT)
+
+/datum/special_trait/godocrime
+	name = "Go, Do A Crime"
+	greet_text = span_notice("Iliope thought it was funny to give a beggar the ability to summon a gun.")
+	req_text = "Be a beggar"
+	allowed_jobs = list(/datum/job/vagrant)
+	weight = 5 // SLIGHTLY rarer than Bum
+
+/datum/special_trait/godocrime/on_apply(mob/living/carbon/human/character, silent)
+	character.add_spell(/datum/action/cooldown/spell/undirected/conjure_item/puffer, silent = TRUE)
