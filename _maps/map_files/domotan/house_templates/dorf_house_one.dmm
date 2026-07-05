@@ -1,0 +1,552 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"at" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/twig,
+/area/under/town/basement)
+"aS" = (
+/obj/structure/closet/crate/crafted_closet,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
+/obj/item/coin/copper/pile,
+/obj/item/candle/yellow,
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/obj/item/key/houses/dorfhouse1,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"aU" = (
+/obj/structure/door/weak/bolt{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"br" = (
+/obj/structure/fake_machine/scomm/r,
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/floor/twig,
+/area/under/town/basement)
+"dA" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"fY" = (
+/turf/open/floor/dirt/road,
+/area/outdoors/woods/etgard)
+"gO" = (
+/obj/structure/table/wood/plain_alt,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"hz" = (
+/turf/open/floor/grass/cold,
+/area/outdoors/woods/etgard)
+"hF" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/chest/crate,
+/turf/open/floor/twig,
+/area/under/town/basement)
+"iH" = (
+/turf/open/floor/dirt,
+/area/outdoors/woods/etgard)
+"iM" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"jz" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"kb" = (
+/obj/structure/door{
+	lockid = "house1";
+	name = "House I"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"ku" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/under/town/basement)
+"mG" = (
+/turf/closed/mineral,
+/area/under/cave)
+"nT" = (
+/obj/structure/chair/stool,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"qu" = (
+/obj/structure/fluff/railing/tall,
+/turf/open/floor/dirt,
+/area/outdoors/woods/etgard)
+"rf" = (
+/obj/machinery/light/fueled/torchholder{
+	dir = 4
+	},
+/obj/structure/chair/wood/alt{
+	dir = 4
+	},
+/turf/open/floor/twig,
+/area/under/town/basement)
+"rq" = (
+/obj/effect/decal/cleanable/dirt/cobweb,
+/turf/open/floor/dirt,
+/area/under/town/basement)
+"rE" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"rH" = (
+/obj/structure/toilet,
+/turf/open/floor/dirt,
+/area/under/town/basement)
+"sh" = (
+/obj/structure/door/iron/bars,
+/turf/open/floor/grass/cold,
+/area/outdoors/woods/etgard)
+"sE" = (
+/obj/structure/table/wood/plain_alt,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"tj" = (
+/obj/structure/fluff/railing/tall,
+/turf/open/floor/grass/cold,
+/area/outdoors/woods/etgard)
+"wB" = (
+/obj/effect/decal/carpet,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"zw" = (
+/obj/structure/closet/crate/chest/crate,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"Ao" = (
+/turf/closed/wall/mineral/stone/moss/blue,
+/area/under/town/basement)
+"BS" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/cobweb,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"DK" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir{
+	dir = 8
+	},
+/turf/open/floor/twig,
+/area/under/town/basement)
+"Ez" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"EH" = (
+/obj/structure/chair/wood/alt{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"Ff" = (
+/turf/open/floor/twig,
+/area/under/town/basement)
+"FP" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/under/cave)
+"Gq" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/stairs,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"Hr" = (
+/turf/closed/mineral,
+/area/under/town/basement)
+"JP" = (
+/obj/structure/door{
+	lockid = "dorfhouse1";
+	name = "Rockhome I"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/twig,
+/area/under/town/basement)
+"KJ" = (
+/obj/structure/sign/property_sign/claim,
+/turf/closed/wall/mineral/stone/moss,
+/area/under/town/basement)
+"MM" = (
+/turf/open/floor/snow,
+/area/outdoors/woods/etgard)
+"MN" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/wood/plain_alt,
+/obj/item/reagent_containers/glass/carafe/silver,
+/obj/item/cooking/pan,
+/obj/item/storage/sack,
+/turf/open/floor/twig,
+/area/under/town/basement)
+"MY" = (
+/turf/open/water/clean,
+/area/under/town/basement)
+"Pf" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/floor/twig,
+/area/outdoors/woods/etgard)
+"PF" = (
+/obj/structure/bed/mediocre,
+/obj/item/bedsheet/cloth,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"PI" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/twig,
+/area/under/town/basement)
+"PO" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/water/clean,
+/area/under/town/basement)
+"PU" = (
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/turf/open/water/clean,
+/area/under/town/basement)
+"Ru" = (
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"RU" = (
+/obj/structure/chair/wood/alt,
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"SG" = (
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"Ty" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir{
+	dir = 1
+	},
+/turf/open/floor/twig,
+/area/under/town/basement)
+"TN" = (
+/obj/structure/chair/wood/alt,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"Uv" = (
+/obj/structure/door/weak/bolt{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"Vs" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"VC" = (
+/obj/machinery/light/fueled/hearth,
+/obj/item/reagent_containers/glass/bucket/pot{
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/turf/open/floor/twig,
+/area/under/town/basement)
+"Wj" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"WM" = (
+/turf/closed/wall/mineral/wood,
+/area/under/town/basement)
+"WX" = (
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/snow,
+/area/outdoors/woods/etgard)
+"XJ" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/darker,
+/area/outdoors/woods/etgard)
+"XP" = (
+/obj/structure/bars,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"Yk" = (
+/obj/structure/curtain/bounty,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"Zt" = (
+/obj/structure/closet/crate/crafted_closet,
+/obj/item/broom,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/twig,
+/area/under/town/basement)
+
+(1,1,1) = {"
+ku
+ku
+rE
+ku
+ku
+WM
+WM
+WM
+Ao
+Hr
+Hr
+Hr
+Hr
+Hr
+MM
+"}
+(2,1,1) = {"
+ku
+rq
+zw
+Hr
+Ao
+MY
+MY
+MY
+Ao
+MY
+MY
+MY
+Hr
+Hr
+MM
+"}
+(3,1,1) = {"
+WM
+Vs
+SG
+rH
+Ao
+MY
+MY
+MY
+MY
+MY
+MY
+Hr
+Hr
+Hr
+MM
+"}
+(4,1,1) = {"
+WM
+SG
+Hr
+Hr
+ku
+XP
+XP
+XP
+ku
+WM
+WM
+WM
+Ao
+Hr
+mG
+"}
+(5,1,1) = {"
+WM
+Vs
+WM
+MY
+PO
+BS
+nT
+Wj
+hF
+Ff
+MN
+rf
+Ao
+ku
+mG
+"}
+(6,1,1) = {"
+WM
+SG
+WM
+MY
+PO
+EH
+Ru
+Ru
+at
+Ff
+PI
+PI
+ku
+ku
+KJ
+"}
+(7,1,1) = {"
+ku
+Uv
+WM
+MY
+PO
+gO
+Ez
+Ez
+br
+Ff
+PI
+PI
+JP
+Pf
+fY
+"}
+(8,1,1) = {"
+ku
+Yk
+Ao
+Ao
+ku
+RU
+Ru
+Ru
+ku
+Ff
+Ff
+Ff
+ku
+ku
+fY
+"}
+(9,1,1) = {"
+WM
+SG
+dA
+Vs
+aU
+Ez
+Ru
+Ru
+WM
+VC
+Zt
+PI
+Ty
+MM
+MM
+"}
+(10,1,1) = {"
+WM
+TN
+SG
+SG
+WM
+jz
+jz
+Ez
+WM
+DK
+DK
+Ao
+ku
+WX
+MM
+"}
+(11,1,1) = {"
+WM
+PF
+SG
+Vs
+WM
+PU
+MY
+Gq
+kb
+XJ
+hz
+mG
+mG
+mG
+hz
+"}
+(12,1,1) = {"
+WM
+sE
+wB
+SG
+WM
+MY
+MY
+MY
+Ao
+hz
+hz
+iH
+qu
+iH
+iH
+"}
+(13,1,1) = {"
+WM
+aS
+TN
+iM
+ku
+WM
+WM
+WM
+ku
+iH
+hz
+hz
+sh
+hz
+hz
+"}
+(14,1,1) = {"
+ku
+ku
+ku
+ku
+ku
+Hr
+Hr
+ku
+Hr
+iH
+iH
+hz
+tj
+hz
+hz
+"}
+(15,1,1) = {"
+mG
+mG
+mG
+mG
+mG
+mG
+mG
+mG
+mG
+mG
+FP
+FP
+FP
+hz
+hz
+"}

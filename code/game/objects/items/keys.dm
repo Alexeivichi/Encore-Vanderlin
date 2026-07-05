@@ -433,6 +433,14 @@
 	name = "V waterfront street key"
 	lockids = list("waterfront5")
 
+/obj/item/key/houses/dorfhouse1
+	name = "rockhouse I key"
+	lockids = list("dorfhouse1")
+
+/obj/item/key/houses/dorfhouse2
+	name = "rockhouse II key"
+	lockids = list("dorfhouse2")
+
 // APARTMENTS AND PENTHOUSES
 
 /obj/item/key/apartments

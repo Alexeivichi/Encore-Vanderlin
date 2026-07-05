@@ -1061,3 +1061,18 @@ Traitors and the like can also be revived with the previous role mostly intact.
 	message_admins(span_adminnotice("Messenger Bird Letter: [key_name_admin(usr)] -> [key_name_admin(M)] : [msg]"))
 	log_game("LETTER RECEIVED: [key_name(usr)] -> [key_name(M)]: \n[msg]")
 	SSblackbox.record_feedback("tally", "admin_verb_send_messenger_bird", 1, "Messenger Bird Letter") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
+
+/client/proc/spawn_mob()
+	set name = "Spawn/Inhabit Mob"
+	set category = "Debug"
+	set desc = "Spawn and inhabit a human mob."
+
+	if(!check_rights(R_ADMIN))
+		return
+
+	if(isnewplayer(src.mob))
+		to_chat(src, "<span class='warning'>Thou shalt not spawn a debug mob in the lobby area!</span>")
+		return
+	else
+		var/mob/living/carbon/human/species/human/northern/NM = new(get_turf(src.mob))
+		NM.key = src.key

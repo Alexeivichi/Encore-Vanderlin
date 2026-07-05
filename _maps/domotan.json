@@ -17,7 +17,8 @@
 		"map_files/domotan/domotan_north",
 		"map_files/domotan/domotan_south",
 		"map_files/domotan/domotan_east",
-		"map_files/domotan/domotan_west"
+		"map_files/domotan/domotan_west",
+		"map_files/domotan/necropolis_l1_dermus"
 	],
 	"minetype": null,
 	"space_empty_levels": 0,

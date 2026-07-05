@@ -63,6 +63,9 @@
 #define ACCESS_HOUSE_IV "house4"
 #define ACCESS_HOUSE_V "house5"
 
+#define ACCESS_DORFHOUSE_I "dorfhouse1"
+#define ACCESS_DORFHOUSE_II "dorfhouse2"
+
 // Waterfront
 #define ACCESS_WATER_I "waterfront1"
 #define ACCESS_WATER_II "waterfront2"

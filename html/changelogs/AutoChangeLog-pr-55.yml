@@ -1,0 +1,4 @@
+author: "MisterLayne"
+delete-after: True
+changes:
+  - rscadd: "Adds a verb to quickly spawn and inhabit a mob."

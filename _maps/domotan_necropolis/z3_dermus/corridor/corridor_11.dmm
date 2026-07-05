@@ -1,0 +1,317 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+"c" = (
+/turf/open/floor/dirt,
+/area/under/necropolis)
+"d" = (
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+"f" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+"i" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/closed/mineral,
+/area/under/necropolis)
+"j" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/dirt,
+/area/under/necropolis)
+"n" = (
+/obj/effect/decal/remains/human,
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+"o" = (
+/obj/structure/spider/stickyweb/mirespider,
+/turf/open/floor/dirt,
+/area/under/necropolis)
+"p" = (
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"q" = (
+/obj/item/natural/rock/random,
+/turf/open/floor/dirt,
+/area/under/necropolis)
+"r" = (
+/obj/item/natural/stone,
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+"s" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"t" = (
+/turf/closed/mineral,
+/area/under/necropolis)
+"v" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/obj/structure/spider/stickyweb/solo,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"w" = (
+/obj/item/weapon/pick/stone,
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+"x" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/obj/effect/decal/cleanable/dirt/cobweb,
+/turf/open/floor/dirt,
+/area/under/necropolis)
+"y" = (
+/obj/item/natural/stone,
+/turf/open/floor/dirt,
+/area/under/necropolis)
+"z" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/decal/remains/human,
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+"A" = (
+/obj/item/natural/stone,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"B" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"E" = (
+/obj/item/natural/stone,
+/turf/open/floor/church/purple,
+/area/under/necropolis)
+"F" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/structure/spider/stickyweb/solo,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"G" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"H" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/under/necropolis)
+"I" = (
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+"J" = (
+/obj/item/natural/rock/random,
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"K" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/obj/structure/spider/stickyweb/mirespider,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"L" = (
+/obj/item/natural/rock/random,
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+"M" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+"P" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+"U" = (
+/obj/item/natural/rock/random,
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/decal/cleanable/dirt/cobweb,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"V" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/under/necropolis)
+"X" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+"Y" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/purple,
+/area/under/necropolis)
+"Z" = (
+/obj/item/natural/stone,
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+
+(1,1,1) = {"
+t
+t
+F
+Y
+H
+H
+G
+A
+t
+t
+t
+t
+"}
+(2,1,1) = {"
+H
+t
+t
+a
+t
+t
+t
+a
+a
+H
+H
+t
+"}
+(3,1,1) = {"
+H
+t
+x
+o
+c
+P
+X
+d
+q
+c
+H
+t
+"}
+(4,1,1) = {"
+Y
+t
+y
+c
+L
+X
+d
+d
+n
+c
+t
+t
+"}
+(5,1,1) = {"
+p
+w
+r
+d
+X
+X
+d
+f
+Z
+L
+a
+K
+"}
+(6,1,1) = {"
+i
+a
+d
+d
+d
+d
+d
+d
+d
+d
+t
+J
+"}
+(7,1,1) = {"
+i
+t
+d
+d
+d
+d
+d
+d
+d
+P
+a
+E
+"}
+(8,1,1) = {"
+v
+t
+c
+z
+d
+d
+d
+d
+d
+M
+t
+H
+"}
+(9,1,1) = {"
+H
+t
+c
+L
+d
+d
+X
+d
+L
+I
+H
+H
+"}
+(10,1,1) = {"
+H
+t
+o
+t
+t
+t
+P
+d
+d
+V
+H
+t
+"}
+(11,1,1) = {"
+t
+t
+t
+t
+Z
+a
+d
+t
+y
+j
+t
+t
+"}
+(12,1,1) = {"
+H
+H
+H
+U
+s
+t
+t
+t
+B
+B
+t
+t
+"}

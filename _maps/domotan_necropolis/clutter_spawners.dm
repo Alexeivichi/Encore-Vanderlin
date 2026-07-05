@@ -53,7 +53,7 @@
 	name = "Necropolis Rock Wall Randomizer"
 	icon_state = "lesserheal"
 	icon = 'icons/mob/actions/roguespells.dmi'
-	probby = 5
+	probby = 15
 	color = "#8a6515"
 	spawned = NECROPOLIS_TILESPAWNER_ROCKWALL
 

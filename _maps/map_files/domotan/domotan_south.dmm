@@ -2379,6 +2379,10 @@
 /obj/item/bedsheet/fabric,
 /turf/open/floor/carpet/royalblack,
 /area/indoors/villagegarrison)
+"DD" = (
+/obj/structure/fluff/psycross/hugecrystal/dead,
+/turf/open/floor/churchmarble/violet,
+/area/indoors/shelter/woods)
 "DM" = (
 /obj/structure/flora/grass/water/reeds,
 /obj/structure/flora/grass/water,
@@ -47180,7 +47184,7 @@ sY
 sY
 UU
 hU
-sv
+DD
 gw
 YJ
 UU

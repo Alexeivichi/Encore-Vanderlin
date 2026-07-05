@@ -3,9 +3,7 @@
     "map_path": "map_files/domotan",
     "map_file": "domotan_east.dmm",
 	"traits": [
-		{"Up": true, "Turf Weather Effects": false, "Cellar": true},
-		{"Up": true, "Down": true, "Turf Weather Effects": false, "Leylines": true, "Cellar": true},
-		{"Up": true, "Down": true, "Turf Weather Effects": false, "Leylines": true, "Cellar": true},
+		{"Up": true, "Turf Weather Effects": true, "Leylines": true},
 		{"Up": true, "Down": true, "Turf Weather Effects": true, "Leylines": true},
 		{"Up": false, "Down": true, "Turf Weather Effects": true, "Leylines": true}
 	]

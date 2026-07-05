@@ -67,3 +67,15 @@
 	mappath = "_maps/map_files/domotan/house_templates/doma_noble_manor_yellow.dmm"
 	width = 10
 	height = 10
+
+/datum/map_template/dorf_house_one
+	name = "County of Etgard Rockhome One"
+	mappath = "_maps/map_files/domotan/house_templates/dorf_house_one.dmm"
+	width = 15
+	height = 15
+
+/datum/map_template/dorf_house_two
+	name = "County of Etgard Rockhome Two"
+	mappath = "_maps/map_files/domotan/house_templates/dorf_house_two.dmm"
+	width = 15
+	height = 15

@@ -42,3 +42,8 @@
 	background_track_night = 'sound/music/area/sleeping.ogg'
 	soundenv = 15
 
+/area/outdoors/mountains/decap/miracle_caldera
+	first_time_text = "MOUNT MIRACLE CALDERA"
+	droning_index = DRONING_MOUNT_DAY
+	droning_index_night = DRONING_MOUNT_NIGHT
+	ambient_index = AMBIENCE_GENERIC

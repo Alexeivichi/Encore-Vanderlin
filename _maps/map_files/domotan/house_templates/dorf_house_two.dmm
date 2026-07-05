@@ -1,0 +1,522 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bD" = (
+/obj/structure/door{
+	lockid = "dorfhouse1";
+	name = "Rockhome II"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/twig,
+/area/under/town/basement)
+"cB" = (
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"cK" = (
+/turf/open/water/clean,
+/area/under/town/basement)
+"dQ" = (
+/obj/structure/fluff/railing/wood,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/dirt,
+/area/under/town/basement)
+"eg" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir{
+	dir = 1
+	},
+/turf/open/floor/twig,
+/area/under/town/basement)
+"ej" = (
+/obj/structure/closet/crate/chest/crate,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"ep" = (
+/obj/structure/door/weak/bolt{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood,
+/area/under/town/basement)
+"fD" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"gT" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"gY" = (
+/obj/machinery/light/fueled/hearth,
+/obj/item/reagent_containers/glass/bucket/pot{
+	pixel_y = 4
+	},
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/turf/open/floor/twig,
+/area/under/town/basement)
+"ig" = (
+/obj/structure/curtain/bounty/dir{
+	dir = 1
+	},
+/turf/open/floor/naturalstone,
+/area/under/town/basement)
+"iG" = (
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/ruinedwood,
+/area/under/town/basement)
+"iP" = (
+/obj/structure/closet/crate/drawer,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"kB" = (
+/obj/effect/mapping_helpers/access/locker,
+/obj/structure/door{
+	lockid = "dorfhouse1";
+	name = "Rockhome II"
+	},
+/turf/open/floor/twig,
+/area/under/town/basement)
+"kQ" = (
+/obj/structure/door/weak/bolt,
+/turf/open/floor/naturalstone,
+/area/under/town/basement)
+"le" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"lm" = (
+/turf/open/floor/ruinedwood,
+/area/under/town/basement)
+"lX" = (
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"nm" = (
+/turf/open/floor/dirt/road,
+/area/outdoors/woods/etgard)
+"ns" = (
+/turf/open/floor/snow,
+/area/outdoors/woods/etgard)
+"nx" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood,
+/area/under/town/basement)
+"pO" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/naturalstone,
+/area/under/town/basement)
+"rZ" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir{
+	dir = 8
+	},
+/turf/open/floor/twig,
+/area/under/town/basement)
+"tT" = (
+/turf/closed/mineral,
+/area/under/town/basement)
+"vp" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/dirt,
+/area/under/town/basement)
+"vy" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"yO" = (
+/turf/closed/mineral,
+/area/under/cave)
+"Ak" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir,
+/turf/open/floor/twig,
+/area/under/town/basement)
+"AL" = (
+/obj/structure/closet/crate/chest/wicker,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"AS" = (
+/obj/structure/table/wood/plain_alt,
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"CG" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/naturalstone,
+/area/under/town/basement)
+"EA" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"EP" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/fake_machine/scomm/r,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"Gt" = (
+/obj/effect/decal/carpet,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"GV" = (
+/obj/structure/bed/mediocre,
+/obj/item/bedsheet/cloth,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"Hz" = (
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/dirt/road,
+/area/outdoors/woods/etgard)
+"HA" = (
+/turf/open/floor/dirt,
+/area/under/town/basement)
+"HL" = (
+/obj/structure/closet/crate/crafted_closet,
+/obj/item/broom,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/twig,
+/area/under/town/basement)
+"II" = (
+/obj/structure/chair/wood/alt{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"Kn" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"My" = (
+/obj/structure/closet/crate/crafted_closet,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
+/obj/item/coin/copper/pile,
+/obj/item/candle/yellow,
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/obj/structure/fake_machine/scomm/r,
+/obj/item/key/houses/dorfhouse2,
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"OP" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"Qb" = (
+/obj/structure/chair/wood/alt/chair3,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"Ql" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair/wood/alt{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/under/town/basement)
+"SN" = (
+/obj/structure/closet/crate/chest/old_crate,
+/turf/open/floor/ruinedwood,
+/area/under/town/basement)
+"SR" = (
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/naturalstone,
+/area/under/town/basement)
+"UH" = (
+/turf/open/floor/naturalstone,
+/area/outdoors/woods/etgard)
+"UN" = (
+/turf/open/floor/naturalstone,
+/area/under/town/basement)
+"Vv" = (
+/obj/structure/table/wood/plain_alt,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"XP" = (
+/obj/structure/closet/crate/chest/crate,
+/turf/open/floor/naturalstone,
+/area/under/town/basement)
+"XR" = (
+/obj/structure/door/weak/bolt{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"Yg" = (
+/obj/structure/sign/property_sign/claim,
+/turf/closed/wall/mineral/stone/moss,
+/area/under/town/basement)
+"Yh" = (
+/obj/structure/toilet,
+/turf/open/floor/dirt,
+/area/under/town/basement)
+"Yv" = (
+/obj/effect/decal/cleanable/dirt/cobweb,
+/obj/structure/table/wood{
+	dir = 1;
+	icon_state = "longtable"
+	},
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement)
+"YP" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/under/town/basement)
+
+(1,1,1) = {"
+tT
+tT
+tT
+tT
+tT
+tT
+cK
+cK
+cK
+tT
+tT
+tT
+tT
+tT
+ns
+"}
+(2,1,1) = {"
+tT
+YP
+YP
+YP
+YP
+YP
+cK
+tT
+tT
+tT
+YP
+YP
+YP
+YP
+yO
+"}
+(3,1,1) = {"
+tT
+YP
+GV
+lX
+Ql
+YP
+HA
+Yh
+YP
+tT
+YP
+OP
+pO
+YP
+yO
+"}
+(4,1,1) = {"
+tT
+YP
+AS
+Gt
+iP
+YP
+UN
+UN
+ig
+UN
+YP
+cB
+UN
+kB
+nm
+"}
+(5,1,1) = {"
+tT
+YP
+My
+lX
+EA
+YP
+XP
+SR
+YP
+cB
+kQ
+UN
+HA
+YP
+Hz
+"}
+(6,1,1) = {"
+tT
+YP
+YP
+ep
+YP
+YP
+YP
+YP
+YP
+cB
+YP
+YP
+ej
+YP
+nm
+"}
+(7,1,1) = {"
+UN
+CG
+Ak
+cB
+SN
+lm
+gT
+gT
+gT
+gT
+cB
+YP
+YP
+YP
+yO
+"}
+(8,1,1) = {"
+tT
+tT
+YP
+lm
+HA
+lX
+vy
+gT
+EP
+cB
+cB
+OP
+YP
+tT
+yO
+"}
+(9,1,1) = {"
+tT
+tT
+YP
+II
+le
+le
+Kn
+HA
+YP
+YP
+XR
+YP
+YP
+tT
+yO
+"}
+(10,1,1) = {"
+tT
+tT
+YP
+Vv
+le
+le
+YP
+YP
+YP
+Yv
+cB
+cB
+eg
+nm
+ns
+"}
+(11,1,1) = {"
+tT
+tT
+YP
+Qb
+lm
+le
+cB
+YP
+HL
+gT
+gT
+fD
+eg
+nm
+ns
+"}
+(12,1,1) = {"
+tT
+tT
+YP
+cB
+nx
+lm
+AL
+YP
+gY
+gT
+dQ
+cK
+YP
+tT
+ns
+"}
+(13,1,1) = {"
+tT
+tT
+YP
+iG
+cB
+cB
+ej
+YP
+tT
+vp
+cK
+cK
+YP
+tT
+ns
+"}
+(14,1,1) = {"
+tT
+tT
+YP
+YP
+rZ
+bD
+Yg
+YP
+tT
+rZ
+rZ
+YP
+YP
+tT
+ns
+"}
+(15,1,1) = {"
+ns
+yO
+yO
+yO
+nm
+nm
+UH
+yO
+yO
+ns
+ns
+ns
+ns
+ns
+ns
+"}

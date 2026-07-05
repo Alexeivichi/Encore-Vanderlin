@@ -1,0 +1,287 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/under/necropolis)
+"b" = (
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"c" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/purple,
+/area/under/necropolis)
+"e" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"f" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"h" = (
+/obj/structure/door/iron/bars,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"j" = (
+/obj/structure/door/iron/bars,
+/turf/open/floor/church/purple,
+/area/under/necropolis)
+"k" = (
+/obj/structure/bars/pipe/left,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"p" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/structure/door/iron/bars,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"r" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"t" = (
+/turf/open/floor/church/purple,
+/area/under/necropolis)
+"u" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/church/purple,
+/area/under/necropolis)
+"v" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"z" = (
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/church/purple,
+/area/under/necropolis)
+"A" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/purple,
+/area/under/necropolis)
+"B" = (
+/turf/closed/wall/mineral/pipe,
+/area/under/necropolis)
+"E" = (
+/turf/open/floor/dirt,
+/area/under/necropolis)
+"G" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"H" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"J" = (
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"L" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/structure/door/iron/bars,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"M" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/closed/wall/mineral/stone/moss,
+/area/under/necropolis)
+"P" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/purple,
+/area/under/necropolis)
+"Q" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"R" = (
+/obj/structure/door/iron/bars,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"T" = (
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"V" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"X" = (
+/obj/structure/spider/stickyweb,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"Z" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/structure/spider/stickyweb,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+J
+v
+a
+a
+a
+a
+M
+"}
+(2,1,1) = {"
+a
+a
+a
+a
+a
+h
+L
+a
+a
+E
+E
+a
+"}
+(3,1,1) = {"
+a
+a
+a
+B
+B
+t
+b
+a
+a
+E
+E
+a
+"}
+(4,1,1) = {"
+a
+a
+a
+B
+t
+c
+H
+J
+a
+a
+a
+a
+"}
+(5,1,1) = {"
+a
+a
+u
+t
+t
+b
+X
+b
+b
+e
+B
+B
+"}
+(6,1,1) = {"
+H
+p
+G
+c
+t
+V
+V
+t
+Q
+b
+R
+r
+"}
+(7,1,1) = {"
+J
+j
+f
+c
+t
+V
+V
+A
+b
+b
+h
+t
+"}
+(8,1,1) = {"
+a
+a
+z
+z
+t
+H
+b
+c
+k
+a
+a
+a
+"}
+(9,1,1) = {"
+a
+a
+a
+M
+T
+b
+t
+c
+B
+a
+a
+a
+"}
+(10,1,1) = {"
+a
+E
+E
+a
+a
+b
+P
+B
+B
+a
+a
+a
+"}
+(11,1,1) = {"
+a
+E
+E
+a
+a
+h
+R
+a
+a
+a
+a
+a
+"}
+(12,1,1) = {"
+a
+a
+a
+a
+a
+J
+Z
+a
+a
+a
+a
+a
+"}

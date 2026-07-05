@@ -12,6 +12,7 @@
 		#include "map_files/domotan/domotan_west.dmm"
 		#include "map_files/domotan/domotan_south.dmm"
 		#include "map_files/debug/roguetest.dmm"
+		#include "map_files/domotan/necropolis_l1_dermus.dmm"
 	#endif
 	#ifdef ALL_TEMPLATES
 		#include "templates.dm"

@@ -1,0 +1,11 @@
+{
+    "map_name": "Necropolis Dermus",
+    "map_path": "map_files/domotan",
+    "map_file": "necropolis_l1_dermus.dmm",
+	"traits": [
+		{"Up": true, "Turf Weather Effects": false, "Leylines": true, "Cellar": true},
+		{"Up": true, "Down": true, "Turf Weather Effects": false, "Leylines": true, "Cellar": true},
+		{"Up": true, "Down": true, "Turf Weather Effects": false, "Leylines": true, "Cellar": true},
+		{"Up": false, "Down": true, "Turf Weather Effects": false, "Leylines": true, "Cellar": true}
+	]
+}

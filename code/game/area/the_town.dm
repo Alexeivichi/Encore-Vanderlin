@@ -309,6 +309,13 @@
 	background_track_dusk = null
 	background_track_night = null
 
+/area/under/town/basement/smugglers_den
+	name = "smugglers den"
+	first_time_text = "THE MISSING CANARY"
+
+/area/under/town/basement/smugglers_tunnels
+	name = "tunnels"
+	first_time_text = "SLITHERWAY"
 
 /// Village stuff
 
