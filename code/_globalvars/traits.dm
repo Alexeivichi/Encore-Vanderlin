@@ -106,6 +106,7 @@ GLOBAL_LIST_INIT(traits_by_type, list(
 		"TRAIT_KNOW_KEEP_DOORS" = TRAIT_KNOW_KEEP_DOORS,
 		"TRAIT_KNOW_INQUISITION_DOORS" = TRAIT_KNOW_INQUISITION_DOORS,
 		"TRAIT_KNOW_THIEF_DOORS" = TRAIT_KNOW_THIEF_DOORS,
+		"TRAIT_KNOW_COURTAGENT_DOORS" = TRAIT_KNOW_COURTAGENT_DOORS,
 		"TRAIT_KNOW_ROUS_DOORS" = TRAIT_KNOW_ROUS_DOORS,
 		"Blessing of Hertannea" = TRAIT_CRACKHEAD,
 		"Blessing of Archdevils" = TRAIT_ORGAN_EATER,
@@ -207,6 +208,7 @@ GLOBAL_LIST_INIT(traits_by_type, list(
 		"Inflexible" = TRAIT_UNDODGING,
 		"Host of the Black Briar" = TRAIT_BRIAR_HOST,
 		"Graceless" = TRAIT_UNPARRYING,
+		"Agent of the Court" = TRAIT_COURTAGENT,
 		"Cult of the Archdevils" = TRAIT_ARCHDEVILS,
 		"Cult of Hertannea" = TRAIT_HERTANNEA,
 		"Cult of Madness" = TRAIT_ABSOLUTIONIST,
@@ -355,6 +357,7 @@ GLOBAL_LIST_INIT(roguetraits, list(
 	TRAIT_COIN_ILLITERATE = span_info("I care little for the concept of coins and prefer to barter via other means."),
 	TRAIT_LUCKY_COOK = span_info("Gani smiles upon my cooking, I often end up with impossible amounts of extra goods..."),
 	TRAIT_ABOMINATION = span_info("I am an abomination, others will recognise me for what I am"),
+	TRAIT_COURTAGENT = span_info("I am an Agent of the Court, employed by the Hand. I am able to recognise my colleagues")
 ))
 
 /// value -> trait name, generated on use from trait_by_type global

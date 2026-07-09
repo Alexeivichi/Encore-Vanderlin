@@ -30,11 +30,18 @@
 	honorary = "Lord"
 	honorary_f = "Lady"
 
+	mind_traits = list(
+		TRAIT_KNOW_KEEP_DOORS,
+		TRAIT_KNOW_COURTAGENT_DOORS,
+		TRAIT_KNOWCOURTAGENTS
+	)
 	traits = list(
 		TRAIT_NOBLE_BLOOD,
 		TRAIT_NOBLE_POWER,
 		TRAIT_NOBLE_LOCAL,
 	)
+
+	languages = list(/datum/language/thievescant)
 
 /datum/outfit/hand
 	name = JOB_HAND
@@ -56,13 +63,12 @@
 	addtimer(CALLBACK(src, PROC_REF(know_agents), H), 6 SECONDS)
 
 /datum/job/hand/proc/know_agents(mob/living/carbon/human/H)
-	if(!GLOB.roundstart_court_agents.len)
+	if(!length(GLOB.court_agents))
 		to_chat(H, span_notice("You began the week with no agents."))
 	else
 		to_chat(H, span_notice("We began the week with these agents:"))
-		for(var/name in GLOB.roundstart_court_agents)
+		for(var/name in GLOB.court_agents)
 			to_chat(H, span_notice(name))
-			H.mind.cached_frumentarii[name] = TRUE
 
 /datum/job/advclass/hand
 	exp_types_granted = list(EXP_TYPE_NOBLE)
@@ -107,7 +113,7 @@
 	backr = /obj/item/storage/backpack/satchel/black
 	backpack_contents = list(
 		/obj/item/weapon/knife/dagger/steel = 1,
-		/obj/item/paper/scroll/frumentarii/roundstart = 1
+		/obj/item/frumentarii = 1
 	)
 	armor = /obj/item/clothing/armor/leather/jacket/handjacket
 	pants = /obj/item/clothing/pants/tights/colored/black
@@ -169,7 +175,7 @@
 	shoes = /obj/item/clothing/shoes/boots
 	backpack_contents = list(
 		/obj/item/lockpickring/mundane = 1,
-		/obj/item/paper/scroll/frumentarii/roundstart = 1,
+		/obj/item/frumentarii = 1,
 		/obj/item/weapon/knife/dagger/steel/hand = 1,
 	)
 
@@ -247,7 +253,7 @@
 	backpack_contents = list(
 		/obj/item/weapon/knife/dagger/steel = 1,
 		/obj/item/reagent_containers/glass/bottle/poison = 1,
-		/obj/item/paper/scroll/frumentarii/roundstart = 1
+		/obj/item/frumentarii = 1
 	)
 	scabbards = list(/obj/item/weapon/scabbard/cane/hand)
 
@@ -351,7 +357,7 @@
 	backpack_contents = list(
 		/obj/item/weapon/knife/dagger/steel = 1,
 		/obj/item/reagent_containers/glass/bottle/poison = 1,
-		/obj/item/paper/scroll/frumentarii/roundstart = 1,
+		/obj/item/frumentarii = 1,
 		/obj/item/flint = 1,
 		/obj/item/bait = 1,
 		/obj/item/flashlight/flare/torch/lantern/bronzelamptern = 1,
