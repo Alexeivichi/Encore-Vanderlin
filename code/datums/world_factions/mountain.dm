@@ -5,8 +5,8 @@
 	outfit = /datum/outfit/miner
 
 /datum/world_faction/mountain_clans
-	faction_name = "Dwarven Clans"
-	desc = "Hardy dwarves from the mountain passes"
+	faction_name = "Three Crowns"
+	desc = "Hardy dwarves from the western nation of Geramor."
 	faction_color = "#708090"
 	trader_outfits = list(
 		/obj/effect/mob_spawn/human/dwarf/trader
@@ -198,10 +198,6 @@
 		/datum/supply_pack/weapons/ranged/musket
 	)
 
-	bounty_path_weights = list(
-		/obj/item/ingot = 500,
-		/obj/item/ore = 600,
-	)
 
 /datum/world_faction/mountain_clans/initialize_faction_stock()
 	..()

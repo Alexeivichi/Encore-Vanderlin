@@ -11,8 +11,8 @@
 	outfit = /datum/outfit/bard
 
 /datum/world_faction/coastal_merchants
-	faction_name = "Coastal Trade Union"
-	desc = "Seafaring traders with exotic wares"
+	faction_name = "Aelondan Coastal Trade Union"
+	desc = "Seafaring Aelondan traders with exotic wares."
 	faction_color = "#4682B4"
 	trader_outfits = list(
 		/obj/effect/mob_spawn/human/demi/trader,
