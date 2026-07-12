@@ -2,7 +2,7 @@
 /datum/action/cooldown/spell/angrosabsolve
 	name = "ABSOLVE"
 	spell_type = SPELL_ANGROSIC_MIRACLE
-	spell_flags = SPELL_ANGROS
+	spell_flags = SPELL_ANGROS|SPELL_UNETCHABLE
 	spell_cost = 160
 	charge_time = 1
 	cast_range = 1
