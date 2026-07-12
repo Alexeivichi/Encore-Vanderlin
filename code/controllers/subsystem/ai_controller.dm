@@ -75,7 +75,6 @@ SUBSYSTEM_DEF(ai_controllers)
 			. += ai_controller
 
 /datum/controller/subsystem/ai_controllers/fire(resumed)
-
 	if(!resumed)
 		src.currentrun = build_currentrun()
 
