@@ -133,6 +133,18 @@ GLOBAL_LIST_INIT(ambience_spooky_mystical, list(
 	'sound/ambience/noises/mystical (6).ogg',
 ))
 
+GLOBAL_LIST_INIT(ambience_underwater, list(
+	'sound/ambience/underwater (1).ogg',
+	'sound/ambience/underwater (2).ogg',
+	'sound/ambience/underwater (3).ogg',
+))
+
+GLOBAL_LIST_INIT(ambience_deepwater, list(
+	'sound/ambience/deepwater (1).ogg',
+	'sound/ambience/deepwater (2).ogg',
+	'sound/ambience/deepwater (3).ogg',
+))
+
 /// Sound effects
 GLOBAL_LIST_INIT(ambience_assoc_sounds, list(
 	AMBIENCE_GENERIC = GLOB.ambience_spooky_generic,
@@ -143,6 +155,8 @@ GLOBAL_LIST_INIT(ambience_assoc_sounds, list(
 	AMBIENCE_FROG = GLOB.ambience_spooky_frog,
 	AMBIENCE_BIRDS = GLOB.ambience_spooky_birds,
 	AMBIENCE_MYSTICAL = GLOB.ambience_spooky_mystical,
+	AMBIENCE_UNDERWATER = GLOB.ambience_underwater,
+	AMBIENCE_DEEPWATER = GLOB.ambience_deepwater,
 ))
 
 /// Droning ambience

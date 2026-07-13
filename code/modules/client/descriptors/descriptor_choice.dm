@@ -215,6 +215,17 @@
 		/datum/mob_descriptor/height/longshanked,
 	)
 
+/datum/descriptor_choice/scales
+	name = "Scales"
+	default_descriptor = /datum/mob_descriptor/scales/plain
+	descriptors = list(
+		/datum/mob_descriptor/scales/plain,
+		/datum/mob_descriptor/scales/rough,
+		/datum/mob_descriptor/scales/smooth,
+		/datum/mob_descriptor/scales/plated,
+		/datum/mob_descriptor/scales/peeling,
+	)
+
 // I'm keeping prominent_bottom for the 'Clap of my ass-cheeks alerting the guards,' jokes. -Aberra
 #define PROMINENT_DESCRIPTORS \
 	/datum/mob_descriptor/prominent/hunched_over,\

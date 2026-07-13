@@ -1,0 +1,6 @@
+author: "MisterLayne"
+delete-after: True
+changes:
+  - rscadd: "Added Lupians"
+  - rscadd: "Added Drakians"
+  - rscadd: "Added Sisseans"

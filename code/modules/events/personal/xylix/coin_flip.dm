@@ -5,7 +5,7 @@
 	weight = 7
 	earliest_start = 10 MINUTES
 	max_occurrences = 1
-	min_players = 15
+	min_players = LOWPOP_THRESHOLD
 
 	tags = list(
 		TAG_ILIOPE,
@@ -49,6 +49,6 @@
 		span_userdanger("YOU ARE ILIOPE'S CHOSEN!"),
 		span_notice("Iliope challenges you to a game! Simply flip a zenar and let fate decide your reward! Win the game, and Iliope's favor is yours. Lose, and your zenar is forfeit!"),
 	))
-	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/xylix_omen.ogg', 100)
+	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/omen_air.ogg', 100)
 
 	chosen_one.mind.announce_personal_objectives()

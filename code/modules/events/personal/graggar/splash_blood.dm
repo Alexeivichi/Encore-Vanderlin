@@ -5,7 +5,7 @@
 	weight = 10
 	earliest_start = 5 MINUTES
 	max_occurrences = 1
-	min_players = 20
+	min_players = LOWPOP_THRESHOLD
 
 	tags = list(
 		TAG_ARCHDEVILS,
@@ -48,6 +48,6 @@
 		span_userdanger("YOU ARE THE ARCHDEVILS'S CHOSEN!"),
 		span_notice("There is power in blood. Splash a bucket full of blood on yourself to honor Archdevil!"),
 	))
-	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/graggar_omen.ogg', 100)
+	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/omen_hell.ogg', 100)
 
 	chosen_one.mind.announce_personal_objectives()

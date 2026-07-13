@@ -36,10 +36,20 @@
 	ambush_times = list("night")
 	ambush_mobs = list(
 				/mob/living/simple_animal/hostile/retaliate/wolf = 10,
-				/mob/living/carbon/human/species/goblin/npc/ambush = 10,
-				/mob/living/carbon/human/species/rousman/ambush = 5)
-	ambush_mobs = null
+				/mob/living/carbon/human/species/goblin/npc/ambush = 10)
 	first_time_text = "County of Etgard"
+	threat_region = THREAT_REGION_BASIN
+
+/area/outdoors/woods/lakeside
+	name = "Hamlet of Lakeside"
+	droning_index = DRONING_LAKE
+	droning_index_night = DRONING_LAKE
+	soundenv = 15
+	ambush_times = list("night")
+	ambush_mobs = list(
+				/mob/living/simple_animal/hostile/retaliate/wolf = 10,
+				/mob/living/carbon/human/species/rousman/ambush = 10)
+	first_time_text = "Hamlet of Lakeside"
 	threat_region = THREAT_REGION_BASIN
 
 //For the OOC spawn area

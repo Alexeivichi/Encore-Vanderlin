@@ -900,6 +900,33 @@
 	desc = "An effigy made to drive away zad and other pesky birds from a farm."
 	icon_state = "td"
 
+/obj/structure/fluff/statue/crystal
+	name = "earth crystal"
+	desc = "A small earth shard which emits the tiniest glow. It looks especially fragile and it is unlikely you would be able to retrieve the crystal fixed to it."
+	icon = 'icons/roguetown/misc/domotan/effigy.dmi'
+	icon_state = "earth"
+	light_power = 2
+	light_outer_range =  2
+	light_color = LIGHT_COLOR_GREEN
+
+/obj/structure/fluff/statue/crystal/air
+	name = "air crystal"
+	desc = "A small air shard which emits the tiniest glow. It looks especially fragile and it is unlikely you would be able to retrieve the crystal fixed to it."
+	icon_state = "air"
+	light_color = LIGHT_COLOR_PINK
+
+/obj/structure/fluff/statue/crystal/fire
+	name = "fire crystal"
+	desc = "A small fire shard which emits the tiniest glow. It looks especially fragile and it is unlikely you would be able to retrieve the crystal fixed to it."
+	icon_state = "fire"
+	light_color = LIGHT_COLOR_ORANGE
+
+/obj/structure/fluff/statue/crystal/frost
+	name = "frost crystal"
+	desc = "A small frost shard which emits the tiniest glow. It looks especially fragile and it is unlikely you would be able to retrieve the crystal fixed to it."
+	icon_state = "ice"
+	light_color = LIGHT_COLOR_BLUE
+
 /obj/structure/fluff/statue/tdummy
 	name = "practice dummy"
 	desc = "A wood and cloth dummy, made for squires to train with their armaments."
@@ -1131,14 +1158,72 @@
 
 /obj/structure/fluff/psycross/visires
 	name = "ember effigy"
-	icon_state = "astratancross"
-	desc = "A towering monument to Visires. A particular warmth surrounds it, and it never seems to fully obscure itself under shadow."
+	icon = 'icons/roguetown/misc/domotan/effigy.dmi'
+	icon_state = "visires"
+	desc = "A monument to Visires. A particular warmth surrounds it, and it never seems to fully obscure itself under shadow. There is a small fire shard permanently fixed to its top."
 	break_sound = null
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
 
 /obj/structure/fluff/psycross/visires/gold
 	name = "golden ember effigy"
+	icon = 'icons/roguetown/misc/tallstructure.dmi'
 	icon_state = "astratancross_g"
+	break_sound = null
+	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
+
+/obj/structure/fluff/psycross/mjallidhorn
+	name = "frost effigy"
+	icon = 'icons/roguetown/misc/domotan/effigy.dmi'
+	icon_state = "mjallidhorn"
+	desc = "A monument to Mjallidhorn. A dull growl can be heard if one were to stand too close to its icy visage. There is a small frost shard permanently fixed to its top."
+	break_sound = null
+	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
+
+/obj/structure/fluff/psycross/gani
+	name = "earth effigy"
+	icon = 'icons/roguetown/misc/domotan/effigy.dmi'
+	icon_state = "gani"
+	desc = "A monument to Gani. The vines strewn about it seem to writhe against an unseen life within the air. There is a small earth shard permanently fixed to its top."
+	break_sound = null
+	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
+
+/obj/structure/fluff/psycross/akan
+	name = "air effigy"
+	icon = 'icons/roguetown/misc/domotan/effigy.dmi'
+	icon_state = "akan"
+	desc = "A monument to Akan. Artifacts of ancient technology are attached to it like a now-useless crown, but occasionally crackle with an unfamiliar energy. There is a small air shard permanently fixed to its side."
+	break_sound = null
+	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
+
+/obj/structure/fluff/psycross/erdl
+	name = "erdite effigy"
+	icon = 'icons/roguetown/misc/domotan/effigy.dmi'
+	icon_state = "erdl"
+	desc = "A monument to Erdl. A vessel of His sacred ichor is proudly displayed upon it, unable to decay. There is a small air shard permanently fixed to its side."
+	break_sound = null
+	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
+
+/obj/structure/fluff/psycross/pomette
+	name = "pomettic effigy"
+	icon = 'icons/roguetown/misc/domotan/effigy.dmi'
+	icon_state = "pomette"
+	desc = "A monument to the sacred daughter, Pomette. Through it, Her pure eyes curiously pry. There is a small earth shard permanently fixed to its side."
+	break_sound = null
+	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
+
+/obj/structure/fluff/psycross/mordsol
+	name = "effigy of war"
+	icon = 'icons/roguetown/misc/domotan/effigy.dmi'
+	icon_state = "mordsol"
+	desc = "A monument to Alaqshir, or Mordsol. It stands testament to the faceless valor of the Elementals' lordling of war. There are no crystals fixed to it, only a sullen and tattered banner of fire and a chilling aura."
+	break_sound = null
+	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
+
+/obj/structure/fluff/psycross/valdala
+	name = "valdalan effigy"
+	icon = 'icons/roguetown/misc/domotan/effigy.dmi'
+	icon_state = "valdala"
+	desc = "A monument to Valdala. It is not often seen as good fortune to see such effigies beyond church grounds. There is a small air shard permanently fixed to its top."
 	break_sound = null
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
 

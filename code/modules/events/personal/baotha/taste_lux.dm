@@ -52,6 +52,6 @@
 		span_userdanger("YOU ARE HERTANNEA'S CHOSEN!"),
 		span_notice("Seek out and taste Lux to experience true pleasure and make Hertannea proud! You might need to grind it first though..."),
 	))
-	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/baotha_omen.ogg', 100)
+	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/omen_hertannea.ogg', 100)
 
 	chosen_one.mind.announce_personal_objectives()

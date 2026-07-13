@@ -112,11 +112,11 @@
 #define GAMEMODE_PANEL_VARIABLES "Variables"
 
 /// The concrete number for what is considered "lowpop" on Vanderlin
-#define LOWPOP_THRESHOLD 35
+#define LOWPOP_THRESHOLD 5
 /// The difference between highpop and lowpop
-#define MIDPOP_THRESHOLD (0.5 * (HIGHPOP_THRESHOLD+LOWPOP_THRESHOLD))
+#define MIDPOP_THRESHOLD 10
 /// What is high pop on Vanderlin?
-#define HIGHPOP_THRESHOLD 70
+#define HIGHPOP_THRESHOLD 20
 
 /// Data yielded from a poll on player behavior regarding when they queue up for a round. This is used to tweak storyteller values for roundstart event checks
 #define READYUP_AVG 0.66

@@ -6,7 +6,7 @@
 	weight = 7
 	earliest_start = 15 MINUTES
 	max_occurrences = 1
-	min_players = 25
+	min_players = MIDPOP_THRESHOLD
 
 	tags = list(
 		TAG_ARCHDEVILS,
@@ -55,6 +55,6 @@
 		span_biginfo("Hell itself wants you to spread corruption! Construct [new_objective.target_count] profane shrines using your newly gained knowledge to complete Hell's will!"),
 	))
 	to_chat(chosen_one, span_notice("You can construct unholy shrines with one small log, two stones and three wooden stakes."))
-	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/zizo_omen.ogg', 100)
+	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/omen_hell.ogg', 100)
 
 	chosen_one.mind.announce_personal_objectives()

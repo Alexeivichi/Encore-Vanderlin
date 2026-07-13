@@ -14,6 +14,7 @@
 	desc = ""
 	icon = 'icons/delver/abyss_objects.dmi'
 	icon_state = "clutter1"
+	alpha = 90//since these will only spawn underwater
 
 /obj/structure/flora/ocean_plants/Initialize()
 	icon_state = "clutter[rand(1, 8)]"
@@ -193,6 +194,7 @@
 /obj/structure/flora/rock/water
 	name = "boulder"
 	icon_state = "boulder-1"
+	alpha = 90//since these will only spawn underwater
 	icon = 'icons/delver/abyss_objects.dmi'
 
 /obj/structure/flora/rock/water/Initialize()
@@ -201,6 +203,7 @@
 
 /obj/structure/flora/rock/coral
 	name = "coral"
+	alpha = 90//since these will only spawn underwater
 	icon_state = "coral-1"
 	icon = 'icons/delver/abyss_objects.dmi'
 
@@ -281,6 +284,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/desert_window/open, 32)
 	icon_state = "sandstone_brick"
 	icon = 'icons/delver/desert_objects.dmi'
 	resistance_flags = FIRE_PROOF
+	alpha = 90//since these will only spawn underwater
 
 /obj/structure/flora/kelp
 	name = "kelp"

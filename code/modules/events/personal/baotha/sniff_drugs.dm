@@ -5,7 +5,7 @@
 	weight = 10
 	earliest_start = 5 MINUTES
 	max_occurrences = 1
-	min_players = 15
+	min_players = LOWPOP_THRESHOLD
 
 	tags = list(
 		TAG_HERTANNEA,
@@ -49,6 +49,6 @@
 		span_userdanger("YOU ARE HERTANNEA'S CHOSEN!"),
 		span_notice("Hertannea demands chemical ecstasy! Sniff drugs to earn Hertannea's favor!"),
 	))
-	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/baotha_omen.ogg', 100)
+	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/omen_hertannea.ogg', 100)
 
 	chosen_one.mind.announce_personal_objectives()

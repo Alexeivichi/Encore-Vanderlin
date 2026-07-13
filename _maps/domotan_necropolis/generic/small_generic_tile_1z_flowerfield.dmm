@@ -1,0 +1,264 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"b" = (
+/turf/open/water/marsh,
+/area/template_noop)
+"g" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"n" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/brflowers,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"r" = (
+/obj/structure/flora/grass/herb/random,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"x" = (
+/obj/structure/flora/grass/bush,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"D" = (
+/obj/structure/flora/grass,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"L" = (
+/obj/structure/flora/ausbushes/brflowers,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"R" = (
+/obj/structure/flora/ausbushes/grassybush,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"Y" = (
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+r
+g
+a
+a
+a
+a
+a
+a
+a
+a
+a
+Y
+a
+"}
+(3,1,1) = {"
+a
+x
+D
+a
+a
+Y
+a
+a
+a
+a
+a
+D
+Y
+a
+"}
+(4,1,1) = {"
+a
+a
+L
+a
+a
+r
+Y
+a
+a
+Y
+a
+a
+g
+a
+"}
+(5,1,1) = {"
+a
+a
+a
+a
+Y
+Y
+R
+D
+Y
+x
+a
+a
+a
+a
+"}
+(6,1,1) = {"
+a
+a
+a
+a
+a
+Y
+L
+g
+Y
+Y
+Y
+a
+a
+a
+"}
+(7,1,1) = {"
+a
+a
+a
+a
+Y
+g
+Y
+r
+b
+r
+Y
+a
+a
+a
+"}
+(8,1,1) = {"
+a
+a
+a
+r
+Y
+Y
+x
+b
+b
+Y
+R
+Y
+a
+a
+"}
+(9,1,1) = {"
+a
+a
+a
+a
+a
+a
+Y
+b
+g
+Y
+a
+a
+a
+a
+"}
+(10,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+Y
+Y
+a
+a
+a
+a
+a
+"}
+(11,1,1) = {"
+a
+a
+a
+a
+n
+a
+a
+Y
+Y
+a
+Y
+R
+D
+a
+"}
+(12,1,1) = {"
+a
+a
+a
+D
+r
+a
+a
+Y
+a
+a
+a
+L
+r
+a
+"}
+(13,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(14,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}

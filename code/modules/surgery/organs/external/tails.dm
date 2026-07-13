@@ -74,3 +74,12 @@
 /obj/item/organ/tail/triton
 	name = "triton bell"
 	accessory_type = /datum/sprite_accessory/tail/triton
+
+/obj/item/organ/tail/lupian
+	name = "lupian tail"
+
+/obj/item/organ/tail/lizard
+	name = "sissean tail"
+	desc = "A severed lizard tail. Somewhere, no doubt, a lizard hater is very pleased with themselves."
+	color = "#116611"
+	accessory_type = /datum/sprite_accessory/tail/lizard/smooth

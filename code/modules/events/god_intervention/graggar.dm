@@ -8,7 +8,7 @@ GLOBAL_LIST_EMPTY(archdevils_cullings)
 	weight = 8
 	earliest_start = 20 MINUTES
 	max_occurrences = 1
-	min_players = 35
+	min_players = HIGHPOP_THRESHOLD
 	dedicated_storytellers = list(/datum/storyteller/archdevils)
 	allowed_storytellers = INHUMEN_STORYTELLERS
 
@@ -62,7 +62,7 @@ GLOBAL_LIST_EMPTY(archdevils_cullings)
 		))
 		if(grand_culling)
 			to_chat(first_chosen, span_notice("Archdevils has decreed a GRAND CULLING! Many hearts will feed the strong todae!"))
-		first_chosen.playsound_local(first_chosen, 'sound/misc/gods/graggar_omen.ogg', 100)
+		first_chosen.playsound_local(first_chosen, 'sound/misc/gods/omen_hell.ogg', 100)
 
 		var/datum/objective/personal/eat_rival_heart/first_chosen_objective = new(owner = first_chosen.mind, rival_name = second_chosen.real_name, rival_job = second_chosen.job)
 		first_chosen.mind.add_personal_objective(first_chosen_objective)
@@ -75,7 +75,7 @@ GLOBAL_LIST_EMPTY(archdevils_cullings)
 		))
 		if(grand_culling)
 			to_chat(second_chosen, span_notice("Archdevils has decreed a GRAND CULLING! Many hearts will feed the strong todae!"))
-		second_chosen.playsound_local(second_chosen, 'sound/misc/gods/graggar_omen.ogg', 100)
+		second_chosen.playsound_local(second_chosen, 'sound/misc/gods/omen_hell.ogg', 100)
 
 		var/datum/objective/personal/eat_rival_heart/second_chosen_objective = new(owner = second_chosen.mind, rival_name = first_chosen.real_name, rival_job = first_chosen.job)
 		second_chosen.mind.add_personal_objective(second_chosen_objective)

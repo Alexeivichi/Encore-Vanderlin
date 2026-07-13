@@ -60,3 +60,22 @@
 /datum/mob_descriptor/skin/freckles
 	name = "Freckles"
 
+/datum/mob_descriptor/scales
+	abstract_type = /datum/mob_descriptor/scales
+	slot = MOB_DESCRIPTOR_SLOT_SKIN
+	verbage = "%HAVE%"
+
+/datum/mob_descriptor/scales/plain
+	name = "Plain Scales"
+
+/datum/mob_descriptor/scales/rough
+	name = "Rough Scales"
+
+/datum/mob_descriptor/scales/smooth
+	name = "Smooth Scales"
+
+/datum/mob_descriptor/scales/plated
+	name = "Plated Scales"
+
+/datum/mob_descriptor/scales/peeling
+	name = "Peeling Scales"

@@ -82,7 +82,10 @@
 	spawnableAtoms = list(/obj/structure/flora/grass/tundra = 10)
 	allowed_areas = list(/area/outdoors/basin,
 							/area/outdoors/basin/safe,
-							/area/outdoors/town)
+							/area/outdoors/town,
+							/area/outdoors/town/neighborhood,
+							/area/outdoors/town/neighborhood/east,
+							/area/outdoors/town/neighborhood/west)
 
 /datum/mapGeneratorModule/domotandirt/road
 	clusterCheckFlags = CLUSTER_CHECK_NONE
@@ -100,7 +103,8 @@
 	clusterCheckFlags = CLUSTER_CHECK_DIFFERENT_ATOMS
 	clusterMax = 2
 	clusterMin = 1
-	allowed_turfs = list(/turf/open/floor/grass/cold)
+	allowed_turfs = list(/turf/open/floor/grass/cold,
+							/turf/open/floor/grass/yel)
 	excluded_turfs = list()
 	spawnableAtoms = list(/obj/structure/flora/grass/bush/tundra = 3,
 							/obj/structure/flora/grass/bush_meagre/tundra = 14,
@@ -112,14 +116,22 @@
 							/obj/item/grown/log/tree/stick = 8)
 	spawnableTurfs = list()
 	allowed_areas = list(/area/outdoors/basin,
-							/area/outdoors/basin/safe)
+							/area/outdoors/basin/safe,
+							/area/outdoors/town,
+							/area/outdoors/town/neighborhood,
+							/area/outdoors/town/neighborhood/east,
+							/area/outdoors/town/neighborhood/west)
 
 /datum/mapGeneratorModule/domotangrass/grass
 	clusterCheckFlags = CLUSTER_CHECK_NONE
-	allowed_turfs = list(/turf/open/floor/grass/cold)
+	allowed_turfs = list(/turf/open/floor/grass/cold,
+							/turf/open/floor/grass/yel)
 	excluded_turfs = list()
 	spawnableAtoms = list(/obj/structure/flora/grass/tundra = 50)
 	spawnableTurfs = list()
 	allowed_areas = list(/area/outdoors/basin,
 							/area/outdoors/basin/safe,
-							/area/outdoors/town)
+							/area/outdoors/town,
+							/area/outdoors/town/neighborhood,
+							/area/outdoors/town/neighborhood/east,
+							/area/outdoors/town/neighborhood/west)

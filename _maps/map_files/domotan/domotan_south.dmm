@@ -556,6 +556,7 @@
 	layer = 2.7;
 	pixel_y = 7
 	},
+/obj/structure/closet/crate/chest/crate,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/shelter)
 "hS" = (
@@ -659,6 +660,18 @@
 /obj/structure/plasticflaps,
 /turf/open/floor/cobble/mossy,
 /area/under/cavewet)
+"jb" = (
+/obj/item/lockpick{
+	pixel_x = 4
+	},
+/obj/item/lockpick,
+/obj/structure/table/wood/plain_alt,
+/obj/item/natural/cloth,
+/obj/machinery/light/fueled/torchholder{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/indoors/shelter)
 "ji" = (
 /obj/structure/table/wood{
 	icon_state = "tablewood1";
@@ -763,6 +776,7 @@
 	layer = 2.7;
 	pixel_y = 7
 	},
+/obj/structure/lootable_structure/powder_sack,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/shelter)
 "kN" = (
@@ -1049,6 +1063,18 @@
 "or" = (
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/shelter/bog)
+"oA" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/lootable_structure/fish_barrel,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors/shelter)
 "oF" = (
 /obj/item/grown/log/tree/small{
 	pixel_y = -9;
@@ -1160,6 +1186,10 @@
 /obj/structure/rack/shelf/biggest,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/shelter)
+"pG" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/grass/yel,
+/area/outdoors/woods/heavenscoast)
 "pQ" = (
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "z1-northsouth1-out";
@@ -1806,6 +1836,13 @@
 "wX" = (
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/villagegarrison)
+"wY" = (
+/obj/structure/fluff/traveltile{
+	name = "To Smugglers Den";
+	aportalgoesto = "bandit_to_smugden"
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/indoors/shelter)
 "xd" = (
 /obj/structure/door/iron/bars,
 /turf/open/floor/hexstone,
@@ -1926,6 +1963,10 @@
 /obj/structure/fluff/walldeco/church/line,
 /turf/open/floor/hexstone,
 /area/under/town/basement)
+"yf" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/grass/yel,
+/area/outdoors/bog)
 "yj" = (
 /obj/item/reagent_containers/glass/bucket/wooden,
 /obj/effect/decal/cleanable/blood/old,
@@ -2221,6 +2262,10 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/woods/crossroads)
+"BG" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/ruinedwood,
+/area/indoors/shelter/bog)
 "BJ" = (
 /obj/structure/fluff/railing/tall/retaining{
 	dir = 9
@@ -2528,6 +2573,10 @@
 /obj/machinery/light/fueled/firebowl/stump,
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
+"Gg" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/grass,
+/area/outdoors/woods/crossroads)
 "Gh" = (
 /obj/structure/flora/tree/pine{
 	icon_state = "pine4"
@@ -2550,6 +2599,10 @@
 "Gt" = (
 /turf/closed/wall/mineral/stonebrick,
 /area/under/cave)
+"Gw" = (
+/obj/effect/landmark/quest_spawner/medium,
+/turf/open/floor/sand/sandstone,
+/area/outdoors/woods/heavenscoast)
 "GC" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 8;
@@ -2614,6 +2667,10 @@
 /obj/structure/flora/grass/water,
 /turf/open/water/ocean,
 /area/outdoors/woods/heavenscoast)
+"Hf" = (
+/obj/effect/landmark/quest_spawner/medium,
+/turf/open/floor/grass/yel,
+/area/outdoors/woods/whisperen)
 "Hh" = (
 /obj/item/weapon/pick/stone,
 /turf/open/floor/dirt/road,
@@ -3124,6 +3181,22 @@
 /obj/item/natural/rock,
 /turf/open/floor/dirt,
 /area/under/cave)
+"ON" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/closet/crate/chest/crate,
+/obj/item/soap{
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/indoors/shelter)
 "OR" = (
 /obj/structure/table/wood{
 	dir = 5;
@@ -3584,6 +3657,10 @@
 /obj/item/reagent_containers/food/snacks/meat/poultry,
 /turf/open/floor/dirt/road,
 /area/under/cave)
+"Uz" = (
+/obj/structure/closet/crate/chest/crate,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors/shelter)
 "UC" = (
 /turf/closed/wall/mineral/stone,
 /area/under/town/basement)
@@ -8146,7 +8223,7 @@ mT
 mT
 mT
 mT
-mT
+yf
 mT
 mT
 mT
@@ -12065,7 +12142,7 @@ na
 na
 na
 Uu
-Uu
+Hf
 Uu
 Uu
 Oc
@@ -13799,7 +13876,7 @@ En
 En
 se
 oc
-oc
+BG
 oc
 En
 QN
@@ -14809,7 +14886,7 @@ Wj
 Wj
 Wj
 mT
-mT
+yf
 mT
 mT
 mT
@@ -16960,7 +17037,7 @@ Uu
 Uu
 Uu
 Uu
-Uu
+Hf
 Uu
 Oc
 Oc
@@ -19448,7 +19525,7 @@ th
 mT
 mT
 mT
-mT
+yf
 En
 mT
 En
@@ -19467,7 +19544,7 @@ mT
 mT
 mT
 mT
-mT
+yf
 mT
 kp
 kp
@@ -20254,7 +20331,7 @@ kp
 kp
 kp
 kp
-kp
+pG
 kp
 kp
 CV
@@ -20552,7 +20629,7 @@ Uu
 Uu
 Uu
 Uu
-Uu
+Hf
 Uu
 Uu
 Uu
@@ -22125,7 +22202,7 @@ eS
 eS
 eS
 eS
-eS
+Gw
 eS
 eS
 eS
@@ -28271,7 +28348,7 @@ eS
 eS
 eS
 eS
-eS
+Gw
 eS
 eS
 eS
@@ -28587,7 +28664,7 @@ eS
 eS
 eS
 eS
-eS
+Gw
 eS
 eS
 eS
@@ -33958,7 +34035,7 @@ eS
 eS
 eS
 eS
-eS
+Gw
 eS
 eS
 eS
@@ -35635,7 +35712,7 @@ Vy
 Vy
 Vy
 Vy
-Vy
+Gg
 Vy
 Vy
 Vy
@@ -42047,7 +42124,7 @@ Vy
 Vy
 Vy
 Vy
-Vy
+Gg
 Vy
 LS
 LS
@@ -43458,7 +43535,7 @@ eS
 eS
 eS
 eS
-eS
+Gw
 eS
 eS
 eS
@@ -45740,7 +45817,7 @@ eS
 eS
 eS
 eS
-eS
+Gw
 eS
 eS
 eS
@@ -46217,7 +46294,7 @@ eS
 eS
 eS
 eS
-eS
+Gw
 eS
 eS
 eS
@@ -46304,7 +46381,7 @@ eS
 eS
 eS
 eS
-eS
+Gw
 eS
 eS
 eS
@@ -48228,7 +48305,7 @@ sY
 sY
 sY
 sY
-Vy
+Gg
 Vy
 Vy
 iO
@@ -53467,7 +53544,7 @@ eS
 eS
 eS
 eS
-eS
+Gw
 eS
 eS
 eS
@@ -57018,7 +57095,7 @@ Rk
 Rk
 na
 na
-jD
+na
 eS
 eS
 eS
@@ -57275,7 +57352,7 @@ Rk
 Rk
 Rk
 Rk
-jD
+na
 eS
 eS
 eS
@@ -57532,7 +57609,7 @@ Rk
 Rk
 na
 Rk
-ba
+Rk
 eS
 eS
 eS
@@ -57870,10 +57947,10 @@ rp
 vL
 vL
 vL
-hL
+ON
 tn
 Bq
-is
+wY
 cv
 is
 is
@@ -58128,9 +58205,9 @@ vL
 vL
 hL
 is
-is
-Bq
-is
+Uz
+sw
+sw
 is
 is
 is
@@ -58640,9 +58717,9 @@ LW
 vL
 vL
 vL
-kK
+oA
 is
-is
+jb
 Bq
 zP
 zP
@@ -58824,7 +58901,7 @@ eS
 eS
 eS
 eS
-eS
+Gw
 eS
 eS
 eS
@@ -60905,7 +60982,7 @@ eS
 eS
 eS
 eS
-eS
+Gw
 eS
 eS
 eS

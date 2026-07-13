@@ -52,7 +52,7 @@
 
 /area/outdoors/oldfort
 	name = "oldfort_outdoors"
-	icon_state = "sargoth"
+	icon_state = "castlemalum"
 	first_time_text = "INVADER'S GRAVE"
 
 //old town ruins
@@ -68,7 +68,7 @@
 
 /area/outdoors/oldtown
 	name = "oldtown_outdoors"
-	icon_state = "sargoth"
+	icon_state = "ruins"
 	first_time_text = "ANCIENT DOMA"
 
 //lost keep
@@ -84,7 +84,7 @@
 
 /area/outdoors/lostkeep
 	name = "lostkeep_outdoors"
-	icon_state = "sargoth"
+	icon_state = "castlemalum"
 	first_time_text = "MONUMENT TO SIN"
 
 //hotel paradise
@@ -99,7 +99,7 @@
 
 /area/outdoors/paradise
 	name = "paradise_outdoors"
-	icon_state = "sargoth"
+	icon_state = "ruins"
 	first_time_text = "THE BLUE HOPE"
 
 //lighthouse
@@ -115,7 +115,7 @@
 
 /area/outdoors/lighthouse
 	name = "lighthouse_outdoors"
-	icon_state = "sargoth"
+	icon_state = "outpost"
 	first_time_text = "THE BATTLEMENTS"
 
 //lodge berkleigh

@@ -5,7 +5,7 @@
 	weight = 10
 	earliest_start = 10 MINUTES
 	max_occurrences = 1
-	min_players = 25
+	min_players = HIGHPOP_THRESHOLD
 
 	tags = list(
 		TAG_DECEIVERS,
@@ -57,6 +57,6 @@
 		span_userdanger("YOU ARE THE DECEIVERS' CHOSEN!"),
 		span_notice("Deceivers demands you prove your cunning! Pickpocket fools to earn Deceivers' favor!"),
 	))
-	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/matthios_omen.ogg', 100)
+	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/omen_deceivers.ogg', 100)
 
 	chosen_one.mind.announce_personal_objectives()

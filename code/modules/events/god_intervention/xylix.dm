@@ -5,7 +5,7 @@
 	weight = 8
 	earliest_start = 15 MINUTES
 	max_occurrences = 1
-	min_players = 30
+	min_players = MIDPOP_THRESHOLD
 	dedicated_storytellers = list(/datum/storyteller/iliope)
 	allowed_storytellers = DIVINE_STORYTELLERS
 
@@ -34,4 +34,4 @@
 		bordered_message(human_mob, list(
 			span_biginfo("You have caught Iliope's attention and you can feel your fortune changing... Whether you'll laugh or weep about it later... well, that's part of the fun!")
 		))
-		human_mob.playsound_local(human_mob, 'sound/misc/gods/xylix_omen.ogg', 100)
+		human_mob.playsound_local(human_mob, 'sound/misc/gods/omen_air.ogg', 100)

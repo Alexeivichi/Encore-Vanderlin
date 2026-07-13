@@ -1,0 +1,6 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - rscadd: "Added new omen audio"
+  - refactor: "Lowers event pop requirements to spawn"
+  - refactor: "Fixes incorrect text attached to some events"

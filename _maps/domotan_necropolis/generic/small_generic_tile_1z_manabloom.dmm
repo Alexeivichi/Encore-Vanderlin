@@ -1,0 +1,269 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/water/marsh,
+/area/template_noop)
+"c" = (
+/turf/template_noop,
+/area/template_noop)
+"d" = (
+/obj/structure/flora/grass,
+/obj/structure/wild_plant/nospread/manabloom,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"h" = (
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"j" = (
+/obj/structure/flora/ausbushes/brflowers,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"m" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"p" = (
+/obj/structure/flora/grass,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"w" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"x" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/wild_plant/nospread/manabloom,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"z" = (
+/obj/structure/flora/grass/herb/random,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"V" = (
+/obj/structure/wild_plant/nospread/manabloom,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+
+(1,1,1) = {"
+c
+c
+h
+c
+c
+c
+c
+c
+c
+c
+h
+h
+c
+c
+"}
+(2,1,1) = {"
+c
+z
+h
+h
+c
+c
+c
+c
+c
+h
+d
+h
+h
+c
+"}
+(3,1,1) = {"
+h
+m
+d
+c
+c
+c
+c
+c
+c
+c
+m
+p
+h
+c
+"}
+(4,1,1) = {"
+c
+p
+h
+c
+c
+c
+c
+h
+h
+c
+h
+h
+h
+c
+"}
+(5,1,1) = {"
+c
+c
+c
+c
+c
+h
+m
+V
+w
+h
+c
+c
+c
+c
+"}
+(6,1,1) = {"
+c
+c
+c
+c
+h
+m
+h
+p
+h
+h
+c
+c
+c
+c
+"}
+(7,1,1) = {"
+c
+c
+c
+h
+p
+a
+a
+a
+h
+c
+h
+h
+c
+c
+"}
+(8,1,1) = {"
+c
+c
+c
+h
+a
+a
+a
+j
+h
+c
+h
+x
+h
+c
+"}
+(9,1,1) = {"
+c
+c
+c
+h
+V
+h
+h
+m
+h
+c
+h
+h
+p
+c
+"}
+(10,1,1) = {"
+c
+c
+h
+w
+h
+p
+h
+h
+c
+c
+c
+c
+c
+c
+"}
+(11,1,1) = {"
+c
+h
+j
+m
+h
+h
+c
+c
+h
+p
+V
+h
+c
+c
+"}
+(12,1,1) = {"
+c
+c
+h
+h
+c
+c
+c
+c
+h
+w
+h
+m
+c
+c
+"}
+(13,1,1) = {"
+c
+c
+c
+c
+c
+c
+c
+h
+h
+m
+h
+h
+c
+c
+"}
+(14,1,1) = {"
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+"}

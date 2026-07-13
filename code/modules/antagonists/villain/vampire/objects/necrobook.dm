@@ -54,7 +54,7 @@
 			spawn(10 MINUTES)
 				GLOB.todoverride = null
 				sunstolen = FALSE
-			priority_announce("The Sun is torn from the sky!", "Terrible Omen", 'sound/misc/gods/astrata_omen.ogg')
+			priority_announce("The Sun is torn from the sky!", "Terrible Omen", 'sound/misc/gods/omen_fire.ogg')
 			addomen(OMEN_SUNSTEAL)
 			for(var/mob/living/carbon/human/astrater as anything in GLOB.human_list)
 				if(!istype(astrater.patron, /datum/patron/divine/visires))

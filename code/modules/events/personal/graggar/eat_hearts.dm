@@ -5,7 +5,7 @@
 	weight = 7
 	earliest_start = 15 MINUTES
 	max_occurrences = 1
-	min_players = 30
+	min_players = LOWPOP_THRESHOLD
 
 	tags = list(
 		TAG_ARCHDEVILS,
@@ -55,7 +55,7 @@
 		span_userdanger("YOU ARE THE ARCHDEVILS'S CHOSEN!"),
 		span_biginfo("Archdevil hungers! [new_objective.explanation_text]"),
 	))
-	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/graggar_omen.ogg', 100)
+	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/omen_hell.ogg', 100)
 
 	to_chat(chosen_one, span_notice("Archdevil grants you a power to extract hearts from the dead!"))
 

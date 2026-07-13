@@ -1,0 +1,282 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"b" = (
+/obj/item/clothing/neck/psycross/silver/divine/akan,
+/turf/open/floor/cobble,
+/area/template_noop)
+"j" = (
+/obj/structure/chair/bench{
+	pixel_y = 21
+	},
+/turf/open/floor/cobble,
+/area/template_noop)
+"q" = (
+/obj/item/reagent_containers/powder/blastpowder,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"w" = (
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"A" = (
+/obj/item/alch/airdust,
+/turf/open/floor/dirt,
+/area/template_noop)
+"D" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"F" = (
+/obj/structure/flora/grass/tundra,
+/turf/open/floor/cobble,
+/area/template_noop)
+"H" = (
+/obj/item/alch/airdust,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"L" = (
+/obj/item/reagent_containers/powder/ozium,
+/turf/open/floor/cobble,
+/area/template_noop)
+"M" = (
+/obj/structure/table/stone_small,
+/obj/structure/fluff/psycross/akan{
+	pixel_y = 16
+	},
+/turf/open/floor/cobble,
+/area/template_noop)
+"Q" = (
+/turf/open/floor/cobble,
+/area/template_noop)
+"R" = (
+/turf/open/floor/naturalstone,
+/area/template_noop)
+"Y" = (
+/obj/structure/fluff/statue/crystal/air,
+/turf/open/floor/dirt,
+/area/template_noop)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(3,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(4,1,1) = {"
+a
+a
+a
+a
+a
+a
+A
+a
+a
+a
+a
+a
+a
+a
+"}
+(5,1,1) = {"
+a
+a
+a
+a
+a
+R
+w
+D
+a
+a
+a
+a
+a
+a
+"}
+(6,1,1) = {"
+a
+a
+a
+Y
+q
+w
+b
+F
+R
+D
+D
+a
+a
+a
+"}
+(7,1,1) = {"
+a
+a
+a
+D
+D
+Q
+M
+j
+w
+D
+a
+a
+a
+a
+"}
+(8,1,1) = {"
+a
+a
+a
+a
+D
+H
+L
+w
+Y
+A
+a
+a
+a
+a
+"}
+(9,1,1) = {"
+a
+a
+a
+a
+a
+a
+w
+D
+D
+a
+a
+a
+a
+a
+"}
+(10,1,1) = {"
+a
+a
+a
+a
+a
+a
+D
+a
+a
+a
+a
+a
+a
+a
+"}
+(11,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(12,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(13,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(14,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}

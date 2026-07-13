@@ -9,3 +9,9 @@
 	var/can_open
 	///Whether an openable wing is currently opened
 	var/is_open
+
+/obj/item/organ/wings/dracon
+	name = "drakian wings"
+	desc = "A pair of majestic drakian wings."
+
+	can_open = FALSE

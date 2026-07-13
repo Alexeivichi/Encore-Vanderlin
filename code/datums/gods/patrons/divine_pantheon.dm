@@ -1,18 +1,18 @@
 GLOBAL_LIST_INIT(patron_sound_themes, list(
-	VISIRES = 'sound/magic/bless.ogg',
-	AKAN = 'sound/ambience/noises/mystical (4).ogg',
-	POMETTE = 'sound/vo/female/gen/giggle (1).ogg',
-	GANI = 'sound/magic/barbroar.ogg',
-	GOLERKANH = 'sound/magic/dwarf_chant01.ogg',
-	ILIOPE = 'sound/misc/gods/xylix_omen.ogg',
-	VALDALA = 'sound/ambience/noises/genspooky (1).ogg',
-	MJALLIDHORN = 'sound/items/bucket_transfer (2).ogg',
-	MORDSOL = 'sound/vo/male/knight/rage (6).ogg',
-	ERDL = 'sound/magic/cosmic_expansion.ogg',
-	ENVY = 'sound/misc/gods/zizo_omen.ogg',
-	ARCHDEVILS = 'sound/misc/gods/graggar_omen.ogg',
-	HERTANNEA = 'sound/misc/gods/baotha_omen.ogg',
-	DECEIVERS = 'sound/misc/gods/matthios_omen.ogg'
+	VISIRES = 'sound/misc/gods/omen_fire.ogg',
+	AKAN = 'sound/misc/gods/omen_air.ogg',
+	POMETTE = 'sound/misc/gods/omen_earth.ogg',
+	GANI = 'sound/misc/gods/omen_earth.ogg',
+	GOLERKANH = 'sound/misc/gods/omen_base.ogg',
+	ILIOPE = 'sound/misc/gods/omen_air.ogg',
+	VALDALA = 'sound/misc/gods/omen_frost.ogg',
+	MJALLIDHORN = 'sound/misc/gods/omen_frost.ogg',
+	MORDSOL = 'sound/misc/gods/omen_war.ogg',
+	ERDL = 'sound/misc/gods/omen_air.ogg',
+	ENVY = 'sound/misc/gods/omen_envy.ogg',
+	ARCHDEVILS = 'sound/misc/gods/omen_hell.ogg',
+	HERTANNEA = 'sound/misc/gods/omen_hertannea.ogg',
+	DECEIVERS = 'sound/misc/gods/omen_deceivers.ogg'
 ))
 
 /datum/patron/divine

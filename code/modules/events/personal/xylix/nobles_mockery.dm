@@ -5,7 +5,7 @@
 	weight = 10
 	earliest_start = 10 MINUTES
 	max_occurrences = 1
-	min_players = 25
+	min_players = HIGHPOP_THRESHOLD
 
 	tags = list(
 		TAG_ILIOPE,
@@ -45,6 +45,6 @@
 		span_userdanger("YOU ARE ILIOPE'S CHOSEN!"),
 		span_notice("Iliope demands entertainment! Viciously mock [new_objective.required_count] nobles to prove your wit and earn Iliope's favor!"),
 	))
-	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/xylix_omen.ogg', 100)
+	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/omen_air.ogg', 100)
 
 	chosen_one.mind.announce_personal_objectives()

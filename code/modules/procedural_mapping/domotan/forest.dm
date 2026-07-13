@@ -145,7 +145,9 @@
 							/area/outdoors/woods/crossroads,
 							/area/outdoors/woods/heavenscoast,
 							/area/outdoors/woods/whisperen,
-							/area/outdoors/bog)
+							/area/outdoors/bog,
+							/area/outdoors/woods/etgard,
+							/area/outdoors/woods/lakeside)
 
 /datum/mapGeneratorModule/domotanforestdirt/grass
 	clusterCheckFlags = CLUSTER_CHECK_NONE

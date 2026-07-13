@@ -113,6 +113,7 @@ h1.alert, h2.alert	{color: #c9c1ba;font-family: Pterra, TrueType;}
 .gronnic				{font-family: "Jorvik Informal", Pterra;}
 .beast					{font-family: "Thief by The Riddler", Pterra;}
 .deepspeak				{font-family: "Underwater Love", Pterra;}
+.lupian					{font-family: "Emperialisme", Pterra; font-size: 120%;}
 
 .torture				{color: #42ff20}
 

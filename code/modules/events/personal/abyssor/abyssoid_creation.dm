@@ -5,10 +5,10 @@
 	weight = 7
 	earliest_start = 10 MINUTES
 	max_occurrences = 1
-	min_players = 25
+	min_players = MIDPOP_THRESHOLD
 
 	tags = list(
-		TAG_MJALLIDHORN,
+		TAG_ERDL,
 		TAG_WATER,
 		TAG_NATURE,
 	)
@@ -21,7 +21,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/mjallidhorn))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/erdl))
 			continue
 		return TRUE
 
@@ -33,7 +33,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/mjallidhorn))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/erdl))
 			continue
 		valid_targets += H
 
@@ -49,11 +49,11 @@
 	chosen_one.add_spell(/datum/action/cooldown/spell/undirected/create_abyssoid)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE MJALLIDHORN'S CHOSEN!"),
-		span_blue("Mjallidhorn wants everyone to remember him! Create an army of holy abyssoid leeches and distribute them among the ingrates!"),
+		span_userdanger("YOU ARE ERDL'S CHOSEN!"),
+		span_blue("Erdl is prying in His experimentation! Create an army of holy abyssoid leeches and distribute them among the ingrates!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/items/bucket_transfer (2).ogg', 100)
 
-	to_chat(chosen_one, span_notice("Mjallidhorn grants you a power to create abyssoids from the common leeches! You will just need to pay a small blood price..."))
+	to_chat(chosen_one, span_notice("Erdl grants you a power to create abyssoids from the common leeches! You will just need to pay a small blood price..."))
 
 	chosen_one.mind.announce_personal_objectives()

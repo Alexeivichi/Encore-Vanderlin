@@ -4,7 +4,7 @@
 	typepath = /datum/round_event/archdevils_punch
 	weight = 7
 	earliest_start = 15 MINUTES
-	max_occurrences = 1
+	max_occurrences = 0
 	min_players = 30
 
 	tags = list(
@@ -53,6 +53,6 @@
 		span_userdanger("YOU ARE THE ARCHDEVILS'S CHOSEN!"),
 		span_biginfo("[new_objective.explanation_text]"),
 	))
-	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/graggar_omen.ogg', 100)
+	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/omen_hell.ogg', 100)
 
 	chosen_one.mind.announce_personal_objectives()

@@ -1,19 +1,19 @@
-/datum/round_event_control/envy_torture
+/datum/round_event_control/hertannea_torture
 	name = "Demand of Cruelty"
 	track = EVENT_TRACK_PERSONAL
-	typepath = /datum/round_event/envy_torture
+	typepath = /datum/round_event/hertannea_torture
 	weight = 7
 	earliest_start = 10 MINUTES
 	max_occurrences = 1
-	min_players = 20
+	min_players = HIGHPOP_THRESHOLD
 
 	tags = list(
-		TAG_ENVY,
+		TAG_HERTANNEA,
 		TAG_BLOOD,
 		TAG_INSANITY,
 	)
 
-/datum/round_event_control/envy_torture/canSpawnEvent(players_amt, gamemode, fake_check)
+/datum/round_event_control/hertannea_torture/canSpawnEvent(players_amt, gamemode, fake_check)
 	. = ..()
 	if(!.)
 		return FALSE
@@ -21,19 +21,19 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/inhumen/envy))
+		if(!H.patron || !istype(H.patron, /datum/patron/inhumen/hertannea))
 			continue
 		return TRUE
 
 	return FALSE
 
-/datum/round_event/envy_torture/start()
+/datum/round_event/hertannea_torture/start()
 	var/list/valid_targets = list()
 
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/inhumen/envy))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/inhumen/hertannea))
 			continue
 		valid_targets += human_mob
 
@@ -50,9 +50,9 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE HER CHOSEN!"),
-		span_biginfo("The One Envy demands suffering! Extract information through pain to earn the One Envy's favor!"),
+		span_biginfo("The Faery Devil demands suffering! Extract information through pain to earn Hertannea's favor!"),
 	))
-	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/zizo_omen.ogg', 100)
+	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/omen_hertannea.ogg', 100)
 
 	to_chat(chosen_one, span_notice("You have gained an ability to <b>torture</b> others!"))
 

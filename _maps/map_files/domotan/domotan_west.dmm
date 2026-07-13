@@ -299,6 +299,10 @@
 /obj/item/ammo_casing/caseless/bolt,
 /turf/open/floor/blocks,
 /area/indoors/lostkeep)
+"cG" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/dirt,
+/area/outdoors/woods/west)
 "cO" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4;
@@ -454,11 +458,8 @@
 /turf/open/floor/cobble/mossy,
 /area/outdoors/oldfort)
 "ex" = (
-/obj/structure/fluff/railing/border{
-	dir = 4;
-	icon_state = "border"
-	},
-/turf/open/floor/church,
+/obj/structure/door/violet,
+/turf/open/floor/blocks/green,
 /area/indoors/lostkeep)
 "ez" = (
 /turf/open/floor/sand,
@@ -702,6 +703,14 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/churchrough,
 /area/under/cave/oldfort)
+"gb" = (
+/obj/effect/landmark/quest_spawner/hard,
+/turf/open/floor/sand,
+/area/outdoors/woods/west/crags)
+"gc" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/grass/yel,
+/area/outdoors/woods/west)
 "ge" = (
 /obj/structure/fluff/railing/wood,
 /obj/structure/fluff/railing/wood{
@@ -880,6 +889,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/churchbrick,
 /area/under/cave/oldfort)
+"hL" = (
+/obj/effect/landmark/quest_spawner/hard,
+/turf/open/floor/grass/yel,
+/area/outdoors/woods/west/crags)
 "hM" = (
 /obj/structure/bars,
 /turf/open/floor/blocks,
@@ -1614,6 +1627,10 @@
 /obj/item/rope/chain,
 /turf/open/floor/hexstone,
 /area/indoors/lostkeep)
+"nG" = (
+/obj/effect/landmark/quest_spawner/medium,
+/turf/open/floor/grass/yel,
+/area/outdoors/woods/west/thornbed)
 "nH" = (
 /obj/item/grown/log/tree/small,
 /turf/open/floor/dirt/road,
@@ -1622,6 +1639,10 @@
 /obj/structure/bars/passage/shutter,
 /turf/open/floor/concrete,
 /area/under/cave/oldtown)
+"nO" = (
+/obj/effect/landmark/quest_spawner/medium,
+/turf/open/floor/sand,
+/area/outdoors/woods/west/crescent)
 "nT" = (
 /obj/item/spellbook_unfinished/pre_arcyne,
 /turf/open/floor/cobble,
@@ -1785,9 +1806,10 @@
 /turf/open/water/ocean,
 /area/outdoors/woods/west/crescent)
 "pq" = (
-/obj/item/restraints/legcuffs/beartrap/armed/camouflage,
-/turf/open/floor/dirt,
-/area/under/cavewet)
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/structure/door/green,
+/turf/open/floor/churchbrick,
+/area/indoors/lostkeep)
 "ps" = (
 /obj/structure/fluff/railing/wood{
 	dir = 1;
@@ -2679,6 +2701,10 @@
 	},
 /turf/open/floor/hexstone,
 /area/indoors/lostkeep)
+"wK" = (
+/obj/effect/landmark/quest_spawner/medium,
+/turf/open/floor/grass/yel,
+/area/outdoors/woods/west/crags)
 "wU" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -3578,7 +3604,7 @@
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/west)
 "Ed" = (
-/turf/open/floor/cobble,
+/turf/open/water/clean,
 /area/indoors/lighthouse)
 "Ee" = (
 /obj/structure/fluff/railing/border{
@@ -3892,7 +3918,7 @@
 /area/under/cavewet)
 "Gn" = (
 /obj/structure/table/church{
-	icon_state = "churchtable_end"
+	dir = 1
 	},
 /turf/open/floor/churchmarble,
 /area/indoors/lostkeep)
@@ -4410,6 +4436,10 @@
 "Kj" = (
 /turf/closed/wall/mineral/wooddark,
 /area/indoors/lighthouse)
+"Kk" = (
+/obj/effect/landmark/quest_spawner/medium,
+/turf/open/floor/grass/yel,
+/area/outdoors/woods/west)
 "Kl" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/cobble/mossy,
@@ -4499,6 +4529,11 @@
 	},
 /turf/open/floor/churchbrick,
 /area/indoors/lostkeep)
+"KW" = (
+/obj/structure/flora/grass,
+/obj/effect/landmark/quest_spawner/hard,
+/turf/open/floor/sand,
+/area/outdoors/woods/west/crags)
 "KX" = (
 /obj/structure/fluff/railing/border,
 /turf/open/openspace,
@@ -4596,12 +4631,12 @@
 	pixel_y = 7;
 	pixel_x = -9
 	},
-/obj/structure/table/church{
-	icon_state = "churchtable_end"
-	},
 /obj/item/natural/worms,
 /obj/item/natural/worms,
 /obj/structure/spider/stickyweb,
+/obj/structure/table/church{
+	dir = 1
+	},
 /turf/open/floor/cobble/mossy,
 /area/indoors/lostkeep)
 "LK" = (
@@ -4904,13 +4939,11 @@
 /turf/open/water/ocean/abyss,
 /area/under/cave/oldfort)
 "Ot" = (
-/obj/structure/fluff/railing/border{
-	dir = 4;
-	icon_state = "border"
+/obj/structure/door/weak/bolt{
+	dir = 1
 	},
-/obj/structure/spider/stickyweb,
-/turf/open/floor/church,
-/area/indoors/lostkeep)
+/turf/open/floor/tile/checkeralt,
+/area/indoors/lighthouse)
 "Ov" = (
 /turf/closed/wall/mineral/stone/moss,
 /area/indoors/lighthouse)
@@ -5142,11 +5175,11 @@
 /turf/open/floor/twig,
 /area/under/cavewet)
 "PU" = (
-/obj/structure/table/church{
-	icon_state = "churchtable_end"
-	},
 /obj/item/candle/yellow{
 	pixel_y = 10
+	},
+/obj/structure/table/church{
+	dir = 1
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/west)
@@ -5307,14 +5340,8 @@
 /turf/open/water/clean,
 /area/outdoors/woods/berkleigh)
 "Rn" = (
-/obj/structure/bars,
-/obj/structure/fluff/railing/border,
-/obj/structure/fluff/railing/border{
-	dir = 1;
-	icon_state = "border"
-	},
-/turf/open/floor/naturalstone,
-/area/indoors/lostkeep)
+/turf/closed/wall/mineral/wood,
+/area/indoors/lighthouse)
 "Ro" = (
 /obj/structure/fluff/walldeco/chains,
 /turf/open/floor/hexstone,
@@ -5396,14 +5423,11 @@
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/west/crags)
 "RX" = (
-/obj/structure/bars,
-/obj/structure/fluff/railing/border,
-/obj/structure/fluff/railing/border{
-	dir = 1;
-	icon_state = "border"
+/obj/structure/door/weak/bolt{
+	dir = 1
 	},
-/turf/open/floor/cobble/mossy,
-/area/indoors/lostkeep)
+/turf/open/floor/cobblerock,
+/area/indoors/lighthouse)
 "Sd" = (
 /obj/item/natural/fibers,
 /turf/open/openspace,
@@ -6235,12 +6259,9 @@
 /turf/open/floor/grass/yel,
 /area/outdoors/lighthouse)
 "Zj" = (
-/obj/structure/fluff/railing/border{
-	icon_state = "border";
-	dir = 6
-	},
-/turf/open/floor/church,
-/area/indoors/lostkeep)
+/obj/structure/door/weak,
+/turf/open/floor/tile/checkeralt,
+/area/under/cavewet)
 "Zm" = (
 /obj/structure/ladder,
 /obj/machinery/light/fueled/torchholder/r,
@@ -10021,7 +10042,7 @@ pM
 pM
 pM
 KZ
-sC
+gb
 Tt
 Tt
 KZ
@@ -17480,7 +17501,7 @@ sC
 Hc
 Hc
 sC
-Tt
+KW
 KZ
 sC
 sC
@@ -21583,7 +21604,7 @@ TC
 TC
 TC
 TC
-TC
+hL
 TC
 TC
 TC
@@ -22393,7 +22414,7 @@ dM
 qr
 jx
 dM
-dM
+nG
 dM
 jx
 dM
@@ -26197,7 +26218,7 @@ TC
 TC
 RU
 TC
-TC
+wK
 TC
 fp
 TC
@@ -27806,7 +27827,7 @@ dM
 dM
 jx
 dM
-dM
+nG
 Dj
 Dj
 Dj
@@ -31432,7 +31453,7 @@ KQ
 xB
 xB
 xB
-xB
+nO
 xB
 Iy
 Iy
@@ -34023,7 +34044,7 @@ KQ
 KQ
 KQ
 KQ
-oE
+Zj
 KQ
 KQ
 KQ
@@ -34170,7 +34191,7 @@ qk
 OD
 OD
 OD
-OD
+Kk
 KQ
 KQ
 KQ
@@ -34792,7 +34813,7 @@ xB
 xB
 xB
 zG
-pq
+zG
 Gl
 oE
 Gl
@@ -36370,7 +36391,7 @@ lL
 lL
 lL
 OD
-OD
+Kk
 OD
 lL
 OD
@@ -39558,7 +39579,7 @@ QB
 QB
 OD
 OD
-OD
+Kk
 lL
 lL
 KQ
@@ -40289,7 +40310,7 @@ sQ
 hO
 ie
 ie
-OD
+gc
 OD
 OD
 lL
@@ -40462,7 +40483,7 @@ OD
 OD
 OD
 OD
-OD
+Kk
 OD
 OD
 OD
@@ -43503,13 +43524,13 @@ kJ
 kJ
 OR
 Ki
-AX
+ex
 AX
 AX
 AX
 AX
 Zv
-Oj
+pq
 Oj
 Og
 Oj
@@ -43626,7 +43647,7 @@ ie
 ie
 ie
 OD
-OD
+gc
 OD
 OD
 IB
@@ -44407,7 +44428,7 @@ KQ
 KQ
 OD
 vr
-lL
+cG
 OD
 vr
 KQ
@@ -44432,7 +44453,7 @@ KQ
 KQ
 OD
 OD
-OD
+gc
 OD
 OD
 OD
@@ -55730,9 +55751,9 @@ wg
 dq
 aq
 Kj
-Kj
-Kj
-Kj
+Rn
+Rn
+Rn
 Kj
 wg
 dq
@@ -55984,8 +56005,8 @@ KX
 aq
 dq
 Kj
-Kj
-Kj
+Rn
+Rn
 Kj
 Ko
 Ko
@@ -56240,7 +56261,7 @@ Ul
 KX
 aq
 dq
-Kj
+Rn
 fJ
 NY
 oe
@@ -56248,7 +56269,7 @@ oe
 oe
 oe
 dA
-dA
+Ot
 fP
 Mu
 dQ
@@ -56497,7 +56518,7 @@ Ul
 KX
 dq
 aq
-Kj
+Rn
 eX
 oe
 oe
@@ -56513,7 +56534,7 @@ dQ
 XM
 fL
 Lt
-pd
+RX
 aq
 dq
 zU
@@ -56754,7 +56775,7 @@ Ul
 KX
 dq
 aq
-Kj
+Rn
 HP
 dA
 oO
@@ -56763,8 +56784,8 @@ Gw
 oe
 dA
 dA
-oO
-oO
+Ov
+Ov
 Co
 dQ
 dQ
@@ -57011,7 +57032,7 @@ Ul
 KX
 dq
 dq
-Kj
+Rn
 dA
 dA
 oO
@@ -57268,7 +57289,7 @@ Ul
 KX
 aq
 dq
-Kj
+Rn
 dA
 dA
 oO
@@ -57525,10 +57546,10 @@ yg
 KX
 aq
 dq
-Kj
+Rn
 HP
 dA
-dA
+Ot
 dA
 dA
 LG
@@ -57782,10 +57803,10 @@ Ul
 KX
 dq
 dq
-Kj
+Rn
 fI
 Fp
-Kj
+Rn
 dA
 dA
 LG
@@ -58040,14 +58061,14 @@ TT
 aq
 dq
 Kj
-Kj
-Kj
+Rn
+Rn
 Kj
 oH
 oH
 na
 Kj
-Kj
+Rn
 Kj
 Ov
 Ov
@@ -58300,9 +58321,9 @@ ua
 dq
 dq
 Kj
-Kj
-Kj
-Kj
+Rn
+Rn
+Rn
 Kj
 ua
 dq
@@ -61922,7 +61943,7 @@ qk
 qk
 OD
 OD
-OD
+Kk
 OD
 Sh
 Sh
@@ -62072,7 +62093,7 @@ OD
 OD
 OD
 OD
-OD
+Kk
 OD
 OD
 OD
@@ -65360,7 +65381,7 @@ OD
 OD
 OD
 OD
-OD
+Kk
 nV
 OD
 IB
@@ -66574,7 +66595,7 @@ nV
 OD
 kV
 qk
-OD
+Kk
 OD
 qk
 qk
@@ -70124,7 +70145,7 @@ OD
 OD
 OD
 OD
-OD
+Kk
 OD
 OD
 OD
@@ -70971,7 +70992,7 @@ OD
 OD
 OD
 OD
-OD
+Kk
 OD
 OD
 OD
@@ -72727,7 +72748,7 @@ by
 OD
 nV
 IP
-OD
+Kk
 OD
 nV
 OD
@@ -79368,7 +79389,7 @@ OD
 OD
 OD
 OD
-OD
+gc
 qk
 qk
 nV
@@ -83085,7 +83106,7 @@ lM
 Yu
 Sv
 ec
-Sv
+De
 Sv
 zI
 De
@@ -83726,7 +83747,7 @@ by
 OD
 OD
 OD
-OD
+gc
 OD
 by
 by
@@ -83854,11 +83875,11 @@ Oh
 jb
 Tu
 gC
-Zj
-ex
-ex
-ex
-Ot
+Sv
+Sv
+Sv
+Sv
+ec
 kJ
 kJ
 kJ
@@ -84373,7 +84394,7 @@ IK
 wI
 LY
 LY
-Rn
+De
 BP
 ct
 Bt
@@ -84629,8 +84650,8 @@ kJ
 LH
 Nw
 LY
-LY
-RX
+De
+De
 Gf
 TR
 kJ

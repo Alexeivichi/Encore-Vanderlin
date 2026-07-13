@@ -297,7 +297,7 @@ GLOBAL_LIST_EMPTY(tennite_schisms)
 		to_chat(owner, span_boldnotice("Your allegiance in the schism is now final."))
 
 /datum/round_event_control/schism_within_ten
-	name = "Schism within the Ten"
+	name = "Schism within the Katholikos"
 	track = EVENT_TRACK_INTERVENTION
 	typepath = /datum/round_event/schism_within_ten
 	weight = 2
@@ -345,7 +345,7 @@ GLOBAL_LIST_EMPTY(tennite_schisms)
 
 		if(human_mob.patron == strongest_challenger)
 			bordered_message(human_mob, list(
-				span_notice("You hear a divine calling from your patron - the time has come to challenge Visires's authority! Prepare for the coming schism!")
+				span_notice("You hear a divine calling from your patron - the time has come to challenge the Katholikos' authority! Prepare for the coming schism!")
 			))
 			human_mob.playsound_local(human_mob, 'sound/magic/marked.ogg', 100)
 

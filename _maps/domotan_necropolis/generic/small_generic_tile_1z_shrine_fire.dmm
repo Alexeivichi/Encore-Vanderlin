@@ -1,0 +1,269 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"f" = (
+/obj/item/clothing/neck/psycross/silver/divine/visires,
+/turf/open/floor/grass/yel,
+/area/template_noop)
+"m" = (
+/obj/structure/fluff/statue/crystal/fire,
+/turf/open/floor/grass/yel,
+/area/template_noop)
+"o" = (
+/obj/item/alch/firedust,
+/turf/open/floor/grass/yel,
+/area/template_noop)
+"q" = (
+/obj/structure/table/stone_small,
+/obj/structure/fluff/psycross/visires{
+	pixel_y = 16
+	},
+/turf/open/floor/grass/yel,
+/area/template_noop)
+"A" = (
+/turf/open/floor/grass/yel,
+/area/template_noop)
+"F" = (
+/obj/structure/flora/grass/herb/calendula,
+/turf/open/floor/grass/yel,
+/area/template_noop)
+"H" = (
+/obj/structure/chair/bench{
+	pixel_y = 21
+	},
+/turf/open/floor/grass/yel,
+/area/template_noop)
+"W" = (
+/obj/machinery/light/fueled/firebowl/church,
+/turf/open/floor/grass/yel,
+/area/template_noop)
+"Z" = (
+/obj/structure/flora/grass/pyroclasticflowers,
+/turf/open/floor/grass/yel,
+/area/template_noop)
+
+(1,1,1) = {"
+a
+a
+a
+A
+A
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+A
+Z
+A
+a
+a
+A
+a
+a
+a
+a
+A
+a
+a
+"}
+(3,1,1) = {"
+a
+a
+A
+a
+a
+A
+A
+A
+a
+a
+Z
+A
+a
+a
+"}
+(4,1,1) = {"
+a
+a
+A
+a
+a
+a
+A
+a
+a
+m
+F
+a
+a
+a
+"}
+(5,1,1) = {"
+a
+a
+Z
+A
+a
+A
+F
+A
+A
+A
+A
+A
+a
+a
+"}
+(6,1,1) = {"
+a
+a
+a
+A
+A
+A
+f
+A
+A
+a
+a
+a
+a
+a
+"}
+(7,1,1) = {"
+a
+a
+A
+F
+A
+A
+q
+H
+W
+A
+a
+a
+a
+a
+"}
+(8,1,1) = {"
+a
+a
+a
+A
+A
+o
+A
+A
+A
+Z
+A
+a
+A
+a
+"}
+(9,1,1) = {"
+a
+a
+a
+A
+m
+A
+F
+A
+A
+a
+A
+A
+Z
+a
+"}
+(10,1,1) = {"
+a
+A
+A
+A
+A
+A
+A
+Z
+a
+a
+a
+A
+a
+a
+"}
+(11,1,1) = {"
+a
+A
+A
+a
+a
+a
+A
+A
+a
+a
+a
+a
+a
+a
+"}
+(12,1,1) = {"
+a
+a
+A
+a
+a
+a
+a
+Z
+A
+a
+a
+a
+a
+a
+"}
+(13,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+A
+a
+a
+a
+a
+a
+a
+"}
+(14,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}

@@ -84,13 +84,18 @@
 				<option value="['sound/misc/alert.ogg']">Decree</option>
 				<option value="['sound/misc/bell.ogg']">Bell</option>
 				<option value="['sound/misc/lawdeclaration.ogg']">Law Declaration</option>
-				<option value="['sound/misc/evilevent.ogg']">Generic Bad Omen</option>
-				<option value="['sound/misc/gods/astrata_omen.ogg']">Visires Omen</option>
-				<option value="['sound/misc/gods/xylix_omen.ogg']">Iliope Omen</option>
-				<option value="['sound/misc/gods/zizo_omen.ogg']">One Envy Omen</option>
-				<option value="['sound/misc/gods/graggar_omen.ogg']">Archdevils Omen</option>
-				<option value="['sound/misc/gods/matthios_omen.ogg']">Deceivers Omen</option>
-				<option value="['sound/misc/gods/baotha_omen.ogg']">Hertannea Omen</option>
+				<option value="['sound/misc/gods/omen_base.ogg']">Generic Bad Omen</option>
+				<option value="['sound/misc/gods/omen_fire.ogg']">Fire Omen</option>
+				<option value="['sound/misc/gods/omen_air.ogg']">Air Omen</option>
+				<option value="['sound/misc/gods/omen_frost.ogg']">Frost Omen</option>
+				<option value="['sound/misc/gods/omen_earth.ogg']">Earth Omen</option>
+				<option value="['sound/misc/gods/omen_war.ogg']">War Omen</option>
+				<option value="['sound/misc/gods/omen_envy.ogg']">One Envy Omen</option>
+				<option value="['sound/misc/gods/omen_hell.ogg']">Archdevils Omen</option>
+				<option value="['sound/misc/gods/omen_sages.ogg']">Sages Omen</option>
+				<option value="['sound/misc/gods/omen_deceivers.ogg']">Deceivers Omen</option>
+				<option value="['sound/misc/gods/omen_hertannea.ogg']">Hertannea Omen</option>
+				<option value="['sound/misc/gods/omen_reactor_overload.ogg']">Reactor Alert</option>
 			</select>
 		</div>
 

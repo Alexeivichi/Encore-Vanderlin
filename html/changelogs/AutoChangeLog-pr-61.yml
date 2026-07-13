@@ -1,0 +1,6 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - rscadd: "Added the shirleighan reactor"
+  - rscadd: "Mapped in quest markers"
+  - rscadd: "Added doors to missing areas in the weeping wood"

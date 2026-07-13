@@ -431,7 +431,7 @@ GLOBAL_LIST_INIT(badomens, list())
 				"The Mount Groans", \
 				"A Dark Cloud Rises", \
 			)
-			sound = 'sound/misc/gods/zizo_omen.ogg'
+			sound = 'sound/misc/gods/omen_base.ogg'
 		if(OMEN_NOLORD)
 			used = "The Regent is dead! We need a new ruler."
 		if(OMEN_NOPRIEST)

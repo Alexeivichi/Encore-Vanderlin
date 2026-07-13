@@ -137,3 +137,6 @@
 /obj/item/organ/ears/rakshari/Remove(mob/living/carbon/human/H,  special = 0)
 	. = ..()
 	REMOVE_TRAIT(H, TRAIT_KEENEARS, "[type]")
+
+/obj/item/organ/ears/lupian
+	name = "lupian ears"

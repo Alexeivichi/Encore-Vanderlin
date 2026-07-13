@@ -31,10 +31,27 @@
 	icon_state = "kobold"
 	color_key_defaults = list(KEY_SKIN_COLOR)
 
+/datum/sprite_accessory/wings/bat
+	name = "Bat"
+	icon_state = "bat"
+
 /datum/sprite_accessory/wings/wide
 	abstract_type = /datum/sprite_accessory/wings/wide
 	icon = 'icons/mob/sprite_accessory/wings/wings_wide.dmi'
 	pixel_x = -7
+
+/datum/sprite_accessory/wings/wide/succubus
+	name = "Succubus"
+	icon_state = "succubus"
+	extra_state = TRUE
+
+/datum/sprite_accessory/wings/wide/dragon_alt1
+	name = "Dragon (alt 1)"
+	icon_state = "dragonalt1"
+
+/datum/sprite_accessory/wings/wide/dragon_alt2
+	name = "Dragon (alt 2)"
+	icon_state = "dragonalt2"
 
 /datum/sprite_accessory/wings/huge
 	abstract_type = /datum/sprite_accessory/wings/huge
@@ -42,6 +59,14 @@
 	relevant_layers = list(BODY_BEHIND_LAYER, BODY_ADJ_LAYER, BODY_FRONT_LAYER)
 	pixel_x = -32
 	can_open = TRUE
+
+/datum/sprite_accessory/wings/huge/angel
+	name = "Angel"
+	icon_state = "angel"
+
+/datum/sprite_accessory/wings/huge/dragon
+	name = "Dragon"
+	icon_state = "dragon"
 
 /datum/sprite_accessory/wings/large
 	abstract_type = /datum/sprite_accessory/wings/large

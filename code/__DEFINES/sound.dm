@@ -133,3 +133,5 @@
 #define AMBIENCE_FROG "spooky_frog"
 #define AMBIENCE_BIRDS "spooky_birds"
 #define AMBIENCE_MYSTICAL "spooky_mystic"
+#define AMBIENCE_UNDERWATER "ambience_underwater"
+#define AMBIENCE_DEEPWATER "ambience_deepwater"

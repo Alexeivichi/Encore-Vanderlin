@@ -4,7 +4,7 @@
 	typepath = /datum/round_event/archdevils_misandry
 	weight = 10
 	earliest_start = 10 MINUTES
-	max_occurrences = 1
+	max_occurrences = 0
 	min_players = 20
 
 	tags = list(
@@ -52,6 +52,6 @@
 		span_userdanger("YOU ARE HELL'S CHOSEN!"),
 		span_notice("Mortals are weak and must be dominated. Kick a male in the nuts to satisfy the Archdevils!"),
 	))
-	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/zizo_omen.ogg', 100)
+	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/omen_hell.ogg', 100)
 
 	chosen_one.mind.announce_personal_objectives()

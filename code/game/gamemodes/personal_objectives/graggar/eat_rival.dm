@@ -61,7 +61,7 @@
 		STAT_SPEED = 3,
 		STAT_FORTUNE = 3
 	))
-	owner.current.playsound_local(owner.current, 'sound/misc/gods/graggar_omen.ogg', 100)
+	owner.current.playsound_local(owner.current, 'sound/misc/gods/omen_hell.ogg', 100)
 
 /datum/objective/personal/eat_rival_heart/update_explanation_text()
 	explanation_text = "Prove that you are not weak to Archdevil by eating the heart of [rival_name], the [rival_job]! Eat them before they eat YOU!"
