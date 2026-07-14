@@ -138,7 +138,7 @@ GLOBAL_LIST_EMPTY(last_words)
 
 
 /mob/living/proc/prepare_deathsight_message()
-	var/area_of_death = lowertext(get_area_name(src))
+	var/area_of_death = LOWER_TEXT(get_area_name(src))
 	var/locale = "a locale wreathed in enigmatic fog"
 	switch (area_of_death) // we're deliberately obtuse with this.
 		if ("mountains", "mt decapitation", "goler kanh's pedestal forest", "goler kanh's pedestal under lower caves", "goler kanh's pedestal cave building", "goler kanh's pedestal lower dungeon", "goler kanh's pedestal surface building", "goler kanh's pedestal hidden grove", "goler kanh's pedestal peak")
