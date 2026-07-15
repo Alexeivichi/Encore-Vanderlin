@@ -1041,6 +1041,7 @@
 #include "code\datums\components\beetlejuice.dm"
 #include "code\datums\components\blacksmith.dm"
 #include "code\datums\components\blood_stability.dm"
+#include "code\datums\components\bloodpool_regen.dm"
 #include "code\datums\components\bounded.dm"
 #include "code\datums\components\breed.dm"
 #include "code\datums\components\butchering.dm"

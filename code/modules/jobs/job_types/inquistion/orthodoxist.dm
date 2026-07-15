@@ -48,19 +48,25 @@
 		devotion.make_templar()
 		devotion.grant_to(spawned)
 
-/*
 	spawned.hud_used?.shutdown_bloodpool()
 	spawned.hud_used?.initialize_bloodpool()
 	spawned.hud_used?.bloodpool.set_fill_color("#dcdddb")
 	spawned.hud_used?.bloodpool?.name = "Aspects' Grace: [spawned.bloodpool]"
 	spawned.hud_used?.bloodpool?.desc = "Devotion: [spawned.bloodpool]/[spawned.maxbloodpool]"
 	spawned.maxbloodpool = 1000
-*/
+	spawned.AddComponent(/datum/component/bloodpool_regen, 0.5)
 
 	var/datum/species/species = spawned.dna?.species
 	if(species)
 		species.native_language = "Old Unsundered"
 		species.accent_language = species.get_accent(species.native_language)
+
+/datum/job/orthodoxist/remove_job(mob/living/carbon/human/spawned)
+	. = ..()
+	if(.)
+		spawned.hud_used?.shutdown_bloodpool()
+		spawned.maxbloodpool = initial(spawned.maxbloodpool)
+		qdel(spawned.GetComponent(/datum/component/bloodpool_regen))
 
 /datum/job/advclass/sacrestant
 	exp_types_granted = list(EXP_TYPE_INQUISITION, EXP_TYPE_COMBAT)
