@@ -26,7 +26,7 @@
 	title = "Vaquero"
 	tutorial = "You have been taming beasts of burden all your life, and riding since you were old enough to walk. Perhaps these lands will have use for your skills?"
 	allowed_races = RACES_PLAYER_ALL
-	outfit = /datum/outfit/folkhero/vaquero
+	outfit = /datum/outfit/vaquero
 	cmode_music = 'sound/music/cmode/adventurer/combat_vaquero.ogg'
 	category_tags = list(CTAG_FOLKHEROES)
 	total_positions = 99
@@ -42,8 +42,24 @@
 	. = ..()
 	new /mob/living/simple_animal/hostile/retaliate/saiga/tame/saddled(get_turf(spawned))
 
-/datum/outfit/folkhero/vaquero
-	name = "Vaquero (Folkhero)"
+/datum/job/advclass/combat/vaquero/on_roundstart(mob/living/spawned, client/player_client)
+	. = ..()
+
+	var/obj/item/clothing/cloak/poncho/ponck = spawned.get_item_by_slot(ITEM_SLOT_CLOAK)
+
+	var/list/colors = GLOB.peasant_dyes | GLOB.noble_dyes
+
+	var/color_selection = tgui_input_list(player_client, "What color was my poncho?	", "The Poncho", colors, "Winestain Red")
+	if(!color_selection)
+		return
+
+	if(ponck.loc != spawned)
+		return
+
+	ponck.color = colors[color_selection]
+
+/datum/outfit/vaquero
+	name = "Vaquero"
 	head = /obj/item/clothing/head/bardhat
 	shoes = /obj/item/clothing/shoes/boots
 	pants = /obj/item/clothing/pants/tights/colored/random
@@ -56,3 +72,12 @@
 	beltr = /obj/item/weapon/whip
 	neck = /obj/item/clothing/neck/chaincoif
 	mask = /obj/item/alch/herb/rosa
+	cloak = /obj/item/clothing/cloak/poncho
+
+/datum/outfit/vaquero/post_equip(mob/living/carbon/human/H, visuals_only)
+	. = ..()
+
+	var/list/colors = GLOB.peasant_dyes | GLOB.noble_dyes
+
+	var/obj/item/clothing/cloak/poncho/ponck = H.get_item_by_slot(ITEM_SLOT_CLOAK)
+	ponck.color = pick_assoc(colors)
