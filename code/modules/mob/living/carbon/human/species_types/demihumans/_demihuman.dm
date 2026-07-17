@@ -19,7 +19,8 @@
 	id = SPEC_ID_HOLLOWKIN
 	desc = "A product of any variety of upbringing in all the globe- in being called Otherkin, one is generally classified as a lesser-populated species. \
 	Never having had the forefront of the world's attention before the creation of the Goblet, they now consist of a huge minority of leftovers in the new world. \
-	This selection enables the player to create their own species; beware that all normal server rules, especially believability, are still enforced. \
+	This selection enables the player to create their own species; whether to represent a wholly unique species, or the mixdd half-kin offspring of two other existing races. \
+	Beware that all normal server rules, especially believability, are still enforced; and you may not contradict existing lore. \
 	You are solely responsible for your character's origins. \
 	+1 Perception."
 
