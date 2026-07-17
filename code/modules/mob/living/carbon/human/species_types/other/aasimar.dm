@@ -29,7 +29,7 @@
 	Among the common people of the Goblet, Aasimar are viewed with a mixture of uneasy fear, awed respect, or both. \
 	Because of their nature, they make for natural conduits for divine powers, and the Katholikos eagerly welcomes them \
 	into their ranks. Wise, resillient, enduring and unaging, the death of an Aasimar is considered a terrible omen, \
-	as doom is sure to follow. \
+	as doom is sure to follow.<br>\
 	+2 Intelligence, +1 Constitution, +1 Endurance, -1 Speed, 10% Pain Resist, 20% Bleed Resist"
 
 	skin_tone_wording = "Craft"

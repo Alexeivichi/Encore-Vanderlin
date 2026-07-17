@@ -21,13 +21,14 @@
 	Never having had the forefront of the world's attention before the creation of the Goblet, they now consist of a huge minority of leftovers in the new world. \
 	This selection enables the player to create their own species; whether to represent a wholly unique species, or the mixdd half-kin offspring of two other existing races. \
 	Beware that all normal server rules, especially believability, are still enforced; and you may not contradict existing lore. \
-	You are solely responsible for your character's origins. \
+	You are solely responsible for your character's origins.<br> \
 	+1 Perception."
 
 	allowed_pronouns = PRONOUNS_LIST
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR, HAIR ,FACEHAIR, LIPS, STUBBLE, OLDGREY)
+	inherent_traits = list(TRAIT_NOMOBSWAP)
 	default_features = MANDATORY_FEATURE_LIST
 	use_skintones = TRUE
 	possible_ages = NORMAL_AGES_LIST

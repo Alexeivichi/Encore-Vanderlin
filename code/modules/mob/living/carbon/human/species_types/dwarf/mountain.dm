@@ -31,7 +31,7 @@
 	architects, warriors, and sorcerous excellence. To many surfacers, Dwarves are most known \
 	for their beards and booze, but their history is so much more. From the fortresses of Tor Bachtershild \
 	to the jagged spires of the Holy Towers, the Dwarven people span at least half the world and still stand proud, \
-	despite the enemies within and without that might see them bend the knee. \
+	despite the enemies within and without that might see them bend the knee.<br> \
 	+1 Strength, +2 Constitution, +2 Endurance, -2 Perception, -1 Speed, Poison Resistance"
 
 	skin_tone_wording = "Ore Attunement"

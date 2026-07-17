@@ -24,7 +24,7 @@
 	Displaced refugees from the Big Burn, the Vultura are a humanoid species of birds that share \
 	many visual similarities with the birds of prey that are their namesake. With most of their history \
 	lost to the blaze, these mysterious avians are oft mistrusted and misunderstood, and have attained \
-	a reputation as scavengers; not least of all for their capacity to feed on carrion. \
+	a reputation as scavengers; not least of all for their capacity to feed on carrion.<br>\
 	+1 Perception, +2 Intelligence, -1 Constitution, -1 Speed, Dead Nose, Inhuman Digestion"
 
 	possible_ages = NORMAL_AGES_LIST

@@ -33,7 +33,7 @@
 	saw incredible potential in Orcs, though the taint of Hell vexed Him. It was He, with powers divine, who took the strength of true Orcs and \
 	combined it with the mind and soul of Men, seeking to create a whole greater than the sum of its parts; in doing so, the first Half-Orcs were born. \
 	This act divided the Pantheon however, and many mortals yet feared these people who resembled the vicious Orcs. Only within the last century have \
-	Half-Orcs carved out the beginnings of societal tolerance... \
+	Half-Orcs started to carve out societal tolerance.<br>\
     +2 Strength, +2 Constitution, +1 Endurance, -2 Perception, Dead Nose, 20% Hunger Increase"
 
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)

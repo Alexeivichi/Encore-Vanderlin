@@ -18,10 +18,16 @@
 	multiple_accents = list(
 		"No Accent" = ACCENT_NONE,
 	)
-	desc = "Sisseans are semi-aquatic reptilian humanoids. Their skin is covered in scales and varied in color from dark green through to shades of brown and gray. Sisseans have non-prehensile muscular tails that grow to three or four feet in length, and these are used for balance. They also have sharp claws and teeth. Most of these originate from the humid tropics of the Delve north of the Qadirid or scattered disparate island nations."
+	desc = "<b>Sissean</b><br>\
+	A semi-acquatic reptilian race, Sisseans are a people that make their homes along riverbeds, \
+	swamps, and marshlands, and can be found anywhere with such conditions; though their largest \
+	concentrations can be found in the marshlands and swamps of Tuk and Manesi, islands not far \
+	off the coast of Cudao. They’re known to be skilled hunters and craftsmen.<br>\
+	+1 Constitution, Good Swimmer, Water Breathing."
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR, LIPS, STUBBLE)
+	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_WATER_BREATHING, TRAIT_GOOD_SWIM)
 	use_skintones = TRUE
 
 	possible_ages = NORMAL_AGES_LIST

@@ -23,7 +23,7 @@
 	rancid and quick-witted Knoblits with a set of wings gifted by Her touch. Assumedly, Hertannea \
 	uses the Hobknoblits as Her eyes and ears beyond Palasi Necra, but many believe She simply wanted \
 	them to go away and made them our problems instead. Unlike normal Knoblits, Hobknoblits are seen \
-	as daemonic imps in nature, and are often killed whenever they are seen by civilized folk. \
+	as daemonic imps in nature, and are often killed whenever they are seen by civilized folk.<br> \
 	+2 Perception, +2 Intelligence, +2 Endurance, +2 Speed, -4 Strength, -4 Constitution, Tiny, Darkvision"
 
 	allowed_pronouns = PRONOUNS_LIST_IT_ONLY

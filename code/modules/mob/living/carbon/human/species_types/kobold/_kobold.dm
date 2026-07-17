@@ -45,7 +45,7 @@
 	they make attempts to integrate into towns and cities. Such attempts never work, lest they keep their \
 	treasure-eating tendencies in check. They are especially frowned upon on Domotan Island, especially in \
 	the new era of treasure hunting. A Knoblit who covets the treasure of their neighbour is liable to \
-	disappear. \
+	disappear.<br> \
 	+2 Speed, +1 Endurance, -2 Strength, -2 Constitution, Tiny, Darkvision"
 
 	skin_tone_wording = "Scale Color"

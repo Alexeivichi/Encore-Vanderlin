@@ -28,7 +28,7 @@
 	Mad God's head sank into its depths, spawning monsters and boiling the sea as it cooled. \
 	In the aftermath, many can be found as refugees in any major port city in the Goblet, or \
 	in small coastal settlements dotted throughout the Sea of Fire. Many are scared off by their \
-	frightening appearance, but the Triton are not an inherently violent people. \
+	frightening appearance, but the Triton are not an inherently violent people.<br>\
 	+2 Strength, +3 Constitution, -2 Perception, -3 Speed, Good Swimmer, Water Breathing, Strong Bite, Fishface"
 
 	possible_ages = NORMAL_AGES_LIST
