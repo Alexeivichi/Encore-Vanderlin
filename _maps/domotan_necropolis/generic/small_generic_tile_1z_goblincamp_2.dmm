@@ -1,0 +1,306 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"f" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/template_noop)
+"i" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"j" = (
+/obj/structure/tent_wall,
+/turf/open/floor/twig,
+/area/indoors)
+"n" = (
+/obj/structure/roguetent,
+/turf/open/floor/twig,
+/area/indoors)
+"o" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"t" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"v" = (
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"x" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/dirt,
+/area/template_noop)
+"A" = (
+/turf/open/floor/twig,
+/area/indoors)
+"B" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
+/turf/open/floor/twig,
+/area/indoors)
+"C" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/twig,
+/area/indoors)
+"E" = (
+/obj/structure/toilet,
+/turf/open/floor/dirt,
+/area/indoors)
+"J" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
+/turf/open/floor/dirt,
+/area/indoors)
+"K" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
+/turf/open/floor/twig,
+/area/indoors)
+"L" = (
+/obj/structure/rack,
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/dirt,
+/area/indoors)
+"N" = (
+/turf/open/floor/twig,
+/area/template_noop)
+"O" = (
+/obj/structure/table/wood,
+/turf/open/floor/twig,
+/area/indoors)
+"Q" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/twig,
+/area/indoors)
+"T" = (
+/obj/structure/closet/crate/chest/wicker,
+/turf/open/floor/twig,
+/area/indoors)
+"W" = (
+/turf/open/floor/dirt,
+/area/indoors)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+a
+a
+i
+i
+a
+v
+a
+a
+j
+j
+j
+j
+a
+"}
+(3,1,1) = {"
+a
+a
+i
+v
+f
+i
+v
+v
+a
+j
+E
+J
+j
+a
+"}
+(4,1,1) = {"
+a
+v
+f
+i
+v
+i
+a
+a
+a
+j
+W
+L
+j
+a
+"}
+(5,1,1) = {"
+a
+v
+v
+a
+v
+t
+i
+a
+a
+j
+n
+n
+j
+a
+"}
+(6,1,1) = {"
+a
+a
+v
+a
+o
+v
+i
+a
+a
+a
+i
+N
+a
+a
+"}
+(7,1,1) = {"
+a
+a
+a
+a
+i
+i
+i
+i
+a
+a
+N
+v
+a
+a
+"}
+(8,1,1) = {"
+a
+j
+j
+j
+j
+j
+a
+N
+v
+a
+i
+f
+i
+a
+"}
+(9,1,1) = {"
+a
+j
+B
+W
+J
+A
+a
+N
+N
+v
+i
+x
+i
+a
+"}
+(10,1,1) = {"
+a
+j
+B
+W
+W
+A
+N
+i
+t
+v
+i
+a
+a
+a
+"}
+(11,1,1) = {"
+a
+j
+T
+C
+Q
+A
+i
+i
+v
+a
+a
+a
+a
+a
+"}
+(12,1,1) = {"
+a
+j
+L
+K
+O
+W
+i
+f
+x
+a
+a
+a
+a
+a
+"}
+(13,1,1) = {"
+a
+j
+j
+j
+j
+j
+a
+i
+i
+a
+a
+a
+a
+a
+"}
+(14,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}

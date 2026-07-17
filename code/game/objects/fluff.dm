@@ -292,6 +292,7 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/desert_window/open, 32)
 	icon = 'icons/delver/kelp.dmi'
 	resistance_flags = FIRE_PROOF
 	density = TRUE
+	alpha = 90//since these will only spawn underwater
 
 /obj/structure/flora/kelp/Initialize()
 	. = ..()

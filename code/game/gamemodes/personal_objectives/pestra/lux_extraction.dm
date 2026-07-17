@@ -1,5 +1,5 @@
 /datum/objective/personal/lux_extraction
-	name = "Extract Lux"
+	name = "Extract Thauma"
 	category = "Erdl's Chosen"
 	triumph_count = 2
 	rewards = list("2 Triumphs", "Erdl grows stronger", "Medicine knowledge")
@@ -24,7 +24,7 @@
 
 /datum/objective/personal/lux_extraction/complete_objective()
 	. = ..()
-	to_chat(owner.current, span_greentext("You have extracted lux and completed Erdl's objective!"))
+	to_chat(owner.current, span_greentext("You have extracted Thauma and completed Erdl's objective!"))
 	adjust_storyteller_influence(ERDL, 20)
 	UnregisterSignal(owner.current, COMSIG_LUX_EXTRACTED)
 
@@ -33,4 +33,4 @@
 	owner.current.adjust_skill_level(/datum/attribute/skill/misc/medicine, 10)
 
 /datum/objective/personal/lux_extraction/update_explanation_text()
-	explanation_text = "Extract lux from a living being to sate Erdl's curiosity!"
+	explanation_text = "Extract Thauma from a living being to sate Erdl's curiosity!"

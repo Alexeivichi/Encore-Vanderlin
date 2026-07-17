@@ -1,5 +1,5 @@
 /datum/round_event_control/erdl_lux
-	name = "Lux Extraction Demand"
+	name = "Thauma Extraction Demand"
 	track = EVENT_TRACK_PERSONAL
 	typepath = /datum/round_event/erdl_lux
 	weight = 7
@@ -50,7 +50,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE ERDL'S CHOSEN!"),
-		span_notice("Erdl is curious about the divine spark! Extract lux from a living being to earn Erdl's favor!"),
+		span_notice("Erdl is curious about the divine spark! Extract Thauma from a living being to earn Erdl's favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/magic/cosmic_expansion.ogg', 100)
 

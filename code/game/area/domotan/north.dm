@@ -56,7 +56,8 @@
 /area/latejoin_area
 	name = "latespawn"
 	icon_state = "underworld"
-	background_track = 'sound/music/area/underworlddrone.ogg'
+	background_track = 'sound/music/area/prismatic_bridge.ogg'
 	background_track_dusk = null
 	background_track_night = null
 	first_time_text = "The Prismatic Bridge"
+	custom_area_sound = 'sound/misc/stings/prismatic_sting.ogg'

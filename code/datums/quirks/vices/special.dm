@@ -29,29 +29,29 @@
 		log_hunted("[H.ckey] playing as [H.name] has the hunted quirk.")
 		logged = TRUE
 
-/datum/quirk/vice/luxless
-	name = "Lux-less"
-	desc = "Through some grand misfortune, or heroic sacrifice - you have given up your link to Angros, and with it - your soul. A putrid, horrid thing, you consign yourself to an eternity of nil after death. EXPECT A DIFFICULT, MECHANICALLY UNFAIR EXPERIENCE. (Rakshari, Hollowkin and Kobolds cannot take this - they already have no lux.)"
-	point_value = 5
-	random_exempt = TRUE
-	blocked_species = list(
-		/datum/species/kobold,
-		/datum/species/demihuman,
-		/datum/species/rakshari,
-		/datum/species/rousman,
-		/datum/species/goblin,
-		/datum/species/orc,
-	)
+// /datum/quirk/vice/luxless
+// 	name = "Thauma-less"
+// 	desc = "You lack Thauma! You are the antithesis of everything right in the world. All life carries an inherent disdain towards you, whether you intended this or not. EXPECT A DIFFICULT, MECHANICALLY UNFAIR EXPERIENCE."
+// 	point_value = 5
+// 	random_exempt = TRUE
+// 	blocked_species = list(
+// 		/datum/species/kobold,
+// 		/datum/species/demihuman,
+// 		/datum/species/rakshari,
+// 		/datum/species/rousman,
+// 		/datum/species/goblin,
+// 		/datum/species/orc,
+// 	)
 
-/datum/quirk/vice/luxless/on_examined(mob/user, list/P, list/examine_contents)
-	if(HAS_TRAIT(user, TRAIT_RECOGNIZE_ADDICTS))
-		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("Luxless..."))
+// /datum/quirk/vice/luxless/on_examined(mob/user, list/P, list/examine_contents)
+// 	if(HAS_TRAIT(user, TRAIT_RECOGNIZE_ADDICTS))
+// 		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("Daemonic..."))
 
-/datum/quirk/vice/luxless/on_spawn()
-	if(!ishuman(owner))
-		return
-	var/mob/living/carbon/human/H = owner
-	H.apply_status_effect(/datum/status_effect/debuff/flaw_lux_taken)
+// /datum/quirk/vice/luxless/on_spawn()
+// 	if(!ishuman(owner))
+// 		return
+// 	var/mob/living/carbon/human/H = owner
+// 	H.apply_status_effect(/datum/status_effect/debuff/flaw_lux_taken)
 
 /datum/quirk/vice/pacifist
 	name = "Pacifist"

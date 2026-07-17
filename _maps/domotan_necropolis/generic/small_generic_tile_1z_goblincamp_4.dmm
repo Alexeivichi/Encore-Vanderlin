@@ -1,0 +1,287 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/dirt,
+/area/template_noop)
+"b" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"c" = (
+/obj/structure/toilet,
+/turf/open/floor/dirt,
+/area/indoors)
+"i" = (
+/turf/template_noop,
+/area/template_noop)
+"k" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/twig,
+/area/indoors)
+"m" = (
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"p" = (
+/obj/structure/rack,
+/turf/open/floor/twig,
+/area/indoors)
+"v" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"x" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
+/turf/open/floor/dirt,
+/area/indoors)
+"y" = (
+/turf/open/floor/twig,
+/area/template_noop)
+"A" = (
+/obj/structure/roguetent,
+/turf/open/floor/dirt,
+/area/indoors)
+"D" = (
+/obj/structure/tent_wall,
+/turf/open/floor/twig,
+/area/indoors)
+"G" = (
+/obj/structure/rack,
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/dirt,
+/area/indoors)
+"P" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/dirt,
+/area/template_noop)
+"Q" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/twig,
+/area/template_noop)
+"Z" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/twig,
+/area/indoors)
+
+(1,1,1) = {"
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+"}
+(2,1,1) = {"
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+b
+b
+i
+i
+"}
+(3,1,1) = {"
+i
+i
+i
+i
+i
+b
+b
+b
+b
+b
+P
+b
+b
+i
+"}
+(4,1,1) = {"
+i
+i
+a
+i
+b
+a
+D
+D
+D
+D
+y
+a
+a
+i
+"}
+(5,1,1) = {"
+i
+i
+a
+i
+b
+b
+A
+k
+x
+D
+y
+y
+a
+a
+"}
+(6,1,1) = {"
+i
+i
+b
+b
+m
+b
+A
+Z
+p
+D
+i
+b
+b
+i
+"}
+(7,1,1) = {"
+i
+i
+i
+b
+v
+i
+D
+D
+D
+D
+i
+b
+i
+i
+"}
+(8,1,1) = {"
+i
+i
+i
+b
+b
+b
+y
+Q
+b
+b
+b
+b
+i
+i
+"}
+(9,1,1) = {"
+i
+i
+i
+a
+b
+D
+D
+D
+D
+a
+a
+i
+i
+i
+"}
+(10,1,1) = {"
+i
+i
+a
+a
+b
+A
+k
+x
+D
+Q
+y
+i
+i
+i
+"}
+(11,1,1) = {"
+i
+i
+a
+i
+b
+A
+c
+G
+D
+Q
+y
+i
+i
+i
+"}
+(12,1,1) = {"
+i
+i
+a
+i
+i
+D
+D
+D
+D
+y
+i
+i
+i
+i
+"}
+(13,1,1) = {"
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+"}
+(14,1,1) = {"
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+i
+"}

@@ -17,15 +17,15 @@
 	. = ..()
 	var/mob/living/user = owner
 	if(!ishuman(H))
-		to_chat(user, span_warning("I cannot merge my Lux with Luxless beings."))
+		to_chat(user, span_warning("I cannot merge my Thauma with Daemonic beings."))
 		return FALSE
 
 	if(H == user)
-		to_chat(user, span_warning("I refuse to tamper with my own Lux."))
+		to_chat(user, span_warning("I refuse to tamper with my own Thauma."))
 		return FALSE
 
 	if(H.stat == DEAD)
-		to_chat(user, span_warning("[H]'s Lux is gone. I can't do anything, anymore."))
+		to_chat(user, span_warning("[H]'s Thauma is gone. I can't do anything, anymore."))
 		user.emote("cry")
 		return FALSE
 
@@ -68,7 +68,7 @@
 	new /obj/effect/temp_visual/psyheal_rogue(get_turf(user), "#487e97")
 
 	// Notify the user and target
-	to_chat(user, span_notice("You purify their Lux with the merging of theirs and your own, for a mote."))
-	to_chat(H, span_info("You feel a strange stirring sensation pour over your Lux, stealing your wounds."))
+	to_chat(user, span_notice("You purify their Thauma with the merging of theirs and your own, for a mote."))
+	to_chat(H, span_info("You feel a strange stirring sensation pour over your Thauma, stealing your wounds."))
 
 	return TRUE

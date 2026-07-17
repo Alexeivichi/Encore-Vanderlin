@@ -1,0 +1,341 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/template_noop)
+"b" = (
+/obj/structure/fluff/walldeco/churchbanner/jealousgod,
+/turf/closed/wall/mineral/stone/moss,
+/area/under/cave)
+"c" = (
+/turf/template_noop,
+/area/template_noop)
+"e" = (
+/obj/structure/bars/cemetery,
+/turf/open/floor/church/purple,
+/area/under/cave)
+"f" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 1
+	},
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/rust,
+/area/under/cave)
+"g" = (
+/obj/structure/table/wood/treestump/burnt,
+/turf/open/floor/dirt,
+/area/template_noop)
+"k" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/turf/open/floor/church/purple,
+/area/under/cave)
+"m" = (
+/turf/open/floor/church/purple,
+/area/under/cave)
+"n" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 4
+	},
+/obj/structure/fluff/statue/knightalt,
+/turf/open/floor/church/rust,
+/area/under/cave)
+"o" = (
+/obj/structure/flora/tree/burnt,
+/turf/open/floor/dirt,
+/area/template_noop)
+"p" = (
+/obj/structure/fluff/statue/knightalt,
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 8
+	},
+/turf/open/floor/church/rust,
+/area/under/cave)
+"C" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/purple,
+/area/under/cave)
+"E" = (
+/obj/structure/trap/spike,
+/turf/open/floor/church/rust,
+/area/under/cave)
+"H" = (
+/turf/closed/wall/window/stained/red,
+/area/under/cave)
+"J" = (
+/obj/effect/spawner/map_spawner/loot/coin/low,
+/turf/open/water/blood,
+/area/under/cave)
+"L" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/purple,
+/area/under/cave)
+"M" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 5
+	},
+/turf/open/floor/church/rust,
+/area/under/cave)
+"N" = (
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/cave)
+"P" = (
+/obj/structure/fluff/walldeco/churchbanner/jealousgod,
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/cave)
+"Q" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 4
+	},
+/obj/structure/trap/spike,
+/turf/open/floor/church/rust,
+/area/under/cave)
+"T" = (
+/obj/effect/spawner/map_spawner/loot/coin/med,
+/turf/open/water/blood,
+/area/under/cave)
+"V" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"W" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 8
+	},
+/obj/structure/trap/spike,
+/turf/open/floor/church/rust,
+/area/under/cave)
+"X" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 9
+	},
+/turf/open/floor/church/rust,
+/area/under/cave)
+"Y" = (
+/turf/open/water/blood,
+/area/under/cave)
+
+(1,1,1) = {"
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+"}
+(2,1,1) = {"
+c
+c
+c
+c
+c
+c
+a
+c
+c
+c
+c
+c
+c
+c
+"}
+(3,1,1) = {"
+c
+c
+c
+c
+c
+V
+g
+c
+c
+V
+V
+c
+c
+c
+"}
+(4,1,1) = {"
+c
+c
+c
+N
+N
+H
+N
+N
+a
+V
+o
+V
+c
+c
+"}
+(5,1,1) = {"
+c
+c
+c
+N
+n
+Q
+M
+P
+N
+H
+N
+V
+V
+c
+"}
+(6,1,1) = {"
+c
+c
+c
+N
+T
+J
+f
+E
+k
+C
+e
+a
+a
+c
+"}
+(7,1,1) = {"
+c
+c
+V
+N
+J
+Y
+f
+E
+k
+m
+e
+a
+V
+V
+"}
+(8,1,1) = {"
+c
+V
+g
+N
+J
+T
+f
+E
+k
+L
+e
+V
+c
+c
+"}
+(9,1,1) = {"
+c
+c
+c
+N
+p
+W
+X
+b
+N
+H
+N
+V
+c
+c
+"}
+(10,1,1) = {"
+c
+c
+c
+N
+N
+H
+N
+N
+V
+V
+V
+g
+V
+c
+"}
+(11,1,1) = {"
+c
+c
+c
+c
+c
+o
+V
+c
+c
+a
+V
+V
+c
+c
+"}
+(12,1,1) = {"
+c
+c
+c
+c
+c
+V
+c
+c
+c
+c
+c
+c
+c
+c
+"}
+(13,1,1) = {"
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+"}
+(14,1,1) = {"
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+"}

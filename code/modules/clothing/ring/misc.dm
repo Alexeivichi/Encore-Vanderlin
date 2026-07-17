@@ -363,7 +363,7 @@
 	name = "feldsher's ring"
 	icon_state = "ring_feldsher"
 	desc = "A hallowed copper ring, ritualistically forged by Erdite clergymen upon the graduation of a feldsher. \
-	\n This ring is proof of Erdl's blessing, in turn allowing the feldsher to extract and manipulate Lux so long as they follow Her teachings"
+	\n This ring is proof of Erdl's blessing, in turn allowing the feldsher to extract and manipulate Thauma so long as they follow His teachings."
 
 // ................... The Apothecary's ring .......................
 
@@ -378,7 +378,7 @@
 	if(is_apothecary_job(user.mind.assigned_role))
 		. += span_info("A hefty bloody made out of thaumic iron, proof of my successful graduation. \
 		It doesn't get any easier to wear with time, but at least it proves I'm a confirmed alchemist \
-		and can legally manipulate lux, so long as I follow Erdl's teachings.")
+		and can legally manipulate Thauma, so long as I follow Erdl's teachings.")
 	else
 		. += "An uncomfortably heavy ring of thaumic iron. Specifically made for apothecaries upon graduation. \n \
-		This gives them the right to both extract and manipulate lux, so long as they follow Erdl's teachings."
+		This gives them the right to both extract and manipulate Thauma, so long as they follow Erdl's teachings."

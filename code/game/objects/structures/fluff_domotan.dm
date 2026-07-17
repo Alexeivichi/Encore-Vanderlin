@@ -166,3 +166,13 @@
 	icon = 'icons/roguetown/misc/domotan/structure.dmi'
 	icon_state = "canary_sigil"
 	mouse_opacity = MOUSE_OPACITY_TRANSPARENT
+
+/obj/structure/fluff/pipe_organ
+	name = "massive pipe organ"
+	desc = "A gigantic musical instrument that metaphorically screams wealth and luxury. It commands a certain spiritual authority about the room. In its center face is a Shirleighan emblem."
+	icon = 'icons/roguetown/misc/domotan/96x96.dmi'
+	icon_state = "organ"
+	max_integrity = 600
+	density = TRUE
+	deconstructible = FALSE
+	SET_BASE_PIXEL(-16, 0)

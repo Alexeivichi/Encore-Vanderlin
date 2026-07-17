@@ -1,0 +1,7 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - bugfix: "changes the name of the psy book to the motonium"
+  - bugfix: "corrects kelp alpha"
+  - bugfix: "fixes missing prismatic bridge audio"
+  - bugfix: "fixes missing generators in the domotan sewer area"

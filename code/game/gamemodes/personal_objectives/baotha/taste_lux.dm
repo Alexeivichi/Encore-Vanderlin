@@ -33,4 +33,4 @@
 	owner.current.adjust_stat_modifier(STATMOD_HERTANNEA_BLESSING, list(STAT_FORTUNE = 2))
 
 /datum/objective/personal/taste_lux/update_explanation_text()
-	explanation_text = "Experience the divine by tasting the forbidden Lux essence! Hertannea is watching..."
+	explanation_text = "Experience the divine by tasting the forbidden Thaumatic essence! Hertannea is watching..."

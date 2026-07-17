@@ -1,5 +1,5 @@
 /datum/round_event_control/hertannea_lux_tasting
-	name = "Lux Experience"
+	name = "Thauma Experience"
 	track = EVENT_TRACK_PERSONAL
 	typepath = /datum/round_event/hertannea_lux_tasting
 	weight = 7
@@ -50,7 +50,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE HERTANNEA'S CHOSEN!"),
-		span_notice("Seek out and taste Lux to experience true pleasure and make Hertannea proud! You might need to grind it first though..."),
+		span_notice("Seek out and taste Thauma to experience true pleasure and make Hertannea proud! You might need to grind it first though..."),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/omen_hertannea.ogg', 100)
 

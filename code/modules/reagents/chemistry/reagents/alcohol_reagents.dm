@@ -604,7 +604,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	M.remove_status_effect(/datum/status_effect/buff/nocshine)
 
 /datum/reagent/consumable/ethanol/luxwine // oh no.
-	name = "Luxintenebre" // lux left w/ sugar in a darkened place for quite some time... U could say... Light in Darkness.....
+	name = "Thaumaintenebre" // lux left w/ sugar in a darkened place for quite some time... U could say... Light in Darkness.....
 	description = "A fermented form of vitae, highly alcoholic, and with a particularly grim taste. Often sought out by the daring, foolhardy, and heretical..."
 	boozepwr = 80 // THE END OF THE FUCKING WORLD.
 	taste_description = "a green numbness, then a burning vigor in the heart" // heartburn (healing)

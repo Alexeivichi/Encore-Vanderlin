@@ -1120,7 +1120,7 @@
 	fence = TRUE
 
 /obj/item/book/bibble
-	name = "The Book"
+	name = "The Motonium"
 	icon_state = "bibble_0"
 	base_icon_state = "bibble"
 	title = "bible"
@@ -1678,7 +1678,7 @@ ____________End of Example*/
 	bookfile = "Neu_cooking.json"
 
 /obj/item/book/bibble/psy
-	name = "The PSY Book"
+	name = "Angrosian Motonium"
 	icon_state = "bibble_0" // change when sprites avaliable
 	base_icon_state = "bibble"
 	title = "angrosian bible"

@@ -44,11 +44,14 @@
 
 /datum/mapGeneratorModule/domotancave/sewers
 	clusterCheckFlags = CLUSTER_CHECK_NONE
-	allowed_turfs = list(/turf/open/water/sewer)
+	allowed_turfs = list(/turf/open/water/sewer, /turf/open/floor/blocks/green, /turf/open/floor/naturalstone)
 	excluded_turfs = list()
-	spawnableAtoms = list(/obj/structure/kneestingers = 10,
-							/obj/structure/flora/grass/water = 4,
-							/obj/structure/flora/grass/water/reeds = 2)
+	spawnableAtoms = list(/obj/structure/kneestingers = 15,
+							/obj/structure/spider/stickyweb = 25,
+							/obj/item/natural/stone = 25,
+							/obj/item/natural/wood/plank = 5,
+							/obj/structure/flora/driftwood = 5,
+							/obj/structure/roguerock = 3)
 	spawnableTurfs = list()
 	allowed_areas = list(/area/under/town/sewer)
 

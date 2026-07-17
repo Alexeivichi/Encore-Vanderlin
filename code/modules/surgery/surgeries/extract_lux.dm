@@ -1,5 +1,5 @@
 /datum/surgery/extract_lux
-	name = "Lux Extraction"
+	name = "Thauma Extraction"
 	category = "Erdite"
 	steps = list(
 		/datum/surgery_step/incise,
@@ -13,7 +13,7 @@
 	possible_locs = list(BODY_ZONE_CHEST)
 
 /datum/surgery_step/extract_lux
-	name = "Extract Lux"
+	name = "Extract Thauma"
 	implements = list(
 		TOOL_SCALPEL = 80,
 		TOOL_SHARP = 60,
@@ -34,32 +34,32 @@
 		return FALSE
 	var/lux_state = target.get_lux_status()
 	if(lux_state != LUX_HAS_LUX)
-		to_chat(user, "They do not have any lux to extract!")
+		to_chat(user, "They do not have any Thauma to extract!")
 		return FALSE
 
 /datum/surgery_step/extract_lux/preop(mob/user, mob/living/target, target_zone, obj/item/tool, datum/intent/intent)
-	display_results(user, target, span_notice("I begin to scrape lux from [target]'s heart..."),
-		span_notice("[user] begins to scrape lux from [target]'s heart."),
-		span_notice("[user] begins to scrape lux from [target]'s heart."))
+	display_results(user, target, span_notice("I begin to scrape Thauma from [target]'s heart..."),
+		span_notice("[user] begins to scrape Thauma from [target]'s heart."),
+		span_notice("[user] begins to scrape Thauma from [target]'s heart."))
 	return TRUE
 
 /datum/surgery_step/extract_lux/success(mob/user, mob/living/target, target_zone, obj/item/tool, datum/intent/intent)
 	target.emote("painscream")
 	if(target.has_status_effect(/datum/status_effect/debuff/lux_drained))
-		display_results(user, target, span_notice("You cannot draw lux from [target]; they have none left to give."),
-		"[user] extracts lux from [target]'s innards.",
-		"[user] extracts lux from [target]'s innards.")
+		display_results(user, target, span_notice("You cannot draw Thauma from [target]; they have none left to give."),
+		"[user] extracts Thauma from [target]'s innards.",
+		"[user] extracts Thauma from [target]'s innards.")
 		return FALSE
 	else
 		if(target.get_lux_tainted_status() || target.has_status_effect(/datum/status_effect/debuff/tainted_lux) || target.has_status_effect(/datum/status_effect/debuff/received_tainted_lux))
-			display_results(user, target, span_notice("You extract a single dose of tainted lux from [target]'s heart."),
-				"[user] extracts tainted lux from [target]'s innards.",
-				"[user] extracts tainted lux from [target]'s innards.")
+			display_results(user, target, span_notice("You extract a single dose of tainted Thauma from [target]'s heart."),
+				"[user] extracts tainted Thauma from [target]'s innards.",
+				"[user] extracts tainted Thauma from [target]'s innards.")
 			new /obj/item/reagent_containers/lux_tainted(target.loc)
 		else
-			display_results(user, target, span_notice("You extract a single dose of lux from [target]'s heart."),
-				"[user] extracts lux from [target]'s innards.",
-				"[user] extracts lux from [target]'s innards.")
+			display_results(user, target, span_notice("You extract a single dose of Thauma from [target]'s heart."),
+				"[user] extracts Thauma from [target]'s innards.",
+				"[user] extracts Thauma from [target]'s innards.")
 			new /obj/item/reagent_containers/lux(target.loc)
 		if(target.has_status_effect(/datum/status_effect/debuff/received_tainted_lux))
 			target.remove_status_effect(/datum/status_effect/debuff/received_tainted_lux)

@@ -13,7 +13,7 @@
 	possible_locs = list(BODY_ZONE_CHEST)
 
 /datum/surgery_step/infuse_lux
-	name = "Infuse Lux"
+	name = "Infuse Thauma"
 	implements = list(
 		/obj/item/reagent_containers/lux = 80,
 		/obj/item/reagent_containers/lux_tainted = 50,
@@ -46,7 +46,7 @@
 	if(istype(tool, /obj/item/reagent_containers/lux_tainted))
 		tainted_lux = TRUE
 	if(tainted_mob && !tainted_lux)
-		to_chat(user, "They can only receive tainted lux!")
+		to_chat(user, "They can only receive tainted Thauma!")
 		return FALSE
 	display_results(user, target,
 		span_notice("I begin to infuse [target]'s heart with [tool.name]."),

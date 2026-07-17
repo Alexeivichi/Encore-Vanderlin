@@ -1,5 +1,5 @@
 /obj/item/reagent_containers/lux
-	name = "lux"
+	name = "thauma"
 	desc = "The stuff of life and souls, retrieved from within a hopefully-willing donor. It's a bit clammy and squishy, like a half-fried egg."
 	icon = 'icons/roguetown/items/produce.dmi'
 	icon_state = "lux"
@@ -11,8 +11,8 @@
 	sellprice = 500
 
 /datum/reagent/lux
-	name = "Lux"
-	description = "The extracted and processed essence of life."
+	name = "Thauma"
+	description = "The extracted and processed essence of life, as gifted by the Aspects."
 	color = "#7d8e98" // rgb: 96, 165, 132
 	overdose_threshold = 10
 	metabolization_rate = 0.1
@@ -39,11 +39,8 @@
 	..()
 
 /obj/item/reagent_containers/lux/pragmas
-	name = "luxus pragmas"
-	desc = "The Divine Essence that Pomette gifted to Archdevil and told him to make a female companion with.\
-			He was supposed to make a beautiful and courageous wife from it, is what Pomette had hoped he would do.\
-			Instead, Archdevil created the Broodmother who would in turn spawn his armies. Pomette was heartbroken and furious.\
-			Use this in hand to acquire charming power."
+	name = "thaumatic pragmas"
+	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon = 'icons/obj/broodmother_32x.dmi'
 	icon_state = "broodmother_lux"
 
@@ -127,10 +124,10 @@
 	cast_on.befriend(owner)
 	cast_on.pet_passive = TRUE
 
-/// Tainted Lux from goblins, rous and others.
+/// Tainted Thauma from goblins, rous and others.
 
 /obj/item/reagent_containers/lux_tainted
-	name = "tainted lux"
+	name = "tainted thauma"
 	desc = "A warped remnant of soulstuff, twisted by the touch of darker powers. It quivers with a sickly pulse, its surface slick like spoiled yolk."
 	icon = 'icons/roguetown/items/produce.dmi'
 	icon_state = "tainted_lux"
@@ -142,7 +139,7 @@
 	sellprice = 25
 
 /datum/reagent/lux_tainted
-	name = "Tainted lux"
+	name = "Tainted Thauma"
 	description = "A degraded echo of the soul's essence, tainted by profane influence. It carries the stain of malice and fragmentation."
 	color = "#1a1038"
 	overdose_threshold = 5

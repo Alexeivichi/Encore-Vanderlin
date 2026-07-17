@@ -1,0 +1,341 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"b" = (
+/obj/structure/rack,
+/obj/effect/spawner/map_spawner/loot/medium,
+/turf/open/floor/dirt,
+/area/indoors)
+"d" = (
+/obj/structure/table/wood,
+/turf/open/floor/twig,
+/area/indoors)
+"e" = (
+/obj/structure/roguetent,
+/turf/open/floor/twig,
+/area/indoors)
+"h" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/twig,
+/area/template_noop)
+"i" = (
+/turf/open/floor/twig,
+/area/template_noop)
+"k" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"l" = (
+/obj/structure/toilet,
+/turf/open/floor/dirt,
+/area/indoors)
+"n" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"o" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
+/turf/open/floor/twig,
+/area/indoors)
+"s" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/twig,
+/area/indoors)
+"u" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
+/turf/open/floor/twig,
+/area/indoors)
+"w" = (
+/turf/open/floor/twig,
+/area/indoors)
+"x" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
+/turf/open/floor/dirt,
+/area/template_noop)
+"y" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/twig,
+/area/template_noop)
+"z" = (
+/obj/structure/rack,
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/dirt,
+/area/indoors)
+"B" = (
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"D" = (
+/obj/structure/rack,
+/obj/effect/spawner/map_spawner/loot/armor,
+/turf/open/floor/dirt,
+/area/indoors)
+"E" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/twig,
+/area/indoors)
+"G" = (
+/obj/structure/rack,
+/turf/open/floor/dirt,
+/area/indoors)
+"I" = (
+/obj/structure/tent_wall,
+/turf/open/floor/twig,
+/area/indoors)
+"K" = (
+/turf/open/floor/dirt,
+/area/indoors)
+"N" = (
+/obj/structure/rack,
+/turf/open/floor/twig,
+/area/indoors)
+"Q" = (
+/obj/structure/closet/crate/coffin,
+/turf/open/floor/twig,
+/area/indoors)
+"S" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
+/turf/open/floor/dirt,
+/area/indoors)
+"T" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/dirt,
+/area/template_noop)
+"U" = (
+/obj/structure/closet/crate/chest/wicker,
+/turf/open/floor/twig,
+/area/indoors)
+"X" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/template_noop)
+"Y" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/twig,
+/area/indoors)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+I
+I
+I
+I
+I
+a
+a
+"}
+(2,1,1) = {"
+I
+I
+I
+I
+I
+h
+a
+I
+Q
+S
+D
+I
+a
+a
+"}
+(3,1,1) = {"
+I
+o
+K
+S
+w
+a
+a
+I
+Y
+s
+b
+I
+a
+a
+"}
+(4,1,1) = {"
+I
+U
+Y
+s
+K
+X
+k
+I
+e
+I
+I
+I
+y
+a
+"}
+(5,1,1) = {"
+I
+z
+u
+d
+e
+k
+B
+X
+T
+a
+a
+h
+h
+a
+"}
+(6,1,1) = {"
+I
+I
+I
+I
+I
+x
+B
+k
+T
+I
+I
+I
+I
+a
+"}
+(7,1,1) = {"
+a
+i
+a
+a
+a
+k
+B
+k
+a
+e
+s
+S
+I
+a
+"}
+(8,1,1) = {"
+a
+i
+y
+i
+a
+a
+X
+B
+k
+e
+Y
+N
+I
+a
+"}
+(9,1,1) = {"
+a
+I
+I
+I
+I
+a
+k
+n
+a
+I
+I
+I
+I
+a
+"}
+(10,1,1) = {"
+a
+I
+G
+u
+e
+k
+k
+a
+a
+i
+h
+a
+a
+a
+"}
+(11,1,1) = {"
+i
+I
+U
+E
+I
+T
+B
+a
+I
+I
+I
+I
+a
+a
+"}
+(12,1,1) = {"
+i
+I
+I
+I
+I
+T
+T
+k
+e
+s
+S
+I
+a
+a
+"}
+(13,1,1) = {"
+a
+i
+i
+a
+a
+X
+k
+a
+e
+l
+z
+I
+a
+a
+"}
+(14,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+I
+I
+I
+I
+a
+a
+"}

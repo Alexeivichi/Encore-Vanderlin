@@ -554,7 +554,7 @@ GLOBAL_LIST_INIT(ritualslist, build_envy_rituals())
 		to_chat(target, span_warning("The curse doesn't take hold!"))
 		return
 	if(target.get_lux_status() != LUX_HAS_LUX)
-		to_chat(target, span_warning("The curse requires lux!"))
+		to_chat(target, span_warning("The curse requires Thauma!"))
 		return
 	if(target.stat == DEAD)
 		return
@@ -569,13 +569,13 @@ GLOBAL_LIST_INIT(ritualslist, build_envy_rituals())
 	if(!victim.mind)
 		return
 	if(victim.mob_biotypes & MOB_UNDEAD)
-		to_chat(victim, span_warning("The curse doesn't take hold, for they are blessed by Zizo!"))
+		to_chat(victim, span_warning("The curse doesn't take hold, for they are tainted by Hell!"))
 		return
 	if(victim.mind.has_antag_datum(/datum/antagonist/werewolf))
 		to_chat(victim, span_warning("The curse doesn't take hold, for they already are damned!"))
 		return
 	if(victim.get_lux_status() != LUX_HAS_LUX)
-		to_chat(victim, span_warning("The curse fails, due to a lack of lux to burn!"))
+		to_chat(victim, span_warning("The curse fails, due to a lack of Thauma to burn!"))
 		return
 	if(victim.stat == DEAD)
 		return

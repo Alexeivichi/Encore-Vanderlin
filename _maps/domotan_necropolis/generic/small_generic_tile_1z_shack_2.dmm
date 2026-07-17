@@ -1,0 +1,322 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/wood,
+/area/indoors)
+"d" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/hay,
+/area/indoors)
+"f" = (
+/obj/structure/closet/crate/chest/crafted,
+/turf/open/floor/dirt,
+/area/template_noop)
+"g" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"h" = (
+/turf/closed/wall/mineral/wooddark,
+/area/indoors)
+"j" = (
+/turf/open/floor/twig,
+/area/indoors)
+"l" = (
+/obj/structure/composter,
+/turf/open/floor/dirt,
+/area/indoors)
+"n" = (
+/turf/template_noop,
+/area/template_noop)
+"p" = (
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"r" = (
+/obj/structure/door/swing,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"s" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"w" = (
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/twig,
+/area/indoors)
+"z" = (
+/turf/open/floor/hay,
+/area/indoors)
+"D" = (
+/obj/structure/closet/crate/chest/wicker,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"E" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"F" = (
+/obj/structure/door/weak/bolt,
+/turf/open/floor/twig,
+/area/indoors)
+"H" = (
+/obj/structure/door/weak/bolt{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"N" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/indoors)
+"O" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/template_noop)
+"P" = (
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"Q" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/twig,
+/area/indoors)
+"S" = (
+/turf/open/floor/dirt,
+/area/indoors)
+"V" = (
+/obj/structure/window/solid,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"W" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/structure/rack,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"X" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+
+(1,1,1) = {"
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+"}
+(2,1,1) = {"
+n
+n
+n
+n
+n
+n
+n
+h
+a
+a
+a
+h
+n
+n
+"}
+(3,1,1) = {"
+n
+n
+n
+n
+n
+n
+n
+a
+d
+z
+S
+a
+n
+n
+"}
+(4,1,1) = {"
+n
+n
+n
+n
+n
+n
+n
+a
+z
+S
+l
+a
+n
+n
+"}
+(5,1,1) = {"
+n
+n
+n
+n
+n
+X
+n
+h
+r
+V
+V
+h
+n
+n
+"}
+(6,1,1) = {"
+n
+n
+n
+n
+X
+X
+n
+n
+n
+X
+O
+n
+n
+n
+"}
+(7,1,1) = {"
+n
+n
+n
+n
+O
+X
+p
+n
+X
+X
+n
+n
+n
+n
+"}
+(8,1,1) = {"
+n
+n
+h
+a
+V
+V
+a
+h
+p
+O
+p
+p
+n
+n
+"}
+(9,1,1) = {"
+n
+n
+h
+Q
+D
+P
+P
+H
+p
+n
+p
+n
+n
+n
+"}
+(10,1,1) = {"
+n
+n
+F
+j
+w
+g
+W
+a
+f
+n
+n
+n
+n
+n
+"}
+(11,1,1) = {"
+n
+n
+h
+s
+E
+P
+N
+a
+X
+n
+n
+n
+n
+n
+"}
+(12,1,1) = {"
+n
+n
+h
+a
+a
+a
+h
+h
+n
+n
+n
+n
+n
+n
+"}
+(13,1,1) = {"
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+"}
+(14,1,1) = {"
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+n
+"}

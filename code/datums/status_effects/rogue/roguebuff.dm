@@ -968,7 +968,7 @@
 	duration = -1
 
 /atom/movable/screen/alert/status_effect/buff/received_lux
-	name = "Received Lux"
+	name = "Received Thauma"
 	desc = "I can feel something... is this what it means to have a soul?"
 
 // Small buff to halflings for having over 800 nutrition currently

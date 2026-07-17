@@ -166,7 +166,7 @@
 
 		H.add_splatter_floor()
 		H.adjustBruteLoss(20)
-		visible_message(user, span_notice("Neant's blade draws the lux from [target]!"))
+		visible_message(user, span_notice("Neant's blade draws the Thauma from [target]!"))
 
 /obj/item/weapon/polearm/neant/proc/handle_magick(mob/living/user, atom/target)
 	if(!COOLDOWN_FINISHED(src, fire_projectile))

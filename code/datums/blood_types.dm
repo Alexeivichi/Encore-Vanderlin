@@ -19,7 +19,7 @@ GLOBAL_LIST_INIT_TYPED(blood_types, /datum/blood_type, init_subtypes_w_path_keys
 	var/datum/reagent/reagent_type = /datum/reagent/blood
 	/// What chem is used to restore this blood type (outside of itself, of course)?
 	var/datum/reagent/restoration_chem
-	///do we contain Lux?
+	///do we contain Thauma?
 	var/contains_lux = FALSE
 	///is our lux tainted?
 	var/tainted_lux = FALSE

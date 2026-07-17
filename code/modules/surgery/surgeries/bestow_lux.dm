@@ -1,5 +1,5 @@
 /datum/surgery/lux_restore
-	name = "Restore Lux"
+	name = "Restore Thauma"
 	steps = list(
 		/datum/surgery_step/incise,
 		/datum/surgery_step/clamp,
@@ -11,7 +11,7 @@
 	possible_locs = list(BODY_ZONE_CHEST)
 
 /datum/surgery_step/bestow_lux
-	name = "Infuse Lux"
+	name = "Infuse Thauma"
 	implements = list(
 		/obj/item/reagent_containers/lux = 80,
 		/obj/item/reagent_containers/lux_tainted = 50,
@@ -33,7 +33,7 @@
 		return FALSE
 
 	if(target.get_lux_status() == LUX_HAS_LUX)
-		to_chat(user, "They do not need more Lux!")
+		to_chat(user, "They do not need more Thauma!")
 		return FALSE
 
 	if(target.get_lux_tainted_status())
@@ -43,7 +43,7 @@
 	if(istype(tool, /obj/item/reagent_containers/lux_tainted))
 		tainted_lux = TRUE
 	if(tainted_mob && !tainted_lux)
-		to_chat(user, "They can only receive tainted lux!")
+		to_chat(user, "They can only receive tainted Thauma!")
 		return FALSE
 	display_results(user, target, span_notice("I begin to implant [tool.name] into [target]..."),
 		span_notice("[user] begins to work [tool.name] into [target]'s heart."),

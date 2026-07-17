@@ -484,8 +484,8 @@
 	duration = -1
 
 /atom/movable/screen/alert/status_effect/debuff/lux_drained
-	name = "Lux Drained"
-	desc = span_danger("I can't feel my soul, WHY CAN'T I FEEL MY SOUL!\n")
+	name = "Thauma Drained"
+	desc = span_danger("My flesh! It's free! THE ASPECTS BE SCORNED!\n")
 
 //charflaw variant of lux_drained, used when the flaw is selected
 /datum/status_effect/debuff/flaw_lux_taken
@@ -495,7 +495,7 @@
 	duration = -1
 
 /atom/movable/screen/alert/status_effect/debuff/flaw_lux_taken
-	name = "Lux Drained"
+	name = "Thauma Drained"
 	desc = span_danger("Oh- \n I don't... have it anymore.\n")
 
 
@@ -525,7 +525,7 @@
 	duration = -1
 
 /atom/movable/screen/alert/status_effect/debuff/tainted_lux
-	name = "Tainted Lux"
+	name = "Tainted Thauma"
 	desc = span_danger("Something within me is broken... what was once bright now writhes with a poisoned pulse...")
 
 /datum/status_effect/debuff/received_tainted_lux
@@ -535,7 +535,7 @@
 	duration = -1
 
 /atom/movable/screen/alert/status_effect/debuff/received_tainted_lux
-	name = "Received Tainted Lux"
+	name = "Received Tainted Thauma"
 	desc = span_danger("It stirs inside me... but it is wrong, twisted... if this is a soul, then it has been corrupted long before it reached me...")
 
 /datum/status_effect/debuff/corrupted_by_tainted_lux

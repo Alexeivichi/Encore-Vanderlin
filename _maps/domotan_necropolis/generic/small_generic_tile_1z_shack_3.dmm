@@ -1,0 +1,315 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"d" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"g" = (
+/obj/structure/rack,
+/turf/open/floor/twig,
+/area/indoors)
+"i" = (
+/turf/closed/wall/mineral/wooddark,
+/area/indoors)
+"k" = (
+/obj/structure/rack,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"l" = (
+/obj/structure/toilet,
+/turf/open/floor/twig,
+/area/indoors)
+"m" = (
+/turf/closed/wall/mineral/wood,
+/area/indoors)
+"p" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/dirt,
+/area/indoors)
+"r" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/twig,
+/area/indoors)
+"s" = (
+/obj/structure/door/weak/bolt{
+	dir = 1
+	},
+/turf/open/floor/dirt,
+/area/indoors)
+"t" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"u" = (
+/turf/open/floor/twig,
+/area/indoors)
+"y" = (
+/obj/structure/roguetent,
+/turf/open/floor/twig,
+/area/indoors)
+"G" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"H" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"J" = (
+/obj/structure/closet/crate/chest/wicker,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"K" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/template_noop)
+"N" = (
+/obj/structure/tent_wall,
+/turf/open/floor/twig,
+/area/indoors)
+"O" = (
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"R" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"U" = (
+/turf/open/floor/twig,
+/area/template_noop)
+"V" = (
+/obj/structure/window/solid,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+"Y" = (
+/turf/open/floor/ruinedwood/turned,
+/area/indoors)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+H
+a
+"}
+(3,1,1) = {"
+a
+H
+a
+a
+a
+a
+K
+a
+a
+a
+a
+H
+H
+a
+"}
+(4,1,1) = {"
+a
+H
+H
+a
+a
+H
+H
+a
+a
+a
+a
+H
+H
+a
+"}
+(5,1,1) = {"
+H
+K
+i
+m
+V
+V
+m
+m
+i
+a
+a
+H
+a
+a
+"}
+(6,1,1) = {"
+a
+H
+p
+u
+r
+Y
+O
+u
+i
+H
+a
+a
+a
+a
+"}
+(7,1,1) = {"
+a
+a
+m
+Y
+Y
+t
+t
+u
+s
+H
+H
+a
+a
+a
+"}
+(8,1,1) = {"
+a
+H
+N
+J
+k
+d
+R
+Y
+i
+a
+a
+a
+a
+a
+"}
+(9,1,1) = {"
+a
+H
+i
+N
+N
+m
+V
+V
+i
+a
+H
+H
+K
+a
+"}
+(10,1,1) = {"
+a
+H
+K
+H
+a
+a
+a
+U
+a
+a
+a
+H
+H
+a
+"}
+(11,1,1) = {"
+a
+a
+i
+m
+m
+i
+H
+H
+H
+a
+a
+a
+a
+a
+"}
+(12,1,1) = {"
+a
+a
+m
+g
+G
+y
+U
+K
+H
+H
+a
+a
+a
+a
+"}
+(13,1,1) = {"
+a
+a
+m
+l
+u
+m
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(14,1,1) = {"
+a
+a
+i
+m
+m
+i
+a
+a
+a
+a
+a
+a
+a
+a
+"}

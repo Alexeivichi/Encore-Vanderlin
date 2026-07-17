@@ -1,0 +1,332 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/item/reagent_containers/powder/moondust,
+/turf/open/floor/churchrough/rust,
+/area/template_noop)
+"c" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 8
+	},
+/turf/open/floor/dirt,
+/area/template_noop)
+"d" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/turf/open/floor/naturalstone,
+/area/template_noop)
+"m" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 9
+	},
+/turf/open/floor/dirt,
+/area/template_noop)
+"p" = (
+/obj/structure/table/stone_small,
+/obj/structure/fluff/psycross/angros/metal{
+	pixel_y = 14
+	},
+/turf/open/floor/churchrough/rust,
+/area/template_noop)
+"q" = (
+/obj/item/alch/firedust,
+/turf/open/floor/churchrough/rust,
+/area/template_noop)
+"r" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 6
+	},
+/turf/open/floor/naturalstone,
+/area/template_noop)
+"s" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 4
+	},
+/turf/open/floor/dirt,
+/area/template_noop)
+"v" = (
+/obj/structure/fluff/statue/crystal/fire,
+/turf/open/floor/churchrough/rust,
+/area/template_noop)
+"w" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 5
+	},
+/turf/open/floor/naturalstone,
+/area/template_noop)
+"y" = (
+/obj/structure/chair/bench{
+	pixel_y = 21
+	},
+/turf/open/floor/churchrough/rust,
+/area/template_noop)
+"z" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 1
+	},
+/turf/open/floor/naturalstone,
+/area/template_noop)
+"B" = (
+/obj/structure/fluff/railing/tall/retaining/stone,
+/turf/open/floor/dirt,
+/area/template_noop)
+"E" = (
+/turf/open/floor/naturalstone,
+/area/template_noop)
+"I" = (
+/turf/open/floor/churchrough/rust,
+/area/template_noop)
+"O" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 10
+	},
+/turf/open/floor/naturalstone,
+/area/template_noop)
+"Q" = (
+/obj/structure/fluff/railing/tall/retaining/stone,
+/turf/open/floor/naturalstone,
+/area/template_noop)
+"R" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 8
+	},
+/turf/open/floor/naturalstone,
+/area/template_noop)
+"T" = (
+/turf/template_noop,
+/area/template_noop)
+"U" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 4
+	},
+/turf/open/floor/naturalstone,
+/area/template_noop)
+"Y" = (
+/obj/item/clothing/neck/psycross/silver,
+/turf/open/floor/churchrough/rust,
+/area/template_noop)
+
+(1,1,1) = {"
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+"}
+(2,1,1) = {"
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+"}
+(3,1,1) = {"
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+"}
+(4,1,1) = {"
+T
+T
+T
+T
+T
+E
+T
+T
+E
+T
+T
+T
+T
+T
+"}
+(5,1,1) = {"
+T
+T
+T
+T
+r
+U
+s
+U
+w
+E
+T
+T
+T
+T
+"}
+(6,1,1) = {"
+T
+T
+T
+T
+Q
+q
+Y
+I
+z
+E
+T
+T
+T
+T
+"}
+(7,1,1) = {"
+T
+T
+T
+E
+B
+I
+p
+y
+d
+E
+E
+T
+T
+T
+"}
+(8,1,1) = {"
+T
+T
+E
+E
+Q
+v
+a
+q
+z
+E
+T
+T
+T
+T
+"}
+(9,1,1) = {"
+T
+T
+T
+T
+O
+R
+c
+c
+m
+T
+T
+T
+T
+T
+"}
+(10,1,1) = {"
+T
+T
+T
+T
+T
+E
+T
+E
+T
+T
+T
+T
+T
+T
+"}
+(11,1,1) = {"
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+"}
+(12,1,1) = {"
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+"}
+(13,1,1) = {"
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+"}
+(14,1,1) = {"
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+"}
