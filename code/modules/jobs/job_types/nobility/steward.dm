@@ -15,6 +15,8 @@
 
 /datum/job/steward
 	title = JOB_STEWARD
+	alt_titles = list("Landlord", "Chamberlain")
+	alt_honorary = list("Thane")
 	tutorial = "The hopelessly-wealthy steward of the Etgard Treasury, and sole protector of the Divine Hoard. Stringently subservient to the Shirleighs, the royals who run Domotan Island."
 	department_flag = NOBLEMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)

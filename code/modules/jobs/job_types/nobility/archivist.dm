@@ -1,5 +1,6 @@
 /datum/job/archivist
 	title = JOB_ARCHIVIST
+	alt_titles = list("Oracle", "Librarian", "Divination")
 	tutorial = "A well-traveled and well-learned seeker of wisdom, the Archivist serves endeavours to espouse the mightiness of the quill to the heirs of Shirleigh.\
 	Hired by King Malryck and Queen Alyssandrine, you are tasked primarily with the education and tutorship of Etgard's heirs.\
 	Secondary to this, you also are responsible for recording court events, and maintaining Etgard's archives.\

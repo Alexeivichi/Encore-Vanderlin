@@ -19,7 +19,10 @@
 
 /datum/job/gmtemplar
 	title = JOB_GRANDMASTER_TEMPLAR
-	tutorial = "Sent from the Worldflame Island, a faithful of Angros, an ashen Templar; you are a Martyr. You do not lead the Templars, that task falls to the Bishop. Nae; your task is to safeguard the Church and its people therein, sacrificing your very life for them if need be. Embody your dying god, and burn yourself up for the sake of others 'til naught but ash remains."
+	unique_alt_honororary = TRUE
+	alt_honorary = list("Brother")
+	alt_honorary_female = list("Sister")
+	tutorial = "Sent from the Worldflame, a faithful of Angros, an ashen Templar; you are a Martyr. You do not lead the Templars, that task falls to the Bishop. Nae; your task is to safeguard the Church and its people therein, sacrificing your very life for them if need be. Embody your dying god, and burn yourself up for the sake of others 'til naught but ash remains."
 	department_flag = CHURCHMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_GMTEMPLAR

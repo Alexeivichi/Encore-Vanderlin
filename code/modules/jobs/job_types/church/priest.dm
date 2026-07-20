@@ -45,6 +45,11 @@
 /datum/job/priest
 	title = "Bishop"
 	f_title = "Bishop"
+	alt_titles = list("Abbot", "Friar")
+
+	unique_alt_honororary = TRUE
+	alt_honorary = list("Father")
+	alt_honorary_female = list("Mother Superior")
 	tutorial = "You are a devoted representative of the Katholikos, heading the diocese of Domotan Island. \
 	Upon the island, the faithful look to you for guidance and leadership; and you in turn answer to the Pontifex of Aelonda. \
 	The Elementals and their pantheon rule over all, and you will preach their wisdom to this land. \

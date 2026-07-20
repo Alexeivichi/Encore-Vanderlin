@@ -17,6 +17,7 @@
 
 /datum/job/vagrant
 	title = JOB_BEGGAR
+	alt_titles = list("Reject", "Bum", "Tramp", "Vagabond", "Drifter")
 	tutorial = "You're homeless, broke and miserable. Make something or nothing of it."
 	department_flag = PEASANTS
 	display_order = JDO_VAGRANT
