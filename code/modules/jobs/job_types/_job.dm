@@ -561,10 +561,11 @@
 		return parent_job.remove_job(spawned)
 
 /datum/job/proc/adjust_patron(mob/living/carbon/human/spawned)
+	var/datum/patron/old_patron = spawned.patron
+
 	if(!length(allowed_patrons))
 		return
 
-	var/datum/patron/old_patron = spawned.patron
 	if(old_patron?.type in allowed_patrons)
 		return
 
