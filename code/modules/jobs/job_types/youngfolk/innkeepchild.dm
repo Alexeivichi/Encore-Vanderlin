@@ -27,6 +27,7 @@
 
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_races = RACES_NON_ANTAG
+	knows_the_town = TRUE
 
 	outfit = /datum/outfit/innkeep_son
 	can_have_apprentices = FALSE

@@ -40,6 +40,7 @@
 	bypass_lastclass = TRUE
 	can_have_apprentices = FALSE
 	give_bank_account = 5
+	knows_the_town = TRUE
 
 	//ALL races and ALL ages are intended
 	//a contrast to Akan gatekeeping knowledge, anyone is allowed to learn about Erdl's medicine and alchemy
