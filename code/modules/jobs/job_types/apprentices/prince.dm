@@ -144,7 +144,8 @@
 
 	traits = list(
 		TRAIT_MEDIUMARMOR,
-		TRAIT_BEAUTIFUL
+		TRAIT_BEAUTIFUL,
+		TRAIT_VIRGIN,
 	)
 
 /datum/job/advclass/heir/aristocrat/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -154,11 +155,6 @@
 		var/datum/devotion/devotion = new holder()
 		devotion.make_shirleigh_weak()
 		devotion.grant_to(spawned)
-
-/datum/job/advclass/heir/aristocrat/after_spawn(mob/living/carbon/human/spawned, client/player_client)
-	. = ..()
-	if(spawned.gender == FEMALE)
-		spawned.virginity = TRUE
 
 /datum/outfit/heir/aristocrat
 	name = "Unawakened Blood (Prince)"

@@ -118,7 +118,7 @@ GLOBAL_LIST_INIT(ritualslist, build_envy_rituals())
 		if(istype(HL.wear_neck, /obj/item/clothing/neck/psycross/silver) || istype(HL.wear_wrists, /obj/item/clothing/neck/psycross/silver))
 			to_chat(user, span_danger("They are wearing silver, it resists the dark magick!"))
 			continue
-		if(!HAS_TRAIT(HL, TRAIT_NOSLEEP))
+		if(!HAS_TRAIT(HL, TRAIT_SLEEPIMMUNE))
 			to_chat(HL, span_userdanger("I'm so sleepy..."))
 			HL.SetSleeping(5 SECONDS)
 		else
@@ -734,10 +734,10 @@ GLOBAL_LIST_INIT(ritualslist, build_envy_rituals())
 	var/mob/living/carbon/human/RULER = locate() in get_step(center, NORTH)
 	if(RULER != SSticker.rulermob && RULER.stat != DEAD)
 		return
-	var/mob/living/carbon/human/VIRGIN = locate() in get_step(center, SOUTH)
-	if(!VIRGIN.virginity && VIRGIN.stat != DEAD)
+	var/mob/living/carbon/human/virgin = locate() in get_step(center, SOUTH)
+	if(!HAS_TRAIT(virgin, TRAIT_VIRGIN) || virgin.stat != DEAD)
 		return
-	VIRGIN.gib()
+	virgin.gib()
 	RULER.gib()
 	SSmapping.retainer.cult_ascended = TRUE
 	addomen(OMEN_ASCEND)

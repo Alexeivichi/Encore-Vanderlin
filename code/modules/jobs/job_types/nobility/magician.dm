@@ -91,6 +91,7 @@
 		TRAIT_NOBLE_POWER,
 		TRAIT_NOBLE_LOCAL,
 		TRAIT_OLDPARTY,
+		TRAIT_VIRGIN,
 	)
 
 /datum/job/magician/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -99,7 +100,8 @@
 	if(prob(1))
 		spawned.cmode_music = 'sound/music/cmode/antag/combat_evilwizard.ogg'
 
-	spawned.virginity = TRUE
+	if(istype(spawned.patron, /datum/patron/inhumen/archdevils))
+		spawned.grant_language(/datum/language/undead)
 
 	if(spawned.gender == MALE && spawned.dna?.species  && spawned.dna.species.id != SPEC_ID_MEDICATOR)
 		spawned.dna.species.soundpack_m = new /datum/voicepack/male/wizard()

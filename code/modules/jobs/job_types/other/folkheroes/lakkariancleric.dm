@@ -57,8 +57,6 @@
 		devotion.make_cleric()
 		devotion.grant_to(spawned)
 
-	spawned.virginity = TRUE
-
 /datum/job/advclass/combat/lakkariancleric/on_roundstart(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 

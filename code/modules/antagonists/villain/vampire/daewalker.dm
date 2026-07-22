@@ -106,7 +106,7 @@
 	blade.grant_language(/datum/language/celestial)
 	blade.grant_language(/datum/language/newunsundered)
 	blade.grant_language(/datum/language/oldunsundered)
-	blade.add_quirk(/datum/quirk/vice/godfearing)
+	blade.add_quirk(/datum/quirk/vice/addiction/godfearing)
 
 	RegisterSignal(blade, COMSIG_ATOM_EXAMINE, PROC_REF(on_examine))
 

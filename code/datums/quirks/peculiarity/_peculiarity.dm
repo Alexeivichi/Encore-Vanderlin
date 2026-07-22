@@ -14,6 +14,7 @@
 	var/mob/living/carbon/human/H = owner
 	H.transform = H.transform.Scale(1.15, 1.15)
 	H.update_transform()
+	return ..()
 
 /datum/quirk/peculiarity/large_sized/on_remove()
 	if(!ishuman(owner))
@@ -21,6 +22,7 @@
 	var/mob/living/carbon/human/H = owner
 	H.transform = H.transform.Scale(0.87, 0.87)
 	H.update_transform()
+	return ..()
 
 /datum/quirk/peculiarity/small_sized
 	name = "Small Build"
@@ -32,6 +34,7 @@
 	var/mob/living/carbon/human/H = owner
 	H.transform = H.transform.Scale(0.9, 0.9)
 	H.update_transform()
+	return ..()
 
 /datum/quirk/peculiarity/small_sized/on_remove()
 	if(!ishuman(owner))
@@ -39,7 +42,7 @@
 	var/mob/living/carbon/human/H = owner
 	H.transform = H.transform.Scale(1.11, 1.11)
 	H.update_transform()
-
+	return ..()
 
 /datum/quirk/peculiarity/witless_pixie
 	name = "Witless Pixie"
@@ -56,13 +59,16 @@
 		ADD_TRAIT(owner, TRAIT_BEAUTIFUL, QUIRK_TRAIT)
 	else if(prob(30))
 		ADD_TRAIT(owner, TRAIT_UGLY, QUIRK_TRAIT)
+	return ..()
 
 /datum/quirk/peculiarity/witless_pixie/on_remove()
 	owner?.remove_stat_modifier(STATMOD_WITLESS_PIXIE)
+	return ..()
 
 /datum/quirk/peculiarity/ugly
 	name = "Ugly"
 	desc = "Your appearance turns heads... in all the wrong ways. With features ranging from unsightly to grotesque, you likely have yet to find anyone impressed with your looks."
+	traits_to_add = list(TRAIT_UGLY)
 
 /datum/quirk/peculiarity/ugly/on_spawn()
 	if(!ishuman(owner))
@@ -71,31 +77,12 @@
 
 	REMOVE_TRAIT(H, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
 	REMOVE_TRAIT(H, TRAIT_FISHFACE, TRAIT_GENERIC)
-
-	ADD_TRAIT(H, TRAIT_UGLY, TRAIT_GENERIC)
-
-/datum/quirk/peculiarity/ugly/on_remove()
-	if(!ishuman(owner))
-		return
-	var/mob/living/carbon/human/H = owner
-	REMOVE_TRAIT(H, TRAIT_UGLY, TRAIT_GENERIC)
+	return ..()
 
 /datum/quirk/peculiarity/virgin
 	name = "Virgin"
-	desc = "YOU... ARE MAIDENLESS!! you never were good with women... or men, whether cause you are a awkward freak, or religous reasons, or simply plain unlucky, your blood remains untainted and pure."
-
-/datum/quirk/peculiarity/virgin/on_spawn()
-	if(!ishuman(owner))
-		return
-	var/mob/living/carbon/human/H = owner
-	H.virginity = TRUE
-
-/datum/quirk/peculiarity/virgin/after_job_spawn()
-	if(!ishuman(owner))
-		return
-	var/mob/living/carbon/human/H = owner
-	H.virginity = TRUE
-
+	desc = "YOU... ARE MAIDENLESS! Whether because of awkwardness, deep religiosity, or sheer unluckiness, your body remains untainted and pure."
+	traits_to_add = list(TRAIT_VIRGIN)
 
 /datum/quirk/peculiarity/mystery_box
 	name = "Mystery Box"
@@ -124,6 +111,7 @@
 
 	H.put_in_hands(mystery_box)
 	find_keeper()
+	return ..()
 
 /datum/quirk/peculiarity/mystery_box/proc/find_keeper()
 	var/mob/living/carbon/human/box_owner = owner
@@ -179,6 +167,7 @@
 	if(mystery_box)
 		UnregisterSignal(mystery_box, COMSIG_ATOM_EXAMINE)
 		qdel(mystery_box)
+	return ..()
 
 /obj/item/mystery
 	name = "locked box"
@@ -241,27 +230,18 @@
 /datum/quirk/peculiarity/deadened
 	name = "Deadened"
 	desc = "You are numb, inside and out. Your sense of smell and emotions are muted, deadened through abominable means. Those who see you can tell you are hollowed."
-
-/datum/quirk/peculiarity/deadened/on_spawn()
-	if(!ishuman(owner))
-		return
-	ADD_TRAIT(owner, TRAIT_NOMOOD, "[type]")
-	ADD_TRAIT(owner, TRAIT_DEADNOSE, "[type]")
+	traits_to_add = list(TRAIT_NOMOOD, TRAIT_DEADNOSE)
 
 //mimics behavior of /datum/special_trait/curseofcain
 /datum/quirk/peculiarity/curseofcain
 	name = "Flawed Immortality"
 	desc = "Your body lacks the motive forces of life, and your Thauma seems tainted. Your heart does not beat, and you hunger no more. Those who see you can tell you are lifeless."
-
-/datum/quirk/peculiarity/curseofcain/on_spawn()
-	if(!ishuman(owner))
-		return
-	ADD_TRAIT(owner, TRAIT_NOHUNGER, "[type]")
-	ADD_TRAIT(owner, TRAIT_NOBREATH, "[type]")
+	traits_to_add = list(TRAIT_NOHUNGER, TRAIT_NOBREATH)
 
 /datum/quirk/peculiarity/nobility
 	name = "Foreign Nobility"
 	desc = "The blood of a noble family foreign to Domotan Island flows through your veins. Though your house are unlikely to be recognised at a glance upon the island, the hallmark traits of nobility are still your own, and people will almost assuredly recognise you as such. Do not take this trait if you are playing a job explicitly part of the peasantry."
+	traits_to_add = list(TRAIT_NOBLE_BLOOD, TRAIT_NOBLE_POWER, TRAIT_NOBLE_FOREIGN)
 	blocked_species = list(
  		/datum/species/kobold,
  		/datum/species/kobold/formikrag,
@@ -270,17 +250,11 @@
  		/datum/species/halforc,
  		/datum/species/medicator,
  	)
-
-/datum/quirk/peculiarity/nobility/on_spawn()
-	if(!ishuman(owner))
-		return
-	ADD_TRAIT(owner, TRAIT_NOBLE_BLOOD, "[type]")
-	ADD_TRAIT(owner, TRAIT_NOBLE_POWER, "[type]")
-	ADD_TRAIT(owner, TRAIT_NOBLE_FOREIGN, "[type]")
 
 /datum/quirk/peculiarity/localnobility
 	name = "Local Nobility"
 	desc = "The blood of a noble family native to Domotan Island flows through your veins. Though you have no blood relation to the royal house of Shirleigh, you or one of your ancestors have at least been granted a title by them, if not property... somewhere. Whether you call a modest estate within Old Doma your home, claim a long-lost ruin somewhere in the wilderness is your ancient birthrite, or you've just been freshly elevated to the nobility in title alone with only the clothes on your back; you're someone who will be recognised at a glance by the commonfolk of the Island. Behave in a way befitting of your station, lest the Shirleighs decide to reconsider your place in the pecking order. Do not take this trait if you are playing a job explicitly part of the peasantry."
+	traits_to_add = list(TRAIT_NOBLE_BLOOD, TRAIT_NOBLE_POWER, TRAIT_NOBLE_LOCAL)
 	blocked_species = list(
  		/datum/species/kobold,
  		/datum/species/kobold/formikrag,
@@ -289,10 +263,3 @@
  		/datum/species/halforc,
  		/datum/species/medicator,
  	)
-
-/datum/quirk/peculiarity/localnobility/on_spawn()
-	if(!ishuman(owner))
-		return
-	ADD_TRAIT(owner, TRAIT_NOBLE_BLOOD, "[type]")
-	ADD_TRAIT(owner, TRAIT_NOBLE_POWER, "[type]")
-	ADD_TRAIT(owner, TRAIT_NOBLE_LOCAL, "[type]")

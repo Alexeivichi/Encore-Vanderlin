@@ -369,7 +369,9 @@
 
 	var/mob/living/simple_animal/hostile/retaliate/hound = new /mob/living/simple_animal/hostile/retaliate/hound(get_turf(H))
 	hound.tamed(H)
+
 /datum/quirk/boon/pet/on_spawn()
+	. = ..()
 	if(!get_turf(owner))
 		addtimer(CALLBACK(src, PROC_REF(on_spawn)), 0.5 SECONDS)
 		return
