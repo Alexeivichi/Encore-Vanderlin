@@ -24,7 +24,7 @@
 	As fortune (or folly) would have it, you have been chosen as the guiding hand and watchful protector of your eager pupils. \
 	Your task is to lead them safely across the wilds, through hardship and wonder alike, until at last the halls of learning they seek rise before you."
 	outfit = /datum/outfit/magic_teacher
-	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_races = RACES_PLAYER_NONEXOTIC
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	allowed_patrons = list(/datum/patron/divine/akan)
@@ -87,7 +87,7 @@
 	tutorial = "When the call went out for daring pupils to join a great overland trek from Kingsfield, you eagerly volunteered, visions of adventure, discovery, and excitement dancing in your mind. \
 	Of course, the creatures that lurk along the road seem just as eager... though perhaps for very different reasons."
 	outfit = /datum/outfit/magic_student
-	allowed_ages = list(AGE_ADULT)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_races = RACES_PLAYER_NONEXOTIC
 	allowed_patrons = list(/datum/patron/divine/akan)
 	exp_types_granted  = list(EXP_TYPE_MAGICK)

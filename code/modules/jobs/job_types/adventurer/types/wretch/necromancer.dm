@@ -20,7 +20,7 @@
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/wretch/necromancer
 	cmode_music = 'sound/music/cmode/antag/CombatLich.ogg'
-	total_positions = 1
+	total_positions = 3
 	exp_types_granted = list(EXP_TYPE_COMBAT, EXP_TYPE_MAGICK)
 	allowed_patrons = list(/datum/patron/inhumen/archdevils)
 	spell_points = 7

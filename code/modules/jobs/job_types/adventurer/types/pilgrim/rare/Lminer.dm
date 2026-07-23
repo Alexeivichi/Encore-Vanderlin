@@ -51,8 +51,8 @@
 	the acquisition of ore, precious stones, and anything deep below the mines."
 	allowed_races = list(SPEC_ID_DWARF)
 	outfit = /datum/outfit/pilgrim/minermaster
-	total_positions = 1
-	roll_chance = 0
+	total_positions = -1
+	spawn_positions = -1
 	category_tags = list(CTAG_PILGRIM, CTAG_TOWNER)
 	apprentice_name = "Miner Apprentice"
 	cmode_music = 'sound/music/cmode/towner/CombatTowner2.ogg'

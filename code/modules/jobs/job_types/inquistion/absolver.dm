@@ -23,10 +23,9 @@
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	total_positions = 1 // THE ONE.
 	spawn_positions = 1
-	allowed_races = list(SPEC_ID_HUMEN)
-	//You MUST have a Angrosian character to start. Just so people don't get japed into Oops Suddenly Angros!
-	allowed_patrons = list(/datum/patron/angros)
-	tutorial = "The Oratorium claims you are naught more than a 'cleric', but you know the truth; you are a sacrificial lamb. Your hands, unmarred through prayer and pacifism, have been gifted with the power to manipulate blood - to siphon away the wounds of others, so that you may endure in their stead. Let your censer's light shepherd the Inquisitor's retinue forth, lest they're led astray by wrath and temptation."
+	allowed_races = RACES_LESS_DISCRIMINATED
+	allowed_patrons = list(/datum/patron/divine/centrist)
+	tutorial = "The Inquisitor's right hand, you serve as the orthidoxy's cleric, providing miracles to bolster "
 	selection_color = JCOLOR_INQUISITION
 	outfit = /datum/outfit/absolver
 	bypass_lastclass = TRUE
@@ -42,14 +41,11 @@
 	)
 	traits = list(
 		TRAIT_NOPAINSTUN,
-		TRAIT_PACIFISM,
 		TRAIT_EMPATH,
 		TRAIT_CRITICAL_RESISTANCE,
 		TRAIT_STEELHEARTED,
 		TRAIT_INQUISITION,
 		TRAIT_SILVER_BLESSED,
-		TRAIT_ANGROSIAN_GRIT,
-		TRAIT_ANGROSIAN,
 		TRAIT_FOREIGNER,
 	)
 
@@ -81,7 +77,7 @@
 	spawned.hud_used?.shutdown_bloodpool()
 	spawned.hud_used?.initialize_bloodpool()
 	spawned.hud_used?.bloodpool.set_fill_color("#dcdddb")
-	spawned.hud_used?.bloodpool?.name = "Angros's Grace: [spawned.bloodpool]"
+	spawned.hud_used?.bloodpool?.name = "Aspects' Grace: [spawned.bloodpool]"
 	spawned.hud_used?.bloodpool?.desc = "Devotion: [spawned.bloodpool]/[spawned.maxbloodpool]"
 	spawned.maxbloodpool = 1000
 

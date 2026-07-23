@@ -6,12 +6,12 @@
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_PILGRIM
 	faction = FACTION_FOREIGNERS
-	total_positions = 20
-	spawn_positions = 20
+	total_positions = 99
+	spawn_positions = 99
 	banned_leprosy = FALSE
 	bypass_lastclass = TRUE
 
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_NON_ANTAG
 
 	outfit = null
 	outfit_female = null

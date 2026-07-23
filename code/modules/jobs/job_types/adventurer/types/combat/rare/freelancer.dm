@@ -18,8 +18,8 @@
 	allowed_sexes = list(MALE)
 	allowed_races = list(SPEC_ID_HUMEN)
 	outfit = /datum/outfit/adventurer/lancer
-	total_positions = 1
-	roll_chance = 15
+	total_positions = -1
+	spawn_positions = -1
 	category_tags = list(CTAG_ADVENTURER)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander3.ogg'
 	is_recognized = TRUE

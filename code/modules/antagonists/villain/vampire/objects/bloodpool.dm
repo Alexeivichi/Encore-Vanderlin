@@ -58,7 +58,7 @@
 	if(active_projects.len)
 		available_options_lord["Manage Projects"] = "manage"
 
-	var/choice = browser_input_list(user, "What to do?", "VANDERLIN", available_options_lord)
+	var/choice = browser_input_list(user, "What to do?", "ENCORE", available_options_lord)
 	if(!choice)
 		return
 

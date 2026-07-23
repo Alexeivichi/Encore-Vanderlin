@@ -45,10 +45,10 @@
 	tutorial = "Clerics are wandering warriors of the Gods, \
 	drawn from the ranks of temple acolytes who demonstrated martial talent. \
 	Protected by armor and zeal, they are a force to be reckoned with."
-	allowed_races = RACES_PLAYER_NONHERETICAL
+	allowed_races = RACES_NON_ANTAG
 	outfit = /datum/outfit/adventurer/cleric
 	category_tags = list(CTAG_ADVENTURER)
-	total_positions = 4
+	total_positions = 99
 	allowed_patrons = ALL_CLERIC_PATRONS
 
 	exp_types_granted = list(EXP_TYPE_ADVENTURER, EXP_TYPE_COMBAT, EXP_TYPE_CLERIC)

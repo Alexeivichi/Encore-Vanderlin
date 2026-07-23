@@ -619,8 +619,7 @@
 /turf/open/floor/dirt,
 /area/outdoors/woods/crossroads)
 "iS" = (
-/obj/structure/door/viewport,
-/obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/weak/bolt,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/shelter)
 "iT" = (
@@ -1434,7 +1433,7 @@
 /turf/open/floor/wood,
 /area/indoors/shelter)
 "sy" = (
-/obj/structure/fluff/traveltile/exit_bandit{
+/obj/structure/fluff/traveltile/bandit{
 	dir = 8
 	},
 /turf/open/floor/ruinedwood,
@@ -1485,7 +1484,7 @@
 /area/outdoors/woods/crossroads)
 "tk" = (
 /obj/structure/lootable_structure/grain_barrel,
-/turf/open/floor/ruinedwood,
+/turf/open/floor/ruinedwood/darker,
 /area/indoors/shelter)
 "tl" = (
 /obj/structure/rack/shelf/biggest,
@@ -1493,13 +1492,13 @@
 /turf/open/floor/hexstone,
 /area/under/town/basement)
 "tm" = (
-/obj/structure/fluff/traveltile/exit_bandit{
-	dir = 8
-	},
 /obj/machinery/light/fueled/torchholder{
 	dir = 8
 	},
-/turf/open/floor/ruinedwood,
+/obj/structure/fluff/traveltile/bandit{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/darker,
 /area/indoors/shelter)
 "tn" = (
 /turf/closed/wall/mineral/wooddark/vertical,
@@ -2573,6 +2572,9 @@
 /obj/machinery/light/fueled/firebowl/stump,
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
+"Gc" = (
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/shelter)
 "Gg" = (
 /obj/effect/landmark/quest_spawner/easy,
 /turf/open/floor/grass,
@@ -3045,7 +3047,6 @@
 /obj/structure/door/weak/bolt{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/shelter)
 "Ne" = (
@@ -3614,7 +3615,6 @@
 /obj/structure/door/weak/bolt{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/naturalstone,
 /area/indoors/shelter)
 "TP" = (
@@ -3691,6 +3691,10 @@
 	},
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
+"UX" = (
+/obj/structure/chair/stool,
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/shelter)
 "UY" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
@@ -3886,7 +3890,7 @@
 /area/under/cave)
 "Ye" = (
 /obj/structure/lootable_structure/powder_sack,
-/turf/open/floor/ruinedwood,
+/turf/open/floor/ruinedwood/darker,
 /area/indoors/shelter)
 "Yf" = (
 /obj/item/weapon/shovel,
@@ -8454,7 +8458,7 @@ Gi
 Gi
 Gi
 Gi
-Gi
+Wj
 Wj
 Wj
 Wj
@@ -57952,8 +57956,8 @@ tn
 Bq
 wY
 cv
-is
-is
+Gc
+UX
 FU
 yu
 tk
@@ -58210,7 +58214,7 @@ sw
 sw
 is
 is
-is
+Gc
 nL
 zP
 zP
@@ -58721,13 +58725,13 @@ oA
 is
 jb
 Bq
-zP
-zP
+Gc
+Gc
 zP
 zP
 Bq
-zP
-zP
+Gc
+Gc
 zP
 pc
 Bq
@@ -58983,7 +58987,7 @@ sy
 sy
 sy
 Bq
-zP
+Gc
 AS
 ar
 tn

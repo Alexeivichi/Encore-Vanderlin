@@ -9,8 +9,8 @@
 	department_flag = APPRENTICES
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	faction = FACTION_TOWN
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 99
+	spawn_positions = 99
 	display_order = JDO_PRINCE
 	give_bank_account = TRUE
 	bypass_lastclass = TRUE
@@ -20,7 +20,8 @@
 	cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg'
 
 	allowed_races = RACES_PLAYER_ROYALTY
-	allowed_ages = list(AGE_ADULT)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
+	allowed_patrons = /datum/devotion/inhumen/envy
 	advclass_cat_rolls = list(CTAG_HEIR = 20)
 	honorary = "Prince"
 	honorary_f = "Princess"
@@ -48,7 +49,7 @@
 
 /datum/job/advclass/heir
 	inherit_parent_title = TRUE
-	allowed_ages = list(AGE_ADULT)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_races = RACES_PLAYER_ROYALTY
 	exp_type = list(EXP_TYPE_NOBLE)
 	exp_types_granted = list(EXP_TYPE_NOBLE)
@@ -87,6 +88,14 @@
 	traits = list(
 		TRAIT_MEDIUMARMOR
 	)
+
+/datum/job/advclass/heir/daring/after_spawn(mob/living/carbon/human/spawned, client/player_client)
+	. = ..()
+	var/holder = spawned.patron?.devotion_holder
+	if(holder)
+		var/datum/devotion/devotion = new holder()
+		devotion.make_shirleigh_strong()
+		devotion.grant_to(spawned)
 
 /datum/outfit/heir/daring
 	name = "Prideful Heir (Prince)"
@@ -137,6 +146,14 @@
 		TRAIT_MEDIUMARMOR,
 		TRAIT_BEAUTIFUL
 	)
+
+/datum/job/advclass/heir/aristocrat/after_spawn(mob/living/carbon/human/spawned, client/player_client)
+	. = ..()
+	var/holder = spawned.patron?.devotion_holder
+	if(holder)
+		var/datum/devotion/devotion = new holder()
+		devotion.make_shirleigh_weak()
+		devotion.grant_to(spawned)
 
 /datum/job/advclass/heir/aristocrat/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()

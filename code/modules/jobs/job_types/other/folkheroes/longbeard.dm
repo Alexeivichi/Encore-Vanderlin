@@ -20,10 +20,11 @@
 /datum/job/advclass/combat/longbeard
 	title = "Longbeard"
 	tutorial = "You've earned your place as one of the old grumblers, a pinnacle of tradition, justice, and willpower. You've come to establish order in these lands, and with your hammer of grudges you'll see it through."
-	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_races = list(SPEC_ID_DWARF)
 	outfit = /datum/outfit/folkhero/longbeard
-	total_positions = 1
+	total_positions = -1
+	spawn_positions = -1
 	category_tags = list(CTAG_FOLKHEROES)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
 

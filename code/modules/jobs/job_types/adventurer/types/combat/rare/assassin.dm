@@ -27,7 +27,7 @@
 	allowed_sexes = list(MALE, FEMALE)
 	bypass_class_cat_limits = TRUE
 	category_tags = list(CTAG_PILGRIM)
-	total_positions = 2
+	total_positions = 0 // No round-remove antag for now. Might revisit this down the line.
 	inherit_parent_title = TRUE //this prevents advjob from being set back to "Assassin" in equipme
 	antags_can_pick = FALSE //Assassins are antagonists by default, so they can't be chosen if you're already an antagonist.
 	antag_role = /datum/antagonist/assassin

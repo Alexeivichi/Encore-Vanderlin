@@ -896,7 +896,7 @@
 
 /atom/movable/screen/alert/status_effect/buff/akanblessing
 	name = "Akan's blessing"
-	desc = "Gazing upon Luna helps me think."
+	desc = "Gazing upon the Dark Wanderer helps me think."
 	icon_state = "buff"
 
 /datum/status_effect/buff/nocblessed

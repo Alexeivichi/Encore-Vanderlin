@@ -1,0 +1,4 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - qol: "Adds a little alpha to the travel tiles to make it easier to drag yourself onto them"

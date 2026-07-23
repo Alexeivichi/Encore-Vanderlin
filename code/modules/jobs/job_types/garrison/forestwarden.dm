@@ -28,20 +28,20 @@
 	title = JOB_FOREST_WARDEN
 	tutorial = "You were born in the forest. Alone, you've always felt home in the woods. \
 	In your tenure with the garrison, you've cleaved through the wildlife-- \
-	and for your service to the county of Etgard, the throne has granted you nobility. \
+	and for your service to the county of Etgard, the throne has granted you a measure of independence. \
 	In turn, you've been entrusted to keep his lands clear of \
 	the foul creachers that taint his land. Alone, you will die in these woods."
 	department_flag = GARRISON
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	faction = FACTION_TOWN
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 99
+	spawn_positions = 99
 	display_order = JDO_FORWARDEN
 	bypass_lastclass = TRUE
 	selection_color = "#0d6929"
 
-	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
-	allowed_races = RACES_PLAYER_NONDISCRIMINATED
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
+	allowed_races = RACES_NON_ANTAG
 	blacklisted_species = list(SPEC_ID_HALFLING)
 
 	exp_type = list(EXP_TYPE_GARRISON)
@@ -62,7 +62,6 @@
 
 	traits = list(
 		TRAIT_HEAVYARMOR,
-		TRAIT_NOBLE_POWER,
 		TRAIT_FORAGER
 	)
 

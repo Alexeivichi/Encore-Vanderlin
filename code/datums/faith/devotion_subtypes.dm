@@ -9,16 +9,13 @@
 		CLERIC_T2 = /datum/action/cooldown/spell/enchantment/holy_flame,
 		CLERIC_T3 = /datum/action/cooldown/spell/status/divine_shield,
 	)
-	viable_tasks = list(
-		/datum/devotion_task/visires_purge,
-	)
 
 /datum/devotion/divine/visires
 	miracles = list(
-		CLERIC_T0 = /datum/action/cooldown/spell/healing,
+		CLERIC_T0 = /datum/action/cooldown/spell/projectile/fire_flare,
 		CLERIC_T1 = /datum/action/cooldown/spell/sacred_flame,
-		CLERIC_T2 = /datum/action/cooldown/spell/healing/greater,
-		CLERIC_T3 = /datum/action/cooldown/spell/revive,
+		CLERIC_T2 = list(/datum/action/cooldown/spell/projectile/fireball, /datum/action/cooldown/spell/heat_metal, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T3 = /datum/action/cooldown/spell/projectile/fireball/greater,
 	)
 	viable_tasks = list(
 		/datum/devotion_task/visires_purge,
@@ -28,9 +25,9 @@
 /datum/devotion/divine/akan
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
-		CLERIC_T1 = /datum/action/cooldown/spell/status/invisibility,
-		CLERIC_T2 = /datum/action/cooldown/spell/blindness/miracle,
-		CLERIC_T3 = /datum/action/cooldown/spell/projectile/moonlit_dagger,
+		CLERIC_T1 = /datum/action/cooldown/spell/status/guidance,
+		CLERIC_T2 = list(/datum/action/cooldown/spell/blindness/miracle, /datum/action/cooldown/spell/projectile/moonlit_dagger, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T3 = /datum/action/cooldown/spell/status/invisibility,
 	)
 	viable_tasks = list(
 		/datum/devotion_task/akan_teach,
@@ -43,8 +40,8 @@
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/undirected/bless_crops,
-		CLERIC_T2 = /datum/action/cooldown/spell/undirected/beast_sense,
-		CLERIC_T3 = /datum/action/cooldown/spell/beast_tame,
+		CLERIC_T2 = list(/datum/action/cooldown/spell/undirected/beast_sense, /datum/action/cooldown/spell/healing/greater, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T3 = list(/datum/action/cooldown/spell/beast_tame, /datum/action/cooldown/spell/undirected/troll_shape),
 
 	)
 	viable_tasks = list(
@@ -56,10 +53,10 @@
 
 /datum/devotion/divine/mjallidhorn
 	miracles = list(
-		CLERIC_T0 = list(/datum/action/cooldown/spell/healing, /datum/action/cooldown/spell/undirected/conjure_item/summon_leech),
-		CLERIC_T1 = /datum/action/cooldown/spell/projectile/swordfish,
-		CLERIC_T2 = /datum/action/cooldown/spell/undirected/conjure_item/summon_trident/miracle,
-		CLERIC_T3 = /datum/action/cooldown/spell/ocean_embrace,
+		CLERIC_T0 = /datum/action/cooldown/spell/healing,
+		CLERIC_T1 = /datum/action/cooldown/spell/undirected/call_to_arms,
+		CLERIC_T2 = list(/datum/action/cooldown/spell/undirected/divine_strike, /datum/action/cooldown/spell/undirected/blade_ward, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T3 = /datum/action/cooldown/spell/persistence,
 	)
 	viable_tasks = list(
 		/datum/devotion_task/mjallidhorn_sail,
@@ -71,7 +68,7 @@
 	miracles = list(
 		CLERIC_T0 = list(/datum/action/cooldown/spell/healing, /datum/action/cooldown/spell/avert),
 		CLERIC_T1 = /datum/action/cooldown/spell/burial_rites,
-		CLERIC_T2 = list(/datum/action/cooldown/spell/undirected/locate_dead, /datum/action/cooldown/spell/aoe/abrogation, /datum/action/cooldown/spell/undirected/soul_speak, ),
+		CLERIC_T2 = list(/datum/action/cooldown/spell/undirected/locate_dead, /datum/action/cooldown/spell/aoe/abrogation, /datum/action/cooldown/spell/undirected/soul_speak),
 		CLERIC_T3 = /datum/action/cooldown/spell/aoe/churn_undead,
 	)
 	viable_tasks = list(
@@ -83,9 +80,9 @@
 /datum/devotion/divine/mordsol
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
-		CLERIC_T1 = /datum/action/cooldown/spell/undirected/call_to_arms,
-		CLERIC_T2 = /datum/action/cooldown/spell/undirected/divine_strike,
-		CLERIC_T3 = /datum/action/cooldown/spell/persistence,
+		CLERIC_T1 = /datum/action/cooldown/spell/projectile/swordfish,
+		CLERIC_T2 = list(/datum/action/cooldown/spell/undirected/conjure_item/summon_trident/miracle, /datum/action/cooldown/spell/undirected/blade_ward, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T3 = /datum/action/cooldown/spell/ocean_embrace,
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 
@@ -93,8 +90,8 @@
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/undirected/list_target/vicious_mimicry,
-		CLERIC_T2 = /datum/action/cooldown/spell/status/wheel,
-		CLERIC_T3 = /datum/action/cooldown/spell/undirected/jaunt/illusory_prop,
+		CLERIC_T2 = list(/datum/action/cooldown/spell/status/wheel, /datum/action/cooldown/spell/vicious_mockery, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T3 = list(/datum/action/cooldown/spell/undirected/jaunt/illusory_prop, /datum/action/cooldown/spell/undirected/jaunt/ethereal_jaunt),
 	)
 	viable_tasks = list(
 		/datum/devotion_task/iliope_gamble,
@@ -106,7 +103,7 @@
 	miracles = list(
 		CLERIC_T0 = list(/datum/action/cooldown/spell/healing, /datum/action/cooldown/spell/undirected/conjure_item/summon_leech/erdl),
 		CLERIC_T1 = /datum/action/cooldown/spell/diagnose/holy,
-		CLERIC_T2 = /datum/action/cooldown/spell/attach_bodypart,
+		CLERIC_T2 = list(/datum/action/cooldown/spell/attach_bodypart, /datum/action/cooldown/spell/healing/greater, /datum/action/cooldown/spell/aoe/abrogation),
 		CLERIC_T3 = /datum/action/cooldown/spell/cure_rot,
 	)
 	viable_tasks = list(
@@ -118,9 +115,9 @@
 /datum/devotion/divine/golerkanh
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
-		CLERIC_T1 = /datum/action/cooldown/spell/status/vigorous_craft,
-		CLERIC_T2 = /datum/action/cooldown/spell/hammer_fall,
-		CLERIC_T3 = /datum/action/cooldown/spell/heat_metal,
+		CLERIC_T1 = /datum/action/cooldown/spell/mend_item,
+		CLERIC_T2 = list(/datum/action/cooldown/spell/hammer_fall, /datum/action/cooldown/spell/heat_metal, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T3 = /datum/action/cooldown/spell/status/vigorous_craft,
 	)
 	viable_tasks = list(
 		/datum/devotion_task/golerkanh_craft,
@@ -133,10 +130,10 @@
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/instill_perfection,
-		CLERIC_T2 = /datum/action/cooldown/spell/projectile/pomette_curse,
+		CLERIC_T2 = list(/datum/action/cooldown/spell/projectile/pomette_curse, /datum/action/cooldown/spell/healing/greater, /datum/action/cooldown/spell/aoe/abrogation),
 		CLERIC_T3 = /datum/action/cooldown/spell/pomettic_bloom,
 	)
-	favored_species = list(SPEC_ID_HARPY)
+	favored_species = list(SPEC_ID_ELF, SPEC_ID_HALF_ELF, SPEC_ID_DROW, SPEC_ID_HALF_DROW)
 	favored_miracles = list(
 		CLERIC_T3 = /datum/action/cooldown/spell/charm/pomettic
 	)
@@ -148,11 +145,12 @@
 
 /datum/devotion/divine/angros
 	miracles = list(
-		CLERIC_T0 = /datum/action/cooldown/spell/healing,
-		CLERIC_T1 = /datum/action/cooldown/spell/sacred_flame,
-		CLERIC_T2 = /datum/action/cooldown/spell/healing/greater,
-		CLERIC_T3 = /datum/action/cooldown/spell/revive,
+		CLERIC_T0 = list(/datum/action/cooldown/spell/sacred_flame, /datum/action/cooldown/spell/undirected/angrosrespite),
+		CLERIC_T1 = /datum/action/cooldown/spell/angrosendure,
+		CLERIC_T2 = list(/datum/action/cooldown/spell/angroslux_tamper, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T3 = /datum/action/cooldown/spell/angrosabsolve,
 	)
+	traits = list(TRAIT_DIVINE_SERVANT)
 
 // Inhumen
 /datum/devotion/inhumen/make_cleric()
@@ -180,20 +178,18 @@
 	)
 
 /datum/devotion/inhumen/envy
-	miracles = list(
-		CLERIC_T0 = list(/datum/action/cooldown/spell/undirected/touch/orison, /datum/action/cooldown/spell/aoe/snuff),
-		CLERIC_T1 = /datum/action/cooldown/spell/projectile/profane,
-		CLERIC_T2 = /datum/action/cooldown/spell/conjure/raise_lesser_undead,
-		CLERIC_T3 = /datum/action/cooldown/spell/undirected/rituos,
-	)
+/* The One Envy considers those not of the Shirleigh dynasty to be beneath her notice,
+beyond carrying out occasional acts of capciciousness for her own amusement. She does not grant miracles to those
+not of Alyssandrine and Malryck's blood - only the Heirs and Regent roles have access to her spells.
+Refer to _devotion.dm to tweak the spells Shirleighs have. */
 	traits = list(TRAIT_DEATHSIGHT)
 
 /datum/devotion/inhumen/archdevils
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/undirected/call_to_slaughter,
 		CLERIC_T1 = /datum/action/cooldown/spell/projectile/blood_net,
-		CLERIC_T2 = /datum/action/cooldown/spell/projectile/revel_in_slaughter,
-		CLERIC_T3 = /datum/action/cooldown/spell/undirected/bloodrage.
+		CLERIC_T2 = list(/datum/action/cooldown/spell/projectile/revel_in_slaughter, /datum/action/cooldown/spell/projectile/blood_bolt),
+		CLERIC_T3 = /datum/action/cooldown/spell/undirected/bloodrage,
 	)
 	viable_tasks = list(
 		/datum/devotion_task/archdevils_consume,
@@ -223,10 +219,10 @@
 
 /datum/devotion/inhumen/angros
 	miracles = list(
-		CLERIC_T0 = /datum/action/cooldown/spell/find_flaw,
-		CLERIC_T1 = /datum/action/cooldown/spell/hertanneablessings,
-		CLERIC_T2 = /datum/action/cooldown/spell/projectile/blowingdust,
-		CLERIC_T3 = /datum/action/cooldown/spell/painkiller,
+		CLERIC_T0 = /datum/action/cooldown/spell/healing/profane,
+		CLERIC_T1 = /datum/action/cooldown/spell/projectile/fireball,
+		CLERIC_T2 = list(/datum/action/cooldown/spell/projectile/revel_in_slaughter, /datum/action/cooldown/spell/projectile/blood_bolt),
+		CLERIC_T3 = /datum/action/cooldown/spell/projectile/fireball/greater,
 	)
 
 // Alternate faiths

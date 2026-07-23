@@ -1,0 +1,4 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - qol: "Tripled and otherwise significantly extended rot durations to prevent every piece of food from rotting so fast"

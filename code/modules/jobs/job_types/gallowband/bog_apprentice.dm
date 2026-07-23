@@ -16,17 +16,16 @@
 
 /datum/job/bog_apprentice
 	title = JOB_BOGWITCH_APP
-	tutorial = "You were dragged out of the mud by the Bog Witch on one of their expeditions- shivering, hungry, and alone. They taught you the ways of the Great Hunt, and in the eclectic methods of the their practice. You work yourself to the bone to tend the crops, stir the cauldrons, and run messages between the Witch and the Gallowband. When the Witch dies, you alone will carry the tradition forward."
+	tutorial = "You were dragged out of the mud by the Bog Witch on one of their expeditions- shivering, hungry, and alone. They taught you the old ways of the wilds, and of the eclectic methods of the their witchcraft. You work yourself to the bone to tend the crops, stir the cauldrons, and run messages between the Witch and the townsfolk when necessary. When the Witch dies, you alone will carry the tradition forward."
 	department_flag = OUTSIDERS
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_BOGWITCH_APP
 	faction = FACTION_TOWN
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = -1
+	spawn_positions = -1
 	bypass_lastclass = TRUE
-	allowed_races = RACES_PLAYER_ALL
-	blacklisted_species = list(SPEC_ID_HALFLING)
-	allowed_ages = list(AGE_ADULT)
+	allowed_races = RACES_NON_ANTAG
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_sexes = list(MALE, FEMALE)
 	outfit = /datum/outfit/bog_apprentice
 	is_foreigner = TRUE

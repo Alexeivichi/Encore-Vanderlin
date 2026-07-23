@@ -2,7 +2,7 @@
 
 /datum/action/cooldown/spell/aoe/abrogation
 	name = "Abrogation"
-	desc = "Bring forth motes of the Frost Aspect to weaken the unliving."
+	desc = "Bring forth the ire of the Aspects to weaken the unliving."
 	button_icon_state = "necra"
 	sound = 'sound/magic/churn.ogg'
 	charge_sound = 'sound/magic/holycharging.ogg'
@@ -12,7 +12,7 @@
 	associated_skill = /datum/attribute/skill/magic/holy
 	required_items = list(/obj/item/clothing/neck/psycross)
 
-	invocation = "Valdala rejects your presence!"
+	invocation = "The Aspects reject your presence!"
 	invocation_type = INVOCATION_SHOUT
 
 	click_to_activate = FALSE
@@ -27,8 +27,8 @@
 		to_chat(owner, span_notice("The rite of Abrogation passes from my lips in silence, having found nothing to assail."))
 		return
 	owner.visible_message(
-		span_warning("A frigid blue glower suddenly erupts in [owner]'s eyes as a whispered prayer summons forth a winding veil of ghostly mists!"),
-		span_notice("I perform the sacred rite of Abrogation, bringing forth Her servants to harry and weaken the unliving!"),
+		span_warning("A brief flash of divine light suddenly erupts in [owner]'s eyes as a whispered prayer summons forth a winding veil of elemental wisps!"),
+		span_notice("I perform the sacred rite of Abrogation, bringing forth Their servants to harry and weaken the unliving!"),
 	)
 
 /datum/action/cooldown/spell/aoe/abrogation/is_valid_target(atom/cast_on)
@@ -62,7 +62,7 @@
 	id = "abrogation"
 	alert_type = /atom/movable/screen/alert/status_effect/debuff/abrogation
 	duration = 30 SECONDS
-	examine_text = "<b>SUBJECTPRONOUN is wreathed in a wild frenzy of ghostly motes!</b>"
+	examine_text = "<b>SUBJECTPRONOUN is wreathed in a wild frenzy of elemental motes!</b>"
 	effectedstats = list(STAT_STRENGTH = -2, STAT_CONSTITUTION = -2, STAT_ENDURANCE = -2, STAT_SPEED = -2)
 	status_type = STATUS_EFFECT_REFRESH
 	tick_interval = 2 DECISECONDS
@@ -80,7 +80,7 @@
 
 /datum/status_effect/debuff/abrogation/on_apply()
 	. = ..()
-	to_chat(owner, span_warning("Wisps leap from the cloying mists to surround me, their chill disrupting my body! FLEE!"))
+	to_chat(owner, span_warning("Wisps leap from the cloying mists to surround me, their denial of me disrupting my body! FLEE!"))
 	owner.add_filter("filter_abrogation", 2, outline_filter(1, outline_colour))
 
 /datum/status_effect/debuff/abrogation/on_remove()
@@ -101,7 +101,7 @@
 		owner.adjustFireLoss(base_tick * intensity)
 
 	if(prob(10))
-		to_chat(owner, span_warning("A frenzy of ghostly motes assail my form!"))
+		to_chat(owner, span_warning("A frenzy of elemental motes assail my form!"))
 		owner.emote("scream")
 
 	if(!debuffer)

@@ -47,11 +47,11 @@
 	allowed_sexes = list(MALE, FEMALE)
 	outfit = /datum/outfit/pilgrim/briar
 	category_tags = list(CTAG_PILGRIM)
-	tutorial = "Stoic gardeners or flesh-eating predators, all can follow Gani's path. <br>His Briars scorn civilized living, many embracing their animal nature, being fickle and temperamental."
+	tutorial = "Gardeners, huntsmen, hearthkeepers, woodfolk; all can follow the Druid's path under the guidance of Mother and Daughter. <br>Briars, however... their connection to the land is more instinctual and primal, and though not heresy, their wilder arts tends to cause discomfort in the cityfolk."
 	cmode_music = 'sound/music/cmode/church/CombatDendor.ogg'
 	allowed_patrons = list(/datum/patron/divine/gani)
 
-	total_positions = 4
+	total_positions = 99
 	exp_types_granted = list(EXP_TYPE_CLERIC)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/pilgrim/briar

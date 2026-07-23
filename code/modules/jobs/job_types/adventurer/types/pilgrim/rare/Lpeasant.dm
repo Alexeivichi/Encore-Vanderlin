@@ -30,8 +30,8 @@
 	able to handle almost every single task there is to do on a fief."
 	allowed_sexes = list(MALE, FEMALE)
 	outfit = /datum/outfit/pilgrim/farmermaster
-	total_positions = 1
-	roll_chance = 0
+	total_positions = -1
+	spawn_positions = -1
 	category_tags = list(CTAG_PILGRIM, CTAG_TOWNER)
 	apprentice_name = "Handyman"
 	cmode_music = 'sound/music/cmode/towner/CombatTowner.ogg'

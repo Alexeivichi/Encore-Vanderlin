@@ -37,7 +37,8 @@
 	)
 	outfit = /datum/outfit/mercenary/qadirid
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = 5
+	total_positions = -1
+	spawn_positions = -1
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg' //Forgive me, Combat_DesertRider, I'm sorry, I'll miss you.
 	languages = list(/datum/language/qadirid)
 

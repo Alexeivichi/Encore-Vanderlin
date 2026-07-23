@@ -19,7 +19,7 @@
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/pilgrim/physicker
 	category_tags = list(CTAG_PILGRIM, CTAG_TOWNER)
-	total_positions = 2
+	total_positions = 99
 	apprentice_name = "Physicker Apprentice"
 	cmode_music = 'sound/music/cmode/nobility/combat_physician.ogg'
 	exp_types_granted = list(EXP_TYPE_MEDICAL)

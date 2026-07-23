@@ -42,7 +42,8 @@
 	)
 	outfit = /datum/outfit/mercenary/underdweller
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = 5
+	total_positions = -1
+	spawn_positions = -1
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/underdweller
 

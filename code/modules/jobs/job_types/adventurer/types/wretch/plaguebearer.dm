@@ -26,7 +26,7 @@
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/wretch/plaguebearer
-	total_positions = 2
+	total_positions = 5
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/plaguebearer
 

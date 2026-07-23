@@ -17,6 +17,7 @@
 /datum/job/advclass/sacrestant/psyaltrist
 	title = "Psyaltrist"
 	tutorial = "Every inquisitor has their second. You aim to keep spirits and faith high, while handling the needs of the inquisitor. Not a glamorous role, but a vital one. “Maybe his lordship would prefer the lute, today, over the viola?”"
+	allowed_races = RACES_LESS_DISCRIMINATED
 	category_tags = list(CTAG_INQUISITION)
 	outfit = /datum/outfit/psyaltrist
 

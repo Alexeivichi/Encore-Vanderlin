@@ -14,7 +14,8 @@
 	allowed_races = RACES_PLAYER_GERAMOR
 	outfit = /datum/outfit/pilgrim/preacher
 	category_tags = list(CTAG_PILGRIM)
-	total_positions = 1
+	total_positions = -1
+	spawn_positions = -1
 	cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
 	allowed_patrons = list(/datum/patron/angros, /datum/patron/angros/extremist)
 

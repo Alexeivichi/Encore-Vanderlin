@@ -27,20 +27,11 @@
 	)
 
 /datum/job/advclass/wretch/reject
-	title = "Rejected Royal"
-	tutorial = "You were once a member of the royal family, but due to your actions, or the circumstances of your birth, you have been cast out to roam the wilds. \
+	title = "Disgraced Noble"
+	tutorial = "You were once a member of a noble family, but due to your actions, or the circumstances of your birth, you have been cast out to roam the wilds. \
 	Now, you return, seeking redemption or perhaps... revenge."
-	allowed_races = list(\
-		SPEC_ID_HUMEN,\
-		SPEC_ID_HALF_ELF,\
-		SPEC_ID_HALF_DROW,\
-		SPEC_ID_DWARF,\
-		SPEC_ID_ELF,\
-		SPEC_ID_DROW,\
-		SPEC_ID_HALF_ORC,\
-		SPEC_ID_TIEFLING,\
-	)
-	allowed_ages = list(AGE_ADULT)
+	allowed_races = RACES_NON_ANTAG
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	total_positions = 1
 	cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg'
 	outfit = /datum/outfit/wretch/reject

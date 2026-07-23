@@ -33,9 +33,8 @@
 	tutorial = "A wandering graduate of the many colleges of magick across Gaia, you search for a job to put your degree to use. And they say school was hard..."
 	outfit = /datum/outfit/adventurer/mage
 	category_tags = list(CTAG_ADVENTURER)
-	total_positions = 4
+	total_positions = 99
 	cmode_music = 'sound/music/cmode/adventurer/CombatSorcerer.ogg'
-	blacklisted_species = list(SPEC_ID_HALFLING)
 	exp_types_granted = list(EXP_TYPE_ADVENTURER, EXP_TYPE_COMBAT, EXP_TYPE_MAGICK)
 	magic_user = TRUE
 	spell_points = 5

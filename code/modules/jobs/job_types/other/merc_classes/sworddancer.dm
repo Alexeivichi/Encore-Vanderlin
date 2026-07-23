@@ -24,7 +24,8 @@
 	allowed_races = list(SPEC_ID_TIEFLING)
 	outfit = /datum/outfit/mercenary/sworddancer
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = 2
+	total_positions = -1
+	spawn_positions = -1
 	cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg' // Not a noble, but it fits really well
 
 

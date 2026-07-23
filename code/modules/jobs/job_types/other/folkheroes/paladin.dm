@@ -33,7 +33,8 @@
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	outfit = /datum/outfit/folkhero/paladin
 	allowed_patrons = ALL_PALADIN_PATRONS
-	total_positions = 1
+	total_positions = -1
+	spawn_positions = -1
 	category_tags = list(CTAG_FOLKHEROES)
 
 	exp_types_granted = list(EXP_TYPE_ADVENTURER, EXP_TYPE_COMBAT, EXP_TYPE_CLERIC)

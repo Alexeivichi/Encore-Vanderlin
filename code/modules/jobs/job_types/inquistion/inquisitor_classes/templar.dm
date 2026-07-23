@@ -22,7 +22,7 @@
 	title = "Angrosian Templar"
 	tutorial = "You are among the strongest students of the Ordo Benetarus. Top of your classes in both physical skill and intellectual matters, you’re here to prove you’re worthy of becoming an inquisitor. One simple step, before your skill is recognized."
 	allowed_sexes = list(MALE, FEMALE)
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_LESS_DISCRIMINATED
 	outfit = /datum/outfit/angrosiantemplar
 	category_tags = list(CTAG_INQUISITION)
 

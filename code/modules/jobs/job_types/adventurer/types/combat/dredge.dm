@@ -5,7 +5,7 @@
 	shiteheap. All you have are your possessions from your former life. Make some coin for yourself, lest you end up dead and gone."
 	outfit = /datum/outfit/adventurer/dredge
 	category_tags = list(CTAG_ADVENTURER)
-	total_positions = 7
+	total_positions = 99
 	var/armortype
 	var/weapontype
 	var/randomjob

@@ -237,7 +237,6 @@ SUBSYSTEM_DEF(gamemode)
 		),
 		"Piety" = list(
 			CHRONICLE_STATS_PIOUS,
-			CHRONICLE_STATS_FOUL_MOUTH,
 		),
 	)
 
@@ -1800,11 +1799,9 @@ SUBSYSTEM_DEF(gamemode)
 	var/highest_laughs = -1
 	var/highest_cries = -1
 	var/highest_prayers = -1
-	var/highest_slurs = -1
 	var/mob/living/top_jokester
 	var/mob/living/top_crybaby
 	var/mob/living/top_pious
-	var/mob/living/top_foul_mouth
 
 	for(var/stat_category in GLOB.chronicle_featured_stats)
 		var/list/category_data = GLOB.chronicle_featured_stats[stat_category]
@@ -1830,11 +1827,6 @@ SUBSYSTEM_DEF(gamemode)
 					highest_prayers = count
 					top_pious = mob
 
-			if(stat_category == FEATURED_STATS_SPECIESISTS)
-				if(count > highest_slurs)
-					highest_slurs = count
-					top_foul_mouth = mob
-
 	if(top_jokester && highest_laughs > 1)
 		set_chronicle_stat(CHRONICLE_STATS_JOKESTER, top_jokester, "JOKESTER", "#fff89b", "[highest_laughs] laughs")
 
@@ -1843,9 +1835,6 @@ SUBSYSTEM_DEF(gamemode)
 
 	if(top_pious && highest_prayers > 1)
 		set_chronicle_stat(CHRONICLE_STATS_PIOUS, top_pious, "PIOUS", "#faf5c7", "[highest_prayers] prayers")
-
-	if(top_foul_mouth && highest_slurs > 1)
-		set_chronicle_stat(CHRONICLE_STATS_FOUL_MOUTH, top_foul_mouth, "FOUL MOUTH", "#e23f3f", "[highest_slurs] slurs")
 
 	pick_chronicle_stats()
 

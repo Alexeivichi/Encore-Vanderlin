@@ -22,8 +22,8 @@
 	department_flag = APPRENTICES
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	faction = FACTION_TOWN
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = -1
+	spawn_positions = -1
 	display_order = JDO_BAPP
 	give_bank_account = TRUE
 	bypass_lastclass = TRUE
@@ -31,8 +31,8 @@
 	cmode_music = 'sound/music/cmode/towner/CombatTowner2.ogg'
 	job_bitflag = BITFLAG_CONSTRUCTOR
 
-	allowed_races = RACES_PLAYER_ALL
-	allowed_ages = list(AGE_ADULT)
+	allowed_races = RACES_NON_ANTAG
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 
 	outfit = /datum/outfit/bapprentice
 	can_be_apprentice = TRUE

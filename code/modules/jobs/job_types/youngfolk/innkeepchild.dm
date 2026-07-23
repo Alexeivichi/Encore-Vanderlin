@@ -15,19 +15,18 @@
 
 /datum/job/innkeep_son
 	title = JOB_INNKEEP_SON
-	f_title = "Innkeepers Daughter"
-	tutorial = "One nite the Innkeeper took you in during a harsh winter, \
-	you've been thankful ever since."
+	f_title = "Tavern Assistant"
+	tutorial = "One of the Innkeeper's assistants; you're the lowest rung on the ladder in their business venture. Clean floors and cutlery, fetch ingredients and casks; whatever the rest of the staff ask of you. You might even pour a drink or two if they're too busy; whatever needs doing."
 	department_flag = YOUNGFOLK
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_INNKEEP_CHILD
 	faction = FACTION_TOWN
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 99
+	spawn_positions = 99
 	bypass_lastclass = TRUE
 
-	allowed_ages = list(AGE_CHILD)
-	allowed_races = RACES_PLAYER_ALL
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
+	allowed_races = RACES_NON_ANTAG
 
 	outfit = /datum/outfit/innkeep_son
 	can_have_apprentices = FALSE

@@ -22,7 +22,8 @@
 	outfit = /datum/outfit/adventurer/corsair
 	category_tags = list(CTAG_MERCENARY)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
-	total_positions = 5
+	total_positions = -1
+	spawn_positions = -1
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/corsair
 

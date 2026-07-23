@@ -1,24 +1,21 @@
 /datum/job/inquisitor
 	title = JOB_PRAFEKT
-	f_title = "Frau Prefect"
+	f_title = "Inquisitrix"
 	department_flag = INQUISITION
 	faction = "Station"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	allowed_sexes = list(MALE, FEMALE)
-	allowed_races = list(\
-		SPEC_ID_HUMEN,\
-		SPEC_ID_DWARF,\
-	)
-	honorary = "Prefect"
-	honorary_f = "Frau Prefect"
-	//You MUST have a Angrosian character to start. Just so people don't get japed into Oops Suddenly Angros!
-	allowed_patrons = list(/datum/patron/angros) // you have to keep the official church stance, no way an extremist angrosian could become inquisitor
-	tutorial = "This is the week. All your lessons have led to this moment. Your students follow you with eager steps and breathless anticipation. You’re to observe their hunt, and see if they can banish the evils haunting Gaia, and rise up to become true inquisitors. A guide to them, a monster to others. You are the thing that goes bump in the night."
+	allowed_races = RACES_TEMPLAR
+	honorary = "Inquisitor"
+	honorary_f = "Inquisitrix"
+	//You MUST have a Elementalist character to start. Just so people don't get japed into Oops Suddenly Elementalist!
+	allowed_patrons = list(/datum/patron/divine/centrist) // you have to keep the univeralist church stance, so you don't favour one patron more
+	tutorial = "You have been sent by the High Bishop of the Katholikos, leader of a radical denomination of the One Church that only believes in the endurance of the All-Aspect, and the security of the Elemental Pantheon. Officially, you are here on diplomatic business. Unofficially, you work to cast out the sinners from God's house. Heresy of all kinds must be corrected; from heretics that stray too far from doctrine, to poisoned fools that worship devils. The locals fear but respect you due to your ability to fight the demonic, and Etgard's royalty tolerates you due to your aligned goals against the demonic... but it is probably best to not let them peer too closely. Remember, you work alongside the Church, and do not order their number around. Though your work is sometimes separate to the main Church, you are subservient to the Bishop of Domotan."
 	cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
 	selection_color = JCOLOR_INQUISITION
-	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	spells = list(/datum/action/cooldown/spell/undirected/list_target/convert_role/adept)
 	outfit = /datum/outfit/inquisitor
 	display_order = JDO_PURITAN
@@ -57,7 +54,7 @@
 	spawned.hud_used?.shutdown_bloodpool()
 	spawned.hud_used?.initialize_bloodpool()
 	spawned.hud_used?.bloodpool.set_fill_color("#dcdddb")
-	spawned.hud_used?.bloodpool?.name = "Angros's Grace: [spawned.bloodpool]"
+	spawned.hud_used?.bloodpool?.name = "Aspects' Grace: [spawned.bloodpool]"
 	spawned.hud_used?.bloodpool?.desc = "Devotion: [spawned.bloodpool]/[spawned.maxbloodpool]"
 	spawned.maxbloodpool = 1000
 
@@ -304,12 +301,12 @@
 			var/datum/patron/interrogator_patron = interrogator.patron
 			var/datum/patron/victim_patron = patron
 			switch(interrogator_patron.associated_faith.type)
-				if(/datum/faith/angros)
-					if(ispath(victim_patron.type, /datum/patron/divine) && victim_patron.type != /datum/patron/divine/valdala)
+				if(/datum/faith/divine_pantheon)
+					if(ispath(victim_patron.type, /datum/patron/divine))
 						interrogator.add_stress(/datum/stress_event/torture_small_penalty)
 					else if(victim_patron.type == /datum/patron/godless/naivety)
 						interrogator.add_stress(/datum/stress_event/torture_small_penalty)
-					else if(istype(victim_patron, /datum/patron/angros))
+					else if(istype(victim_patron, /datum/patron/divine/centrist))
 						interrogator.add_stress(/datum/stress_event/torture_large_penalty)
 
 		if(length(confessions))
@@ -342,7 +339,7 @@
 						held_confession.bad_type = "AN OUTLAW OF THE THIEF-LORD"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/patron/inhumen/deceivers)
-						held_confession.bad_type = "A FOLLOWER OF THE THIEF-LORD"
+						held_confession.bad_type = "A FOLLOWER OF THE DECEIVERS"
 						held_confession.antag = "worshiper of " + initial(antag_type:name)
 					if(/datum/antagonist/maniac)
 						held_confession.bad_type = "A MANIAC DELUDED BY MADNESS"
@@ -363,16 +360,16 @@
 						var/datum/antagonist/werewolf/werewolf_antag = mind.has_antag_datum(/datum/antagonist/werewolf, TRUE)
 						if(werewolf_antag.transformed)
 							return
-						held_confession.bad_type = "A BEARER OF GANI'S CURSE"
+						held_confession.bad_type = "A BEARER OF ERDL'S CURSE"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/antagonist/werewolf/lesser)
 						var/datum/antagonist/werewolf/werewolf_antag = mind.has_antag_datum(/datum/antagonist/werewolf, TRUE)
 						if(werewolf_antag.transformed)
 							return
-						held_confession.bad_type = "A BEARER OF GANI'S CURSE"
+						held_confession.bad_type = "A BEARER OF ERDL'S CURSE"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/antagonist/vampire)
-						held_confession.bad_type = "A SCION OF KAINE"
+						held_confession.bad_type = "A SERVANT TO THE BLOOD THIRST"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/antagonist/vampire/lord)
 						held_confession.bad_type = "THE BLOOD-LORD OF THE WILD PLACES"
@@ -384,7 +381,7 @@
 						held_confession.bad_type = "AN UNDERLING OF THE BLOOD-LORD"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/patron/inhumen/archdevils)
-						held_confession.bad_type = "A FOLLOWER OF THE DARK SUN"
+						held_confession.bad_type = "A WORSHIPPER OF THE DAEMONIC"
 						held_confession.antag = "worshiper of " + initial(antag_type:name)
 					if(/datum/patron/godless/godless)
 						held_confession.bad_type = "A DAMNED ANTI-THEIST"

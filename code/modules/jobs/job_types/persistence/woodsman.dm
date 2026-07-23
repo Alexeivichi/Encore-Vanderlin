@@ -26,8 +26,8 @@
 	department_flag = PEASANTS
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	faction = FACTION_TOWN
-	allowed_races = RACES_PLAYER_ALL
-	allowed_ages = ALL_AGES_LIST
+	allowed_races = RACES_NON_ANTAG
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	outfit = /datum/outfit/woodsman_p
 	cmode_music = 'sound/music/cmode/towner/CombatTowner.ogg'
 

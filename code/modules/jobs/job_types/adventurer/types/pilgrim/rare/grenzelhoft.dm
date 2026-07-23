@@ -23,7 +23,8 @@
 	allowed_races = RACES_PLAYER_GERAMOR
 	outfit = /datum/outfit/pilgrim/aelondan
 	category_tags = list(CTAG_PILGRIM)
-	total_positions = 1
+	total_positions = -1
+	spawn_positions = -1
 	is_recognized = TRUE
 	cmode_music = 'sound/music/cmode/combat_grenzelhoft.ogg'
 	honorary = "Count"

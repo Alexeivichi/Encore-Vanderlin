@@ -2,19 +2,19 @@
 	title = JOB_ADEPT
 	tutorial = "You were a convicted criminal, the lowest scum of Domotan. \
 	Your master, the Inquisitor, saved you from the gallows \
-	and has given you true purpose in service to Angros. \
-	You will not let him down."
+	and has given you true purpose in service to the Elemental Aspects. \
+	You will not let them down."
 	department_flag = INQUISITION
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_SHEPHERD
 	selection_color = JCOLOR_INQUISITION
 	faction = FACTION_TOWN
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 99
+	spawn_positions = 99
 	bypass_lastclass = TRUE
 
-	allowed_patrons = list(/datum/patron/angros, /datum/patron/angros/extremist)
-	allowed_races = RACES_PLAYER_ALL
+	allowed_patrons = /datum/patron/divine/centrist
+	allowed_races = RACES_LESS_DISCRIMINATED
 
 	outfit = /datum/outfit/adept
 	advclass_cat_rolls = list(CTAG_ADEPT = 20)

@@ -25,16 +25,8 @@
 	title = "Cudese Shinobi"
 	tutorial = "You belong to the Shinobis of Yinshi. An elusive order of Akanite freedom fighters originating from the long-dead Old Kui. You have dedicated yourself to uplifting the enslaved and oppressed, and hope to continue doing so in the lands you travel."
 	allowed_patrons = list(/datum/patron/divine/iliope)
-	allowed_races = list(\
-		SPEC_ID_HUMEN,\
-		SPEC_ID_HALF_ELF,\
-		SPEC_ID_TIEFLING,
-		SPEC_ID_DROW,\
-		SPEC_ID_ELF,\
-		SPEC_ID_HALF_DROW,\
-	) // excluding harpies because their weak as hell, excluding rakshari, hollowkin, and kobolds because they have no lux, which is incredibly taboo in lakkarian society/culture, half orcs are excluded as well becausee theyll be too damn strong
-	total_positions = 0 //Lakkari disabled
-	roll_chance = 0
+	total_positions = -1
+	spawn_positions = -1
 	category_tags = list(CTAG_ADVENTURER)
 	cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 	outfit = /datum/outfit/adventurer/sekketianshinobi

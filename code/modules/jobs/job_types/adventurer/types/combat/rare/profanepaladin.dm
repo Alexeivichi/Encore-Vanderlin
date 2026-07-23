@@ -24,8 +24,8 @@
 	tutorial = "There are those who are so dedicated to the worship and service of their heretical god, that they have become famous amongst their followers, and infamous amongst the common men and women. These False Paladins bear the armour and marks of their respective god, travelling across the lands to preach and slay in their name. Naturally, they are branded a heretic by the Katholikos. Expect no quarter."
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/adventurer/profanepaladin
-	total_positions = 1
-	roll_chance = 15
+	total_positions = -1
+	spawn_positions = -1
 	category_tags = list(CTAG_ADVENTURER)
 	allowed_patrons = ALL_PROFANE_PATRONS
 	exp_type = list(EXP_TYPE_ADVENTURER, EXP_TYPE_LIVING, EXP_TYPE_COMBAT, EXP_TYPE_CLERIC)

@@ -1,8 +1,9 @@
 /datum/job/consort
 	title = JOB_CONSORT
-	tutorial = "Yours was a marriage of political convenience rather than love, \
-	yet you have remained the ruling monarch's good friend and confidant throughout your marriage. \
-	But your love and loyalty will be tested, for daggers are equally pointed at your throat."
+	tutorial = "The beloved consort to whoever may be the current Regent of Etgard Keep. Likely foreign royalty, and even more likely (though not necessarily) \
+	someone hand-picked by Queen Alyssandrine herself, but anybody who can impress the Queen or bring something worthwhile to the \
+	family have a chance. Whether you were wed for true love or political convenience, you are the second most powerful person on Domotan \
+	Island, aside from your royal spouse. Even their siblings had better show you deference."
 	department_flag = NOBLEMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_CONSORT
@@ -12,7 +13,7 @@
 	bypass_lastclass = TRUE
 
 	spells = list(/datum/action/cooldown/spell/undirected/list_target/convert_role/servant)
-	allowed_races = RACES_PLAYER_ROYALTY
+	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	outfit = /datum/outfit/consort
 	advclass_cat_rolls = list(CTAG_CONSORT = 20)
 	give_bank_account = 500
@@ -113,7 +114,7 @@
 
 /datum/job/advclass/consort/highborn
 	title = "Highborn Consort"
-	tutorial = "Of a minor noble house, yours is a rather typical tale; you were trained in manners, literature, and intrigue, all to be married off to the next ruler of this damned peninsula."
+	tutorial = "Of a noble house - either upon Domotan Island or anywhere elsewhere in the Goblet - yours is a rather typical tale; you were trained in manners, literature, and intrigue, all to be married off to the next ruler of this damned island."
 	outfit = /datum/outfit/consort/highborn
 	category_tags = list(CTAG_CONSORT)
 	exp_types_granted  = list(EXP_TYPE_NOBLE)

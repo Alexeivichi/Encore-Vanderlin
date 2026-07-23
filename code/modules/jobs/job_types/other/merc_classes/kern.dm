@@ -23,7 +23,8 @@
 	)
 	outfit = /datum/outfit/mercenary/kern
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = 0
+	total_positions = -1
+	spawn_positions = -1
 	cmode_music = 'sound/music/cmode/Combat_Dwarf.ogg'
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/kern

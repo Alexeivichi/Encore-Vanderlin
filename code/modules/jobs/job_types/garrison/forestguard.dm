@@ -10,13 +10,13 @@
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_FORGUARD
 	faction = FACTION_TOWN
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = 99
+	spawn_positions = 99
 	bypass_lastclass = TRUE
 	selection_color = "#0d6929"
 
-	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL, AGE_CHILD)
-	allowed_races = RACES_PLAYER_ALL
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
+	allowed_races = RACES_LESS_DISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	give_bank_account = 30
 	can_have_apprentices = FALSE
@@ -87,7 +87,7 @@
 	tutorial = "In the recent wars- you alone were deployed to the front lines, caving skulls and chopping legs - saving your family-at-arms through your reckless diversions. With your bloodied axe and flail, every swing and crack was another hatch on your tally. Now that the War's over, even with your indomitable spirit and tireless zeal - let's see if that still rings true."
 	outfit = /datum/outfit/forestguard/infantry
 	category_tags = list(CTAG_FORGARRISON)
-	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	blacklisted_species = list(SPEC_ID_HALFLING, SPEC_ID_KOBOLD, SPEC_ID_KOBOLD_FORMIKRAG)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/forestguard/infantry
@@ -141,7 +141,7 @@
 	tutorial = "In the wars you were always one of the fastest, as well as one of the frailest in the platoon. Your trusty bow has served you well- of course, none you've set your sights on have found the tongue to disagree."
 	outfit = /datum/outfit/forestguard/ranger
 	category_tags = list(CTAG_FORGARRISON)
-	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	blacklisted_species = list(SPEC_ID_HALFLING, SPEC_ID_KOBOLD, SPEC_ID_KOBOLD_FORMIKRAG)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/forestguard/ranger
@@ -194,7 +194,7 @@
 	tutorial = "In the wars you took an oath to never shy from a hit. Axe in hand, thirsting for blood, you simply enjoy the <i>chaos of battle...</i>"
 	outfit = /datum/outfit/forestguard/reaver
 	category_tags = list(CTAG_FORGARRISON)
-	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	blacklisted_species = list(SPEC_ID_HALFLING, SPEC_ID_KOBOLD, SPEC_ID_KOBOLD_FORMIKRAG)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/forestguard/reaver
@@ -221,55 +221,6 @@
 		/obj/item/rope/chain = 1,
 		/obj/item/storage/belt/pouch/coins/poor = 1
 	)
-
-/datum/attribute_holder/sheet/job/forestguard/ruffian
-	attribute_variance = list(
-		STAT_STRENGTH = list(-1, 1),
-		STAT_INTELLIGENCE = list(-2, 2),
-		STAT_CONSTITUTION = list(-1, 1),
-		STAT_ENDURANCE = list(-1, 1),
-		STAT_FORTUNE = list(-4, 4),
-	)
-	raw_attribute_list = list(
-		STAT_PERCEPTION = 1,
-		/datum/attribute/skill/misc/swimming = 30,
-		/datum/attribute/skill/misc/climbing = 40,
-		/datum/attribute/skill/misc/athletics = 20,
-		/datum/attribute/skill/craft/crafting = 20,
-		/datum/attribute/skill/craft/carpentry = 10,
-		/datum/attribute/skill/misc/sewing = 20,
-		/datum/attribute/skill/labor/butchering = 20,
-		/datum/attribute/skill/combat/bows = 10,
-		/datum/attribute/skill/combat/crossbows = 10,
-		/datum/attribute/skill/combat/knives = 20,
-		/datum/attribute/skill/combat/axesmaces = 10,
-		/datum/attribute/skill/combat/wrestling = 10,
-		/datum/attribute/skill/craft/cooking = 20,
-		/datum/attribute/skill/misc/sneaking = 20,
-		/datum/attribute/skill/misc/stealing = 30,
-		/datum/attribute/skill/craft/tanning = 20
-	)
-
-/datum/job/advclass/forestguard/ruffian
-	title = "Forest Ruffian"
-	tutorial = "For your terrible orphan pranks and antics in the city, you were rounded up by the city's Watch and put to work in the infamous forest garrison. \n\n A ruffian by circumstance, a proven listener of war stories - you might just become more than a troublemaker."
-	outfit = /datum/outfit/forestguard/ruffian
-	category_tags = list(CTAG_FORGARRISON)
-	allowed_ages = list(AGE_CHILD)
-	blacklisted_species = list(SPEC_ID_HALFLING, SPEC_ID_KOBOLD, SPEC_ID_KOBOLD_FORMIKRAG)
-
-	attribute_sheet = /datum/attribute_holder/sheet/job/forestguard/ruffian
-
-	traits = list(
-		TRAIT_FORAGER,
-		TRAIT_ORPHAN,
-		TRAIT_BRUSHWALK,
-	)
-	mind_traits = list(TRAIT_KNOWBANDITS)
-
-/datum/job/advclass/forestguard/ruffian/after_spawn(mob/living/carbon/human/spawned, client/player_client)
-	. = ..()
-	add_verb(spawned, /mob/proc/haltyellorphan)
 
 /datum/attribute_holder/sheet/job/forestguard/rat
 	attribute_variance = list(

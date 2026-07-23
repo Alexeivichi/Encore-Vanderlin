@@ -337,3 +337,11 @@
 	icon_state = "white"
 	layer = BLIND_LAYER
 	alpha = 0
+
+/atom/movable/screen/fullscreen/underwater
+	icon = 'icons/mob/screens/underwater_overlays.dmi'
+	icon_state = "underwater"
+
+/atom/movable/screen/fullscreen/underwater_abyss
+	icon = 'icons/mob/screens/underwater_overlays.dmi'
+	icon_state = "underwater_abyss"

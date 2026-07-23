@@ -6,8 +6,8 @@
 	Your position is anything but secure, and any mistake can leave you disowned and charged like the petty criminal you are. \
 	Garrison and Court members know who you are."
 	job_flags = (JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
-	total_positions = 0
-	spawn_positions = 2
+	total_positions = -1
+	spawn_positions = -1
 	department_flag = NOBLEMEN
 
 	job_bitflag = BITFLAG_GARRISON // counts for antag shit

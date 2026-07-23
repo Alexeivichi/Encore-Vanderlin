@@ -22,12 +22,12 @@
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_CHURCHLING
 	faction = FACTION_TOWN
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = -1
+	spawn_positions = -1
 	bypass_lastclass = TRUE
 
-	allowed_ages = list(AGE_CHILD)
-	allowed_races = RACES_PLAYER_ALL
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
+	allowed_races = RACES_LESS_DISCRIMINATED
 	allowed_patrons = UNDIVIDED_TEMPLE_PATRONS
 
 	outfit = /datum/outfit/churchling

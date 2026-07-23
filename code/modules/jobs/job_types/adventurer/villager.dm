@@ -12,7 +12,7 @@
 	bypass_lastclass = TRUE
 
 	advclass_cat_rolls = list(CTAG_TOWNER = 20)
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_NON_ANTAG
 	can_be_apprentice = TRUE
 
 	outfit = null

@@ -45,7 +45,7 @@
 	title = "Sellmage"
 	tutorial = "( DUE TO BEING A NOBLE, THIS CLASS WILL BE DIFFICULT FOR INHUMEN. YOU HAVE BEEN WARNED. )\
 	\n\n\ \
-	You're a noble, but in name only. You were taught in magic from an early age, but it wasn't enough. \
+	You had the privilege of being taught in magic from an early age, but it wasn't enough. \
 	You lost your wealth, taken away by force or spent carelessly by your family. \
 	Either way, the result is the same. Your family fortune is gone, and you have become a mercenary to make ends meet. \
 	It was gruelling, certainly difficult, but you're now a seasoned mage who can handle themselves during combat. \
@@ -53,25 +53,19 @@
 	\n\n\ \
 	Yet after all this, you still think to yourself, that this work is beneath you, as your sense of pride protests every morning. \
 	But it all goes away whenever a zenarii filled pouch is thrown your way, for a while at least."
-	//not RACES_PLAYER_NONDISCRIMINATED becauses they are a FOREIGN noble
-	allowed_races = RACES_PLAYER_FOREIGNNOBLE
+	allowed_races = RACES_NON_ANTAG
 	outfit = /datum/outfit/mercenary/sellmage
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = 2 //balance slop
-	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)//they were a mage, or learnt magic, before becoming a mercenary
+	total_positions = 99 //balance slop
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)//they were a mage, or learnt magic, before becoming a mercenary
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	cmode_music = 'sound/music/cmode/adventurer/CombatSorcerer.ogg'
-	allowed_patrons = ALL_TEMPLE_PATRONS
 	exp_types_granted = list(EXP_TYPE_MERCENARY, EXP_TYPE_COMBAT, EXP_TYPE_MAGICK)
 	magic_user = TRUE
 	spell_points = 8 //less than courtmagician, more than an adventurer wizard
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/sellmage
 	attribute_sheet_old = /datum/attribute_holder/sheet/job/sellmage/old
-
-	traits = list(
-		TRAIT_NOBLE_BLOOD
-	)
 
 /datum/job/advclass/mercenary/sellmage/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()

@@ -25,6 +25,7 @@ GLOBAL_VAR_INIT(mobids, 1)
  * Returns QDEL_HINT_HARDDEL (don't change this)
  */
 /mob/Destroy()//This makes sure that mobs with clients/keys are not just deleted from the game.
+	release_character_name()
 	GLOB.mob_list -= src
 	GLOB.dead_mob_list -= src
 	GLOB.alive_mob_list -= src
@@ -54,6 +55,21 @@ GLOBAL_VAR_INIT(mobids, 1)
 		CRASH("Tried to assign a mob a non-text ckey, wtf?!")
 
 	src.ckey = ckey(ckey)
+
+/// Releases the mob's current real name from the chosen names list if no other mob still uses it.
+/mob/proc/release_character_name()
+	if(!real_name)
+		return
+
+	for(var/mob/M as anything in GLOB.mob_list)
+		if(M != src && M.real_name == real_name)
+			return
+
+	if(GLOB.character_ckey_list[real_name] == ckey)
+		GLOB.character_ckey_list -= real_name
+
+	if(real_name in GLOB.chosen_names)
+		GLOB.chosen_names -= real_name
 
 /**
  * Intialize a mob

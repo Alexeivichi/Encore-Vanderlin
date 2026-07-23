@@ -19,18 +19,18 @@
 
 /datum/job/gmtemplar
 	title = JOB_GRANDMASTER_TEMPLAR
-	tutorial = "The most veteran of the Templars within the church employ. A survivor of some unknowable old conflict, given seniority and great respect among their peers."
+	tutorial = "Sent from the Worldflame Island, a faithful of Angros, an ashen Templar; you are a Martyr. You do not lead the Templars, that task falls to the Bishop. Nae; your task is to safeguard the Church and its people therein, sacrificing your very life for them if need be. Embody your dying god, and burn yourself up for the sake of others 'til naught but ash remains."
 	department_flag = CHURCHMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_GMTEMPLAR
 	faction = FACTION_TOWN
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	bypass_lastclass = TRUE
 	cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
 
-	allowed_races = RACES_PLAYER_NONDISCRIMINATED
-	allowed_patrons = list(/datum/patron/divine/mordsol)
+	allowed_races = RACES_LESS_DISCRIMINATED
+	allowed_patrons = list(/datum/patron/angros)
 
 	outfit = /datum/outfit/gmtemplar
 	give_bank_account = 0
@@ -43,7 +43,7 @@
 		EXP_TYPE_CHURCH = 900,
 		EXP_TYPE_COMBAT = 900
 	)
-	honorary = "Grandmaster"
+	honorary = "Martyr"
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/gmtemplar
 
@@ -75,14 +75,14 @@
 		"Mace" = /obj/item/weapon/mace/goden/steel/grandmaster,
 	)
 
-	spawned.select_equippable(player_client, selectableweapon, message = "Choose thy blade", title = "GRANDMASTER")
+	spawned.select_equippable(player_client, selectableweapon, message = "Choose thy blade", title = "MARTYR")
 
 	var/static/list/selectablehelm = list(
 		"Armet" = /obj/item/clothing/head/helmet/visored/silver/armet,
 		"Bascinet" = /obj/item/clothing/head/helmet/visored/silver,
 	)
 
-	spawned.select_equippable(player_client, selectablehelm, message = "Choose thy helm", title = "GRANDMASTER")
+	spawned.select_equippable(player_client, selectablehelm, message = "Choose thy helm", title = "MARTYR")
 
 	var/static/list/selectablecloak = list(
 		"Cloak" = /obj/item/clothing/cloak/pantheon,
@@ -90,7 +90,7 @@
 		"Jupon" = /obj/item/clothing/cloak/silktabard
 	)
 
-	spawned.select_equippable(player_client, selectablecloak, message = "Choose thy overcoat", title = "GRANDMASTER")
+	spawned.select_equippable(player_client, selectablecloak, message = "Choose thy overcoat", title = "MARTYR")
 
 /datum/outfit/gmtemplar
 	name = JOB_GRANDMASTER_TEMPLAR
@@ -104,7 +104,7 @@
 	belt = /obj/item/storage/belt/leather/black
 	ring = /obj/item/clothing/ring/silver/rontz
 	gloves = /obj/item/clothing/gloves/plate/silver
-	wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol
+	wrists = /obj/item/clothing/neck/psycross/gold
 
 
 

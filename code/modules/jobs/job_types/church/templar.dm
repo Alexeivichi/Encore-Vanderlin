@@ -7,12 +7,13 @@
 		/datum/attribute/skill/combat/wrestling = 30,
 		/datum/attribute/skill/combat/unarmed = 20,
 		/datum/attribute/skill/combat/shields = 30,
+		/datum/attribute/skill/combat/swords = 40,
 		/datum/attribute/skill/misc/climbing = 10,
 		/datum/attribute/skill/misc/athletics = 30,
 		/datum/attribute/skill/misc/reading = 20,
 		/datum/attribute/skill/magic/holy = 20,
 		/datum/attribute/skill/misc/medicine = 10,
-		/datum/attribute/skill/misc/sewing = 20
+		/datum/attribute/skill/misc/sewing = 20,
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/visires
@@ -91,11 +92,11 @@
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_TEMPLAR
 	faction = FACTION_TOWN
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 99
+	spawn_positions = 99
 	bypass_lastclass = TRUE
 
-	allowed_races = RACES_TEMPLAR
+	allowed_races = RACES_LESS_DISCRIMINATED
 	allowed_patrons = ALL_TEMPLAR_PATRONS
 
 	outfit = /datum/outfit/templar
@@ -200,7 +201,7 @@
 	name = JOB_TEMPLAR
 	head = /obj/item/clothing/head/helmet/heavy/necked
 	cloak = /obj/item/clothing/cloak/tabard/crusader/tief
-	armor = /obj/item/clothing/armor/brigandine
+	armor = /obj/item/clothing/armor/plate
 	shirt = /obj/item/clothing/armor/chainmail
 	pants = /obj/item/clothing/pants/chainlegs
 	shoes = /obj/item/clothing/shoes/boots/armor/light

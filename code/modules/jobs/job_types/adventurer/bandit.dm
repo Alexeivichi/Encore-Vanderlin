@@ -7,7 +7,7 @@
 	job_flags = (JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE | JOB_SHOW_IN_CREDITS)
 	display_order = JDO_BANDIT
 	faction = FACTION_NEUTRAL
-	total_positions = 6
+	total_positions = 5
 	spawn_positions = 4
 	antag_job = TRUE
 

@@ -168,6 +168,13 @@
 					situational_bonus = 25
 
 			if(/datum/patron/inhumen/envy)
+				cast_on.visible_message(span_info("A foreign light burns impossibly bright around [cast_on]!"), span_notice("Light empowers my body, making quick work of my wounds. I hear the voice of a divine being which is far too close to me."))
+				// if it's cast on a Shirleigh, effectively double the healing. no one else gets the bonus.
+				if(HAS_TRAIT(cast_on, TRAIT_CABAL))
+					conditional_buff = TRUE
+					situational_bonus = 25
+
+			if(/datum/patron/inhumen/archdevils)
 				cast_on.visible_message(span_info("Vital energies are sapped towards [cast_on]!"), span_notice("The life around me pales as I am restored!"))
 				// set up a ritual pile of bones (or just cast near a stack of bones whatever) around us for massive bonuses, cap at 50 for 75 healing total (wowie)
 				situational_bonus = 0
@@ -175,15 +182,6 @@
 					situational_bonus = min(situational_bonus + 5, 50)
 				if(situational_bonus > 0)
 					conditional_buff = TRUE
-
-			if(/datum/patron/inhumen/archdevils)
-				cast_on.visible_message(span_info("Foul fumes billow outward as [cast_on] is restored!"), span_notice("A noxious scent burns my nostrils, but I feel better!"))
-				// if you've got lingering toxin damage, you get healed more, but your bonus healing doesn't affect toxin
-				var/toxloss = cast_on.getToxLoss()
-				if(toxloss >= 10)
-					conditional_buff = TRUE
-					situational_bonus = 25
-					cast_on.adjustToxLoss(situational_bonus) // remember we do a global toxloss adjust down below so this is okay
 
 			if(/datum/patron/inhumen/deceivers)
 				cast_on.visible_message(span_info("A shadowed hand passes [cast_on] a small, stolen vial... its contents glimmer faintly before sinking into their veins..."), span_notice("A quick swig and the ache fades..."))
@@ -208,6 +206,15 @@
 						conditional_buff = TRUE
 						situational_bonus = 25
 						break
+
+			if(/datum/patron/angros/extremist)
+				cast_on.visible_message(span_info("Foul fumes billow outward as [cast_on] is restored!"), span_notice("A noxious scent burns my nostrils, but I feel better!"))
+				// if you've got lingering toxin damage, you get healed more, but your bonus healing doesn't affect toxin
+				var/toxloss = cast_on.getToxLoss()
+				if(toxloss >= 10)
+					conditional_buff = TRUE
+					situational_bonus = 25
+					cast_on.adjustToxLoss(situational_bonus) // remember we do a global toxloss adjust down below so this is okay
 
 			if(/datum/patron/alternate/great_hunt/proven)
 				cast_on.visible_message(span_info("The smell of wet grass and earth surrounds [cast_on]!"), span_notice("I'm surrounded by the smell of wet grass and earth!"))

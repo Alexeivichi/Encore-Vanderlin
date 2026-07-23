@@ -26,7 +26,8 @@
 	allowed_races = list(SPEC_ID_HARPY)
 	outfit = /datum/outfit/mercenary/valkyrie
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = 2
+	total_positions = -1
+	spawn_positions = -1
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/valkyrie

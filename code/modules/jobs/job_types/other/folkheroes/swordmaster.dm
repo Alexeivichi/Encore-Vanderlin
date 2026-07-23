@@ -18,7 +18,8 @@
 	allowed_sexes = list(MALE)
 	allowed_races = list(SPEC_ID_HUMEN, SPEC_ID_AASIMAR) // not RACES_PLAYER_GERAMOR because dwarves don't have a sprite for this armor
 	outfit = /datum/outfit/folkhero/swordmaster
-	total_positions = 1
+	total_positions = -1
+	spawn_positions = -1
 	category_tags = list(CTAG_FOLKHEROES)
 	cmode_music = 'sound/music/cmode/combat_grenzelhoft.ogg'
 	honorary = "Ser"

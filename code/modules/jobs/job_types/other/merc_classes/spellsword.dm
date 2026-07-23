@@ -23,7 +23,8 @@
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/spellsword
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = 5
+	total_positions = -1
+	spawn_positions = -1
 	cmode_music = 'sound/music/cmode/adventurer/CombatSorcerer.ogg'
 	allowed_patrons = ALL_TEMPLE_PATRONS
 	blacklisted_species = list(SPEC_ID_HALFLING)

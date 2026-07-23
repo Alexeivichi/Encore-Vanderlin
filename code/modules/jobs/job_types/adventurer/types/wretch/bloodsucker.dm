@@ -23,7 +23,7 @@
 /datum/job/advclass/wretch/bloodsucker
 	title = "Bloodsucker"
 	tutorial = "Abandoned by your clan or sired by some offspawn, you have found yourself a vampire... partially. While you do not burn in the sun, you are bound far more by your mortal blood."
-	total_positions = 1
+	total_positions = 3
 
 	pack_title = "Fledgling Origins"
 	pack_message = "Choose your past"

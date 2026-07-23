@@ -1267,8 +1267,6 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 			H.remove_status_effect(/datum/status_effect/debuff/hungryt2)
 			if(CONFIG_GET(flag/starvation_death))
 				H.apply_status_effect(/datum/status_effect/debuff/hungryt4)
-			if(prob(3))
-				playsound(H, pick('sound/vo/hungry1.ogg','sound/vo/hungry2.ogg','sound/vo/hungry3.ogg'), 100, TRUE, -1)
 
 	switch(H.hydration)
 		if(HYDRATION_LEVEL_THIRSTY to HYDRATION_LEVEL_SMALLTHIRST)

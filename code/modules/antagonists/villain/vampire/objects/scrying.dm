@@ -109,7 +109,7 @@
 			continue
 		filtered += A
 
-	var/area/thearea  = browser_input_list(src, "Area to jump to", "VANDERLIN", filtered)
+	var/area/thearea  = browser_input_list(src, "Area to jump to", "ENCORE", filtered)
 
 	if(!thearea)
 		return

@@ -226,6 +226,12 @@
 	pixel_y = 14
 	},
 /obj/item/clothing/face/cigarette/pipe/crafted,
+/obj/item/neuFarm/seed/manabloom,
+/obj/item/neuFarm/seed/manabloom,
+/obj/item/neuFarm/seed/manabloom,
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
 /turf/open/floor/ruinedwood/alt,
 /area/indoors/town/keep/magician)
 "agD" = (
@@ -1623,6 +1629,18 @@
 /obj/structure/table/wood/treestump,
 /turf/open/floor/grass/cold,
 /area/outdoors/town)
+"bdR" = (
+/obj/structure/rack,
+/obj/item/weapon/scabbard/sword,
+/obj/item/weapon/scabbard/sword,
+/obj/item/weapon/scabbard/sword,
+/obj/item/weapon/scabbard/sword,
+/obj/item/weapon/sword/long/broadsword,
+/obj/item/weapon/sword/long/broadsword,
+/obj/item/weapon/sword/long/broadsword,
+/obj/item/weapon/sword/long/broadsword,
+/turf/open/floor/churchmarble,
+/area/indoors/town/church)
 "bdY" = (
 /obj/structure/rack/shelf/biggest,
 /obj/item/reagent_containers/food/snacks/produce/dry_westleach,
@@ -2576,6 +2594,12 @@
 /obj/item/reagent_containers/food/snacks/meat/steak,
 /obj/item/reagent_containers/food/snacks/meat/steak,
 /obj/item/reagent_containers/food/snacks/meat/steak,
+/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
+/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
+/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
+/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
+/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
+/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/church)
 "bOU" = (
@@ -2618,6 +2642,13 @@
 /obj/item/reagent_containers/powder/moondust,
 /turf/open/floor/blocks/green,
 /area/indoors/town/shop)
+"bQN" = (
+/obj/structure/fluff/millstone,
+/obj/structure/table/wood{
+	icon_state = "tablewood1"
+	},
+/turf/open/floor/blocks/stonered/tiny,
+/area/indoors/town/keep/magician)
 "bQS" = (
 /obj/structure/bars/grille{
 	density = 1
@@ -3182,6 +3213,28 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town/garrison)
+"ciV" = (
+/obj/item/essence_vial{
+	pixel_y = 15
+	},
+/obj/item/essence_vial{
+	pixel_x = -8;
+	pixel_y = 9
+	},
+/obj/item/essence_vial{
+	pixel_x = 9;
+	pixel_y = 11
+	},
+/obj/structure/table/wood/reinf_long,
+/obj/item/essence_vial{
+	pixel_y = 3
+	},
+/obj/item/essence_node_jar,
+/obj/item/essence_connector,
+/obj/item/essence_connector,
+/obj/item/essence_connector,
+/turf/open/floor/blocks/stonered/tiny,
+/area/indoors/town/keep/magician)
 "cjr" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -4695,8 +4748,22 @@
 /turf/open/floor/ruinedwood,
 /area/outdoors/town)
 "dpo" = (
-/obj/structure/bookcase/random/thesis,
-/obj/machinery/light/fueled/wallfire/candle/blue/l,
+/obj/structure/closet/crate/chest/neu,
+/obj/item/reagent_containers/glass/bottle/healthpot,
+/obj/item/reagent_containers/glass/bottle/healthpot,
+/obj/item/reagent_containers/glass/bottle/healthpot,
+/obj/item/reagent_containers/glass/bottle/manapot,
+/obj/item/reagent_containers/glass/bottle/manapot,
+/obj/item/reagent_containers/glass/bottle/manapot,
+/obj/item/reagent_containers/glass/bottle/vial/conpot,
+/obj/item/reagent_containers/glass/bottle/vial/endpot,
+/obj/item/reagent_containers/glass/bottle/vial/intpot,
+/obj/item/reagent_containers/glass/bottle/vial/perpot,
+/obj/item/reagent_containers/glass/bottle/vial/spdpot,
+/obj/item/reagent_containers/glass/bottle/vial/strpot,
+/obj/item/reagent_containers/glass/bottle/vial/lucpot,
+/obj/effect/mapping_helpers/access/keyset/town/apothecary,
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/churchmarble,
 /area/indoors/town/keep/magician)
 "dpz" = (
@@ -6357,6 +6424,7 @@
 	pixel_x = 3;
 	pixel_y = -3
 	},
+/obj/structure/fake_machine/scomm/r,
 /turf/open/floor/ruinedwood,
 /area/indoors/town/shop)
 "evd" = (
@@ -6379,6 +6447,10 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/town/roofs)
+"ewe" = (
+/obj/structure/closet/crate/drawer,
+/turf/open/floor/wood,
+/area/indoors/town/tavern)
 "ewn" = (
 /obj/machinery/light/fueled/wallfire{
 	pixel_y = 32
@@ -7550,6 +7622,10 @@
 	},
 /turf/open/floor/blocks,
 /area/under/town/sewer)
+"fhw" = (
+/obj/structure/fake_machine/scomm/r,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors/town/shop)
 "fhZ" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4;
@@ -7721,6 +7797,7 @@
 "foY" = (
 /obj/structure/closet/crate/drawer,
 /obj/effect/spawner/map_spawner/loot/coin/low,
+/obj/structure/fake_machine/scomm/l,
 /turf/open/floor/tile/diamond/blue,
 /area/indoors/town/shop)
 "fph" = (
@@ -9403,6 +9480,10 @@
 /obj/effect/mapping_helpers/access/keyset/town/inn,
 /turf/open/floor/ruinedwood,
 /area/indoors/town/bath)
+"gzw" = (
+/obj/structure/chair/stool,
+/turf/open/floor/blocks/stonered/tiny,
+/area/indoors/town/keep/magician)
 "gzx" = (
 /obj/structure/fluff/railing/tall/retaining,
 /obj/structure/flora/grass/water,
@@ -10897,7 +10978,6 @@
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern)
 "hym" = (
-/obj/structure/fluff/railing/border,
 /turf/open/floor/concrete,
 /area/indoors/town/keep/magician)
 "hyt" = (
@@ -11411,7 +11491,7 @@
 /turf/open/floor/wood,
 /area/indoors/town/tavern)
 "hPd" = (
-/obj/effect/decal/cleanable/roguerune/arcyne/teleport,
+/obj/effect/decal/cleanable/roguerune/arcyne/summoning/adv,
 /turf/open/floor/church,
 /area/indoors/town/keep/magician/basement)
 "hPx" = (
@@ -11671,6 +11751,53 @@
 "hXD" = (
 /obj/structure/closet/crate/chest/neu_iron{
 	name = "Frost chest"
+	},
+/obj/item/clothing/neck/psycross/silver/divine/mjallidhorn,
+/obj/item/clothing/neck/psycross/silver/divine/mjallidhorn,
+/obj/item/clothing/neck/psycross/silver/divine/mordsol,
+/obj/item/clothing/neck/psycross/silver/divine/mordsol,
+/obj/item/clothing/neck/psycross/silver/divine/valdala,
+/obj/item/clothing/neck/psycross/silver/divine/valdala,
+/obj/item/clothing/cloak/stabard/templar/mordsol{
+	name = "mordsol tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/mordsol{
+	name = "mordsol tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/valdala{
+	name = "valdala tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/valdala{
+	name = "valdala tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/mjallidhorn/alt{
+	name = "mjallidhorn tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/mjallidhorn/alt{
+	name = "mjallidhorn tabard"
+	},
+/obj/item/clothing/cloak/templar/valdalan{
+	name = "frost tabard"
+	},
+/obj/item/clothing/cloak/templar/valdalan{
+	name = "frost tabard"
+	},
+/obj/item/clothing/cloak/templar/valdalan{
+	name = "frost tabard"
+	},
+/obj/item/clothing/head/helmet/heavy/necked/valdala,
+/obj/item/clothing/head/helmet/heavy/necked/valdala,
+/obj/item/clothing/head/helmet/heavy/necked/mordsol,
+/obj/item/clothing/head/helmet/heavy/necked/mordsol,
+/obj/item/clothing/head/helmet/heavy/necked/mjallidhorn,
+/obj/item/clothing/head/helmet/heavy/necked/mjallidhorn,
+/obj/item/clothing/head/helmet/heavy/mordsolhelm,
+/obj/item/clothing/head/helmet/heavy/mordsolhelm,
+/obj/item/clothing/head/helmet/heavy/valdalahelm{
+	name = "frost helmet"
+	},
+/obj/item/clothing/head/helmet/heavy/valdalahelm{
+	name = "frost helmet"
 	},
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
@@ -13985,6 +14112,10 @@
 	},
 /turf/open/floor/wood,
 /area/indoors/town/keep)
+"jAg" = (
+/obj/structure/fluff/railing/tall/retaining/stone,
+/turf/closed/wall/mineral/craftstone,
+/area/indoors/town/keep/magician)
 "jAB" = (
 /obj/structure/ladder,
 /turf/open/floor/tile/brownbrick,
@@ -14194,6 +14325,7 @@
 /obj/item/gun/ballistic/bow/cross,
 /obj/item/ammo_holder/quiver/bolts,
 /obj/machinery/light/fueled/torchholder/l,
+/obj/structure/fake_machine/scomm/l,
 /turf/open/floor/blocks/stonered,
 /area/under/town/basement)
 "jKv" = (
@@ -14412,6 +14544,7 @@
 /obj/effect/landmark/start/artificer{
 	dir = 4
 	},
+/obj/structure/fake_machine/scomm/l,
 /turf/open/floor/ruinedwood,
 /area/outdoors/town)
 "jQU" = (
@@ -14450,6 +14583,7 @@
 	pixel_y = 18;
 	density = 0
 	},
+/obj/machinery/light/fueled/wallfire/candle,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/shop)
 "jRU" = (
@@ -14652,7 +14786,7 @@
 /turf/open/floor/church,
 /area/indoors/town/church/chapel)
 "kaB" = (
-/obj/structure/stairs/stone{
+/obj/structure/stairs{
 	dir = 4
 	},
 /turf/open/floor/cobble,
@@ -15182,11 +15316,11 @@
 /turf/open/floor/churchrough,
 /area/indoors/town/church)
 "kpG" = (
-/obj/structure/table/wood/plain_alt,
-/obj/machinery/light/fueled/cauldron{
-	pixel_y = 7
-	},
 /obj/machinery/light/fueled/wallfire/candle/blue/l,
+/obj/structure/table/wood/plain_alt,
+/obj/machinery/essence/infuser{
+	pixel_y = -3
+	},
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/keep/magician)
 "kpJ" = (
@@ -15389,7 +15523,6 @@
 /turf/open/floor/twig,
 /area/under/cavewet)
 "kwl" = (
-/obj/machinery/light/fueled/wallfire/candle,
 /obj/structure/fluff/railing/border{
 	dir = 9
 	},
@@ -15454,9 +15587,12 @@
 /turf/open/floor/church/pale,
 /area/under/town/basement)
 "kxC" = (
-/obj/machinery/light/fueled/wallfire/candle/blue/l,
-/turf/open/floor/blocks/stonered/tiny,
-/area/indoors/town/keep/magician)
+/obj/machinery/light/fueled/torchholder/l,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/town)
 "kxR" = (
 /obj/structure/chair/bench{
 	pixel_y = 16
@@ -15580,6 +15716,12 @@
 /obj/structure/flora/grass/bush/tundra,
 /turf/open/floor/grass/yel,
 /area/outdoors/town)
+"kCi" = (
+/obj/machinery/light/fueled/wallfire/candle/blue/l,
+/obj/machinery/essence/combiner,
+/obj/structure/table/wood/plain_alt,
+/turf/open/floor/blocks/stonered/tiny,
+/area/indoors/town/keep/magician)
 "kDd" = (
 /obj/structure/fluff/globe,
 /turf/open/floor/wood,
@@ -15736,6 +15878,14 @@
 /area/under/town)
 "kKG" = (
 /obj/structure/rack,
+/obj/item/clothing/armor/plate,
+/obj/item/clothing/armor/plate,
+/obj/item/clothing/armor/plate,
+/obj/item/clothing/armor/plate,
+/obj/item/clothing/armor/brigandine,
+/obj/item/clothing/armor/brigandine,
+/obj/item/clothing/armor/brigandine,
+/obj/item/clothing/armor/brigandine,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "kKV" = (
@@ -16600,6 +16750,32 @@
 	},
 /turf/open/floor/dirt/road,
 /area/under/town/sewer)
+"lvb" = (
+/obj/structure/closet/crate/chest/crate,
+/obj/item/alch/sinew,
+/obj/item/alch/sinew,
+/obj/item/alch/sinew,
+/obj/item/alch/bone,
+/obj/item/alch/bone,
+/obj/item/alch/bone,
+/obj/item/alch/airdust,
+/obj/item/alch/airdust,
+/obj/item/alch/earthdust,
+/obj/item/alch/earthdust,
+/obj/item/alch/firedust,
+/obj/item/alch/firedust,
+/obj/item/alch/waterdust,
+/obj/item/alch/waterdust,
+/obj/item/alch/magicdust,
+/obj/item/alch/magicdust,
+/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,
+/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,
+/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,
+/obj/effect/spawner/map_spawner/loot/potion_ingredient,
+/obj/effect/spawner/map_spawner/loot/potion_ingredient,
+/obj/effect/spawner/map_spawner/loot/potion_ingredient,
+/turf/open/floor/churchmarble,
+/area/indoors/town/keep/magician)
 "lvi" = (
 /obj/structure/fluff/railing/border,
 /turf/open/openspace,
@@ -17236,6 +17412,10 @@
 	},
 /turf/open/floor/cobble,
 /area/outdoors/town/neighborhood)
+"lQn" = (
+/obj/structure/chair/stool,
+/turf/open/floor/blocks/stonered,
+/area/indoors/town/keep/magician)
 "lQp" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/fueled/lanternpost{
@@ -18470,10 +18650,6 @@
 /turf/open/floor/twig,
 /area/under/town)
 "mzz" = (
-/obj/structure/closet/crate/drawer/inn{
-	density = 0;
-	anchored = 1
-	},
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-n"
 	},
@@ -19240,6 +19416,7 @@
 /area/outdoors/town)
 "mZz" = (
 /obj/structure/rack,
+/obj/structure/fake_machine/scomm/l,
 /turf/open/floor/concrete,
 /area/under/town/basement)
 "mZA" = (
@@ -19387,6 +19564,10 @@
 	},
 /turf/open/floor/twig,
 /area/under/town/basement/smugglers_tunnels)
+"nfd" = (
+/obj/machinery/essence/enchantment_altar,
+/turf/open/floor/blocks/stonered,
+/area/indoors/town/keep/magician)
 "nfC" = (
 /obj/structure/fluff/railing/wood,
 /obj/effect/decal/cobbleedge{
@@ -19431,7 +19612,7 @@
 /obj/structure/table/wood/plain,
 /obj/item/natural/cloth,
 /obj/item/natural/cloth,
-/turf/open/floor/concrete,
+/turf/open/floor/ruinedwood/alt,
 /area/indoors/town/keep/magician)
 "nhL" = (
 /obj/structure/table/wood{
@@ -19829,6 +20010,14 @@
 "nwr" = (
 /obj/structure/rack,
 /obj/machinery/light/fueled/torchholder/l,
+/obj/item/clothing/armor/gambeson/heavy,
+/obj/item/clothing/armor/gambeson/heavy,
+/obj/item/clothing/armor/gambeson/heavy,
+/obj/item/clothing/armor/gambeson/heavy,
+/obj/item/clothing/neck/chaincoif,
+/obj/item/clothing/neck/chaincoif,
+/obj/item/clothing/neck/chaincoif,
+/obj/item/clothing/neck/chaincoif,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "nwS" = (
@@ -20014,7 +20203,14 @@
 /area/under/cavewet)
 "nCO" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/bow/cross,
+/obj/item/clothing/pants/chainlegs,
+/obj/item/clothing/pants/chainlegs,
+/obj/item/clothing/pants/chainlegs,
+/obj/item/clothing/pants/chainlegs,
+/obj/item/clothing/shoes/boots/leather/advanced,
+/obj/item/clothing/shoes/boots/leather/advanced,
+/obj/item/clothing/shoes/boots/leather/advanced,
+/obj/item/clothing/shoes/boots/leather/advanced,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "nDj" = (
@@ -20194,6 +20390,10 @@
 	},
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/waterworks)
+"nKL" = (
+/obj/structure/fake_machine/scomm/l,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/smithy)
 "nKP" = (
 /obj/machinery/light/fueled/lanternpost/fixed,
 /turf/open/floor/ruinedwood/darker,
@@ -21970,7 +22170,29 @@
 /turf/open/floor/tile,
 /area/under/town/basement)
 "oWL" = (
-/obj/structure/bookcase/random/thesis,
+/obj/structure/closet/crate/chest/crate,
+/obj/item/reagent_containers/food/snacks/produce/swampweed_dried,
+/obj/item/reagent_containers/food/snacks/produce/dry_westleach,
+/obj/item/reagent_containers/food/snacks/produce/dry_westleach,
+/obj/item/reagent_containers/food/snacks/produce/swampweed,
+/obj/item/reagent_containers/food/snacks/produce/swampweed,
+/obj/item/clothing/face/cigarette/pipe/crafted,
+/obj/item/reagent_containers/powder/spice,
+/obj/item/reagent_containers/powder/spice,
+/obj/item/neuFarm/seed/poppy,
+/obj/item/natural/chaff/wheat,
+/obj/item/natural/chaff/wheat,
+/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,
+/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,
+/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,
+/obj/effect/spawner/map_spawner/loot/potion_ingredient,
+/obj/effect/spawner/map_spawner/loot/potion_ingredient,
+/obj/effect/spawner/map_spawner/loot/potion_ingredient,
+/obj/item/reagent_containers/food/snacks/produce/poppy,
+/obj/item/reagent_containers/food/snacks/produce/poppy,
+/obj/item/reagent_containers/food/snacks/produce/poppy,
+/obj/item/reagent_containers/food/snacks/produce/poppy,
+/obj/item/reagent_containers/food/snacks/produce/poppy,
 /turf/open/floor/churchmarble,
 /area/indoors/town/keep/magician)
 "oWQ" = (
@@ -22734,12 +22956,20 @@
 /turf/open/water/ocean,
 /area/indoors/town/waterworks)
 "pxq" = (
-/obj/structure/closet/crate/chest,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/turf/open/floor/ruinedwood/turned,
+/obj/structure/rack,
+/obj/item/clothing/armor/chainmail/hauberk/gronn,
+/obj/item/clothing/armor/chainmail/hauberk/gronn,
+/obj/item/clothing/armor/chainmail/hauberk/gronn,
+/obj/item/clothing/armor/chainmail/hauberk/gronn,
+/obj/item/clothing/armor/chainmail/hauberk/fluted,
+/obj/item/clothing/armor/chainmail/hauberk/fluted,
+/obj/item/clothing/armor/chainmail/hauberk/fluted,
+/obj/item/clothing/armor/chainmail/hauberk/fluted,
+/obj/item/clothing/armor/chainmail/hauberk,
+/obj/item/clothing/armor/chainmail/hauberk,
+/obj/item/clothing/armor/chainmail/hauberk,
+/obj/item/clothing/armor/chainmail/hauberk,
+/turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "pxt" = (
 /obj/structure/fluff/railing/wood{
@@ -22835,10 +23065,10 @@
 /turf/open/floor/ruinedwood,
 /area/indoors/town/keep/archivist)
 "pAq" = (
-/obj/structure/stairs/stone{
+/obj/structure/fluff/railing/wood,
+/obj/structure/stairs{
 	dir = 4
 	},
-/obj/structure/fluff/railing/wood,
 /turf/open/floor/churchmarble,
 /area/outdoors/town)
 "pAr" = (
@@ -23403,6 +23633,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobble,
 /area/indoors/soilsons)
+"pTw" = (
+/obj/machinery/essence/test_tube,
+/turf/open/floor/blocks/stonered/tiny,
+/area/indoors/town/keep/magician)
 "pTS" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/chair/stool,
@@ -24170,7 +24404,7 @@
 /turf/open/floor/ruinedwood/alt,
 /area/indoors/town/clinic_large)
 "qva" = (
-/obj/structure/stairs/stone{
+/obj/structure/stairs{
 	dir = 4
 	},
 /turf/open/floor/churchmarble,
@@ -27299,8 +27533,7 @@
 /turf/open/floor/carpet/red,
 /area/indoors/town/garrison)
 "sHD" = (
-/obj/machinery/light/fueled/wallfire/candle/blue,
-/obj/machinery/essence/reservoir,
+/obj/item/recipe_book/alchemy,
 /turf/open/floor/churchmarble,
 /area/indoors/town/keep/magician)
 "sIj" = (
@@ -28081,6 +28314,38 @@
 /obj/structure/closet/crate/chest/neu_iron{
 	name = "Air chest"
 	},
+/obj/item/clothing/neck/psycross/silver/divine/akan,
+/obj/item/clothing/neck/psycross/silver/divine/akan,
+/obj/item/clothing/neck/psycross/silver/divine/erdl,
+/obj/item/clothing/neck/psycross/silver/divine/erdl,
+/obj/item/clothing/neck/psycross/silver/divine/iliope,
+/obj/item/clothing/neck/psycross/silver/divine/iliope,
+/obj/item/clothing/cloak/stabard/templar/iliope{
+	name = "iliope tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/iliope{
+	name = "iliope tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/erdl{
+	name = "erdl tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/erdl{
+	name = "erdl tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/akan{
+	name = "akan tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/akan{
+	name = "akan tabard"
+	},
+/obj/item/clothing/cloak/templar/erdite,
+/obj/item/clothing/cloak/templar/erdite,
+/obj/item/clothing/head/helmet/heavy/necked/erdlhelm,
+/obj/item/clothing/head/helmet/heavy/necked/erdlhelm,
+/obj/item/clothing/head/helmet/heavy/necked/iliope,
+/obj/item/clothing/head/helmet/heavy/necked/iliope,
+/obj/item/clothing/head/helmet/heavy/necked/akan,
+/obj/item/clothing/head/helmet/heavy/necked/akan,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "tjC" = (
@@ -28285,6 +28550,13 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern)
+"ttO" = (
+/obj/machinery/light/fueled/cauldron{
+	pixel_y = 7
+	},
+/obj/structure/table/wood/plain_alt,
+/turf/open/floor/blocks/stonered/tiny,
+/area/indoors/town/keep/magician)
 "tuf" = (
 /obj/structure/stairs/stone,
 /turf/open/floor/cobblerock,
@@ -28767,8 +29039,13 @@
 /turf/open/water/ocean/abyss,
 /area/under/cavewet)
 "tLc" = (
-/turf/closed/wall/mineral/stone/window,
-/area/indoors/town/keep/magician)
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/wood{
+	icon_state = "tablewood1"
+	},
+/obj/structure/closet/crate/chest/steward/farmequip,
+/turf/open/floor/tile/brownbrick,
+/area/indoors/town)
 "tLn" = (
 /obj/structure/table/wood/large/corner{
 	dir = 10
@@ -29155,6 +29432,10 @@
 /obj/item/chalk,
 /obj/machinery/light/fueled/wallfire/candle/blue,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/weapon/sickle,
+/obj/item/weapon/pitchfork,
+/obj/item/weapon/hoe,
+/obj/item/weapon/shovel/small,
 /turf/open/floor/ruinedwood/alt,
 /area/indoors/town/keep/magician)
 "uab" = (
@@ -29320,6 +29601,27 @@
 /obj/structure/closet/crate/chest/neu_iron{
 	name = "Fire chest"
 	},
+/obj/item/clothing/neck/psycross/silver/divine/visires,
+/obj/item/clothing/neck/psycross/silver/divine/visires,
+/obj/item/clothing/neck/psycross/silver,
+/obj/item/clothing/neck/psycross/silver,
+/obj/item/clothing/cloak/stabard/templar/visires{
+	name = "visires tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/visires{
+	name = "visires tabard"
+	},
+/obj/item/clothing/cloak/templar/visires{
+	name = "fire tabard"
+	},
+/obj/item/clothing/cloak/templar/visires{
+	name = "fire tabard"
+	},
+/obj/item/clothing/cloak/templar/visires{
+	name = "fire tabard"
+	},
+/obj/item/clothing/head/helmet/heavy/necked/visires,
+/obj/item/clothing/head/helmet/heavy/necked/visires,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "uhG" = (
@@ -29764,6 +30066,13 @@
 	},
 /turf/open/floor/herringbone,
 /area/indoors/town)
+"uyW" = (
+/obj/machinery/essence/reservoir,
+/obj/structure/table/wood{
+	icon_state = "tablewood1"
+	},
+/turf/open/floor/blocks/stonered/tiny,
+/area/indoors/town/keep/magician)
 "uzN" = (
 /obj/machinery/light/fueled/torchholder/l,
 /obj/structure/table/wood{
@@ -30372,7 +30681,11 @@
 "uSt" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/fermentation_keg/random/water,
-/turf/open/floor/concrete,
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/alt,
 /area/indoors/town/keep/magician)
 "uSG" = (
 /obj/structure/fluff/walldeco/bath/wallpipes{
@@ -30603,6 +30916,49 @@
 /obj/structure/closet/crate/chest/neu_iron{
 	name = "Earth chest"
 	},
+/obj/item/clothing/neck/psycross/silver/divine/gani,
+/obj/item/clothing/neck/psycross/silver/divine/gani,
+/obj/item/clothing/neck/psycross/silver/divine/golerkanh,
+/obj/item/clothing/neck/psycross/silver/divine/golerkanh,
+/obj/item/clothing/neck/psycross/silver/divine/pomette,
+/obj/item/clothing/neck/psycross/silver/divine/pomette,
+/obj/item/clothing/cloak/stabard/templar/golerkanh{
+	name = "goler kanh tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/golerkanh{
+	name = "goler kanh tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/pomette{
+	name = "pomette tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/pomette{
+	name = "pomette tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/gani{
+	name = "gani tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/gani{
+	name = "gani tabard"
+	},
+/obj/item/clothing/cloak/templar/golerkanh{
+	name = "earth tabard"
+	},
+/obj/item/clothing/cloak/templar/golerkanh{
+	name = "earth tabard"
+	},
+/obj/item/clothing/cloak/templar/golerkanh{
+	name = "earth tabard"
+	},
+/obj/item/clothing/head/helmet/heavy/decorated/bucket{
+	name = "pomette helm"
+	},
+/obj/item/clothing/head/helmet/heavy/decorated/bucket{
+	name = "pomette helm"
+	},
+/obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm,
+/obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm,
+/obj/item/clothing/head/helmet/heavy/necked/ganihelm,
+/obj/item/clothing/head/helmet/heavy/necked/ganihelm,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "uYM" = (
@@ -31442,10 +31798,10 @@
 /turf/open/floor/cobble,
 /area/under/town/basement/smugglers_tunnels)
 "vFY" = (
-/obj/structure/stairs/stone{
+/obj/structure/fluff/railing/wood,
+/obj/structure/stairs{
 	dir = 4
 	},
-/obj/structure/fluff/railing/wood,
 /turf/open/floor/cobble,
 /area/indoors/town/church)
 "vGg" = (
@@ -31462,6 +31818,14 @@
 /obj/structure/fluff/railing/tall/retaining,
 /turf/open/water/ocean,
 /area/outdoors/town)
+"vGo" = (
+/obj/machinery/light/fueled/wallfire/candle/blue/l,
+/obj/machinery/essence/reservoir,
+/obj/structure/table/wood{
+	icon_state = "tablewood1"
+	},
+/turf/open/floor/blocks/stonered/tiny,
+/area/indoors/town/keep/magician)
 "vGx" = (
 /obj/structure/fluff/railing/tall/retaining{
 	dir = 10
@@ -31942,8 +32306,8 @@
 /turf/open/openspace,
 /area/outdoors/town/docksmortimer)
 "vVJ" = (
-/obj/item/bin/water,
 /obj/machinery/light/fueled/torchholder/r,
+/obj/item/bin/water,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/church)
 "vVK" = (
@@ -33046,11 +33410,9 @@
 /turf/open/openspace,
 /area/indoors/town/vault)
 "wHH" = (
-/obj/structure/bars/grille{
-	density = 1
-	},
-/turf/open/floor/sandstone,
-/area/outdoors/beach)
+/obj/item/reagent_containers/glass/bucket/wooden,
+/turf/open/floor/ruinedwood/alt,
+/area/indoors/town/keep/magician)
 "wHS" = (
 /obj/structure/table/wood{
 	icon_state = "longtable_mid";
@@ -57439,7 +57801,7 @@ awb
 kqx
 eup
 mzz
-xnA
+ewe
 emH
 eup
 tnb
@@ -62089,7 +62451,7 @@ cQC
 cQC
 voj
 sPT
-guX
+sPT
 dRD
 eXt
 eXt
@@ -62485,7 +62847,7 @@ oXW
 bOT
 cQC
 aJI
-pxq
+aJI
 hye
 jdz
 dxI
@@ -62609,7 +62971,7 @@ hye
 kWC
 sSS
 hye
-kKG
+pxq
 oqw
 oqw
 hye
@@ -62876,7 +63238,7 @@ hye
 nCO
 oqw
 oqw
-kKG
+bdR
 hye
 apK
 wLm
@@ -63230,12 +63592,12 @@ pdh
 pdh
 dpo
 oWL
-oWL
+lvb
 pdh
 pdh
-ron
-wHH
-hWL
+jAg
+pdh
+pdh
 pdh
 pdh
 pdh
@@ -63359,16 +63721,16 @@ pcG
 pcG
 gLh
 pdh
-sHD
+xTe
 pFF
 pFF
 pFF
 ncy
 pdh
-pdh
-pdh
-pdh
-pdh
+kCi
+uyW
+vGo
+uyW
 rsp
 eWg
 tdj
@@ -63497,15 +63859,15 @@ wGC
 wGC
 pFF
 mix
-kxC
-iiq
-kxC
-iiq
+wGC
+wGC
+wGC
+gzw
 tdj
 wGC
 wGC
 tdj
-iiq
+ciV
 pdh
 jzv
 fvD
@@ -63636,8 +63998,8 @@ iiq
 tdj
 wGC
 wGC
-tdj
-tdj
+lQn
+nfd
 pdh
 iWX
 fvD
@@ -63756,16 +64118,16 @@ diq
 urD
 pdh
 hlw
-pFF
+sHD
 pFF
 pFF
 pFF
 pdh
 tan
 pDD
-iiq
-iiq
-iiq
+bQN
+pTw
+ttO
 nwV
 eWz
 tdj
@@ -63896,7 +64258,7 @@ pdh
 pdh
 pdh
 pdh
-tQz
+pdh
 pdh
 pdh
 syj
@@ -64032,7 +64394,7 @@ olG
 nRV
 pdh
 pdh
-tLc
+tQz
 pdh
 pdh
 alM
@@ -76336,8 +76698,8 @@ rsy
 cCg
 cCg
 cCg
-ezB
-cCg
+kxC
+jgF
 lYq
 rsy
 rsy
@@ -78679,7 +79041,7 @@ qxY
 qxY
 qxY
 dWY
-woe
+tLc
 lGZ
 aJX
 aJX
@@ -80268,7 +80630,7 @@ pED
 uaa
 uhG
 jjN
-jjN
+wHH
 uSt
 kuE
 aNr
@@ -89277,7 +89639,7 @@ wuK
 prQ
 fWn
 jtF
-jtF
+fhw
 nPq
 bKt
 lDF
@@ -92438,7 +92800,7 @@ fNx
 cLh
 lLW
 xqg
-lLW
+nKL
 lLW
 lLW
 lLW
@@ -93749,8 +94111,8 @@ vvT
 ory
 xAL
 qhU
-qhU
 ozs
+lTN
 prQ
 fNx
 fNx

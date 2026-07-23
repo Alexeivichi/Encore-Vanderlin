@@ -52,8 +52,8 @@
 	display_order = JDO_PRISONER
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	faction = FACTION_TOWN
-	total_positions = 0
-	spawn_positions = 2
+	total_positions = -1
+	spawn_positions = -1
 	can_random = FALSE
 	banned_leprosy = FALSE
 	bypass_lastclass = TRUE

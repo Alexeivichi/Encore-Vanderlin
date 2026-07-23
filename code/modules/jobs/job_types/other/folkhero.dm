@@ -9,8 +9,8 @@
 	department_flag = OUTSIDERS
 	job_flags = (JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK)
 	faction = FACTION_FOREIGNERS
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = -1
+	spawn_positions = -1
 	bypass_lastclass = TRUE
 
 	allowed_races = RACES_PLAYER_ALL

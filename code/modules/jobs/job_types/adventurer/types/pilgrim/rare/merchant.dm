@@ -19,7 +19,7 @@
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/pilgrim/merchant
 	category_tags = list(CTAG_PILGRIM)
-	total_positions = 2
+	total_positions = 99
 	cmode_music = 'sound/music/cmode/towner/CombatTowner2.ogg'
 	is_recognized = TRUE
 	var/merchant_type

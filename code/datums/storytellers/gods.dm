@@ -26,8 +26,7 @@
 			STATS_PRAYERS_MADE = list("name" = "Prayers made:", "points" = 1.375, "capacity" = 65),
 		),
 		"Set 5" = list(
-			STATS_TAXES_COLLECTED = list("name" = "Taxes collected:", "points" = 0.215, "capacity" = 80),
-			STATS_SLURS_SPOKEN = list("name" = "Slurs spoken:", "points" = 1.425, "capacity" = 70),
+			STATS_TAXES_COLLECTED = list("name" = "Taxes collected:", "points" = 0.215, "capacity" = 80)
 		)
 	)
 

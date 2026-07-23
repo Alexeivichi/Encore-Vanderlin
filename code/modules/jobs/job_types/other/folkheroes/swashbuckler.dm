@@ -35,7 +35,8 @@
 	)
 	allowed_patrons = list(/datum/patron/divine/mjallidhorn)
 	outfit = /datum/outfit/folkhero/swashbuckler
-	total_positions = 1
+	total_positions = -1
+	spawn_positions = -1
 	category_tags = list(CTAG_FOLKHEROES)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/swashbuckler

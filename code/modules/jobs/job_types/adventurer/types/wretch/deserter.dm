@@ -27,7 +27,7 @@
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	outfit = /datum/outfit/wretch/disgraced
-	total_positions = 1
+	total_positions = 5
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/disgraced
 

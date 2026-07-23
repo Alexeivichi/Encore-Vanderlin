@@ -1,0 +1,9 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - bugfix: "Fixed missing alchemy stuff for the wizard on old doma"
+  - bugfix: "Fixed missing millstone in the wiz tower on old doma"
+  - bugfix: "Fixed missing farm equipment in wiz tower on old doma"
+  - bugfix: "Fixed bees being stuck in Old Doma farm"
+  - bugfix: "Fixes the big rune under the wiztower being non functional"
+  - bugfix: "Fixes an inconsistent railing mapping on Old Doma"

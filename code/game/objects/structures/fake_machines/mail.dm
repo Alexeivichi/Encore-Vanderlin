@@ -93,7 +93,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 	var/sentfrom = browser_input_text(user, "Who is this letter from?")
 	if(!sentfrom)
 		sentfrom = "Anonymous"
-	var/t = stripped_multiline_input("Write Your Letter", "VANDERLIN", no_trim=TRUE)
+	var/t = stripped_multiline_input("Write Your Letter", "ENCORE", no_trim=TRUE)
 	if(t)
 		if(length(t) > 2000)
 			to_chat(user, span_warning("Too long. Try again."))

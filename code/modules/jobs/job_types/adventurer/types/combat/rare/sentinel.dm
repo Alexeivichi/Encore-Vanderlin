@@ -20,8 +20,8 @@
 	tutorial = "Your overseers have sent you to this distant land as a scout. Your trusted steed, longbow, and spear will allow you to overcome any challenges on the road ahead."
 	allowed_races = RACES_PLAYER_ELF_ALL
 	outfit = /datum/outfit/adventurer/sentinel
-	total_positions = 1
-	roll_chance = 30
+	total_positions = -1
+	spawn_positions = -1
 	category_tags = list(CTAG_ADVENTURER)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 

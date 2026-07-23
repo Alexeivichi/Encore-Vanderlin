@@ -26,9 +26,9 @@
 	title = "Amazon"
 	tutorial = "A savage and deft warrior-woman. In your youth you learned to partake in hunts amid the treetops and proved your worth through countless bouts."
 	allowed_sexes = list(FEMALE)
-	allowed_races = list(SPEC_ID_HUMEN, SPEC_ID_DROW, SPEC_ID_HALF_DROW, SPEC_ID_TRITON)
+	allowed_races = RACES_NON_ANTAG
 	outfit = /datum/outfit/adventurer/amazon
-	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	category_tags = list(CTAG_ADVENTURER)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 

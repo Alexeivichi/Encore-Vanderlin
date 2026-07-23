@@ -38,16 +38,16 @@
 	department_flag = COMPANY
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	faction = "Station"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = -1
+	spawn_positions = -1
 	display_order = JDO_SHOPHAND
 	is_quest_giver = TRUE
 	give_bank_account = 10
 	bypass_lastclass = TRUE
 	can_have_apprentices = FALSE
 
-	allowed_races = RACES_PLAYER_ALL
-	allowed_ages = list(AGE_ADULT)
+	allowed_races = RACES_NON_ANTAG
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 
 	outfit = /datum/outfit/shophand
 	display_order = JDO_SHOPHAND

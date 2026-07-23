@@ -35,8 +35,8 @@
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	faction = FACTION_TOWN
 	display_order = JDO_CLINICAPPRENTICE
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = -1
+	spawn_positions = -1
 	bypass_lastclass = TRUE
 	can_have_apprentices = FALSE
 	give_bank_account = 5
@@ -45,8 +45,8 @@
 	//a contrast to Akan gatekeeping knowledge, anyone is allowed to learn about Erdl's medicine and alchemy
 	//think of it how IRL age doesn't matter that much when it comes to attending university
 	//you can have 20 year olds in the same group as 60 year olds
-	allowed_ages = ALL_AGES_LIST
-	allowed_races = RACES_PLAYER_ALL
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
+	allowed_races = RACES_NON_ANTAG
 	cmode_music = 'sound/music/cmode/towner/CombatTowner2.ogg'
 	outfit = /datum/outfit/clinicapprentice
 	job_bitflag = BITFLAG_CONSTRUCTOR

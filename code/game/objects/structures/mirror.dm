@@ -33,7 +33,7 @@
 
 
 	var/list/options = list("hairstyle", "facial hairstyle", "hair color", "skin", "detail", "eye color")
-	var/chosen = browser_input_list(user, "Change what?", "VANDERLIN", options)
+	var/chosen = browser_input_list(user, "Change what?", "ENCORE", options)
 	var/should_update
 	switch(chosen)
 		if("facial hairstyle")

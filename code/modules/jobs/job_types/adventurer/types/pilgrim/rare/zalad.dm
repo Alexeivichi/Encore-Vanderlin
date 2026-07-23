@@ -23,7 +23,8 @@
 	allowed_races = RACES_PLAYER_SULTANS
 	outfit = /datum/outfit/pilgrim/qadirid
 	category_tags = list(CTAG_PILGRIM)
-	total_positions = 1
+	total_positions = -1
+	spawn_positions = -1
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 	is_recognized = TRUE
 	honorary = "Emir"

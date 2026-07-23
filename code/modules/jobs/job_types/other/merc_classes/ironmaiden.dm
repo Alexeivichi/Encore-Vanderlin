@@ -20,7 +20,8 @@
 	allowed_races = list(SPEC_ID_MEDICATOR)
 	outfit = /datum/outfit/mercenary/ironmaiden
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = 5
+	total_positions = -1
+	spawn_positions = -1
 
 	cmode_music = 'sound/music/cmode/adventurer/CombatDream.ogg' // Medicators are from the isle of Enigma, they're loosely related to Heartfelt
 	exp_types_granted = list(EXP_TYPE_MERCENARY, EXP_TYPE_COMBAT, EXP_TYPE_MEDICAL)

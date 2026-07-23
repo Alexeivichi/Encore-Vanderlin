@@ -48,17 +48,16 @@
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_MAGICIAN
 	faction = FACTION_TOWN
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	bypass_lastclass = TRUE
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
-	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_sexes = list(MALE, FEMALE)
 	outfit = /datum/outfit/magician
 	give_bank_account = 120
 	cmode_music = 'sound/music/cmode/nobility/CombatCourtMagician.ogg'
-	allowed_patrons = list(/datum/patron/divine/akan, /datum/patron/inhumen/envy)
 	magic_user = TRUE
 	spell_points = 17
 	attunements_max = 6
@@ -96,9 +95,6 @@
 	spawned.add_quirk(/datum/quirk/boon/folk_hero)
 	if(prob(1))
 		spawned.cmode_music = 'sound/music/cmode/antag/combat_evilwizard.ogg'
-
-	if(istype(spawned.patron, /datum/patron/inhumen/envy))
-		spawned.grant_language(/datum/language/undead)
 
 	spawned.virginity = TRUE
 

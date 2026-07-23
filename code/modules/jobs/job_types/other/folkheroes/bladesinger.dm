@@ -19,7 +19,8 @@
 	title = "Bladesinger"
 	tutorial = "Your vigil over the elven cities has long since ended. Though dutiful, the inevitable happened and now you hope these lands have use for your talents."
 	allowed_races = list(SPEC_ID_ELF)
-	total_positions = 1
+	total_positions = -1
+	spawn_positions = -1
 	outfit = /datum/outfit/folkhero/bladesinger
 	category_tags = list(CTAG_FOLKHEROES)
 	cmode_music = 'sound/music/cmode/adventurer/CombatWarrior.ogg'

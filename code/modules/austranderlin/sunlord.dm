@@ -55,8 +55,7 @@
 
 	spells = list(
 		/datum/action/cooldown/spell/projectile/fireball/greater/sunlord,
-		/datum/action/cooldown/spell/undirected/list_target/convert_role/sundweller,
-		/datum/action/cooldown/spell/undirected/fart
+		/datum/action/cooldown/spell/undirected/list_target/convert_role/sundweller
 	)
 
 	traits = list(
@@ -110,7 +109,7 @@
 		to_chat(src, span_warning("You must wait [time_left] more seconds before making another announcement."))
 		return
 
-	var/inputty = input("Make an announcement", "VANDERLIN") as text|null
+	var/inputty = input("Make an announcement", "ENCORE") as text|null
 	if(inputty)
 		if(!is_type_in_list(get_area(src), list(/area/outdoors/exposed/under/basement, /area/outdoors/exposed/under/sewer)))
 			to_chat(src, span_warning("I must speak DOWN upon them."))

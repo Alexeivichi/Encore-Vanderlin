@@ -1,4 +1,4 @@
-/proc/browser_input_list(mob/user, message, title = "VANDERLIN", list/items, default, timeout = 0)
+/proc/browser_input_list(mob/user, message, title = "ENCORE", list/items, default, timeout = 0)
 	if(!user)
 		user = usr
 	if(!length(items))

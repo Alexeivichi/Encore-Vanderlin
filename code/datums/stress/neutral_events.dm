@@ -6,4 +6,4 @@
 /datum/stress_event/foreigner
 	timer = 30 SECONDS
 	stress_change = 0
-	desc ="Foreigners..."
+	desc ="Foreigner."

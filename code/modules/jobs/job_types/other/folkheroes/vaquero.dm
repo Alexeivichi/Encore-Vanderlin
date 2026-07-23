@@ -29,7 +29,8 @@
 	outfit = /datum/outfit/folkhero/vaquero
 	cmode_music = 'sound/music/cmode/adventurer/combat_vaquero.ogg'
 	category_tags = list(CTAG_FOLKHEROES)
-	total_positions = 1
+	total_positions = -1
+	spawn_positions = -1
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/vaquero
 

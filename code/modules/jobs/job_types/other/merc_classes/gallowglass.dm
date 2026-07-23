@@ -24,7 +24,8 @@
 	)
 	outfit = /datum/outfit/mercenary/gallowglass
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = 0 //Kaledon isn't in
+	total_positions = -1
+	spawn_positions = -1
 	cmode_music = 'sound/music/cmode/Combat_Dwarf.ogg'
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/gallowglass

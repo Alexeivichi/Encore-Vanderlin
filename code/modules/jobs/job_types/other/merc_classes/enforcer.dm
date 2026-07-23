@@ -25,7 +25,8 @@
 	allowed_races = list(SPEC_ID_ELF, SPEC_ID_HUMEN, SPEC_ID_HALF_ELF)
 	outfit = /datum/outfit/mercenary/enforcer
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = 5
+	total_positions = -1
+	spawn_positions = -1
 	cmode_music = 'sound/music/cmode/Combat_Weird.ogg'
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/enforcer

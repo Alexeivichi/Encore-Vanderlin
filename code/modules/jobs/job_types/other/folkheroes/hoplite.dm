@@ -27,7 +27,8 @@
 	tutorial = "You have marched and fought in formations since the ancient war that nearly destroyed Gaia. There are few in the world who can match your expertise in a shield wall, but all you have ever known is battle and obedience..."
 	allowed_races = list(SPEC_ID_AASIMAR)
 	outfit = /datum/outfit/folkhero/hoplite
-	total_positions = 1
+	total_positions = -1
+	spawn_positions = -1
 	category_tags = list(CTAG_FOLKHEROES)
 	cmode_music = 'sound/music/cmode/adventurer/CombatIntense.ogg'
 

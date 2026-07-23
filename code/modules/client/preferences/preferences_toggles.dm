@@ -36,6 +36,17 @@
 	if(mob)
 		SEND_SOUND(mob, sound(null))
 
+/client/verb/toggle_roleplay_ads()
+	set name = "Roleplay Ads (Toggle)"
+	set category = "OOC"
+	set desc = ""
+	if(prefs)
+		prefs.toggles ^= ROLEPLAY_ADS
+		prefs.save_preferences()
+	if(prefs.toggles & ROLEPLAY_ADS)
+		to_chat(src, "You will now be notified of new roleplay ads.")
+	else
+		to_chat(src, "You will no longer be notified of new roleplay ads.")
 /*
 //toggles
 /datum/verbs/menu/Settings/Ghost/chatterbox

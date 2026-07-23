@@ -15,8 +15,7 @@ body:
     multiple: true
     description: Where did the bug happen?
     options:
-      - Vanderlin
-      - Rosewood
+      - Domotan
 
 - type: textarea
   id: issue-summary

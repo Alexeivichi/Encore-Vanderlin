@@ -476,9 +476,9 @@
 		if(V.special_role == "Fiendish Lackey")
 			possible |= V.current
 
-	var/mob/living/carbon/human/choice = input(src, "Whom do you no longer have use for?", "VANDERLIN") as null|anything in possible
+	var/mob/living/carbon/human/choice = input(src, "Whom do you no longer have use for?", "ENCORE") as null|anything in possible
 	if(choice)
-		var/alert = tgui_alert(src, "Are you sure?", "VANDERLIN", list("Yes", "Cancel"))
+		var/alert = tgui_alert(src, "Are you sure?", "ENCORE", list("Yes", "Cancel"))
 		if(alert == "Yes")
 			visible_message(span_danger("[src] reaches out, ripping up [choice]'s soul!</span>"))
 			to_chat(choice, span_danger("I HAVE FAILED MY LEADER! I HAVE FAILED HELL! NOTHING ELSE BUT DEATH REMAINS FOR ME NOW!"))

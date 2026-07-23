@@ -48,6 +48,7 @@ GLOBAL_PROTECT(hunted_log)
 GLOBAL_LIST_EMPTY(character_list)
 GLOBAL_LIST_EMPTY(character_ckey_list)
 GLOBAL_LIST_EMPTY(actors_list)
+GLOBAL_LIST_EMPTY(roleplay_ads)
 GLOBAL_VAR(rogue_round_id)
 
 GLOBAL_LIST_EMPTY(bombers)

@@ -86,6 +86,7 @@
 		J.adjust_current_positions(-1)
 	qdel(departing_mob)
 	SEND_GLOBAL_SIGNAL(COMSIG_GLOB_HUMAN_ENTER_CRYO, departing_mob, admin)
+	LAZYREMOVE(GLOB.roleplay_ads, departing_mob.mobid)
 	return "[mob_name] successfully cryo'd!"
 
 /obj/structure/train/carriage //A temporary subform of the train that is just a carriage	name = "train"
