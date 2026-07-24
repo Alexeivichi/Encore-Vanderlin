@@ -33,4 +33,4 @@
 
 /datum/job/advclass/pilgrim/rare
 	abstract_type = /datum/job/advclass/pilgrim/rare
-	roll_chance = 30
+	roll_chance = 100

@@ -204,7 +204,7 @@
 	name = "Ranged Weapons Spawner"
 	spawned = list(
 		/obj/item/gun/ballistic/bow = 2,
-		/obj/item/gun/ballistic/cross = 1,
+		/obj/item/gun/ballistic/bow/cross = 1,
 		/obj/item/ammo_holder/quiver/arrows = 2,
 		/obj/item/ammo_holder/quiver/bolts = 1,
 	)

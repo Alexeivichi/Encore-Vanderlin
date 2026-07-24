@@ -7868,7 +7868,8 @@
 /obj/structure/fluff/traveltile{
 	name = "Visitation";
 	aportalid = "bandit_to_smugden";
-	dir = 8
+	dir = 8;
+	aportalgoesto = "no_escape_3"
 	},
 /turf/open/floor/blocks/stonered/tiny,
 /area/under/town/basement/smugglers_tunnels)
