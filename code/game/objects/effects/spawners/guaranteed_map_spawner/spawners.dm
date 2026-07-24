@@ -151,6 +151,8 @@
 		/obj/item/clothing/gloves/chain/iron = 1,
 		/obj/item/clothing/neck/gorget = 1,
 		/obj/item/clothing/head/helmet/kettle/iron = 1,
+		/obj/item/clothing/head/helmet/kettle/slit/iron = 1,
+		/obj/item/clothing/head/helmet/ironpot = 1,
 		/obj/item/storage/belt/leather/rope = 1,
 	)
 
@@ -204,5 +206,5 @@
 		/obj/item/gun/ballistic/bow = 2,
 		/obj/item/gun/ballistic/cross = 1,
 		/obj/item/ammo_holder/quiver/arrows = 2,
-		/obj/item/ammo_holder/quiver/bolts = 2,
+		/obj/item/ammo_holder/quiver/bolts = 1,
 	)
