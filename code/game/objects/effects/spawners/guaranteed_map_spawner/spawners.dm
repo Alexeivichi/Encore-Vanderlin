@@ -78,6 +78,8 @@
 	amount = 1
 
 /obj/effect/spawner/guaranteed_map_spawner/listed/clothes
+	name = "Generic Clothing Spawner"
+	icon_state = "clothing_spawner"
 	spawned = list(
 		/obj/item/clothing/pants/tights/colored/random = 1,
 		/obj/item/clothing/pants/skirt/colored/random = 1,
@@ -92,6 +94,7 @@
 	)
 
 /obj/effect/spawner/guaranteed_map_spawner/listed/clothes/winter
+	name = "Winter Clothing Spawner"
 	spawned = list(
 		/obj/item/clothing/pants/trou = 1,
 		/obj/item/clothing/pants/skirt/colored/random = 1,
@@ -106,6 +109,7 @@
 	)
 
 /obj/effect/spawner/guaranteed_map_spawner/listed/clothes/fancy
+	name = "Fancy Clothing Spawner"
 	spawned = list(
 		/obj/item/clothing/pants/trou/formal = 1,
 		/obj/item/clothing/pants/trou/formal/shorts = 1,
@@ -122,4 +126,47 @@
 		/obj/item/storage/belt/leather/black = 1,
 		/obj/item/storage/belt/pouch/coins/poor = 1,
 		/obj/item/storage/backpack/satchel = 1,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/armor
+	name = "Leather Armor Set Spawner"
+	icon_state = "armor_spawner"
+	spawned = list(
+		/obj/item/clothing/wrists/bracers/leather = 1,
+		/obj/item/clothing/shoes/boots = 1,
+		/obj/item/clothing/pants/trou/leathertights = 1,
+		/obj/item/clothing/gloves/angle = 1,
+		/obj/item/clothing/neck/coif = 1,
+		/obj/item/clothing/head/helmet/leather = 1,
+		/obj/item/clothing/armor/leather = 1,
+		/obj/item/storage/belt/leather/rope = 1,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/armor/iron
+	name = "Iron Armor Set Spawner"
+	spawned = list(
+		/obj/item/clothing/wrists/bracers/iron = 1,
+		/obj/item/clothing/shoes/boots/armor/ironmaille = 1,
+		/obj/item/clothing/pants/trou/leathertights = 1,
+		/obj/item/clothing/gloves/chain/iron = 1,
+		/obj/item/clothing/neck/gorget = 1,
+		/obj/item/clothing/head/helmet/kettle/iron = 1,
+		/obj/item/storage/belt/leather/rope = 1,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/weapons
+	name = "Crude Weapons Spawner"
+	icon_state = "weapon_spawner"
+	spawned = list(
+		/obj/item/weapon/sword/stone = 1,
+		/obj/item/weapon/mace/woodclub = 1,
+		/obj/item/weapon/hammer/wood = 1,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/weapons/bronze
+	name = "Bronze Weapons Spawner"
+	spawned = list(
+		/obj/item/weapon/sword/bronze = 1,
+		/obj/item/weapon/axe/bronze = 1,
+		/obj/item/weapon/mace/bronze = 1,
 	)
