@@ -170,3 +170,39 @@
 		/obj/item/weapon/axe/bronze = 1,
 		/obj/item/weapon/mace/bronze = 1,
 	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/weapons/iron
+	name = "Iron Weapons Spawner"
+	spawned = list(
+		/obj/item/weapon/sword/iron = 1,
+		/obj/item/weapon/axe/iron = 1,
+		/obj/item/weapon/mace = 1,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/weapons/iron/blunt
+	name = "Iron Blunt Weapons Spawner"
+	spawned = list(
+		/obj/item/weapon/polearm/woodstaff/quarterstaff/iron = 1,
+		/obj/item/weapon/mace/spiked = 1,
+		/obj/item/weapon/mace/cudgel = 1,
+		/obj/item/weapon/mace/warhammer = 1,
+		/obj/item/weapon/mace = 2,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/weapons/iron/blades
+	name = "Iron Sharp Weapons Spawner"
+	spawned = list(
+		/obj/item/weapon/sword/iron = 1,
+		/obj/item/weapon/sword/short/iron = 2,
+		/obj/item/weapon/knife = 2,
+		/obj/item/weapon/shield/heater = 2,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/weapons/ranged
+	name = "Ranged Weapons Spawner"
+	spawned = list(
+		/obj/item/gun/ballistic/bow = 2,
+		/obj/item/gun/ballistic/cross = 1,
+		/obj/item/ammo_holder/quiver/arrows = 2,
+		/obj/item/ammo_holder/quiver/bolts = 2,
+	)
