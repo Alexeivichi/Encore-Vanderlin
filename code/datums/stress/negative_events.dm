@@ -559,10 +559,12 @@
 	stress_change = 2
 	desc = span_red("One of my brats are calling for help! Another mess I have to clean up no doubt...")
 
+/*
 /datum/stress_event/night_owl_dawn
 	desc = span_warning("I don't like the dae..")
 	stress_change = 1
 	timer = 10 MINUTES
+*/
 
 /datum/stress_event/hithead
 	timer = 2 MINUTES
