@@ -87,6 +87,46 @@
 	)
 	mind_traits = list(TRAIT_KNOWBANDITS)
 
+/datum/job/advclass/garrison/footman/on_roundstart(mob/living/carbon/human/spawned, client/player_client)
+	. = ..()
+
+	var/static/list/selectable = list( \
+		"Sword" = list(/obj/item/weapon/scabbard/sword, /obj/item/weapon/sword/iron), \
+		"Axe" = /obj/item/weapon/axe/iron, \
+		"Mace" = /obj/item/weapon/mace, \
+		"Flail" = /obj/item/weapon/flail/militia, \
+		"Warhammer" = /obj/item/weapon/mace/warhammer, \
+	)
+	var/choice = spawned.select_equippable(player_client, selectable, message = "CHOOSE YOUR MAIN AND SIDE WEAPON", title = "FOOTMAN")
+	switch(choice)
+		if("Sword")
+			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 10)
+		if("Axe", "Mace", "Warhammer")
+			spawned.adjust_skill_level(/datum/attribute/skill/combat/axesmaces, 10)
+		if("Flail")
+			spawned.adjust_skill_level(/datum/attribute/skill/combat/whipsflails, 20)
+
+/datum/attribute_holder/sheet/job/garrison/footman
+	raw_attribute_list = list(
+		STAT_STRENGTH = 2,
+		STAT_ENDURANCE = 1,
+		STAT_CONSTITUTION = 2,
+		/datum/attribute/skill/combat/shields = 30,
+		/datum/attribute/skill/combat/wrestling = 30,
+		/datum/attribute/skill/combat/axesmaces = 20,
+		/datum/attribute/skill/combat/swords = 20,
+		/datum/attribute/skill/combat/unarmed = 20,
+		/datum/attribute/skill/combat/polearms = 10,
+		/datum/attribute/skill/combat/whipsflails = 10,
+		/datum/attribute/skill/combat/knives = 10,
+		/datum/attribute/skill/misc/climbing = 30,
+		/datum/attribute/skill/misc/athletics = 30,
+		/datum/attribute/skill/misc/swimming = 20,
+		/datum/attribute/skill/misc/sneaking = 10,
+		/datum/attribute/skill/craft/crafting = 10,
+		/datum/attribute/skill/misc/reading = 10
+	)
+
 /datum/outfit/guardsman/footman
 	name = "City Watch Footman"
 	head = /obj/item/clothing/head/helmet/townbarbute
