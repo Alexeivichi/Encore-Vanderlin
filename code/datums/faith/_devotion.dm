@@ -203,6 +203,7 @@
 	passive_devotion_gain = 0.7
 	miracles_extra += list(
 		/datum/action/cooldown/spell/undirected/touch/orison,
+		/datum/action/cooldown/spell/revive,
 	)
 	devotion_class = DEVOTION_CLASS_ACOLYTE
 

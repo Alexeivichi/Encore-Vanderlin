@@ -220,3 +220,14 @@
 	. = ..()
 	if(!.)
 		return
+
+/datum/action/cooldown/spell/undirected/jaunt/ethereal_jaunt/miracle
+	name = "Exit Stage Left"
+	desc = "Beseech Iliope to escape whatever ridiculous situation you've gotten yourself into this time."
+	spell_type = SPELL_MIRACLE
+	antimagic_flags = MAGIC_RESISTANCE_HOLY
+	associated_skill = /datum/attribute/skill/magic/holy
+	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/iliope)
+	invocation = "GET ME OUTTA HERE!!"
+	invocation_type = INVOCATION_SHOUT
+	spell_cost = 200

@@ -8,7 +8,6 @@
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/golerkanh)
 
 	invocation = "Metal bends to the heat of Goler Kanh's forge!"
 	invocation_type = INVOCATION_SHOUT

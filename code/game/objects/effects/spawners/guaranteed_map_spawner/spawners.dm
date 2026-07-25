@@ -77,3 +77,49 @@
 	spawned = /obj/item/reagent_containers/glass/cup/wooden
 	amount = 1
 
+/obj/effect/spawner/guaranteed_map_spawner/listed/clothes
+	spawned = list(
+		/obj/item/clothing/pants/tights/colored/random = 1,
+		/obj/item/clothing/pants/skirt/colored/random = 1,
+		/obj/item/clothing/cloak/half/colored/random = 1,
+		/obj/item/clothing/shirt/shortshirt/colored/random = 1,
+		/obj/item/clothing/shoes/boots/leather = 1,
+		/obj/item/clothing/shoes/simpleshoes = 1,
+		/obj/item/natural/cloth = 1,
+		/obj/item/storage/backpack/satchel = 1,
+		/obj/item/storage/belt/pouch = 1,
+		/obj/item/storage/belt/leather = 1,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/clothes/winter
+	spawned = list(
+		/obj/item/clothing/pants/trou = 1,
+		/obj/item/clothing/pants/skirt/colored/random = 1,
+		/obj/item/clothing/cloak/raincloak/furcloak = 1,
+		/obj/item/clothing/shirt/tunic = 1,
+		/obj/item/clothing/head/hatfur = 1,
+		/obj/item/clothing/shoes/boots/furlinedboots = 1,
+		/obj/item/clothing/shoes/boots/furlinedanklets = 1,
+		/obj/item/storage/backpack/satchel/cloth = 1,
+		/obj/item/storage/belt/pouch = 1,
+		/obj/item/storage/belt/leather/cloth = 1,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/clothes/fancy
+	spawned = list(
+		/obj/item/clothing/pants/trou/formal = 1,
+		/obj/item/clothing/pants/trou/formal/shorts = 1,
+		/obj/item/clothing/pants/skirt/colored/random = 1,
+		/obj/item/clothing/cloak/half/colored/random = 1,
+		/obj/item/clothing/shirt/undershirt/fancy = 1,
+		/obj/item/clothing/head/fancyhat = 1,
+		/obj/item/clothing/head/hennin = 1,
+		/obj/item/clothing/head/chaperon/colored/greyscale/random = 1,
+		/obj/item/clothing/shoes/nobleboot = 1,
+		/obj/item/clothing/shoes/simpleshoes/buckle = 1,
+		/obj/item/perfume/random = 1,
+		/obj/item/lipstick/random = 1,
+		/obj/item/storage/belt/leather/black = 1,
+		/obj/item/storage/belt/pouch/coins/poor = 1,
+		/obj/item/storage/backpack/satchel = 1,
+	)

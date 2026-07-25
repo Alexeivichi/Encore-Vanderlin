@@ -5,7 +5,7 @@
 /datum/quirk/boon/keen_eye
 	name = "Keen Eye"
 	desc = "Years of hunting and tracking have honed your sight. You're better at noticing details and spotting hidden things."
-	point_value = -5
+	point_value = -3
 	incompatible_quirks = list(
 		/datum/quirk/vice/bad_sight
 	)
@@ -28,7 +28,7 @@
 /datum/quirk/boon/quick_learner
 	name = "Quick Learner"
 	desc = "You pick up new skills faster than most. Your mind is sharp and eager to learn."
-	point_value = -5
+	point_value = -4
 
 /datum/quirk/boon/iron_will
 	name = "Iron Will"
@@ -96,7 +96,7 @@
 /datum/quirk/boon/pet
 	name = "Loyal Companion"
 	desc = "You have a loyal animal companion that will follow and protect you."
-	point_value = -3
+	point_value = -2
 	customization_label = "Choose Pet Type"
 	preview_render = FALSE
 	customization_options = list(
@@ -164,7 +164,7 @@
 /datum/quirk/boon/folk_hero
 	name = "Folk Hero"
 	desc = "You're a local legend who saved your community from great danger. People recognize you, even as a foreigner."
-	point_value = -10
+	point_value = -3
 	blocked_ages = list(
 		AGE_CHILD,
 	)
@@ -190,8 +190,8 @@
 
 /datum/quirk/boon/quick_hands
 	name = "Quick Hands"
-	desc = "You have great hand-eye coordination and know how to move your fingers fast. All crafts are 10% faster."
-	point_value = -4
+	desc = "You have great hand-eye coordination and know how to move your fingers fast. All crafts are 50% faster."
+	point_value = -2
 
 /datum/quirk/boon/quick_hands/on_spawn()
 	if(!ishuman(owner))
@@ -206,7 +206,7 @@
 /datum/quirk/boon/naturalist
 	name = "Naturalist"
 	desc = "Your body is attuned to the natural world. You extract more nourishment from unprocessed, natural foods - fruits, vegetables, and simple preparations sustain you better than they do others."
-	point_value = -8
+	point_value = -3
 
 /datum/quirk/boon/naturalist/on_spawn()
 	ADD_TRAIT(owner, TRAIT_FORAGER, "[type]")
@@ -219,7 +219,7 @@
 /datum/quirk/boon/always_prepared
 	name = "Always Prepared"
 	desc = "You start with a cart, lantern, and tent. You're ready for anything."
-	point_value = -6
+	point_value = -3
 	preview_render = FALSE
 	incompatible_quirks = list(
 		/datum/quirk/vice/rough_start,
@@ -272,7 +272,7 @@
 /datum/quirk/boon/packmule
 	name = "Packmule"
 	desc = "There's no such thing as having too much storage! You start with a backpack."
-	point_value = -8
+	point_value = -2
 	preview_render = FALSE
 
 /datum/quirk/boon/packmule/after_job_spawn(datum/job/job)
@@ -283,7 +283,7 @@
 /datum/quirk/boon/rider
 	name = "Experienced Rider"
 	desc = "You begin with expert riding skills and your own mount."
-	point_value = -6
+	point_value = -3
 	preview_render = FALSE
 
 /datum/quirk/boon/rider/on_spawn()
@@ -311,7 +311,7 @@
 /datum/quirk/boon/beautiful
 	name = "Strikingly Beautiful"
 	desc = "You are remarkably attractive, improving social interactions."
-	point_value = -4
+	point_value = -3
 
 /datum/quirk/boon/beautiful/on_spawn()
 	if(!owner)
@@ -325,3 +325,15 @@
 	if(!owner)
 		return
 	REMOVE_TRAIT(owner, TRAIT_BEAUTIFUL, "[type]")
+
+/datum/quirk/boon/night_owl
+	name = "Night Owl"
+	desc = "The night is more pleasant to you, and it soothes your stress."
+	point_value = -1
+
+/datum/quirk/boon/night_owl/on_spawn()
+	ADD_TRAIT(owner, TRAIT_NIGHT_OWL, "[type]")
+
+/datum/quirk/boon/night_owl/on_remove()
+	if(owner)
+		REMOVE_TRAIT(owner, TRAIT_NIGHT_OWL, "[type]")

@@ -137,7 +137,7 @@
 		if(DURABILITY_ENCHANT)
 			examine_list += "This weapon is enchanted with a durability enchantment."
 		if(DIVINE_FIRE_ENCHANT)
-			examine_list += "This weapon is enchanted with a divine flame enchantment."
+			examine_list += "This weapon is enchanted with the fading divine flame of Angros."
 	examine_list += "It will last for [timeleft(decay_timer) / 10] more seconds."
 
 /datum/component/enchanted_weapon/proc/item_afterattack(obj/item/source, atom/target, mob/user, proximity_flag, list/modifiers)

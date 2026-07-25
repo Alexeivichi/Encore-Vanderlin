@@ -47,7 +47,7 @@
 
 /obj/structure/well/fountain/proc/drink_from(mob/living/user)
 	var/datum/reagents/reagents = new()
-	reagents.add_reagent(/datum/reagent/water/gross, 2)
+	reagents.add_reagent(/datum/reagent/water, 2)
 	reagents.trans_to(user, reagents.total_volume, transfered_by = user, method = INGEST)
 	playsound(user,pick('sound/items/drink_gen (1).ogg','sound/items/drink_gen (2).ogg','sound/items/drink_gen (3).ogg'), 100, TRUE)
 
@@ -85,3 +85,12 @@
 		destination = locate(well.x, well.y, well.z + 1)
 	if(isliving(user))
 		movable_travel_z_level(user, destination)
+
+/obj/structure/well/fountain/sink
+	name = "sink"
+	desc = "A wooden cabinet housing an iron sink with lead pipes connecting it to the ground. It seems safe to drink from, probably."
+	icon = 'icons/roguetown/misc/domotan/structure.dmi'
+	density = 0
+	icon_state = "sink"
+	pixel_y = 12
+	layer = BELOW_MOB_LAYER

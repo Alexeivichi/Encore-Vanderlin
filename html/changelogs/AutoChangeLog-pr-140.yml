@@ -1,0 +1,11 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - rscadd: "Added sinks with running water to the keep on the lowpop map."
+  - rscadd: "Moved the entire clinic to the keep on the lowpop map."
+  - rscadd: "Moved the wizard tower to the keep on the lowpop map."
+  - rscadd: "Moved the church where the clinic once was on the lowpop map."
+  - rscadd: "Moved the soilsons to where the church once was on the lowpop map."
+  - rscdel: "Deleted the druids den on the lowpop map."
+  - rscadd: "Added new map spawners that will fill closets and crates with a lot of generic outfits automagically."
+  - qol: "Moved around and condensed Old Doma in a second, votable map specifically for lowpop."

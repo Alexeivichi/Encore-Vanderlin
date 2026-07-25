@@ -197,7 +197,7 @@
 	for(var/i = 1 to 100)
 		var/time_to_do = recipe.build_time
 		if(HAS_TRAIT(user, TRAIT_QUICK_HANDS))
-			time_to_do *= 0.9
+			time_to_do *= 0.5
 		if(!do_after(user, time_to_do, target = src))
 			return FALSE
 

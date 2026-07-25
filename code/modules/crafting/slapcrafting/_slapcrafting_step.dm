@@ -186,7 +186,7 @@
 		time_to_do *=  (2 / max(1, GET_MOB_SKILL_VALUE_OLD(user, skill_type)))
 
 	if(HAS_TRAIT(user, TRAIT_QUICK_HANDS))
-		time_to_do *= 0.9
+		time_to_do *= 0.5
 
 	if(!do_after(user, time_to_do, item))
 		return FALSE

@@ -63,7 +63,7 @@
 	var/return_value = FALSE
 	var/modified_action_time = get_action_time(attacking_item, user)
 	if(HAS_TRAIT(user, TRAIT_QUICK_HANDS))
-		modified_action_time *= 0.9
+		modified_action_time *= 0.5
 
 	for(var/requirement as anything in requirements)
 		if(islist(requirement))

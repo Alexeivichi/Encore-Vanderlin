@@ -124,6 +124,15 @@
 				. += span_phobia("A MONSTER!!!")
 			else // normal
 				. += span_necrosis("A hideous Triton.")
+
+	// No breathing
+	if(HAS_TRAIT(src, TRAIT_NOBREATH))
+		. += span_necrosis("Their body seems unnaturally pallid and lifeless. They do not breathe.")
+
+	// No emotions
+	if(HAS_TRAIT(src, TRAIT_NOMOOD))
+		. += span_necrosis("Their demeanor seems unnaturally stiff and alien.")
+
 	// Beauty/Ugly
 	else //if youre a fish face you cant cancel it out
 		var/ugly = HAS_ANY_OF_TRAITS(src, list(TRAIT_UGLY, TRAIT_ABOMINATION, TRAIT_DISFIGURED)) //todo: ABOMINATION descriptor

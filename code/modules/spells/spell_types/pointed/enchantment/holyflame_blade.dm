@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/enchantment/holy_flame
 	name = "Imbue Holy Fire"
-	desc = "Enchant a weapon with divine flames."
+	desc = "Enchant a weapon with divine flames. A largely lost miracle of the followers of Angros, this final bright flash is all that remains of His now-faded glory."
 	button_icon_state = "enchant_weapon"
 
 	enchantment_duration = 5 MINUTES
@@ -13,7 +13,6 @@
 	enchantment = DIVINE_FIRE_ENCHANT
 	spell_type = SPELL_MIRACLE
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine)
 
 /datum/action/cooldown/spell/enchantment/holy_flame/is_valid_target(atom/cast_on)
 	var/obj/item/weapon/enchant_item

@@ -296,7 +296,7 @@
 	wound_modifier = 0.5
 	blood_restoration = BLOOD_VOLUME_SURVIVE
 	stun_undead = TRUE
-	patron_restrictive = TRUE
+	patron_restrictive = FALSE
 
 /datum/action/cooldown/spell/healing/greater/profane
 	name = "Corrupt Miracle"

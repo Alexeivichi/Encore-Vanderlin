@@ -379,7 +379,7 @@ If you want to expand on poisons theres tons of fun effects TG chemistry has tha
 	if(!HAS_TRAIT(M, TRAIT_NASTY_EATER) && !HAS_TRAIT(M, TRAIT_ORGAN_EATER))
 		M.add_nausea(10 * (1 - GET_MOB_ATTRIBUTE_VALUE(M, STAT_CONSTITUTION) / 20))
 		M.adjustToxLoss(0.5)
-	if(ishuman(M) && !ishalforc(M))
+	if(ishuman(M) && !istiefling(M))
 		var/mob/living/carbon/human/archdevils_lover = M
 		var/obj/item/organ/heart/H = archdevils_lover.getorganslot(ORGAN_SLOT_HEART)
 		if(istype(H))
@@ -403,13 +403,13 @@ If you want to expand on poisons theres tons of fun effects TG chemistry has tha
 					archdevils_lover.unequip_everything()
 					var/datum/dna/dna_cache = new()
 					archdevils_lover.dna.copy_dna(dna_cache)
-					var/species = /datum/species/halforc
+					var/species = /datum/species/tieberian
 					//if(ishalforc(M)) // when this works it can be used
 					//	species = /datum/species/orc
 					//else if(iskobold(M))
 					//	species = /datum/species/goblin
 					archdevils_lover.set_species(species)
-					if(ishalforc(archdevils_lover))
+					if(istiefling(archdevils_lover))
 						dna_cache.transfer_identity(archdevils_lover, FALSE)
 					archdevils_lover.real_name = dna_cache.real_name
 					archdevils_lover.bloody_hands++
@@ -417,7 +417,7 @@ If you want to expand on poisons theres tons of fun effects TG chemistry has tha
 					playsound(get_turf(archdevils_lover), pick('sound/combat/gib (1).ogg','sound/combat/gib (2).ogg'), 100, FALSE, 3)
 					archdevils_lover.spawn_gibs(TRUE)
 					archdevils_lover.emote("agony")
-					archdevils_lover.visible_message(span_danger("[archdevils_lover]'s skin bursts!"), span_userdanger("MY SKIN BURSTS!!"))
+					archdevils_lover.visible_message(span_danger("[archdevils_lover]'s skin writhes unnaturaly, mutating into daemonkin!"), span_userdanger("MY SKIN BURNS!! THE HELLS' CORRUPTION HAS CLAIMED ME!!"))
 					H.graggometer = 0
 	return ..()
 

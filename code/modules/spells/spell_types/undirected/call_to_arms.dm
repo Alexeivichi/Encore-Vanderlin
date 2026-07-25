@@ -7,9 +7,8 @@
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/mordsol)
 
-	invocation = "MAY THE FIGHT BE BLOODY!"
+	invocation = "The Judge calls on you to protect!"
 	invocation_type = INVOCATION_SHOUT
 
 	charge_required = FALSE

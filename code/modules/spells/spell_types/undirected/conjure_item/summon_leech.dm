@@ -24,7 +24,5 @@
 	desc = "Summon a leech by Erdl's will."
 	button_icon_state = "diagnose"
 
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/erdl)
-
 	invocation = "Erdl grant me the creacher to cleanse the blood!"
 	invocation_type = INVOCATION_WHISPER
