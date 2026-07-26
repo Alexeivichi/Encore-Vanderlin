@@ -103,7 +103,9 @@
 	dropshrink = 0.8
 
 /obj/item/clothing/shirt/robe/priest/pickup(mob/living/user)
-	if((user.job != JOB_PRIEST) && (user.job != JOB_PRIEST_FEM))
+	if(HAS_TRAIT(user, TRAIT_DIVINE_SERVANT))
+		return
+	else
 		user.visible_message(span_reallybig("UNWORTHY HANDS TOUCH MY VISAGE, CEASE OR BE PUNISHED"))
 		playsound(user, 'sound/misc/gods/omen_fire.ogg', 80, extrarange = SHORT_RANGE_SOUND_EXTRARANGE)
 		spawn(30)
