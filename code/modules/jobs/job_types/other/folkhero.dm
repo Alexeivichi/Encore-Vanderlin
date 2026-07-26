@@ -7,10 +7,10 @@
 	\n\n\
 	You look forwards. Glory awaits."
 	department_flag = OUTSIDERS
-	job_flags = (JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK)
+	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	faction = FACTION_FOREIGNERS
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	bypass_lastclass = TRUE
 
 	allowed_races = RACES_PLAYER_ALL
