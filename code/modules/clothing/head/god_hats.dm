@@ -148,17 +148,3 @@
 	flags_inv = HIDEEARS|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 	resistance_flags = FIRE_PROOF
 	item_weight = 135 GRAMS
-
-/obj/item/clothing/head/priestmask/pickup(mob/living/user)
-	if(HAS_TRAIT(user, TRAIT_DIVINE_SERVANT))
-		return
-	else
-		to_chat(user, "<font color='yellow'>UNWORTHY HANDS TOUCH THE VISAGE, CEASE OR BE PUNISHED</font>")
-		spawn(30)
-			if(loc == user)
-				user.adjust_divine_fire_stacks(5)
-				user.IgniteMob()
-		return
-	else
-		. = ..()
-

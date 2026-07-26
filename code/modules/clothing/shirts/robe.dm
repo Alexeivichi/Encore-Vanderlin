@@ -102,20 +102,6 @@
 	icon_state = "priestrobe"
 	dropshrink = 0.8
 
-/obj/item/clothing/shirt/robe/priest/pickup(mob/living/user)
-	if(HAS_TRAIT(user, TRAIT_DIVINE_SERVANT))
-		return
-	else
-		user.visible_message(span_reallybig("UNWORTHY HANDS TOUCH MY VISAGE, CEASE OR BE PUNISHED"))
-		playsound(user, 'sound/misc/gods/omen_fire.ogg', 80, extrarange = SHORT_RANGE_SOUND_EXTRARANGE)
-		spawn(30)
-			if(loc == user)
-				user.adjust_divine_fire_stacks(5)
-				user.IgniteMob()
-	..()
-
-
-
 //................ Wizard Robes ............... //
 /obj/item/clothing/shirt/robe/colored/courtmage
 	color = CLOTHING_CHALK_WHITE
