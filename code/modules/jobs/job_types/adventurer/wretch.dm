@@ -1,6 +1,6 @@
 /datum/job/wretch
 	title = "Wretch"
-	tutorial = "Somewhere in your lyfe, you fell to the wrong side of civilization. Hounded by the consequences of your actions, you now threaten the peace of those who still heed the authority that condemned you."
+	tutorial = "Somewhere in your life, you fell to the wrong side of civilization. Hounded by the consequences of your actions, you now threaten the peace of those who still heed the authority that condemned you."
 	department_flag = OUTSIDERS
 	job_flags = (JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE | JOB_SHOW_IN_CREDITS)
 	display_order = JDO_WRETCH
@@ -16,15 +16,9 @@
 	same_job_respawn_delay = 30 MINUTES
 
 	can_have_apprentices = FALSE
-	traits = list(TRAIT_NOAMBUSH)
+	traits = list(TRAIT_NOAMBUSH, TRAIT_BANDITCAMP)
 	antag_role = /datum/antagonist/wretch
-	cmode_music = 'sound/music/cmode/antag/combat_bandit2.ogg'
-
-	exp_type = list(EXP_TYPE_LIVING)
-	exp_types_granted = list(EXP_TYPE_COMBAT)
-	exp_requirements = list(
-		EXP_TYPE_LIVING = 1200
-	)
+	cmode_music = 'sound/music/cmode/antag/combat_skeleton.ogg'
 
 
 /datum/job/wretch/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -38,13 +32,9 @@
 
 /datum/job/advclass/wretch
 	abstract_type = /datum/job/advclass/wretch
-	job_flags = JOB_SHOW_IN_CREDITS
 	category_tags = list(CTAG_WRETCH)
 	spawn_with_torch = TRUE
-	faction = FACTION_NEUTRAL
-	department_flag = OUTSIDERS
-	can_have_apprentices = FALSE
-	cmode_music = 'sound/music/cmode/antag/combat_bandit2.ogg'
+
 
 	/// An associative list of honorary titles to choose from.
 	/// The key is the title, the value indicates whether it is a prefix (0) or a suffix (1)
@@ -66,3 +56,4 @@
 		GLOB.outlawed_players += H.real_name
 	else
 		GLOB.heretical_players += H.real_name
+
