@@ -121,3 +121,62 @@
 
 /mob/living/simple_animal/hostile/retaliate/hound/taunted(mob/user)
 	emote("aggro")
+
+/mob/living/simple_animal/hostile/retaliate/hound
+	var/obj/item/storage/hound_pack/attached_pack
+
+/obj/item/storage/hound_pack
+	name = "hound pack"
+	desc = "A fitted pack made for a hound."
+	icon = 'icons/roguetown/clothing/storage.dmi'
+	icon_state = "gamesatchel"
+	slot_flags = ITEM_SLOT_BELT_L | ITEM_SLOT_BELT_R
+	w_class = WEIGHT_CLASS_BULKY
+	max_integrity = 300
+	component_type = /datum/component/storage/concrete/grid/hound_pack
+
+/mob/living/simple_animal/hostile/retaliate/hound/attackby(obj/item/item, mob/user, params)
+	if(istype(item, /obj/item/storage/hound_pack))
+		if(attached_pack)
+			to_chat(user, span_warning("[src] is already wearing a pack."))
+			return TRUE
+
+		if(!user.transferItemToLoc(item, src))
+			return TRUE
+
+		attached_pack = item
+		to_chat(user, span_notice("You fasten [item] onto [src]."))
+		update_appearance()
+		return TRUE
+
+	return ..()
+
+/mob/living/simple_animal/hostile/retaliate/hound/attack_hand(mob/user)
+	if(attached_pack && user.a_intent != INTENT_HARM)
+		attached_pack.ui_interact(user)
+		return TRUE
+
+	return ..()
+
+/mob/living/simple_animal/hostile/retaliate/hound/AltClick(mob/user)
+	if(attached_pack && Adjacent(user))
+		attached_pack.forceMove(get_turf(src))
+		to_chat(user, span_notice("You remove [attached_pack] from [src]."))
+		attached_pack = null
+		update_appearance()
+		return TRUE
+
+	return ..()
+
+/mob/living/simple_animal/hostile/retaliate/hound/death()
+	. = ..()
+
+	if(attached_pack)
+		attached_pack.forceMove(get_turf(src))
+		attached_pack = null
+
+/mob/living/simple_animal/hostile/retaliate/hound/update_overlays()
+	. = ..()
+
+	if(attached_pack)
+		. += mutable_appearance('icons/roguetown/mob/greyhound.dmi',"Backpack")
