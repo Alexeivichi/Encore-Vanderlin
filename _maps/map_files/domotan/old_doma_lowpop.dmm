@@ -12687,7 +12687,6 @@
 /turf/open/floor/ruinedwood,
 /area/outdoors/town)
 "iVl" = (
-/obj/structure/fake_machine/scomm/r,
 /obj/structure/bed/inn/double,
 /obj/item/bedsheet/fabric_double,
 /obj/effect/landmark/start/courtphys,
@@ -15169,6 +15168,7 @@
 /area/indoors/town/keep/magician/basement)
 "kDd" = (
 /obj/structure/fluff/globe,
+/obj/structure/fake_machine/scomm/l,
 /turf/open/floor/wood,
 /area/indoors/town/keep/guest/meeting)
 "kDF" = (
@@ -20507,6 +20507,10 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town/waterworks)
+"omb" = (
+/obj/structure/fake_machine/scomm,
+/turf/open/floor/wood,
+/area/indoors/town/keep)
 "omq" = (
 /obj/structure/fluff/walldeco/customflag/regent{
 	pixel_y = 27
@@ -30565,6 +30569,10 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/town)
+"vBE" = (
+/obj/structure/fake_machine/scomm/r,
+/turf/open/floor/wood,
+/area/indoors/town/keep)
 "vBF" = (
 /obj/structure/table/wood{
 	icon_state = "longtable"
@@ -107734,7 +107742,7 @@ wQR
 miA
 miA
 miA
-gbc
+omb
 plV
 xlh
 plV
@@ -108143,7 +108151,7 @@ lzO
 lzO
 lzO
 iFn
-gbc
+vBE
 kjU
 kjU
 kjU
