@@ -151,13 +151,6 @@
 
 	return ..()
 
-/mob/living/simple_animal/hostile/retaliate/hound/attack_hand(mob/user)
-	if(attached_pack && user.a_intent != INTENT_HARM)
-		attached_pack.ui_interact(user)
-		return TRUE
-
-	return ..()
-
 /mob/living/simple_animal/hostile/retaliate/hound/AltClick(mob/user)
 	if(attached_pack && Adjacent(user))
 		attached_pack.forceMove(get_turf(src))

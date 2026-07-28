@@ -341,6 +341,7 @@
 	name = "Huntsmaster (Hand)"
 	head = /obj/item/clothing/head/roguehood/leather
 	shirt = /obj/item/clothing/armor/gambeson/hunts
+	l_hand = /obj/item/storage/hound_pack
 	backl = /obj/item/gun/ballistic/bow/long
 	backr = /obj/item/storage/backpack/satchel
 	wrists = /obj/item/clothing/wrists/bracers/leather
