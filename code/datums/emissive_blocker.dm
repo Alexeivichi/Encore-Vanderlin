@@ -15,7 +15,8 @@
 
 /atom/movable/emissive_blocker/Initialize(mapload, atom/source)
 	. = ..()
-	verbs.Cut() //Cargo culting from lighting object, this maybe affects memory usage?
+	if(islist(verbs))
+		verbs.Cut() //Cargo culting from lighting object, this maybe affects memory usage?
 
 	if(!source)
 		return

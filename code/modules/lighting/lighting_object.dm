@@ -12,7 +12,8 @@
 
 /atom/movable/lighting_object/Initialize(mapload)
 	. = ..()
-	verbs.Cut()
+	if(islist(verbs))
+		verbs.Cut()
 	//We avoid setting this in the base as if we do then the parent atom handling will add_atom_color it and that
 	//is totally unsuitable for this object, as we are always changing it's colour manually
 	color = LIGHTING_BASE_MATRIX
