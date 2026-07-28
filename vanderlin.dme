@@ -2131,6 +2131,7 @@
 #include "code\game\turfs\open\water.dm"
 #include "code\game\turfs\open\water_flow_logic.dm"
 #include "code\game\turfs\open\floor\carpet.dm"
+#include "code\game\turfs\open\floor\domotanfloor.dm"
 #include "code\game\turfs\open\floor\roguefloor.dm"
 #include "code\modules\admin\admin.dm"
 #include "code\modules\admin\admin_investigate.dm"
