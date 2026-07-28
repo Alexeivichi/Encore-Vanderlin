@@ -18,7 +18,7 @@
 	can_have_apprentices = FALSE
 	traits = list(TRAIT_NOAMBUSH, TRAIT_BANDITCAMP)
 	antag_role = /datum/antagonist/wretch
-	cmode_music = 'sound/music/cmode/antag/combat_skeleton.ogg'
+	cmode_music = 'sound/music/cmode/antag/combatskeleton.ogg'
 
 
 /datum/job/wretch/after_spawn(mob/living/carbon/human/spawned, client/player_client)
