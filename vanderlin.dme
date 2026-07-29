@@ -3525,6 +3525,7 @@
 #include "code\modules\mob\living\simple_animal\hostile\retaliate\dragger.dm"
 #include "code\modules\mob\living\simple_animal\hostile\retaliate\frog.dm"
 #include "code\modules\mob\living\simple_animal\hostile\retaliate\gator.dm"
+#include "code\modules\mob\living\simple_animal\hostile\retaliate\hound.dm"
 #include "code\modules\mob\living\simple_animal\hostile\retaliate\mirespider.dm"
 #include "code\modules\mob\living\simple_animal\hostile\retaliate\red_dragon.dm"
 #include "code\modules\mob\living\simple_animal\hostile\retaliate\retaliate.dm"
