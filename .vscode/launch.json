@@ -47,7 +47,7 @@
 			"type": "byond",
 			"request": "launch",
 			"name": "Launch DreamDaemon",
-            "preLaunchTask": "Build Byond",
+            "preLaunchTask": "dm: build - ${command:CurrentDME}",
 			"dmb": "${workspaceFolder}/${command:CurrentDMB}",
 			"dreamDaemon": true
 		},
