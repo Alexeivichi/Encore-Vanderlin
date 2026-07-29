@@ -19,7 +19,13 @@
 /datum/species/halfling
 	name = "Halfling"
 	id = SPEC_ID_HALFLING
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Halfling</b><br>\
+	A diminutive but jovial race, Halflings are a race of smallfolk well-regarded for their kindness and hospitality. \
+	Originally hailing from beyond the Goblet, Halflings are one of the many refugees of the Big Burn who were forced \
+	to abandon everything in order to survive. But, their kindness and sociable nature quickly inured them to their new \
+	neighbours. Many settled within Geramor and Aelonda, as their dispositions lended them well to the teachings of Gani \
+	and Pomette; but they've dispersed all across the Goblet, and make renowned homemakers, hearthkeepers, and traders.<br>\
+	+2 Perception, +1 Fortune, +1 Speed, -1 Strength, -1 Constitution. Light Step, Barterer, Lucky Cook."
 
 	default_color = "FFFFFF"
 	native_language = "Halfling"

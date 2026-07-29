@@ -1,5 +1,11 @@
-/datum/devotion/divine/centrist
-	traits = list(TRAIT_DIVINE_SERVANT)
+/datum/devotion/divine/centrist //Jack of all trades, master of none. Largest spell selection with spells from every god, but only low-level ones. Forfeits high tier spells.
+	miracles = list(
+		CLERIC_T0 = list(/datum/action/cooldown/spell/healing, /datum/action/cooldown/spell/status/guidance, /datum/action/cooldown/spell/instill_perfection,),
+		CLERIC_T1 = list(/datum/action/cooldown/spell/mend_item, /datum/action/cooldown/spell/undirected/bless_crops, /datum/action/cooldown/spell/undirected/conjure_item/summon_leech/erdl,),
+		CLERIC_T2 = list(/datum/action/cooldown/spell/projectile/swordfish, /datum/action/cooldown/spell/sacred_flame, /datum/action/cooldown/spell/undirected/call_to_arms,  /datum/action/cooldown/spell/aoe/abrogation,),
+		CLERIC_T3 = list(/datum/action/cooldown/spell/avert, /datum/action/cooldown/spell/vicious_mockery,),
+	)
+	traits = list(TRAIT_DIVINE_SERVANT, TRAIT_DIVINE_CENTRIST)
 
 /datum/devotion/divine/make_gmtemplar()
 	. = ..()
@@ -12,9 +18,9 @@
 
 /datum/devotion/divine/visires
 	miracles = list(
-		CLERIC_T0 = /datum/action/cooldown/spell/projectile/fire_flare,
+		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/sacred_flame,
-		CLERIC_T2 = list(/datum/action/cooldown/spell/projectile/fireball, /datum/action/cooldown/spell/heat_metal, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T2 = list(/datum/action/cooldown/spell/projectile/fire_flare, /datum/action/cooldown/spell/projectile/fireball, /datum/action/cooldown/spell/aoe/abrogation),
 		CLERIC_T3 = /datum/action/cooldown/spell/projectile/fireball/greater,
 	)
 	viable_tasks = list(
@@ -54,8 +60,8 @@
 /datum/devotion/divine/mjallidhorn
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
-		CLERIC_T1 = /datum/action/cooldown/spell/undirected/call_to_arms,
-		CLERIC_T2 = list(/datum/action/cooldown/spell/undirected/divine_strike, /datum/action/cooldown/spell/undirected/blade_ward, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T1 = /datum/action/cooldown/spell/projectile/swordfish,
+		CLERIC_T2 = list(/datum/action/cooldown/spell/undirected/conjure_item/summon_trident/miracle, /datum/action/cooldown/spell/undirected/blade_ward, /datum/action/cooldown/spell/aoe/abrogation),
 		CLERIC_T3 = /datum/action/cooldown/spell/persistence,
 	)
 	viable_tasks = list(
@@ -80,8 +86,8 @@
 /datum/devotion/divine/mordsol
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
-		CLERIC_T1 = /datum/action/cooldown/spell/projectile/swordfish,
-		CLERIC_T2 = list(/datum/action/cooldown/spell/undirected/conjure_item/summon_trident/miracle, /datum/action/cooldown/spell/undirected/blade_ward, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T1 = /datum/action/cooldown/spell/undirected/call_to_arms,
+		CLERIC_T2 = list(/datum/action/cooldown/spell/undirected/divine_strike, /datum/action/cooldown/spell/undirected/blade_ward, /datum/action/cooldown/spell/aoe/abrogation),
 		CLERIC_T3 = /datum/action/cooldown/spell/ocean_embrace,
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
@@ -91,7 +97,7 @@
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/undirected/list_target/vicious_mimicry,
 		CLERIC_T2 = list(/datum/action/cooldown/spell/status/wheel, /datum/action/cooldown/spell/vicious_mockery, /datum/action/cooldown/spell/aoe/abrogation),
-		CLERIC_T3 = list(/datum/action/cooldown/spell/undirected/jaunt/illusory_prop, /datum/action/cooldown/spell/undirected/jaunt/ethereal_jaunt),
+		CLERIC_T3 = list(/datum/action/cooldown/spell/undirected/jaunt/illusory_prop, /datum/action/cooldown/spell/undirected/jaunt/ethereal_jaunt/miracle),
 	)
 	viable_tasks = list(
 		/datum/devotion_task/iliope_gamble,

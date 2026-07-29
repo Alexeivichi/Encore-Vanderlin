@@ -124,6 +124,15 @@
 				. += span_phobia("A MONSTER!!!")
 			else // normal
 				. += span_necrosis("A hideous Triton.")
+
+	// No breathing
+	if(HAS_TRAIT(src, TRAIT_NOBREATH))
+		. += span_necrosis("Their body seems unnaturally pallid and lifeless. They do not breathe.")
+
+	// No emotions
+	if(HAS_TRAIT(src, TRAIT_NOMOOD))
+		. += span_necrosis("Their demeanor seems unnaturally stiff and alien.")
+
 	// Beauty/Ugly
 	else //if youre a fish face you cant cancel it out
 		var/ugly = HAS_ANY_OF_TRAITS(src, list(TRAIT_UGLY, TRAIT_ABOMINATION, TRAIT_DISFIGURED)) //todo: ABOMINATION descriptor
@@ -147,12 +156,12 @@
 			user.add_stress(/datum/stress_event/saw_old_party)
 		// Intolerant
 		else if(!HAS_TRAIT(user, TRAIT_TOLERANT)) // friendship is kinda like tolerance after all
-			if(!isdarkelf(user) && isdarkelf(src))
-				user.add_stress(/datum/stress_event/delf)
+			//if(!isdarkelf(user) && isdarkelf(src))
+				//user.add_stress(/datum/stress_event/delf) //You're not having a stress event just because you saw a black elf, my brother in Gani.
 			if(!istiefling(user) && istiefling(src))
 				user.add_stress(/datum/stress_event/tieb)
-			if(!ishalforc(user) && ishalforc(src))
-				user.add_stress(/datum/stress_event/horc)
+			//if(!ishalforc(user) && ishalforc(src))
+				//user.add_stress(/datum/stress_event/horc) //Half-Orcs are still discriminated against but a little more tolererated in our setting, so you shouldn't get stressed every time you look at your friend Grognak the Orphan-Crusher.
 
 		// Excommunications
 		if(real_name in GLOB.excommunicated_players)

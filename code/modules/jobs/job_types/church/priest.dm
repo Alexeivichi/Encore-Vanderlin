@@ -97,7 +97,6 @@
 
 /datum/outfit/priest
 	name = "Priest"
-	neck = /obj/item/clothing/neck/psycross/silver/divine/visires
 	head = /obj/item/clothing/head/priestmask
 	shirt = /obj/item/clothing/shirt/undershirt/priest
 	pants = /obj/item/clothing/pants/tights/colored/black
@@ -111,6 +110,32 @@
 		/obj/item/storage/belt/pouch/coins/rich = 1
 	)
 	l_hand = /obj/item/weapon/polearm/woodstaff/aries
+
+/datum/outfit/priest/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+	. = ..()
+	switch(equipped_human.patron?.type)
+		if(/datum/patron/divine/visires)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/visires
+		if(/datum/patron/divine/akan)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/akan
+		if(/datum/patron/divine/gani)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/gani
+		if(/datum/patron/divine/mjallidhorn)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
+		if(/datum/patron/divine/valdala)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/valdala
+		if(/datum/patron/divine/mordsol)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/mordsol
+		if(/datum/patron/divine/iliope)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/iliope
+		if(/datum/patron/divine/erdl)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/erdl
+		if(/datum/patron/divine/golerkanh)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
+		if(/datum/patron/divine/pomette)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/pomette
+		if(/datum/patron/divine/centrist)
+			neck = /obj/item/clothing/neck/psycross/silver/divine
 
 /datum/job/priest/demoted
 	title = "Ex-Priest"

@@ -88,7 +88,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_WEAK_HEART "weak_heart"
 /// Blood always counts as no lux
 #define TRAIT_TAINTED_LUX "tainted_lux"
-/// Crafting is 10% faster
+/// Crafting is 50% faster
 #define TRAIT_QUICK_HANDS "quick_hands"
 /// Immunity to stunning effects
 #define TRAIT_STUNIMMUNE "stun_immunity"
@@ -403,6 +403,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_RECOGNIZE_ADDICTS	"Addict Recognition"
 #define TRAIT_NOENERGY "Boundless Energy" //Specifically, You don't lose fatigue, but you do continue losing stamina.
 #define TRAIT_KEENEARS "Keen Ears"
+#define TRAIT_KEENEYES "Keen Eyes"
 #define TRAIT_POISON_RESILIENCE "Poison Resilience"
 #define TRAIT_SEED_FINDER "Seed Finder"
 /// Cannot count coins

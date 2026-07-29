@@ -231,6 +231,7 @@
 	background_track = 'sound/music/area/townstreets.ogg'
 	background_track_dusk = 'sound/music/area/septimus.ogg'
 	background_track_night = 'sound/music/area/deliverer.ogg'
+	first_time_text = "OLD DOMA"
 	converted_type = /area/indoors/shelter/town
 	threat_region = THREAT_REGION_TOWN
 

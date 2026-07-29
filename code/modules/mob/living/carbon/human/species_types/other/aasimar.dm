@@ -22,7 +22,15 @@
 	name = "Aasimar"
 	id = SPEC_ID_AASIMAR
 	native_language = "Celestial"
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Aasimar</b><br>\
+	Aasimar are born from the rare union of mortals and spirits, a comingling of mortal tenacity and ethereal power. \
+	They bear the mark of this spiritual touch through many varying physical features, as varied and diverse as there \
+	are spirits; however these traits tend towards the elemental alignment that their spirit parent is associated with. \
+	Among the common people of the Goblet, Aasimar are viewed with a mixture of uneasy fear, awed respect, or both. \
+	Because of their nature, they make for natural conduits for divine powers, and the Katholikos eagerly welcomes them \
+	into their ranks. Wise, resillient, enduring and unaging, the death of an Aasimar is considered a terrible omen, \
+	as doom is sure to follow.<br>\
+	+2 Intelligence, +1 Constitution, +1 Endurance, -1 Speed, 10% Pain Resist, 20% Bleed Resist"
 
 	skin_tone_wording = "Craft"
 
@@ -93,6 +101,9 @@
 		/datum/customizer/bodypart_feature/hair/facial/humanoid,
 		/datum/customizer/bodypart_feature/accessory,
 		/datum/customizer/bodypart_feature/face_detail,
+		/datum/customizer/organ/ears/demihuman,
+		/datum/customizer/organ/horns/demihuman,
+		/datum/customizer/organ/tail/demihuman,
 	)
 
 	body_markings = list(

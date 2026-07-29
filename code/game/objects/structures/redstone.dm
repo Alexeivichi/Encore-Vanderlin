@@ -485,7 +485,7 @@ GLOBAL_LIST_EMPTY(redstone_objs)
 	delay2close = 10
 
 /obj/structure/kybraxor
-	name = "Kybraxor the Devourer"
+	name = "massive trapdoor"
 	desc = "Two massive slabs of metal flooring which threaten to swallow you whole. Watch out!"
 	density = FALSE
 	no_over_text = TRUE

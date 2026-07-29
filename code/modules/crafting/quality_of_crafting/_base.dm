@@ -454,7 +454,7 @@
 
 			var/reagent_use_time_real = max(reagent_use_time * 0.1, reagent_use_time / max(1, GET_MOB_SKILL_VALUE_OLD(user, skillcraft)))
 			if(HAS_TRAIT(user, TRAIT_QUICK_HANDS))
-				reagent_use_time_real *= 0.9
+				reagent_use_time_real *= 0.5
 			if(!do_after(user, reagent_use_time_real, container, extra_checks = CALLBACK(user, TYPE_PROC_REF(/atom/movable, CanReach), container)))
 				return FALSE
 
@@ -542,7 +542,7 @@
 		playsound(user, tool_path_extra[3], 100, FALSE)
 	var/tool_use_time_real = max(tool_use_time * 0.1, tool_use_time / max(1, GET_MOB_SKILL_VALUE_OLD(user, skillcraft)))
 	if(HAS_TRAIT(user, TRAIT_QUICK_HANDS))
-		tool_use_time_real *= 0.9
+		tool_use_time_real *= 0.5
 	if(!do_after(user, tool_use_time_real, potential_tool, extra_checks = CALLBACK(user, TYPE_PROC_REF(/atom/movable, CanReach), potential_tool)))
 		return FALSE
 
@@ -840,7 +840,7 @@
 
 	var/crafting_time = max(craft_time * 0.1, craft_time / max(1, GET_MOB_SKILL_VALUE_OLD(user, skillcraft)))
 	if(HAS_TRAIT(user, TRAIT_QUICK_HANDS))
-		crafting_time *= 0.9
+		crafting_time *= 0.5
 	if(!do_after(user, crafting_time))
 		return FAIL_END_CRAFT
 

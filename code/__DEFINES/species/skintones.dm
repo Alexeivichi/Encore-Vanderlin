@@ -74,19 +74,15 @@
 #define SKIN_COLOR_ZINC "daeaeb" //Light aqua
 
 //TIEFLING SKIN TONES
-#define SKIN_COLOR_CRIMSON_LAND "cd2042" //Bright red
-#define SKIN_COLOR_ZANGUINE "862E3F" //Dark violet
-#define SKIN_COLOR_SUNSTAINED "99401B" //Dark orange
-#define SKIN_COLOR_SUNDERED "D25E31" //Orange
-#define SKIN_COLOR_ARCANA "702845" //Dark violet
-#define SKIN_COLOR_FLAYER "450e47" //Purple!
-#define SKIN_COLOR_ZARCONUM "BA6A92" //Pink!
-#define SKIN_COLOR_ABYSS "41577C" //Navy blue
-#define SKIN_COLOR_ASH "A0AFC9" //Pale blue
-#define SKIN_COLOR_CASTILLIAN	"cc5757" //Pale red
-#define SKIN_COLOR_ASTURIAS	"a23737" //Clay red
-#define SKIN_COLOR_VAQUERO	"a74a4a" //Earthly red
-#define SKIN_COLOR_ARLENNETH "9197C5" //Lavendar blue
+#define SKIN_COLOR_LOVELOST "DBA960" //Light brown
+#define SKIN_COLOR_MALEVOLEKET "5B5F96" //Indigo
+#define SKIN_COLOR_GARGANT "8F3F50" //Dull pink
+#define SKIN_COLOR_LOSTURGE "991F1D" //Dark red
+#define SKIN_COLOR_PROTOMOS "9197C5" //Light blue
+#define SKIN_COLOR_GEMINI "C62D4C" //Bright red/pink
+#define SKIN_COLOR_AGATROS "B289C6" //Lavender
+#define SKIN_COLOR_VISTAMATRA "A8619E" //Purple
+#define SKIN_COLOR_HEAVEN "E0CED8" //Bone
 
 //KOBOLD SKIN TONES
 #define SKIN_COLOR_EMBERHIDE "8B3A2F"//White - Pale

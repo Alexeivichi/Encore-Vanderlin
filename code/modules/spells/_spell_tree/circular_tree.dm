@@ -594,7 +594,8 @@
 	prerequisites = list(/datum/spell_node/beam_of_frost)
 	spell_type = /datum/action/cooldown/spell/projectile/frost_bolt
 
-
+//This is very funny but also really fucking mean. No way.
+/*
 /datum/spell_node/gib
 	name = "Iliope's Cruel Prank"
 	desc = "Fucked up and evil."
@@ -616,3 +617,4 @@
 		if(target.add_stress(/datum/stress_event/iliope_laughed))
 			addtimer(CALLBACK(target, TYPE_PROC_REF(/mob, emote), pick("laugh", "chuckle")), rand(5, 20))
 	record_round_statistic(STATS_CRUEL_PRANKS)
+*/

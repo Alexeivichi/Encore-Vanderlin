@@ -4,7 +4,6 @@
 	*				*
 	*===============*/
 
-//	( + Night Vision )
 
 
 /mob/living/carbon/human/species/elf/snow
@@ -22,7 +21,11 @@
 /datum/species/elf/snow
 	name = "Elf"
 	id = SPEC_ID_ELF
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Elf</b><br>\
+	Elves, or Wood-Elf by the Elder races, are a generic term for tall, pointy-eared \
+	humanoids that trace their original heritage to the most ancient and mysterious Arnkin Dynasty.\
+	In modern times, they are known for composing the second-half majority of Aelonda alongside Humans.<br>\
+	+1 Perception, +1 Intelligence, +2 Speed, -1 Strength, -1 Constitution"
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR,HAIR,FACEHAIR,LIPS,OLDGREY)

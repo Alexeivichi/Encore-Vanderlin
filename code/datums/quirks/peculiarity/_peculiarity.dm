@@ -241,3 +241,25 @@
 	else
 		. += span_notice("It seems to respond to spoken words. Perhaps [linked_quirk?.keeper ? linked_quirk.keeper.real_name : "someone"] knows how to open it.")
 	. += span_notice("Right-click to get a hint about who might know the passcode.")
+
+//mimics behavior of /datum/special_trait/deadened
+/datum/quirk/peculiarity/deadened
+	name = "Deadened"
+	desc = "You are numb, inside and out. Your sense of smell and emotions are muted, deadened through abominable means. Those who see you can tell you are hollowed."
+
+/datum/quirk/peculiarity/deadened/on_spawn()
+	if(!ishuman(owner))
+		return
+	ADD_TRAIT(owner, TRAIT_NOMOOD, "[type]")
+	ADD_TRAIT(owner, TRAIT_DEADNOSE, "[type]")
+
+//mimics behavior of /datum/special_trait/curseofcain
+/datum/quirk/peculiarity/curseofcain
+	name = "Flawed Immortality"
+	desc = "Your body lacks the motive forces of life, and your Thauma seems tainted. Your heart does not beat, and you hunger no more. Those who see you can tell you are lifeless."
+
+/datum/quirk/peculiarity/curseofcain/on_spawn()
+	if(!ishuman(owner))
+		return
+	ADD_TRAIT(owner, TRAIT_NOHUNGER, "[type]")
+	ADD_TRAIT(owner, TRAIT_NOBREATH, "[type]")

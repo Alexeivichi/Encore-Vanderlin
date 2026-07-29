@@ -13,7 +13,6 @@
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/valdala)
 
 	invocation = "Valdala, stay your tears!"
 	invocation_type = INVOCATION_SHOUT
@@ -25,14 +24,13 @@
 	var/static/list/near_death_lines = list(
 		"A haze begins to envelop me, but then suddenly recedes, as if warded back by some great light...",
 		"A terrible weight bears down upon me, as if the wyrld itself were crushing me with its heft...",
-		"The sound of a placid river drifts into hearing, followed by the ominous toll of a ferryman's bell...",
+		"The sound of a soaring wings drift into hearing, followed by the ominous chill of a frigid hand... but it does not take me just yet.",
 		"Some vast, immeasurably distant figure looms beyond my perception - I feel it, more than I see. It waits. It watches.",
 	)
 
 /datum/action/cooldown/spell/avert/templar
 	name = "Divine Grace"
-	invocation = "May The Ten grace you with time!"
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine)
+	invocation = "May the Ashen God grace you with time!"
 
 /datum/action/cooldown/spell/avert/is_valid_target(atom/cast_on)
 	. = ..()
@@ -46,7 +44,7 @@
 		return
 
 	if(cast_on.stat == DEAD)
-		to_chat(owner, span_warning("This one has fallen to the underworld..."))
+		to_chat(owner, span_warning("This one has already been claimed by Valdala..."))
 		reset_spell_cooldown()
 		return . | SPELL_CANCEL_CAST
 

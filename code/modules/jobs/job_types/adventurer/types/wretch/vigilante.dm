@@ -25,10 +25,9 @@
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_GERAMOR
 	outfit = /datum/outfit/wretch/vigilante
-	total_positions = -1
-	spawn_positions = -1
-	cmode_music = 'sound/music/cmode/antag/CombatBeest.ogg'
-	allowed_patrons = list(/datum/patron/inhumen/deceivers)
+	total_positions = 99
+	spawn_positions = 99
+	cmode_music = 'sound/music/cmode/antag/combatskeleton.ogg'
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/vigilante
 

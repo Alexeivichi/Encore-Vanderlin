@@ -14,6 +14,11 @@ Format:
 endmap
 
 map domotan
+	minplayers 15
+	votable
+endmap
+
+map domotan_lowpop
 	default
 	votable
 endmap

@@ -20,7 +20,12 @@
 /datum/species/harpy
 	name = "Harpy"
 	id = SPEC_ID_HARPY
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Harpy</b><br>\
+	A unique and nimble humanoid race that possesses some combination of avian traits; \
+	Harpies are one of the few races in the Goblet who possess an innate ability of flight. \
+	As a result, they make skilled scouts, couriers, and hunters - but the hollow bones that \
+	permit their ability to fly also render them unable to wear most forms of armour. <br>\
+	+3 Speed, +2 Perception, +1 Intelligence, -4 Strength, -4 Constitution, Hollow Bones, Light Load, Fast Reflexes."
 
 	skin_tone_wording = "Heritage"
 	default_color = "FFFFFF"

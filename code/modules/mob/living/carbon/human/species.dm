@@ -292,32 +292,29 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 /datum/species/proc/get_accent(language, variant = 0)
 	switch(language)
 		if("Old Unsundered", "Unsundered")
-			return strings("accents/grenz_replacement.json", "sterkenstadt")
+			return
 		if("Qadirid")
-			return strings("accents/zalad_replacement.json", "qadirid")
+			return
 		if("Common")
 			return
 		if("Elfish")
-			if(variant == 1)
-				return strings("accents/russian_replacement.json", "russian")
-			else
-				return strings("accents/french_replacement.json", "french")
+			return
 		if("Dwarfish")
-			return strings("accents/dwarf_replacement.json", "dwarf")
+			return
 		if("Infernal")
-			return strings("accents/spanish_replacement.json", "spanish")
+			return
 		if("Celestial")
 			return
 		if("Orcish")
-			return strings("accents/halforc_replacement.json", "halforc")
+			return
 		if("Halfling")
-			return strings("accents/halfling_replacement.json", "halfling")
+			return
 		if("Gutter")
-			return strings("accents/kobold_replacement.json", "kobold")
+			return
 		if("Rous")
-			return strings("accents/rousman_replacement.json", "rous")
+			return
 		if("Deepspeak")
-			return strings("accents/triton_replacement.json", "triton")
+			return
 		if("Pirate")
 			return strings("accents/pirate_replacement.json", "pirate")
 		if("Bonesong")

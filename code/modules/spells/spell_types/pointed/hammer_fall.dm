@@ -8,7 +8,6 @@
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/golerkanh)
 
 	invocation = "Let the weight of Goler Kanh's hammer fall!"
 	invocation_type = INVOCATION_SHOUT
@@ -50,7 +49,7 @@
 	do_slam()
 
 /datum/action/cooldown/spell/hammer_fall/proc/do_slam()
-	var/static/damage = 250 //Structural damage the spell does. At 250, it would take 4 casts (12 minutes and 320 devotion) to destroy a normal door.
+	var/static/damage = 1100 //Structural damage the spell does. At 250, it would take 4 casts (12 minutes and 320 devotion) to destroy a normal door. //WHICH IS WHY I'M INCREASING IT BABY
 	var/static/radius = 1 //Radius of the spell
 	var/static/shakeradius = 3 //Radius of the quake
 	var/static/dc = 42 //Code will roll 2d20 and add target's perception and Speed then compare to this to see if they fall down or not. 42 Means they need to roll 2x 20 with Speed and Perception at I

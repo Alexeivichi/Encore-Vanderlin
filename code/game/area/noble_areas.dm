@@ -8,10 +8,7 @@
 	background_track_dusk = null
 	background_track_night = null
 	converted_type = /area/outdoors/exposed/manorgarri
-
-/area/indoors/town/keep/Initialize()
-	. = ..()
-	first_time_text = "THE KEEP OF [uppertext(SSmapping.config.map_name)]"
+	first_time_text = "ETGARD KEEP"
 
 /area/outdoors/town/keep
 	name = "Keep Grounds"
@@ -20,7 +17,7 @@
 
 /area/outdoors/town/keep/Initialize()
 	. = ..()
-	first_time_text = "[uppertext(SSmapping.config.map_name)] KEEP GROUNDS"
+	first_time_text = "ETGARD"
 
 
 /area/indoors/town/keep/throne
