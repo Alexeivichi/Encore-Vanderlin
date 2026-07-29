@@ -23,7 +23,10 @@
 		"Noman Accent" = ACCENT_NOMAN,
 		"Nortic Accent" = ACCENT_NORTIC,
 	)
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Half-Elf</b><br>\
+	The child of an Elf and a Human, Half-Elves were once non-existent, the first in history being the Good King Rols of Aelonda.\
+	The birth of Rols inevitably spurned a grand union between the Elves of Old Aelonda, building the new nation to untold heights.<br>\
+	+1 Perception, +1 Intelligence, +1 Speed."
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)

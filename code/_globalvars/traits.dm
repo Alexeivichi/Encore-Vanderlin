@@ -333,7 +333,7 @@ GLOBAL_LIST_INIT(roguetraits, list(
 	TRAIT_NOCSHADES = span_info("The lens I look through allows me to see in the dark clear as dae, at the cost of greater vision."),
 	TRAIT_WOUNDREGEN = span_info("My wounds and bones mend on their own, my bleeding clots quickly.."),
 	TRAIT_COIN_ILLITERATE = span_info("I care little for the concept of coins and prefer to barter via other means."),
-	TRAIT_LUCKY_COOK = span_info("Iliope smiles upon my cooking, I often end up with impossible amounts of extra goods..."),
+	TRAIT_LUCKY_COOK = span_info("Gani smiles upon my cooking, I often end up with impossible amounts of extra goods..."),
 	TRAIT_ABOMINATION = span_info("I am an abomination, others will recognise me for what I am"),
 ))
 

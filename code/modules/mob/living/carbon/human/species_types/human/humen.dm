@@ -4,8 +4,6 @@
 	*				*
 	*===============*/
 
-//	( +1 Fortune )
-
 /mob/living/carbon/human/species/human/northern
 	race = /datum/species/human/northern
 
@@ -17,14 +15,19 @@
 	)
 
 /datum/species/human/northern
-	name = "Humen"
+	name = "Human"
 	id = SPEC_ID_HUMEN
 	multiple_accents = list(
 		"No Accent" = ACCENT_NONE,
 		"Sterkenstadt Accent" = ACCENT_STERKENSTADT,
 		"Nortic Accent" = ACCENT_NORTIC,
 	)
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Human</b><br>\
+	Humans are the common face of civilization throughout the Goblet. Before the world fell, this was less the case.\
+	Now, they represent a baseline by which the most extraordinary beings are measured.\
+	In the greatest legends, there is always a Human who has strived to climb beyond what they are afforded.\
+	They are a naturally independent and clever race, owing them boons of intellect where it counts.<br>\
+	+1 Constitution, +2 Endurance, +1 Fortune"
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)
@@ -77,6 +80,7 @@
 	)
 
 	statsheet_male = /datum/attribute_holder/sheet/job/species/northern
+	statsheet_female = /datum/attribute_holder/sheet/job/species/northern
 
 	enflamed_icon = "widefire"
 

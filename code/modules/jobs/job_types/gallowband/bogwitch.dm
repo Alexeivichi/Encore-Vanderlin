@@ -57,7 +57,7 @@
 		TRAIT_STEELHEARTED
 	)
 	selection_color = "#a33096"
-	languages = list(/datum/language/nortic)
+	languages = list(/datum/language/lifesong)
 
 /datum/job/bogwitch/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
