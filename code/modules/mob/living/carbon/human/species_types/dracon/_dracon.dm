@@ -19,10 +19,14 @@
 	multiple_accents = list(
 		"No Accent" = ACCENT_NONE,
 	)
-	desc = "Mighty scaled individuals who claim to be descendant from the dragons of yore."
+	desc = "Mighty scaled individuals who claim to be descendant from the dragons of yore, through a myriad of different legends none of them can quite agree on. \
+	Proud and well-respected throughout the Goblet, and incredibly long-lived. Elderly Drakians either become kindly fonts of wisdom or the most rapacious bastards \
+	with an ego thrice their size.<br> \
+	+1 Strength, -1 Endurance."
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR, LIPS, STUBBLE)
+	inherent_traits = list(TRAIT_NOMOBSWAP)
 	use_skintones = TRUE
 
 	possible_ages = ALL_AGES_LIST

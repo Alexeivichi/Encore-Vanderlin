@@ -22,7 +22,6 @@
 	cmode_music = 'sound/music/cmode/antag/CombatLich.ogg'
 	total_positions = 3
 	exp_types_granted = list(EXP_TYPE_COMBAT, EXP_TYPE_MAGICK)
-	allowed_patrons = list(/datum/patron/inhumen/archdevils)
 	spell_points = 7
 	languages = list(/datum/language/undead)
 	faction = FACTION_CABAL

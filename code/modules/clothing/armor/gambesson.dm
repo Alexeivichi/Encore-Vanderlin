@@ -185,3 +185,17 @@
 	prevent_crits = list(BCLASS_CUT, BCLASS_BLUNT, BCLASS_CHOP)
 	armor = ARMOR_PADDED
 	body_parts_covered = COVERAGE_ALL_BUT_LEGS
+
+/obj/item/clothing/armor/gambeson/hunts
+	name = "hunting gambeson"
+	desc = "A thick, protective, rogueish looking gambeson, fashioned not for those looking to just look fancy- No, this is for a true hunter who knows exactly what they want, and how to get it, a hunter who knows what they need to protect them from stray thorns, and savage beasts."
+	sleeved = 'icons/roguetown/clothing/special/onmob/hand.dmi'
+	icon_state = "handhunt"
+	item_state = "handhunt"
+	armor = ARMOR_PADDED_GOOD
+	icon = 'icons/roguetown/clothing/special/hand.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/hand.dmi'
+	icon = 'icons/roguetown/clothing/special/hand.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/hand.dmi'
+	detail_tag = "_detail"
+	detail_color = CLOTHING_WHITE

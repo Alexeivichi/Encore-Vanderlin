@@ -1,5 +1,5 @@
 /datum/language/dwarvish
-	name = "Dwarfish"
+	name = "Dwarven"
 	desc = ""
 	icon_state = "dwarf"
 	spans = list(SPAN_DWARF)

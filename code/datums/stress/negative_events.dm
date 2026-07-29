@@ -262,20 +262,24 @@
 		return span_phobia("I SAW A MONSTER!")
 	return ..()
 
+/* You're not having a stress event just because you saw a black elf, my brother in Gani.
 /datum/stress_event/delf
 	timer = 30 SECONDS
 	stress_change = 1
 	desc = "<span class='red'>A loathsome dark elf.</span>"
+*/
 
-/datum/stress_event/tieb
+/datum/stress_event/tieb //That thing literally looks like a demon directly from hell, it's okay to get stressed.
 	timer = 30 SECONDS
 	stress_change = 1
 	desc = "<span class='red'>Helldweller... harbingers of misfortune.</span>"
 
+/* Half-Orcs are still discriminated against but a little more tolererated in our setting, so you shouldn't get stressed every time you look at your friend Grognak the Orphan-Crusher.
 /datum/stress_event/horc
 	timer = 30 SECONDS
 	stress_change = 1
 	desc = "<span class='red'>A beast in human skin.</span>"
+*/
 
 // ........ Paranoia ........ //
 
@@ -559,10 +563,12 @@
 	stress_change = 2
 	desc = span_red("One of my brats are calling for help! Another mess I have to clean up no doubt...")
 
+/*
 /datum/stress_event/night_owl_dawn
 	desc = span_warning("I don't like the dae..")
 	stress_change = 1
 	timer = 10 MINUTES
+*/
 
 /datum/stress_event/hithead
 	timer = 2 MINUTES

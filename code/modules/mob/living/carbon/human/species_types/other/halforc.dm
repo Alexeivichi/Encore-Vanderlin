@@ -1,3 +1,11 @@
+	/*==============*
+	*				*
+	*	Half-Orc		*
+	*				*
+	*===============*/
+
+//	( + Dead Nose )
+
 /mob/living/carbon/human/species/halforc
 	race = /datum/species/halforc
 
@@ -5,17 +13,7 @@
 	raw_attribute_list = list(
 		STAT_STRENGTH = 2,
 		STAT_PERCEPTION = -2,
-		STAT_INTELLIGENCE = -2,
 		STAT_CONSTITUTION = 2,
-		STAT_ENDURANCE = 1,
-	)
-
-/datum/attribute_holder/sheet/job/species/halforc/female
-	raw_attribute_list = list(
-		STAT_STRENGTH = 2,
-		STAT_PERCEPTION = -1,
-		STAT_INTELLIGENCE = -2,
-		STAT_CONSTITUTION = 1,
 		STAT_ENDURANCE = 1,
 	)
 
@@ -23,14 +21,24 @@
 	name = "Half-Orc"
 	id = SPEC_ID_HALF_ORC
 	multiple_accents = list(
+		"No Accent" = ACCENT_NONE,
 		"Half-Orc Accent" = ACCENT_HORC,
 		"Nortic Accent" = ACCENT_NORTIC,
 	)
 	native_language = "Orcish"
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Half-Orcs</b><br>\
+    Half-Orcs are a race of bulky humanoids, descended from the union of humanoids and true Orcs. While present in civilised society today, \
+	they are typically kept to the fringes of it. Trueborn Orcs are often tribal, isolationist, and aggressive; they have centuries of violent \
+	history with the other peoples of the Goblet, and not without reason, as they are creatures tainted by Hell. This leaves the origins of \
+	Half-Orcs mysterious - though the widely accepted tale is that of the divine interference of Erdl, the Bloodfather. The tale states that He \
+	saw incredible potential in Orcs, though the taint of Hell vexed Him. It was He, with powers divine, who took the strength of true Orcs and \
+	combined it with the mind and soul of Men, seeking to create a whole greater than the sum of its parts; in doing so, the first Half-Orcs were born. \
+	This act divided the Pantheon however, and many mortals yet feared these people who resembled the vicious Orcs. Only within the last century have \
+	Half-Orcs started to carve out societal tolerance.<br>\
+    +2 Strength, +2 Constitution, +1 Endurance, -2 Perception, Dead Nose, 20% Hunger Increase"
 
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)
-	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_DEADNOSE, TRAIT_STINKY)
+	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_DEADNOSE)
 
 	allowed_voicetypes_m = VOICE_TYPES_MASCANDRO
 
@@ -73,7 +81,7 @@
 	offset_features_f = list()
 
 	statsheet_male = /datum/attribute_holder/sheet/job/species/halforc
-	statsheet_female = /datum/attribute_holder/sheet/job/species/halforc/female
+	statsheet_female = /datum/attribute_holder/sheet/job/species/halforc
 
 	enflamed_icon = "widefire"
 
@@ -107,8 +115,7 @@
 		ORGAN_SLOT_GUTS = /obj/item/organ/guts,
 	)
 
-	nutrition_mod = 2 // 200% higher hunger rate. Hungry, hungry horcs
-	hygiene_mod = 1.5
+	nutrition_mod = 1.2 // 120% higher hunger rate. Hungry, hungry horcs
 
 /datum/species/halforc/check_roundstart_eligible()
 	return TRUE
@@ -123,9 +130,6 @@
 	..()
 	C.grant_language(/datum/language/orcish)
 	to_chat(C, span_info("I can speak Orcish with ,o before my speech."))
-	if(ishuman(C)) //Horcs are STINKY
-		var/mob/living/carbon/human/stinky_horc = C
-		stinky_horc.hygiene = HYGIENE_LEVEL_DISGUSTING
 
 /datum/species/halforc/on_species_loss(mob/living/carbon/C)
 	. = ..()
@@ -137,15 +141,15 @@
 
 /datum/species/halforc/get_skin_list()
 	return list(
-		"Cyanosis" = SKIN_COLOR_SHELLCREST,
-		"Abrasion" = SKIN_COLOR_BLOOD_AXE,
-		"Pustule" = SKIN_COLOR_GROONN, //Changed name from Gronn, which no longer aligned with lore here or elsewhere.
-		"Necrosis" = SKIN_COLOR_BLACK_HAMMER,
-		"Abscess" = SKIN_COLOR_SKULL_SEEKER,
-		"Staph" = SKIN_COLOR_CRESCENT_FANG,
-		"Bogfoot" = SKIN_COLOR_MURKWALKER,
-		"Exsanguinated" = SKIN_COLOR_SHATTERHORN,
-		"Cauterized" = SKIN_COLOR_SPIRITCRUSHER
+		"Shellcrest" = SKIN_COLOR_SHELLCREST,
+		"Bloodaxe" = SKIN_COLOR_BLOOD_AXE,
+		"Gronn" = SKIN_COLOR_GROONN, //Changed name from Gronn, which no longer aligned with lore here or elsewhere.
+		"Blackhammer" = SKIN_COLOR_BLACK_HAMMER,
+		"Skullseeker" = SKIN_COLOR_SKULL_SEEKER,
+		"Crescent Fang" = SKIN_COLOR_CRESCENT_FANG,
+		"Murkwalker" = SKIN_COLOR_MURKWALKER,
+		"Shatterhorn" = SKIN_COLOR_SHATTERHORN,
+		"Spiritcrusher" = SKIN_COLOR_SPIRITCRUSHER
 	)
 
 /datum/species/halforc/get_hairc_list()
