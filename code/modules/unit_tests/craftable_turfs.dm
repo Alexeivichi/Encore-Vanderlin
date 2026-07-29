@@ -42,6 +42,7 @@
 		/turf/closed/wall/mineral/roofwall,
 		/turf/closed/wall/mineral/abyssal,
 		/turf/closed/wall/mineral/desert_soapstone,
+		/turf/closed/wall/mineral/white_slab,
 		/turf/open/floor/cracked_earth,
 		/turf/open/floor/flesh,
 		/turf/open/dungeon_trap,
@@ -63,6 +64,8 @@
 		/turf/open/floor/churchrough/pale,
 		/turf/open/floor/churchrough/gold,
 		/turf/open/floor/churchrough/green,
+		/turf/open/floor/metal/red,
+		/turf/open/floor/metal/red/alt,
 	) \
 	+ typesof(/turf/open/floor/mushroom) \
 	+ typesof(/turf/open/floor/sandstone_tile) \
