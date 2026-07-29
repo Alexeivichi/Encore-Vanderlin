@@ -5,6 +5,7 @@
 	name = "Elfb"
 	id = SPEC_ID_ELF
 	multiple_accents = list(
+		"No Accent" = ACCENT_NONE,
 		"Elf Accent" = ACCENT_ELF,
 		"Noman Accent" = ACCENT_NOMAN,
 		"Nortic Accent" = ACCENT_NORTIC,
