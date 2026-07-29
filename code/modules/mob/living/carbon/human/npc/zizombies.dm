@@ -3,6 +3,7 @@
 
 	icon = 'icons/roguetown/mob/monster/zizombie.dmi'
 	icon_state = "zizombie"
+	faction = list(FACTION_HOSTILE)
 	race = /datum/species/zizombie
 	gender = PLURAL
 	bodyparts = list(/obj/item/bodypart/chest/zizombie, /obj/item/bodypart/head/zizombie, /obj/item/bodypart/l_arm/zizombie,
@@ -138,12 +139,9 @@
 		clear_quirks()
 	update_body()
 	update_eyes()
-	faction = list(FACTION_UNDEAD)
-	var/turf/turf = get_turf(src)
-	if(SSterrain_generation.get_island_at_location(turf))
-		faction |= "islander"
-	name = "zombie"
-	real_name = "zombie"
+	add_faction(FACTION_UNDEAD)
+	name = "zizombie"
+	real_name = "zizombie"
 	mob_biotypes |= MOB_UNDEAD
 	add_traits(list(TRAIT_NOSTAMINA, TRAIT_HEAVYARMOR, TRAIT_NOMOOD, TRAIT_NOHUNGER), SPECIES_TRAIT)
 //	ADD_TRAIT(src, TRAIT_NOBREATH, TRAIT_GENERIC)

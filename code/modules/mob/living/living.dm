@@ -1,18 +1,10 @@
-/mob/living/New(loc, ...)
-	. = ..()
+/mob/living/Initialize(mapload)
 	var/turf/turf = get_turf(loc)
 	if(turf)
-		if(!("[turf.z]" in GLOB.weatherproof_z_levels))
-			if(SSmapping.level_has_any_trait(turf.z, list(ZTRAIT_IGNORE_WEATHER_TRAIT)))
-				GLOB.weatherproof_z_levels |= "[turf.z]"
-		if("[turf.z]" in GLOB.weatherproof_z_levels)
-			faction |= FACTION_DECEIVERS
-			SSdeceivers_mobs.register_mob(src)
+		if(SSmapping.level_has_any_trait(turf.z, list(ZTRAIT_DECEIVERS_DUNGEON)))
+			add_faction(FACTION_DECEIVERS)
 		if(SSterrain_generation.get_island_at_location(turf))
-			faction |= "islander"
-			SSisland_mobs.register_mob(src, SSterrain_generation.get_island_at_location(turf))
-
-/mob/living/Initialize()
+			add_faction("islander")
 	. = ..()
 	if(initial_size != RESIZE_DEFAULT_SIZE)
 		update_transform(initial_size)
@@ -35,15 +27,10 @@
 	if(!ambushable)
 		ADD_TRAIT(src, TRAIT_NOAMBUSH, INNATE_TRAIT)
 	recalculate_stats()
-	var/turf/turf = get_turf(src)
 	if(turf)
 		update_z(turf.z)
 
 /mob/living/Destroy()
-	if(FACTION_DECEIVERS in faction)
-		SSdeceivers_mobs.unregister_mob(src)
-	if(cached_island_id)
-		SSisland_mobs.remove_mob(src)
 	update_z(null)
 
 	if(LAZYLEN(status_effects))
@@ -52,6 +39,7 @@
 				qdel(S)
 			else
 				S.be_replaced()
+
 	if(buckled)
 		buckled.unbuckle_mob(src,force=1)
 
@@ -1858,8 +1846,6 @@
 		return FALSE
 	if(is_centcom_level(T.z)) //dont detect mobs on centcom
 		return FALSE
-	if(is_away_level(T.z))
-		return FALSE
 	if(user != null && src == user)
 		return FALSE
 	if(invisibility || alpha == 0)//cloaked
@@ -2202,8 +2188,6 @@
 				//We don't set them directly on, for instances like AIs acting while dead and other cases that may exist in the future.
 				//This isn't a problem for AIs with a client since the client will prevent this from being called anyway.
 				controller.set_ai_status(controller.get_expected_ai_status())
-
-		SSmobs.mobs_by_zlevel[new_z] += src
 
 	registered_z = new_z
 
@@ -2944,10 +2928,8 @@
 
 	SEND_SIGNAL(src, COMSIG_LIVING_BEFRIENDED, new_friend)
 
-	if(src in SSdeceivers_mobs.deceivers_mobs)
-		SSdeceivers_mobs.unregister_mob(src)
-	if(cached_island_id)
-		SSisland_mobs.remove_mob(src)
+	if(has_faction(FACTION_DECEIVERS))
+		remove_faction(FACTION_DECEIVERS)
 
 	return TRUE
 
