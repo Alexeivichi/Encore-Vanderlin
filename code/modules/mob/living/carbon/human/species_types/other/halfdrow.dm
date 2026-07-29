@@ -18,8 +18,9 @@
 	name = "Half-Drow"
 	id = SPEC_ID_HALF_DROW
 	multiple_accents = list(
-		"Humen Accent" = "Common",
-		"Dark Elf Accent" = "Elfish"
+		"No Accent" = ACCENT_NONE,
+		"Elf Accent" = ACCENT_ELF,
+		"Dark Elf Accent" = ACCENT_DELF,
 	)
 	desc = "<b>Half-Drow</b><br>\
 	Half-Drow are born from a union of Human and Dark Elf parents. While there's little tangible physical difference between a Half-Elf \

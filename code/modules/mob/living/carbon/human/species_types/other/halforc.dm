@@ -21,6 +21,7 @@
 	name = "Half-Orc"
 	id = SPEC_ID_HALF_ORC
 	multiple_accents = list(
+		"No Accent" = ACCENT_NONE,
 		"Half-Orc Accent" = ACCENT_HORC,
 		"Nortic Accent" = ACCENT_NORTIC,
 	)

@@ -18,10 +18,9 @@
 	name = "Half-Elf"
 	id = SPEC_ID_HALF_ELF
 	multiple_accents = list(
-		"Humen Accent" = "Common",
-		"Elf Accent" = "Elfish",
-		"Noman Accent" = ACCENT_NOMAN,
-		"Nortic Accent" = ACCENT_NORTIC,
+		"No Accent" = ACCENT_NONE,
+		"Elf Accent" = ACCENT_ELF,
+		"Dark Elf Accent" = ACCENT_DELF,
 	)
 	desc = "<b>Half-Elf</b><br>\
 	The child of an Elf and a Human, Half-Elves were once non-existent, the first in history being the Good King Rols of Aelonda.\
