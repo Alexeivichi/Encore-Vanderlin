@@ -1,0 +1,4 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - code_imp: "Disabled donator restrictions by making the donator status and every max twitch and patreon rank the default for every player."
