@@ -32,7 +32,6 @@
 
 // The idea is that they're a slippery bastard. Cantrip focused, stealth-focused. They rely on their spells.
 	languages = list(/datum/language/thievescant)
-	allowed_patrons = list(/datum/patron/godless/defiant) // This one has seen too much. Deceivers are not compatible with this.
 
 	traits = list(
 		TRAIT_DEADNOSE,
