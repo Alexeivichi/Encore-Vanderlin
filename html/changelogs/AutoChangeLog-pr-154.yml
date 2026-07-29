@@ -1,0 +1,4 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - rscadd: "Added new default spawns for armor and weapons to the keep garrison and church templar quarter."

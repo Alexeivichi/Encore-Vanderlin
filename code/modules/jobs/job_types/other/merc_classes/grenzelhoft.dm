@@ -49,8 +49,8 @@
 	traits = list(TRAIT_MEDIUMARMOR)
 	languages = list(/datum/language/newunsundered)
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 
 	cmode_music = 'sound/music/cmode/combat_grenzelhoft.ogg'
 

@@ -15,7 +15,11 @@
 	changesource_flags = WABBAJACK
 	native_language = "Qadirid"
 
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Rakshari</b><br>\
+	Rakshari are a humanoid race of felines, known for their sneaky nature and shrewd business sense. \
+	They are quite similar to Lupians having formed a kinship with Humanity and can be found in many \
+	Human settlements, however they are far more prone to independence and a nomadic lifestyle.<br>\
+	+2 Perception, +2 Speed, -2 Strength, -2 Constitution."
 
 	use_skintones = TRUE
 	default_color = "FFFFFF"

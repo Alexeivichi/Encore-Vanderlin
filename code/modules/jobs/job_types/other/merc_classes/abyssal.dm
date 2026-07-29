@@ -38,8 +38,8 @@
 	allowed_races = list(SPEC_ID_TRITON)
 	outfit = /datum/outfit/mercenary/abyssal
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander3.ogg'
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/abyssal

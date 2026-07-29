@@ -38,8 +38,8 @@
 	blacklisted_species = null
 	outfit = /datum/outfit/mercenary/porter
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	cmode_music = 'sound/music/cmode/Combat_Weird.ogg'
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/porter
