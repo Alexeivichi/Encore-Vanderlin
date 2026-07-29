@@ -9,8 +9,8 @@
 	display_order = JDO_ROYALKNIGHT
 	faction = FACTION_TOWN
 	outfit = /datum/outfit/royalknight
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	bypass_lastclass = TRUE
 	selection_color = "#920909"
 

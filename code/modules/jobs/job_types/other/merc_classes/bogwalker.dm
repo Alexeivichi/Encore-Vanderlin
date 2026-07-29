@@ -35,8 +35,8 @@
 	outfit = /datum/outfit/mercenary/bogwalker
 	category_tags = list(CTAG_MERCENARY)
 
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/bogwalker

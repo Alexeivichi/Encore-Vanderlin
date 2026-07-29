@@ -47,8 +47,8 @@
 	allowed_races = list(SPEC_ID_DROW)
 	outfit = /datum/outfit/mercenary/anthrax
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander3.ogg'
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/anthrax

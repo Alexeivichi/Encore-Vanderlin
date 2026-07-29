@@ -22,8 +22,8 @@
 	display_order = JDO_VAGRANT
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	faction = FACTION_TOWN
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	bypass_lastclass = TRUE
 	banned_leprosy = FALSE
 
