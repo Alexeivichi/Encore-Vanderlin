@@ -225,7 +225,7 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 	///our selected accent
 	var/selected_accent = ACCENT_DEFAULT
 	/// If our owner is patreon or twitch sub
-	var/donator = FALSE
+	var/donator = TRUE
 	/// If our owner is from a race that has more than one accent
 	var/change_accent = FALSE
 
@@ -1666,9 +1666,6 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 						voice_color = sanitize_hexcolor(new_voice)
 
 				if("headshot")
-					if(!donator)
-						to_chat(user, "This is a donator exclusive feature, your headshot link will be applied but others will only be able to view it if you are a Patreon supporter or Twitch subscriber.")
-
 					to_chat(user, span_notice("Please use an image of the head and shoulder area to maintain immersion level. Lastly, ["<span class='bold'>do not use a real life photo or ANYTHING AI generated.</span>"]"))
 					to_chat(user, span_notice("If the photo doesn't show up properly in-game, ensure that it's a direct image link that opens properly in a browser."))
 					to_chat(user, span_notice("Keep in mind that the photo will be downsized to 325x325 pixels, so the more square the photo, the better it will look."))
@@ -1829,9 +1826,6 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 					popup.set_content(dat.Join())
 					popup.open(use_onclose = FALSE)
 				if("ooc_extra")
-					if(!donator)
-						to_chat(user, "This is a donator exclusive feature, your OOC Extra link will be applied but others will only be able to view it if you are a patreon supporter or Twitch Subscriber.")
-
 					to_chat(user, span_notice("Add a link from a suitable host (catbox, etc) to an mp3, mp4, or jpg / png file to have it embed at the bottom of your OOC notes."))
 					to_chat(user, span_notice("If the link doesn't show up properly in-game, ensure that it's a direct link that opens properly in a browser."))
 					to_chat(user, span_notice("Videos will be shrunk to a ~300x300 square. Keep this in mind."))
@@ -1896,10 +1890,6 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 						change_accent = TRUE
 					else
 						change_accent = FALSE
-					if(!donator && !change_accent)
-						to_chat(user, "Sorry, this option is Donator-exclusive or unavailable to your race.")
-						selected_accent = ACCENT_DEFAULT
-						return
 					var/accent
 					if(donator)
 						accent = browser_input_list(user, "CHOOSE YOUR HERO'S ACCENT", "VOICE OF THE WORLD", GLOB.accent_list, selected_accent)
@@ -1971,16 +1961,9 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 						print_special_text(user, next_special_trait)
 						return
 					to_chat(user, span_boldwarning("You will become special for one round, this could be something negative, positive or neutral and could have a high impact on your character and your experience. You cannot back out from or reroll this, and it will not carry over to other rounds."))
-					if(!donator)
-						to_chat(user, span_boldwarning("THIS COSTS 1 TRIUMPH"))
-						if(user.get_triumphs() < 1)
-							to_chat(user, span_bignotice("YOU DON'T HAVE ENOUGH TRIUMPHS."))
-							return
 					var/result = tgui_alert(user, "You'll receive a unique trait for one round\n You cannot back out from or reroll this.\nDo you really wish to [donator ? "" : "spend 1 triumph and " ]proceed?", "Be Special", list("Yes", "No"))
 					if(result != "Yes")
 						return
-					if(!donator)
-						user.adjust_triumphs(-1)
 					if(next_special_trait)
 						return
 					next_special_trait = roll_random_special(user.client)
@@ -2356,12 +2339,7 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 		change_accent = TRUE
 	else
 		change_accent = FALSE
-
-	if(donator)
 		character.accent = selected_accent
-	if(change_accent && !donator)
-		character.accent = selected_accent
-		change_accent = FALSE
 
 	/* :V */
 
@@ -2505,10 +2483,6 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 /datum/preferences/proc/set_loadout(mob/user, loadout_number, datum/loadout_item/loadout)
 	if(!loadout)
 		return
-	if(!donator)
-		to_chat(user, span_danger("This is a donator feature!"))
-		return FALSE
-
 	if(loadout == "None")
 		vars["loadout[loadout]"] = null
 		to_chat(user, span_notice("Who needs stuff anyway?"))
