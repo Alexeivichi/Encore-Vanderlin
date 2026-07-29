@@ -162,10 +162,14 @@
 	spawned = list(
 		/obj/item/clothing/wrists/bracers/ironjackchain = 1,//iron chain bracers
 		/obj/item/clothing/shoes/boots/armor/ironmaille = 1,//iron chain shoes
-		/obj/item/clothing/pants/trou/leathertights = 1,//leather pants
-		/obj/item/clothing/armor/plate/iron = 1,//iron halfplate
-		/obj/item/clothing/gloves/chain/iron = 1,//iron chain gloves
-		/obj/item/clothing/neck/coif = 1,//leather neck coif
+		/obj/item/clothing/pants/chainlegs = 1,//steel chain pants
+		/obj/item/clothing/armor/brigandine = 1,
+		/obj/item/clothing/armor/chainmail/hauberk = 1,
+		/obj/item/clothing/armor/chainmail/hauberk/fluted = 1,
+		/obj/item/clothing/armor/chainmail/hauberk/gronn = 1,
+		/obj/item/clothing/armor/gambeson/heavy = 1,
+		/obj/item/clothing/gloves/chain = 1,//steel chain gloves
+		/obj/item/clothing/neck/chaincoif = 1,//steel chain neck coif
 		/obj/item/storage/belt/leather/rope = 1,
 	)
 
