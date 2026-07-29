@@ -1721,6 +1721,9 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 						loadouts_available,
 					)
 					var/loadout_number = href_list["loadout_number"]
+					if(loadout_input == "None")
+						set_loadout(user, loadout_number, loadout_input)
+						return
 					// Re-validate on submission in case of href manipulation
 					var/datum/loadout_item/chosen = loadouts_available[loadout_input]
 					var/datum/loadout_item/chosen_singleton = GLOB.loadout_items[chosen]
@@ -2484,7 +2487,7 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 	if(!loadout)
 		return
 	if(loadout == "None")
-		vars["loadout[loadout]"] = null
+		vars["loadout[loadout_number]"] = null
 		to_chat(user, span_notice("Who needs stuff anyway?"))
 	else
 		if(!(loadout in GLOB.loadout_items))
