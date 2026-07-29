@@ -25,7 +25,7 @@
 		/datum/language/deepspeak,
 		/datum/language/undead,
 		/datum/language/halfling,
-		/datum/language/nortic,
+		/datum/language/lifesong,
 		/datum/language/canilunzt,
 		/datum/language/draconic,
 	))

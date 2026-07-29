@@ -31,8 +31,8 @@
 		SPEC_ID_HALF_DROW,\
 	)
 	outfit = /datum/outfit/adventurer/qatil
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	category_tags = list(CTAG_ADVENTURER)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander3.ogg'
 

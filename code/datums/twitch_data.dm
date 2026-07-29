@@ -5,9 +5,9 @@
 	///the stored twitch client key for the information
 	var/client_key
 	///the stored twitch rank collected from the server
-	var/owned_rank = NO_TWITCH_SUB
+	var/owned_rank = ACCESS_TWITCH_SUB_TIER_3
 	///access rank in numbers
-	var/access_rank = ACCESS_TWITCH_UNSUBBED
+	var/access_rank = ACCESS_TWITCH_SUB_TIER_3
 
 
 /datum/twitch_data/New(client/owner)

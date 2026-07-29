@@ -125,7 +125,21 @@
 	name = "stone retaining wall"
 	desc = "A strong ledge of aged, downtrodden stones."
 	icon_state = "wallstone"
-	max_integrity = 800
+	max_integrity = 1600
+
+/obj/structure/fluff/railing/tall/retaining/rock
+	name = "rock ledge"
+	desc = "A ledge of crumbling stones resembling a tiny cliff."
+	icon = 'icons/roguetown/misc/domotan/rock_ledge.dmi'
+	icon_state = "wallrock"
+	max_integrity = 5000
+	SET_BASE_PIXEL(-8, -4)
+
+/obj/structure/fluff/railing/tall/retaining/concrete
+	name = "concrete ledge"
+	desc = "A concrete footer of substantial height, resembling a ledge."
+	icon_state = "wallconcrete"
+	max_integrity = 5000
 
 /obj/structure/fluff/road_sign
 	name = "road sign"

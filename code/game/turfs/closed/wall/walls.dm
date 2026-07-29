@@ -517,3 +517,17 @@
 	climbdiff = 1
 	damage_deflection = 20
 	hardness = 10
+
+/turf/closed/wall/mineral/white_slab
+	name = "concrete wall"
+	icon = 'icons/turf/smooth/walls/white_slab.dmi'
+	icon_state = MAP_SWITCH("white_slab-0", "white_slab-0")
+	blade_dulling = DULLING_BASH
+	max_integrity = 99999
+	break_sound = 'sound/combat/hits/onstone/stonedeath.ogg'
+	attacked_sound = list('sound/combat/hits/onstone/wallhit.ogg', 'sound/combat/hits/onstone/wallhit2.ogg', 'sound/combat/hits/onstone/wallhit3.ogg')
+	above_floor = /turf/open/floor/naturalstone
+	baseturfs = /turf/open/floor/naturalstone
+	climbdiff = 1
+	damage_deflection = 20
+	hardness = 10

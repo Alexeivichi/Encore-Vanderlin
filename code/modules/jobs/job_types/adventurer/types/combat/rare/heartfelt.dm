@@ -29,8 +29,8 @@
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	outfit = /datum/outfit/adventurer/dunmoontycoon
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	cmode_music = 'sound/music/cmode/adventurer/CombatDream.ogg'
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/dunmoontycoon
