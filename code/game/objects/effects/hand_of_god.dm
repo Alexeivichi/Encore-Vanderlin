@@ -15,6 +15,9 @@
 /obj/effect/god_hand/photorealistic
 	icon_state = "photorealistic"
 
+/obj/effect/god_hand/envy
+	icon_state = "envy"
+
 /obj/effect/god_hand/Initialize(mapload, atom/movable/thing_to_take)
 	. = ..()
 	icon_w = ANIMATION_W
