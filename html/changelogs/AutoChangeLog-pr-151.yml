@@ -1,0 +1,5 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - bugfix: "Fixes the immersion shattering map title of the lowpop map"
+  - server: "Stopped the tomb of matthios subsystem from firing altogether to save init resources"
