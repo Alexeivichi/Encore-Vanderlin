@@ -28,8 +28,8 @@
 	allowed_sexes = list(MALE, FEMALE)
 	outfit = /datum/outfit/pilgrim/mastercarpenter
 	category_tags = list(CTAG_PILGRIM, CTAG_TOWNER)
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	apprentice_name = "Carpenter Apprentice"
 	cmode_music = 'sound/music/cmode/towner/CombatTowner2.ogg'
 	is_recognized = TRUE

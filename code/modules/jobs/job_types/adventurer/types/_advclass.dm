@@ -5,7 +5,7 @@
  */
 /datum/job/advclass
 	abstract_type = /datum/job/advclass
-	total_positions = -1 // Infinite slots unless overriden
+	total_positions = 99 // Infinite slots unless overriden
 	/// Take on the title of the previous job, if applied through regular means
 	var/inherit_parent_title = FALSE
 	/// Chance for this advanced class to roll for each player

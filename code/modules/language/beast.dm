@@ -1,5 +1,5 @@
 /datum/language/beast
-	name = "Beastish"
+	name = "Beast Tongue"
 	desc = ""
 	icon_state = "beastial"
 	spans = list(SPAN_BEAST)

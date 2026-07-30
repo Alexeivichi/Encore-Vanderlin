@@ -28,8 +28,8 @@
 	) // Technically should be humens too, but hollow's deserve something special too
 	outfit = /datum/outfit/mercenary/dragoon
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	cmode_music = 'sound/music/cmode/Combat_Dwarf.ogg'
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/hollowdragoon

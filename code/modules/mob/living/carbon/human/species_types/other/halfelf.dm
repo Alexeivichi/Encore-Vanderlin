@@ -18,12 +18,14 @@
 	name = "Half-Elf"
 	id = SPEC_ID_HALF_ELF
 	multiple_accents = list(
-		"Humen Accent" = "Common",
-		"Elf Accent" = "Elfish",
-		"Noman Accent" = ACCENT_NOMAN,
-		"Nortic Accent" = ACCENT_NORTIC,
+		"No Accent" = ACCENT_NONE,
+		"Elf Accent" = ACCENT_ELF,
+		"Dark Elf Accent" = ACCENT_DELF,
 	)
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Half-Elf</b><br>\
+	The child of an Elf and a Human, Half-Elves were once non-existent, the first in history being the Good King Rols of Aelonda.\
+	The birth of Rols inevitably spurned a grand union between the Elves of Old Aelonda, building the new nation to untold heights.<br>\
+	+1 Perception, +1 Intelligence, +1 Speed."
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)

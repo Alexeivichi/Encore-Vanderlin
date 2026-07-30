@@ -90,7 +90,7 @@
 	name = "sink"
 	desc = "A wooden cabinet housing an iron sink with lead pipes connecting it to the ground. It seems safe to drink from, probably."
 	icon = 'icons/roguetown/misc/domotan/structure.dmi'
-	density = 0
+	density = FALSE
 	icon_state = "sink"
 	pixel_y = 12
 	layer = BELOW_MOB_LAYER

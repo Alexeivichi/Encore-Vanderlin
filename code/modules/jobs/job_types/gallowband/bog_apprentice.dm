@@ -21,8 +21,8 @@
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_BOGWITCH_APP
 	faction = FACTION_TOWN
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	bypass_lastclass = TRUE
 	allowed_races = RACES_NON_ANTAG
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
@@ -48,7 +48,7 @@
 		TRAIT_STEELHEARTED
 	)
 	selection_color = "#a33096"
-	languages = list(/datum/language/nortic)
+	languages = list(/datum/language/lifesong)
 
 /datum/job/bog_apprentice/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()

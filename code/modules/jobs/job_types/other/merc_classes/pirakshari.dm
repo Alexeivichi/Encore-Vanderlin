@@ -24,8 +24,8 @@
 	tutorial = "A pirate of rakshari origin, hailing from the west dune-sea of Qadirid. Well-trained riders and experienced archers, these nomads live the life of marauders and raiders, taking what belongs to weaker settlements and caravans."
 	allowed_races = list(SPEC_ID_RAKSHARI)
 	outfit = /datum/outfit/mercenary/desert_pirate
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	category_tags = list(CTAG_MERCENARY)
 
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'

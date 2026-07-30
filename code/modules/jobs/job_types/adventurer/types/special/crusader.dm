@@ -28,8 +28,8 @@
 	allowed_patrons = list(/datum/patron/divine/visires, /datum/patron/divine/valdala, /datum/patron/divine/mordsol)
 	outfit = /datum/outfit/adventurer/crusader
 	category_tags = list(CTAG_ADVENTURER)
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	is_recognized = TRUE
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/crusader

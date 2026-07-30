@@ -37,8 +37,8 @@
 	Now you find yourself approaching Domotan... perhaps this will be a perfect location to prepare your next great feast?"
 	allowed_sexes = list(MALE, FEMALE)
 	outfit = /datum/outfit/pilgrim/masterchef
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	category_tags = list(CTAG_PILGRIM, CTAG_TOWNER)
 	apprentice_name = "Chef Apprentice"
 	cmode_music = 'sound/music/cmode/towner/CombatTowner2.ogg'
