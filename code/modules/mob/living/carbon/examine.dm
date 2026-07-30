@@ -201,7 +201,7 @@
 				. += span_purple("Another possessed of the blood of the One Envy.")
 
 			if((HAS_TRAIT(src, TRAIT_CABAL_CHUD) && HAS_TRAIT(user, TRAIT_CABAL)))
-				. += span_purple("An unenlightened fool who professes to follow the One Envy.")
+				. += span_purple("A cultist outside of my family who professes to follow the One Envy.")
 
 			if((HAS_TRAIT(src, TRAIT_CABAL_CHUD) && HAS_TRAIT(user, TRAIT_CABAL_CHUD)))
 				. += span_purple("A fellow follower of the Jealous God.")

@@ -307,7 +307,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 		is_selfreport = TRUE
 
 	// Check if confessor is actually guilty
-	if(HAS_TRAIT(confession.signee, TRAIT_CABAL))
+	if(HAS_TRAIT(confession.signee, TRAIT_CABAL_CHUD))
 		is_correct = TRUE
 
 	if(confession.signee.name in GLOB.excommunicated_players)
@@ -491,7 +491,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 		is_selfreport = TRUE
 
 	// Check if subject is cabal member
-	if(HAS_TRAIT(accusation.paired.subject, TRAIT_CABAL))
+	if(HAS_TRAIT(accusation.paired.subject, TRAIT_CABAL_CHUD))
 		is_correct = TRUE
 
 	var/mob/living/subject = accusation.paired.subject?.resolve()
