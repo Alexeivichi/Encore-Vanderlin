@@ -11,6 +11,12 @@
 	background_track_dusk = null
 	background_track_night = null
 
+//Level 2 of the necropolis
+/area/outdoors/necropolis/level2
+	name = "Necropolis Level 2 Outdoors"
+	first_time_text = null
+	threat_region = THREAT_REGION_TERRORBOG
+
 //Level 1 of the necropolis
 /area/under/necropolis
 	name = "Necropolis Level 1"
