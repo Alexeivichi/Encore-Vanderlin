@@ -86,6 +86,9 @@
 "az" = (
 /turf/open/floor/dirt/road,
 /area)
+"aB" = (
+/turf/open/floor/carpet/red,
+/area)
 "aC" = (
 /obj/structure/barricade/wooden/crude,
 /obj/structure/door/red,
@@ -174,6 +177,7 @@
 "be" = (
 /obj/structure/closet/crate/chest/neu_iron/corpse,
 /obj/effect/mapping_helpers/access/keyset/other/bogwitch,
+/obj/item/reagent_containers/lux,
 /turf/open/floor/hexstone,
 /area)
 "bk" = (
@@ -630,6 +634,12 @@
 /obj/item/plate,
 /obj/item/plate,
 /obj/item/flint,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
 /turf/open/floor/ruinedwood/darker,
 /area)
 "eE" = (
@@ -862,6 +872,7 @@
 "gI" = (
 /obj/structure/bed/hay,
 /obj/item/bedsheet/cloth,
+/obj/machinery/light/fueled/wallfire/candle/blue/r,
 /turf/open/floor/twig/platform,
 /area)
 "gM" = (
@@ -2124,6 +2135,7 @@
 /obj/structure/fluff/railing/wood{
 	pixel_y = -8
 	},
+/obj/machinery/light/fueled/wallfire/candle/blue,
 /turf/open/floor/ruinedwood/darker,
 /area)
 "rh" = (
@@ -2435,6 +2447,14 @@
 	dir = 8
 	},
 /area)
+"tr" = (
+/obj/structure/closet/crate/drawer{
+	pixel_y = 20;
+	density = 0;
+	dense_when_open = 0
+	},
+/turf/open/floor/twig/platform,
+/area)
 "ts" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10
@@ -2522,6 +2542,10 @@
 	pixel_y = 7
 	},
 /turf/open/floor/cobblerock/alt,
+/area)
+"tV" = (
+/obj/machinery/light/fueled/wallfire/candle/blue,
+/turf/open/openspace,
 /area)
 "uc" = (
 /obj/structure/window/solid,
@@ -3726,6 +3750,14 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/hexstone,
 /area)
+"Cb" = (
+/obj/machinery/light/fueled/wallfire{
+	pixel_y = 32
+	},
+/obj/structure/table/wood/folding,
+/obj/item/reagent_containers/glass/carafe/teapot/bronze,
+/turf/open/floor/carpet/red,
+/area)
 "Ch" = (
 /obj/structure/flora/tree/pine/dead{
 	icon_state = "dead2"
@@ -3905,6 +3937,12 @@
 	},
 /turf/open/floor/cobblerock/alt,
 /area)
+"DI" = (
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area)
 "DJ" = (
 /obj/effect/decal/borderfall{
 	dir = 1
@@ -4058,6 +4096,10 @@
 	name = "comfortable stool";
 	desc = "A stool with a soft, cushioned seat. Comfortable."
 	},
+/turf/open/floor/ruinedwood/darker,
+/area)
+"EV" = (
+/obj/structure/bookcase/random/heretical,
 /turf/open/floor/ruinedwood/darker,
 /area)
 "EX" = (
@@ -5885,6 +5927,10 @@
 /obj/structure/closet/crate/chest/crate,
 /turf/open/floor/cobblerock,
 /area/outdoors/woods/crossroads)
+"UM" = (
+/obj/structure/bookcase/random/apocrypha,
+/turf/open/floor/ruinedwood/darker,
+/area)
 "UO" = (
 /obj/effect/decal/borderfall{
 	dir = 1
@@ -6268,6 +6314,12 @@
 /obj/structure/fluff/statue/gargoyle,
 /turf/open/floor/hexstone,
 /area/under/town/basement)
+"YC" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area)
 "YD" = (
 /obj/item/natural/stone,
 /turf/open/floor/dirt/road,
@@ -6308,6 +6360,13 @@
 /obj/item/natural/rock,
 /turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
+"YM" = (
+/obj/effect/decal/borderfall{
+	dir = 1
+	},
+/obj/machinery/light/fueled/wallfire/candle/blue/r,
+/turf/open/floor/ruinedwood/darker,
+/area)
 "YQ" = (
 /obj/structure/flora/tree/burnt,
 /turf/open/floor/sand,
@@ -89577,7 +89636,7 @@ gV
 gV
 gV
 rR
-gV
+tV
 gV
 gV
 HF
@@ -90353,8 +90412,8 @@ vf
 vf
 vf
 vf
-vf
-vf
+UM
+EV
 tq
 gV
 gV
@@ -90606,13 +90665,13 @@ gV
 gV
 gV
 IN
-XE
+QP
 IN
 vf
 vf
 vf
 vf
-rR
+YU
 gV
 gV
 gV
@@ -90863,13 +90922,13 @@ gV
 gV
 gV
 qT
-lU
-qT
+tr
+XE
+DI
+aB
 vf
 vf
-vf
-vf
-rR
+pd
 gV
 gV
 gV
@@ -91121,12 +91180,12 @@ gV
 gV
 iQ
 rk
-QP
+cf
+Cb
+aB
 vf
 vf
-vf
-vf
-rR
+tq
 gV
 gV
 gV
@@ -91378,9 +91437,9 @@ gV
 gV
 qT
 gI
-qT
-vf
-vf
+XE
+YC
+aB
 vf
 vf
 YU
@@ -92408,7 +92467,7 @@ gV
 gV
 iQ
 JY
-dz
+YM
 ET
 YY
 YU
