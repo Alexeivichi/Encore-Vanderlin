@@ -259,7 +259,7 @@
 #define JOB_MERCENARY "Mercenary"
 
 
-#define JOB_INNKEEP_SON "Innkeepers Son"
+#define JOB_INNKEEP_SON "Tavern Assistant"
 #define JOB_ORPHAN "Orphan"
 #define JOB_CHURCHLING "Churchling"
 #define JOB_SOILCHILD "Soilchild"
