@@ -31,7 +31,7 @@
 	title = "Bogwalker"
 	tutorial = "You've spent your years wandering the bogs of Gaia, eking out a living a hunter of both men and beast. \
 	Your axe has claimed many a head and the bog has hardened your body and mind against all threats."
-	allowed_races = list(SPEC_ID_HALF_ORC)
+	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/bogwalker
 	category_tags = list(CTAG_MERCENARY)
 

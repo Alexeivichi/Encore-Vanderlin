@@ -25,7 +25,7 @@
 /datum/job/advclass/combat/hoplite
 	title = "Immortal Bulwark"
 	tutorial = "You have marched and fought in formations since the ancient war that nearly destroyed Gaia. There are few in the world who can match your expertise in a shield wall, but all you have ever known is battle and obedience..."
-	allowed_races = list(SPEC_ID_AASIMAR)
+	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/folkhero/hoplite
 	total_positions = 99
 	spawn_positions = 99

@@ -20,12 +20,9 @@
 
 /datum/job/advclass/mercenary/hollowdragoon
 	title = "Hollow Dragoon"
-	tutorial = "You rode out from Amber Hollow on your loyal steed, seeking coin from the wider reaches of Gaia. \
+	tutorial = "You rode out from PLACEHOLDER_FACTION_REBRANDING on your loyal steed, seeking coin from the wider reaches of Gaia. \
 	With armour salvaged from fallen knights and a spear in hand, you will fight for anyone, for a price."
-	allowed_races = list(\
-		SPEC_ID_HOLLOWKIN,\
-		SPEC_ID_HARPY,\
-	) // Technically should be humens too, but hollow's deserve something special too
+	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/dragoon
 	category_tags = list(CTAG_MERCENARY)
 	total_positions = 99
