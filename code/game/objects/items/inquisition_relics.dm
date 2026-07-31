@@ -197,7 +197,7 @@
 
 /atom/movable/screen/alert/status_effect/buff/censerbuff
 	name = "Inspired by the Aspects."
-	desc = "The lingering blessing of the Aspects inspires me to carry on."
+	desc = "The lingering blessing of the Four and One inspires me to carry on."
 	icon_state = "censerbuff"
 
 /datum/status_effect/buff/censerbuff
@@ -417,7 +417,7 @@
 
 /obj/item/inqarticles/indexer
 	name = "\improper INDEXER"
-	desc = "A blessed ampoule with a retractable bladetip, intended to further information gathering through hematology. Siphon blood from an individual until the INDEXER clicks shut, then mail it back to the Oratorium for cataloguing."
+	desc = "A thaumatic scanning device, with a retracted thin silver needle; intended to further information gathering through scanning for thaumatic corruption. Scan your target and take a drop of blood from an individual until the INDEXER clicks shut, then mail it back to the Katholikon for cataloguing."
 	icon = 'icons/roguetown/items/misc.dmi'
 	icon_state = "indexer"
 	item_state = "indexer"
@@ -491,7 +491,7 @@
 		return
 
 	if(full)
-		to_chat(user, span_notice("It's ready to be sent back to the Oratorium."))
+		to_chat(user, span_notice("It's ready to be sent back to the Katholikon."))
 		return
 
 	possible_item_intents = list(/datum/intent/use, /datum/intent/dagger/cut)
@@ -562,7 +562,7 @@
 			user.update_a_intents()
 			active = FALSE
 			update_appearance(UPDATE_ICON_STATE)
-			say("CURSED BLOOD!")
+			say("THAUMIC CORRUPTION DETECTED!")
 			return
 		update_appearance(UPDATE_ICON_STATE)
 		return
@@ -571,19 +571,13 @@
 	playsound(src, 'sound/items/indexer_working.ogg', 75, FALSE, 3)
 	if(active && working && !full)
 		if(do_after(user, 20, M))
-			M.flash_fullscreen("redflash3")
-			if(!HAS_TRAIT(M, TRAIT_NOPAIN) || !HAS_TRAIT(M, TRAIT_NOPAINSTUN))
-				if(prob(15))
-					M.emote("whimper", forced = TRUE)
-				else if(prob(15))
-					M.emote("painmoan", forced = TRUE)
 			desc = initial(desc)
 			subject = WEAKREF(M)
 			desc += span_notice(" It contains the blood of [M.real_name]!")
-			visible_message(span_warning("[src] draws from [M]!"))
-			playsound(M, 'sound/combat/hits/bladed/genstab (1).ogg', 30, FALSE, -1)
+			visible_message(span_warning("[src] waves the scanner over [M], then draws a single drop of blood from [M] with a thin silver needle!"))
+			playsound(M, 'sound/surgery/retractor1.ogg', 30, FALSE, -1)
 			timestaken++
-			M.blood_volume = max(M.blood_volume-30, 0)
+			M.blood_volume = max(M.blood_volume-1, 0)
 			M.handle_blood()
 			if(M.mind)
 				if(M.mind.has_antag_datum(/datum/antagonist/werewolf, FALSE))
@@ -746,7 +740,7 @@
 
 /obj/item/inqarticles/garrote // Do not give this item out freely to other classes. Do not subtype this item for other classes. This is intended purely as the Confessor's identifying sidegrade, and as a bonus for the Inspector INQ. I will be very sad if you disregard this comment. Thank you. - Yische.
 	name = "\proper seizing garrote" // It's nonlethal. It's so silly and fun.
-	desc = "A macabre instrument favored by the more clandestine of the Angrosian Silver Order; A length of thick leather inquiry cordage that has been dipped in both holy water and dye before being consecrated and spell-laced, held and threaded between two iron links. Perfect for apprehension."
+	desc = "A macabre instrument favored by the more clandestine of the Katholikon's Inquisition; A length of thick leather inquiry cordage that has been dipped in both holy water and dye before being consecrated and spell-laced, held and threaded between two iron links. Perfect for apprehension."
 	icon = 'icons/roguetown/items/misc.dmi'
 	icon_state = "garrote"
 	throw_speed = 3
@@ -1161,9 +1155,9 @@
 /obj/item/inqarticles/bmirror/examine(mob/user)
 	. = ..()
 	if(HAS_TRAIT(user, TRAIT_INQUISITION))
-		desc = "A mass-produced relic of the Oratorium Throni Vacui. The exact method of the Black Mirror's operation remains a well-kept secret. One worth dying over, supposedly."
+		desc = "A mass-produced relic of the Katholikon's Inquisition. The exact method of the Black Mirror's operation remains a well-kept secret, but it exists to serve as a more accessible facsimile of a magician's infamous scrying orb. In order to achieve such results without decades of study, the mirror must draw thauma from another source; blood."
 	else
-		desc = ""
+		desc = "An unusual black mirror, one which reflects nothing, despite its shine. It's strangely cold to the touch."
 
 /obj/item/inqarticles/bmirror/proc/donefixating()
 	bloody = TRUE
@@ -1206,13 +1200,13 @@
 	if(broken && bloody)
 		to_chat(user, span_warning("The mirror has shattered, rendering it unusable."))
 		if(HAS_TRAIT(user, TRAIT_INQUISITION))
-			to_chat(user, span_notice("If I clean it, I can send it back to the Inquisition for repairs."))
+			to_chat(user, span_notice("If I clean it, I can send it back to the Katholikon for repairs."))
 		return
 
 	if(broken && !bloody)
 		to_chat(user, span_warning("The mirror has shattered, rendering it unusable. It's clean, at the very least."))
 		if(HAS_TRAIT(user, TRAIT_INQUISITION))
-			to_chat(user, span_notice("It's returnable via the HERMES now. I should get two Marques back."))
+			to_chat(user, span_notice("It's returnable via the mail machina now. I should get two denarii back."))
 		return
 
 	if(bloody)
@@ -1317,8 +1311,8 @@
 	if(do_after(user, time_taken, attacked))
 		playsound(src, 'sound/items/blackmirror_needle.ogg', 95, FALSE, 3)
 		attacked.flash_fullscreen("redflash3")
-		attacked.adjustBruteLoss(40)
-		attacked.blood_volume = max(attacked.blood_volume - 240, 0)
+		attacked.adjustBruteLoss(5)
+		attacked.blood_volume = max(attacked.blood_volume - 20, 0)
 		attacked.handle_blood()
 		feeder = WEAKREF(attacked)
 		openstate = "bloody"
