@@ -35,7 +35,8 @@
 	)
 	traits = list(
 		TRAIT_NOBLE_BLOOD,
-		TRAIT_NOBLE_POWER
+		TRAIT_NOBLE_POWER,
+		TRAIT_NOBLE_LOCAL,
 	)
 
 /datum/outfit/hand

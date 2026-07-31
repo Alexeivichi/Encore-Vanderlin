@@ -385,6 +385,12 @@
 		var/atom/item = get_most_expensive()
 		if(item)
 			. += span_tinynoticeital("You get the feeling [P[THEIR]] most valuable possession is [item.get_examine_name(user)].")
+	//Foreign Noble
+	if(HAS_TRAIT(src, TRAIT_NOBLE_FOREIGN))
+		. += span_blue("[P[THEYRE]] likely a member of the nobility, based on such noble bearing... but from where?")
+	//Local Noble
+	if(HAS_TRAIT(src, TRAIT_NOBLE_LOCAL))
+		. += span_blue("[P[THEYRE]] a noble, local to Domotan Island!")
 
 
 	if(isautomaton(user))
