@@ -1,4 +1,4 @@
-datum/job/vampirelord
+/datum/job/vampirelord
 	title = "Vampire Lord"
 	tutorial = "An embodiment of the living dead, you eke out a meagre existence on the fringes of the weeping wood in your underground lair. Chances are, the mortals and their Shirleigh masters know you're here, and sooner or later your peace is going to be disturbed. If you don't disturb theirs first."
 	department_flag = OUTSIDERS
