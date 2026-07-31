@@ -266,7 +266,7 @@
 
 /datum/quirk/peculiarity/nobility
 	name = "Foreign Nobility"
-	desc = "The blood of a noble family foreign to Domotan Island flows through your veins. Though your house are unlikely to be recognised at a glance upon the island, the hallmark traits of nobility are still your own, and people will almost assuredly recognise you as such."
+	desc = "The blood of a noble family foreign to Domotan Island flows through your veins. Though your house are unlikely to be recognised at a glance upon the island, the hallmark traits of nobility are still your own, and people will almost assuredly recognise you as such. Do not take this trait if you are playing a job explicitly part of the peasantry."
 	blocked_species = list(
  		/datum/species/kobold,
  		/datum/species/kobold/formikrag,
@@ -285,7 +285,7 @@
 
 /datum/quirk/peculiarity/localnobility
 	name = "Local Nobility"
-	desc = "The blood of a noble family native to Domotan Island flows through your veins. Though you have no blood relation to the royal house of Shirleigh, you or one of your ancestors have at least been granted a title by them, if not property... somewhere. Whether you call a modest estate within Old Doma your home, claim a long-lost ruin somewhere in the wilderness is your ancient birthrite, or you've just been freshly elevated to the nobility in title alone with only the clothes on your back; you're someone who will be recognised at a glance by the commonfolk of the Island. Behave in a way befitting of your station, lest the Shirleighs decide to reconsider your place in the pecking order."
+	desc = "The blood of a noble family native to Domotan Island flows through your veins. Though you have no blood relation to the royal house of Shirleigh, you or one of your ancestors have at least been granted a title by them, if not property... somewhere. Whether you call a modest estate within Old Doma your home, claim a long-lost ruin somewhere in the wilderness is your ancient birthrite, or you've just been freshly elevated to the nobility in title alone with only the clothes on your back; you're someone who will be recognised at a glance by the commonfolk of the Island. Behave in a way befitting of your station, lest the Shirleighs decide to reconsider your place in the pecking order. Do not take this trait if you are playing a job explicitly part of the peasantry."
 	blocked_species = list(
  		/datum/species/kobold,
  		/datum/species/kobold/formikrag,
