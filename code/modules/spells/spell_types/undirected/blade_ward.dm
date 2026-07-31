@@ -60,6 +60,10 @@
 	var/mob/living/target = owner
 	target.cut_overlay(ward)
 
+/datum/action/cooldown/spell/undirected/blade_ward/miracle
+	name = "Divine Blade Ward"
+	desc = "This is a placeholder. If you've been given this spell, it's by mistake, please make a bug report on GitHub."
+
 /datum/action/cooldown/spell/undirected/blade_ward/miracle/frost
 	name = "Frost's Aegis"
 	desc = "Call upon the powers of Frost to fortify you against blows for a time."
