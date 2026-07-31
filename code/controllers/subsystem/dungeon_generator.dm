@@ -2,10 +2,10 @@ SUBSYSTEM_DEF(dungeon_generator)
 	name = "Deceivers Creation"
 	wait = 1 SECONDS
 
-	flags = SS_NO_INIT//disabling this at least temporarily because we don't actually use this on Encore
+	flags = SS_NO_FIRE | SS_NO_INIT//disabling this at least temporarily because we don't actually use this on Encore
 
 	init_order = INIT_ORDER_DUNGEON
-	runlevels = RUNLEVEL_GAME | RUNLEVEL_INIT | RUNLEVEL_LOBBY
+	// runlevels = RUNLEVEL_GAME | RUNLEVEL_INIT | RUNLEVEL_LOBBY
 	lazy_load = FALSE
 
 	var/list/parent_types = list()

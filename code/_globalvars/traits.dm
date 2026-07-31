@@ -186,6 +186,7 @@ GLOBAL_LIST_INIT(traits_by_type, list(
 		"Endless Slumber" = TRAIT_TORPOR,
 		"Boundless Energy" = TRAIT_NOENERGY,
 		"Keen Ears"	= TRAIT_KEENEARS,
+		"Keen Eyes" = TRAIT_KEENEYES,
 		"Poison Resilience" = TRAIT_POISON_RESILIENCE,
 		"Expert Forager" = TRAIT_FORAGER,
 		"Seed Finder" = TRAIT_SEED_FINDER,
@@ -324,6 +325,7 @@ GLOBAL_LIST_INIT(roguetraits, list(
 	TRAIT_DUALWIELDER = span_info("I am trained in the art of dual wielding."),
 	TRAIT_NOENERGY = span_info("I don't need rest; I won't ever feel fatigue."),
 	TRAIT_KEENEARS = span_info("I've a good pair of ears, and can tell who is speaking, even when they're out of sight. I can also hear whispers from further away."),
+	TRAIT_KEENEYES = span_info("Years of hunting and tracking have honed your sight. You're better at noticing details and spotting hidden things."),
 	TRAIT_POISON_RESILIENCE	= span_info("I'm more resilient to poisons."),
 	TRAIT_FORAGER = span_info("I can tell which jacksberries are poisonous."),
 	TRAIT_SEED_FINDER = span_info("I find seeds more easily."),
@@ -333,7 +335,7 @@ GLOBAL_LIST_INIT(roguetraits, list(
 	TRAIT_NOCSHADES = span_info("The lens I look through allows me to see in the dark clear as dae, at the cost of greater vision."),
 	TRAIT_WOUNDREGEN = span_info("My wounds and bones mend on their own, my bleeding clots quickly.."),
 	TRAIT_COIN_ILLITERATE = span_info("I care little for the concept of coins and prefer to barter via other means."),
-	TRAIT_LUCKY_COOK = span_info("Iliope smiles upon my cooking, I often end up with impossible amounts of extra goods..."),
+	TRAIT_LUCKY_COOK = span_info("Gani smiles upon my cooking, I often end up with impossible amounts of extra goods..."),
 	TRAIT_ABOMINATION = span_info("I am an abomination, others will recognise me for what I am"),
 ))
 

@@ -25,8 +25,8 @@
 	title = "Cudese Shinobi"
 	tutorial = "You belong to the Shinobis of Yinshi. An elusive order of Akanite freedom fighters originating from the long-dead Old Kui. You have dedicated yourself to uplifting the enslaved and oppressed, and hope to continue doing so in the lands you travel."
 	allowed_patrons = list(/datum/patron/divine/iliope)
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 	category_tags = list(CTAG_ADVENTURER)
 	cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 	outfit = /datum/outfit/adventurer/sekketianshinobi

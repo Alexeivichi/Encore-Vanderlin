@@ -252,3 +252,139 @@
 	shoes = /obj/item/clothing/shoes/boots
 	beltl = /obj/item/weapon/sword/rapier/caneblade/hand
 	scabbards = list(/obj/item/weapon/scabbard/cane/hand)
+
+/datum/attribute_holder/sheet/job/huntsmaster
+	attribute_variance = list(
+		STAT_CONSTITUTION = list(0, 1)
+	)
+	raw_attribute_list = list(
+		STAT_ENDURANCE = 3,
+		STAT_PERCEPTION = 3,
+		STAT_SPEED = 2,
+		/datum/attribute/skill/combat/crossbows = 30,
+		/datum/attribute/skill/combat/bows = 40,
+		/datum/attribute/skill/combat/firearms = 20,
+		/datum/attribute/skill/combat/unarmed = 35,
+		/datum/attribute/skill/combat/swords = 20,
+		/datum/attribute/skill/combat/knives = 30,
+		/datum/attribute/skill/misc/swimming = 40,
+		/datum/attribute/skill/misc/climbing = 40,
+		/datum/attribute/skill/misc/athletics = 40,
+		/datum/attribute/skill/combat/wrestling = 30,
+		/datum/attribute/skill/misc/reading = 20,
+		/datum/attribute/skill/misc/riding = 40,
+		/datum/attribute/skill/labor/taming = 40,
+		/datum/attribute/skill/misc/medicine = 20,
+		/datum/attribute/skill/misc/sneaking = 45,
+		/datum/attribute/skill/labor/butchering = 30,
+		/datum/attribute/skill/craft/tanning = 35,
+		/datum/attribute/skill/misc/sewing = 15,
+		/datum/attribute/skill/craft/traps = 40,
+		/datum/attribute/skill/craft/crafting = 30,
+		/datum/attribute/skill/labor/mathematics = 30
+	)
+
+/datum/attribute_holder/sheet/job/huntsmaster/old
+	raw_attribute_list = list(
+		STAT_ENDURANCE = 4,
+		STAT_PERCEPTION = 2,
+		STAT_INTELLIGENCE = 2,
+		STAT_CONSTITUTION = 2,
+		STAT_SPEED = -1,
+		STAT_STRENGTH = -1,
+		/datum/attribute/skill/combat/crossbows = 40,
+		/datum/attribute/skill/combat/bows = 50,
+		/datum/attribute/skill/combat/firearms = 20,
+		/datum/attribute/skill/combat/unarmed = 40,
+		/datum/attribute/skill/combat/swords = 30,
+		/datum/attribute/skill/combat/knives = 30,
+		/datum/attribute/skill/misc/swimming = 40,
+		/datum/attribute/skill/misc/climbing = 40,
+		/datum/attribute/skill/misc/athletics = 40,
+		/datum/attribute/skill/combat/wrestling = 30,
+		/datum/attribute/skill/misc/reading = 30,
+		/datum/attribute/skill/misc/riding = 50,
+		/datum/attribute/skill/labor/taming = 50,
+		/datum/attribute/skill/misc/medicine = 30,
+		/datum/attribute/skill/misc/sneaking = 50,
+		/datum/attribute/skill/labor/butchering = 40,
+		/datum/attribute/skill/craft/tanning = 50,
+		/datum/attribute/skill/misc/sewing = 25,
+		/datum/attribute/skill/craft/traps = 50,
+		/datum/attribute/skill/craft/crafting = 40,
+		/datum/attribute/skill/labor/mathematics = 30
+	)
+
+/datum/job/advclass/hand/huntsmaster
+	title = "Huntsmaster"
+	tutorial = " A hunter of the crown, you have tracked more living beings through the Wild than you can remember; \
+    a loyal hound by your side, a powerful saiga underneath. You've learnt the rules of the hunt are no different from the court, just simpifed, primal. \
+    The strong survive, the weak die. So, loose your bow over these lands, and let no man, no beast, and no demons think themselves safe from your arrows. \
+    Your agents by your side, you will rid this town of ruffians, rooting out would-be's like one does with a lowly cabbit. \
+    Let the world remember you, the Huntsmaster, as a true slayer of beast, monster, and man."
+	outfit = /datum/outfit/hand/huntsmaster
+	category_tags = list(CTAG_HAND)
+	cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg'
+	exp_types_granted  = list(EXP_TYPE_NOBLE)
+
+	attribute_sheet = /datum/attribute_holder/sheet/job/huntsmaster
+	attribute_sheet_old = /datum/attribute_holder/sheet/job/huntsmaster/old
+	honorary = "Huntsmaster"
+
+	traits = list(
+		TRAIT_KEENEYES,
+		TRAIT_LIGHT_STEP,
+		TRAIT_FORAGER
+	)
+
+/datum/outfit/hand/huntsmaster
+	name = "Huntsmaster (Hand)"
+	head = /obj/item/clothing/head/roguehood/leather
+	shirt = /obj/item/clothing/armor/gambeson/hunts
+	l_hand = /obj/item/storage/hound_pack
+	backl = /obj/item/gun/ballistic/bow/long
+	backr = /obj/item/storage/backpack/satchel
+	wrists = /obj/item/clothing/wrists/bracers/leather
+	backpack_contents = list(
+		/obj/item/weapon/knife/dagger/steel = 1,
+		/obj/item/reagent_containers/glass/bottle/poison = 1,
+		/obj/item/paper/scroll/frumentarii/roundstart = 1,
+		/obj/item/flint = 1,
+		/obj/item/bait = 1,
+		/obj/item/flashlight/flare/torch/lantern/bronzelamptern = 1,
+	)
+	armor = /obj/item/clothing/armor/leather/jerkin/belted/long
+	pants = /obj/item/clothing/pants/trou/leathertights
+	shoes = /obj/item/clothing/shoes/boots/leather/advanced
+	beltl = /obj/item/ammo_holder/quiver/arrows
+	beltr = /obj/item/weapon/sword/rapier/dec
+	scabbards = list(/obj/item/weapon/scabbard/sword/royal)
+
+/datum/job/advclass/hand/huntsmaster/after_spawn(mob/living/carbon/human/H)
+	. = ..()
+
+	var/mob/living/simple_animal/hostile/retaliate/hound = new /mob/living/simple_animal/hostile/retaliate/hound(get_turf(H))
+	hound.tamed(H)
+/datum/quirk/boon/pet/on_spawn()
+	if(!get_turf(owner))
+		addtimer(CALLBACK(src, PROC_REF(on_spawn)), 0.5 SECONDS)
+		return
+
+	if(!ishuman(owner))
+		return
+
+	var/mob/living/carbon/human/H = owner
+
+
+	pet_mob = new customization_value(get_turf(H))
+
+	if(!pet_mob)
+		return
+
+
+	if(pet_mob.name == initial(pet_mob.name))
+		var/new_name = stripped_input(H, "What is your pet's name?", "Pet Name", initial(pet_mob.name), MAX_NAME_LEN)
+		if(new_name)
+			pet_mob.fully_replace_character_name(null, new_name)
+	pet_mob.tamed(H)
+	ADD_TRAIT(pet_mob, TRAIT_CRITICAL_RESISTANCE, INNATE_TRAIT)

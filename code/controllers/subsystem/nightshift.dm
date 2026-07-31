@@ -67,8 +67,8 @@ SUBSYSTEM_DEF(nightshift)
 	if(todd == DAWN)
 		if(HAS_TRAIT(src, TRAIT_VAMP_DREAMS))
 			apply_status_effect(/datum/status_effect/debuff/vamp_dreams)
-		if(HAS_TRAIT(src, TRAIT_NIGHT_OWL))
-			add_stress(/datum/stress_event/night_owl_dawn)
+	/*	if(HAS_TRAIT(src, TRAIT_NIGHT_OWL))
+			add_stress(/datum/stress_event/night_owl_dawn)	*/
 
 	if(todd == NIGHT)
 		if(HAS_TRAIT(src, TRAIT_NIGHT_OWL))

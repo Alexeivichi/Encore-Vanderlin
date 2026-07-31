@@ -27,8 +27,8 @@
 	outfit = /datum/outfit/mercenary/gloryhound
 	category_tags = list(CTAG_MERCENARY)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/gloryhound
 

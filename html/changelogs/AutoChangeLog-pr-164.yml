@@ -1,0 +1,5 @@
+author: "MisterLayne"
+delete-after: True
+changes:
+  - rscadd: "Old customization options for otherkin"
+  - bugfix: "Otherkin horns not showing"

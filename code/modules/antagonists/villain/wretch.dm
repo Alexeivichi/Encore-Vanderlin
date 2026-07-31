@@ -32,8 +32,7 @@
 	owner?.special_role = null
 
 /datum/antagonist/wretch/move_to_spawnpoint()
-	var/spawn_point = get_spawn_turf_for_job(JOB_ADVENTURER)
-	if(spawn_point)
-		owner.current?.forceMove(spawn_point)
-	else
-		SSjob.SendToBackupPoint(owner.current) // better run if this somehow happens
+    if(LAZYLEN(GLOB.bandit_starts))
+        owner.current?.forceMove(pick(GLOB.bandit_starts))
+    else
+        ..()

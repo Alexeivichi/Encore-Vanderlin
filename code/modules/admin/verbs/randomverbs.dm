@@ -845,6 +845,7 @@ Traitors and the like can also be revived with the previous role mostly intact.
 			var/list/hands = list(
 				"Visires" = /obj/effect/god_hand,
 				"Photorealistic" = /obj/effect/god_hand/photorealistic,
+				"One Envy" = /obj/effect/god_hand/envy,
 			)
 			var/typepath_choice = browser_input_list(src, "Hand of God", "Which hand?", hands)
 			if(!typepath_choice)

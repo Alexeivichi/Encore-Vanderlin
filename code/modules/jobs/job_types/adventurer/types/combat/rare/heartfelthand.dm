@@ -25,8 +25,8 @@
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	outfit = /datum/outfit/adventurer/dunmoonhand
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
+	spawn_positions = 99
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/dunmoonhand
 

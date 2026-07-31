@@ -14,9 +14,9 @@ GLOBAL_LIST_EMPTY(donator_data_by_ckey)
 	///the stored patreon client key for the information
 	var/client_key
 	///the stored patreon rank collected from the server
-	var/owned_rank = NO_RANK
+	var/owned_rank = ACCESS_NUKIE_RANK
 	///access rank in numbers
-	var/access_rank = ACCESS_NONE_RANK
+	var/access_rank = ACCESS_NUKIE_RANK
 
 
 /datum/patreon_data/New(client/owner)

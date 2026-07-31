@@ -18,10 +18,15 @@
 	multiple_accents = list(
 		"No Accent" = ACCENT_NONE,
 	)
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "<b>Lupian</b><br>\
+	Lupians are a humanoid race of canines typically resembling wolves, a proud species of hunters \
+	well-regarded for both their capability in battle and their community spirit. Lupians formed a \
+	friendship with Humanity early in the Goblet’s history and can commonly be found in Human communities.<br>\
+	+1 Perception."
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)
+	inherent_traits = list(TRAIT_NOMOBSWAP)
 	use_skintones = TRUE
 
 	possible_ages = NORMAL_AGES_LIST
