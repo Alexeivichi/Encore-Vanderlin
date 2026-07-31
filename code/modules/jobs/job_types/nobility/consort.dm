@@ -37,7 +37,8 @@
 	)
 	traits = list(
 		TRAIT_NOBLE_POWER,
-		TRAIT_NUTCRACKER
+		TRAIT_NUTCRACKER,
+		TRAIT_NOBLE_LOCAL,
 	)
 
 /datum/job/consort/New()

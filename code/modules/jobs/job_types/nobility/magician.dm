@@ -87,7 +87,8 @@
 		TRAIT_SEEPRICES,
 		TRAIT_NOBLE_BLOOD,
 		TRAIT_NOBLE_POWER,
-		TRAIT_OLDPARTY
+		TRAIT_NOBLE_LOCAL,
+		TRAIT_OLDPARTY,
 	)
 
 /datum/job/magician/after_spawn(mob/living/carbon/human/spawned, client/player_client)
