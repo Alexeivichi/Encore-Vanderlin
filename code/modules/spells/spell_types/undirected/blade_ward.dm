@@ -59,3 +59,19 @@
 	. = ..()
 	var/mob/living/target = owner
 	target.cut_overlay(ward)
+
+/datum/action/cooldown/spell/undirected/blade_ward/miracle/frost
+	name = "Frost's Aegis"
+	desc = "Call upon the powers of Frost to fortify you against blows for a time."
+	spell_type = SPELL_MIRACLE
+	antimagic_flags = MAGIC_RESISTANCE_HOLY
+	associated_skill = /datum/attribute/skill/magic/holy
+	invocation = "Let my flesh harden like ice!"
+
+/datum/action/cooldown/spell/undirected/blade_ward/miracle/earth
+	name = "Earth's Bulwark"
+	desc = "Call upon the powers of Earth to fortify you against blows for a time."
+	spell_type = SPELL_MIRACLE
+	antimagic_flags = MAGIC_RESISTANCE_HOLY
+	associated_skill = /datum/attribute/skill/magic/holy
+	invocation = "Let my flesh harden like stone!"
