@@ -1050,6 +1050,25 @@
 /datum/special_trait/angrosian_studies/on_apply(mob/living/carbon/human/character, silent)
 	character.grant_language(/datum/language/oldunsundered)
 
+/datum/special_trait/musclepriest
+	name = "My body is a TEMPLE!"
+	greet_text = span_notice("My body is a beacon for the Aspect's light, and it shall be KNOWN")
+	weight = 30
+
+	req_text = "Be the Priest"
+	allowed_jobs = list(/datum/job/priest)
+
+/datum/attribute_holder/sheet/job/musclepriest
+	raw_attribute_list = list(
+		STAT_CONSTITUTION = 3,
+		STAT_ENDURANCE = 3,
+		STAT_SPEED = -3,
+		/datum/attribute/skill/misc/athletics = 40,
+		/datum/attribute/skill/misc/climbing = 50,
+		/datum/attribute/skill/combat/wrestling = 30,
+		/datum/attribute/skill/combat/unarmed = 25,
+	)
+
 /datum/special_trait/sage_phobia
 	name = "Blood Memory"
 	greet_text = span_boldwarning("My blood remembers something primordial. My mind does not.")
