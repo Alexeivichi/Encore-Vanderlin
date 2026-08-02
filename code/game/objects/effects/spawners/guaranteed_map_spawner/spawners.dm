@@ -371,10 +371,19 @@
 	name = "Exotic Fruit Spawner"
 	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
 	spawned = list(
-		/obj/item/reagent_containers/food/snacks/produce/fruit/avocado = 2,
-		/obj/item/reagent_containers/food/snacks/produce/fruit/dragonfruit = 2,
-		/obj/item/reagent_containers/food/snacks/produce/fruit/mango = 2,
-		/obj/item/reagent_containers/food/snacks/produce/fruit/mangosteen = 2,
-		/obj/item/reagent_containers/food/snacks/produce/fruit/pineapple = 2,
-		/obj/item/reagent_containers/food/snacks/produce/fruit/tamto = 2,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/avocado = 3,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/dragonfruit = 3,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/mango = 3,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/mangosteen = 3,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/pineapple = 3,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/vegetable
+	name = "Common Vegetable Spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
+	spawned = list(
+		/obj/item/reagent_containers/food/snacks/produce/vegetable/cabbage = 2,
+		/obj/item/reagent_containers/food/snacks/produce/vegetable/potato = 2,
+		/obj/item/reagent_containers/food/snacks/produce/vegetable/onion = 2,
+		/obj/item/reagent_containers/food/snacks/produce/vegetable/turnip = 2,
 	)
