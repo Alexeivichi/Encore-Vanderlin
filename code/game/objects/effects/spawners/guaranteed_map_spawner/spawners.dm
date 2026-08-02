@@ -285,3 +285,96 @@
 		/obj/item/weapon/mace/goden/steel = 1,
 		/obj/item/weapon/sword/long/greatsword/angros = 1,
 	)
+
+// FOOD NOW
+/obj/effect/spawner/guaranteed_map_spawner/listed/food
+	name = "Basic Food Spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
+	spawned = list(
+		/obj/item/reagent_containers/powder/flour = 2,
+		/obj/item/reagent_containers/food/snacks/meat/steak = 2,
+		/obj/item/reagent_containers/food/snacks/egg = 2,
+		/obj/item/reagent_containers/food/snacks/produce/vegetable/cabbage = 1,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/grain
+	name = "Common Grain Spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
+	spawned = list(
+		/obj/item/reagent_containers/food/snacks/produce/grain/wheat = 8,
+		/obj/item/reagent_containers/food/snacks/produce/grain/oat = 8,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/grain/expensive
+	name = "Expensive Grain Spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
+	spawned = list(
+		/obj/item/reagent_containers/food/snacks/produce/grain/wheat = 6,
+		/obj/item/reagent_containers/food/snacks/produce/grain/oat = 6,
+		/obj/item/reagent_containers/food/snacks/produce/grain/sunreed = 6,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/meat
+	name = "Common Meat Spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
+	spawned = list(
+		/obj/item/reagent_containers/food/snacks/meat/steak = 14,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/meat/expensive
+	name = "Expensive Meat Spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
+	spawned = list(
+		/obj/item/reagent_containers/food/snacks/meat/steak = 8,
+		/obj/item/reagent_containers/food/snacks/meat/poultry = 6,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/fish
+	name = "Common Fish Spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
+	spawned = list(
+		/obj/item/reagent_containers/food/snacks/fish/carp = 14,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/fish/expensive
+	name = "Expensive Fish Spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
+	spawned = list(
+		/obj/item/reagent_containers/food/snacks/fish/eel = 8,
+		/obj/item/reagent_containers/food/snacks/fish/shrimp = 8,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/fruit
+	name = "Common Fruit Spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
+	spawned = list(
+		/obj/item/reagent_containers/food/snacks/produce/fruit/jacksberry = 4,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/apple = 4,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/pear = 4,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/blackberry = 4,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/raspberry = 4,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/fruit/expensive
+	name = "Expensive Fruit Spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
+	spawned = list(
+		/obj/item/reagent_containers/food/snacks/produce/fruit/lemon = 3,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/lime = 3,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/plum = 3,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/tangerine = 3,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/strawberry = 3,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/pompkaun = 3,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/fruit/exotic
+	name = "Exotic Fruit Spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
+	spawned = list(
+		/obj/item/reagent_containers/food/snacks/produce/fruit/avocado = 2,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/dragonfruit = 2,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/mango = 2,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/mangosteen = 2,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/pineapple = 2,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/tamto = 2,
+	)
