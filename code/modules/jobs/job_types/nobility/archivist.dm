@@ -48,7 +48,8 @@
 	)
 	traits = list(
 		TRAIT_NOBLE_BLOOD,
-		TRAIT_NOBLE_POWER
+		TRAIT_NOBLE_POWER,
+		TRAIT_NOBLE_LOCAL,
 	)
 
 /datum/job/archivist/after_spawn(mob/living/carbon/human/spawned, client/player_client)

@@ -69,6 +69,7 @@
 	if(spawned.dna?.species?.id != SPEC_ID_MEDICATOR)
 		ADD_TRAIT(spawned, TRAIT_NOBLE_BLOOD, JOB_TRAIT)
 		ADD_TRAIT(spawned, TRAIT_NOBLE_POWER, JOB_TRAIT)
+		ADD_TRAIT(spawned, TRAIT_NOBLE_LOCAL, JOB_TRAIT)
 	else
 		spawned.honorary = null
 

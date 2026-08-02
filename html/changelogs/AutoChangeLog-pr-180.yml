@@ -1,0 +1,5 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - bugfix: "Reduced and removed fanning from some map generator entities."
+  - bugfix: "Fixes unnoticed instances of the tavern assistant being named the innkeepers' son."
