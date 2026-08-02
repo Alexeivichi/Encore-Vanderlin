@@ -286,7 +286,7 @@
 		/obj/item/weapon/sword/long/greatsword/angros = 1,
 	)
 
-// FOOD NOW
+// FOOD NOW. I made way too many but honestly more is probably better than less here.
 /obj/effect/spawner/guaranteed_map_spawner/listed/food
 	name = "Basic Food Spawner"
 	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
@@ -318,7 +318,8 @@
 	name = "Common Meat Spawner"
 	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
 	spawned = list(
-		/obj/item/reagent_containers/food/snacks/meat/steak = 14,
+		/obj/item/reagent_containers/food/snacks/meat/steak = 10,
+		/obj/item/reagent_containers/food/snacks/egg = 6,
 	)
 
 /obj/effect/spawner/guaranteed_map_spawner/listed/food/meat/expensive
@@ -326,6 +327,7 @@
 	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
 	spawned = list(
 		/obj/item/reagent_containers/food/snacks/meat/steak = 8,
+		/obj/item/reagent_containers/food/snacks/egg = 6,
 		/obj/item/reagent_containers/food/snacks/meat/poultry = 6,
 	)
 
@@ -382,8 +384,37 @@
 	name = "Common Vegetable Spawner"
 	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
 	spawned = list(
-		/obj/item/reagent_containers/food/snacks/produce/vegetable/cabbage = 2,
-		/obj/item/reagent_containers/food/snacks/produce/vegetable/potato = 2,
-		/obj/item/reagent_containers/food/snacks/produce/vegetable/onion = 2,
-		/obj/item/reagent_containers/food/snacks/produce/vegetable/turnip = 2,
+		/obj/item/reagent_containers/food/snacks/produce/vegetable/cabbage = 4,
+		/obj/item/reagent_containers/food/snacks/produce/vegetable/potato = 4,
+		/obj/item/reagent_containers/food/snacks/produce/vegetable/onion = 4,
+		/obj/item/reagent_containers/food/snacks/produce/vegetable/turnip = 4,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/vegetable/expensive
+	name = "Expensive Vegetable Spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
+	spawned = list(
+		/obj/item/reagent_containers/food/snacks/produce/fruit/tamto = 5,
+		/obj/item/natural/chaff/sunreed = 5,
+		/obj/item/reagent_containers/food/snacks/produce/sugarcane = 5,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/mushroom
+	name = "Edible Mushroom Spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
+	spawned = list(
+		/obj/item/reagent_containers/food/snacks/produce/mushroom/borowiki = 4,
+		/obj/item/reagent_containers/food/snacks/produce/mushroom/drowsbane = 4,
+		/obj/item/reagent_containers/food/snacks/produce/mushroom/merkel = 4,
+		/obj/item/reagent_containers/food/snacks/produce/mushroom/waddle = 4,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/teas
+	name = "Tea Ingredient Spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these go into chest
+	spawned = list(
+		/obj/item/reagent_containers/food/snacks/produce/coffee = 4,
+		/obj/item/reagent_containers/food/snacks/produce/tea = 4,
+		/obj/item/reagent_containers/food/snacks/produce/westleach = 4,
+		/obj/item/reagent_containers/food/snacks/sugar = 4,
 	)

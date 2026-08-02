@@ -2424,8 +2424,11 @@
 /turf/open/openspace,
 /area/outdoors/exposed)
 "bMG" = (
-/obj/structure/fermentation_keg/beer,
-/turf/open/floor/tile,
+/obj/structure/closet/crate/chest/wicker{
+	name = "fish basket"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/fish,
+/turf/open/floor/tile/kitchen,
 /area/indoors/town/tavern)
 "bMV" = (
 /obj/structure/stairs{
@@ -2477,22 +2480,10 @@
 /turf/open/floor/wood,
 /area/indoors/town/keep)
 "bOT" = (
-/obj/structure/closet/crate/chest,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/butter,
-/obj/item/reagent_containers/food/snacks/meat/sausage,
-/obj/item/reagent_containers/food/snacks/meat/steak,
-/obj/item/reagent_containers/food/snacks/meat/steak,
-/obj/item/reagent_containers/food/snacks/meat/steak,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/turf/open/floor/ruinedwood/turned,
+/obj/machinery/light/fueled/hearth,
+/obj/item/reagent_containers/glass/bucket/pot,
+/obj/machinery/light/fueled/oven/east,
+/turf/open/floor/cobble,
 /area/indoors/town/church)
 "bOU" = (
 /obj/structure/fluff/railing/wood{
@@ -2892,12 +2883,9 @@
 /turf/open/floor/blocks,
 /area/indoors/town/tavern)
 "cfe" = (
-/obj/machinery/light/fueledstreet/blue/wall{
-	dir = 8
-	},
-/obj/structure/fermentation_keg/random,
+/obj/structure/door/swing,
 /turf/open/floor/blocks/green,
-/area/indoors/town/keep/kitchen/cellar)
+/area/indoors/town/church)
 "cfj" = (
 /obj/structure/fluff/walldeco/vinez,
 /turf/closed/wall/mineral/craftstone,
@@ -3355,6 +3343,13 @@
 	},
 /turf/open/floor/blocks/bluestone,
 /area/outdoors/exposed)
+"cuZ" = (
+/obj/structure/closet/crate/chest/old_crate{
+	name = "grain crate"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/grain,
+/turf/open/floor/blocks/green,
+/area/indoors/town/church)
 "cvf" = (
 /obj/structure/door/window,
 /turf/open/floor/wood,
@@ -3596,6 +3591,10 @@
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 8
 	},
+/obj/structure/closet/crate/chest/old_crate{
+	name = "fruit crate"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/fruit/expensive,
 /turf/open/floor/greenstone,
 /area/indoors/town/keep/kitchen/cellar)
 "cDT" = (
@@ -6063,11 +6062,8 @@
 /turf/open/floor/ruinedwood/darker,
 /area/outdoors/town)
 "eqG" = (
-/obj/machinery/light/fueledstreet/blue/wall{
-	dir = 4
-	},
-/obj/structure/rack/shelf/biggest,
-/turf/open/floor/greenstone,
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/openspace,
 /area/indoors/town/keep/kitchen/cellar)
 "eqK" = (
 /obj/structure/closet/crate/chest/neu,
@@ -8271,7 +8267,7 @@
 /area/outdoors/town)
 "fTU" = (
 /obj/machinery/light/fueled/wallfire/candle/r,
-/obj/structure/fermentation_keg/beer,
+/obj/structure/fermentation_keg/random/beer,
 /turf/open/floor/herringbone,
 /area/indoors/town/tavern)
 "fTZ" = (
@@ -9238,7 +9234,7 @@
 /turf/closed/wall/mineral/stone/moss,
 /area/under/town/basement/smugglers_tunnels)
 "gFR" = (
-/obj/structure/fermentation_keg/random,
+/obj/structure/fermentation_keg/redwine,
 /turf/open/floor/blocks/green,
 /area/indoors/town/keep/kitchen/cellar)
 "gFU" = (
@@ -10536,7 +10532,10 @@
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern)
 "hyp" = (
-/obj/structure/chair/stool/crafted,
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/grain/expensive,
+/obj/structure/closet/crate/chest/old_crate{
+	name = "grain crate"
+	},
 /turf/open/floor/greenstone,
 /area/indoors/town/keep/kitchen/cellar)
 "hyt" = (
@@ -11162,6 +11161,10 @@
 	},
 /turf/open/floor/cobble,
 /area/indoors/town/keep/kitchen/cellar)
+"hUd" = (
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/greenstone,
+/area/indoors/town/church)
 "hUe" = (
 /obj/structure/stairs/stone{
 	dir = 1;
@@ -12283,6 +12286,13 @@
 	},
 /turf/open/floor/blocks,
 /area/outdoors/town/roofs)
+"iGA" = (
+/obj/structure/closet/crate/chest/old_crate{
+	name = "fruit crate"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/fruit,
+/turf/open/floor/blocks/green,
+/area/indoors/town/keep/kitchen/cellar)
 "iGG" = (
 /obj/structure/fluff/railing/wood{
 	dir = 1;
@@ -12672,10 +12682,7 @@
 /area/outdoors/town/neighborhood)
 "iSH" = (
 /obj/machinery/light/fueled/torchholder/l,
-/obj/machinery/light/fueled/oven/east,
-/obj/machinery/light/fueled/hearth,
-/obj/item/reagent_containers/glass/bucket/pot,
-/turf/open/floor/ruinedwood/turned,
+/turf/open/floor/cobble,
 /area/indoors/town/church)
 "iSN" = (
 /turf/open/floor/blocks/stonered/tiny,
@@ -13035,6 +13042,13 @@
 "jfL" = (
 /turf/open/floor/tile/checkeralt,
 /area/indoors/town/church)
+"jgj" = (
+/obj/structure/closet/crate/chest/old_crate{
+	name = "grain crate"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/grain/expensive,
+/turf/open/floor/blocks/green,
+/area/indoors/town/keep/kitchen/cellar)
 "jgo" = (
 /obj/structure/rack,
 /obj/effect/decal/cobbleedge{
@@ -13191,6 +13205,13 @@
 /obj/effect/spawner/map_spawner/loot/potion_ingredient,
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/keep/magician)
+"jjZ" = (
+/obj/structure/closet/crate/chest/old_crate{
+	name = "fish crate"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/fish/expensive,
+/turf/open/floor/blocks/green,
+/area/indoors/town/keep/kitchen/cellar)
 "jkm" = (
 /obj/structure/window,
 /turf/open/floor/ruinedwood/turned,
@@ -13416,10 +13437,18 @@
 	pixel_x = 6;
 	pixel_y = 3
 	},
-/obj/item/natural/bundle/stick,
-/obj/item/natural/bundle/stick,
-/obj/item/natural/bundle/stick,
-/obj/item/natural/bundle/stick,
+/obj/item/natural/bundle/stick{
+	amount = 10
+	},
+/obj/item/natural/bundle/stick{
+	amount = 10
+	},
+/obj/item/natural/bundle/stick{
+	amount = 10
+	},
+/obj/item/natural/bundle/stick{
+	amount = 10
+	},
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/church)
 "jrl" = (
@@ -14101,12 +14130,9 @@
 /turf/open/floor/woodturned,
 /area/outdoors/exposed)
 "jRX" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/turf/open/floor/ruinedwood/turned,
-/area/indoors/town/church)
+/obj/structure/fermentation_keg/water,
+/turf/open/floor/blocks/green,
+/area/indoors/town/keep/kitchen/cellar)
 "jRY" = (
 /turf/open/floor/sand/sandstone,
 /area/outdoors/town/noble_manor/blue)
@@ -15150,7 +15176,9 @@
 /turf/open/floor/grass/yel,
 /area/outdoors/town)
 "kAg" = (
-/obj/structure/fluff/millstone,
+/obj/structure/fluff/millstone{
+	pixel_y = 10
+	},
 /obj/structure/table/wood,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/church)
@@ -17050,20 +17078,10 @@
 /turf/open/floor/blocks/bluestone,
 /area/indoors/town)
 "lXm" = (
-/obj/structure/closet/crate/chest/wicker,
-/obj/item/reagent_containers/food/snacks/produce/vegetable/potato,
-/obj/item/reagent_containers/food/snacks/produce/vegetable/potato,
-/obj/item/reagent_containers/food/snacks/produce/vegetable/potato,
-/obj/item/reagent_containers/food/snacks/produce/vegetable/onion,
-/obj/item/reagent_containers/food/snacks/produce/vegetable/onion,
-/obj/item/reagent_containers/food/snacks/produce/vegetable/onion,
-/obj/item/reagent_containers/food/snacks/produce/fruit/apple,
-/obj/item/reagent_containers/food/snacks/produce/fruit/apple,
-/obj/item/reagent_containers/food/snacks/produce/fruit/apple,
-/obj/item/reagent_containers/food/snacks/produce/fruit/tangerine,
-/obj/item/reagent_containers/food/snacks/produce/fruit/tangerine,
-/obj/item/reagent_containers/food/snacks/produce/fruit/plum,
-/obj/item/reagent_containers/food/snacks/produce/fruit/plum,
+/obj/structure/closet/crate/chest/wicker{
+	name = "vegetable basket"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/vegetable,
 /turf/open/floor/tile/kitchen,
 /area/indoors/town/tavern)
 "lXp" = (
@@ -17087,9 +17105,10 @@
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 4
 	},
-/obj/structure/table/wood/plain_alt,
-/obj/item/candle/yellow,
-/obj/item/paper/scroll,
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/vegetable/expensive,
+/obj/structure/closet/crate/chest/old_crate{
+	name = "vegetable crate"
+	},
 /turf/open/floor/greenstone,
 /area/indoors/town/keep/kitchen/cellar)
 "lXX" = (
@@ -18870,6 +18889,13 @@
 /obj/item/fishing/lure/dough,
 /turf/open/floor/wood,
 /area/indoors/town)
+"mZG" = (
+/obj/structure/closet/crate/chest/wicker{
+	name = "fruit basket"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/fruit,
+/turf/open/floor/tile/kitchen,
+/area/indoors/town/tavern)
 "nah" = (
 /obj/structure/fluff/railing/wood,
 /obj/machinery/light/fueled/torchholder/r,
@@ -19488,6 +19514,13 @@
 /obj/structure/closet/crate/chest/neu,
 /turf/open/floor/cobble,
 /area/indoors/town/keep/kitchen/cellar)
+"nyf" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/obj/structure/fermentation_keg/beer,
+/turf/open/floor/blocks/green,
+/area/indoors/town/keep/kitchen/cellar)
 "nys" = (
 /obj/structure/fluff/railing/border,
 /obj/item/fishingrod,
@@ -19787,8 +19820,8 @@
 /turf/open/floor/church,
 /area/indoors/town/church)
 "nJp" = (
-/obj/structure/rack/shelf/biggest,
-/turf/open/floor/greenstone,
+/obj/structure/fermentation_keg/hagwoodbitter,
+/turf/open/floor/blocks/green,
 /area/indoors/town/keep/kitchen/cellar)
 "nJH" = (
 /obj/structure/rack,
@@ -20236,6 +20269,10 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass/yel,
 /area/outdoors/town/neighborhood/west)
+"nZI" = (
+/obj/structure/fermentation_keg/whitewine,
+/turf/open/floor/blocks/green,
+/area/indoors/town/keep/kitchen/cellar)
 "oar" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/snow,
@@ -20989,6 +21026,7 @@
 /obj/item/reagent_containers/food/snacks/butter,
 /obj/item/reagent_containers/food/snacks/butter,
 /obj/structure/table/wood,
+/obj/item/reagent_containers/food/snacks/butter,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/church)
 "oBc" = (
@@ -21306,19 +21344,10 @@
 /turf/open/floor/churchrough/purple,
 /area/indoors/town/keep)
 "oLs" = (
-/obj/structure/closet/crate/chest/wicker,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/oat,
-/obj/item/reagent_containers/food/snacks/produce/grain/oat,
-/obj/item/reagent_containers/food/snacks/produce/grain/oat,
-/obj/item/reagent_containers/food/snacks/produce/grain/oat,
-/obj/item/reagent_containers/food/snacks/produce/grain/oat,
-/obj/item/reagent_containers/food/snacks/produce/grain/oat,
+/obj/structure/closet/crate/chest/wicker{
+	name = "grain basket"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/grain/expensive,
 /turf/open/floor/tile/kitchen,
 /area/indoors/town/tavern)
 "oLz" = (
@@ -21559,10 +21588,6 @@
 /turf/open/floor/ruinedwood,
 /area/outdoors/exposed)
 "oXW" = (
-/obj/structure/table/wood{
-	icon_state = "longtable_mid";
-	dir = 1
-	},
 /obj/item/reagent_containers/glass/cup/wooden{
 	pixel_x = -9
 	},
@@ -21585,6 +21610,9 @@
 	pixel_x = 8
 	},
 /obj/machinery/light/fueled/torchholder/c,
+/obj/structure/table/wood{
+	icon_state = "longtable"
+	},
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/church)
 "oYr" = (
@@ -21937,6 +21965,13 @@
 	},
 /turf/open/openspace,
 /area/outdoors/town)
+"pkS" = (
+/obj/structure/closet/crate/chest/old_crate{
+	name = "vegetable crate"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/vegetable,
+/turf/open/floor/greenstone,
+/area/indoors/town/church)
 "plg" = (
 /obj/structure/fluff/railing/border{
 	dir = 6
@@ -22698,24 +22733,7 @@
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/waterworks)
 "pMc" = (
-/obj/structure/rack/shelf/big{
-	icon_state = "shelf_biggest";
-	pixel_y = 0
-	},
-/obj/item/soap,
-/obj/item/natural/cloth{
-	pixel_x = 3;
-	pixel_y = 5
-	},
-/obj/item/natural/cloth{
-	pixel_x = 3;
-	pixel_y = 5
-	},
-/obj/item/natural/cloth{
-	pixel_x = 3;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/glass/bucket/wooden,
+/obj/structure/fermentation_keg/hagwoodbitter,
 /turf/open/floor/tile,
 /area/indoors/town/tavern)
 "pMk" = (
@@ -22912,6 +22930,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobble,
 /area/indoors/soilsons)
+"pTp" = (
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/vegetable,
+/obj/structure/closet/crate/chest/old_crate{
+	name = "vegetable crate"
+	},
+/turf/open/floor/greenstone,
+/area/indoors/town/keep/kitchen/cellar)
 "pTw" = (
 /obj/structure/flora/grass/water,
 /turf/open/water/clean,
@@ -23478,7 +23503,6 @@
 /area/indoors/town/tavern)
 "qnQ" = (
 /obj/machinery/light/fueled/torchholder/l,
-/obj/structure/fermentation_keg/beer,
 /turf/open/floor/tile,
 /area/indoors/town/tavern)
 "qnW" = (
@@ -23567,18 +23591,13 @@
 /turf/open/floor/church/rust,
 /area/indoors/town/keep/garrison)
 "qre" = (
-/obj/structure/closet/crate/chest,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/meat/steak,
-/obj/item/reagent_containers/food/snacks/meat/steak,
-/obj/item/reagent_containers/food/snacks/meat/steak,
-/obj/item/reagent_containers/food/snacks/meat/poultry,
-/obj/item/reagent_containers/powder/salt,
-/obj/item/reagent_containers/powder/salt,
-/obj/item/reagent_containers/powder/salt,
-/obj/structure/fake_machine/scomm/r,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/obj/structure/closet/crate/chest/old_crate{
+	name = "beverage crate"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/teas,
 /turf/open/floor/greenstone,
 /area/indoors/town/keep/kitchen/cellar)
 "qri" = (
@@ -24093,6 +24112,7 @@
 /obj/effect/decal/cobbleedge{
 	pixel_y = 1
 	},
+/obj/item/bin/water,
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/waterworks)
 "qIS" = (
@@ -24403,15 +24423,15 @@
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors/town/steward)
 "qWX" = (
-/obj/structure/table/wood{
-	icon_state = "longtable"
+/obj/structure/closet/crate/chest/old_crate{
+	name = "meat crate"
 	},
-/obj/structure/bars{
-	icon_state = "barsbent";
-	layer = 2.81
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
 	},
-/turf/open/floor/ruinedwood/turned,
-/area/indoors/town/church)
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/meat/expensive,
+/turf/open/floor/greenstone,
+/area/indoors/town/keep/kitchen/cellar)
 "qXm" = (
 /obj/structure/bars/grille{
 	density = 1
@@ -24704,16 +24724,8 @@
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town/keep)
 "riQ" = (
-/obj/structure/rack/shelf/biggest,
-/obj/item/reagent_containers/glass/cup{
-	pixel_x = 6;
-	pixel_y = -4
-	},
-/obj/item/reagent_containers/glass/cup{
-	pixel_x = -7;
-	pixel_y = 3
-	},
-/turf/open/floor/church,
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/ruinedwood/turned,
 /area/indoors/town/church)
 "riU" = (
 /obj/effect/landmark/start/minor_noble,
@@ -26626,6 +26638,16 @@
 "sEO" = (
 /turf/closed/wall/mineral/stonebrick,
 /area/under/town/basement)
+"sFg" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-w"
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 5
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/indoors/town/church)
 "sFj" = (
 /obj/structure/fluff/railing/wood,
 /obj/structure/table/wood,
@@ -27049,9 +27071,26 @@
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep)
 "sUD" = (
-/obj/structure/rack/shelf/biggest,
-/turf/open/floor/blocks/green,
-/area/indoors/town/keep/kitchen/cellar)
+/obj/structure/rack/shelf/big{
+	icon_state = "shelf_biggest";
+	pixel_y = 0
+	},
+/obj/item/soap,
+/obj/item/natural/cloth{
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/obj/item/natural/cloth{
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/obj/item/natural/cloth{
+	pixel_x = 3;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/glass/bucket/wooden,
+/turf/open/floor/herringbone,
+/area/indoors/town/tavern)
 "sUH" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -28180,6 +28219,10 @@
 "tLB" = (
 /turf/closed/wall/mineral/stonebrick,
 /area/indoors/town/clinic_large)
+"tLW" = (
+/obj/structure/fake_machine/scomm,
+/turf/open/floor/greenstone,
+/area/indoors/town/keep/kitchen/cellar)
 "tMa" = (
 /turf/open/floor/church/violet,
 /area/indoors/town/keep/garrison)
@@ -28411,6 +28454,13 @@
 /obj/item/weapon/shield/tower,
 /turf/open/floor/metal/alt,
 /area/indoors/town/shop)
+"tUK" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-n"
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/indoors/town/church)
 "tVw" = (
 /obj/effect/decal/shadow_floor,
 /turf/open/floor/church,
@@ -28676,6 +28726,12 @@
 "ugs" = (
 /turf/closed/wall/mineral/craftstone,
 /area/indoors/town/bath)
+"ugK" = (
+/obj/effect/decal/cobbleedge{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/indoors/town/church)
 "ugO" = (
 /obj/machinery/light/fueledstreet/orange/wall,
 /turf/open/floor/ruinedwood/spiralfade,
@@ -29490,13 +29546,10 @@
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_y = -32
 	},
-/obj/structure/closet/crate/chest/wicker,
-/obj/item/reagent_containers/food/snacks/produce/tea,
-/obj/item/reagent_containers/food/snacks/produce/tea,
-/obj/item/reagent_containers/food/snacks/produce/coffeebeansroasted,
-/obj/item/reagent_containers/food/snacks/produce/coffeebeansroasted,
-/obj/item/reagent_containers/food/snacks/produce/coffeebeansroasted,
-/obj/item/reagent_containers/food/snacks/produce/coffeebeansroasted,
+/obj/structure/closet/crate/chest/wicker{
+	name = "mushroom basket"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/mushroom,
 /turf/open/floor/tile/kitchen,
 /area/indoors/town/tavern)
 "uHU" = (
@@ -30414,8 +30467,7 @@
 /area/indoors/town/keep/garrison)
 "voj" = (
 /obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-e"
+	dir = 9
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/church)
@@ -30696,6 +30748,13 @@
 /obj/item/coin/gold/pile,
 /turf/open/floor/tile/checkeralt,
 /area/indoors/town/vault)
+"vBH" = (
+/obj/structure/closet/crate/chest/old_crate{
+	name = "fruit crate"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/mushroom,
+/turf/open/floor/blocks/green,
+/area/indoors/town/keep/kitchen/cellar)
 "vBL" = (
 /obj/structure/stairs{
 	dir = 4
@@ -31251,26 +31310,17 @@
 /turf/open/floor/church/purple,
 /area/indoors/town/church/chapel)
 "vVJ" = (
-/obj/machinery/light/fueled/torchholder/r,
-/obj/item/bin/water,
-/turf/open/floor/ruinedwood/turned,
+/obj/structure/closet/crate/chest/old_crate{
+	name = "meat crate"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/meat,
+/turf/open/floor/greenstone,
 /area/indoors/town/church)
 "vVK" = (
 /obj/structure/closet/crate/chest/old_crate{
 	name = "meat crate"
 	},
-/obj/item/reagent_containers/food/snacks/meat/steak,
-/obj/item/reagent_containers/food/snacks/meat/steak,
-/obj/item/reagent_containers/food/snacks/meat/steak,
-/obj/item/reagent_containers/food/snacks/fat,
-/obj/item/reagent_containers/food/snacks/fat,
-/obj/item/reagent_containers/food/snacks/meat/poultry,
-/obj/item/reagent_containers/food/snacks/meat/poultry,
-/obj/item/reagent_containers/food/snacks/meat/steak,
-/obj/item/reagent_containers/food/snacks/meat/steak,
-/obj/item/reagent_containers/food/snacks/meat/steak,
-/obj/item/reagent_containers/food/snacks/meat/steak,
-/obj/item/reagent_containers/food/snacks/meat/steak,
+/obj/effect/spawner/guaranteed_map_spawner/listed/food/meat/expensive,
 /turf/open/floor/tile,
 /area/indoors/town/tavern)
 "vVP" = (
@@ -40185,7 +40235,7 @@ fOH
 fOH
 fOH
 fOH
-fOH
+qss
 qss
 jdz
 jdz
@@ -40313,10 +40363,10 @@ jdz
 jdz
 fOH
 lXO
-ups
-sUD
-nJp
-eqG
+pTp
+jjZ
+qWX
+fOH
 fOH
 gVN
 wmp
@@ -40444,7 +40494,7 @@ jdz
 cBm
 cBm
 fOH
-hyp
+tLW
 kPI
 kPI
 kPI
@@ -40576,8 +40626,8 @@ cBm
 qss
 cBm
 fOH
-ups
-kPI
+hyp
+jgj
 ups
 kPI
 gFR
@@ -40712,7 +40762,7 @@ kPI
 kPI
 ups
 ups
-cfe
+nZI
 fOH
 dGu
 wTQ
@@ -40841,8 +40891,8 @@ cBm
 cBm
 fOH
 cDO
-kPI
-kPI
+iGA
+vBH
 qre
 fOH
 fOH
@@ -56063,7 +56113,7 @@ kco
 rYj
 wmb
 eup
-pKb
+qkb
 pKb
 pKb
 mtj
@@ -56198,7 +56248,7 @@ eup
 eup
 rIB
 pKb
-qkb
+sUD
 eup
 dJU
 eSu
@@ -56948,7 +56998,7 @@ nKu
 nKu
 eWp
 eWp
-pjC
+eqG
 pjC
 wmY
 eWp
@@ -60675,11 +60725,11 @@ hye
 fuz
 mru
 nHZ
-qWX
+iIg
 bOT
 iSH
-cOl
-guX
+tUK
+ugK
 guX
 xoN
 qlB
@@ -60808,8 +60858,8 @@ kpA
 nHZ
 nHZ
 gkK
-cQC
-cQC
+cOl
+sFg
 voj
 sPT
 sPT
@@ -60941,8 +60991,8 @@ nHZ
 krA
 hye
 oAW
-kAg
-jRX
+cQC
+cOl
 oxw
 cMf
 eXQ
@@ -61073,11 +61123,11 @@ hye
 hye
 hye
 hye
-hye
+kAg
 cQC
 szu
 dCj
-hye
+eXQ
 otx
 lDZ
 fbq
@@ -61340,7 +61390,7 @@ hye
 jqM
 cQC
 riQ
-vVJ
+cQC
 hye
 uNe
 fbq
@@ -61470,9 +61520,9 @@ xlH
 xVV
 hye
 hye
-iIg
-iIg
+cfe
 hye
+iIg
 hye
 iyf
 fbq
@@ -61601,10 +61651,10 @@ qrl
 xlH
 bdR
 hye
-etc
-jjx
+vVJ
+nGD
+hye
 law
-jjx
 jjx
 fbq
 iZt
@@ -61733,9 +61783,9 @@ kKG
 qfa
 uhs
 hye
-etc
-jjx
-jjx
+pkS
+nGD
+hye
 jjx
 jjx
 qwr
@@ -61865,9 +61915,9 @@ hXD
 tjz
 vWP
 hye
-jjx
-jjx
-nwS
+cuZ
+hUd
+hye
 jjx
 jjx
 qwr
@@ -61997,9 +62047,9 @@ hye
 hye
 hye
 hye
-awb
-awb
-kqx
+hye
+hye
+hye
 kqx
 jjx
 qwr
@@ -72439,7 +72489,7 @@ bRD
 oAS
 oAS
 awd
-oAS
+mZG
 eup
 dll
 erW
@@ -73186,9 +73236,9 @@ oqj
 eWp
 eWp
 eWp
-gFR
-gFR
-gFR
+jRX
+nyf
+nJp
 eWp
 hJw
 hJw
