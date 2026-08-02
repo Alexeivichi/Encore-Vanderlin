@@ -10775,10 +10775,12 @@
 /area/indoors/town/keep)
 "hFQ" = (
 /obj/structure/rack/shelf/biggest,
-/obj/item/reagent_containers/glass/bottle/manapot,
-/obj/item/reagent_containers/glass/bottle/manapot,
-/obj/item/reagent_containers/glass/bottle/manapot,
-/obj/item/reagent_containers/glass/bottle/manapot,
+/obj/item/reagent_containers/glass/bottle/healthpot,
+/obj/item/reagent_containers/glass/bottle/healthpot,
+/obj/item/reagent_containers/glass/bottle/healthpot,
+/obj/item/reagent_containers/glass/bottle/healthpot,
+/obj/item/reagent_containers/glass/bottle/healthpot,
+/obj/item/reagent_containers/glass/bottle/healthpot,
 /turf/open/floor/churchrough/purple,
 /area/indoors/town/church)
 "hGX" = (
