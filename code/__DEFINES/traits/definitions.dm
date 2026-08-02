@@ -345,6 +345,8 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_SEEDKNOW "Seed Knower"
 #define TRAIT_NOBLE_BLOOD	"Noble Blooded"
 #define TRAIT_NOBLE_POWER	"Noble Authority"
+#define TRAIT_NOBLE_FOREIGN	"Foreign Nobility"
+#define TRAIT_NOBLE_LOCAL	"Local Nobility"
 #define TRAIT_EMPATH "Empath"
 #define TRAIT_BREADY "Battleready"
 #define TRAIT_BLINDFIGHTING "Sixth-Sense"

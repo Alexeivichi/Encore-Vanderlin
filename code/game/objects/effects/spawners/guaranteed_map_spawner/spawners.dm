@@ -80,6 +80,7 @@
 /obj/effect/spawner/guaranteed_map_spawner/listed/clothes
 	name = "Generic Clothing Spawner"
 	icon_state = "clothing_spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these primarily get mapped onto racks
 	spawned = list(
 		/obj/item/clothing/pants/tights/colored/random = 1,
 		/obj/item/clothing/pants/skirt/colored/random = 1,
@@ -131,6 +132,7 @@
 /obj/effect/spawner/guaranteed_map_spawner/listed/armor
 	name = "Leather Armor Set Spawner"
 	icon_state = "armor_spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these primarily get mapped onto racks
 	spawned = list(
 		/obj/item/clothing/wrists/bracers/leather = 1,
 		/obj/item/clothing/shoes/boots = 1,
@@ -188,6 +190,7 @@
 /obj/effect/spawner/guaranteed_map_spawner/listed/weapons
 	name = "Crude Weapons Spawner"
 	icon_state = "weapon_spawner"
+	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these primarily get mapped onto racks
 	spawned = list(
 		/obj/item/weapon/sword/stone = 1,
 		/obj/item/weapon/mace/woodclub = 1,
