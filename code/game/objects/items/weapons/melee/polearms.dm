@@ -157,7 +157,7 @@
 
 //................ Angrosian Spear ............... //
 /obj/item/weapon/polearm/spear/angros
-	name = "angrosian spear"
+	name = "katholikon spear"
 	desc = "A polearm with a twisting trident head perfect for mangling the bodies of the impure."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psyspear"
@@ -461,7 +461,7 @@
 
 //................ Angrosian Halberd ............... //
 /obj/item/weapon/polearm/halberd/angros
-	name = "angrosian halberd"
+	name = "katholikon halberd"
 	desc = "A mighty halberd capable of cutting down the heretical with remarkable ease, be it effigy, man, or beast."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psyhalberd"

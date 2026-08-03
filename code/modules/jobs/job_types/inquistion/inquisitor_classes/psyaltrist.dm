@@ -15,8 +15,8 @@
 	)
 
 /datum/job/advclass/sacrestant/psyaltrist
-	title = "Psyaltrist"
-	tutorial = "Every inquisitor has their second. You aim to keep spirits and faith high, while handling the needs of the inquisitor. Not a glamorous role, but a vital one. “Maybe his lordship would prefer the lute, today, over the viola?”"
+	title = "Precentor"
+	tutorial = "A Bard who found a higher calling among the faithful; you've joined the Katholikon's Inquisition to help further spread the good word through song. Off the books though, you gather intelligence, much as the Confessor does. While they do their work in the shadows with blades, you do yours with a quick tongue and charming smile. Do your best to make the Inquisition look good."
 	allowed_races = RACES_LESS_DISCRIMINATED
 	category_tags = list(CTAG_INQUISITION)
 	outfit = /datum/outfit/psyaltrist
@@ -46,7 +46,7 @@
 /datum/job/advclass/sacrestant/psyaltrist/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
-	GLOB.inquisition.add_member_to_school(spawned, "Order of the Venatari", 0, "Psyaltrist")
+	GLOB.inquisition.add_member_to_school(spawned, "Order of the Venatari", 0, "Precentor")
 	spawned.inspiration = new /datum/inspiration(spawned)
 
 /datum/job/advclass/sacrestant/psyaltrist/on_roundstart(mob/living/carbon/human/spawned, client/player_client)
@@ -66,7 +66,7 @@
 	spawned.select_equippable(player_client, instruments)
 
 /datum/outfit/psyaltrist
-	name = "Psyaltrist (Sacrestants)"
+	name = "Precentor (Sacrestants)"
 	armor = /obj/item/clothing/armor/leather/studded/psyaltrist
 	backl = /obj/item/storage/backpack/satchel/otavan
 	cloak = /obj/item/clothing/cloak/psyaltrist

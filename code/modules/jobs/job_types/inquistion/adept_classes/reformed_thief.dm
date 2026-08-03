@@ -24,7 +24,7 @@
 // Reformed Thief, a class balanced to rogue. Axe and crossbow focus.
 /datum/job/advclass/adept/rthief
 	title = "Reformed Thief"
-	tutorial = "You are a former thief who has been given a chance to redeem yourself by the Inquisitor. You serve him and Angros with your stealth and cunning."
+	tutorial = "You are a former thief who has been given a chance to redeem yourself by the Inquisitor. You serve him and the Katholikon with your stealth and cunning."
 	outfit = /datum/outfit/adept/rthief
 	category_tags = list(CTAG_ADEPT)
 	cmode_music = 'sound/music/cmode/adventurer/CombatRogue.ogg'

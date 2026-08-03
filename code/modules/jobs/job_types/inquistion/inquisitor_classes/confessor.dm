@@ -44,7 +44,7 @@
 
 /datum/job/advclass/sacrestant/confessor
 	title = "Confessor"
-	tutorial = "Angrosian hunters, unmatched in the fields of subterfuge and investigation. There is no suspect too powerful to investigate, no room too guarded to infiltrate, and no weakness too hidden to exploit. The Ordo Venatari trained you, and this, your final hunt as a student, will prove the wisdom of their teachings."
+	tutorial = "The Inquisition's hunters, unmatched in the fields of subterfuge and investigation. There is no suspect too powerful to investigate, no room too guarded to infiltrate, and no weakness too hidden to exploit. The Katholikon trained you, and this, your final hunt as a student, will prove the wisdom of their teachings."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_LESS_DISCRIMINATED
 	outfit = /datum/outfit/confessor

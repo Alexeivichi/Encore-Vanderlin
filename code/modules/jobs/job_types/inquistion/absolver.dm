@@ -13,7 +13,7 @@
 		/datum/attribute/skill/labor/fishing = 30,
 		/datum/attribute/skill/misc/swimming = 30,
 		/datum/attribute/skill/craft/crafting = 30,
-		/datum/attribute/skill/magic/holy = 20
+		/datum/attribute/skill/magic/holy = 50
 	)
 
 /datum/job/absolver
@@ -24,8 +24,8 @@
 	total_positions = 1 // THE ONE.
 	spawn_positions = 1
 	allowed_races = RACES_LESS_DISCRIMINATED
-	allowed_patrons = list(/datum/patron/divine/centrist)
-	tutorial = "The Inquisitor's right hand, you serve as the orthidoxy's cleric, providing miracles to bolster "
+	allowed_patrons = list(/datum/patron/divine/centrist, /datum/patron/angros)
+	tutorial = "The Inquisitor's right hand, you serve as the cleric to the Katholikon's Inquisition, providing miracles to bolster and aid, and to serve as the spiritual leader to your flock. Ensure the word of the Elementals is followed, and there will be no cause for upset."
 	selection_color = JCOLOR_INQUISITION
 	outfit = /datum/outfit/absolver
 	bypass_lastclass = TRUE
@@ -105,7 +105,7 @@
 	head = /obj/item/clothing/head/helmet/heavy/absolver
 	ring = /obj/item/clothing/ring/signet/silver
 	backpack_contents = list(
-		/obj/item/book/bibble/psy = 1,
+		/obj/item/book/bibble = 1,
 		/obj/item/natural/bundle/cloth = 2,
 		/obj/item/reagent_containers/glass/bottle/healthpot = 2,
 		/obj/item/paper/inqslip/arrival/abso = 1,

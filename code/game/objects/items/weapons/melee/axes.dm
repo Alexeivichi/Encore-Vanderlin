@@ -177,8 +177,8 @@
 
 //................ Angrosian Axe ............... //
 /obj/item/weapon/axe/angros
-	name = "angrosian axe"
-	desc = "An axe forged of silver with a small psycross attached, Gani and his foul beastmen be damned."
+	name = "katholikon axe"
+	desc = "An axe forged of silver with a small amulet attached, a favoured weapon of the Nortic faithful who join the Inquisition."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psyaxe"
 	max_blade_int = 240
