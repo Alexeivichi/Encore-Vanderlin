@@ -561,6 +561,10 @@
 	},
 /turf/open/floor/naturalstone,
 /area/indoors/shelter)
+"ed" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/ruinedwood/darker,
+/area)
 "ee" = (
 /obj/structure/table/wood/treestump,
 /turf/open/floor/grass,
@@ -724,6 +728,10 @@
 "fb" = (
 /obj/item/natural/rock,
 /turf/open/floor/grass/yel,
+/area)
+"ff" = (
+/obj/structure/fermentation_keg,
+/turf/open/floor/greenstone,
 /area)
 "fg" = (
 /obj/structure/fluff/walldeco/vinez/red,
@@ -1286,6 +1294,15 @@
 /mob/living/carbon/human/species/skeleton/npc/warrior,
 /turf/open/floor/ruinedwood,
 /area/under/cave)
+"kv" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/darker,
+/area)
 "ky" = (
 /mob/living/simple_animal/hostile/skeleton/bow,
 /turf/open/floor/cobble,
@@ -1673,6 +1690,9 @@
 /obj/item/grown/log/tree/stick,
 /turf/open/floor/dirt,
 /area/indoors/shelter/bog)
+"nT" = (
+/turf/open/floor/blocks/green,
+/area)
 "nV" = (
 /obj/structure/door/weak/bolt,
 /turf/open/floor/ruinedwood/darker,
@@ -1814,6 +1834,12 @@
 	},
 /turf/open/floor/naturalstone,
 /area/under/town/basement)
+"oI" = (
+/obj/structure/window/openclose/reinforced{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/darker,
+/area)
 "oM" = (
 /obj/structure/fluff/railing/tall/retaining{
 	dir = 10
@@ -1917,6 +1943,12 @@
 /obj/item/weapon/knife/villager,
 /obj/effect/decal/cleanable/dirt/cobweb,
 /turf/open/floor/tile/brick,
+/area)
+"pv" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/darker,
 /area)
 "pw" = (
 /obj/effect/decal/remains/human,
@@ -2035,8 +2067,8 @@
 	},
 /area/under/cave)
 "qt" = (
-/obj/structure/fermentation_keg,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/fermentation_keg/water,
 /turf/open/floor/ruinedwood/darker,
 /area)
 "qu" = (
@@ -2912,7 +2944,14 @@
 /obj/structure/table/wood/plain_alt,
 /obj/item/storage/backpack/satchel/surgbag/shit,
 /obj/item/clothing/gloves/leather/feld,
+/obj/item/clothing/cloak/apron/cook{
+	name = "barber's apron"
+	},
 /turf/open/floor/hexstone,
+/area)
+"ws" = (
+/obj/structure/door/green,
+/turf/open/floor/ruinedwood/darker,
 /area)
 "wt" = (
 /obj/structure/rack/shelf/biggest,
@@ -3456,6 +3495,13 @@
 /obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,
 /turf/open/floor/hexstone,
 /area)
+"Ad" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/ruinedwood/darker,
+/area)
 "Ae" = (
 /turf/closed/wall/mineral/pipe,
 /area/under/town/basement)
@@ -3867,6 +3913,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/cobble,
 /area/under/cave)
+"Dl" = (
+/obj/structure/fermentation_keg,
+/turf/open/floor/blocks/green,
+/area)
 "Dm" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean/abyss,
@@ -3947,6 +3997,7 @@
 /obj/effect/decal/borderfall{
 	dir = 1
 	},
+/obj/item/reagent_containers/glass/bucket/wooden,
 /turf/open/floor/twig,
 /area)
 "DM" = (
@@ -4168,6 +4219,14 @@
 /obj/structure/closet/crate/chest/wicker,
 /obj/item/weapon/hoe/copper,
 /obj/item/weapon/shovel/small,
+/obj/item/neuFarm/seed/oat,
+/obj/item/neuFarm/seed/potato,
+/obj/item/neuFarm/seed/onion,
+/obj/item/neuFarm/seed/cabbage,
+/obj/item/neuFarm/seed/manabloom,
+/obj/item/neuFarm/seed/poppy,
+/obj/item/neuFarm/seed/swampleaf,
+/obj/item/neuFarm/seed/westleach,
 /turf/open/floor/dirt,
 /area)
 "FC" = (
@@ -4258,6 +4317,13 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/woods/crossroads)
+"Gp" = (
+/obj/structure/table/wood/plain_alt,
+/obj/item/candle/skull{
+	pixel_y = 5
+	},
+/turf/open/floor/ruinedwood/darker,
+/area)
 "Gt" = (
 /turf/closed/wall/mineral/stonebrick,
 /area/under/cave)
@@ -4319,6 +4385,12 @@
 	},
 /turf/open/floor/grass,
 /area/outdoors/woods/crossroads)
+"GT" = (
+/obj/structure/stairs{
+	dir = 8
+	},
+/turf/open/floor/twig/platform,
+/area)
 "GU" = (
 /turf/open/water/swamp,
 /area/under/cave)
@@ -5455,7 +5527,7 @@
 	name = "apprentice quarters"
 	},
 /obj/effect/mapping_helpers/access/keyset/other/bogwitch,
-/turf/open/floor/twig/platform,
+/turf/open/floor/ruinedwood/darker,
 /area)
 "QU" = (
 /turf/open/floor/cobble/alt,
@@ -5838,6 +5910,13 @@
 	},
 /turf/open/floor/twig/platform,
 /area)
+"Uc" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/obj/machinery/light/fueled/wallfire/candle/blue,
+/turf/open/floor/ruinedwood/darker,
+/area)
 "Ue" = (
 /obj/effect/decal/cleanable/dirt/cobweb{
 	dir = 1
@@ -6012,6 +6091,12 @@
 /obj/effect/mapping_helpers/access/locker,
 /obj/effect/mapping_helpers/access/keyset/garrison/forest,
 /turf/open/floor/dirt/road,
+/area)
+"VN" = (
+/obj/structure/door/green,
+/obj/effect/mapping_helpers/access/keyset/other/bogwitch,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/ruinedwood/darker,
 /area)
 "VO" = (
 /obj/structure/gravemarker,
@@ -23334,8 +23419,8 @@ Xk
 Xk
 Xk
 Xk
-lh
-lh
+Xk
+Xk
 Xk
 Xk
 Xk
@@ -23591,9 +23676,9 @@ XE
 XE
 XE
 IN
-un
-un
-un
+iv
+iv
+iv
 un
 un
 un
@@ -23847,10 +23932,10 @@ dq
 Bb
 IN
 Qc
-tq
-un
-un
-un
+qT
+Dl
+ff
+iv
 un
 un
 un
@@ -24104,10 +24189,10 @@ rf
 qt
 vf
 vf
-rR
-un
-un
-un
+ws
+nT
+nT
+iv
 un
 un
 un
@@ -24361,9 +24446,9 @@ Ue
 vf
 Dn
 QD
-YU
-un
-un
+qT
+ff
+Dl
 iv
 iv
 iv
@@ -88870,8 +88955,8 @@ gV
 gV
 gV
 gV
-lh
-lh
+gV
+gV
 gV
 gV
 gV
@@ -89127,9 +89212,9 @@ XE
 XE
 XE
 IN
-gV
-gV
-gV
+kv
+pv
+Ad
 gV
 gV
 gV
@@ -89384,9 +89469,9 @@ gV
 bn
 rk
 tq
-gV
-gV
-gV
+Gp
+vf
+ed
 gV
 gV
 gV
@@ -89641,9 +89726,9 @@ gV
 gV
 HF
 rR
-gV
-gV
-gV
+Uc
+vf
+ed
 gV
 gV
 gV
@@ -89898,13 +89983,13 @@ gV
 bx
 vf
 YU
-gV
-gV
-gV
-gV
-gV
-gV
-gV
+vf
+vf
+ed
+Zi
+Zi
+Zi
+Zi
 gV
 lh
 lh
@@ -90155,13 +90240,13 @@ IN
 pd
 IN
 IN
-XE
+VN
 XE
 IN
-gV
-gV
-gV
-gV
+Zi
+Zi
+Zi
+Zi
 gV
 lh
 lh
@@ -90407,18 +90492,18 @@ gV
 gV
 gV
 gV
-IN
+iQ
+vf
 vf
 vf
 vf
 vf
 UM
-EV
 tq
-gV
-gV
-gV
-gV
+Zi
+Zi
+Zi
+Zi
 gV
 lh
 lh
@@ -90672,11 +90757,11 @@ vf
 vf
 vf
 YU
-gV
-gV
-gV
-gV
-gV
+Zi
+Zi
+Zi
+Zi
+Zi
 lh
 lh
 lh
@@ -90922,18 +91007,18 @@ gV
 gV
 gV
 qT
-tr
+GT
 XE
 DI
 aB
 vf
 vf
-pd
-gV
-gV
-gV
-gV
-gV
+oI
+Zi
+Zi
+Zi
+Zi
+Zi
 lh
 lh
 lh
@@ -91179,18 +91264,18 @@ gV
 gV
 gV
 iQ
-rk
+tr
 cf
 Cb
 aB
 vf
 vf
 tq
-gV
-gV
-gV
-gV
-gV
+Zi
+Zi
+Zi
+Zi
+Zi
 gV
 lh
 lh
@@ -91441,13 +91526,13 @@ XE
 YC
 aB
 vf
-vf
+EV
 YU
-gV
-gV
-gV
-gV
-gV
+Zi
+Zi
+Zi
+Zi
+Zi
 gV
 gV
 lh
@@ -91700,11 +91785,11 @@ XE
 he
 XE
 IN
-gV
-gV
-gV
-gV
-gV
+Zi
+Zi
+Zi
+Zi
+Zi
 gV
 gV
 gV
@@ -91957,11 +92042,11 @@ dz
 vf
 vf
 tq
-gV
-gV
-gV
-gV
-gV
+Zi
+Zi
+Zi
+Zi
+Zi
 gV
 gV
 gV
@@ -92214,11 +92299,11 @@ II
 vf
 fa
 rR
-gV
-gV
-gV
-gV
-gV
+Zi
+Zi
+Zi
+Zi
+Zi
 gV
 gV
 gV
