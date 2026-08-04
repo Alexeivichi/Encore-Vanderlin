@@ -9,7 +9,7 @@
 	cmode_music = 'sound/music/cmode/church/CombatInquisitor2.ogg'
 	allowed_patrons = list(/datum/patron/divine/centrist, /datum/patron/angros)
 
-	tutorial = "A fervent believer in the cause of the Inquisition. Recruited by the Inquisitor to further the Katholikos' goal in the locale."
+	tutorial = "A fervent believer in the cause of the Inquisition. Recruited by the Inquisitor to further the Katholikon's goal in the locale."
 	selection_color = JCOLOR_INQUISITION
 
 	outfit = null
