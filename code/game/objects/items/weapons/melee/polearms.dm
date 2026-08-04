@@ -492,7 +492,7 @@
 
 /obj/item/weapon/polearm/halberd/angros/relic
 	name = "Sanctum"
-	desc = "These silver-tipped polearms are the bulwark of the Ordo Venatari, borrowing techniques from the Ordo Benetarus. During the early sieges, the Ordos used these to hold the horrors at bay for forty days-and-nites. A time always comes to fight - strike true."
+	desc = "These silver-tipped polearms are the bulwark of the Katholikon's Inquisition, borrowing techniques from the Knightly Chapter. During the early sieges of Havel Sectus, the Knights used these to hold the horrors at bay for forty days-and-nites. A time always comes to fight - strike true."
 	icon_state = "psyhalberd"
 	item_weight = 3.5 KILOGRAMS
 

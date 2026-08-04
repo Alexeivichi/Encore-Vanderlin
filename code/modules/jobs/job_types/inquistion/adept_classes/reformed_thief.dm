@@ -45,7 +45,7 @@
 
 /datum/job/advclass/adept/rthief/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
-	GLOB.inquisition.add_member_to_school(spawned, "Order of the Venatari", -10, "Reformed Thief")
+	GLOB.inquisition.add_member_to_school(spawned, "Shadow Chapter", -10, "Reformed Thief")
 
 /datum/outfit/adept/rthief
 	name = "Reformed Thief (Adept)"

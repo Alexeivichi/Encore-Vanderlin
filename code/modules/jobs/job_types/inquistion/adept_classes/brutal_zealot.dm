@@ -40,7 +40,7 @@
 
 /datum/job/advclass/adept/bzealot/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
-	GLOB.inquisition.add_member_to_school(spawned, "Benetarus", -10, "Zealot")
+	GLOB.inquisition.add_member_to_school(spawned, "Knightly Chapter", -10, "Zealot")
 
 	if(spawned.dna?.species)
 		spawned.dna.species.soundpack_m = new /datum/voicepack/male/warrior() // Lunkhead.

@@ -1115,7 +1115,7 @@
 
 /obj/item/weapon/sword/long/greatsword/angros/relic
 	name = "Crusade"
-	desc = "The grandest blade of the Ordo Benetarus. Its unparalleled strength commands even the greatest of foes to fall. Wade through the unholy in Angros’s name. Let none survive."
+	desc = "The grandest blade of the Inquisiton's Knightly Chapter. Its unparalleled strength commands even the greatest of foes to fall. Wade through the unholy in the name of the Four and One. Let none survive."
 	icon_state = "psygsword"
 	force = DAMAGE_SWORD_WIELD
 	possible_item_intents = list(SWORD_CUT, SWORD_THRUST, SWORD_STRIKE)
@@ -1125,7 +1125,7 @@
 
 /obj/item/weapon/sword/long/broadsword/psy
 	name = "old katholikon broadsword"
-	desc = "Even the most ignorant of zealots know that the holy silver loses its properties when not blessed by Priests for an extended period of time. Its edge remains as lethal as ever, however."
+	desc = "Even the most ignorant of zealots know that the holy silver loses its properties when not blessed by Bishops for an extended period of time. Its edge remains as lethal as ever, however."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psybroadsword"
 	melting_material = /datum/material/silver

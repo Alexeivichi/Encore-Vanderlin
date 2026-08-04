@@ -1374,7 +1374,7 @@
 	craftdiff = 3
 
 /datum/anvil_recipe/armor/angrosboots
-	name = "crown of angrosian thorns"
+	name = "crown of katholikon thorns"
 	req_bar = /obj/item/ingot/blacksteel
 	created_item = /obj/item/clothing/head/helmet/blacksteel/psythorns
 	craftdiff = 3
@@ -1413,7 +1413,7 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/psybucket
 
 /datum/anvil_recipe/armor/blessedsilver/helmetabso
-	name = "Angrosian Conical Helm (+2 Blessed Silver)"
+	name = "Katholikon Conical Helm (+2 Blessed Silver)"
 	req_bar = /obj/item/ingot/silverblessed
 	additional_items = list(/obj/item/ingot/silverblessed, /obj/item/ingot/silverblessed)
 	created_item = /obj/item/clothing/head/helmet/heavy/absolver

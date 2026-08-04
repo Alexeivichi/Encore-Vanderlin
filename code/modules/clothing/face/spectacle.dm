@@ -124,7 +124,7 @@
 	dyeable = TRUE
 
 /obj/item/clothing/face/sack/psy
-	name = "angrosian sack mask"
+	name = "katholikon sack mask"
 	desc = "An ordinary brown sack. This one has eyeholes cut into it, bearing a crude chalk drawing of Angros' cross upon its visage. Unsettling for most."
 	icon_state = "sackmask_psy"
 

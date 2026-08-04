@@ -19,8 +19,8 @@
 	)
 
 /datum/job/advclass/sacrestant/angrosiantemplar // A templar, but for the Inquisition
-	title = "Angrosian Templar"
-	tutorial = "You are among the strongest students of the Ordo Benetarus. Top of your classes in both physical skill and intellectual matters, you’re here to prove you’re worthy of becoming an inquisitor. One simple step, before your skill is recognized."
+	title = "Adjudicator"
+	tutorial = "You are among the strongest students of the Inquisition's Knightly Chapter. Top of your classes in both physical skill and intellectual matters, you’re here to prove you’re worthy of becoming an Inquisitor. One simple step, before your skill is recognized."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_LESS_DISCRIMINATED
 	outfit = /datum/outfit/angrosiantemplar
@@ -43,7 +43,7 @@
 /datum/job/advclass/sacrestant/angrosiantemplar/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
-	GLOB.inquisition.add_member_to_school(spawned, "Benetarus", 0, "Templar")
+	GLOB.inquisition.add_member_to_school(spawned, "Knightly Chapter", 0, "Adjudicator")
 
 /datum/job/advclass/sacrestant/angrosiantemplar/on_roundstart(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
@@ -54,13 +54,13 @@
 		"Armet" = /obj/item/clothing/head/helmet/heavy/angroshelm,
 		"Bucket Helm" = /obj/item/clothing/head/helmet/heavy/psybucket,
 	)
-	spawned.select_equippable(player_client, helmets, message = "Choose your HELMET.", title = "TAKE UP ANGROS'S HELMS.")
+	spawned.select_equippable(player_client, helmets, message = "Choose your HELMET.", title = "TAKE UP THE KATHOLIKON'S HELMS.")
 
 	var/static/list/armors = list(
 		"Hauberk" = /obj/item/clothing/armor/chainmail/hauberk/fluted,
 		"Cuirass" = /obj/item/clothing/armor/cuirass/fluted,
 	)
-	spawned.select_equippable(player_client, armors, message = "Choose your ARMOR.", title = "TAKE UP ANGROS'S MANTLE.")
+	spawned.select_equippable(player_client, armors, message = "Choose your ARMOR.", title = "TAKE UP THE KATHOLIKON'S MANTLE.")
 
 	var/static/list/weapons = list(
 		"Unsundered Longsword" = list(/obj/item/weapon/scabbard/sword, /obj/item/weapon/sword/long/angros),
@@ -71,7 +71,7 @@
 		"Unsundered Spear + Handmace" = list(/obj/item/weapon/polearm/spear/angros, /obj/item/weapon/mace/cudgel/psy),
 		"Unsundered Poleaxe + Shortsword" = list(/obj/item/weapon/greataxe/psy, /obj/item/weapon/sword/short/psy),
 	)
-	var/weapon_choice = spawned.select_equippable(player_client, weapons, message = "Choose your WEAPON.", title = "TAKE UP ANGROS'S ARMS.")
+	var/weapon_choice = spawned.select_equippable(player_client, weapons, message = "Choose your WEAPON.", title = "TAKE UP THE KATHOLIKON'S ARMS.")
 	switch(weapon_choice)
 		if("Unsundered Longsword")
 			spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/swords, 30, 30, TRUE)
@@ -83,7 +83,7 @@
 			spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/polearms, 30, 30, TRUE)
 
 /datum/outfit/angrosiantemplar
-	name = "Angrosian Templar (Sacrestants)"
+	name = "Adjudicator (Sacrestants)"
 	wrists = /obj/item/clothing/neck/psycross/silver
 	cloak = /obj/item/clothing/cloak/angrostabard
 	backr = /obj/item/weapon/shield/tower/metal

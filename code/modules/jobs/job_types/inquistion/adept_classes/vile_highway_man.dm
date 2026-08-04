@@ -45,7 +45,7 @@
 
 /datum/job/advclass/adept/highwayman/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
-	GLOB.inquisition.add_member_to_school(spawned, "Order of the Venatari", -10, "Renegade")
+	GLOB.inquisition.add_member_to_school(spawned, "Shadow Chapter", -10, "Renegade")
 
 /datum/outfit/adept/highwayman
 	name = "Vile Renegade (Adept)"

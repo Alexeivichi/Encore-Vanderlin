@@ -70,7 +70,7 @@
 
 /datum/job/absolver/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
-	GLOB.inquisition.add_member_to_school(spawned, "Sanctae", 0, "Absolver")
+	GLOB.inquisition.add_member_to_school(spawned, "Clerical Chapter", 0, "Absolver")
 
 	add_verb(spawned, /mob/living/carbon/human/proc/view_inquisition)
 

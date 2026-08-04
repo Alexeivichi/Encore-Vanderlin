@@ -68,7 +68,7 @@
 /datum/job/advclass/sacrestant/confessor/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
-	GLOB.inquisition.add_member_to_school(spawned, "Order of the Venatari", 0, "Confessor")
+	GLOB.inquisition.add_member_to_school(spawned, "Shadow Chapter", 0, "Confessor")
 
 /datum/job/advclass/sacrestant/confessor/on_roundstart(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()

@@ -36,7 +36,7 @@
 
 /datum/job/advclass/puritan/preceptor
 	title = "Preceptor"
-	tutorial = "The head of the Ordo Benetarus, you stand as a pillar of discipline. With unwavering resolve and a fist of steel, you temper the untested into Angros' dauntless warriors."
+	tutorial = "One of the heads of the Inquisition's Knightly Chapter upon Domotan Island, you stand as a pillar of discipline. With unwavering resolve and a fist of steel, you temper the untested into dauntless warriors of the Four and One."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	outfit = /datum/outfit/job/preceptor

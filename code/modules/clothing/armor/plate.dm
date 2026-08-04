@@ -201,7 +201,7 @@
 
 /atom/movable/screen/alert/status_effect/buff/unsundered_endurance
 	name = "Unsundered Endurance"
-	desc = "I am protected by blessed Angrosian plate armor."
+	desc = "I am protected by blessed Katholikon plate armor."
 	icon_state = "buff"
 
 //.............. Gronn Armor Sets .................//

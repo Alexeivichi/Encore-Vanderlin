@@ -1,7 +1,7 @@
 /datum/inquisition_hierarchy_node
 	var/name = "Position"
-	var/desc = "A position within the inquisition hierarchy"
-	var/school = "Order of the Venatari"
+	var/desc = "A position within the Inquisitorial hierarchy"
+	var/school = "Katholikon's Inquisition"
 	var/mob/living/carbon/human/assigned_member
 	var/datum/inquisition_hierarchy_node/superior
 	var/list/datum/inquisition_hierarchy_node/subordinates = list()
@@ -15,7 +15,7 @@
 	var/mutable_appearance/cloned_look
 	var/is_school_leader = FALSE
 
-/datum/inquisition_hierarchy_node/New(position_name, position_desc, merits = 0, ordo_school = "Order of the Venatari")
+/datum/inquisition_hierarchy_node/New(position_name, position_desc, merits = 0, ordo_school = "Katholikon's Inquisition")
 	name = position_name
 	desc = position_desc
 	required_merits = merits
