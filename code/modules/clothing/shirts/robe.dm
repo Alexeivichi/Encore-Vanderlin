@@ -114,7 +114,6 @@
 	name = "wizard's robe"
 	desc = "What wizard's ensemble would be complete without robes?"
 	icon_state = "wizardrobes"
-	sellprice = 100
 
 /obj/item/clothing/shirt/robe/magus
 	name = "magus's robe"
@@ -122,7 +121,6 @@
 	icon_state = "warlock"
 	allowed_sex = list(MALE)
 	allowed_race = SPECIES_BASE_BODY
-	sellprice = 70
 
 	armor_type = /datum/armor/robe/magus
 	prevent_crits = list(BCLASS_CUT, BCLASS_TWIST)
@@ -132,7 +130,6 @@
 	name = "guilder jacket"
 	desc = "A fancy jacket common with members of the Mercator Guild."
 	icon_state = "merrobe"
-	sellprice = 30
 
 /obj/item/clothing/shirt/robe/nun
 	name = "nun habit"
@@ -173,7 +170,6 @@
 	flags_inv = HIDEBOOB
 	allowed_race = SPECIES_BASE_BODY
 	color = null
-	sellprice = 100
 
 /obj/item/clothing/shirt/robe/newmage
 	name = "mage robe"
