@@ -77,7 +77,7 @@
 /obj/item/bodypart/l_leg/orc
 	dismemberable = 1
 /obj/item/bodypart/head/orc
-	sellprice = 10
+	sellprice = 20
 
 /obj/item/bodypart/head/orc/update_icon_dropped()
 	return

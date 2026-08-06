@@ -261,6 +261,43 @@
 	pixel_x = 6;
 	pixel_y = -1
 	},
+/obj/item/ingot/bronze{
+	pixel_x = 6;
+	pixel_y = -1
+	},
+/obj/item/ingot/bronze{
+	pixel_x = 6;
+	pixel_y = -1
+	},
+/obj/item/ingot/bronze{
+	pixel_x = 6;
+	pixel_y = -1
+	},
+/obj/item/ingot/bronze{
+	pixel_x = 6;
+	pixel_y = -1
+	},
+/obj/item/ingot/bronze{
+	pixel_x = 6;
+	pixel_y = -1
+	},
+/obj/item/ingot/bronze{
+	pixel_x = 6;
+	pixel_y = -1
+	},
+/obj/item/ingot/bronze{
+	pixel_x = 6;
+	pixel_y = -1
+	},
+/obj/item/ingot/bronze{
+	pixel_x = 6;
+	pixel_y = -1
+	},
+/obj/item/gear/metal/bronze,
+/obj/item/gear/metal/bronze,
+/obj/item/gear/metal/bronze,
+/obj/item/gear/metal/bronze,
+/obj/item/gear/metal/bronze,
 /turf/open/floor/tile,
 /area/indoors/town)
 "LR" = (

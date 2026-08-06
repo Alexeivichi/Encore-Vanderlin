@@ -51,7 +51,7 @@
 /obj/item/bodypart/l_leg/zizombie
 	dismemberable = 1
 /obj/item/bodypart/head/zizombie
-	sellprice = 5
+	sellprice = 10
 
 /obj/item/bodypart/head/zizombie/update_icon_dropped()
 	return
