@@ -29,7 +29,7 @@
 
 /datum/job/advclass/combat/lakkariancleric // terra was here! <3
 	title = "Lakkarian Cleric"
-	tutorial = "PLACEHOLDER DESCRIPTION - YOU'RE A SUPER-CLERIC"
+	tutorial = PLACEHOLDER_FACTION_REBRANDING
 	allowed_races = RACES_PLAYER_ALL
 	allowed_patrons = list(/datum/patron/divine/visires)
 	outfit = /datum/outfit/folkhero/lakkariancleric

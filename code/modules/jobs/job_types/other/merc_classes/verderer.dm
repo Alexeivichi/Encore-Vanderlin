@@ -25,7 +25,7 @@
 
 /datum/job/advclass/mercenary/verderer
 	title = "Hollow Verderer"
-	tutorial = "A halberd expert that has for one reason or another, forsaken PLACEHOLDER_FACTION_REBRANDING in favor of pursuing coin and glory in wider parts of Gaia."
+	tutorial = PLACEHOLDER_FACTION_REBRANDING
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/verderer

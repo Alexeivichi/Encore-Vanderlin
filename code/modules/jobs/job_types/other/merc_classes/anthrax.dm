@@ -43,7 +43,7 @@
 
 /datum/job/advclass/mercenary/anthrax
 	title = "Anthrax"
-	tutorial = "PLACEHOLDER_DESCRIPTION - YOU'RE A WACKY DARK ELF MERCENARY"
+	tutorial = PLACEHOLDER_FACTION_REBRANDING
 	allowed_races = list(SPEC_ID_DROW)
 	outfit = /datum/outfit/mercenary/anthrax
 	category_tags = list(CTAG_MERCENARY)

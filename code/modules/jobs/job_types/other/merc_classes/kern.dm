@@ -14,7 +14,7 @@
 
 /datum/job/advclass/mercenary/kern
 	title = "Kern"
-	tutorial = "A mercenary hailing from PLACEHOLDER_FACTION_REBRANDING, you fight under your Gallowglass or for your own coin, you fled with your fellow countrymen to escape the PLACEHOLDER_FACTION_REBRANDING of your homeland."
+	tutorial = PLACEHOLDER_FACTION_REBRANDING
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/kern
 	category_tags = list(CTAG_MERCENARY)

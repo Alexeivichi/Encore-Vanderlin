@@ -20,8 +20,7 @@
 
 /datum/job/advclass/mercenary/hollowdragoon
 	title = "Hollow Dragoon"
-	tutorial = "You rode out from PLACEHOLDER_FACTION_REBRANDING on your loyal steed, seeking coin from the wider reaches of Gaia. \
-	With armour salvaged from fallen knights and a spear in hand, you will fight for anyone, for a price."
+	tutorial = PLACEHOLDER_FACTION_REBRANDING
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/dragoon
 	category_tags = list(CTAG_MERCENARY)

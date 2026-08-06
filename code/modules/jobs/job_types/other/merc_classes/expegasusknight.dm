@@ -19,7 +19,7 @@
 
 /datum/job/advclass/mercenary/expegasusknight
 	title = "Ex-Pegasus Knight"
-	tutorial = "A former pegasus knight hailing from PLACEHOLDER_FACTION_REBRANDING. Once a graceful warrior that ruled the skies, now a traveling sellsword that rules the streets, doing PLACEHOLDER_FACTION_REBRANDING dirtiest work."
+	tutorial = PLACEHOLDER_FACTION_REBRANDING
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/expegasusknight
 	category_tags = list(CTAG_MERCENARY)
