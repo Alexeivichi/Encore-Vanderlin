@@ -17,23 +17,6 @@
 	cooldown_time = 3 MINUTES
 	spell_cost = 75
 
-	var/static/list/hammer_weapons = typecacheof(list(
-		/obj/item/weapon/hammer,
-		/obj/item/weapon/mace/goden/steel/warhammer,
-		/obj/item/weapon/mace/warhammer,
-	))
-
-/datum/action/cooldown/spell/hammer_fall/can_cast_spell(feedback)
-	. = ..()
-	if(!.)
-		return
-	for(var/obj/item/I in owner.held_items)
-		if(is_type_in_typecache(I.type, hammer_weapons))
-			break
-		if(feedback)
-			to_chat(owner, "I need a hammer to cast this.")
-		return FALSE
-
 /datum/action/cooldown/spell/hammer_fall/before_cast(atom/cast_on)
 	. = ..()
 	if(. & SPELL_CANCEL_CAST)

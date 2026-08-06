@@ -123,7 +123,7 @@
 	dismemberable = 0
 
 /obj/item/bodypart/head/goblin
-	sellprice = 5
+	sellprice = 10
 
 /obj/item/bodypart/head/goblin/update_icon_dropped()
 	return
