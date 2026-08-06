@@ -112,7 +112,7 @@ GLOBAL_LIST_EMPTY(rousman_ambush_objects)
 /////////////////////////////////////////////////////////////////////////////
 
 /obj/item/bodypart/head/rousman
-	sellprice = 5
+	sellprice = 10
 
 /obj/item/bodypart/head/rousman/update_icon_dropped()
 	return
