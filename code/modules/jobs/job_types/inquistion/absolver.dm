@@ -13,9 +13,9 @@
 		/datum/attribute/skill/labor/fishing = 30,
 		/datum/attribute/skill/misc/swimming = 30,
 		/datum/attribute/skill/craft/crafting = 30,
-		/datum/attribute/skill/magic/holy = 50
-		/datum/attribute/skill/combat/axesmaces = 20 //Absolver here isn't enforced Pacifist because it's extremely unfun. Still not great at combat though, but you should be able to at least defend yourself if you're in a thing called the Inquisition.
-		/datum/attribute/skill/combat/shields = 20  //To protect themselves.
+		/datum/attribute/skill/magic/holy = 50,
+		/datum/attribute/skill/combat/axesmaces = 20, //Absolver here isn't enforced Pacifist because it's extremely unfun. Still not great at combat though, but you should be able to at least defend yourself if you're in a thing called the Inquisition.
+		/datum/attribute/skill/combat/shields = 20,  //To protect themselves.
 	)
 
 /datum/job/absolver
