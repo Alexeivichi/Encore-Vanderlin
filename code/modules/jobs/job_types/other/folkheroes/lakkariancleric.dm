@@ -29,8 +29,8 @@
 
 /datum/job/advclass/combat/lakkariancleric // terra was here! <3
 	title = "Lakkarian Cleric"
-	tutorial = "A cleric belonging to the Order of the Southern Sun. After years of martial training and rigorous theological study, your abbess has deemed you worthy of a grand task. You will root out the corruption spread by The Four across Faience, and deliver the gospel of the glorious Sun Queen."
-	allowed_races = RACES_PLAYER_ELF
+	tutorial = PLACEHOLDER_FACTION_REBRANDING
+	allowed_races = RACES_PLAYER_ALL
 	allowed_patrons = list(/datum/patron/divine/visires)
 	outfit = /datum/outfit/folkhero/lakkariancleric
 	category_tags = list(CTAG_FOLKHEROES)

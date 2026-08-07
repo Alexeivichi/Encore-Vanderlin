@@ -53,7 +53,7 @@
 	\n\n\ \
 	Yet after all this, you still think to yourself, that this work is beneath you, as your sense of pride protests every morning. \
 	But it all goes away whenever a zenarii filled pouch is thrown your way, for a while at least."
-	allowed_races = RACES_NON_ANTAG
+	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/sellmage
 	category_tags = list(CTAG_MERCENARY)
 	total_positions = 99 //balance slop

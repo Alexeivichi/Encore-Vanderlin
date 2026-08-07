@@ -22,7 +22,7 @@
 /datum/job/advclass/combat/puritan
 	title = "Monster Hunter"
 	tutorial = "Monster Hunters dedicate their lives to the eradication of the varied evils infesting Gaia. They know the vile sorcery of the necromancer, the insidious nature of the cultist and monstrousness of vampires and werevolfs. They also know how best to end them."
-	allowed_races = RACES_PLAYER_NONEXOTIC
+	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/folkhero/puritan
 	total_positions = 99
 	spawn_positions = 99
