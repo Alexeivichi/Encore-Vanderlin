@@ -41,7 +41,7 @@
 /datum/job/advclass/mercenary/sterkenstadten
 	title = "Sterkenstadten Mercenary"
 	tutorial = "A mercenary from the Feathercap Free Company mercenary guild. Their only care is coin, and the procurement of coin."
-	allowed_races = list(SPEC_ID_HUMEN, SPEC_ID_DWARF, SPEC_ID_AASIMAR)
+	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/sterkenstadten
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/sterkenstadten
