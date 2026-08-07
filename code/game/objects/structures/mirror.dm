@@ -120,11 +120,17 @@
 				should_update = TRUE
 
 		if("skin")
-			var/listy = H.dna.species.get_skin_list()
-			var/new_s_tone = browser_input_list(user, "Choose your character's skin tone:", "Sun", listy)
-			if(new_s_tone)
-				H.skin_tone = listy[new_s_tone]
-				should_update = TRUE
+			if(CUSCOLORS in H.dna.species.species_traits)
+				var/new_color = input(user, "Choose your character's color") as color|null
+				if(new_color)
+					new_color = sanitize_hexcolor(new_color)
+					H.skin_tone = new_color
+			else
+				var/listy = H.dna.species.get_skin_list()
+				var/new_s_tone = browser_input_list(user, "Choose your character's skin tone:", "Sun", listy)
+				if(new_s_tone)
+					H.skin_tone = listy[new_s_tone]
+					should_update = TRUE
 
 		if("detail")
 			var/datum/customizer_choice/bodypart_feature/face_detail/face_choice = CUSTOMIZER_CHOICE(/datum/customizer_choice/bodypart_feature/face_detail)

@@ -25,7 +25,7 @@
 	+1 Strength, -1 Endurance."
 
 	default_color = "FFFFFF"
-	species_traits = list(EYECOLOR, LIPS, STUBBLE)
+	species_traits = list(EYECOLOR, LIPS, STUBBLE, CUSCOLORS)
 	inherent_traits = list(TRAIT_NOMOBSWAP)
 	use_skintones = TRUE
 
