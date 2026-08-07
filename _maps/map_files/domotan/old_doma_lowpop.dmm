@@ -10727,12 +10727,6 @@
 	dir = 8
 	},
 /area/outdoors/town/neighborhood/east)
-"hsJ" = (
-/obj/effect/decal/borderfall{
-	dir = 1
-	},
-/turf/closed/mineral,
-/area/under/town/sewer)
 "hsP" = (
 /obj/structure/rack/shelf/biggest,
 /turf/open/floor/blocks,
@@ -15816,12 +15810,6 @@
 	},
 /turf/open/openspace,
 /area/outdoors/town/plaza)
-"kBG" = (
-/obj/effect/decal/borderfall{
-	dir = 1
-	},
-/turf/closed/wall/mineral/stonebrick,
-/area/indoors/town/church/inquisition)
 "kBH" = (
 /obj/structure/meathook,
 /turf/open/floor/greenstone,
@@ -44292,7 +44280,7 @@ qid
 qid
 qid
 hPT
-kBG
+qid
 qid
 gEn
 mBx
@@ -45216,7 +45204,7 @@ gNa
 gNa
 gNa
 gNa
-hsJ
+gNa
 gNa
 gNa
 iMB
