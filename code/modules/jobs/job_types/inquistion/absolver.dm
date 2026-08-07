@@ -14,6 +14,8 @@
 		/datum/attribute/skill/misc/swimming = 30,
 		/datum/attribute/skill/craft/crafting = 30,
 		/datum/attribute/skill/magic/holy = 50
+		/datum/attribute/skill/combat/axesmaces = 20 //Absolver here isn't enforced Pacifist because it's extremely unfun. Still not great at combat though, but you should be able to at least defend yourself if you're in a thing called the Inquisition.
+		/datum/attribute/skill/combat/shields = 20  //To protect themselves.
 	)
 
 /datum/job/absolver
@@ -47,6 +49,7 @@
 		TRAIT_INQUISITION,
 		TRAIT_SILVER_BLESSED,
 		TRAIT_FOREIGNER,
+		TRAIT_ANGROSIAN_GRIT,
 	)
 
 	spells = list(
@@ -92,9 +95,10 @@
 	wrists = /obj/item/clothing/wrists/bracers/psythorns
 	gloves = /obj/item/clothing/gloves/leather/otavan/inqgloves
 	beltr = /obj/item/flashlight/flare/torch/lantern/psycenser
-	beltl = /obj/item/storage/belt/pouch/coins/rich
+	beltl = /obj/item/weapon/mace/cudgel/psy
 	cloak = /obj/item/clothing/cloak/absolutionistrobe
 	backr = /obj/item/storage/backpack/satchel/otavan
+	backl = /obj/item/weapon/shield/tower/metal
 	belt = /obj/item/storage/belt/leather
 	pants = /obj/item/clothing/pants/trou/leather/advanced/colored/duelpants
 	armor = /obj/item/clothing/armor/cuirass/angros
@@ -104,13 +108,12 @@
 	head = /obj/item/clothing/head/helmet/heavy/absolver
 	ring = /obj/item/clothing/ring/signet/silver
 	backpack_contents = list(
-		/obj/item/book/bibble = 1,
 		/obj/item/natural/bundle/cloth = 2,
 		/obj/item/reagent_containers/glass/bottle/healthpot = 2,
 		/obj/item/paper/inqslip/arrival/abso = 1,
 		/obj/item/needle = 1,
-		/obj/item/natural/worms/leech = 1,
-		/obj/item/key/inquisition = 1,
+		/obj/item/storage/belt/pouch/coins/rich = 1,
+		/obj/item/storage/keyring/inquisitor = 1,
 		)
 
 /datum/outfit/absolver/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
