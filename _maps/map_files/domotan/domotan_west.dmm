@@ -7283,6 +7283,21 @@
 /area/under/cave/oldfort)
 "UW" = (
 /obj/structure/table/wood/fancy/purple,
+/obj/structure/fake_machine/mail/l{
+	pixel_x = 0;
+	pixel_y = 31;
+	mailtag = "Mont Paradise"
+	},
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/natural/feather,
+/obj/item/natural/feather/infernal{
+	desc = "A fluffy feather that has residual heat to the touch. Use only for sending letters to people you very much dislike."
+	},
 /turf/open/floor/churchmarble/violet,
 /area/indoors/vampire_manor)
 "UX" = (
