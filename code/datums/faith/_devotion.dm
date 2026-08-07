@@ -229,7 +229,6 @@
 	max_progression = CLERIC_REQ_1
 	miracles_extra = list(
 		/datum/action/cooldown/spell/undirected/touch/orison/lesser,
-		/datum/action/cooldown/spell/diagnose/holy,
 	)
 	devotion_class = DEVOTION_CLASS_CHURCHLING
 
