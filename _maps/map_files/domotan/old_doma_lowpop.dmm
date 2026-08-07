@@ -3505,6 +3505,14 @@
 	},
 /turf/open/floor/church/green,
 /area/indoors/town/church)
+"cyy" = (
+/obj/structure/door/stone{
+	name = "Sacrosanct Quarters"
+	},
+/obj/effect/mapping_helpers/access/keyset/church/inquisition,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/church/rust,
+/area/under/town/sewer)
 "cyC" = (
 /obj/structure/stairs/stone{
 	dir = 1
@@ -5745,6 +5753,15 @@
 	},
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep)
+"edI" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/obj/structure/fluff/walldeco/church/line{
+	dir = 8
+	},
+/turf/open/floor/churchrough/violet,
+/area/under/town/sewer)
 "edJ" = (
 /obj/effect/decal/borderfall{
 	dir = 1
@@ -19220,8 +19237,7 @@
 /turf/open/floor/dirt/road,
 /area/indoors/shelter/town)
 "nhU" = (
-/obj/structure/ladder,
-/turf/open/floor/blocks/green,
+/turf/open/floor/church/rust,
 /area/under/town/sewer)
 "nid" = (
 /obj/machinery/light/fueled/firebowl/standing/blue,
@@ -22083,6 +22099,13 @@
 	},
 /turf/open/floor/snow,
 /area/outdoors/town)
+"phv" = (
+/obj/structure/door/stone{
+	name = "Retinue Quarters"
+	},
+/obj/effect/mapping_helpers/access/keyset/church/inquisition,
+/turf/open/floor/churchrough/violet,
+/area/under/town/sewer)
 "phQ" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -24461,8 +24484,9 @@
 /turf/open/floor/blocks/green,
 /area/indoors/soilsons)
 "qRc" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 1
+/obj/structure/fluff/railing/wood{
+	dir = 8;
+	pixel_y = -1
 	},
 /turf/open/floor/churchrough/violet,
 /area/under/town/sewer)
@@ -24862,6 +24886,11 @@
 "riw" = (
 /obj/structure/fluff/steamvent,
 /turf/open/floor/blocks/green,
+/area/under/town/sewer)
+"riC" = (
+/obj/structure/bed/wool,
+/obj/item/bedsheet/wool,
+/turf/open/floor/church/rust,
 /area/under/town/sewer)
 "riM" = (
 /obj/structure/table/wood{
@@ -28812,7 +28841,6 @@
 /obj/structure/fluff/railing/border{
 	dir = 1
 	},
-/obj/structure/ladder,
 /turf/open/floor/cobble,
 /area/indoors/town/waterworks)
 "uay" = (
@@ -42226,7 +42254,7 @@ bIO
 aHv
 aHv
 aHv
-qRc
+tYT
 gNa
 gNa
 cPa
@@ -42358,7 +42386,7 @@ cRo
 rRO
 rRO
 rRO
-qRc
+tYT
 xhI
 aio
 cPa
@@ -42490,7 +42518,7 @@ lKL
 kbB
 srm
 oze
-qRc
+tYT
 xhI
 qAV
 oCB
@@ -42622,7 +42650,7 @@ lKL
 kbB
 jEy
 oze
-qRc
+tYT
 xhI
 suS
 cPa
@@ -42754,7 +42782,7 @@ lKL
 kbB
 dhu
 oze
-qRc
+tYT
 xYT
 aio
 suS
@@ -42886,7 +42914,7 @@ cRo
 blL
 blL
 blL
-qRc
+tYT
 xYT
 xYT
 xYT
@@ -43018,9 +43046,9 @@ bIO
 aHv
 aHv
 aHv
-qRc
-tro
-tro
+tYT
+aHv
+xYT
 bxh
 bxh
 seS
@@ -43151,11 +43179,11 @@ gSd
 gSd
 gSd
 tro
-uOh
+edI
+phv
 tro
-fAx
-oBN
-oBN
+qRc
+qRc
 fAx
 fAx
 xYT
@@ -43285,9 +43313,9 @@ rqI
 tYT
 rqI
 bIO
-fAx
-xhI
-xhI
+bIO
+cyy
+bIO
 fAx
 fAx
 xYT
@@ -43417,8 +43445,8 @@ bIO
 uZq
 bIO
 bIO
-iMB
-xhI
+nhU
+nhU
 nhU
 fAx
 iMB
@@ -43549,9 +43577,9 @@ mQd
 qUJ
 rzV
 bIO
-iMB
-xhI
-xhI
+riC
+nhU
+nhU
 xhI
 fAx
 xYT
@@ -43681,9 +43709,9 @@ mQd
 qUJ
 bjA
 bIO
-fAx
-bxh
-bxh
+nhU
+nhU
+nhU
 xhI
 xhI
 xhI
@@ -43813,9 +43841,9 @@ mQd
 qUJ
 bXz
 bIO
-fAx
-bxh
-bxh
+nhU
+nhU
+nhU
 xhI
 xhI
 tZh
@@ -44076,7 +44104,7 @@ bIO
 bIO
 bIO
 bIO
-gip
+gNa
 xGc
 htE
 htE
@@ -44204,11 +44232,11 @@ mBx
 tKg
 bIO
 ykB
-fAx
-fAx
-fAx
-fAx
-fAx
+ykB
+gNa
+gNa
+gNa
+gNa
 fAx
 bxh
 bxh
