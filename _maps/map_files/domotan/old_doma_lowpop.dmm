@@ -1503,7 +1503,10 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/openspace,
+/obj/structure/chair/bench{
+	dir = 8
+	},
+/turf/open/floor/cobble/mossy,
 /area/indoors/town/waterworks)
 "bcG" = (
 /obj/structure/fluff/railing/border,
@@ -12012,7 +12015,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/openspace,
+/turf/open/floor/cobble/mossy,
 /area/indoors/town/waterworks)
 "ihr" = (
 /obj/structure/fluff/walldeco/church/line,
@@ -30720,6 +30723,12 @@
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean/abyss,
 /area/indoors/town/keep/magician/basement)
+"uPB" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/turf/open/floor/cobble/mossy,
+/area/indoors/town/waterworks)
 "uPI" = (
 /obj/effect/mapping_helpers/access/keyset/manor/general,
 /obj/effect/mapping_helpers/access/locker,
@@ -32370,7 +32379,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/openspace,
+/turf/open/floor/cobble/mossy,
 /area/indoors/town/waterworks)
 "vWz" = (
 /obj/machinery/light/fueled/torchholder/r,
@@ -59730,7 +59739,7 @@ pZy
 jtb
 xla
 liM
-bcD
+uPB
 bcD
 bcD
 vWm
