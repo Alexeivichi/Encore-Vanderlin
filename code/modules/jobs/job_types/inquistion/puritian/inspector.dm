@@ -107,7 +107,6 @@
 	head = /obj/item/clothing/head/leather/inqhat
 	mask = /obj/item/clothing/face/spectacles/inq/spawnpair
 	gloves = /obj/item/clothing/gloves/leather/otavan
-	wrists = /obj/item/clothing/neck/psycross/silver
 	ring = /obj/item/clothing/ring/signet/silver
 	armor = /obj/item/clothing/armor/medium/scale/inqcoat/armored
 	backpack_contents = list(
@@ -120,3 +119,11 @@
 		/obj/item/grapplinghook = 1,
 		/obj/item/paper/inqslip/arrival/inq = 1,
 	)
+
+/datum/outfit/inquisitor/inspector/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+	. = ..()
+	switch(equipped_human.patron?.type)
+		if(/datum/patron/divine/centrist)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine
+		if(/datum/patron/angros)
+			wrists = /obj/item/clothing/neck/psycross/silver

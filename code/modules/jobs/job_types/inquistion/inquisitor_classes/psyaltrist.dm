@@ -72,7 +72,6 @@
 	cloak = /obj/item/clothing/cloak/psyaltrist
 	shirt = /obj/item/clothing/armor/gambeson/heavy/inq
 	gloves = /obj/item/clothing/gloves/leather/otavan
-	wrists = /obj/item/clothing/neck/psycross/silver
 	pants = /obj/item/clothing/pants/tights/colored/black
 	shoes = /obj/item/clothing/shoes/angrosboots
 	belt = /obj/item/storage/belt/leather/knifebelt/black/angros
@@ -84,3 +83,11 @@
 		/obj/item/paper/inqslip/arrival/ortho = 1,
 		/obj/item/collar_detonator = 1,
 	)
+
+/datum/outfit/psyaltrist/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+	. = ..()
+	switch(equipped_human.patron?.type)
+		if(/datum/patron/divine/centrist)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine
+		if(/datum/patron/angros)
+			wrists = /obj/item/clothing/neck/psycross/silver

@@ -249,11 +249,11 @@
 		var/im_inquis = HAS_TRAIT(src, TRAIT_INQUISITION)
 		var/inquis_msg
 		if(they_inquis && im_inquis)
-			inquis_msg = "A Practical of our Unsundered Inquisitorial Sect."
+			inquis_msg = "A Practical of our Katholikon Inquisitorial Sect."
 		if(they_inquis && im_pur)
-			inquis_msg = "The Lorde-Inquisitor of our Unsundered Inquisitorial Sect."
+			inquis_msg = "The Lorde-Inquisitor of our Katholikon Inquisitorial Sect."
 		if(they_pur && im_inquis)
-			inquis_msg = "Subordinate to me in the Unsundered Inquisitorial Sect."
+			inquis_msg = "Subordinate to me in the Katholikon Inquisitorial Sect."
 		if(they_pur && im_pur)
 			inquis_msg = "The Lorde-Inquisitor of the Sect sent here. That should be me though..."
 		if(inquis_msg)

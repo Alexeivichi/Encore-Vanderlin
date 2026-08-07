@@ -73,25 +73,25 @@
 /datum/job/advclass/sacrestant/confessor/on_roundstart(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
-	var/static/list/weapons = list("Blessed Unsundered Dagger", "Unsundered Handmace", "Unsundered Shortsword")
-	var/weapon_choice = browser_input_list(spawned, "CHOOSE YOUR WEAPON.", "TAKE UP ANGROS'S ARMS.", weapons)
+	var/static/list/weapons = list("Blessed Katholikon Dagger", "Katholikon Handmace", "Katholikon Shortsword")
+	var/weapon_choice = browser_input_list(spawned, "CHOOSE YOUR WEAPON.", "TAKE UP THE KATHOLIKON'S ARMS.", weapons)
 
 	switch(weapon_choice)
-		if("Blessed Unsundered Dagger")
+		if("Blessed Katholikon Dagger")
 			spawned.put_in_hands(new /obj/item/weapon/knife/dagger/silver/angros(get_turf(spawned)), TRUE)
 			spawned.equip_to_slot_or_del(new /obj/item/weapon/scabbard/knife, ITEM_SLOT_BACK_R, TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/confessor/knives)
-		if("Unsundered Handmace")
+		if("Katholikon Handmace")
 			spawned.put_in_hands(new /obj/item/weapon/mace/cudgel/psy(get_turf(spawned)), TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/confessor/axes)
-		if("Unsundered Shortsword")
+		if("Katholikon Shortsword")
 			spawned.put_in_hands(new /obj/item/weapon/sword/short/psy(get_turf(spawned)), TRUE)
 			spawned.equip_to_slot_or_del(new /obj/item/weapon/scabbard/sword, ITEM_SLOT_BACK_R, TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/confessor/swords)
 
 	// Armor/archetype selection
 	var/static/list/armors = list("Confessor - Slurbow, Leather Maillecoat", "Arbalist - Crossbow, Lightweight Brigandine")
-	var/armor_choice = browser_input_list(spawned, "CHOOSE YOUR ARCHETYPE.", "TAKE UP ANGROS'S DUTY.", armors)
+	var/armor_choice = browser_input_list(spawned, "CHOOSE YOUR ARCHETYPE.", "TAKE UP YOUR DUTY.", armors)
 
 	switch(armor_choice)
 		if("Confessor - Slurbow, Leather Maillecoat")
@@ -108,7 +108,7 @@
 
 	// Bolt selection
 	var/static/list/quivers = list("Bolts - Steel-Tipped", "Sunderbolts - Silver-Tipped, Halved Damage")
-	var/boltchoice = browser_input_list(spawned, "CHOOSE YOUR MUNITIONS.", "TAKE UP ANGROS'S MISSILES.", quivers)
+	var/boltchoice = browser_input_list(spawned, "CHOOSE YOUR MUNITIONS.", "TAKE UP THE KATHOLIKON'S MISSILES.", quivers)
 
 	switch(boltchoice)
 		if("Bolts - Steel-Tipped")
@@ -119,7 +119,6 @@
 /datum/outfit/confessor
 	name = "Confessor (Sacrestants)"
 	cloak = /obj/item/storage/backpack/satchel
-	wrists = /obj/item/clothing/neck/psycross/silver
 	gloves = /obj/item/clothing/gloves/leather/otavan
 	neck = /obj/item/clothing/neck/gorget
 	backr = /obj/item/storage/backpack/satchel/otavan
@@ -139,3 +138,11 @@
 		/obj/item/paper/inqslip/arrival/ortho = 1,
 		/obj/item/collar_detonator = 1,
 	)
+
+/datum/outfit/confessor/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+	. = ..()
+	switch(equipped_human.patron?.type)
+		if(/datum/patron/divine/centrist)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine
+		if(/datum/patron/angros)
+			wrists = /obj/item/clothing/neck/psycross/silver

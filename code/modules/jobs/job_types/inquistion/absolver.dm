@@ -93,7 +93,6 @@
 	gloves = /obj/item/clothing/gloves/leather/otavan/inqgloves
 	beltr = /obj/item/flashlight/flare/torch/lantern/psycenser
 	beltl = /obj/item/storage/belt/pouch/coins/rich
-	neck = /obj/item/clothing/neck/psycross/silver
 	cloak = /obj/item/clothing/cloak/absolutionistrobe
 	backr = /obj/item/storage/backpack/satchel/otavan
 	belt = /obj/item/storage/belt/leather
@@ -113,3 +112,12 @@
 		/obj/item/natural/worms/leech = 1,
 		/obj/item/key/inquisition = 1,
 		)
+
+/datum/outfit/absolver/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+	. = ..()
+	switch(equipped_human.patron?.type)
+		if(/datum/patron/divine/centrist)
+			neck = /obj/item/clothing/neck/psycross/silver/divine
+		if(/datum/patron/angros)
+			neck = /obj/item/clothing/neck/psycross/silver
+

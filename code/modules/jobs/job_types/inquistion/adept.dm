@@ -37,7 +37,14 @@
 	beltr = /obj/item/storage/belt/pouch/coins/poor
 	pants = /obj/item/clothing/pants/trou/leather
 	shirt = /obj/item/clothing/armor/gambeson/light/colored/black
-	wrists = /obj/item/clothing/neck/psycross/silver
+
+/datum/outfit/adept/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+	. = ..()
+	switch(equipped_human.patron?.type)
+		if(/datum/patron/divine/centrist)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine
+		if(/datum/patron/angros)
+			wrists = /obj/item/clothing/neck/psycross/silver
 
 /datum/job/advclass/adept/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()

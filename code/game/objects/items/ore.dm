@@ -322,7 +322,7 @@
 
 /obj/item/ingot/silverblessed
 	name = "blessed silver bar"
-	desc = "This bar radiates a divine purity. Treasured by the realms and commonly found in Unsundered weaponry."
+	desc = "This bar radiates a divine purity. Treasured by the realms and commonly found in Katholikon weaponry."
 	icon_state = "ingotsilvblessed"
 	melting_material = /datum/material/silver
 	sellprice = 100

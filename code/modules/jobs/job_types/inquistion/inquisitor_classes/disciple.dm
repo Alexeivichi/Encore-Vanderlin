@@ -89,7 +89,6 @@
 	beltl = /obj/item/storage/belt/pouch/coins/mid
 	cloak = /obj/item/clothing/cloak/angrostabard/alt
 	ring = /obj/item/clothing/ring/signet/silver
-	neck = /obj/item/clothing/neck/psycross/silver
 	wrists = /obj/item/clothing/wrists/bracers/psythorns
 	mask = /obj/item/clothing/head/helmet/blacksteel/psythorns
 	head = /obj/item/clothing/head/roguehood/angros
@@ -98,3 +97,11 @@
 		/obj/item/paper/inqslip/arrival/ortho = 1,
 		/obj/item/collar_detonator = 1,
 	)
+
+/datum/outfit/disciple/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+	. = ..()
+	switch(equipped_human.patron?.type)
+		if(/datum/patron/divine/centrist)
+			neck = /obj/item/clothing/neck/psycross/silver/divine
+		if(/datum/patron/angros)
+			neck = /obj/item/clothing/neck/psycross/silver

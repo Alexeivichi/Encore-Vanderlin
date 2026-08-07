@@ -110,7 +110,6 @@
 	neck = /obj/item/clothing/neck/gorget
 	shoes = /obj/item/clothing/shoes/otavan/inqboots
 	backl = /obj/item/storage/backpack/satchel/otavan
-	wrists = /obj/item/clothing/neck/psycross/silver
 	ring = /obj/item/clothing/ring/signet/silver
 	pants = /obj/item/clothing/pants/platelegs
 	cloak = /obj/item/clothing/cloak/ordinatorcape
@@ -121,3 +120,11 @@
 		/obj/item/storage/keyring/inquisitor = 1,
 		/obj/item/paper/inqslip/arrival/inq = 1,
 	)
+
+/datum/outfit/inquisitor/ordinator/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+	. = ..()
+	switch(equipped_human.patron?.type)
+		if(/datum/patron/divine/centrist)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine
+		if(/datum/patron/angros)
+			wrists = /obj/item/clothing/neck/psycross/silver

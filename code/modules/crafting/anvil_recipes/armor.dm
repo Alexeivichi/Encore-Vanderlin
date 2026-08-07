@@ -1386,29 +1386,29 @@
 	craftdiff = 3
 
 /datum/anvil_recipe/armor/blessedsilver/psychestplate
-	name = "Unsundered Chestplate (+1 Cured Leather)"
+	name = "Katholikon Chestplate (+1 Cured Leather)"
 	req_bar = /obj/item/ingot/silverblessed
 	additional_items = list(/obj/item/natural/hide/cured)
 	created_item = /obj/item/clothing/armor/cuirass/angros
 
 /datum/anvil_recipe/armor/blessedsilver/psycuirass
-	name = "Unsundered Cuirass (+2 Cured Leather)"
+	name = "Katholikon Cuirass (+2 Cured Leather)"
 	req_bar = /obj/item/ingot/silverblessed
 	additional_items = list(/obj/item/natural/hide/cured, /obj/item/natural/hide/cured)
 	created_item = /obj/item/clothing/armor/cuirass/ornate
 
 /datum/anvil_recipe/armor/blessedsilver/armetpsy
-	name = "Unsundered Armet"
+	name = "Katholikon Armet"
 	req_bar = /obj/item/ingot/silverblessed
 	created_item = /obj/item/clothing/head/helmet/heavy/angroshelm
 
 /datum/anvil_recipe/armor/blessedsilver/helmsallpsy
-	name = "Unsundered Sallet (+1 Blessed Silver)"
+	name = "Katholikon Sallet (+1 Blessed Silver)"
 	req_bar = /obj/item/ingot/silverblessed
 	created_item = /obj/item/clothing/head/helmet/heavy/psysallet
 
 /datum/anvil_recipe/armor/blessedsilver/helmbucketpsy
-	name = "Unsundered Bucket Helm (+1 Blessed Silver)"
+	name = "Katholikon Bucket Helm (+1 Blessed Silver)"
 	req_bar = /obj/item/ingot/silverblessed
 	created_item = /obj/item/clothing/head/helmet/heavy/psybucket
 
@@ -1419,29 +1419,29 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/absolver
 
 /datum/anvil_recipe/armor/blessedsilver/psyhalfplate
-	name = "Unsundered Half-Plate (+Unsundered Cuirass, +1 Blessed Silver, +2 Cured Leather)"
+	name = "Katholikon Half-Plate (+Katholikon Cuirass, +1 Blessed Silver, +2 Cured Leather)"
 	req_bar = /obj/item/ingot/silverblessed
 	additional_items = list(/obj/item/clothing/armor/cuirass/ornate, /obj/item/ingot/silverblessed, /obj/item/natural/hide/cured, /obj/item/natural/hide/cured)
 	created_item = /obj/item/clothing/armor/plate/fluted/ornate
 
 /datum/anvil_recipe/armor/blessedsilver/psyfullplate
-	name = "Unsundered Full-Plate (+Unsundered Half-Plate, +1 Blessed Silver, +2 Cured Leather)"
+	name = "Katholikon Full-Plate (+Katholikon Half-Plate, +1 Blessed Silver, +2 Cured Leather)"
 	req_bar = /obj/item/ingot/silverblessed
 	additional_items = list(/obj/item/clothing/armor/plate/fluted/ornate, /obj/item/ingot/silverblessed, /obj/item/natural/hide/cured, /obj/item/natural/hide/cured)
 	created_item = /obj/item/clothing/armor/plate/fluted/ornate
 
 /datum/anvil_recipe/armor/blessedsilver/psyfullplatealt
-	name = "Unsundered Full-Plate, Hauberked (+Unsundered Hauberk, +2 Blessed Silver, +2 Cured Leather)"
+	name = "Katholikon Full-Plate, Hauberked (+Katholikon Hauberk, +2 Blessed Silver, +2 Cured Leather)"
 	req_bar = /obj/item/ingot/silverblessed
 	additional_items = list(/obj/item/clothing/armor/chainmail/hauberk/fluted, /obj/item/ingot/silverblessed, /obj/item/ingot/silverblessed, /obj/item/natural/hide/cured, /obj/item/natural/hide/cured)
 	created_item = /obj/item/clothing/armor/plate/fluted/ornate
 
 /datum/anvil_recipe/armor/blessedsilver/angrosmask
-	name = "Unsundered Mask"
+	name = "Katholikon Mask"
 	req_bar = /obj/item/ingot/silverblessed
 	created_item = /obj/item/clothing/face/facemask/angrosmask
 
 /datum/anvil_recipe/armor/blessedsilver/unsundered_gloves
-	name = "Unsundered Chain Gloves"
+	name = "Katholikon Chain Gloves"
 	req_bar = /obj/item/ingot/silverblessed
 	created_item = /obj/item/clothing/gloves/chain/angros
