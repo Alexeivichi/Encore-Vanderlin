@@ -77,12 +77,20 @@
 
 	add_verb(spawned, /mob/living/carbon/human/proc/view_inquisition)
 
+	var/holder = spawned.patron?.devotion_holder
+	if(holder)
+		var/datum/devotion/devotion = new holder()
+		devotion.make_absolver()
+		devotion.grant_to(spawned)
+
+/*
 	spawned.hud_used?.shutdown_bloodpool()
 	spawned.hud_used?.initialize_bloodpool()
 	spawned.hud_used?.bloodpool.set_fill_color("#dcdddb")
 	spawned.hud_used?.bloodpool?.name = "Aspects' Grace: [spawned.bloodpool]"
 	spawned.hud_used?.bloodpool?.desc = "Devotion: [spawned.bloodpool]/[spawned.maxbloodpool]"
 	spawned.maxbloodpool = 1000
+*/
 
 	var/datum/species/species = spawned.dna?.species
 	if(!species)
