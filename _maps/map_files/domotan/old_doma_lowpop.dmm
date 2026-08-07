@@ -2571,6 +2571,11 @@
 	},
 /turf/open/floor/blocks/newstone,
 /area/indoors/town/keep/throne)
+"bOw" = (
+/obj/structure/fluff/steamvent,
+/obj/structure/bars,
+/turf/open/floor/blocks/green,
+/area/under/town/sewer)
 "bOE" = (
 /obj/structure/fake_machine/scomm/l,
 /turf/open/floor/churchmarble,
@@ -31124,6 +31129,9 @@
 /area/indoors/town/church/inquisition)
 "vdR" = (
 /obj/structure/fluff/railing/wood,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
 /turf/open/floor/blocks/green,
 /area/under/cavewet)
 "vdZ" = (
@@ -43110,7 +43118,7 @@ fAx
 xhI
 pzc
 pzc
-riw
+bOw
 xhI
 jdz
 jdz
