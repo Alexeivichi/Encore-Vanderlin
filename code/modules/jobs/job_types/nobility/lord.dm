@@ -176,6 +176,10 @@ GLOBAL_LIST_EMPTY(lord_titles)
 	l_hand = /obj/item/weapon/lordscepter
 	r_hand = /obj/item/storage/keyring/heir
 
+	backpack_contents = list(
+		/obj/item/storage/keyring/monarch = 1,
+	)
+
 /datum/outfit/lord/map_override(mob/living/carbon/human/H)
 	if(SSmapping.config.map_name != "Voyage")
 		return

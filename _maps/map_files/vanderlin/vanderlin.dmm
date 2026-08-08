@@ -1869,8 +1869,8 @@
 /obj/structure/door/violet{
 	name = "Heir's Chambers"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/general,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/heir,
 /turf/open/floor/blocks/newstone/alt,
 /area/indoors/town/keep/heir/heir2)
 "aSj" = (
@@ -6462,6 +6462,17 @@
 /area/indoors/town/keep/squire)
 "cWQ" = (
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/keyrack{
+	pixel_y = 0;
+	pixel_x = -32
+	},
+/obj/effect/mapping_helpers/access/keyset/manor/butler,
+/obj/effect/mapping_helpers/access/locker,
+/obj/item/key/guest,
+/obj/item/key/servant,
+/obj/item/key/servant,
+/obj/item/key/servant,
+/obj/item/key/servant,
 /turf/open/floor/blocks,
 /area/indoors/town/keep/servanthead)
 "cXz" = (
@@ -6812,8 +6823,8 @@
 /obj/structure/door/fancy{
 	name = "Hand's Chambers"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/hand,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/hand/butler,
 /turf/open/floor/blocks/newstone,
 /area/indoors/town/keep/throne)
 "dgR" = (
@@ -9959,7 +9970,7 @@
 /obj/structure/door/violet{
 	name = "Archivist's Chambers"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/archive,
+/obj/effect/mapping_helpers/access/keyset/manor/archive/butler,
 /turf/open/floor/tile/checkeralt,
 /area/indoors/town/keep/archivist)
 "eIy" = (
@@ -11744,8 +11755,7 @@
 /obj/structure/door/violet{
 	name = "Kitchen"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/general,
-/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/servant,
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/keep/kitchen)
 "fyE" = (
@@ -11837,10 +11847,10 @@
 /obj/item/key/atarms,
 /obj/effect/mapping_helpers/access/keyset/manor/atarms,
 /obj/effect/mapping_helpers/access/locker,
-/obj/item/key/walls,
-/obj/item/key/walls,
-/obj/item/key/walls,
-/obj/item/key/walls,
+/obj/item/key/gatehouse,
+/obj/item/key/gatehouse,
+/obj/item/key/gatehouse,
+/obj/item/key/gatehouse,
 /turf/open/floor/blocks,
 /area/indoors/town/keep/garrison)
 "fBW" = (
@@ -11969,7 +11979,7 @@
 	name = "servants quarters"
 	},
 /obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/keyset/manor/general,
+/obj/effect/mapping_helpers/access/keyset/manor/servant/garrison,
 /turf/open/floor/tile,
 /area/indoors/town/keep/servant)
 "fEz" = (
@@ -12637,7 +12647,7 @@
 	name = "Court Physician's Room"
 	},
 /obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/keyset/manor/physician,
+/obj/effect/mapping_helpers/access/keyset/manor/physician/butler,
 /turf/open/floor/hexstone,
 /area/indoors/town/keep/halls/w)
 "fVi" = (
@@ -15050,6 +15060,7 @@
 	pixel_x = -10;
 	pixel_y = 8
 	},
+/obj/structure/bars/wooden_arch,
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/keep/kitchen)
 "hjs" = (
@@ -17408,6 +17419,10 @@
 /obj/item/textbook/expert,
 /obj/item/paper/scroll/keep_plans,
 /obj/item/paper/scroll/keep_plans,
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/archive{
+	difficulty = 1
+	},
 /turf/open/floor/carpet/red,
 /area/indoors/town/keep/archivist)
 "inL" = (
@@ -18296,8 +18311,8 @@
 /obj/structure/door/fancy{
 	name = "Captain's Room"
 	},
-/obj/effect/mapping_helpers/access/keyset/garrison/captain,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/garrison/captain/butler,
 /turf/open/floor/wood,
 /area/indoors/town/keep/captain)
 "iFZ" = (
@@ -20703,8 +20718,8 @@
 /obj/structure/door/fancy{
 	name = "Lord's Chambers"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/lord,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/lord/consort,
 /turf/open/floor/tile,
 /area/indoors/town/keep/lord_appt)
 "jFQ" = (
@@ -21171,6 +21186,7 @@
 /area/indoors/dungeon)
 "jTa" = (
 /obj/structure/closet/crate/chest,
+/obj/effect/mapping_helpers/access/keyset/manor/guest2,
 /turf/open/floor/ruinedwood,
 /area/indoors/town/keep/guest/guest2)
 "jTc" = (
@@ -24279,7 +24295,7 @@
 /obj/structure/door/window{
 	name = "Archives"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/archive,
+/obj/effect/mapping_helpers/access/keyset/manor/archive/semipublic,
 /turf/open/floor/blocks,
 /area/indoors/town/keep/library)
 "loO" = (
@@ -24406,8 +24422,8 @@
 /obj/structure/door/fancy{
 	name = "Lord's Apartment"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/lord,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/lord/butler,
 /turf/open/floor/hexstone,
 /area/indoors/town/keep/lord_appt)
 "lsy" = (
@@ -25847,6 +25863,19 @@
 /obj/structure/bars,
 /turf/open/floor/cobble,
 /area/under/dungeon)
+"lYW" = (
+/obj/structure/closet/keyrack{
+	pixel_y = -32
+	},
+/obj/effect/mapping_helpers/access/locker,
+/obj/item/key/heir,
+/obj/item/key/heir,
+/obj/item/key/butler,
+/obj/effect/mapping_helpers/access/keyset/manor/lord/consort,
+/turf/open/floor/tile/masonic{
+	dir = 4
+	},
+/area/indoors/town/keep/lord_appt)
 "lZc" = (
 /turf/closed/wall/mineral/decowood,
 /area/indoors/town/noble_manor/red)
@@ -25966,10 +25995,10 @@
 /area/indoors/town/cell)
 "mbj" = (
 /obj/structure/door/fancy{
-	name = "Guest Room"
+	name = "Guest Room 1"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/guest,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/guest1,
 /turf/open/floor/ruinedwood,
 /area/indoors/town/keep/guest/guest1)
 "mbn" = (
@@ -29548,6 +29577,8 @@
 /obj/item/ammo_holder/quiver/bolts,
 /obj/item/perfume/rose,
 /obj/item/perfume/random,
+/obj/effect/mapping_helpers/access/keyset/garrison/captain,
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/herringbone,
 /area/indoors/town/keep/captain)
 "nKy" = (
@@ -30580,8 +30611,8 @@
 /obj/structure/door/fancy{
 	name = "Bathroom"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/lord,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/lord/consort,
 /turf/open/floor/hexstone,
 /area/indoors/town/keep/lord_appt)
 "oiY" = (
@@ -30624,7 +30655,7 @@
 "ojV" = (
 /obj/structure/door/iron/bars,
 /obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/keyset/manor/lord,
+/obj/effect/mapping_helpers/access/keyset/manor/lord/butler,
 /turf/open/floor/blocks,
 /area/under/town/basement)
 "okh" = (
@@ -31140,10 +31171,10 @@
 /area/outdoors/town/roofs)
 "otj" = (
 /obj/structure/door/fancy{
-	name = "Guest Room"
+	name = "Guest Room 2"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/guest,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/guest2,
 /turf/open/floor/ruinedwood,
 /area/indoors/town/keep/guest/guest2)
 "otn" = (
@@ -31446,6 +31477,8 @@
 /obj/item/clothing/face/eyepatch/fake,
 /obj/item/clothing/shirt/undershirt/fancy,
 /obj/item/clothing/shoes/nobleboot/thighboots,
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/hand,
 /turf/open/floor/blocks/newstone,
 /area/indoors/town/keep/hand)
 "oyF" = (
@@ -31555,7 +31588,7 @@
 	name = "guard's barracks"
 	},
 /obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/keyset/manor/atarms,
+/obj/effect/mapping_helpers/access/keyset/manor/servant/garrison,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town/keep/garrison)
 "oBo" = (
@@ -32061,7 +32094,7 @@
 /obj/structure/door{
 	name = "Butler's Quarters"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/atarms,
+/obj/effect/mapping_helpers/access/keyset/manor/butler,
 /turf/open/floor/tile,
 /area/indoors/town/keep/servanthead)
 "oMX" = (
@@ -32948,8 +32981,8 @@
 /obj/structure/door/fancy{
 	name = "Powder Room"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/lord,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/lord/consort,
 /turf/open/floor/tile,
 /area/indoors/town/keep/lord_appt)
 "phn" = (
@@ -33189,8 +33222,8 @@
 /obj/structure/door/stone{
 	name = "Wine Storage"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/general,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/servant,
 /turf/open/floor/church,
 /area/under/town/basement)
 "plQ" = (
@@ -33447,6 +33480,8 @@
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_y = -32
 	},
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/hand,
 /turf/open/floor/blocks/newstone,
 /area/indoors/town/keep/hand)
 "puq" = (
@@ -35115,6 +35150,19 @@
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/cobblerock,
 /area/indoors/town/church)
+"qhw" = (
+/obj/structure/closet/keyrack{
+	pixel_y = 0;
+	pixel_x = -32
+	},
+/obj/effect/mapping_helpers/access/keyset/manor/archive,
+/obj/effect/mapping_helpers/access/locker,
+/obj/item/key/archive,
+/obj/item/key/archive,
+/obj/item/key/archive,
+/obj/item/key/archive,
+/turf/open/floor/greenstone,
+/area/indoors/town/keep/library)
 "qhx" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobble,
@@ -36759,6 +36807,7 @@
 /area/indoors/town/keep/phys)
 "qUe" = (
 /obj/structure/closet/crate/chest,
+/obj/effect/mapping_helpers/access/keyset/manor/guest1,
 /turf/open/floor/ruinedwood,
 /area/indoors/town/keep/guest/guest1)
 "qUs" = (
@@ -38044,7 +38093,6 @@
 /area/indoors/town/tavern)
 "rzb" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/effect/mapping_helpers/access/keyset/manor/atarms,
 /obj/structure/closet/keyrack{
 	pixel_y = -32
 	},
@@ -38053,19 +38101,10 @@
 /obj/item/key/manor,
 /obj/item/key/manor,
 /obj/item/key/manor,
-/obj/item/key/guest{
-	pixel_x = -10;
-	pixel_y = 3
-	},
-/obj/item/key/guest{
-	pixel_x = -10;
-	pixel_y = 9
-	},
 /obj/item/key/manor,
-/obj/item/key/guest{
-	pixel_x = -10;
-	pixel_y = 9
-	},
+/obj/item/key/guest/one,
+/obj/item/key/guest/two,
+/obj/effect/mapping_helpers/access/keyset/manor/atarms/butler,
 /turf/open/floor/tile,
 /area/indoors/town/keep/servant)
 "rzd" = (
@@ -42767,8 +42806,8 @@
 /obj/structure/door/fancy{
 	name = "Powder Room"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/lord,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/lord/consort,
 /turf/open/floor/hexstone,
 /area/indoors/town/keep/lord_appt)
 "tDU" = (
@@ -46004,8 +46043,8 @@
 /obj/structure/door/violet{
 	name = "Heir's Chambers"
 	},
-/obj/effect/mapping_helpers/access/keyset/manor/general,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/heir,
 /turf/open/floor/blocks/newstone/alt,
 /area/indoors/town/keep/heir/heir1)
 "uXC" = (
@@ -47425,6 +47464,7 @@
 /area/outdoors/town)
 "vAf" = (
 /obj/structure/table/wood/counter,
+/obj/structure/bars/wooden_arch,
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/keep/kitchen)
 "vAq" = (
@@ -51875,6 +51915,7 @@
 /obj/item/tray{
 	pixel_y = 6
 	},
+/obj/structure/bars/wooden_arch,
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/keep/kitchen)
 "xps" = (
@@ -118782,7 +118823,7 @@ mnw
 cxp
 mnw
 cxp
-mnw
+qhw
 ohQ
 hyg
 tVX
@@ -156336,7 +156377,7 @@ sqk
 htB
 pTb
 dCF
-uSu
+lYW
 qWu
 rVU
 jot
