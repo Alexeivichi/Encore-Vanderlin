@@ -7511,7 +7511,7 @@
 /obj/structure/fluff/walldeco/church/line{
 	dir = 1
 	},
-/obj/machinery/light/fueledstreet/blue/wall,
+/obj/machinery/light/fueledstreet/orange/wall,
 /turf/open/floor/churchrough/violet,
 /area/indoors/town/church/inquisition)
 "feI" = (
