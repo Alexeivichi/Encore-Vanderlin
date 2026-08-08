@@ -387,7 +387,7 @@
 /turf/open/water/clean,
 /area/outdoors/exposed)
 "anG" = (
-/obj/machinery/light/fueledstreet/blue/wall,
+/obj/machinery/light/fueledstreet/orange/wall,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church/inquisition)
 "aod" = (
@@ -1738,7 +1738,7 @@
 /obj/structure/fluff/walldeco/church/line{
 	dir = 8
 	},
-/obj/machinery/light/fueledstreet/blue/wall{
+/obj/machinery/light/fueledstreet/orange/wall{
 	dir = 1
 	},
 /turf/open/floor/churchrough/violet,
@@ -2263,7 +2263,6 @@
 /obj/effect/decal/cobbleedge{
 	dir = 9
 	},
-/obj/structure/fluff/railing/wood,
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/waterworks)
 "bEb" = (
@@ -2620,7 +2619,7 @@
 /turf/open/floor/ruinedwood,
 /area/indoors/town/keep/garrison)
 "bRu" = (
-/obj/machinery/light/fueledstreet/blue/wall{
+/obj/machinery/light/fueledstreet/orange/wall{
 	dir = 4
 	},
 /turf/open/water/bath,
@@ -4093,12 +4092,6 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/church)
-"cMu" = (
-/obj/structure/stairs/stone{
-	dir = 8
-	},
-/turf/open/floor/blocks/stonered,
-/area/indoors/town/waterworks)
 "cMy" = (
 /obj/structure/fluff/railing/tall/retaining/stone{
 	dir = 4
@@ -5377,7 +5370,7 @@
 /turf/closed/wall/mineral/stone,
 /area/indoors/town/waterworks)
 "dJW" = (
-/obj/machinery/light/fueledstreet/blue/wall{
+/obj/machinery/light/fueledstreet/orange/wall{
 	dir = 1
 	},
 /turf/open/floor/churchmarble,
@@ -5800,7 +5793,7 @@
 /turf/open/floor/sand/sandstone,
 /area/outdoors/town/neighborhood)
 "dYL" = (
-/obj/machinery/light/fueledstreet/blue/wall{
+/obj/machinery/light/fueledstreet/orange/wall{
 	dir = 4
 	},
 /turf/open/floor/blocks/paving,
@@ -6924,10 +6917,10 @@
 /obj/structure/fluff/walldeco/church/line{
 	dir = 4
 	},
-/obj/machinery/light/fueledstreet/blue/wall{
+/obj/structure/fake_machine/scomm/l,
+/obj/machinery/light/fueledstreet/orange/wall{
 	dir = 4
 	},
-/obj/structure/fake_machine/scomm/l,
 /turf/open/floor/churchrough/violet,
 /area/indoors/town/church/inquisition)
 "eLI" = (
@@ -10518,7 +10511,7 @@
 /turf/open/water/river,
 /area/outdoors/town/neighborhood/east)
 "hne" = (
-/obj/machinery/light/fueledstreet/blue/wall{
+/obj/machinery/light/fueledstreet/orange/wall{
 	dir = 1
 	},
 /turf/open/floor/church,
@@ -11793,6 +11786,14 @@
 /obj/item/inqarticles/indexer,
 /obj/item/inqarticles/indexer,
 /obj/item/inqarticles/indexer,
+/obj/item/reagent_containers/food/snacks/tallow/red{
+	pixel_y = 8;
+	pixel_x = 5
+	},
+/obj/item/reagent_containers/food/snacks/tallow/red{
+	pixel_y = 8;
+	pixel_x = 5
+	},
 /turf/open/floor/churchrough/violet,
 /area/indoors/town/church/inquisition)
 "hYD" = (
@@ -14277,7 +14278,7 @@
 /turf/open/floor/dirt/road,
 /area/outdoors/town/neighborhood)
 "jFV" = (
-/obj/machinery/light/fueledstreet/blue/wall{
+/obj/machinery/light/fueledstreet/orange/wall{
 	dir = 8
 	},
 /turf/open/water/bath,
@@ -14411,7 +14412,7 @@
 /turf/open/floor/tile,
 /area/indoors/town/shop)
 "jLx" = (
-/obj/machinery/light/fueledstreet/blue/wall{
+/obj/machinery/light/fueledstreet/orange/wall{
 	dir = 4
 	},
 /turf/open/floor/churchmarble,
@@ -17473,7 +17474,7 @@
 /obj/structure/fluff/walldeco/church/line{
 	dir = 8
 	},
-/obj/machinery/light/fueledstreet/blue/wall{
+/obj/machinery/light/fueledstreet/orange/wall{
 	dir = 1
 	},
 /turf/open/floor/churchrough/violet,
@@ -17640,10 +17641,10 @@
 /obj/structure/fluff/walldeco/church/line{
 	dir = 8
 	},
-/obj/machinery/light/fueledstreet/blue/wall{
+/obj/structure/fake_machine/scomm/r,
+/obj/machinery/light/fueledstreet/orange/wall{
 	dir = 8
 	},
-/obj/structure/fake_machine/scomm/r,
 /turf/open/floor/churchrough/violet,
 /area/indoors/town/church/inquisition)
 "lWk" = (
@@ -21146,10 +21147,6 @@
 	},
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/clinic_large)
-"ofh" = (
-/obj/structure/fluff/railing/wood,
-/turf/open/floor/cobble,
-/area/indoors/town/waterworks)
 "ofs" = (
 /obj/structure/chair/bench/church/mid{
 	dir = 1
@@ -22906,9 +22903,6 @@
 	},
 /turf/open/floor/church,
 /area/indoors/town/keep/magician/basement)
-"ppZ" = (
-/turf/open/openspace,
-/area/indoors/town/waterworks)
 "pqh" = (
 /obj/structure/closet/crate/crafted_closet{
 	lockid = "butler"
@@ -23465,7 +23459,7 @@
 /turf/open/floor/ruinedwood/turned,
 /area/under/town/basement/smugglers_den)
 "pIz" = (
-/obj/machinery/light/fueledstreet/blue/wall{
+/obj/machinery/light/fueledstreet/orange/wall{
 	dir = 8
 	},
 /turf/open/floor/churchmarble,
@@ -25625,7 +25619,7 @@
 	pixel_x = 5;
 	pixel_y = 4
 	},
-/obj/machinery/light/fueledstreet/blue/wall{
+/obj/machinery/light/fueledstreet/orange/wall{
 	dir = 1
 	},
 /turf/open/floor/church,
@@ -26269,7 +26263,7 @@
 /turf/open/floor/churchrough/purple,
 /area/indoors/town/church)
 "rJU" = (
-/obj/machinery/light/fueledstreet/blue/wall{
+/obj/machinery/light/fueledstreet/orange/wall{
 	dir = 8
 	},
 /turf/open/floor/hexstone,
@@ -29771,12 +29765,6 @@
 /obj/structure/fluff/wallclock,
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors/town/keep/magician)
-"ujk" = (
-/obj/structure/fluff/railing/wood{
-	dir = 8
-	},
-/turf/open/floor/ruinedwood/turned/darker,
-/area/indoors/town/waterworks)
 "ujO" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -61055,7 +61043,7 @@ vFY
 aaH
 aaH
 bDP
-cMu
+pGW
 fZn
 jMB
 bkS
@@ -61186,8 +61174,8 @@ hye
 hye
 pGW
 pGW
-ofh
-ppZ
+pGW
+aaH
 fZn
 hAQ
 ehR
@@ -61319,7 +61307,7 @@ hye
 lQa
 pGW
 pGW
-ujk
+aaH
 fZn
 nJH
 iNx
