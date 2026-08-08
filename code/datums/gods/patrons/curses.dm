@@ -164,13 +164,18 @@
 	. = ..()
 	hallucinations = null
 
+/datum/attribute_holder/sheet/iliope_curse
+	raw_attribute_list = list(
+		STAT_FORTUNE = -10,
+	)
+
 /datum/curse/iliope/on_gain(mob/living/carbon/human/owner)
 	. = ..()
-	GET_MOB_ATTRIBUTE_VALUE(owner, STAT_FORTUNE) -= 10
+	owner.attributes?.add_sheet(/datum/attribute_holder/sheet/iliope_curse)
 
 /datum/curse/iliope/on_loss(mob/living/carbon/human/owner)
 	. = ..()
-	GET_MOB_ATTRIBUTE_VALUE(owner, STAT_FORTUNE) += 10
+	owner.attributes.subtract_sheet(/datum/attribute_holder/sheet/iliope_curse)
 
 //////////////////////
 ///    ON LIFE     ///
