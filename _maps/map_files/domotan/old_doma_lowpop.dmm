@@ -1438,9 +1438,6 @@
 /turf/open/openspace,
 /area/indoors/town/noble_manor/yellow)
 "baA" = (
-/obj/structure/fluff/railing/wood{
-	dir = 4
-	},
 /obj/structure/chair/wood/alt{
 	dir = 8
 	},
@@ -79255,7 +79252,7 @@ dWF
 fny
 fny
 hye
-bQZ
+vzH
 aFv
 aFv
 iVf
@@ -79387,8 +79384,8 @@ bGf
 kxu
 kxu
 fXe
-baA
-cCg
+bQZ
+jgF
 cCg
 bVk
 aJX
@@ -79519,8 +79516,8 @@ fZm
 xcb
 lsL
 fXe
-aJX
-aJX
+baA
+sCT
 aJX
 aJX
 aJX
@@ -79651,8 +79648,8 @@ iDV
 hDY
 dUS
 hye
-aJX
-aJX
+cCg
+kOZ
 aJX
 aJX
 aJX
