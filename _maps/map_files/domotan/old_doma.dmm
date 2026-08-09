@@ -8346,7 +8346,7 @@
 /turf/open/floor/twig,
 /area/under/cavewet)
 "fIK" = (
-/turf/open/water/ocean/under,
+/turf/open/water/ocean/abyss/under,
 /area/under/underwater)
 "fIM" = (
 /obj/structure/fluff/railing/wood{
@@ -19248,7 +19248,7 @@
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/clinic_large)
 "mSQ" = (
-/turf/open/water/ocean/under,
+/turf/open/water/ocean/abyss/under,
 /area/under/cavewet)
 "mTe" = (
 /turf/open/floor/church,
@@ -28504,7 +28504,7 @@
 /turf/open/floor/sand/sandstone,
 /area/outdoors/town/neighborhood/west)
 "tqF" = (
-/turf/open/water/ocean/under,
+/turf/open/water/ocean/abyss/under,
 /area/under/town/sewer)
 "trc" = (
 /obj/machinery/light/fueled/torchholder/l,

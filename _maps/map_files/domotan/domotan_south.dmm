@@ -4,11 +4,6 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/wood,
 /area/under/town/basement)
-"al" = (
-/obj/structure/gravemarker,
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "am" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -41,13 +36,6 @@
 "au" = (
 /turf/closed/mineral/bedrock,
 /area/outdoors/woods/heavenscoast)
-"av" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "az" = (
 /obj/structure/bed/shit{
 	name = "makeshift bed"
@@ -282,13 +270,6 @@
 	},
 /turf/open/floor/churchmarble/violet,
 /area/indoors/shelter/woods)
-"dC" = (
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/obj/structure/closet/dirthole/grave,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "dF" = (
 /obj/structure/flora/tree/pine/dead{
 	icon_state = "dead2"
@@ -641,7 +622,6 @@
 /turf/open/floor/sand/sandstone,
 /area/indoors/shelter)
 "iW" = (
-/obj/structure/gravemarker,
 /obj/structure/closet/dirthole/grave,
 /turf/open/floor/dirt,
 /area/outdoors/woods/crossroads)
@@ -686,7 +666,6 @@
 /turf/closed/wall/mineral/stone/moss/red,
 /area/under/cave)
 "jm" = (
-/obj/structure/gravemarker,
 /obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt,
 /area/outdoors/woods/crossroads)
@@ -1711,11 +1690,6 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/cobble,
 /area/under/cave)
-"vp" = (
-/obj/structure/gravemarker,
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt,
-/area/outdoors/woods/crossroads)
 "vu" = (
 /obj/machinery/light/fueled/wallfire/candle/r,
 /turf/open/floor/carpet/royalblack,
@@ -1822,11 +1796,6 @@
 /obj/item/chair,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/shelter)
-"wU" = (
-/obj/structure/gravemarker,
-/obj/structure/closet/dirthole/grave,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "wW" = (
 /obj/structure/fluff/railing/tall/retaining,
 /obj/structure/fluff/railing/wood,
@@ -2343,7 +2312,6 @@
 /turf/open/floor/grass/yel,
 /area/outdoors/bog)
 "Cz" = (
-/obj/structure/gravemarker,
 /obj/structure/closet/dirthole/grave,
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
@@ -3091,13 +3059,6 @@
 /obj/structure/fluff/railing/wood,
 /turf/open/water/ocean,
 /area/indoors/shelter)
-"NP" = (
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "NQ" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/dirt,
@@ -3231,11 +3192,6 @@
 /obj/item/natural/stone,
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
-"Pm" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "Pr" = (
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "z2-southwest1-in";
@@ -49591,7 +49547,7 @@ jm
 sY
 iW
 sY
-vp
+iO
 Vy
 Vy
 iO
@@ -54982,7 +54938,7 @@ nE
 nE
 Lg
 Ho
-al
+rv
 WA
 tl
 Ci
@@ -55239,7 +55195,7 @@ nE
 nE
 Lg
 Ho
-al
+rv
 xY
 Ci
 Ci
@@ -55507,7 +55463,7 @@ Ci
 AT
 Ug
 BY
-al
+rv
 AT
 fG
 xU
@@ -56019,7 +55975,7 @@ UC
 Ci
 we
 AT
-NP
+rv
 Ug
 Ug
 AT
@@ -56267,7 +56223,7 @@ nE
 nE
 Lg
 UC
-NP
+rv
 xY
 Ci
 Wy
@@ -57285,13 +57241,13 @@ CJ
 Ho
 YB
 UC
-dC
+Ug
 BY
-av
+rv
 Ho
-dC
-av
-dC
+Ug
+rv
+Ug
 UC
 UC
 nE
@@ -57549,7 +57505,7 @@ ky
 CJ
 CJ
 Ci
-dC
+Ug
 Ho
 cw
 rv
@@ -58063,7 +58019,7 @@ Yf
 ky
 SU
 Ci
-Pm
+rv
 UC
 AI
 SY
@@ -58313,13 +58269,13 @@ CJ
 UC
 YB
 UC
-Pm
-wU
-al
+rv
+Ug
+rv
 UC
 BY
-wU
-al
+Ug
+rv
 Ho
 Ho
 na

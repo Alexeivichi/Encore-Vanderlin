@@ -730,8 +730,8 @@
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "gx" = (
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt,
+/obj/effect/mapping_helpers/structure/grave_spawner/_elementalist,
+/turf/open/floor/dirt/road,
 /area/outdoors/town)
 "gz" = (
 /obj/structure/fluff/railing/border{
@@ -1055,6 +1055,10 @@
 	},
 /turf/open/floor/dirt,
 /area/indoors/town/church)
+"kf" = (
+/obj/effect/mapping_helpers/structure/grave_spawner/t2/angros,
+/turf/open/floor/dirt/road,
+/area/outdoors/town)
 "kh" = (
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "z1-northeast1-out";
@@ -2426,8 +2430,7 @@
 /turf/open/floor/grass/yel,
 /area/outdoors/town)
 "Ax" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker,
+/obj/effect/mapping_helpers/structure/grave_spawner/_elementalist,
 /turf/open/floor/dirt,
 /area/outdoors/town)
 "Ay" = (
@@ -4253,7 +4256,7 @@
 /turf/open/floor/church/purple,
 /area/latejoin_area)
 "WA" = (
-/obj/structure/closet/dirthole/closed/loot,
+/obj/effect/mapping_helpers/structure/grave_spawner/t2/_elementalist,
 /turf/open/floor/dirt/road,
 /area/outdoors/town)
 "WB" = (
@@ -51443,9 +51446,9 @@ um
 RA
 QT
 Eq
+gx
 RA
-RA
-RA
+gx
 KF
 qt
 Hz
@@ -51688,9 +51691,9 @@ Hz
 Hz
 qt
 dL
-RA
+WA
 dL
-RA
+WA
 dL
 RA
 RA
@@ -51698,7 +51701,7 @@ XA
 FP
 fT
 RA
-gx
+oL
 oL
 RA
 xu
@@ -51945,11 +51948,11 @@ Hz
 Hz
 qt
 RA
-WA
 RA
-WA
+RA
+RA
 sw
-WA
+RA
 RA
 RA
 RA
@@ -52202,11 +52205,11 @@ Hz
 gi
 Dc
 Ra
+WA
 RA
+WA
 RA
-RA
-RA
-RA
+WA
 RA
 RA
 RA
@@ -52730,7 +52733,7 @@ aV
 aV
 aV
 oL
-Ax
+oL
 RA
 qt
 Hz
@@ -52973,11 +52976,11 @@ Hz
 OX
 MF
 RA
+WA
 RA
+WA
 RA
-RA
-RA
-RA
+WA
 eg
 oL
 cc
@@ -53230,11 +53233,11 @@ Hz
 Hz
 Dc
 RA
-WA
 RA
-WA
+RA
+RA
 sw
-WA
+RA
 RA
 RA
 aV
@@ -53746,9 +53749,9 @@ qt
 Eq
 QT
 Eq
-oL
+Ax
 Eq
-oL
+Ax
 oL
 sw
 aV
@@ -54012,7 +54015,7 @@ aV
 aV
 aV
 re
-gx
+oL
 aV
 KF
 RA
@@ -54527,9 +54530,9 @@ RA
 RA
 RA
 RA
+kf
 RA
-RA
-RA
+kf
 sw
 qt
 Hz
