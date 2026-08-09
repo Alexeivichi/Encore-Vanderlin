@@ -36,6 +36,7 @@
 	spawn_positions = 99
 	can_have_apprentices = TRUE
 	bypass_lastclass = TRUE
+	starting_wage = 30
 
 	allowed_races = RACES_NON_ANTAG
 	blacklisted_species = list(SPEC_ID_HALFLING)

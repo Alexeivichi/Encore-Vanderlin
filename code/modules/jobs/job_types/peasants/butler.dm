@@ -39,6 +39,7 @@
 	total_positions = 99
 	spawn_positions = 99
 	bypass_lastclass = TRUE
+	starting_wage = 35
 
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_races = RACES_BUTLER

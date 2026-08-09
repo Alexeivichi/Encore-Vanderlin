@@ -41,6 +41,7 @@
 	)
 	honorary = "Lord"
 	honorary_f = "Lady"
+	starting_wage = 35
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/steward
 
