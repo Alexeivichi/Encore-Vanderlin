@@ -5,7 +5,6 @@
 	random_exempt = TRUE
 	quirk_category = null
 	preview_render = FALSE
-	available = FALSE
 
 /datum/quirk/black_briar/on_spawn()
 	. = ..()
