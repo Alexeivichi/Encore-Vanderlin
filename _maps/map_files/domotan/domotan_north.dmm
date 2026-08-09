@@ -729,10 +729,6 @@
 "gp" = (
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
-"gx" = (
-/obj/effect/mapping_helpers/structure/grave_spawner/_elementalist,
-/turf/open/floor/dirt/road,
-/area/outdoors/town)
 "gz" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -1057,7 +1053,8 @@
 /area/indoors/town/church)
 "kf" = (
 /obj/effect/mapping_helpers/structure/grave_spawner/t2/angros,
-/turf/open/floor/dirt/road,
+/obj/structure/closet/dirthole/closed,
+/turf/open/floor/dirt,
 /area/outdoors/town)
 "kh" = (
 /obj/structure/fluff/traveltile{
@@ -2431,6 +2428,7 @@
 /area/outdoors/town)
 "Ax" = (
 /obj/effect/mapping_helpers/structure/grave_spawner/_elementalist,
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt,
 /area/outdoors/town)
 "Ay" = (
@@ -4257,7 +4255,8 @@
 /area/latejoin_area)
 "WA" = (
 /obj/effect/mapping_helpers/structure/grave_spawner/t2/_elementalist,
-/turf/open/floor/dirt/road,
+/obj/structure/closet/dirthole/closed,
+/turf/open/floor/dirt,
 /area/outdoors/town)
 "WB" = (
 /obj/item/natural/stone,
@@ -51446,9 +51445,9 @@ um
 RA
 QT
 Eq
-gx
+Ax
 RA
-gx
+Ax
 KF
 qt
 Hz

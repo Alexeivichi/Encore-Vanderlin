@@ -124,6 +124,12 @@ abstract types are automatically excluded.
 		/obj/item/clothing/armor/plate/iron/banded,
 		/obj/item/clothing/gloves/plate/iron/banded,
 
+		//graggar clothes rawr
+		/obj/item/clothing/face/facemask/steel/graggar,
+		/obj/item/clothing/gloves/plate/graggar,
+		/obj/item/clothing/gloves/plate/graggar/heavy,
+		/obj/item/clothing/cloak/graggar,
+
 		///all blackmeadow are pending blackmeadow features
 		/obj/item/clothing/cloak/kazengun,
 		/obj/item/clothing/neck/gorget/kazengun,

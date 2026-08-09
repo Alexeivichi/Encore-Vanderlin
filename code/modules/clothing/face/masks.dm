@@ -361,7 +361,7 @@
 
 /obj/item/clothing/face/facemask/steel/graggar
 	name = "vicious jawmask"
-	desc = "Shattered jaws, chipped teeth, sunken metal - fit for a skull of the same. It snarls in mimicry of the Sinistar's visage."
+	desc = "Shattered jaws, chipped teeth, sunken metal - fit for a skull of the same. It snarls in mimicry of a demon's visage."
 	icon_state = "graggarplatemask_heavy"
 	block2add = null
 	body_parts_covered = MOUTH|NOSE
