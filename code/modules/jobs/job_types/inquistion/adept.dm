@@ -13,7 +13,7 @@
 	spawn_positions = 99
 	bypass_lastclass = TRUE
 
-	allowed_patrons = /datum/patron/divine/centrist
+	allowed_patrons = list(/datum/patron/divine/centrist, /datum/patron/angros)
 	allowed_races = RACES_LESS_DISCRIMINATED
 
 	outfit = /datum/outfit/adept
@@ -37,17 +37,30 @@
 	beltr = /obj/item/storage/belt/pouch/coins/poor
 	pants = /obj/item/clothing/pants/trou/leather
 	shirt = /obj/item/clothing/armor/gambeson/light/colored/black
-	wrists = /obj/item/clothing/neck/psycross/silver
+
+/datum/outfit/adept/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+	. = ..()
+	switch(equipped_human.patron?.type)
+		if(/datum/patron/divine/centrist)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine
+		if(/datum/patron/angros)
+			wrists = /obj/item/clothing/neck/psycross/silver
 
 /datum/job/advclass/adept/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
-	GLOB.inquisition.add_member_to_school(spawned, "Order of the Venatari", -10, "Reformed Thief")
+	GLOB.inquisition.add_member_to_school(spawned, "Shadow Chapter", -10, "Reformed Thief")
 	add_verb(spawned, /mob/living/carbon/human/proc/suspect_heretics)
 	add_verb(spawned, /mob/living/carbon/human/proc/torture_victim)
 	add_verb(spawned, /mob/living/carbon/human/proc/faith_test)
 	add_verb(spawned, /mob/living/carbon/human/proc/view_inquisition)
 
 	spawned.mind?.teach_crafting_recipe(/datum/repeatable_crafting_recipe/reading/confessional)
+
+	var/holder = spawned.patron?.devotion_holder
+	if(holder)
+		var/datum/devotion/devotion = new holder()
+		devotion.make_churchling()
+		devotion.grant_to(spawned)
 
 /datum/job/advclass/adept
 	exp_types_granted = list(EXP_TYPE_INQUISITION, EXP_TYPE_COMBAT)

@@ -61,7 +61,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 		return
 	if(HAS_TRAIT(user, TRAIT_INQUISITION))
 		if(!coin_loaded && !inqcoins)
-			to_chat(user, span_notice("It needs a Marque."))
+			to_chat(user, span_notice("It needs a Denarius."))
 			return
 		user.changeNext_move(CLICK_CD_MELEE)
 		display_marquette(usr)
@@ -71,10 +71,10 @@ GLOBAL_LIST_EMPTY(letters_sent)
 	. += span_info("Load a coin inside, then right click to send a letter.")
 	. += span_info("Left click with a paper to send a prewritten letter for free.")
 	if(HAS_TRAIT(user, TRAIT_INQUISITION))
-		. += span_info("<br>The Oratorium's reliquary can be accessed via a secret compartment fitted within the speaking machina. Load a Marque to access it.")
+		. += span_info("<br>The Katholikon's reliquary can be accessed via a secret compartment fitted within the speaking machina. Load a Denarius to access it.")
 
 		. += span_info("You can send arrival slips, accusation slips, fully loaded INDEXERs or confessions here.")
-		. += span_info("Properly sign them. Include an INDEXER where needed. Stamp them for two additional Marques.")
+		. += span_info("Properly sign them. Include an INDEXER where needed. Stamp them for two additional Denarius.")
 
 /obj/structure/fake_machine/mail/attack_hand_secondary(mob/user, list/modifiers)
 	. = ..()
@@ -281,7 +281,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 /obj/structure/fake_machine/mail/proc/handle_broken_mirror(obj/item/inqarticles/bmirror/mirror, mob/user)
 	if(mirror.broken && !mirror.bloody)
 		visible_message(span_warning("[user] sends something."))
-		budget2change(2, user, "MARQUE")
+		budget2change(2, user, "DENARIUS")
 		qdel(mirror)
 		GLOB.vanderlin_round_stats[STATS_MARQUES_MADE] += 2
 		playsound(src, 'sound/misc/otavanlament.ogg', 100, FALSE, -1)
@@ -307,7 +307,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 		is_selfreport = TRUE
 
 	// Check if confessor is actually guilty
-	if(HAS_TRAIT(confession.signee, TRAIT_CABAL))
+	if(HAS_TRAIT(confession.signee, TRAIT_CABAL_CHUD))
 		is_correct = TRUE
 
 	if(confession.signee.name in GLOB.excommunicated_players)
@@ -360,21 +360,21 @@ GLOBAL_LIST_EMPTY(letters_sent)
 	else if(confession.paired && !is_indexed && !is_correct)
 		marque_value = 2
 		GLOB.vanderlin_round_stats[STATS_MARQUES_MADE] += 2
-		budget2change(marque_value, user, "MARQUE")
+		budget2change(marque_value, user, "DENARIUS")
 	else if(is_correct)
 		if(confession.paired && !is_indexed)
 			marque_value += 2
 		if(is_accused)
 			marque_value -= 4
 		if(confession.signee?.mind?.has_antag_datum(/datum/antagonist/vampire/lord/daewalker))
-			to_chat(user, SPAN_GOD_ANGROS("Wunderbar. This was no small task to undertake.\
-			\nThe House of Thronleer wishes you to speak. Finish your duties and return immediately.\
+			to_chat(user, SPAN_GOD_ANGROS("Fascinating. This was no small task to undertake.\
+			\nThe Grandmaster wishes you to speak. Finish your duties and return immediately.\
 			\nCongratulations."))
 			marque_value += 50
 
 		GLOB.vanderlin_round_stats[STATS_MARQUES_MADE] += marque_value
 		user.inquisition_position.merits += CEILING(marque_value * 0.5, 1)
-		budget2change(marque_value, user, "MARQUE")
+		budget2change(marque_value, user, "DENARIUS")
 
 	// Accept confession
 	cleanup_confession(confession, user)
@@ -410,7 +410,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 			user.put_in_hands(replacement)
 		else
 			var/marque_value = indexer.cursedblood * 2 + 2
-			budget2change(marque_value, user, "MARQUE")
+			budget2change(marque_value, user, "DENARIUS")
 			GLOB.vanderlin_round_stats[STATS_MARQUES_MADE] += marque_value
 			qdel(indexer)
 			visible_message(span_warning("[user] sends something."))
@@ -445,7 +445,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 			var/obj/item/inqarticles/indexer/replacement = new /obj/item/inqarticles/indexer(get_turf(user))
 			user.put_in_hands(replacement)
 		else
-			budget2change(2, user, "MARQUE")
+			budget2change(2, user, "DENARIUS")
 			GLOB.vanderlin_round_stats[STATS_MARQUES_MADE] += 2
 			user.inquisition_position.merits += 1
 			qdel(indexer)
@@ -457,8 +457,8 @@ GLOBAL_LIST_EMPTY(letters_sent)
 	if(!slip.signee || !slip.signed)
 		return
 
-	message_admins("INQ ARRIVAL: [user.real_name] ([user.ckey]) has just arrived as a [user.job], earning [slip.marquevalue] Marques.")
-	log_game("INQ ARRIVAL: [user.real_name] ([user.ckey]) has just arrived as a [user.job], earning [slip.marquevalue] Marques.")
+	message_admins("INQ ARRIVAL: [user.real_name] ([user.ckey]) has just arrived as a [user.job], earning [slip.marquevalue] Denarii.")
+	log_game("INQ ARRIVAL: [user.real_name] ([user.ckey]) has just arrived as a [user.job], earning [slip.marquevalue] Denarii.")
 
 	budget2change(slip.marquevalue, user, "MARQUE")
 	GLOB.vanderlin_round_stats[STATS_MARQUES_MADE] += slip.marquevalue
@@ -491,7 +491,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 		is_selfreport = TRUE
 
 	// Check if subject is cabal member
-	if(HAS_TRAIT(accusation.paired.subject, TRAIT_CABAL))
+	if(HAS_TRAIT(accusation.paired.subject, TRAIT_CABAL_CHUD))
 		is_correct = TRUE
 
 	var/mob/living/subject = accusation.paired.subject?.resolve()
@@ -561,7 +561,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 		if(subject?.mind?.has_antag_datum(/datum/antagonist/vampire/lord/daewalker))
 			to_chat(user, SPAN_GOD_ANGROS("The Daewalker is among you?! Get their confession immediately, my child. You will be well rewarded for your efforts."))
 			marque_value += 6
-		budget2change(marque_value, user, "MARQUE")
+		budget2change(marque_value, user, "DENARIUS")
 		GLOB.vanderlin_round_stats[STATS_MARQUES_MADE] += marque_value
 		user.inquisition_position.merits += CEILING(marque_value * 0.5, 1)
 
@@ -805,13 +805,13 @@ GLOBAL_LIST_EMPTY(letters_sent)
 
 /obj/structure/fake_machine/mail/proc/display_marquette(mob/user)
 	var/contents
-	contents = "<center>  THE ORATORIUM'S RELIQUARY  <BR>"
-	contents += "ERADICATE HERESY, SO THAT THE ELEMENTS MAY ENDURE <BR>"
+	contents = "<center>  THE KATHOLIKON'S RELIQUARY  <BR>"
+	contents += "ERADICATE HERESY, SO THAT THE BALANCE MAY ENDURE <BR>"
 	if(HAS_TRAIT(user, TRAIT_PURITAN))
-		contents += "  <a href='?src=[REF(src)];locktoggle=1]'> PURITAN'S LOCK: [inqonly ? "YES":"NO"]</a>  <BR>"
+		contents += "  <a href='?src=[REF(src)];locktoggle=1]'> INQUISITOR'S LOCK: [inqonly ? "YES":"NO"]</a>  <BR>"
 	else
-		contents += "  PURITAN'S LOCK: [inqonly ? "YES":"NO"]  <BR>"
-	contents += "<a href='?src=[REF(src)];eject=1'>MARQUES LOADED: [inqcoins]</a><BR>"
+		contents += "  INQUISITOR'S LOCK: [inqonly ? "YES":"NO"]  <BR>"
+	contents += "<a href='?src=[REF(src)];eject=1'>DENARIUS LOADED: [inqcoins]</a><BR>"
 
 	if(cat_current == "1")
 		contents += "<BR> <table style='width: 100%' line-height: 40px;'>"
@@ -861,7 +861,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 			return
 		coin_loaded = FALSE
 		update_appearance()
-		budget2change(inqcoins, usr, "MARQUE")
+		budget2change(inqcoins, usr, "DENARIUS")
 		inqcoins = 0
 
 	if(href_list["changecat"])

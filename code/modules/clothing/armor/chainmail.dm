@@ -51,7 +51,7 @@
 
 /obj/item/clothing/armor/chainmail/hauberk/fluted
 	name = "fluted hauberk"
-	desc = "A steel maille, of a pattern popularized by Angrosian templars."
+	desc = "A steel maille, of a pattern popularized by Aelondan templars."
 	icon_state = "ornatehauberk"
 	item_state = "ornatehauberk"
 

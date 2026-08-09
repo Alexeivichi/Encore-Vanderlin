@@ -5,7 +5,6 @@
 	icon = 'icons/roguetown/misc/machines.dmi'
 	icon_state = "headeater"
 	density = FALSE
-	lock = /datum/lock/key/hailer
 	blade_dulling = DULLING_BASH
 	SET_BASE_PIXEL(0, 32)
 
@@ -18,9 +17,9 @@
 /obj/structure/fake_machine/headeater/attackby(obj/item/I, mob/user, list/modifiers)
 	if(!is_type_in_list(I, list(/obj/item/natural/head, /obj/item/bodypart/head)))
 		return ..()
-	if(locked())
+/*	if(locked())
 		to_chat(user, span_warning("It's locked. Of course."))
-		return
+		return */
 	if(I.sellprice <= 0)
 		to_chat(user, span_warning("[I] isn't worth selling."))
 		return

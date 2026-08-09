@@ -287,13 +287,13 @@
 	desc = "A writ of arrival, printed on churchmen's parchment: one signed not in ink, but blood. Intended for one person and one person only. Press the slip against one's own weeping wounds in order to obtain a fitting signature. Once done, it is ready to be mailed back to the Katholikos."
 
 /obj/item/paper/inqslip/arrival/ortho
-	marquevalue = 4
+	marquevalue = 8
 
 /obj/item/paper/inqslip/arrival/inq
-	marquevalue = 10
+	marquevalue = 12
 
 /obj/item/paper/inqslip/arrival/abso
-	marquevalue = 6
+	marquevalue = 10
 
 /obj/item/paper/inqslip/proc/attemptsign(mob/user, mob/living/carbon/human/M)
 	if(tgui_alert(user, "SIGN THE SLIP?", "CONFIRM OR DENY", list("YES", "NO")) != "NO")

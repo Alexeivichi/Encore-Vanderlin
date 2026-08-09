@@ -13,7 +13,9 @@
 		/datum/attribute/skill/labor/fishing = 30,
 		/datum/attribute/skill/misc/swimming = 30,
 		/datum/attribute/skill/craft/crafting = 30,
-		/datum/attribute/skill/magic/holy = 20
+		/datum/attribute/skill/magic/holy = 50,
+		/datum/attribute/skill/combat/axesmaces = 20, //Absolver here isn't enforced Pacifist because it's extremely unfun. Still not great at combat though, but you should be able to at least defend yourself if you're in a thing called the Inquisition.
+		/datum/attribute/skill/combat/shields = 20,  //To protect themselves.
 	)
 
 /datum/job/absolver
@@ -24,8 +26,8 @@
 	total_positions = 1 // THE ONE.
 	spawn_positions = 1
 	allowed_races = RACES_LESS_DISCRIMINATED
-	allowed_patrons = list(/datum/patron/divine/centrist)
-	tutorial = "The Inquisitor's right hand, you serve as the orthidoxy's cleric, providing miracles to bolster "
+	allowed_patrons = list(/datum/patron/divine/centrist, /datum/patron/angros)
+	tutorial = "The Inquisitor's right hand, you serve as the cleric to the Katholikon's Inquisition, providing miracles to bolster and aid, and to serve as the spiritual leader to your flock. Ensure the word of the Elementals is followed, and there will be no cause for upset."
 	selection_color = JCOLOR_INQUISITION
 	outfit = /datum/outfit/absolver
 	bypass_lastclass = TRUE
@@ -47,6 +49,7 @@
 		TRAIT_INQUISITION,
 		TRAIT_SILVER_BLESSED,
 		TRAIT_FOREIGNER,
+		TRAIT_ANGROSIAN_GRIT,
 	)
 
 	spells = list(
@@ -70,16 +73,24 @@
 
 /datum/job/absolver/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
-	GLOB.inquisition.add_member_to_school(spawned, "Sanctae", 0, "Absolver")
+	GLOB.inquisition.add_member_to_school(spawned, "Clerical Chapter", 0, "Absolver")
 
 	add_verb(spawned, /mob/living/carbon/human/proc/view_inquisition)
 
+	var/holder = spawned.patron?.devotion_holder
+	if(holder)
+		var/datum/devotion/devotion = new holder()
+		devotion.make_absolver()
+		devotion.grant_to(spawned)
+
+/*
 	spawned.hud_used?.shutdown_bloodpool()
 	spawned.hud_used?.initialize_bloodpool()
 	spawned.hud_used?.bloodpool.set_fill_color("#dcdddb")
 	spawned.hud_used?.bloodpool?.name = "Aspects' Grace: [spawned.bloodpool]"
 	spawned.hud_used?.bloodpool?.desc = "Devotion: [spawned.bloodpool]/[spawned.maxbloodpool]"
 	spawned.maxbloodpool = 1000
+*/
 
 	var/datum/species/species = spawned.dna?.species
 	if(!species)
@@ -92,10 +103,10 @@
 	wrists = /obj/item/clothing/wrists/bracers/psythorns
 	gloves = /obj/item/clothing/gloves/leather/otavan/inqgloves
 	beltr = /obj/item/flashlight/flare/torch/lantern/psycenser
-	beltl = /obj/item/storage/belt/pouch/coins/rich
-	neck = /obj/item/clothing/neck/psycross/silver
+	beltl = /obj/item/weapon/mace/cudgel/psy
 	cloak = /obj/item/clothing/cloak/absolutionistrobe
 	backr = /obj/item/storage/backpack/satchel/otavan
+	backl = /obj/item/weapon/shield/tower/metal
 	belt = /obj/item/storage/belt/leather
 	pants = /obj/item/clothing/pants/trou/leather/advanced/colored/duelpants
 	armor = /obj/item/clothing/armor/cuirass/angros
@@ -105,11 +116,19 @@
 	head = /obj/item/clothing/head/helmet/heavy/absolver
 	ring = /obj/item/clothing/ring/signet/silver
 	backpack_contents = list(
-		/obj/item/book/bibble/psy = 1,
 		/obj/item/natural/bundle/cloth = 2,
 		/obj/item/reagent_containers/glass/bottle/healthpot = 2,
 		/obj/item/paper/inqslip/arrival/abso = 1,
 		/obj/item/needle = 1,
-		/obj/item/natural/worms/leech = 1,
-		/obj/item/key/inquisition = 1,
+		/obj/item/storage/belt/pouch/coins/rich = 1,
+		/obj/item/storage/keyring/inquisitor = 1,
 		)
+
+/datum/outfit/absolver/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+	. = ..()
+	switch(equipped_human.patron?.type)
+		if(/datum/patron/divine/centrist)
+			neck = /obj/item/clothing/neck/psycross/silver/divine
+		if(/datum/patron/angros)
+			neck = /obj/item/clothing/neck/psycross/silver
+

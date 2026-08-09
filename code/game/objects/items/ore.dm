@@ -322,7 +322,7 @@
 
 /obj/item/ingot/silverblessed
 	name = "blessed silver bar"
-	desc = "This bar radiates a divine purity. Treasured by the realms and commonly found in Unsundered weaponry."
+	desc = "This bar radiates a divine purity. Treasured by the realms and commonly found in Katholikon weaponry."
 	icon_state = "ingotsilvblessed"
 	melting_material = /datum/material/silver
 	sellprice = 100
@@ -330,7 +330,7 @@
 
 /obj/item/ingot/silverblessed/bullion
 	name = "blessed silver bullion"
-	desc = "This bar radiates a divine purity. The Psycross and the words cast into the surface denotes the Oratorium Throni Vacui as the point of its origin."
+	desc = "This bar radiates a divine purity. The sigil of the Katholikon and the words cast into the surface denotes Havel Sectus as the point of its origin."
 	icon_state = "ingotsilvblessed_psy"
 	melting_material = /datum/material/silver
 	sellprice = 100
