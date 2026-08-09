@@ -59,7 +59,7 @@
 		/datum/attribute/skill/labor/fishing = 20,
 		/datum/attribute/skill/misc/swimming = 20
 	)
-/datum/attribute_holder/sheet/job/acolyte/patron/necra
+/datum/attribute_holder/sheet/job/acolyte/patron/valdala
 	raw_attribute_list = list(
 	/datum/attribute/skill/craft/masonry = 20
 	)

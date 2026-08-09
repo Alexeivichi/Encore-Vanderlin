@@ -161,7 +161,7 @@
 
 #define SPAN_GOD_GENERIC(str) ("<span class='god_generic'>" + str + "</span>")
 #define SPAN_GOD_VISIRES(str) ("<span class='god_visires'>" + str + "</span>")
-#define SPAN_GOD_NOC(str) ("<span class='god_noc'>" + str + "</span>")
+#define SPAN_GOD_AKAN(str) ("<span class='god_akan'>" + str + "</span>")
 #define SPAN_GOD_MJALLIDHORN(str) ("<span class='god_mjallidhorn'>" + str + "</span>")
 #define SPAN_GOD_GANI(str) ("<span class='god_gani'>" + str + "</span>")
 #define SPAN_GOD_MORDSOL(str) ("<span class='god_mordsol'>" + str + "</span>")

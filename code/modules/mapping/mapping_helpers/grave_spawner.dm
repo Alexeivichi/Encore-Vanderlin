@@ -203,25 +203,25 @@
 	spawn_headstone = TRUE
 	spawn_gravefence = TRUE
 
-// TENNITE
-/obj/effect/mapping_helpers/structure/grave_spawner/_tennite
+// ELEMENTALISTS
+/obj/effect/mapping_helpers/structure/grave_spawner/_elementalist
 	patrons_allowed = UNDIVIDED_TEMPLE_PATRONS
 
-/obj/effect/mapping_helpers/structure/grave_spawner/t2/_tennite
+/obj/effect/mapping_helpers/structure/grave_spawner/t2/_elementalist
 	patrons_allowed = UNDIVIDED_TEMPLE_PATRONS
 
-/obj/effect/mapping_helpers/structure/grave_spawner/t3/_tennite
+/obj/effect/mapping_helpers/structure/grave_spawner/t3/_elementalist
 	patrons_allowed = UNDIVIDED_TEMPLE_PATRONS
 
-// PSYDON
-/obj/effect/mapping_helpers/structure/grave_spawner/psydon
-	patrons_allowed = list(/datum/patron/psydon, /datum/patron/psydon/extremist)
+// ANGROS
+/obj/effect/mapping_helpers/structure/grave_spawner/angros
+	patrons_allowed = list(/datum/patron/angros, /datum/patron/angros/extremist)
 
-/obj/effect/mapping_helpers/structure/grave_spawner/t2/psydon
-	patrons_allowed = list(/datum/patron/psydon, /datum/patron/psydon/extremist)
+/obj/effect/mapping_helpers/structure/grave_spawner/t2/angros
+	patrons_allowed = list(/datum/patron/angros, /datum/patron/angros/extremist)
 
-/obj/effect/mapping_helpers/structure/grave_spawner/t3/psydon
-	patrons_allowed = list(/datum/patron/psydon, /datum/patron/psydon/extremist)
+/obj/effect/mapping_helpers/structure/grave_spawner/t3/angros
+	patrons_allowed = list(/datum/patron/angros, /datum/patron/angros/extremist)
 
 // GREAT HUNT
 /obj/effect/mapping_helpers/structure/grave_spawner/great_hunt

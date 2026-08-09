@@ -27,66 +27,66 @@
 	output = /obj/item/gravedecor/headstone/obelisk
 	craftdiff = 3
 
-/datum/repeatable_crafting_recipe/gravemaking/psydonic_headstone
-	name = "psydonic headstone"
+/datum/repeatable_crafting_recipe/gravemaking/angrosian_headstone
+	name = "angrosian headstone"
 	requirements = list(
 		/obj/item/natural/stoneblock = 2,
 	)
 	attacked_atom = /obj/item/natural/stoneblock
 	starting_atom  = /obj/item/weapon/chisel
-	output = /obj/item/gravedecor/headstone/psydon
+	output = /obj/item/gravedecor/headstone/angros
 	craftdiff = 3
 
-/datum/repeatable_crafting_recipe/gravemaking/pestra_headstone
-	name = "pestran headstone"
+/datum/repeatable_crafting_recipe/gravemaking/erdite_headstone
+	name = "erdite headstone"
 	requirements = list(
 		/obj/item/natural/stoneblock = 2,
 	)
 	attacked_atom = /obj/item/natural/stoneblock
 	starting_atom  = /obj/item/weapon/chisel
-	output = /obj/item/gravedecor/headstone/pestra
+	output = /obj/item/gravedecor/headstone/erdl
 	craftdiff = 3
 
-/datum/repeatable_crafting_recipe/gravemaking/abyssorite_headstone
-	name = "abyssorite headstone"
+/datum/repeatable_crafting_recipe/gravemaking/mjallidhorn_headstone
+	name = "mjallidhorn headstone"
 	requirements = list(
 		/obj/item/natural/stoneblock = 2,
 	)
 	attacked_atom = /obj/item/natural/stoneblock
 	starting_atom  = /obj/item/weapon/chisel
-	output = /obj/item/gravedecor/headstone/abyssor
+	output = /obj/item/gravedecor/headstone/mjallidhorn
 	craftdiff = 3
 
-/datum/repeatable_crafting_recipe/gravemaking/necran_headstone
-	name = "necran headstone"
+/datum/repeatable_crafting_recipe/gravemaking/valdala_headstone
+	name = "valdalan headstone"
 	requirements = list(
 		/obj/item/natural/stoneblock = 2,
 		/obj/item/natural/glass = 1,
 	)
 	attacked_atom = /obj/item/natural/stoneblock
 	starting_atom  = /obj/item/weapon/chisel
-	output = /obj/item/gravedecor/headstone/necra
+	output = /obj/item/gravedecor/headstone/valdala
 	craftdiff = 3
 
-/datum/repeatable_crafting_recipe/gravemaking/malumite_headstone
-	name = "malumite headstone"
+/datum/repeatable_crafting_recipe/gravemaking/golerkanh_headstone
+	name = "goler kanh headstone"
 	requirements = list(
 		/obj/item/natural/stoneblock = 2,
 		/obj/item/ingot/iron = 1,
 	)
 	attacked_atom = /obj/item/natural/stoneblock
 	starting_atom  = /obj/item/weapon/chisel
-	output = /obj/item/gravedecor/headstone/malum
+	output = /obj/item/gravedecor/headstone/golerkanh
 	craftdiff = 3
 
-/datum/repeatable_crafting_recipe/gravemaking/eoran_headstone
-	name = "eoran headstone"
+/datum/repeatable_crafting_recipe/gravemaking/pomette_headstone
+	name = "pomettic headstone"
 	requirements = list(
 		/obj/item/natural/stoneblock = 2,
 	)
 	attacked_atom = /obj/item/natural/stoneblock
 	starting_atom  = /obj/item/weapon/chisel
-	output = /obj/item/gravedecor/headstone/eora
+	output = /obj/item/gravedecor/headstone/pomette
 	craftdiff = 3
 
 /datum/repeatable_crafting_recipe/gravemaking/hunt_headstone

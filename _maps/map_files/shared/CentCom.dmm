@@ -712,7 +712,7 @@
 /turf/open/floor/herringbone,
 /area/indoors/vampire_manor)
 "cm" = (
-/obj/structure/closet/dirthole/closed/loot,
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt,
 /area/outdoors/woods_safe)
 "co" = (
@@ -1465,7 +1465,7 @@
 /turf/open/floor/cobble,
 /area/indoors)
 "gd" = (
-/obj/structure/closet/dirthole/closed/loot,
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt/road,
 /area/outdoors/woods_safe)
 "ge" = (
@@ -2267,7 +2267,7 @@
 /area/outdoors/bog/inhumen_camp)
 "lG" = (
 /obj/structure/flora/ausbushes/ywflowers,
-/obj/structure/closet/dirthole/closed/loot,
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt,
 /area/outdoors/bog/inhumen_camp)
 "lH" = (
@@ -5040,8 +5040,7 @@
 /turf/closed/wall/mineral/craftstone,
 /area/indoors/vampire_manor)
 "Ek" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker,
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt/road,
 /area/outdoors/woods_safe)
 "El" = (
@@ -5866,7 +5865,7 @@
 /area/indoors/lich)
 "Jy" = (
 /obj/structure/flora/ausbushes/brflowers,
-/obj/structure/closet/dirthole/closed/loot,
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt,
 /area/outdoors/bog/inhumen_camp)
 "JF" = (
@@ -7679,7 +7678,7 @@
 /turf/open/floor/ruinedwood/darker,
 /area/outdoors/bog/inhumen_camp)
 "VP" = (
-/obj/structure/closet/dirthole/closed/loot,
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt,
 /area/outdoors/bog/inhumen_camp)
 "VQ" = (

@@ -93,7 +93,7 @@
 		if("Visires")
 			atmosphere_message = SPAN_GOD_VISIRES("Your body is filled with a sizzling heat. In this overpowering sensation, a moment of clarity hits you. In that silence, your attention is drawn singularly to a raspy, feminine voice that speaks from within you. It burns powerfully with every word She speaks.")
 		if("Akan")
-			atmosphere_message = SPAN_GOD_NOC("Symbols dance in the corner of your vision. For a moment, you are enlightened.. Your mind is imprinted with runes. You are able to decipher the voice of a man. Formal, contemplative, perhaps a little haughty even.")
+			atmosphere_message = SPAN_GOD_AKAN("Symbols dance in the corner of your vision. For a moment, you are enlightened.. Your mind is imprinted with runes. You are able to decipher the voice of a man. Formal, contemplative, perhaps a little haughty even.")
 		if("Mjallidhorn")
 			atmosphere_message = SPAN_GOD_MJALLIDHORN("The rumbling of clouds, the crashing of waves, the smell of salt. You are flooded with a sensation that you could only describe as being lost at sea… the crackling lightning above gives way to a voice. Disgruntled, weary and drowned, the words that you can make out are spoken in a gruff tone.")
 		if("Gani")
