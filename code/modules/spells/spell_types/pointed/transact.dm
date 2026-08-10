@@ -60,19 +60,19 @@
 	if(!QDELETED(held_item))
 		qdel(held_item) // we might already be qdeleting from mob holder
 
-/datum/status_effect/buff/healing/matthioshealing
+/datum/status_effect/buff/healing/deceivershealing
 	id = "healing"
-	alert_type = /atom/movable/screen/alert/status_effect/buff/matthioshealing
+	alert_type = /atom/movable/screen/alert/status_effect/buff/deceivershealing
 	examine_text = "SUBJECTPRONOUN is bathed in a restorative aura!"
 	duration = 10 SECONDS
 	healing_on_tick = 1
 	outline_colour = "#c42424"
 
-/datum/status_effect/buff/healing/matthioshealing/tick()
+/datum/status_effect/buff/healing/deceivershealing/tick()
 	. = ..()
 	owner.adjust_blood_volume(10, maximum = BLOOD_VOLUME_NORMAL)
 
-/atom/movable/screen/alert/status_effect/buff/matthioshealing
+/atom/movable/screen/alert/status_effect/buff/deceivershealing
 	name = "Healing Miracle"
 	desc = "Strange Divine intervention relieves me of my ailments."
 	icon_state = "buff"

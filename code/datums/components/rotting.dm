@@ -54,7 +54,7 @@
 		return
 
 	if(!is_zombie && amount > 2 MINUTES)
-		if(!has_world_trait(/datum/world_trait/necra_requiem) && (!is_in_roguetown(C) || has_world_trait(/datum/world_trait/zizo_defilement)))
+		if(!has_world_trait(/datum/world_trait/valdala_requiem) && (!is_in_roguetown(C) || has_world_trait(/datum/world_trait/envy_defilement)))
 			if(istype(C.loc, /obj/structure/closet/dirthole) || istype(C.loc, /obj/structure/closet/crate/coffin))
 				if(amount > 3 MINUTES)
 					C.zombie_check()

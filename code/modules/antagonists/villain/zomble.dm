@@ -178,7 +178,7 @@
 	var/mob/living/carbon/human/zombie = mob_override || owner.current
 	zombie.bloodpool = 0  // Deadites have no vitae to drain from
 	zombie.cmode_music = 'sound/music/cmode/combat_weird.ogg'
-	zombie.set_patron(/datum/patron/inhumen/zizo)
+	zombie.set_patron(/datum/patron/inhumen/archdevils)
 	zombie.mob_biotypes |= MOB_UNDEAD
 	zombie.add_faction(FACTION_UNDEAD)
 	zombie.remove_faction(list(FACTION_TOWN, FACTION_NEUTRAL))

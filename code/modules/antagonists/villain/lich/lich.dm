@@ -130,7 +130,7 @@
 	L.skeletonize(FALSE)
 
 	L.equipOutfit(/datum/outfit/lich)
-	L.set_patron(/datum/patron/inhumen/zizo)
+	L.set_patron(/datum/patron/inhumen/archdevils)
 
 	L.cmode_music = 'sound/music/cmode/antag/CombatLich.ogg'
 	if(prob(10))
