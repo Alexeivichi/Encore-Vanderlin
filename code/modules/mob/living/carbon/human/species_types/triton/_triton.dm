@@ -37,7 +37,7 @@
 	default_color = "9cc2e2"
 	use_skintones = TRUE
 
-	species_traits = list(NO_UNDERWEAR, HAIR, FACEHAIR, OLDGREY)
+	species_traits = list(NO_UNDERWEAR, HAIR, FACEHAIR, OLDGREY, CUSCOLORS)
 	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_NODROWN, TRAIT_SWIMMER, TRAIT_FISHFACE)
 	inherent_traits_f = list(TRAIT_STRONGBITE)
 	inherent_sheet = /datum/attribute_holder/sheet/job/species/triton
@@ -144,7 +144,7 @@
 	var/datum/action/innate/bioluminescence/action = locate() in C.actions
 	if(action)
 		qdel(action)
-		
+
 /datum/species/triton/check_roundstart_eligible()
 	return TRUE
 
@@ -197,13 +197,13 @@
 	. = ..()
 	if(!owner)
 		return FALSE
-		
+
 	if(!QDELETED(our_light))
 		our_light.set_light_on(TRUE)
 		our_light.update_light()
 	else
 		our_light = new /obj/effect/dummy/lighting_obj/moblight(owner, "#66ddff", 7, 1)
-		
+
 	owner.visible_message(span_notice("[owner]'s body begins to glow with a deep blue bioluminescent light!"))
 	active = TRUE
 

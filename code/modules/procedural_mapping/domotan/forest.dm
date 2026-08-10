@@ -58,7 +58,6 @@
 							/obj/structure/essence_node = 0.1,
 							/obj/structure/flora/grass/pyroclasticflowers = 1,
 							/obj/structure/chair/bench/ancientlog = 0.25,
-							/obj/item/restraints/legcuffs/beartrap/armed/camouflage = 0.1,
 							/obj/item/natural/stone = 2,
 							/obj/item/natural/rock = 4,
 							/obj/item/grown/log/tree/stick = 6)
@@ -88,7 +87,6 @@
 							/obj/structure/essence_node = 0.1,
 							/obj/structure/flora/grass/pyroclasticflowers = 1,
 							/obj/structure/chair/bench/ancientlog = 5,
-							/obj/item/restraints/legcuffs/beartrap/armed/camouflage = 0.1,
 							/obj/item/natural/stone = 8,
 							/obj/item/natural/rock = 2,
 							/obj/item/grown/log/tree/stick = 8)
@@ -137,8 +135,7 @@
 							/obj/item/natural/stone = 8,
 							/obj/item/natural/rock = 4,
 							/obj/item/grown/log/tree/stick = 8,
-							/obj/structure/closet/dirthole/closed= 1,
-							/obj/item/restraints/legcuffs/beartrap/armed/camouflage=0.5)
+							/obj/structure/closet/dirthole/closed= 1)
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
 							/area/outdoors/basin/safe,

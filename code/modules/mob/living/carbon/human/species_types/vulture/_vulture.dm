@@ -35,7 +35,7 @@
 
 	hygiene_mod = 1.25
 
-	species_traits = list(NO_UNDERWEAR, HAIR, OLDGREY)
+	species_traits = list(NO_UNDERWEAR, HAIR, OLDGREY, CUSCOLORS)
 	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_DEADNOSE, TRAIT_NASTY_EATER)
 	inherent_sheet = /datum/attribute_holder/sheet/job/species/medicator
 

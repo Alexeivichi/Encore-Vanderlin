@@ -30,7 +30,7 @@
 	skin_tone_wording = "Heritage"
 	default_color = "FFFFFF"
 
-	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)
+	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY, CUSCOLORS)
 	inherent_traits = list(TRAIT_NOMOBSWAP)
 	inherent_sheet = /datum/attribute_holder/sheet/job/species/harpy
 

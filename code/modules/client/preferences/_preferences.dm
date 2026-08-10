@@ -1587,8 +1587,11 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 				if("eyes")
 					eye_color = random_eye_color()
 				if("s_tone")
-					var/list/skins = pref_species.get_skin_list()
-					skin_tone = skins[pick(skins)]
+					if(CUSCOLORS in pref_species.species_traits)
+						skin_tone = random_color()
+					else
+						var/list/skins = pref_species.get_skin_list()
+						skin_tone = skins[pick(skins)]
 				if("species")
 					random_species()
 				if("all")
@@ -1880,10 +1883,17 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 						to_chat(user, span_notice("Successfully updated OOC Extra with [info]"))
 						log_game("[user] has set their OOC Extra to '[ooc_extra_link]'.")
 				if("s_tone")
-					var/list/listy = pref_species.get_skin_list()
-					var/new_s_tone = browser_input_list(user, "CHOOSE YOUR HERO'S [uppertext(pref_species.skin_tone_wording)]", "THE SUN", listy)
-					if(new_s_tone)
-						skin_tone = listy[new_s_tone]
+					if(CUSCOLORS in pref_species.species_traits)
+						var/new_color = input(user, "Choose your character's color") as color|null
+						if(new_color)
+							new_color = sanitize_hexcolor(new_color)
+							skin_tone = new_color
+
+					else
+						var/list/listy = pref_species.get_skin_list()
+						var/new_s_tone = browser_input_list(user, "CHOOSE YOUR HERO'S [uppertext(pref_species.skin_tone_wording)]", "THE SUN", listy)
+						if(new_s_tone)
+							skin_tone = listy[new_s_tone]
 
 				if("selected_accent")
 					if(length(pref_species.multiple_accents))
