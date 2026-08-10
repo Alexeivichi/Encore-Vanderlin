@@ -37,7 +37,7 @@
 	default_color = "9cc2e2"
 	use_skintones = TRUE
 
-	species_traits = list(NO_UNDERWEAR, HAIR, FACEHAIR, OLDGREY)
+	species_traits = list(NO_UNDERWEAR, HAIR, FACEHAIR, OLDGREY, CUSCOLORS)
 	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_WATER_BREATHING, TRAIT_GOOD_SWIM, TRAIT_FISHFACE, TRAIT_STRONGBITE)
 	inherent_sheet = /datum/attribute_holder/sheet/job/species/triton
 

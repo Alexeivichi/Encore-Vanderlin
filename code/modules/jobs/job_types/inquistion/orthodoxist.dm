@@ -7,11 +7,9 @@
 	allowed_races = RACES_LESS_DISCRIMINATED
 	bypass_lastclass = TRUE
 	cmode_music = 'sound/music/cmode/church/CombatInquisitor2.ogg'
-	allowed_patrons = list(
-		/datum/patron/divine/centrist
-	)
+	allowed_patrons = list(/datum/patron/divine/centrist, /datum/patron/angros)
 
-	tutorial = "A fervent believer in the cause of the Inquisition. Recruited by the Inquisitor to further the Katholikos' goal in the locale."
+	tutorial = "A fervent believer in the cause of the Inquisition. Recruited by the Inquisitor to further the Katholikon's goal in the locale."
 	selection_color = JCOLOR_INQUISITION
 
 	outfit = null
@@ -44,12 +42,20 @@
 	add_verb(spawned, /mob/living/carbon/human/proc/faith_test)
 	add_verb(spawned, /mob/living/carbon/human/proc/view_inquisition)
 
+	var/holder = spawned.patron?.devotion_holder
+	if(holder)
+		var/datum/devotion/devotion = new holder()
+		devotion.make_templar()
+		devotion.grant_to(spawned)
+
+/*
 	spawned.hud_used?.shutdown_bloodpool()
 	spawned.hud_used?.initialize_bloodpool()
 	spawned.hud_used?.bloodpool.set_fill_color("#dcdddb")
 	spawned.hud_used?.bloodpool?.name = "Aspects' Grace: [spawned.bloodpool]"
 	spawned.hud_used?.bloodpool?.desc = "Devotion: [spawned.bloodpool]/[spawned.maxbloodpool]"
 	spawned.maxbloodpool = 1000
+*/
 
 	var/datum/species/species = spawned.dna?.species
 	if(species)

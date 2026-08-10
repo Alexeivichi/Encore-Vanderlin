@@ -1018,3 +1018,12 @@
 
 /datum/special_trait/black_biar/on_apply(mob/living/carbon/human/character, silent)
 	ADD_TRAIT(character, TRAIT_BRIAR_HOST, BE_SPECIAL_TRAIT)
+
+/datum/special_trait/angrosian_studies
+	name = "Student of the Old Tongue"
+	greet_text = span_notice("I've studied the old texts that are still kept by Angrosian sects, \
+	and I've been educated on the Old Unsundered language.")
+	weight = 50
+
+/datum/special_trait/angrosian_studies/on_apply(mob/living/carbon/human/character, silent)
+	character.grant_language(/datum/language/oldunsundered)

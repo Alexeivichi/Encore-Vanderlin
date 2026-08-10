@@ -464,12 +464,12 @@
 	set_quantity(rand(6,9))
 
 /obj/item/coin/inqcoin
-	name = "oratorium marque"
-	desc = "A blessed silver coin finished with a unique wash of black dye, bearing the post-kingdom Psycross. Kingsfield has denied the existence of such a coin when queried, as such coinage is rumoured to be used internally by the Oratorium Throni Vacui."
+	name = "katholikon denarius"
+	desc = "A blessed silver coin finished with a unique wash of black dye, bearing the old sigil of Havel Sectus. An ancient coin, this used to be the primary currency in the region during the height of Havel Sectus as a merchant republic, but with the advent of mammon, denarius are now only used internally by the Katholikon's Inquisition."
 	icon_state = "i1"
 	sellprice = 0
 	base_type = CTYPE_INQU
-	plural_name = "oratorium marques"
+	plural_name = "katholikon denarii"
 
 /obj/item/coin/inqcoin/pile/Initialize()
 	. = ..()
@@ -483,10 +483,10 @@
 	COOLDOWN_START(src, flip_cd, 3 SECONDS)
 	playsound(user, 'sound/foley/coinphy (1).ogg', 100, FALSE)
 	if(prob(50))
-		user.visible_message(span_info("[user] flips the coin. ENDURE!"))
+		user.visible_message(span_info("[user] flips the coin. SOUL!"))
 		heads_tails = TRUE
 	else
-		user.visible_message(span_info("[user] flips the coin. LIVE!"))
+		user.visible_message(span_info("[user] flips the coin. FLESH!"))
 		heads_tails = FALSE
 	update_appearance(UPDATE_ICON_STATE)
 

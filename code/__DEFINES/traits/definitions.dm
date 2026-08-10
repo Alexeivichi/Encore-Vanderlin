@@ -463,7 +463,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_APRICITY "Apricity" //Decreased stamina regen time during DAY
 #define TRAIT_BLACKLEG "Blackleg" //Rig coin, dice, cards in your favor
 #define TRAIT_SALVATIONIST "Salvationist's Grief" //Prayers about a dead god manifest differently or something
-#define TRAIT_INQUISITION "Member of the Katholikos Inquisition"
+#define TRAIT_INQUISITION "Member of the Katholikon's Inquisition"
 #define TRAIT_PURITAN "Puritan"
 #define TRAIT_SILVER_BLESSED "Silver Blessed"
 #define TRAIT_DIVINE_CENTRIST "Elementalist"
