@@ -25,7 +25,7 @@
 	+1 Perception."
 
 	default_color = "FFFFFF"
-	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)
+	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY, CUSCOLORS)
 	inherent_traits = list(TRAIT_NOMOBSWAP)
 	use_skintones = TRUE
 
