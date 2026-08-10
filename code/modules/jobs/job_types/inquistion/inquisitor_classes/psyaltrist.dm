@@ -15,8 +15,8 @@
 	)
 
 /datum/job/advclass/sacrestant/psyaltrist
-	title = "Psyaltrist"
-	tutorial = "Every inquisitor has their second. You aim to keep spirits and faith high, while handling the needs of the inquisitor. Not a glamorous role, but a vital one. “Maybe his lordship would prefer the lute, today, over the viola?”"
+	title = "Precentor"
+	tutorial = "A Bard who found a higher calling among the faithful; you've joined the Katholikon's Inquisition to help further spread the good word through song. Off the books though, you gather intelligence, much as the Confessor does. While they do their work in the shadows with blades, you do yours with a quick tongue and charming smile. Do your best to make the Inquisition look good."
 	allowed_races = RACES_LESS_DISCRIMINATED
 	category_tags = list(CTAG_INQUISITION)
 	outfit = /datum/outfit/psyaltrist
@@ -46,7 +46,7 @@
 /datum/job/advclass/sacrestant/psyaltrist/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
-	GLOB.inquisition.add_member_to_school(spawned, "Order of the Venatari", 0, "Psyaltrist")
+	GLOB.inquisition.add_member_to_school(spawned, "Shadow Chapter", 0, "Precentor")
 	spawned.grant_inspiration()
 
 /datum/job/advclass/sacrestant/psyaltrist/on_roundstart(mob/living/carbon/human/spawned, client/player_client)
@@ -66,13 +66,12 @@
 	spawned.select_equippable(player_client, instruments)
 
 /datum/outfit/psyaltrist
-	name = "Psyaltrist (Sacrestants)"
+	name = "Precentor (Sacrestants)"
 	armor = /obj/item/clothing/armor/leather/studded/psyaltrist
 	backl = /obj/item/storage/backpack/satchel/otavan
 	cloak = /obj/item/clothing/cloak/psyaltrist
 	shirt = /obj/item/clothing/armor/gambeson/heavy/inq
 	gloves = /obj/item/clothing/gloves/leather/otavan
-	wrists = /obj/item/clothing/neck/psycross/silver
 	pants = /obj/item/clothing/pants/tights/colored/black
 	shoes = /obj/item/clothing/shoes/angrosboots
 	belt = /obj/item/storage/belt/leather/knifebelt/black/angros
@@ -80,7 +79,15 @@
 	beltl = /obj/item/storage/belt/pouch/coins/mid
 	ring = /obj/item/clothing/ring/signet/silver
 	backpack_contents = list(
-		/obj/item/key/inquisition = 1,
+		/obj/item/storage/keyring/inquisitor = 1,
 		/obj/item/paper/inqslip/arrival/ortho = 1,
 		/obj/item/collar_detonator = 1,
 	)
+
+/datum/outfit/psyaltrist/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+	. = ..()
+	switch(equipped_human.patron?.type)
+		if(/datum/patron/divine/centrist)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine
+		if(/datum/patron/angros)
+			wrists = /obj/item/clothing/neck/psycross/silver

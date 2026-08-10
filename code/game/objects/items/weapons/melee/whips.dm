@@ -71,8 +71,8 @@
 
 //................ Angros Whip ............... //
 /obj/item/weapon/whip/angros
-	name = "angrosian whip"
-	desc = "A whip fashioned with the iconography of Angros, and crafted entirely out of silver."
+	name = "katholikon whip"
+	desc = "A whip fashioned with the iconography of the Four and One, and crafted entirely out of silver."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psywhip"
 	force = DAMAGE_WHIP + 2

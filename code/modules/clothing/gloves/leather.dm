@@ -75,7 +75,7 @@
 
 /obj/item/clothing/gloves/leather/otavan/inqgloves
 	name = "inquisitorial leather gloves"
-	desc = "Gloves of worn leather. Alas, the psydonian fetish wrapped around one is but a powerless replica."
+	desc = "Gloves of worn leather, with a dangling Katholikon amulet attached to them."
 	icon_state = "inqgloves"
 	item_state = "inqgloves"
 

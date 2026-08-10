@@ -1,7 +1,7 @@
 
 /obj/item/clothing/cloak/angrostabard
 	name = "inquisitorial tabard"
-	desc = "A long vest bearing Angrosian symbology."
+	desc = "A long vest bearing Katholikon symbology."
 	color = null
 	icon_state = "psydontabard"
 	item_state = "psydontabard"
@@ -14,8 +14,7 @@
 	var/open_wear = FALSE
 
 /obj/item/clothing/cloak/angrostabard/alt
-	name = "open angrosian tabard"
-	examine_name = "angrosian tabard"
+	name = "open katholikon tabard"
 	desc = "Used by more radical followers of the Inquisition."
 	body_parts_covered = null
 	icon_state = "psydontabardalt"
@@ -26,7 +25,7 @@
 	switch(open_wear)
 		if(FALSE)
 			name = "inquisitorial tabard"
-			desc = "A long vest bearing Psydonian symbology"
+			desc = "A long vest bearing Katholikon symbology"
 			body_parts_covered = null
 			icon_state = "psydontabardalt"
 			item_state = "psydontabardalt"
@@ -34,7 +33,7 @@
 			to_chat(usr, span_warning("Now wearing ENDURINGLY!"))
 		if(TRUE)
 			name = "inquisitorial tabard"
-			desc = "A long vest bearing Psydonian symbology"
+			desc = "A long vest bearing Katholikon symbology"
 			body_parts_covered = CHEST|GROIN
 			icon_state = "psydontabard"
 			item_state = "psydontabard"
@@ -184,7 +183,7 @@
 
 /obj/item/clothing/cloak/absolutionistrobe
 	name = "absolver's robe"
-	desc = "Absolve them of their pain. Absolve them of their longing. Live, as ANGROS lives."
+	desc = "Absolve them of their pain. Absolve them of their longing."
 	slot_flags = ITEM_SLOT_BACK_R|ITEM_SLOT_CLOAK
 	sleeved = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	icon_state = "absolutionistrobe"

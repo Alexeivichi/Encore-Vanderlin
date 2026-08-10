@@ -7,12 +7,12 @@
 	spawn_positions = 2
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	allowed_sexes = list(MALE, FEMALE)
-	allowed_races = RACES_TEMPLAR
+	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	honorary = "Inquisitor"
 	honorary_f = "Inquisitrix"
-	//You MUST have a Elementalist character to start. Just so people don't get japed into Oops Suddenly Elementalist!
-	allowed_patrons = list(/datum/patron/divine/centrist) // you have to keep the univeralist church stance, so you don't favour one patron more
-	tutorial = "You have been sent by the Pontifex of the Katholikos, leader of a radical denomination of the One Church that only believes in the endurance of the All-Aspect, and the security of the Elemental Pantheon. Officially, you are here on diplomatic business. Unofficially, you work to cast out the sinners from God's house. Heresy of all kinds must be corrected; from heretics that stray too far from doctrine, to poisoned fools that worship devils. The locals fear but respect you due to your ability to fight the demonic, and Etgard's royalty tolerates you due to your aligned goals against the demonic... but it is probably best to not let them peer too closely. Remember, you work alongside the Church, and do not order their number around. Though your work is sometimes separate to the main Church, you are subservient to the Bishop of Domotan."
+	//You MUST have an Elementalist or Salvationist character to start. Just so people don't get japed into Oops Suddenly Elementalist/Angrosian!
+	allowed_patrons = list(/datum/patron/divine/centrist, /datum/patron/angros)
+	tutorial = "You have been sent by the Pontifex of the Katholikos as a representative of the militant Katholikon's Inquisition upon Domotan Island. A wretched place, the security of the Elemental Pantheon is of great importance there more than ever. Officially, you are here on diplomatic business, and to help fend off the Daemonic forces imperiling the Island. Unofficially, you work to cast out the sinners from God's house. Heresy of all kinds must be corrected; from heretics that stray too far from doctrine, to poisoned fools that worship devils. The locals fear but respect you due to your ability to fight the Damonic, and Etgard's royalty tolerates you due to your aligned goals against the forces of Hell... but it is probably best to not let them peer too closely, nor for you too get too involved in their business either."
 	cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
 	selection_color = JCOLOR_INQUISITION
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
@@ -27,7 +27,7 @@
 	mind_traits = list(
 		TRAIT_KNOW_INQUISITION_DOORS
 	)
-	languages = list(/datum/language/oldunsundered, /datum/language/newunsundered)
+	languages = /datum/language/newunsundered
 	spells = list(
 		/datum/action/cooldown/spell/undirected/call_bird/inquisitor
 	)
@@ -51,12 +51,20 @@
 	add_verb(spawned, /mob/living/carbon/human/proc/faith_test)
 	add_verb(spawned, /mob/living/carbon/human/proc/view_inquisition)
 
+	var/holder = spawned.patron?.devotion_holder
+	if(holder)
+		var/datum/devotion/devotion = new holder()
+		devotion.make_templar()
+		devotion.grant_to(spawned)
+
+/*
 	spawned.hud_used?.shutdown_bloodpool()
 	spawned.hud_used?.initialize_bloodpool()
 	spawned.hud_used?.bloodpool.set_fill_color("#dcdddb")
 	spawned.hud_used?.bloodpool?.name = "Aspects' Grace: [spawned.bloodpool]"
 	spawned.hud_used?.bloodpool?.desc = "Devotion: [spawned.bloodpool]/[spawned.maxbloodpool]"
 	spawned.maxbloodpool = 1000
+*/
 
 	var/datum/species/species = spawned.dna?.species
 	if(!species)

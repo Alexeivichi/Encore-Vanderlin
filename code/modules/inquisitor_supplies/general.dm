@@ -283,7 +283,7 @@
 		new /obj/item/flashlight/flare/torch/lantern(src)
 
 /datum/inqports/equipment/angrosthorns
-	name = "1 Angrosian Thorns"
+	name = "1 Katholikon Thorns"
 	item_type = /obj/item/clothing/wrists/bracers/psythorns
 	marquescost = 16
 

@@ -191,7 +191,6 @@
 
 /datum/devotion/proc/make_gmtemplar()
 	devotion = 150
-	max_devotion = 350 //Angros is dead/dying, so your connection to the divine is tenuous
 	progression = CLERIC_REQ_2
 	max_progression = CLERIC_REQ_2
 	passive_devotion_gain = 0.2
@@ -213,10 +212,9 @@
 
 /datum/devotion/proc/make_absolver()
 	devotion = 200
-	max_devotion = 500 //Angros is dead/dying, so your connection to the divine is tenuous. A little more devotion than the Martyr though because you're a cleric.
 	progression = CLERIC_REQ_3
 	max_progression = CLERIC_REQ_3
-	passive_devotion_gain = 0.3
+	passive_devotion_gain = 0.7
 	miracles_extra += list(
 		/datum/action/cooldown/spell/undirected/touch/orison,
 	)
@@ -258,7 +256,6 @@
 	max_progression = CLERIC_REQ_1
 	miracles_extra = list(
 		/datum/action/cooldown/spell/undirected/touch/orison/lesser,
-		/datum/action/cooldown/spell/diagnose/holy,
 	)
 	devotion_class = DEVOTION_CLASS_CHURCHLING
 

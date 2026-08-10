@@ -81,15 +81,15 @@
 /obj/item/angrosmusicbox/examine(mob/user)
 	. = ..()
 	if(HAS_TRAIT(user, TRAIT_INQUISITION))
-		desc = "A relic from the bowels of the Oratorium's thaumaturgical workshops. Fourteen souls of heretics, all bound together, they will scream and protect us from magicks. It would be wise to not teach the heretics of its true nature, to only bring it to bear in dire circumstances."
+		desc = "A relic from the bowels of the Inquisition's thaumaturgical workshops. It sounds an uncomfortable enchanted song, temporarily drowning out one's connection to their divine patron, protecting us from foul heretical magicks. It would be wise to only bring it to bear in dire circumstances."
 	else
-		desc = "A cranked music box, it has the seal of the Oratorium Throni Vacui on the side. It carries a somber feeling to it..."
+		desc = "A cranked music box, it has the seal of the Inquisition on the side. It carries a somber feeling to it..."
 
 /obj/item/angrosmusicbox/attack_self(mob/living/user)
 	. = ..()
 	if(!HAS_TRAIT(user, TRAIT_INQUISITION))
 		user.add_stress(/datum/stress_event/soulchurnerhorror)
-		to_chat(user, (span_cultsmall("I FEEL SUFFERING WITH EVERY CRANK, WHAT AM I DOING?!")))
+		to_chat(user, (span_cultsmall("I feel an unnatural stillness forming in the air, what is this device?!")))
 	cranking = !cranking
 	update_appearance(UPDATE_ICON_STATE)
 	if(cranking)
@@ -134,8 +134,8 @@
 				return list("shrink" = 0.6,"sx" = -1,"sy" = 0,"nx" = 11,"ny" = 1,"wx" = 0,"wy" = 1,"ex" = 4,"ey" = 0,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0,"nturn" = 15,"sturn" = 0,"wturn" = 0,"eturn" = 39,"nflip" = 8,"sflip" = 0,"wflip" = 0,"eflip" = 8)
 
 /atom/movable/screen/alert/status_effect/buff/cranking_soulchurner
-	name = "Cranking Soulchurner"
-	desc = "I am bringing the twisted device to life..."
+	name = "Cranking the Music Box"
+	desc = "I am bringing the device to life..."
 	icon_state = "buff"
 
 /datum/status_effect/buff/cranking_soulchurner
@@ -146,22 +146,23 @@
 	var/ticks_to_apply = 10
 
 	var/list/patron_lines = list(
-		/datum/patron/divine/visires = list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/divine/akan = list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/divine/valdala = list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/divine/mjallidhorn = list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/divine/mordsol = list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/divine/erdl = list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/divine/pomette  =list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/divine/gani =list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/divine/iliope  =list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/divine/golerkanh =list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/inhumen/deceivers  =list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/inhumen/envy = list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/inhumen/archdevils =list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/inhumen/hertannea =list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/angros = list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/angros/extremist = list(PLACEHOLDER_PATRON_REBRANDING),
+		/datum/patron/divine/visires = list("A sudden cold sensation grips my heart, hissing and sputtering like burning kindling tossed in water, as I am sundered from the warmth of Visires' flame."),
+		/datum/patron/divine/akan = list("A horrific feeling of suffocating stillness takes hold, the very air around me turning stagnant as the freedom of Akan's winds forsakes me."),
+		/datum/patron/divine/valdala = list("The grief in your heart freezes, like ice in your veins. It's like you've suffered the loss all over again, as your connection to Valdala is severed."),
+		/datum/patron/divine/mjallidhorn = list("Suddenly I'm aware of an absence in my chest, the loss of a righteous fury, as I become deaf to Mjallidhorn's warcry."),
+		/datum/patron/divine/mordsol = list("You falter, the righteous certainty in your soul giving way to doubt. You can no longer feel Mordsol's shield fortifying you."),
+		/datum/patron/divine/erdl = list("You suddenly feel like you can hardly breathe, terror gripping you. You can no longer feel Erdl's inscrutable gaze - death could come at a moment's notice."),
+		/datum/patron/divine/pomette = list("Your heart falters, scrambling to hold onto its innocence. Where once you heard Pomette's laughter, you hear only silence."),
+		/datum/patron/divine/gani =list("A horrible anxiety grips your heart and creeps through you like choking roots. You feel truly alone, as you are ripped from Gani's embrace."),
+		/datum/patron/divine/iliope = list("The laughing stops. For the first time for as long as you can remember, you are not a character on a stage anymore. The gaze of scrutiny that replaces Iliope's japery is unbearable."),
+		/datum/patron/divine/golerkanh = list("The smith's hammer falls, yet you do not hear the satisfying ring of metal follow. It is not a discordant mistake to correct, it is simply... nothing. You no longer sense Goler Kanh; what could your next step possibly be without a muse?"),
+		/datum/patron/inhumen/deceivers = list("All at once, the sky loses its luster. The countless immutable stars dim, no longer shining for you alone. You cannot feel Their love - forsaken by the one you forsook all for."),
+		/datum/patron/inhumen/envy = list("A blackened hand seems to arise from the edges of your periphery, grasping to blind your vision from behind. Through its palms, you see clearly now, as a ghastly mist pushes the essence of Thauma away from your surroundings."),
+		/datum/patron/inhumen/archdevils = list("The roiling madness from the depths below suddenly halts, deafening to you the ceaseless cries of cannibalistic evolution. When was the last time silence felt like solance to you? In this moment of dim clarity, you almost feel like yourself again, before the corruption and blood; just for a moment. It's agonising."),
+		/datum/patron/inhumen/hertannea = list("Abruptly, you're pulled from your stupor, like a bucket of cold water and ice needles has been poured onto you. You see your face in the muddy reflection, all of your perceived flaws highlighted and worsened. Is it any wonder nobody could ever love you?"),
+		/datum/patron/inhumen/sages = list("You suddenly become acutely aware of a familiar buzzing sensation that soothes your skin. It feels like the Thauma of your surroundings is being sizzled away, and along with it whatever godly connections it once had. It's comforting."),
+		/datum/patron/angros = list("Panic, fear, despair - a flurry of dreadful emotions hits you all at once as you suddenly feel your prayers to Angros dissolve into nothing. The Worldflame dims, almost imperceptably, but you see it."),
+		/datum/patron/angros/extremist = list("You feel like you've fallen and hit the ground, all the air knocked out of your lungs in an instant. Your connection to Angros is smothered like a guttering candle, and all of your rage turns inward with nowhere else to go. Why won't He wake up? How much longer will it take? Why won't He listen to me? What am I even doing this for?"),
 	)
 
 
@@ -191,12 +192,12 @@
 						H.add_stress(/datum/stress_event/soulchurner)
 						if(!H.has_status_effect(/datum/status_effect/buff/churnernegative))
 							H.apply_status_effect(/datum/status_effect/buff/churnernegative)
-					to_chat(H, (span_hypnophrase("A voice calls out from the song for you...")))
+					to_chat(H, (span_hypnophrase("A horrific feeling settles in...")))
 					to_chat(H, (span_cultsmall(pick(lines))))
 
 /atom/movable/screen/alert/status_effect/buff/censerbuff
-	name = "Inspired by Angros."
-	desc = "The lingering blessing of Angros tells me to ENDURE."
+	name = "Inspired by the Aspects."
+	desc = "The lingering blessing of the Four and One inspires me to carry on."
 	icon_state = "censerbuff"
 
 /datum/status_effect/buff/censerbuff
@@ -207,7 +208,7 @@
 
 /datum/stress_event/syoncalamity
 	stress_change = 15
-	desc = span_boldred("Yet another part of Angros lost!")
+	desc = span_boldred("Another fragment of Him lost!")
 	timer = 15 MINUTES
 
 /datum/intent/flail/strike/smash/golgotha
@@ -237,7 +238,7 @@
 
 /obj/item/flashlight/flare/torch/lantern/psycenser
 	name = "Censer of Penitence"
-	desc = "A device filled with bubbling silver. Its unstable state is dangerous to those who do not know its true nature, but to wield it is great honour for Angros."
+	desc = "A Censer filled with ever-molten silver. An indescribably valuable object to the Katholikos, these treasures are said to contain the tiniest possible mote of Angros' faded divine power, and has been further physically blessed by the hands of the Four Aspects themselves. Handle with care..."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psycenser"
 	item_state = "psycenser"
@@ -253,7 +254,7 @@
 /obj/item/flashlight/flare/torch/lantern/psycenser/examine(mob/user)
 	. = ..()
 	if(fuel > 0)
-		. += span_info("If opened, it may bless Angros weapons and those of Angros faith.")
+		. += span_info("If opened, it may bless Katholikon weapons and those of the divine faith.")
 		. += span_warning("Smashing a creature with it open will create a devastating explosion and render it useless.")
 	if(fuel <= 0)
 		. += span_info("It is gone.")
@@ -333,20 +334,20 @@
 				to_chat(user, span_info("It has already been blessed."))
 	if(ishuman(A) && on && (user.used_intent.type == /datum/intent/bless))
 		var/mob/living/carbon/human/H = A
-		if(istype(H.patron, /datum/patron/angros))
+		if(istype(H.patron, list(/datum/patron/angros, /datum/patron/divine/centrist, /datum/patron/divine/akan, /datum/patron/divine/erdl, /datum/patron/divine/iliope, /datum/patron/divine/gani, /datum/patron/divine/pomette, /datum/patron/divine/golerkanh, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/visires)))
 			if(!H.has_status_effect(/datum/status_effect/buff/censerbuff))
 				playsound(user, 'sound/magic/censercharging.ogg', 100)
 				user.visible_message(span_info("[user] holds \the [src] over \the [A]..."))
 				if(do_after(user, 50, A))
 					H.apply_status_effect(/datum/status_effect/buff/censerbuff)
-					to_chat(H, span_notice("The comet dust invigorates you."))
+					to_chat(H, span_notice("The silver dust invigorates you."))
 					playsound(H, 'sound/magic/holyshield.ogg', 100)
 					new /obj/effect/temp_visual/censer_dust(get_turf(H))
 			else
 				to_chat(user, span_warning("They've already been blessed."))
 
 		else
-			to_chat(user, span_warning("They do not share our faith."))
+			to_chat(user, span_warning("They do not seem like they would be receptive to the blessings of the Four and One."))
 
 
 /datum/component/psyblessed
@@ -371,9 +372,9 @@
 
 /datum/component/psyblessed/proc/on_examine(datum/source, mob/user, list/examine_list)
 	if(!is_blessed)
-		examine_list += span_info("<font color = '#cfa446'>This object may be blessed by the lingering fragment of Angros. Until then, its impure alloying of silver-and-steel cannot blight inhumen foes on its own.</font>")
+		examine_list += span_info("<font color = '#cfa446'>This object may be blessed by the Four and One. Until then, its impure alloying of silver-and-steel cannot blight inhumen foes on its own.</font>")
 	if(is_blessed)
-		examine_list += span_info("<font color = '#46bacf'>This object has been blessed by the fragment of Angros.</font>")
+		examine_list += span_info("<font color = '#46bacf'>This object has been blessed by the Four and One.</font>")
 		if(silver)
 			examine_list += span_info("It has been imbued with <b>silver</b>.")
 
@@ -416,7 +417,7 @@
 
 /obj/item/inqarticles/indexer
 	name = "\improper INDEXER"
-	desc = "A blessed ampoule with a retractable bladetip, intended to further information gathering through hematology. Siphon blood from an individual until the INDEXER clicks shut, then mail it back to the Oratorium for cataloguing."
+	desc = "A thaumatic scanning device, with a retracted thin silver needle; intended to further information gathering through scanning for thaumatic corruption. Scan your target and take a drop of blood from an individual until the INDEXER clicks shut, then mail it back to the Katholikon for cataloguing."
 	icon = 'icons/roguetown/items/misc.dmi'
 	icon_state = "indexer"
 	item_state = "indexer"
@@ -490,7 +491,7 @@
 		return
 
 	if(full)
-		to_chat(user, span_notice("It's ready to be sent back to the Oratorium."))
+		to_chat(user, span_notice("It's ready to be sent back to the Katholikon."))
 		return
 
 	possible_item_intents = list(/datum/intent/use, /datum/intent/dagger/cut)
@@ -561,7 +562,7 @@
 			user.update_a_intents()
 			active = FALSE
 			update_appearance(UPDATE_ICON_STATE)
-			say("CURSED BLOOD!")
+			say("THAUMIC CORRUPTION DETECTED!")
 			return
 		update_appearance(UPDATE_ICON_STATE)
 		return
@@ -570,19 +571,13 @@
 	playsound(src, 'sound/items/indexer_working.ogg', 75, FALSE, 3)
 	if(active && working && !full)
 		if(do_after(user, 20, M))
-			M.flash_fullscreen("redflash3")
-			if(!HAS_TRAIT(M, TRAIT_NOPAIN) || !HAS_TRAIT(M, TRAIT_NOPAINSTUN))
-				if(prob(15))
-					M.emote("whimper", forced = TRUE)
-				else if(prob(15))
-					M.emote("painmoan", forced = TRUE)
 			desc = initial(desc)
 			subject = WEAKREF(M)
 			desc += span_notice(" It contains the blood of [M.real_name]!")
-			visible_message(span_warning("[src] draws from [M]!"))
-			playsound(M, 'sound/combat/hits/bladed/genstab (1).ogg', 30, FALSE, -1)
+			visible_message(span_warning("[src] waves the scanner over [M], then draws a single drop of blood from [M] with a thin silver needle!"))
+			playsound(M, 'sound/surgery/retractor1.ogg', 30, FALSE, -1)
 			timestaken++
-			M.adjust_bloodvolume(-30)
+			M.blood_volume = max(M.blood_volume-1, 0)
 			M.handle_blood()
 			if(M.mind)
 				if(M.mind.has_antag_datum(/datum/antagonist/werewolf, FALSE))
@@ -758,7 +753,7 @@
 
 /obj/item/inqarticles/garrote // Do not give this item out freely to other classes. Do not subtype this item for other classes. This is intended purely as the Confessor's identifying sidegrade, and as a bonus for the Inspector INQ. I will be very sad if you disregard this comment. Thank you. - Yische.
 	name = "\proper seizing garrote" // It's nonlethal. It's so silly and fun.
-	desc = "A macabre instrument favored by the more clandestine of the Angrosian Silver Order; A length of thick leather inquiry cordage that has been dipped in both holy water and dye before being consecrated and spell-laced, held and threaded between two iron links. Perfect for apprehension."
+	desc = "A macabre instrument favored by the more clandestine of the Katholikon's Inquisition; A length of thick leather inquiry cordage that has been dipped in both holy water and dye before being consecrated and spell-laced, held and threaded between two iron links. Perfect for apprehension."
 	icon = 'icons/roguetown/items/misc.dmi'
 	icon_state = "garrote"
 	throw_speed = 3
@@ -1170,9 +1165,9 @@
 /obj/item/inqarticles/bmirror/examine(mob/user)
 	. = ..()
 	if(HAS_TRAIT(user, TRAIT_INQUISITION))
-		desc = "A mass-produced relic of the Oratorium Throni Vacui. The exact method of the Black Mirror's operation remains a well-kept secret. One worth dying over, supposedly."
+		desc = "A mass-produced relic of the Katholikon's Inquisition. The exact method of the Black Mirror's operation remains a well-kept secret, but it exists to serve as a more accessible facsimile of a magician's infamous scrying orb. In order to achieve such results without decades of study, the mirror must draw thauma from another source; blood."
 	else
-		desc = ""
+		desc = "An unusual black mirror, one which reflects nothing, despite its shine. It's strangely cold to the touch."
 
 /obj/item/inqarticles/bmirror/proc/donefixating()
 	bloody = TRUE
@@ -1215,13 +1210,13 @@
 	if(broken && bloody)
 		to_chat(user, span_warning("The mirror has shattered, rendering it unusable."))
 		if(HAS_TRAIT(user, TRAIT_INQUISITION))
-			to_chat(user, span_notice("If I clean it, I can send it back to the Inquisition for repairs."))
+			to_chat(user, span_notice("If I clean it, I can send it back to the Katholikon for repairs."))
 		return
 
 	if(broken && !bloody)
 		to_chat(user, span_warning("The mirror has shattered, rendering it unusable. It's clean, at the very least."))
 		if(HAS_TRAIT(user, TRAIT_INQUISITION))
-			to_chat(user, span_notice("It's returnable via the HERMES now. I should get two Marques back."))
+			to_chat(user, span_notice("It's returnable via the mail machina now. I should get two denarii back."))
 		return
 
 	if(bloody)
@@ -1327,8 +1322,8 @@
 	if(do_after(user, time_taken, attacked))
 		playsound(src, 'sound/items/blackmirror_needle.ogg', 95, FALSE, 3)
 		attacked.flash_fullscreen("redflash3")
-		attacked.adjustBruteLoss(40, damage_type = BCLASS_PIERCE)
-		attacked.adjust_bloodpool(-240)
+		attacked.adjustBruteLoss(5)
+		attacked.blood_volume = max(attacked.blood_volume - 20, 0)
 		attacked.handle_blood()
 		feeder = WEAKREF(attacked)
 		openstate = "bloody"

@@ -377,8 +377,8 @@
 	item_weight = 1.23 KILOGRAMS
 
 /obj/item/clothing/head/roguehood/angros
-	name = "angrosian hood"
-	desc = "A hood worn by Angros' disciples, oft-worn in conjunction with its matching tabard. Made with spell-laced fabric to provide some protection."
+	name = "katholikon hood"
+	desc = "A hood worn by the Katholikon's disciples, oft-worn in conjunction with its matching tabard. Made with spell-laced fabric to provide some protection."
 	icon_state = "psydonhood"
 	item_state = "psydonhood"
 	color = null

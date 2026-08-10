@@ -273,7 +273,7 @@
 
 /obj/item/weapon/shield/tower/metal/psy
 	name = "Covenant"
-	desc = "The Ordo Benetarus holds a mantra: A Angrosian endures. A Angrosian preserves themselves. A Angrosian preserves His flock. Protect them."
+	desc = "The Inquisition's Knightly Chapter holds a mantra: An Inquisitor endures. An Inquisitor preserves themselves. An Inquisitor preserves His flock. Protect them."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psyshield"
 	wdefense = ULTMATE_PARRY + 3

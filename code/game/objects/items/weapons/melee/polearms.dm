@@ -160,7 +160,7 @@
 
 //................ Angrosian Spear ............... //
 /obj/item/weapon/polearm/spear/angros
-	name = "angrosian spear"
+	name = "katholikon spear"
 	desc = "A polearm with a twisting trident head perfect for mangling the bodies of the impure."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psyspear"
@@ -469,7 +469,7 @@
 
 //................ Angrosian Halberd ............... //
 /obj/item/weapon/polearm/halberd/angros
-	name = "angrosian halberd"
+	name = "katholikon halberd"
 	desc = "A mighty halberd capable of cutting down the heretical with remarkable ease, be it effigy, man, or beast."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psyhalberd"
@@ -500,7 +500,7 @@
 
 /obj/item/weapon/polearm/halberd/angros/relic
 	name = "Sanctum"
-	desc = "These silver-tipped polearms are the bulwark of the Ordo Venatari, borrowing techniques from the Ordo Benetarus. During the early sieges, the Ordos used these to hold the horrors at bay for forty days-and-nites. A time always comes to fight - strike true."
+	desc = "These silver-tipped polearms are the bulwark of the Katholikon's Inquisition, borrowing techniques from the Knightly Chapter. During the early sieges of Havel Sectus, the Knights used these to hold the horrors at bay for forty days-and-nites. A time always comes to fight - strike true."
 	icon_state = "psyhalberd"
 	item_weight = 3.5 KILOGRAMS
 

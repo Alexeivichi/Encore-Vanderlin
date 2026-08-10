@@ -91,8 +91,8 @@
 
 //................ Angros Flail ............... //
 /obj/item/weapon/flail/angros
-	name = "angrosian flail"
-	desc = "A flail fashioned with the iconography of Angros, and crafted entirely out of silver."
+	name = "katholikon flail"
+	desc = "A flail fashioned with divine iconography, and crafted entirely out of silver."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psyflail"
 	force = DAMAGE_GOOD_FLAIL
@@ -109,7 +109,7 @@
 
 /obj/item/weapon/flail/angros/relic
 	name = "Consecratia"
-	desc = "The weight of His anguish, His pain, His hope and His love for humenkind - all hanging on this ornamental silver-steel head chained to this arm. A declaration of love for all that Angros lives for, and a crushing reminder that the Ordo Benetarus will endure anything to defend it."
+	desc = "The weight of the Aspects hope for mankind - all hanging on this ornamental silver-steel head chained to this arm. A declaration of love for all that the Aspects live for, and a crushing reminder that the Inquisition will endure anything to defend it."
 	icon_state = "psymorningstar"
 	item_weight = 1.5 KILOGRAMS
 

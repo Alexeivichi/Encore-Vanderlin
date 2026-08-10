@@ -76,15 +76,15 @@
 			H.update_inv_head()
 
 /obj/item/clothing/head/helmet/heavy/angrosbarbute
-	name = "angrosian barbute"
-	desc = "A barbute styled with Angrosian imagery."
+	name = "katholikon barbute"
+	desc = "A barbute styled with imagery of the Katholikos."
 	icon_state = "psydonbarbute"
 	item_state = "psydonbarbute"
 	block2add = FOV_BEHIND
 
 /obj/item/clothing/head/helmet/heavy/angroshelm
-	name = "angrosian armet"
-	desc = "Headwear commonly worn by Templars in service to the Angrosians."
+	name = "katholikon armet"
+	desc = "Headwear commonly worn by Templars in service to the Katholikon's Inquisition."
 	icon_state = "psydonarmet"
 	item_state = "psydonarmet"
 	block2add = FOV_BEHIND
@@ -576,8 +576,8 @@
 		return
 
 /obj/item/clothing/head/helmet/heavy/absolver
-	name = "angrosian conical helm"
-	desc = "Its shape confounds and confuses the enemies of Angros. Offering unfound protection in its visage, the gaze is horrific to those without understanding."
+	name = "katholikon conical helm"
+	desc = "Its shape confounds and confuses the enemies of the Katholikon. Offering unfound protection in its visage, the gaze is horrific to those without understanding."
 	icon_state = "absolutionisthelm"
 	item_state = "absolutionisthelm"
 	emote_environment = 3
@@ -592,8 +592,8 @@
 	clothing_flags = NONE
 
 /obj/item/clothing/head/helmet/heavy/psybucket
-	name = "angrosian bucket helmet"
-	desc = "Originally just a bucket with a psycross nailed on, it proved surprisingly effective, making its way into common use for inquisitorial templars. Steel encapsulates your head, and His cross facing enemies reminds them that you will endure until they meet oblivion. Only then may you rest."
+	name = "katholikon bucket helmet"
+	desc = "Originally just a bucket with an amulet nailed on, it proved surprisingly effective, making its way into common use for Inquisitorial templars. Steel encapsulates your head, and the amulet facing enemies reminds them that you will endure until they meet oblivion. Only then may you rest."
 	icon_state = "psybucket"
 	item_state = "psybucket"
 	flags_inv = HIDEEARS|HIDEFACE|HIDEHAIR
@@ -602,8 +602,8 @@
 	max_integrity = 400
 
 /obj/item/clothing/head/helmet/heavy/psysallet
-	name = "angrosian sallet"
-	desc = "A boiled leather cap, crowned with steel and veiled with His cross. Fear not - He will show you the way, and He will see your blows well-struck."
+	name = "katholikon sallet"
+	desc = "A boiled leather cap, crowned with steel and veiled with an amulet. Fear not - the Four and One will show you the way, and They will see your blows well-struck."
 	icon_state = "psysallet"
 	item_state = "psysallet"
 	flags_inv = HIDEEARS|HIDEFACE|HIDEHAIR

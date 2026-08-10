@@ -113,7 +113,7 @@
 	item_state = "fencercuirass"
 
 /obj/item/clothing/armor/cuirass/angros
-	name = "angrosian chestplate"
+	name = "katholikon chestplate"
 	desc = "An expertly smithed form-fitting steel cuirass that is much lighter and agile, but breaks with much more ease. It's thinner, but backed with silk and leather."
 	melt_amount = 75
 	icon_state = "ornatechestplate"
@@ -128,7 +128,7 @@
 	max_integrity = 300
 
 /obj/item/clothing/armor/cuirass/ornate
-	name = "angrosian cuirass"
+	name = "katholikon cuirass"
 	icon_state = "ornatecuirass"
 	desc = "An ornate steel cuirass with tassets, favored by the Angrosian sects of the Katholikos."
 

@@ -2,7 +2,7 @@
 	var/mob/living/carbon/human/user
 	var/datum/oratorium/user_inquisition
 	var/datum/inquisition_hierarchy_node/selected_position
-	var/selected_school = "Venatari"
+	var/selected_school = "Shadow Chapter"
 	COOLDOWN_DECLARE(last_creation)
 
 /datum/inquisition_hierarchy_interface/New(mob/living/carbon/human/target_user)
@@ -55,13 +55,13 @@
 
 /datum/inquisition_hierarchy_interface/proc/generate_hierarchy_html()
 	if(!user_inquisition)
-		return "<div class='error'>No inquisition hierarchy found</div>"
+		return "<div class='error'>No Inquisition hierarchy found</div>"
 
 	var/hierarchy_html = {"
 	<div class="school-tabs">
-		<button class="school-tab [selected_school == "Order of the Venatari" ? "active" : ""]" onclick="switchSchool('Order of the Venatari')">Order of the Venatari</button>
-		<button class="school-tab [selected_school == "Benetarus" ? "active" : ""]" onclick="switchSchool('Benetarus')">Benetarus</button>
-		<button class="school-tab [selected_school == "Sanctae" ? "active" : ""]" onclick="switchSchool('Sanctae')">Ordo Sanctae Cruoris</button>
+		<button class="school-tab [selected_school == "Shadow Chapter" ? "active" : ""]" onclick="switchSchool('Shadow Chapter')">Shadow Chapter</button>
+		<button class="school-tab [selected_school == "Knightly Chapter" ? "active" : ""]" onclick="switchSchool('Knightly Chapter')">Knightly Chapter</button>
+		<button class="school-tab [selected_school == "Clerical Chapter" ? "active" : ""]" onclick="switchSchool('Clerical Chapter')">Clerical Chapter</button>
 	</div>
 
 	<div class="research-container" id="container">

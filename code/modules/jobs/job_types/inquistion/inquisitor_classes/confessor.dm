@@ -44,7 +44,7 @@
 
 /datum/job/advclass/sacrestant/confessor
 	title = "Confessor"
-	tutorial = "Angrosian hunters, unmatched in the fields of subterfuge and investigation. There is no suspect too powerful to investigate, no room too guarded to infiltrate, and no weakness too hidden to exploit. The Ordo Venatari trained you, and this, your final hunt as a student, will prove the wisdom of their teachings."
+	tutorial = "The Inquisition's hunters, unmatched in the fields of subterfuge and investigation. There is no suspect too powerful to investigate, no room too guarded to infiltrate, and no weakness too hidden to exploit. The Katholikon trained you, and this, your final hunt as a student, will prove the wisdom of their teachings."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_LESS_DISCRIMINATED
 	outfit = /datum/outfit/confessor
@@ -68,30 +68,30 @@
 /datum/job/advclass/sacrestant/confessor/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
-	GLOB.inquisition.add_member_to_school(spawned, "Order of the Venatari", 0, "Confessor")
+	GLOB.inquisition.add_member_to_school(spawned, "Shadow Chapter", 0, "Confessor")
 
 /datum/job/advclass/sacrestant/confessor/on_roundstart(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
-	var/static/list/weapons = list("Blessed Unsundered Dagger", "Unsundered Handmace", "Unsundered Shortsword")
-	var/weapon_choice = browser_input_list(spawned, "CHOOSE YOUR WEAPON.", "TAKE UP ANGROS'S ARMS.", weapons)
+	var/static/list/weapons = list("Blessed Katholikon Dagger", "Katholikon Handmace", "Katholikon Shortsword")
+	var/weapon_choice = browser_input_list(spawned, "CHOOSE YOUR WEAPON.", "TAKE UP THE KATHOLIKON'S ARMS.", weapons)
 
 	switch(weapon_choice)
-		if("Blessed Unsundered Dagger")
+		if("Blessed Katholikon Dagger")
 			spawned.put_in_hands(new /obj/item/weapon/knife/dagger/silver/angros(get_turf(spawned)), TRUE)
 			spawned.equip_to_slot_or_del(new /obj/item/weapon/scabbard/knife, ITEM_SLOT_BACK_R, TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/confessor/knives)
-		if("Unsundered Handmace")
+		if("Katholikon Handmace")
 			spawned.put_in_hands(new /obj/item/weapon/mace/cudgel/psy(get_turf(spawned)), TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/confessor/axes)
-		if("Unsundered Shortsword")
+		if("Katholikon Shortsword")
 			spawned.put_in_hands(new /obj/item/weapon/sword/short/psy(get_turf(spawned)), TRUE)
 			spawned.equip_to_slot_or_del(new /obj/item/weapon/scabbard/sword, ITEM_SLOT_BACK_R, TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/confessor/swords)
 
 	// Armor/archetype selection
 	var/static/list/armors = list("Confessor - Slurbow, Leather Maillecoat", "Arbalist - Crossbow, Lightweight Brigandine")
-	var/armor_choice = browser_input_list(spawned, "CHOOSE YOUR ARCHETYPE.", "TAKE UP ANGROS'S DUTY.", armors)
+	var/armor_choice = browser_input_list(spawned, "CHOOSE YOUR ARCHETYPE.", "TAKE UP YOUR DUTY.", armors)
 
 	switch(armor_choice)
 		if("Confessor - Slurbow, Leather Maillecoat")
@@ -108,7 +108,7 @@
 
 	// Bolt selection
 	var/static/list/quivers = list("Bolts - Steel-Tipped", "Sunderbolts - Silver-Tipped, Halved Damage")
-	var/boltchoice = browser_input_list(spawned, "CHOOSE YOUR MUNITIONS.", "TAKE UP ANGROS'S MISSILES.", quivers)
+	var/boltchoice = browser_input_list(spawned, "CHOOSE YOUR MUNITIONS.", "TAKE UP THE KATHOLIKON'S MISSILES.", quivers)
 
 	switch(boltchoice)
 		if("Bolts - Steel-Tipped")
@@ -119,7 +119,6 @@
 /datum/outfit/confessor
 	name = "Confessor (Sacrestants)"
 	cloak = /obj/item/storage/backpack/satchel
-	wrists = /obj/item/clothing/neck/psycross/silver
 	gloves = /obj/item/clothing/gloves/leather/otavan
 	neck = /obj/item/clothing/neck/gorget
 	backr = /obj/item/storage/backpack/satchel/otavan
@@ -130,7 +129,7 @@
 	mask = /obj/item/clothing/face/facemask/steel/confessor
 	ring = /obj/item/clothing/ring/signet/silver
 	backpack_contents = list(
-		/obj/item/key/inquisition = 1,
+		/obj/item/storage/keyring/inquisitor = 1,
 		/obj/item/rope/inqarticles/inquirycord = 1,
 		/obj/item/lockpickring/mundane = 1,
 		/obj/item/clothing/head/inqarticles/blackbag = 1,
@@ -139,3 +138,11 @@
 		/obj/item/paper/inqslip/arrival/ortho = 1,
 		/obj/item/collar_detonator = 1,
 	)
+
+/datum/outfit/confessor/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+	. = ..()
+	switch(equipped_human.patron?.type)
+		if(/datum/patron/divine/centrist)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine
+		if(/datum/patron/angros)
+			wrists = /obj/item/clothing/neck/psycross/silver

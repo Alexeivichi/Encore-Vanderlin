@@ -953,7 +953,7 @@
 	category = "Cloak"
 
 /datum/repeatable_crafting_recipe/sewing/angros_tabbard
-	name = "unsundered tababrd"
+	name = "katholikon tababrd"
 	output = /obj/item/clothing/cloak/tabard/adept
 	requirements = list(/obj/item/natural/cloth = 2,
 				/obj/item/natural/fibers = 1)
@@ -1857,7 +1857,7 @@
 	category = "Accessories"
 
 /datum/repeatable_crafting_recipe/sewing/psy_sack
-	name = "angrosian sack mask"
+	name = "katholikon sack mask"
 	output = /obj/item/clothing/face/sack/psy
 	requirements = list(
 		/obj/item/natural/cloth = 4,

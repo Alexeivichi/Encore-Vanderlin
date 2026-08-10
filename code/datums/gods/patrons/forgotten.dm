@@ -23,7 +23,7 @@
 		)
 		return TRUE
 
-	to_chat(follower, span_danger("I can not talk to Him... I need His idol!"))
+	to_chat(follower, span_danger("My prayers of respite cannot reach Him... I need His amulet!"))
 	return FALSE
 
 /datum/patron/angros/extremist
@@ -41,4 +41,13 @@
 		"CLAW AT THE SOIL! BREAK THE FIRMAMENT!",
 	)
 
+/datum/patron/angros/extremist/can_pray(mob/living/carbon/human/follower)
+	//We just kind of assume the follower is a human here
+	if(
+		istype(follower.wear_wrists, /obj/item/clothing/neck/psycross) || istype(follower.wear_neck, /obj/item/clothing/neck/psycross) || istype(follower.get_active_held_item(), /obj/item/clothing/neck/psycross)
+		)
+		return TRUE
+
+	to_chat(follower, span_danger("My fervent prayers cannot reach Him... I need His amulet!"))
+	return FALSE
 

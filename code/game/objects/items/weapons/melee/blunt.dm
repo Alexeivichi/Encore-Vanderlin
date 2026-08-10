@@ -371,7 +371,7 @@
 				return list("shrink" = 0.4,"sx" = -3,"sy" = -4,"nx" = 4,"ny" = -5,"wx" = 0,"wy" = -5,"ex" = 2,"ey" = -5,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0,"nturn" = 0,"sturn" = 70,"wturn" = 0,"eturn" = 0,"nflip" = 0,"sflip" = 1,"wflip" = 0,"eflip" = 0)
 
 /obj/item/weapon/mace/cudgel/psy
-	name = "angrosian handmace"
+	name = "katholikon handmace"
 	desc = "A shorthanded mace, a convenient sleeping aid, or a means to root out heresy. It's all in the wrist."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psyflangedmace"
@@ -521,8 +521,8 @@
 
 //................ Angrosian Grand Mace ............... //
 /obj/item/weapon/mace/goden/angros
-	name = "angrosian grand mace"
-	desc = "A mighty mace which seems to be a large psycross with a handle, though no less effective at crushing the spirit and bones of the inhumen."
+	name = "katholikon grand mace"
+	desc = "A mighty three-pronged mace, cast in silver and steel to bring ruin to the armoured foes of the Inquisition."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psymace"
 	wbalance = DODGE_CHANCE_NORMAL
