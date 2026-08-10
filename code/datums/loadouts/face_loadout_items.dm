@@ -12,16 +12,16 @@
 
 	triumph_cost_permanent = 50
 
-/datum/loadout_item/xylixmask
-	name = "Xylix Mask"
-	item_path = /obj/item/clothing/face/xylixmask
+/datum/loadout_item/jestermask
+	name = "Jester Mask"
+	item_path = /obj/item/clothing/face/jestermask
 	ui_category = "Face"
 
 	triumph_cost_permanent = 100
 
-/datum/loadout_item/xylixmask_weathered
-	name = "Weathered Xylix Mask"
-	item_path = /obj/item/clothing/face/xylixmask/weathered
+/datum/loadout_item/jestermask_weathered
+	name = "Weathered Jester Mask"
+	item_path = /obj/item/clothing/face/jestermask/weathered
 	ui_category = "Face"
 
 	triumph_cost_permanent = 100

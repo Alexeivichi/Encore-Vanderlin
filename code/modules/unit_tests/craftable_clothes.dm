@@ -98,8 +98,8 @@ abstract types are automatically excluded.
 		/obj/item/clothing/armor/cuirass/fluted,
 
 		///these can probably have recipes?
-		/obj/item/clothing/face/xylixmask,
-		/obj/item/clothing/face/xylixmask/weathered,
+		/obj/item/clothing/face/jestermask,
+		/obj/item/clothing/face/jestermask/weathered,
 		/obj/item/clothing/ring/duelist,
 		/obj/item/clothing/cloak/stabard/templar/justice,
 		/obj/item/clothing/cloak/cape/inquisitorgold,
