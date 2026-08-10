@@ -56,7 +56,7 @@
 
 /obj/item/dmusicbox/attackby(obj/item/P, mob/user, list/modifiers)
 	if(!loaded)
-		if(istype(P, /obj/item/coin/gold))
+		if(istype(P, /obj/item/coin/copper))
 			loaded=TRUE
 			qdel(P)
 			update_appearance(UPDATE_ICON_STATE)
@@ -88,7 +88,7 @@
 			say("NOT YET!")
 			return
 	if(!loaded)
-		say("A GOLD COIN FOR A CAROL!")
+		say("A COPPER COIN FOR A CAROL!")
 		return
 	playsound(src, 'sound/misc/beep.ogg', 100, FALSE, -1)
 	var/infile = input(user, "CHOOSE A NEW SONG", src) as null|file
