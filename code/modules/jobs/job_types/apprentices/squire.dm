@@ -33,7 +33,7 @@
 	name = JOB_SQUIRE
 	shirt = /obj/item/clothing/shirt/undershirt/colored/guard
 	pants = /obj/item/clothing/pants/chainlegs/iron
-	shoes = /obj/item/clothing/shoes/boots
+	shoes = /obj/item/clothing/shoes/boots/darkboots
 	belt = /obj/item/storage/belt/leather
 	beltl = /obj/item/storage/keyring/manorguard
 

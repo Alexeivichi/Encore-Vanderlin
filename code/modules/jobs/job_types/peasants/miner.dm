@@ -79,7 +79,7 @@
 	head = /obj/item/clothing/head/armingcap
 	shirt = /obj/item/clothing/shirt/undershirt/sailor
 	pants = /obj/item/clothing/pants/tights/sailor
-	shoes = /obj/item/clothing/shoes/boots
+	shoes = /obj/item/clothing/shoes/boots/darkboots
 
 /datum/outfit/miner/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()

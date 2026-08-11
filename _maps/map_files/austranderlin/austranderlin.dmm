@@ -7508,7 +7508,7 @@
 "dsw" = (
 /obj/structure/closet/crate/crafted_closet/inn/south,
 /obj/item/clothing/shirt/undershirt/fancy,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
 /obj/item/clothing/pants/tights/colored/black,
 /obj/item/clothing/head/flowercrown/salvia,
 /turf/open/floor/ruinedwood/darker,
@@ -11612,7 +11612,7 @@
 /obj/item/clothing/head/articap,
 /obj/item/clothing/shirt/undershirt/artificer,
 /obj/item/clothing/pants/trou/artipants,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
 /turf/open/floor/metal/barograte,
 /area/indoors/town/dwarfin)
 "ftk" = (
@@ -13525,7 +13525,7 @@
 /area/outdoors/town)
 "grV" = (
 /obj/structure/closet/crate/crafted_closet/dark,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
 /obj/item/clothing/shoes/shortboots,
 /obj/item/clothing/shoes/sandals,
 /turf/open/floor/greenstone,
@@ -15917,7 +15917,7 @@
 "hxT" = (
 /obj/structure/closet/crate/crafted_closet/inn/south,
 /obj/item/clothing/shirt/undershirt/fancy,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
 /obj/item/clothing/pants/tights/colored/black,
 /obj/item/clothing/head/flowercrown/rosa,
 /obj/item/clothing/shirt/dress,
@@ -16932,7 +16932,7 @@
 /obj/item/clothing/head/articap,
 /obj/item/clothing/shirt/undershirt/artificer,
 /obj/item/clothing/pants/trou/artipants,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
 /turf/open/floor/concrete,
 /area/indoors/town/dwarfin)
 "hUk" = (
@@ -26232,7 +26232,7 @@
 	pixel_x = 7;
 	pixel_y = -2
 	},
-/obj/item/clothing/shoes/boots{
+/obj/item/clothing/shoes/boots/darkboots{
 	pixel_x = -7;
 	pixel_y = -3
 	},
@@ -27818,7 +27818,7 @@
 /obj/structure/closet/crate/crafted_closet,
 /obj/item/clothing/shoes/shortboots,
 /obj/item/clothing/cloak/half,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
 /obj/item/clothing/head/crown/circlet,
 /obj/item/perfume/random,
 /obj/item/perfume/random,
@@ -29054,7 +29054,7 @@
 /obj/structure/closet/crate/crafted_closet,
 /obj/item/clothing/shoes/shortboots,
 /obj/item/clothing/cloak/half,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
 /obj/item/clothing/head/crown/circlet,
 /obj/item/perfume/random,
 /obj/item/perfume/random,
@@ -34924,7 +34924,7 @@
 /area/indoors/town/dwarfin)
 "pNF" = (
 /obj/structure/rack,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
 /turf/open/floor/tile/masonic/inverted,
 /area/indoors/town/keep/halls/s)
 "pNG" = (
@@ -35147,8 +35147,8 @@
 /obj/item/clothing/pants/trou/formal/shorts,
 /obj/item/storage/belt/leather/suspenders,
 /obj/item/storage/belt/leather/suspenders,
-/obj/item/clothing/shoes/boots,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
+/obj/item/clothing/shoes/boots/darkboots,
 /turf/open/floor/ruinedwood/spiral,
 /area/under/town/basement)
 "pSY" = (
@@ -36379,7 +36379,7 @@
 /obj/item/weapon/mace/cane/natural,
 /obj/structure/rack,
 /obj/item/clothing/cloak/raincloak/colored/blue,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
 /turf/open/floor/metal,
 /area/indoors/town/keep/magician)
 "qxO" = (
@@ -37448,7 +37448,7 @@
 /area/indoors/town)
 "qUb" = (
 /obj/structure/closet/crate/crafted_closet/inn,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
 /obj/item/clothing/pants/tights/colored/black,
 /obj/item/clothing/shirt/undershirt/fancy,
 /obj/machinery/light/fueled/wallfire/candle/blue,
@@ -42569,7 +42569,7 @@
 	pixel_x = 1;
 	pixel_y = 15
 	},
-/obj/item/clothing/shoes/boots{
+/obj/item/clothing/shoes/boots/darkboots{
 	pixel_x = -7;
 	pixel_y = -3
 	},
@@ -46668,7 +46668,7 @@
 /area/indoors/town/noble_manor/yellow)
 "uVA" = (
 /obj/structure/rack,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors/town/merc_guild)
 "uVD" = (
@@ -53901,8 +53901,8 @@
 /area/outdoors/town)
 "xRW" = (
 /obj/structure/closet/crate/crafted_closet,
-/obj/item/clothing/shoes/boots,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
+/obj/item/clothing/shoes/boots/darkboots,
 /obj/item/clothing/pants/trou/formal/shorts,
 /obj/item/clothing/pants/trou/formal/shorts,
 /obj/item/storage/belt/leather/suspenders,
@@ -54621,8 +54621,8 @@
 /area/indoors/town/clocktower)
 "ylD" = (
 /obj/structure/closet/crate/crafted_closet/crafted,
-/obj/item/clothing/shoes/boots,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
+/obj/item/clothing/shoes/boots/darkboots,
 /obj/machinery/light/fueled/wallfire/candle{
 	pixel_x = 32;
 	pixel_y = 0

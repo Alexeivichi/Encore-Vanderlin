@@ -61,7 +61,7 @@
 /datum/outfit/vaquero
 	name = "Vaquero"
 	head = /obj/item/clothing/head/bardhat
-	shoes = /obj/item/clothing/shoes/boots
+	shoes = /obj/item/clothing/shoes/boots/darkboots
 	pants = /obj/item/clothing/pants/tights/colored/random
 	shirt = /obj/item/clothing/shirt/undershirt
 	belt = /obj/item/storage/belt/leather

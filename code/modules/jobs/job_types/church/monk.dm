@@ -254,18 +254,18 @@
 		if(/datum/patron/divine/mjallidhorn)
 			head = /obj/item/clothing/head/padded/mjallidhorn
 			neck = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
-			shoes = /obj/item/clothing/shoes/boots
+			shoes = /obj/item/clothing/shoes/boots/darkboots
 			armor = /obj/item/clothing/shirt/robe/mjallidhorn
 		if(/datum/patron/divine/mordsol)
 			head = /obj/item/clothing/head/helmet/leather/headscarf
-			neck = /obj/item/clothing/neck/psycross/silver/divine/mordsol
+			neck = /obj/item/clothing/neck/psycross/silver/divine/ravox
 			shoes = /obj/item/clothing/shoes/boots
 			shirt = /obj/item/clothing/armor/gambeson/light
 			armor = /obj/item/clothing/armor/leather
 			cloak = /obj/item/clothing/cloak/stabard/templar/mordsol
 		if(/datum/patron/divine/iliope)
 			head = /obj/item/clothing/head/roguehood/colored/random
-			neck = /obj/item/clothing/neck/psycross/silver/divine/iliope
+			neck = /obj/item/clothing/neck/psycross/silver/divine/xylix
 			shoes = /obj/item/clothing/shoes/boots
 			armor = /obj/item/clothing/shirt/robe/colored/purple
 		if(/datum/patron/divine/golerkanh)
@@ -278,5 +278,5 @@
 		else
 			head = /obj/item/clothing/head/roguehood/colored/random
 			neck = /obj/item/clothing/neck/psycross/silver
-			shoes = /obj/item/clothing/shoes/boots
+			shoes = /obj/item/clothing/shoes/boots/darkboots
 			armor = /obj/item/clothing/shirt/robe/colored/plain
