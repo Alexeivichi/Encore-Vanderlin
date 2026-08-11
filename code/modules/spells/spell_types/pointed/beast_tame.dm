@@ -10,9 +10,6 @@
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	attunements = list(
-		/datum/attunement/earth = 1,
-	)
 
 	invocation = "Be still and calm, brotherbeast."
 	invocation_type = INVOCATION_WHISPER
@@ -77,3 +74,10 @@
 		ADD_TRAIT(cast_on, TRAIT_CRITICAL_RESISTANCE, MAGIC_TRAIT)
 	if(HAS_TRAIT(owner, TRAIT_GANI_LORDING))
 		ADD_TRAIT(cast_on, TRAIT_CRITICAL_RESISTANCE, MAGIC_TRAIT)
+
+/datum/action/cooldown/spell/beast_tame/magic
+	name = "Subdue Beast"
+	spell_type = SPELL_MANA
+	required_form = FORM_EARTH
+	required_technique = TECHNIQUE_SUMMONING
+	required_items = null

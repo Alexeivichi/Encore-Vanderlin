@@ -247,6 +247,9 @@
 	category_tags = list(CTAG_COURTAGENT)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/courtagent/mystic
+	traits = list(
+		TRAIT_SORCERER
+	)
 
 	spells = list(
 		/datum/action/cooldown/spell/undirected/message,
@@ -258,7 +261,8 @@
 
 /datum/job/advclass/courtagent/mystic/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
-	spawned.adjust_spell_points(10)
+	spawned.adjust_form_mastery_points(10)
+	spawned.adjust_technique_mastery_points(5)
 
 /datum/outfit/courtagent/mystic
 	name = "Mystic Spy"

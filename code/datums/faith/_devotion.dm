@@ -280,7 +280,7 @@
 		/datum/action/cooldown/spell/aoe/snuff,
 		/datum/action/cooldown/spell/eyebite,
 		/datum/action/cooldown/spell/projectile/profane,
-		/datum/action/cooldown/spell/conjure/raise_lesser_undead,
+		/datum/action/cooldown/spell/conjure_summon/raise_lesser_undead,
 		/datum/action/cooldown/spell/undirected/rituos,
 	)
 	devotion_class = DEVOTION_CLASS_SHIRLEIGH_STRONG

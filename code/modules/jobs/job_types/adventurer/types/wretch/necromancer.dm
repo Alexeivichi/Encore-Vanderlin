@@ -22,7 +22,9 @@
 	cmode_music = 'sound/music/cmode/antag/CombatLich.ogg'
 	total_positions = 3
 	exp_types_granted = list(EXP_TYPE_COMBAT, EXP_TYPE_MAGICK)
-	spell_points = 7
+	allowed_patrons = list(/datum/patron/inhumen/archdevils)
+	form_points = 5
+	technique_points = 3
 	languages = list(/datum/language/undead)
 	factions = list(FACTION_CABAL)
 
@@ -38,7 +40,7 @@
 		/datum/action/cooldown/spell/undirected/touch/prestidigitation,
 		/datum/action/cooldown/spell/eyebite,
 		/datum/action/cooldown/spell/projectile/sickness,
-		/datum/action/cooldown/spell/conjure/raise_lesser_undead/necromancer,
+		/datum/action/cooldown/spell/conjure_summon/raise_lesser_undead/necromancer,
 		/datum/action/cooldown/spell/gravemark,
 		/datum/action/cooldown/spell/control_undead
 	)
@@ -72,6 +74,8 @@
 	)
 	spawned.select_equippable(player_client, selectablerobe, message = "Choose your robe of choice", title = "NECROMANCER")
 
+	spawned.AddComponent(/datum/component/spell_modifier, list(), list(), list(FORM_DEATH = 2))
+
 /datum/outfit/wretch/necromancer
 	name = "Necromancer (Wretch)"
 	pants = /obj/item/clothing/pants/chainlegs
@@ -85,7 +89,7 @@
 	beltr = /obj/item/reagent_containers/glass/bottle/manapot
 	r_hand = /obj/item/weapon/polearm/woodstaff
 	backpack_contents = list(
-		/obj/item/book/granter/spellbook/adept = 1,
+		/obj/item/spellbook/expert/starter/death = 1,
 		/obj/item/chalk = 1,
 		/obj/item/rope/chain = 1,
 		/obj/item/reagent_containers/glass/bottle/stronghealthpot = 1,

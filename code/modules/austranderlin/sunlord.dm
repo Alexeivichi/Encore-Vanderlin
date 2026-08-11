@@ -125,6 +125,7 @@
 	invocation = "LIGHTNING BOLT!!!"
 	spell_cost = 0
 
+	required_form = null
 	associated_skill = null
 
 
