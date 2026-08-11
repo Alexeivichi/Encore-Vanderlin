@@ -104,6 +104,7 @@
 	outfit = /datum/outfit/templar
 	give_bank_account = 0
 	knows_the_town = TRUE
+	known_by_the_town = TRUE
 
 	job_bitflag = BITFLAG_CHURCH
 

@@ -55,6 +55,7 @@
 	)
 	give_bank_account = TRUE
 	knows_the_town = TRUE
+	known_by_the_town = TRUE
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/jester
 
