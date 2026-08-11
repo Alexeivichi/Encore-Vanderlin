@@ -78,6 +78,7 @@
 
 /datum/job/advclass/hand
 	exp_types_granted = list(EXP_TYPE_NOBLE, EXP_TYPE_LEADERSHIP)
+	factions = list(FACTION_TOWN)
 
 /datum/attribute_holder/sheet/job/hand
 	raw_attribute_list = list(
