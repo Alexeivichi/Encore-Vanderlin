@@ -24,7 +24,7 @@
 	exp_types_granted = list(EXP_TYPE_COMBAT, EXP_TYPE_MAGICK)
 	spell_points = 7
 	languages = list(/datum/language/undead)
-	faction = FACTION_CABAL
+	factions = list(FACTION_CABAL)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/necromancer
 

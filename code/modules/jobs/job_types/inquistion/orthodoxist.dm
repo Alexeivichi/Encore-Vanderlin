@@ -1,7 +1,7 @@
 /datum/job/orthodoxist
 	title = JOB_SACRESTANTS
 	department_flag = INQUISITION
-	faction = "Station"
+	factions = list(FACTION_TOWN)
 	total_positions = 99
 	spawn_positions = 99
 	allowed_races = RACES_LESS_DISCRIMINATED
