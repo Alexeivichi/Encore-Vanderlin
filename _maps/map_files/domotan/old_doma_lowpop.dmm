@@ -8815,11 +8815,10 @@
 /turf/open/floor/dirt/road,
 /area/indoors/town/garrison)
 "gch" = (
-/obj/structure/fake_machine/hailerboard{
-	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
-	},
-/turf/open/floor/blocks/stonered/tiny,
-/area/outdoors/farm)
+/obj/structure/fake_machine/lottery_roguetown,
+/obj/structure/chair/stool,
+/turf/open/floor/wood,
+/area/indoors/town/tavern)
 "gcv" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4
@@ -9788,12 +9787,6 @@
 /obj/structure/barricade/wooden,
 /turf/open/floor/cobble,
 /area/indoors/town/vault)
-"gOJ" = (
-/obj/structure/fake_machine/hailerboard{
-	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
-	},
-/turf/open/floor/ruinedwood/two,
-/area/indoors/town/tavern)
 "gPI" = (
 /obj/effect/mapping_helpers/access/keyset/manor/general,
 /obj/effect/mapping_helpers/access/locker,
@@ -11581,9 +11574,11 @@
 /turf/open/water/bath,
 /area/indoors/town/bath)
 "hUT" = (
-/obj/machinery/light/fueled/torchholder/c,
-/turf/open/water/ocean,
-/area/under/town/basement/smugglers_den)
+/obj/structure/fake_machine/hailerboard{
+	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
+	},
+/turf/open/floor/blocks/stonered/tiny,
+/area/outdoors/farm)
 "hVw" = (
 /obj/item/flint,
 /obj/structure/table/wood{
@@ -12357,6 +12352,14 @@
 	},
 /turf/open/floor/blocks,
 /area/indoors/town/clinic_large)
+"iti" = (
+/obj/structure/bounty_board{
+	pixel_x = 4;
+	pixel_y = 26;
+	layer = 4.2
+	},
+/turf/open/floor/ruinedwood,
+/area/under/town/basement/smugglers_den)
 "itF" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -17312,6 +17315,12 @@
 "lKy" = (
 /turf/closed/wall/mineral/stone/moss,
 /area/under/town/basement/smugglers_den)
+"lKJ" = (
+/obj/structure/fake_machine/hailerboard{
+	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
+	},
+/turf/open/floor/wood,
+/area/indoors/town/keep/throne)
 "lKL" = (
 /obj/structure/fluff/statue/knight,
 /turf/open/floor/churchmarble,
@@ -19702,12 +19711,6 @@
 /obj/structure/fluff/statue/tdummy,
 /turf/open/floor/dirt/road,
 /area/outdoors/exposed)
-"neM" = (
-/obj/structure/fake_machine/hailerboard{
-	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
-	},
-/turf/open/floor/wood,
-/area/indoors/town/keep/throne)
 "neU" = (
 /obj/structure/fluff/railing/wood{
 	dir = 1
@@ -34285,9 +34288,10 @@
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern)
 "xkI" = (
-/obj/structure/fake_machine/lottery_roguetown,
-/obj/structure/chair/stool,
-/turf/open/floor/wood,
+/obj/structure/fake_machine/hailerboard{
+	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
+	},
+/turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern)
 "xkJ" = (
 /obj/item/reagent_containers/food/snacks/crow,
@@ -39418,8 +39422,8 @@ dqL
 nVq
 gmC
 lKy
-tNU
-tNU
+iti
+uEX
 sKV
 gZG
 uEX
@@ -39550,7 +39554,7 @@ fxN
 tKR
 hRL
 lKy
-hUT
+gZG
 gZG
 gZG
 lKy
@@ -61727,7 +61731,7 @@ vKU
 vKU
 fZn
 fZn
-gch
+hUT
 rkh
 gNh
 rNj
@@ -75051,7 +75055,7 @@ dKp
 dKp
 fIP
 dKp
-gOJ
+xkI
 hhL
 xfN
 xfN
@@ -90238,7 +90242,7 @@ bTr
 xnA
 fXt
 xfN
-xkI
+gch
 xnA
 xnA
 kXH
@@ -90370,7 +90374,7 @@ pdl
 xnA
 hPc
 xfN
-xkI
+gch
 xnA
 xnA
 xnA
@@ -92807,7 +92811,7 @@ fNx
 fNx
 fNx
 irS
-neM
+lKJ
 vwN
 vvG
 xSj
