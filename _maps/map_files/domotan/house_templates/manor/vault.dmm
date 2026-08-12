@@ -1,10 +1,20 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /obj/structure/rack,
-/obj/item/reagent_containers/glass/bottle/healthpot,
-/obj/item/reagent_containers/glass/bottle/healthpot,
-/obj/item/reagent_containers/glass/bottle/healthpot,
-/obj/item/reagent_containers/glass/bottle/healthpot,
+/obj/item/weapon/sword/decorated{
+	name = "decorated sword";
+	pixel_x = -6;
+	desc = "A trustworthy blade design, the first dedicated tool of war since before the age of history. This one is decorated finely with gold, befitting nobility."
+	},
+/obj/item/weapon/sword/sabre/dec{
+	pixel_x = 6;
+	name = "decorated qadirid sabre"
+	},
+/obj/item/weapon/sword/katana{
+	pixel_x = 16;
+	name = "decorated katana";
+	desc = "A foreign sword, blade honed to a razor's edge. This one is decorated with a golden hilt, befitting nobility."
+	},
 /turf/open/floor/tile/bath,
 /area/indoors/town/keep)
 "c" = (
@@ -15,6 +25,19 @@
 	name = "Materials Vault"
 	},
 /turf/open/floor/tile/checkeralt,
+/area/indoors/town/keep)
+"e" = (
+/obj/structure/rack,
+/obj/item/weapon/scabbard/sword/royal,
+/obj/item/weapon/scabbard/sword/royal,
+/obj/item/weapon/scabbard/sword/royal,
+/obj/item/weapon/scabbard/sword/royal,
+/obj/item/weapon/scabbard/sword/royal,
+/obj/item/weapon/scabbard/kazengun/gold{
+	pixel_x = 10;
+	pixel_y = -2
+	},
+/turf/open/floor/tile/bath,
 /area/indoors/town/keep)
 "i" = (
 /turf/closed/wall/mineral/stonebrick,
@@ -27,12 +50,12 @@
 	icon_state = "longtable_mid";
 	dir = 1
 	},
-/obj/item/flashlight/flare/torch/metal,
-/obj/item/flashlight/flare/torch/metal,
+/obj/item/weapon/sword/long/exe/cloth{
+	pixel_x = -21;
+	pixel_y = -11;
+	desc = "An heirloom of the Shirleighs, this hefty executioner's blade was said to have belonged to King Malryck in a time long since passed. Now though, it oft lays forgotten in the royal vault."
+	},
 /turf/open/floor/tile/bath,
-/area/indoors/town/keep)
-"x" = (
-/turf/closed/mineral,
 /area/indoors/town/keep)
 "y" = (
 /obj/structure/table/wood{
@@ -40,14 +63,17 @@
 	dir = 1
 	},
 /obj/item/weapon/sword/silver{
-	pixel_x = -12;
-	pixel_y = 13;
-	name = "Miserthorn"
+	pixel_y = 4;
+	name = "Miserthorn";
+	desc = "An heirloom of the Shirleighs, this silver blade is renowned for often being seen at the side of Queen Alyssandrine in years since past."
 	},
-/obj/item/weapon/sword/long/exe/cloth{
-	pixel_x = -21;
-	pixel_y = -11
+/turf/open/floor/tile/bath,
+/area/indoors/town/keep)
+"B" = (
+/obj/structure/mannequin{
+	name = "heir's display stand"
 	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/armor/royal,
 /turf/open/floor/tile/bath,
 /area/indoors/town/keep)
 "F" = (
@@ -55,6 +81,10 @@
 /obj/machinery/light/fueledstreet/orange/wall{
 	dir = 8
 	},
+/obj/item/reagent_containers/glass/bottle/healthpot,
+/obj/item/reagent_containers/glass/bottle/healthpot,
+/obj/item/reagent_containers/glass/bottle/healthpot,
+/obj/item/reagent_containers/glass/bottle/healthpot,
 /turf/open/floor/tile/bath,
 /area/indoors/town/keep)
 "G" = (
@@ -70,8 +100,11 @@
 /turf/open/floor/tile/bath,
 /area/indoors/town/keep)
 "J" = (
-/obj/structure/rack,
 /obj/structure/fluff/walldeco/mona,
+/obj/structure/mannequin{
+	name = "heir's display stand"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/armor/royal,
 /turf/open/floor/tile/bath,
 /area/indoors/town/keep)
 "M" = (
@@ -79,16 +112,27 @@
 	icon_state = "longtable_mid";
 	dir = 1
 	},
-/obj/item/weapon/sword/rapier/dec{
-	pixel_y = -7;
-	pixel_x = -5;
+/obj/item/weapon/sword/rapier/dec/lord{
+	desc = "A royal heirloom of the Shirleighs, forged long ago and of a foreign steel far beyond the Goblet and its lands. Inscribed writing in Old Kui tells that it once belonged to someone named Rash Dequero, and that its implacable edge was driven through the Father of Sin. It gleams with a ferocious intent.";
 	name = "Sin Eater";
-	desc = "A royal heirloom of the Shirleighs, forged long ago and of a foreign steel far beyond the Goblet and its lands. Inscribed writing in Old Kui tells that it once belonged to someone named Rash Dequero, and that its implacable edge was driven through the Father of Sin. It gleams with a ferocious intent."
+	pixel_x = -5;
+	pixel_y = -7
 	},
 /turf/open/floor/tile/bath,
 /area/indoors/town/keep)
 "O" = (
 /obj/structure/rack,
+/obj/item/weapon/sword/rapier/dec{
+	pixel_x = -24
+	},
+/obj/item/weapon/sword/long/decorated{
+	pixel_x = -4
+	},
+/obj/item/weapon/sword/long/rider/steppe{
+	pixel_x = -20;
+	name = "decorated steppe sabre";
+	desc = "A curved blade of nomadic origin, it is used by cavalrymen all across the far steppes. This one is decorated with gold, befitting nobility."
+	},
 /turf/open/floor/tile/bath,
 /area/indoors/town/keep)
 "Q" = (
@@ -109,6 +153,8 @@
 /obj/machinery/light/fueledstreet/orange/wall{
 	dir = 8
 	},
+/obj/item/flashlight/flare/torch/metal,
+/obj/item/flashlight/flare/torch/metal,
 /turf/open/floor/tile/bath,
 /area/indoors/town/keep)
 
@@ -127,7 +173,7 @@ M
 R
 t
 R
-O
+e
 i
 "}
 (3,1,1) = {"
@@ -146,7 +192,7 @@ t
 t
 t
 a
-x
+i
 "}
 (5,1,1) = {"
 i
@@ -162,7 +208,7 @@ i
 i
 J
 G
-O
+B
 i
 i
 "}
