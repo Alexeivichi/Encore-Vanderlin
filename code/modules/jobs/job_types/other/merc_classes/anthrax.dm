@@ -43,7 +43,7 @@
 
 /datum/job/advclass/mercenary/anthrax
 	title = "Anthrax"
-	tutorial = "With the brutal dismantlement of drow society, the talents of the redeemed Anthraxi were no longer needed. Yet where one door closes, another opens - the decadent mortals of the overworld clamber over each other to bid for your blade. Show them your craft."
+	tutorial = PLACEHOLDER_FACTION_REBRANDING
 	allowed_races = list(SPEC_ID_DROW)
 	outfit = /datum/outfit/mercenary/anthrax
 	category_tags = list(CTAG_MERCENARY)

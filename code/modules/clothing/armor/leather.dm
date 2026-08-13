@@ -300,7 +300,7 @@
 
 /obj/item/clothing/armor/leather/jacket/leathercoat/confessor
 	name = "confessional coat"
-	desc = "A sturdy raincoat draped atop of a tightly-fastened boiled leather cuirass. The Ordo Venatari trainees often fashion little pieces of memorabilia and stitch it into the lower pockets of the coat to remind the confessors that their cause is virtuous, and that they mustn’t lose sight of what matters."
+	desc = "A sturdy raincoat draped atop of a tightly-fastened boiled leather cuirass. The Inquisition's Shadow Chapter trainees often fashion little pieces of memorabilia and stitch it into the lower pockets of the coat to remind the confessors that their cause is virtuous, and that they mustn’t lose sight of what matters."
 	icon_state = "confessorcoat"
 	item_state = "confessorcoat"
 	icon = 'icons/roguetown/clothing/armor.dmi'

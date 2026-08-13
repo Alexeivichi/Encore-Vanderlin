@@ -25,7 +25,7 @@
 // Vile Highwayman. Your run of the mill swordsman, albeit fancy, smarter than the other two so he has some non combat related skills.
 /datum/job/advclass/adept/highwayman
 	title = "Vile Renegade"
-	tutorial = "You were a former outlaw who has been given a chance to redeem yourself by the Inquisitor. You serve him and Angros with your survival skills."
+	tutorial = "You were a former outlaw who has been given a chance to redeem yourself by the Inquisitor. You serve him and the Katholikon with your survival skills."
 	outfit = /datum/outfit/adept/highwayman
 	category_tags = list(CTAG_ADEPT)
 	cmode_music = 'sound/music/cmode/towner/CombatGaffer.ogg'
@@ -45,14 +45,13 @@
 
 /datum/job/advclass/adept/highwayman/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
-	GLOB.inquisition.add_member_to_school(spawned, "Order of the Venatari", -10, "Renegade")
+	GLOB.inquisition.add_member_to_school(spawned, "Shadow Chapter", -10, "Renegade")
 
 /datum/outfit/adept/highwayman
 	name = "Vile Renegade (Adept)"
 	belt = /obj/item/storage/belt/leather
 	armor = /obj/item/clothing/armor/leather/jacket/leathercoat/renegade
 	head = /obj/item/clothing/head/helmet/leather/tricorn
-	neck = /obj/item/clothing/neck/gorget/explosive
 	beltl = /obj/item/weapon/sword/short/iron
 	l_hand = /obj/item/weapon/whip // Great length, they don't need to be next to a person to help in apprehending them.
 	pants = /obj/item/clothing/pants/trou/leather

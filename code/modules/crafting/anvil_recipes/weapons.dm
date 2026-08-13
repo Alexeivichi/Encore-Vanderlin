@@ -980,63 +980,63 @@
 	created_item = /obj/item/weapon/mace/elvenclub/silver
 
 /datum/anvil_recipe/weapons/psy/axe
-	name = "Angrosian War Axe (+1 B. Silver, +1 Stick)"
+	name = "Katholikon War Axe (+1 B. Silver, +1 Stick)"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
 	created_item = /obj/item/weapon/axe/angros
 	additional_items = list(/obj/item/ingot/silverblessed, /obj/item/grown/log/tree/stick)
 	i_type = "Weapons"
 /datum/anvil_recipe/weapons/psy/mace
-	name = "Angrosian Mace (+1 B. Silver, +1 Stick)"
+	name = "Katholikon Mace (+1 B. Silver, +1 Stick)"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
 	created_item = /obj/item/weapon/mace/goden/angros
 	additional_items = list(/obj/item/ingot/silverblessed, /obj/item/grown/log/tree/stick)
 	i_type = "Weapons"
 /datum/anvil_recipe/weapons/psy/spear
-	name = "Angrosian Spear (+1 Small Log)"
+	name = "Katholikon Spear (+1 Small Log)"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
 	created_item = /obj/item/weapon/polearm/spear/angros
 	additional_items = list(/obj/item/grown/log/tree/small)
 	i_type = "Weapons"
 /datum/anvil_recipe/weapons/psy/dagger
-	name = "Angrosian Dagger"
+	name = "Katholikon Dagger"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
 	created_item = /obj/item/weapon/knife/dagger/silver/angros
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/shortsword
-	name = "Angrosian Shortsword"
+	name = "Katholikon Shortsword"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
 	created_item = /obj/item/weapon/sword/short/psy
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/katar
-	name = "Angrosian Katar"
+	name = "Katholikon Katar"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
 	created_item = /obj/item/weapon/katar/angros
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/knuckles
-	name = "Angrosian Knuckles"
+	name = "Katholikon Knuckles"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
 	created_item = /obj/item/weapon/knuckles/angros
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/cudgel
-	name = "Angrosian Handmace"
+	name = "Katholikon Handmace"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
 	created_item = /obj/item/weapon/mace/cudgel/psy
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/halberd
-	name = "Angrosian Halberd (+1 B. Silver, +1 Small Log)"
+	name = "Katholikon Halberd (+1 B. Silver, +1 Small Log)"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
 	created_item = /obj/item/weapon/polearm/halberd/angros
@@ -1044,7 +1044,7 @@
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/gsword
-	name = "Angrosian Greatsword (+1 B. Silver)"
+	name = "Katholikon Greatsword (+1 B. Silver)"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
 	created_item = /obj/item/weapon/sword/long/greatsword/angros
@@ -1052,14 +1052,14 @@
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/sword
-	name = "Angrosian Sword"
+	name = "Katholikon Sword"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
 	created_item = /obj/item/weapon/sword/long/angros
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/whip
-	name = "Angrosian Whip (+2 Cured Leather)"
+	name = "Katholikon Whip (+2 Cured Leather)"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
 	created_item = /obj/item/weapon/whip/angros

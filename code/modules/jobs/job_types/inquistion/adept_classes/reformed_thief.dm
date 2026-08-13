@@ -24,7 +24,7 @@
 // Reformed Thief, a class balanced to rogue. Axe and crossbow focus.
 /datum/job/advclass/adept/rthief
 	title = "Reformed Thief"
-	tutorial = "You are a former thief who has been given a chance to redeem yourself by the Inquisitor. You serve him and Angros with your stealth and cunning."
+	tutorial = "You are a former thief who has been given a chance to redeem yourself by the Inquisitor. You serve him and the Katholikon with your stealth and cunning."
 	outfit = /datum/outfit/adept/rthief
 	category_tags = list(CTAG_ADEPT)
 	cmode_music = 'sound/music/cmode/adventurer/CombatRogue.ogg'
@@ -45,14 +45,13 @@
 
 /datum/job/advclass/adept/rthief/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
-	GLOB.inquisition.add_member_to_school(spawned, "Order of the Venatari", -10, "Reformed Thief")
+	GLOB.inquisition.add_member_to_school(spawned, "Shadow Chapter", -10, "Reformed Thief")
 
 /datum/outfit/adept/rthief
 	name = "Reformed Thief (Adept)"
 	belt = /obj/item/storage/belt/leather
 	armor = /obj/item/clothing/armor/leather/splint
 	head = /obj/item/clothing/head/roguehood/leather
-	neck = /obj/item/clothing/neck/gorget/explosive
 	backr = /obj/item/gun/ballistic/bow
 	backl = /obj/item/ammo_holder/quiver/arrows
 	beltl = /obj/item/weapon/mace/cudgel

@@ -50,7 +50,7 @@
 
 /datum/job/advclass/puritan/ordinator
 	title = "Ordinator"
-	tutorial = "The head of the Ordo Benetarus, your lessons are the most brutal of them all. Through adversity and challenge, your students will learn what it means to stand in Angros’s name, unwavering and unblinking. Your body as hard as steel, your skills tempered through battles unending, every monster you’ve faced has fallen before you. Your students march to their doom, but with your lessons, they may yet emerge shaped in Angros’s image, and your own."
+	tutorial = "One of the heads of the Inquisition's Knightly Chapter upon Domotan Island, your lessons are the most brutal of them all. Through adversity and challenge, your students will learn what it means to stand in the name of the Four and One, unwavering and unblinking. Your body as hard as steel, your skills tempered through battles unending, every monster you’ve faced has fallen before you. Your students march to their doom, but with your lessons, they may yet emerge shaped in the image of the Four and One, and your own."
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	outfit = /datum/outfit/inquisitor/ordinator
 	spells = list(/datum/action/cooldown/spell/undirected/list_target/convert_role/adept)
@@ -82,7 +82,7 @@
 		"Crusade (Greatsword) and a Silver Dagger",
 		"Remembrance (Long Sword)",
 	)
-	var/gear_choice = browser_input_list(spawned, "CHOOSE YOUR RELIQUARY PIECE.", "WIELD THEM IN HIS NAME.", gear)
+	var/gear_choice = browser_input_list(spawned, "CHOOSE YOUR RELIQUARY PIECE.", "WIELD THEM IN THEIR NAME.", gear)
 	switch(gear_choice)
 		if("Covenant And Creed (Broadsword + Shield)")
 			spawned.put_in_hands(new /obj/item/weapon/sword/long/broadsword/psy/relic(get_turf(spawned)), TRUE)
@@ -110,7 +110,6 @@
 	neck = /obj/item/clothing/neck/gorget
 	shoes = /obj/item/clothing/shoes/otavan/inqboots
 	backl = /obj/item/storage/backpack/satchel/otavan
-	wrists = /obj/item/clothing/neck/psycross/silver
 	ring = /obj/item/clothing/ring/signet/silver
 	pants = /obj/item/clothing/pants/platelegs
 	cloak = /obj/item/clothing/cloak/ordinatorcape
@@ -121,3 +120,11 @@
 		/obj/item/storage/keyring/inquisitor = 1,
 		/obj/item/paper/inqslip/arrival/inq = 1,
 	)
+
+/datum/outfit/inquisitor/ordinator/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+	. = ..()
+	switch(equipped_human.patron?.type)
+		if(/datum/patron/divine/centrist)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine
+		if(/datum/patron/angros)
+			wrists = /obj/item/clothing/neck/psycross/silver

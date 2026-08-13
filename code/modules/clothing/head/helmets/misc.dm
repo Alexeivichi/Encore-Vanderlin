@@ -614,7 +614,7 @@
 	item_weight = 4.5 KILOGRAMS
 
 /obj/item/clothing/head/helmet/blacksteel/psythorns
-	name = "crown of angrosian thorns"
+	name = "crown of katholikon thorns"
 	desc = "Thorns fashioned from pliable yet durable blacksteel - woven and interlinked, fashioned to be worn upon the head."
 	body_parts_covered = HAIR | HEAD
 	icon_state = "psybarbs"

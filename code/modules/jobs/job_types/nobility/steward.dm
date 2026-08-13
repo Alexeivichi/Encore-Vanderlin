@@ -43,7 +43,8 @@
 	traits = list(
 		TRAIT_SEEPRICES,
 		TRAIT_NOBLE_BLOOD,
-		TRAIT_NOBLE_POWER
+		TRAIT_NOBLE_POWER,
+		TRAIT_NOBLE_LOCAL,
 	)
 
 /datum/outfit/steward/pre_equip(mob/living/carbon/human/H)

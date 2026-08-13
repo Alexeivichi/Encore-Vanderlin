@@ -299,8 +299,8 @@
 	component_type = /datum/component/storage/concrete/grid/satchel/cloth/big
 
 /obj/item/storage/backpack/satchel/otavan
-	name = "Aelondan leather satchel"
-	desc = "A made to last leather bag from the center of Wavehearth. It's Aelonda's finest."
+	name = "holy see leather satchel"
+	desc = "A made to last leather bag from the Holy See within Wavehearth. It's Aelonda's finest, and the Katholikos' forces are almost always equipped with it."
 	icon_state = "osatchel"
 	item_state = "osatchel"
 

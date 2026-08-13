@@ -39,7 +39,7 @@
 	)
 /datum/job/advclass/puritan/inspector
 	title = "Inquisitor"
-	tutorial = "The head of the Ordo Venatari, your lessons are of a subtle touch and a light step. A silver dagger in the right place at the right time is all that is needed. Preparation is key, and this is something you impart on your students. Be always ready, be always waiting, and always be vigilant."
+	tutorial = "One of the heads of the Inquisition's Shadow Chapter upon Domotan Island, your lessons are of a subtle touch and a light step. A silver dagger in the right place at the right time is all that is needed. Preparation is key, and this is something you impart on your students. Be always ready, be always waiting, and always be vigilant."
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	outfit = /datum/outfit/inquisitor/inspector
 	spells = list(/datum/action/cooldown/spell/undirected/list_target/convert_role/adept)
@@ -107,7 +107,6 @@
 	head = /obj/item/clothing/head/leather/inqhat
 	mask = /obj/item/clothing/face/spectacles/inq/spawnpair
 	gloves = /obj/item/clothing/gloves/leather/otavan
-	wrists = /obj/item/clothing/neck/psycross/silver
 	ring = /obj/item/clothing/ring/signet/silver
 	armor = /obj/item/clothing/armor/medium/scale/inqcoat/armored
 	backpack_contents = list(
@@ -120,3 +119,11 @@
 		/obj/item/grapplinghook = 1,
 		/obj/item/paper/inqslip/arrival/inq = 1,
 	)
+
+/datum/outfit/inquisitor/inspector/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+	. = ..()
+	switch(equipped_human.patron?.type)
+		if(/datum/patron/divine/centrist)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine
+		if(/datum/patron/angros)
+			wrists = /obj/item/clothing/neck/psycross/silver

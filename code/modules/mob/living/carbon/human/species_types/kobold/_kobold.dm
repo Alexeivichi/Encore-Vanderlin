@@ -51,7 +51,7 @@
 	skin_tone_wording = "Scale Color"
 	default_color = "FFFFFF"
 
-	species_traits = list(NO_UNDERWEAR)
+	species_traits = list(NO_UNDERWEAR, CUSCOLORS)
 	inherent_traits = list(TRAIT_TINY, TRAIT_DARKVISION)
 
 	statsheet_male = /datum/attribute_holder/sheet/job/species/kobold

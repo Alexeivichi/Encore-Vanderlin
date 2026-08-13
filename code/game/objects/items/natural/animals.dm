@@ -156,7 +156,7 @@
 	name = "volf head"
 	desc = "The severed head of a fearsome volf."
 	icon_state = "volfhead"
-	sellprice = 5
+	sellprice = 10
 	blood_value = BLOOD_VOLUME_SURVIVE
 	item_weight = 1.2 KILOGRAMS
 
@@ -164,7 +164,7 @@
 	name = "saiga head"
 	desc = "The severed head of a proud saiga."
 	icon_state = "saigahead"
-	sellprice = 3
+	sellprice = 6
 	blood_value = BLOOD_VOLUME_BAD
 	item_weight = 1.2 KILOGRAMS
 
@@ -175,7 +175,7 @@
 	grid_height = 96
 	grid_width = 96
 	w_class = WEIGHT_CLASS_BULKY
-	sellprice = 20
+	sellprice = 40
 	blood_value = BLOOD_VOLUME_OKAY
 	item_weight = 2.1 KILOGRAMS
 
@@ -186,18 +186,18 @@
 	name = "troll head"
 	desc = "The severed head of a once mighty warrior troll."
 	icon_state = "trollhead_axe"
-	sellprice = 30
+	sellprice = 60
 
 /obj/item/natural/head/troll/cave
 	name = "cave troll head"
 	icon_state = "cavetrollhead"
-	sellprice = 45
+	sellprice = 90
 
 /obj/item/natural/head/rous
 	name = "rous head"
 	desc = "The severed head of an unusually large rat."
 	icon_state = "roushead"
-	sellprice = 2
+	sellprice = 4
 	meat_to_give = /obj/item/reagent_containers/food/snacks/meat/mince/beef
 	item_weight = 500 GRAMS
 
@@ -206,7 +206,7 @@
 	desc = "The head of a terrifying direbear."
 	icon_state = "direbearhead"
 	layer = 3.1
-	sellprice = 20
+	sellprice = 40
 	blood_value = BLOOD_VOLUME_SAFE
 	item_weight = 1.6 KILOGRAMS
 
@@ -216,7 +216,7 @@
 	icon_state = "foxhead"
 	layer = 3.1
 	grid_height = 32
-	sellprice = 12 // fur trade
+	sellprice = 24 // fur trade
 	blood_value = BLOOD_VOLUME_SURVIVE
 	item_weight = 400 GRAMS
 
@@ -224,7 +224,7 @@
 	name = "beespider head"
 	desc = "The severed head of a venomous beespider."
 	icon_state = "spiderhead"
-	sellprice = 6
+	sellprice = 12
 	meat_to_give = /obj/item/reagent_containers/food/snacks/meat/strange
 	item_weight = 200 GRAMS
 
@@ -232,7 +232,7 @@
 	name = "bogbug head"
 	desc = "The severed head of a gross bogbug."
 	icon_state = "boghead"
-	sellprice = 10
+	sellprice = 20
 	meat_to_give = /obj/item/reagent_containers/food/snacks/meat/strange
 	item_weight = 400 GRAMS
 
@@ -242,7 +242,7 @@
 	icon_state = "molehead"
 	grid_height = 96
 	grid_width = 96
-	sellprice = 8
+	sellprice = 16
 	blood_value = BLOOD_VOLUME_SURVIVE
 	item_weight = 765 GRAMS
 
@@ -253,7 +253,7 @@
 	name = "gote head"
 	desc = "The severed head of a fiery gote."
 	icon_state = "gotehead"
-	sellprice = 3
+	sellprice = 6
 	blood_value = BLOOD_VOLUME_SURVIVE / 2
 	item_weight = 1.1 KILOGRAMS
 
