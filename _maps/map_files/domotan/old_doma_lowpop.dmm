@@ -1499,13 +1499,16 @@
 /turf/open/floor/dirt/road,
 /area/outdoors/town)
 "bcD" = (
-/obj/structure/fluff/railing/border{
-	dir = 4
+/obj/structure/fluff/traveltile{
+	aallmig = "bypass_in";
+	aportalgoesto = "bypass1";
+	aportalid = "bypass_in";
+	name = "Necropolis Bypassage";
+	dir = 4;
+	desc = "A passageway to a shortcut which is only present at very particularly dire times...";
+	icon_state = "event"
 	},
-/obj/structure/chair/bench{
-	dir = 8
-	},
-/turf/open/floor/cobble/mossy,
+/turf/open/floor/metal,
 /area/indoors/town/waterworks)
 "bcG" = (
 /obj/structure/fluff/railing/border,
@@ -3669,13 +3672,6 @@
 	},
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep)
-"cCX" = (
-/obj/structure/fluff/railing/border{
-	dir = 1
-	},
-/obj/machinery/light/fueledstreet/blue/wall,
-/turf/open/floor/blocks/stonered,
-/area/indoors/town/waterworks)
 "cCZ" = (
 /obj/structure/fluff/statue/knight/r,
 /turf/open/floor/churchmarble,
@@ -8371,13 +8367,6 @@
 	name = "chimney"
 	},
 /area/indoors/town/keep/servant)
-"fMj" = (
-/obj/structure/fluff/railing/border{
-	dir = 9
-	},
-/obj/machinery/light/fueled/torchholder/c,
-/turf/open/floor/cobble/mossy,
-/area/indoors/town/waterworks)
 "fMF" = (
 /obj/item/reagent_containers/powder/salt,
 /obj/item/reagent_containers/powder/salt,
@@ -12003,12 +11992,6 @@
 /obj/machinery/light/fueled/wallfire/candle/l,
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors/town/steward)
-"ihm" = (
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/turf/open/floor/cobble/mossy,
-/area/indoors/town/waterworks)
 "ihr" = (
 /obj/structure/fluff/walldeco/church/line,
 /obj/structure/fluff/walldeco/church/line{
@@ -14211,12 +14194,6 @@
 	},
 /turf/open/floor/blocks,
 /area/indoors/town/keep)
-"jCV" = (
-/obj/structure/fluff/railing/border{
-	dir = 10
-	},
-/turf/open/floor/blocks/stonered,
-/area/indoors/town/waterworks)
 "jDs" = (
 /obj/structure/bars,
 /turf/open/water/sewer,
@@ -16497,15 +16474,6 @@
 "lip" = (
 /turf/open/openspace,
 /area/outdoors/mountains)
-"liM" = (
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/turf/open/floor/blocks/stonered,
-/area/indoors/town/waterworks)
 "ljr" = (
 /obj/structure/fluff/railing/wood,
 /obj/structure/chair/wood/alt{
@@ -29391,15 +29359,6 @@
 	},
 /turf/open/floor/cobblerock,
 /area/outdoors/town)
-"tTg" = (
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/turf/open/floor/blocks/stonered,
-/area/indoors/town/waterworks)
 "tTj" = (
 /obj/structure/closet/crate/chest/crate,
 /obj/structure/fake_machine/hailerboard{
@@ -30736,12 +30695,6 @@
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean/abyss,
 /area/indoors/town/keep/magician/basement)
-"uPB" = (
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/turf/open/floor/cobble/mossy,
-/area/indoors/town/waterworks)
 "uPI" = (
 /obj/effect/mapping_helpers/access/keyset/manor/general,
 /obj/effect/mapping_helpers/access/locker,
@@ -32123,13 +32076,6 @@
 "vLU" = (
 /turf/closed/wall/mineral/stonebrick,
 /area/indoors/town/keep/magician/basement)
-"vLV" = (
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/obj/structure/stairs/stone,
-/turf/open/floor/blocks/stonered,
-/area/indoors/town/waterworks)
 "vMr" = (
 /obj/effect/mapping_helpers/access/locker,
 /obj/effect/mapping_helpers/access/keyset/town/doctor,
@@ -32387,13 +32333,6 @@
 /obj/effect/mapping_helpers/access/keyset/town/merchant,
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors/town/shop)
-"vWm" = (
-/obj/machinery/light/fueled/torchholder/r,
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/turf/open/floor/cobble/mossy,
-/area/indoors/town/waterworks)
 "vWz" = (
 /obj/machinery/light/fueled/torchholder/r,
 /obj/structure/fluff/railing/border{
@@ -33756,13 +33695,6 @@
 	},
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/shop)
-"wSB" = (
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/obj/structure/stairs/stone,
-/turf/open/floor/blocks/stonered,
-/area/indoors/town/waterworks)
 "wSP" = (
 /obj/structure/chair/wood/alt,
 /turf/open/floor/ruinedwood/turned/darker,
@@ -34330,11 +34262,11 @@
 /turf/open/floor/cobble,
 /area/indoors/town/garrison)
 "xla" = (
-/obj/structure/fluff/railing/border{
-	dir = 6
+/obj/structure/fluff/sellsign{
+	name = "necropolis warning";
+	desc = "This sign is plastered with a variety of inscriptions and is rotted inside and out. Most of it seems to denote that this passage leads directly to the Seculton Gate, and that it is only able to be traversed on scarce and eventful occasions."
 	},
-/obj/machinery/light/fueled/torchholder/r,
-/turf/open/floor/blocks/stonered,
+/turf/closed/wall/mineral/stonebrick,
 /area/indoors/town/waterworks)
 "xlh" = (
 /obj/machinery/light/fueledstreet/orange/wall{
@@ -58801,8 +58733,8 @@ xYj
 xYj
 xYj
 xYj
-pAq
 xYj
+kfC
 xYj
 nSX
 wLm
@@ -59614,14 +59546,14 @@ uwh
 pZy
 pZy
 pZy
-jCV
-tTg
-ihm
-ihm
-ihm
-ihm
-vLV
-iMd
+pZy
+pZy
+nLE
+nLE
+nLE
+pZy
+pZy
+pZy
 jtb
 moW
 khf
@@ -59745,15 +59677,15 @@ xKP
 qLX
 pZy
 pZy
-jtb
+nPb
 xla
-liM
-uPB
 bcD
 bcD
-vWm
-wSB
-vPW
+bcD
+bcD
+xla
+kEj
+pZy
 pZy
 djC
 sgp
@@ -59885,7 +59817,7 @@ fZn
 jWq
 jWq
 fZn
-cCX
+aWr
 pZy
 djC
 utT
@@ -60017,7 +59949,7 @@ dSr
 hpD
 seu
 fZn
-fMj
+pZy
 pZy
 djC
 ctS

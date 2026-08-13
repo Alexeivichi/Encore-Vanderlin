@@ -1,0 +1,404 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"f" = (
+/obj/effect/spawner/map_spawner/tree/fulltree,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"g" = (
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/naturalstone,
+/area/template_noop)
+"i" = (
+/obj/effect/spawner/map_spawner/pit/randomchance,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"p" = (
+/obj/effect/spawner/map_spawner/pit/randomchance,
+/turf/open/floor/dirt,
+/area/template_noop)
+"q" = (
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"r" = (
+/obj/effect/spawner/map_spawner/tallgrass,
+/turf/open/floor/dirt,
+/area/template_noop)
+"t" = (
+/obj/effect/spawner/map_spawner/treeorstump,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"y" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/template_noop)
+"z" = (
+/obj/effect/spawner/map_spawner/tallgrass,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"A" = (
+/obj/effect/landmark/ambush,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"K" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"O" = (
+/obj/effect/landmark/ambush,
+/turf/open/floor/dirt,
+/area/template_noop)
+"P" = (
+/turf/template_noop,
+/area/template_noop)
+"R" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"V" = (
+/obj/effect/spawner/map_spawner/tree/fulltree,
+/turf/open/floor/dirt,
+/area/template_noop)
+"X" = (
+/obj/effect/spawner/map_spawner/treeorstump,
+/turf/open/floor/dirt,
+/area/template_noop)
+"Z" = (
+/obj/effect/landmark/map_load_mark/necropolis/z2_pillars,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+
+(1,1,1) = {"
+f
+z
+g
+g
+R
+R
+V
+R
+V
+R
+r
+K
+"}
+(2,1,1) = {"
+z
+R
+R
+z
+p
+R
+R
+V
+z
+z
+V
+O
+"}
+(3,1,1) = {"
+A
+R
+V
+z
+p
+p
+p
+p
+R
+R
+z
+V
+"}
+(4,1,1) = {"
+f
+R
+y
+z
+z
+p
+p
+p
+R
+y
+q
+R
+"}
+(5,1,1) = {"
+f
+z
+r
+V
+K
+i
+p
+p
+p
+p
+t
+r
+"}
+(6,1,1) = {"
+q
+z
+r
+X
+i
+i
+p
+p
+f
+r
+f
+r
+"}
+(7,1,1) = {"
+f
+r
+p
+f
+i
+i
+i
+i
+z
+R
+f
+r
+"}
+(8,1,1) = {"
+f
+r
+r
+p
+R
+q
+i
+p
+R
+V
+q
+r
+"}
+(9,1,1) = {"
+R
+z
+z
+r
+V
+Z
+R
+R
+R
+q
+z
+R
+"}
+(10,1,1) = {"
+R
+f
+z
+R
+V
+R
+V
+R
+t
+z
+R
+q
+"}
+(11,1,1) = {"
+q
+q
+r
+R
+q
+z
+z
+R
+z
+f
+r
+R
+"}
+(12,1,1) = {"
+X
+R
+V
+q
+K
+q
+R
+R
+O
+r
+r
+V
+"}
+
+(1,1,2) = {"
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+"}
+(2,1,2) = {"
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+"}
+(3,1,2) = {"
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+"}
+(4,1,2) = {"
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+"}
+(5,1,2) = {"
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+"}
+(6,1,2) = {"
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+"}
+(7,1,2) = {"
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+"}
+(8,1,2) = {"
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+"}
+(9,1,2) = {"
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+"}
+(10,1,2) = {"
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+"}
+(11,1,2) = {"
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+"}
+(12,1,2) = {"
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+P
+"}

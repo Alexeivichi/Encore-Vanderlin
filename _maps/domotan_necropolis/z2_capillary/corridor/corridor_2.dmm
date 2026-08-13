@@ -1,0 +1,396 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/spawner/map_spawner/tallgrass,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"e" = (
+/obj/effect/landmark/map_load_mark/necropolis/z2_pillars,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"i" = (
+/obj/effect/landmark/ambush,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"j" = (
+/obj/effect/spawner/map_spawner/tree/fulltree,
+/turf/open/floor/dirt,
+/area/template_noop)
+"r" = (
+/obj/effect/spawner/map_spawner/tallgrass,
+/turf/open/floor/dirt,
+/area/template_noop)
+"t" = (
+/turf/template_noop,
+/area)
+"w" = (
+/obj/effect/landmark/ambush,
+/turf/open/floor/dirt,
+/area/template_noop)
+"x" = (
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"F" = (
+/obj/effect/spawner/map_spawner/tree/fulltree,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"N" = (
+/obj/effect/spawner/map_spawner/treeorstump,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"O" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/template_noop)
+"S" = (
+/obj/effect/spawner/map_spawner/treeorstump,
+/turf/open/floor/dirt,
+/area/template_noop)
+"T" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"W" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"Z" = (
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/naturalstone,
+/area/template_noop)
+
+(1,1,1) = {"
+F
+a
+Z
+Z
+N
+w
+j
+j
+j
+T
+r
+r
+"}
+(2,1,1) = {"
+a
+Z
+Z
+a
+a
+T
+r
+a
+a
+a
+j
+T
+"}
+(3,1,1) = {"
+i
+F
+T
+a
+T
+a
+a
+r
+O
+Z
+a
+j
+"}
+(4,1,1) = {"
+F
+F
+r
+a
+a
+x
+F
+r
+Z
+Z
+i
+T
+"}
+(5,1,1) = {"
+F
+a
+r
+T
+x
+x
+x
+e
+T
+Z
+N
+r
+"}
+(6,1,1) = {"
+W
+a
+r
+S
+x
+x
+x
+x
+F
+r
+F
+r
+"}
+(7,1,1) = {"
+F
+r
+T
+F
+x
+x
+x
+x
+a
+T
+F
+r
+"}
+(8,1,1) = {"
+F
+r
+r
+T
+T
+x
+x
+T
+T
+T
+a
+r
+"}
+(9,1,1) = {"
+T
+a
+a
+r
+r
+r
+T
+T
+T
+W
+a
+O
+"}
+(10,1,1) = {"
+T
+F
+a
+j
+r
+r
+T
+T
+N
+a
+j
+i
+"}
+(11,1,1) = {"
+w
+F
+r
+F
+F
+a
+a
+Z
+a
+F
+r
+T
+"}
+(12,1,1) = {"
+S
+T
+j
+T
+w
+Z
+Z
+Z
+Z
+r
+r
+j
+"}
+
+(1,1,2) = {"
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+"}
+(2,1,2) = {"
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+"}
+(3,1,2) = {"
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+"}
+(4,1,2) = {"
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+"}
+(5,1,2) = {"
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+"}
+(6,1,2) = {"
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+"}
+(7,1,2) = {"
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+"}
+(8,1,2) = {"
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+"}
+(9,1,2) = {"
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+"}
+(10,1,2) = {"
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+"}
+(11,1,2) = {"
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+"}
+(12,1,2) = {"
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+t
+"}
