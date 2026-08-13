@@ -87,7 +87,7 @@
 
 /obj/item/organ/stomach/proc/handle_disgust(mob/living/carbon/human/H)
 	if(H.disgust)
-		var/pukeprob = 5 + 0.05 * H.disgust
+		var/stutterprob = 5 + 0.05 * H.disgust
 		if(H.disgust >= DISGUST_LEVEL_GROSS)
 			if(prob(10))
 				H.stuttering += 1
@@ -96,10 +96,9 @@
 				to_chat(H, "<span class='warning'>I feel kind of iffy...</span>")
 			H.adjust_jitter(-6 SECONDS)
 		if(H.disgust >= DISGUST_LEVEL_VERYGROSS)
-			if(prob(pukeprob)) //iT hAndLeS mOrE ThaN PukInG
+			if(prob(stutterprob)) //this doesnt make you vomit anymore
 				H.adjust_confusion(5 SECONDS)
 				H.stuttering += 1
-				H.vomit(10, 0, 1, 0, 1, 0)
 			H.set_dizzy(10 SECONDS)
 		if(H.disgust >= DISGUST_LEVEL_DISGUSTED)
 			if(prob(25))
