@@ -1,14 +1,14 @@
 /datum/clan/crimson_fang
-	name = "Crimson Fang"
-	desc = "Crimson Fangs, often seen by other kindred as dangerous assassins and diablerists, but in truth they are guardians, warriors, and scholars who seek to distance themselves from politics of both vampyre and mundane worlds."
-	curse = "Blood Addiction."
+	name = "Camadinnes"
+	desc = "Camadinnes, often seen by other kindred as dangerous assassins and diablerists, but in truth they are guardians, warriors, and scholars who seek to distance themselves from politics of both vampyre and mundane worlds. They are tentative associates and sometimes ally to the Shirleighs."
+	curse = "Blood addiction."
 	clan_covens = list(
 		/datum/coven/celerity,
 		/datum/coven/obfuscate,
 		/datum/coven/quietus,
 		/datum/coven/bloodheal
 	)
-	blood_preference = BLOOD_PREFERENCE_KIN | BLOOD_PREFERENCE_FANCY
+	blood_preference = BLOOD_PREFERENCE_KIN | BLOOD_PREFERENCE_FANCY | BLOOD_PREFERENCE_LIVING
 	blood_disgust = BLOOD_PREFERENCE_RATS | BLOOD_PREFERENCE_EUPHORIC
 	clane_traits = list(
 		TRAIT_STRONGBITE,
