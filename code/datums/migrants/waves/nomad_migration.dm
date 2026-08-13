@@ -47,7 +47,7 @@
 		TRAIT_NOBLE_POWER,
 	)
 
-	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
+	cmode_music = 'sound/music/cmode/adventurer/CombatSteppe.ogg'
 
 /datum/job/migrant/khan/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
