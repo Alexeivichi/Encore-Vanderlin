@@ -1,0 +1,345 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"c" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cave)
+"e" = (
+/obj/item/bin/water/gross,
+/turf/open/floor/cobble,
+/area/under/cave)
+"f" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"h" = (
+/obj/structure/window,
+/turf/open/floor/dirt,
+/area/template_noop)
+"i" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/easy,
+/turf/open/floor/cobble,
+/area/under/cave)
+"j" = (
+/obj/effect/spawner/map_spawner/necropolis/water_clutter,
+/turf/open/water/marsh,
+/area/template_noop)
+"m" = (
+/turf/open/water/marsh,
+/area/under/cave)
+"o" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/under/cave)
+"p" = (
+/turf/open/floor/cobble,
+/area/under/cave)
+"q" = (
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/cobble,
+/area/template_noop)
+"s" = (
+/obj/structure/window,
+/turf/open/floor/dirt,
+/area/under/cave)
+"t" = (
+/turf/open/water/marsh,
+/area/template_noop)
+"u" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/cobble,
+/area/under/cave)
+"w" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/cobble,
+/area/template_noop)
+"x" = (
+/obj/structure/rack,
+/turf/open/floor/cobble,
+/area/template_noop)
+"y" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/dirt,
+/area/template_noop)
+"A" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/cobble,
+/area/template_noop)
+"C" = (
+/turf/open/floor/cobble,
+/area/template_noop)
+"D" = (
+/obj/effect/spawner/map_spawner/loot/armor,
+/turf/open/floor/cobble,
+/area/under/cave)
+"E" = (
+/obj/structure/chair/wood/alt/chair3{
+	dir = 8
+	},
+/turf/open/floor/dirt,
+/area/under/cave)
+"F" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/dirt,
+/area/under/cave)
+"I" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/cobble,
+/area/under/cave)
+"J" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/dirt,
+/area/template_noop)
+"N" = (
+/obj/effect/spawner/map_spawner/loot/weapon,
+/obj/structure/table/wood/plain,
+/turf/open/floor/cobble,
+/area/under/cave)
+"P" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/dirt,
+/area/under/cave)
+"Q" = (
+/obj/structure/fluff/walldeco/vinez,
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cave)
+"S" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/template_noop)
+"T" = (
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/cobble,
+/area/under/cave)
+"X" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/structure/table/wood/plain,
+/turf/open/floor/cobble,
+/area/under/cave)
+"Z" = (
+/turf/open/floor/dirt,
+/area/under/cave)
+
+(1,1,1) = {"
+a
+a
+a
+a
+t
+t
+a
+a
+a
+a
+a
+C
+t
+t
+"}
+(2,1,1) = {"
+a
+Q
+s
+s
+c
+j
+t
+a
+a
+a
+t
+w
+q
+t
+"}
+(3,1,1) = {"
+a
+s
+i
+p
+Z
+a
+a
+a
+C
+t
+t
+a
+C
+a
+"}
+(4,1,1) = {"
+a
+c
+X
+I
+p
+a
+c
+c
+Q
+t
+j
+a
+t
+a
+"}
+(5,1,1) = {"
+a
+c
+Q
+D
+Z
+y
+Z
+i
+Q
+t
+t
+x
+x
+a
+"}
+(6,1,1) = {"
+a
+t
+t
+J
+f
+q
+Z
+Z
+m
+t
+a
+a
+a
+a
+"}
+(7,1,1) = {"
+a
+t
+t
+J
+y
+w
+e
+F
+Z
+j
+t
+a
+C
+a
+"}
+(8,1,1) = {"
+a
+a
+t
+J
+J
+J
+P
+Z
+c
+t
+t
+f
+S
+a
+"}
+(9,1,1) = {"
+a
+a
+a
+a
+a
+a
+Z
+c
+c
+a
+a
+f
+S
+a
+"}
+(10,1,1) = {"
+a
+a
+a
+a
+a
+a
+j
+t
+t
+t
+a
+a
+a
+a
+"}
+(11,1,1) = {"
+a
+a
+f
+f
+a
+j
+t
+t
+j
+t
+t
+a
+a
+a
+"}
+(12,1,1) = {"
+a
+t
+A
+w
+a
+a
+a
+t
+t
+m
+o
+T
+u
+c
+"}
+(13,1,1) = {"
+t
+t
+S
+S
+x
+a
+C
+a
+a
+N
+E
+F
+I
+Q
+"}
+(14,1,1) = {"
+a
+a
+a
+t
+t
+a
+S
+h
+h
+c
+c
+c
+Q
+Q
+"}

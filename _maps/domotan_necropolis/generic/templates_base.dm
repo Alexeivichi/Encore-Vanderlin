@@ -5,7 +5,7 @@
 // Large 30x30
 // Do not place template spawners in a location that will cause these sizes to go beyond map edge
 // Generic templates are found on every part of the island except old doma and the necropolis itself
-#define GENERIC_SMALL_TEMPLATES list("small_generic_tile_1z_coal", "small_generic_tile_1z_shrine_fire", "small_generic_tile_1z_shrine_angros", "small_generic_tile_1z_shrine_earth", "small_generic_tile_1z_shrine_air", "small_generic_tile_1z_shrine_frost", "small_generic_tile_1z_flowerfield", "small_generic_tile_1z_flowerfield_2", "small_generic_tile_1z_manabloom", "small_generic_tile_1z_ruin", "small_generic_tile_1z_ruin_2", "small_generic_tile_1z_ruin_3", "small_generic_tile_1z_ruin_4", "small_generic_tile_1z_pond", "small_generic_tile_1z_goblincamp", "small_generic_tile_1z_goblincamp_2", "small_generic_tile_1z_goblincamp_3", "small_generic_tile_1z_goblincamp_4", "small_generic_tile_1z_shack", "small_generic_tile_1z_shack_2", "small_generic_tile_1z_shack_3")
+#define GENERIC_SMALL_TEMPLATES list("small_generic_tile_1z_coal", "small_generic_tile_1z_shrine_fire", "small_generic_tile_1z_shrine_angros", "small_generic_tile_1z_shrine_earth", "small_generic_tile_1z_shrine_air", "small_generic_tile_1z_shrine_frost", "small_generic_tile_1z_flowerfield", "small_generic_tile_1z_flowerfield_2", "small_generic_tile_1z_manabloom", "small_generic_tile_1z_ruin", "small_generic_tile_1z_ruin_2", "small_generic_tile_1z_ruin_3", "small_generic_tile_1z_ruin_4", "small_generic_tile_1z_ruin_5", "small_generic_tile_1z_ruin_6", "small_generic_tile_1z_ruin_7", "small_generic_tile_1z_ruin_8", "small_generic_tile_1z_ruin_9", "small_generic_tile_1z_ruin_10", "small_generic_tile_1z_pond", "small_generic_tile_1z_goblincamp", "small_generic_tile_1z_goblincamp_2", "small_generic_tile_1z_goblincamp_3", "small_generic_tile_1z_goblincamp_4", "small_generic_tile_1z_shack", "small_generic_tile_1z_shack_2", "small_generic_tile_1z_shack_3")
 #define NATURAL_MEDIUM_TEMPLATES list("medium_emptycave", "medium_emptypool")
 
 /obj/effect/landmark/map_load_mark/generic_tile
@@ -76,6 +76,36 @@
 	name = "Small Generic Tile (Ruin 4)"
 	id = "small_generic_tile_1z_ruin_4"
 	mappath = "_maps/domotan_necropolis/generic/small_generic_tile_1z_ruin_4.dmm"
+
+/datum/map_template/dungeon/small_generic_tile_1z_ruin_5
+	name = "Small Generic Tile (Ruin 5)"
+	id = "small_generic_tile_1z_ruin_5"
+	mappath = "_maps/domotan_necropolis/generic/small_generic_tile_1z_ruin_5.dmm"
+
+/datum/map_template/dungeon/small_generic_tile_1z_ruin_6
+	name = "Small Generic Tile (Ruin 6)"
+	id = "small_generic_tile_1z_ruin_6"
+	mappath = "_maps/domotan_necropolis/generic/small_generic_tile_1z_ruin_6.dmm"
+
+/datum/map_template/dungeon/small_generic_tile_1z_ruin_7
+	name = "Small Generic Tile (Ruin 7)"
+	id = "small_generic_tile_1z_ruin_7"
+	mappath = "_maps/domotan_necropolis/generic/small_generic_tile_1z_ruin_7.dmm"
+
+/datum/map_template/dungeon/small_generic_tile_1z_ruin_8
+	name = "Small Generic Tile (Ruin 8)"
+	id = "small_generic_tile_1z_ruin_8"
+	mappath = "_maps/domotan_necropolis/generic/small_generic_tile_1z_ruin_8.dmm"
+
+/datum/map_template/dungeon/small_generic_tile_1z_ruin_9
+	name = "Small Generic Tile (Ruin 9)"
+	id = "small_generic_tile_1z_ruin_9"
+	mappath = "_maps/domotan_necropolis/generic/small_generic_tile_1z_ruin_9.dmm"
+
+/datum/map_template/dungeon/small_generic_tile_1z_ruin_10
+	name = "Small Generic Tile (Ruin 10)"
+	id = "small_generic_tile_1z_ruin_10"
+	mappath = "_maps/domotan_necropolis/generic/small_generic_tile_1z_ruin_10.dmm"
 
 /datum/map_template/dungeon/small_generic_tile_1z_pond
 	name = "Small Generic Tile (Pond)"

@@ -1,0 +1,609 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cave)
+"c" = (
+/obj/structure/rack,
+/obj/item/flashlight/flare/torch,
+/turf/open/floor/twig,
+/area/under/cave)
+"d" = (
+/obj/structure/door/weak/bolt{
+	dir = 1;
+	name = "Vacant Watchtower"
+	},
+/turf/open/floor/twig,
+/area/under/cave)
+"e" = (
+/obj/structure/ladder,
+/turf/open/floor/twig,
+/area/under/cave)
+"h" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/cobble,
+/area/template_noop)
+"i" = (
+/obj/structure/rack,
+/obj/item/grown/log/tree/stick,
+/obj/item/grown/log/tree/stick,
+/obj/item/natural/cloth,
+/turf/open/floor/twig,
+/area/under/cave)
+"j" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/cobble,
+/area/template_noop)
+"k" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/turf/open/floor/twig,
+/area/template_noop)
+"l" = (
+/obj/structure/bars,
+/turf/open/floor/metal,
+/area/under/cave)
+"p" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/twig,
+/area/template_noop)
+"q" = (
+/obj/structure/fluff/railing/wood,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/machinery/light/fueled/lanternpost{
+	dir = 1
+	},
+/turf/open/floor/cobble/alt,
+/area/template_noop)
+"t" = (
+/turf/template_noop,
+/area/template_noop)
+"u" = (
+/obj/structure/fluff/flag,
+/obj/structure/fluff/railing/wood,
+/turf/template_noop,
+/area/template_noop)
+"y" = (
+/turf/open/floor/twig,
+/area/template_noop)
+"z" = (
+/turf/open/floor/cobble,
+/area/template_noop)
+"A" = (
+/obj/structure/fluff/railing/wood,
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/machinery/light/fueled/lanternpost,
+/turf/open/floor/cobble,
+/area/template_noop)
+"B" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/cobble/alt,
+/area/template_noop)
+"C" = (
+/obj/structure/fluff/railing/wood,
+/turf/template_noop,
+/area/template_noop)
+"E" = (
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"H" = (
+/obj/structure/fluff/railing/border{
+	dir = 9
+	},
+/turf/open/floor/cobble,
+/area/template_noop)
+"I" = (
+/obj/structure/door/weak/bolt{
+	name = "Vacant Watchtower"
+	},
+/turf/open/floor/twig,
+/area/under/cave)
+"J" = (
+/obj/structure/fluff/walldeco/customflag/regent,
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cave)
+"K" = (
+/obj/structure/fluff/railing/wood,
+/obj/machinery/light/fueled/lanternpost,
+/turf/template_noop,
+/area/template_noop)
+"L" = (
+/obj/structure/fluff/railing/border{
+	dir = 5
+	},
+/turf/open/floor/cobble/alt,
+/area/template_noop)
+"M" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/cobble,
+/area/template_noop)
+"P" = (
+/obj/structure/ladder,
+/turf/open/floor/twig,
+/area/template_noop)
+"Q" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"R" = (
+/obj/structure/window,
+/turf/open/floor/twig,
+/area/under/cave)
+"S" = (
+/obj/machinery/light/fueled/torchholder/metal_torch/east,
+/turf/open/floor/twig,
+/area/under/cave)
+"U" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/cobble/alt,
+/area/template_noop)
+"W" = (
+/turf/open/floor/twig,
+/area/under/cave)
+"Z" = (
+/obj/structure/fluff/railing/wood,
+/obj/machinery/light/fueled/lanternpost{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+t
+t
+t
+t
+a
+a
+R
+a
+J
+t
+t
+t
+t
+t
+"}
+(2,1,1) = {"
+t
+t
+t
+t
+J
+S
+W
+W
+d
+t
+t
+t
+t
+t
+"}
+(3,1,1) = {"
+t
+t
+t
+t
+I
+W
+e
+i
+a
+t
+t
+t
+t
+t
+"}
+(4,1,1) = {"
+t
+t
+t
+t
+a
+W
+W
+W
+J
+t
+t
+t
+t
+t
+"}
+(5,1,1) = {"
+t
+t
+t
+t
+J
+a
+a
+a
+a
+t
+t
+t
+t
+t
+"}
+(6,1,1) = {"
+t
+t
+t
+t
+t
+a
+a
+t
+t
+t
+t
+t
+t
+t
+"}
+(7,1,1) = {"
+t
+t
+t
+t
+t
+l
+l
+t
+t
+t
+t
+t
+t
+t
+"}
+(8,1,1) = {"
+t
+t
+t
+t
+t
+l
+l
+t
+t
+t
+t
+t
+t
+t
+"}
+(9,1,1) = {"
+t
+t
+t
+t
+t
+a
+a
+t
+t
+t
+t
+t
+t
+t
+"}
+(10,1,1) = {"
+t
+t
+t
+t
+a
+a
+a
+a
+J
+t
+t
+t
+t
+t
+"}
+(11,1,1) = {"
+t
+t
+t
+t
+J
+S
+W
+W
+d
+t
+t
+t
+t
+t
+"}
+(12,1,1) = {"
+t
+t
+t
+t
+I
+W
+e
+W
+a
+t
+t
+t
+t
+t
+"}
+(13,1,1) = {"
+t
+t
+t
+t
+a
+c
+W
+W
+J
+t
+t
+t
+t
+t
+"}
+(14,1,1) = {"
+t
+t
+t
+t
+J
+a
+R
+a
+a
+t
+t
+t
+t
+t
+"}
+
+(1,1,2) = {"
+t
+t
+t
+K
+U
+h
+h
+h
+A
+t
+t
+t
+t
+t
+"}
+(2,1,2) = {"
+t
+t
+t
+C
+L
+y
+y
+y
+M
+t
+t
+t
+t
+t
+"}
+(3,1,2) = {"
+t
+t
+t
+u
+k
+y
+P
+y
+p
+t
+t
+t
+t
+t
+"}
+(4,1,2) = {"
+t
+t
+t
+C
+H
+y
+y
+y
+B
+t
+t
+t
+t
+t
+"}
+(5,1,2) = {"
+t
+t
+t
+Z
+j
+z
+z
+j
+q
+t
+t
+t
+t
+t
+"}
+(6,1,2) = {"
+t
+t
+t
+t
+C
+E
+Q
+t
+t
+t
+t
+t
+t
+t
+"}
+(7,1,2) = {"
+t
+t
+t
+t
+C
+E
+Q
+t
+t
+t
+t
+t
+t
+t
+"}
+(8,1,2) = {"
+t
+t
+t
+t
+C
+E
+Q
+t
+t
+t
+t
+t
+t
+t
+"}
+(9,1,2) = {"
+t
+t
+t
+t
+C
+E
+Q
+t
+t
+t
+t
+t
+t
+t
+"}
+(10,1,2) = {"
+t
+t
+t
+K
+U
+z
+z
+h
+A
+t
+t
+t
+t
+t
+"}
+(11,1,2) = {"
+t
+t
+t
+C
+L
+y
+y
+y
+M
+t
+t
+t
+t
+t
+"}
+(12,1,2) = {"
+t
+t
+t
+u
+k
+y
+P
+y
+p
+t
+t
+t
+t
+t
+"}
+(13,1,2) = {"
+t
+t
+t
+C
+H
+y
+y
+y
+B
+t
+t
+t
+t
+t
+"}
+(14,1,2) = {"
+t
+t
+t
+Z
+j
+j
+j
+j
+q
+t
+t
+t
+t
+t
+"}
