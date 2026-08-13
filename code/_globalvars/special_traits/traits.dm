@@ -1027,3 +1027,12 @@
 
 /datum/special_trait/angrosian_studies/on_apply(mob/living/carbon/human/character, silent)
 	character.grant_language(/datum/language/oldunsundered)
+
+/datum/special_trait/sage_phobia
+	name = "Blood Memory"
+	greet_text = span_boldwarning("My blood remembers something primordial. My mind does not.")
+	weight = 0
+
+/datum/special_trait/sage_phobia/on_apply(mob/living/carbon/human/character, silent)
+	ADD_TRAIT(character, TRAIT_SAGE_PHOBIA, "[type]")
+	character.gain_trauma(/datum/brain_trauma/mild/phobia/sages)
