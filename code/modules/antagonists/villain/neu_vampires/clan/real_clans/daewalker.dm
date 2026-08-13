@@ -2,11 +2,11 @@
 	lord_spells = list()
 	lord_verbs = list()
 	lord_traits = list(TRAIT_HEAVYARMOR, TRAIT_NOSTAMINA)
-	lord_title = "Daewalker"
+	lord_title = "Starfallen"
 
 /datum/clan/daewalker
 	name = "Visires's Will"
-	desc = "Walk the dae so they may remember to fear it."
+	desc = "An actor of Visires' own manifest rage. You serve Her undying fury to erase what is left of Angros, and there is none you hate more than His followers. Out of the scorched cauldron and into the fire, you walk so that they remember to fear the day."
 	clan_covens = list(
 		/datum/coven/bloodheal,
 		/datum/coven/celerity,
@@ -31,10 +31,8 @@
 		TRAIT_IMMUNE_TO_FRENZY,
 		TRAIT_COVEN_RESISTANT
 	)
-	leader_title = "Daewalker"
+	leader_title = "Starfallen"
 	leader = /datum/clan_leader/daewalker
-	selectable_by_vampires = FALSE
-	allows_non_vampires = FALSE
 
 /datum/clan/daewalker/get_downside_string()
 	return "serve Visires eternally."
@@ -49,7 +47,7 @@
 
 /datum/clan/daewalker/initialize_hierarchy()
 	// Create the root leadership position
-	hierarchy_root = new /datum/clan_hierarchy_node("Daewalker", "Visires's Chosen", 0)
+	hierarchy_root = new /datum/clan_hierarchy_node("Starfallen", "Visires's Chosen", 0)
 	hierarchy_root.position_color = "#gold"
 	hierarchy_root.max_subordinates = 0
 	all_positions += hierarchy_root

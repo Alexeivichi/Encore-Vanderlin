@@ -1,0 +1,14 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - map: "Adds sets of armour for the Regent and Consort in their room."
+  - map: "Adds two sets of armour for royal Heirs to the vault."
+  - map: "Adds various cultural swords to the vault for the royal family to use."
+  - map: "Places the Divine Hoard behind a secret wall that only the royal family can open."
+  - map: "Removes the evil contract board from the town square and places a HAILER machine there next to the HAILER BOARD."
+  - map: "Places multiple HAILER BOARDS throughout town to make it easier for people to request help and advertise services."
+  - map: "Adds two of the Iliope gambling machines to the upstairs Inn."
+  - map: "Puts the chest full of spare inn keys behind the locked staff door so people can't just take them for free rooms."
+  - bugfix: "Properly adds the Inn room keys to the PEDDLER upstairs so people can rent the rooms."
+  - bugfix: "Lowers the cost of the Inn room keys a little bit so they're a little more affordable."
+  - bugfix: "Fixes #108."

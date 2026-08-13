@@ -1,0 +1,6 @@
+{
+    "map_name": "Necropolis Bypass",
+    "map_path": "map_files/domotan",
+    "map_file": "bypass.dmm",
+	"traits": [{"Up": false, "Leylines": false}]
+}

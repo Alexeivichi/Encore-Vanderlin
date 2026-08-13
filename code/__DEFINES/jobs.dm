@@ -208,9 +208,9 @@
 #define JOB_TOWN_ELDER "Town Elder"
 
 
-#define JOB_PRIEST "Priest"
-#define JOB_PRIEST_FEM "Priestess"
-#define JOB_GRANDMASTER_TEMPLAR "Grandmaster Templar"
+#define JOB_PRIEST "Bishop"
+#define JOB_PRIEST_FEM "Bishop"
+#define JOB_GRANDMASTER_TEMPLAR "Martyr"
 #define JOB_ACOLYTE "Acolyte"
 #define JOB_GRAVETENDER "Gravetender"
 #define JOB_TEMPLAR "Templar"

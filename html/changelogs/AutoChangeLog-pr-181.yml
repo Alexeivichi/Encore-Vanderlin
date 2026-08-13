@@ -1,0 +1,5 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - rscadd: "Added the framework for the second level of the Necropolis."
+  - rscadd: "Added a separate event map file which enables the Necropolis, and disabled the Necropolis in normal gameplay."

@@ -1,6 +1,6 @@
 SUBSYSTEM_DEF(treesetup)
 	name = "treesetup"
-	init_order = INIT_ORDER_ATOMS-10
+	init_order = INIT_ORDER_DUNGEON_PILLAR_MAPPING-1
 	flags = SS_NO_FIRE
 
 	var/list/initialize_me = list()
