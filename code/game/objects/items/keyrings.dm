@@ -222,6 +222,9 @@
 /obj/item/storage/keyring/consort
 	keys = list(/obj/item/key/dungeon, /obj/item/key/atarms, /obj/item/key/walls, /obj/item/key/manor, /obj/item/key/consort, /obj/item/key/guest)
 
+/obj/item/storage/keyring/heir
+	keys = list(/obj/item/key/dungeon, /obj/item/key/garrison, /obj/item/key/forrestgarrison, /obj/item/key/atarms, /obj/item/key/walls, /obj/item/key/manor, /obj/item/key/guest, /obj/item/key/vault)
+
 /obj/item/storage/keyring/guard
 	keys = list(/obj/item/key/garrison)
 
@@ -229,7 +232,7 @@
 	keys = list(/obj/item/key/garrison, /obj/item/key/lieutenant)
 
 /obj/item/storage/keyring/manorguard
-	keys = list(/obj/item/key/manor, /obj/item/key/dungeon, /obj/item/key/atarms, /obj/item/key/walls)
+	keys = list(/obj/item/key/manor, /obj/item/key/dungeon, /obj/item/key/atarms, /obj/item/key/walls, /obj/item/key/garrison)
 
 /obj/item/storage/keyring/archivist
 	keys = list(/obj/item/key/archive, /obj/item/key/manor)
@@ -250,10 +253,10 @@
 	keys = list(/obj/item/key/priest, /obj/item/key/church, /obj/item/key/graveyard)
 
 /obj/item/storage/keyring/inquisitor
-	keys = list(/obj/item/key/inquisition)
+	keys = list(/obj/item/key/inquisition, /obj/item/key/church, /obj/item/key/graveyard)
 
 /obj/item/storage/keyring/adept
-	keys = list(/obj/item/key/inquisition)
+	keys = list(/obj/item/key/inquisition, /obj/item/key/church, /obj/item/key/graveyard)
 
 /obj/item/storage/keyring/gravetender
 	keys = list(/obj/item/key/church, /obj/item/key/graveyard)

@@ -17,8 +17,8 @@
 
 /datum/job/advclass/combat/bladesinger
 	title = "Bladesinger"
-	tutorial = "Your vigil over the elven cities has long since ended. Though dutiful, the inevitable happened and now you hope these lands have use for your talents."
-	allowed_races = list(SPEC_ID_ELF)
+	tutorial = "Your vigil over civilization has long since ended. Though dutiful, the inevitable happened and now you hope these lands have use for your talents."
+	allowed_races = RACES_PLAYER_ALL
 	total_positions = 99
 	spawn_positions = 99
 	outfit = /datum/outfit/folkhero/bladesinger

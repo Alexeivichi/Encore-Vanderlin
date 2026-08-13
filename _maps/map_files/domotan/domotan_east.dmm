@@ -57,6 +57,10 @@
 	},
 /turf/open/floor/church/purple,
 /area/indoors/hellwatch)
+"ar" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/metal/red/alt,
+/area/under/cave)
 "au" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -764,6 +768,12 @@
 "iL" = (
 /turf/closed/mineral/bedrock,
 /area)
+"iM" = (
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 4
+	},
+/turf/open/floor/metal/red,
+/area/under/cave)
 "iV" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/grass/yel,
@@ -900,11 +910,11 @@
 /turf/open/floor/grass/yel,
 /area/outdoors/mountains/decap)
 "kP" = (
-/obj/structure/fluff/railing/border{
-	dir = 5
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 8
 	},
-/turf/open/floor/cobble,
-/area/outdoors/hellwatch)
+/turf/open/floor/metal/red,
+/area/under/cave)
 "kR" = (
 /obj/structure/flora/grass/bush,
 /turf/open/floor/grass/yel,
@@ -954,8 +964,8 @@
 /turf/open/floor/churchrough,
 /area/outdoors/seculton)
 "lv" = (
-/turf/open/water/clean,
-/area/outdoors/hellwatch)
+/turf/closed/wall/mineral/stone/moss,
+/area/under/cave)
 "lx" = (
 /turf/open/floor/cobble/alt,
 /area/indoors/hellwatch)
@@ -2217,8 +2227,7 @@
 /turf/open/floor/dirt/road,
 /area/outdoors/mountains/decap)
 "EB" = (
-/obj/structure/flora/grass,
-/turf/open/floor/cobble/alt,
+/turf/open/floor/church/purple,
 /area/outdoors/hellwatch)
 "EE" = (
 /obj/structure/fluff/walldeco/church/line{
@@ -2821,7 +2830,7 @@
 	pixel_x = 3;
 	pixel_y = 12
 	},
-/turf/open/floor/grass/yel,
+/turf/open/floor/cobble/alt,
 /area/outdoors/hellwatch)
 "Mn" = (
 /obj/structure/chair/bench/ancientlog,
@@ -2980,15 +2989,24 @@
 /turf/open/floor/cobblerock,
 /area/outdoors/seculton)
 "NR" = (
-/obj/structure/door/stone{
-	name = "Chapel"
+/obj/structure/fluff/traveltile{
+	aallmig = "bypass_out";
+	aportalgoesto = "bypass2";
+	aportalid = "bypass_out";
+	name = "To Bypassage";
+	dir = 1;
+	icon_state = "event";
+	desc = "A passageway to a shortcut which is only present at very particularly dire times..."
 	},
-/obj/effect/mapping_helpers/access/keyset/church/general,
-/turf/open/floor/ruinedwood/darker,
-/area/indoors/hellwatch)
+/turf/open/floor/metal/alt,
+/area/under/cave)
 "NV" = (
 /turf/open/openspace,
 /area/outdoors/mountains/decap/miracle_caldera)
+"Ob" = (
+/obj/structure/fluff/statue/knight/r,
+/turf/open/floor/metal/red,
+/area/under/cave)
 "Od" = (
 /turf/closed/mineral,
 /area/indoors/hellwatch)
@@ -3129,14 +3147,9 @@
 /turf/closed/wall/mineral/stonebrick/reddish,
 /area/under/cave)
 "PX" = (
-/obj/structure/stairs{
-	dir = 1
-	},
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/turf/open/floor/church/purple,
-/area/outdoors/hellwatch)
+/obj/structure/stairs/stone,
+/turf/open/floor/metal/red/alt,
+/area/under/cave)
 "PZ" = (
 /obj/structure/bed/wool,
 /obj/structure/bed/wool{
@@ -3290,7 +3303,7 @@
 /turf/open/floor/cobblerock,
 /area/under/cave)
 "RA" = (
-/obj/machinery/light/fueled/firebowl,
+/obj/structure/stairs/stone,
 /turf/open/floor/church/purple,
 /area/outdoors/hellwatch)
 "RI" = (
@@ -3610,6 +3623,10 @@
 	},
 /turf/open/floor/church,
 /area/indoors/hellwatch)
+"Vi" = (
+/obj/structure/fluff/statue/knight,
+/turf/open/floor/metal/red,
+/area/under/cave)
 "Vn" = (
 /obj/effect/mapping_helpers/access/keyset/garrison/general,
 /obj/effect/mapping_helpers/access/locker,
@@ -3959,6 +3976,9 @@
 "ZO" = (
 /turf/open/water/marsh,
 /area/outdoors/seculton)
+"ZR" = (
+/turf/open/floor/metal/red/alt,
+/area/under/cave)
 "ZU" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/grass/red,
@@ -7005,14 +7025,14 @@ xI
 xI
 xI
 xI
-xI
-xI
-xI
-xI
-xI
-xI
-xI
-xI
+lv
+lv
+lv
+lv
+lv
+fA
+fA
+fA
 xI
 xI
 xI
@@ -7212,14 +7232,14 @@ xI
 xI
 xI
 xI
-xI
-xI
-xI
-xI
-xI
-xI
-xI
-xI
+lv
+NR
+iM
+Vi
+lv
+lv
+lv
+fA
 xI
 xI
 xI
@@ -7419,14 +7439,14 @@ xI
 xI
 xI
 xI
-xI
-xI
-xI
-xI
-xI
-xI
-xI
-xI
+lv
+NR
+ar
+ZR
+ZR
+PX
+lv
+fA
 xI
 xI
 xI
@@ -7626,14 +7646,14 @@ xI
 xI
 xI
 xI
-xI
-xI
-xI
-xI
-xI
-xI
-xI
-xI
+lv
+NR
+ZR
+ZR
+ar
+PX
+lv
+fA
 xI
 xI
 xI
@@ -7833,14 +7853,14 @@ xI
 xI
 xI
 xI
-xI
-xI
-xI
-xI
-xI
-xI
-xI
-xI
+lv
+NR
+kP
+Ob
+lv
+lv
+lv
+fA
 xI
 xI
 xI
@@ -8040,14 +8060,14 @@ xI
 xI
 xI
 xI
-xI
-xI
-xI
-xI
-xI
-xI
-xI
-xI
+lv
+lv
+lv
+lv
+lv
+fA
+fA
+fA
 xI
 xI
 xI
@@ -50066,7 +50086,7 @@ cr
 gY
 VY
 bf
-bf
+VY
 VY
 VY
 NH
@@ -50273,10 +50293,10 @@ fE
 fE
 Ad
 fh
-fh
 VY
-PX
-kP
+UN
+RA
+EB
 kR
 ij
 Cl
@@ -50480,8 +50500,8 @@ fE
 fE
 oT
 fh
-fh
 fm
+UN
 RA
 EB
 vm
@@ -50687,11 +50707,11 @@ YS
 PZ
 VY
 fh
-fh
+VY
 VY
 gM
 jH
-lv
+Cl
 FT
 vm
 Cl
@@ -50898,8 +50918,8 @@ bf
 VY
 VY
 nU
-lv
-lv
+To
+Cl
 kR
 Cl
 Cl
@@ -93123,8 +93143,8 @@ VY
 fE
 AL
 UC
-NR
-Gp
+lM
+Tj
 UN
 zT
 UN

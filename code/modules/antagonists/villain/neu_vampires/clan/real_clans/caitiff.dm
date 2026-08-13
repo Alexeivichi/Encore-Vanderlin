@@ -1,6 +1,6 @@
 /datum/clan/caitiff
-	name = "Caitiff"
-	desc = "The clanless, an outcast from vampire society. Fortunately for you the curse of kain is not strong enough for you to combust in daylight."
+	name = "Losturge"
+	desc = "The clanless, an outcast from vampire society. Fortunately for you the curse of kain is not strong enough for you to combust in daylight. You carry the abhorrent memory of a forbidden word in your head; Losturge. Those who hear it are sure to see your true nature."
 	blood_preference = null
 	blood_disgust = null
 	clan_covens = list(

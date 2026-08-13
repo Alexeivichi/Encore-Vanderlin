@@ -354,7 +354,7 @@
 
 
 /obj/item/clothing/face/facemask/angrosmask
-	name = "unsundered mask"
-	desc = "A silver mask, forever locked in a rigor of uncontestable joy. The Order of Saint Iliope can't decide on whether it's meant to represent Angros' 'mirthfulness,' 'theatricality,' or the unpredictable melding of both."
+	name = "katholikon mask"
+	desc = "A silver mask, forever locked in a rigor of uncontestable joy, reminiscent of a comedy mask. Designed to elicit dread in the opponents of the Inquisition."
 	icon_state = "psydonmask"
 	item_state = "psydonmask"

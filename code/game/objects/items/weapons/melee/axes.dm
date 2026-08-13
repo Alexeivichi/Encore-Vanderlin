@@ -177,8 +177,8 @@
 
 //................ Angrosian Axe ............... //
 /obj/item/weapon/axe/angros
-	name = "angrosian axe"
-	desc = "An axe forged of silver with a small psycross attached, Gani and his foul beastmen be damned."
+	name = "katholikon axe"
+	desc = "An axe forged of silver with a small amulet attached, a favoured weapon of the Nortic faithful who join the Inquisition."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psyaxe"
 	max_blade_int = 240
@@ -453,8 +453,8 @@
 
 
 /obj/item/weapon/greataxe/psy
-	name = "unsundered poleaxe"
-	desc = "A poleaxe, fitted with a reinforced shaft and a beaked axe head of alloyed silver. As the fragility of swords've become more apparent, the Unsundered Orders have shifted their focus towards arming their paladins with longer-lasting greatweapons."
+	name = "katholikon poleaxe"
+	desc = "A poleaxe, fitted with a reinforced shaft and a beaked axe head of alloyed silver. As the fragility of swords've become more apparent, the Katholikon have shifted their focus towards arming their paladins with longer-lasting greatweapons."
 	icon = 'icons/roguetown/weapons/64/axes.dmi'
 	icon_state = "silverpolearm"
 	possible_item_intents = list(AXE_CUT, AXE_CHOP, MACE_STRIKE) //When possible, add the longsword's 'alternate grip' mechanic to let people flip this around into a Mace-scaling weapon with swapped damage.

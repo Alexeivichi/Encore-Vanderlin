@@ -168,9 +168,9 @@
 	body_parts_covered = COVERAGE_FULL // Less durability than proper plate, more expensive to manufacture, and accurate to the sprite.
 
 /obj/item/clothing/armor/plate/fluted/ornate
-	name = "angrosian half-plate"
+	name = "katholikon half-plate"
 	desc = "A sturdily made fluted half-plate armour-set, complete with pauldrons and shoulder-guards. \
-			Favored by both the Katholikos and the remaining Angrosians. It smells of the madness of an enduring God."
+			Favored by both the Katholikon and the remaining Angrosians. It smells of the madness of an enduring God."
 	icon_state = "ornatehalfplate"
 
 	max_integrity = 400
@@ -201,7 +201,7 @@
 
 /atom/movable/screen/alert/status_effect/buff/unsundered_endurance
 	name = "Unsundered Endurance"
-	desc = "I am protected by blessed Angrosian plate armor."
+	desc = "I am protected by blessed Katholikon plate armor."
 	icon_state = "buff"
 
 //.............. Gronn Armor Sets .................//

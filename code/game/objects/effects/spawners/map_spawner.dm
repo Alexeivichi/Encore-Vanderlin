@@ -60,11 +60,20 @@
 		T.ChangeTurf(/turf/open/openspace)
 		below.ChangeTurf(/turf/open/floor/dirt/road)
 
+/obj/effect/spawner/map_spawner/pit/randomchance
+	probby = 20
+
 /obj/effect/spawner/map_spawner/tree
 	icon_state = "tree"
 	name = "Tree spawner"
 	probby = 80
 	spawned = list(/obj/structure/flora/tree)
+
+/obj/effect/spawner/map_spawner/tree/fulltree
+	icon_state = "tree"
+	name = "Multi Z tree spawner"
+	probby = 90
+	spawned = list(/obj/structure/flora/newtree)
 
 /obj/effect/spawner/map_spawner/treeorbush
 	icon_state = "Treeorbush"

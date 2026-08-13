@@ -1,0 +1,4 @@
+author: "Roostercat12"
+delete-after: True
+changes:
+  - bugfix: "Fixes a ton of holdover stuff from Vanderlin and frees up a lot of merc classes that were strangely strict on race allowance."

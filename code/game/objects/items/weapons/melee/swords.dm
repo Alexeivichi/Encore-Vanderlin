@@ -95,7 +95,7 @@
 	item_weight = 700 GRAMS
 
 /obj/item/weapon/sword/short/psy
-	name = "angrosian shortsword"
+	name = "katholikon shortsword"
 	desc = "Aelondan smiths worked with artificers, and an esoteric blade was born: a blade with an unique design, dismissing a crossguard in favor of a hollow beak to hook and draw harm away from its user. Short in length, yet lethally light in weight."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psyswordshort"
@@ -598,8 +598,8 @@
 				)
 
 /obj/item/weapon/sword/rapier/psy
-	name = "angrosian rapier"
-	desc = "A highly ornate silver rapier, used more as a show of status for members of the inquisition."
+	name = "katholikon rapier"
+	desc = "A highly ornate silver rapier, used more as a show of status for members of the Inquisition."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psyrapier"
 	max_integrity = INTEGRITY_STRONG
@@ -613,7 +613,7 @@
 
 /obj/item/weapon/sword/rapier/psy/relic
 	name = "retribution"
-	desc = "A rapier as swift as the inquisitors of the Ordo Venatari. Strike evil at its heart. Purge the unholy through the slightest window it offers, in Angros’s name."
+	desc = "A rapier as swift as the Inquisitors of the Katholikon. Strike evil at its heart. Purge the unholy through the slightest window it offers, in the name of the Four and One."
 	item_weight = 700 GRAMS
 
 /obj/item/weapon/sword/rapier/dec
@@ -1004,8 +1004,8 @@
 	item_weight = 1.5 KILOGRAMS
 
 /obj/item/weapon/sword/long/angros
-	name = "angrosian longsword"
-	desc = "A large silver longsword forged in the shape of a psycross."
+	name = "katholikon longsword"
+	desc = "A large silver longsword forged to slay the creechurs of the nite. A tried and true weapon."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psysword"
 	last_used = 0
@@ -1019,7 +1019,7 @@
 
 /obj/item/weapon/sword/long/angros/relic
 	name = "Rememberance"
-	desc = "A balanced silver blade, favoured by both the Ordo Benetarus and the Ordo Venetari. May it carve a path through the Unholy, in honour and rememberance of Angros's sacrifice."
+	desc = "A balanced silver blade, favoured by the Katholikon's Salvationists. May it carve a path through the Unholy, in honour and rememberance of Angros' sacrifice."
 	item_weight = 1.5 KILOGRAMS
 
 /obj/item/weapon/sword/long/angros/relic/Initialize(mapload)
@@ -1046,7 +1046,7 @@
 	enchant(/datum/enchantment/silver)
 
 /obj/item/weapon/sword/long/oldpsysword //Not attainable
-	name = "old angrosian longsword"
+	name = "old katholikon longsword"
 	desc = "A finely made longsword, plated in a worn-down veneer of grubby silver. It's long seen better daes."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "opsysword"
@@ -1084,7 +1084,7 @@
 
 //................ Angrosian Greatsword ............... //
 /obj/item/weapon/sword/long/greatsword/angros
-	name = "angrosian greatsword"
+	name = "katholikon greatsword"
 	desc = "A mighty silver greatsword made to strike fear into the heart of even Archdevils."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psygsword"
@@ -1115,7 +1115,7 @@
 
 /obj/item/weapon/sword/long/greatsword/angros/relic
 	name = "Crusade"
-	desc = "The grandest blade of the Ordo Benetarus. Its unparalleled strength commands even the greatest of foes to fall. Wade through the unholy in Angros’s name. Let none survive."
+	desc = "The grandest blade of the Inquisiton's Knightly Chapter. Its unparalleled strength commands even the greatest of foes to fall. Wade through the unholy in the name of the Four and One. Let none survive."
 	icon_state = "psygsword"
 	force = DAMAGE_SWORD_WIELD
 	possible_item_intents = list(SWORD_CUT, SWORD_THRUST, SWORD_STRIKE)
@@ -1124,8 +1124,8 @@
 	item_weight = 2.5 KILOGRAMS
 
 /obj/item/weapon/sword/long/broadsword/psy
-	name = "old angrosian broadsword"
-	desc = "Even the most ignorant of zealots know that the holy silver loses its properties when not blessed by Priests for an extended period of time. Its edge remains as lethal as ever, however."
+	name = "old katholikon broadsword"
+	desc = "Even the most ignorant of zealots know that the holy silver loses its properties when not blessed by Bishops for an extended period of time. Its edge remains as lethal as ever, however."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psybroadsword"
 	melting_material = /datum/material/silver
@@ -1134,7 +1134,7 @@
 
 /obj/item/weapon/sword/long/broadsword/psy/relic
 	name = "Creed"
-	desc = "Bathed in Angrosian prayers, this large and heavy blade exists to slay the inhumen and evil. The crossguard’s psycross is engraved with prayers of the Ordo Benetarus. You’re the light - show them the way."
+	desc = "Bathed in fervent prayer, this large and heavy blade exists to slay the daemonic and heretical. The crossguard is engraved with prayers of the Katholikos. You’re the light - show them the way."
 	item_weight = 2.5 KILOGRAMS
 
 /obj/item/weapon/sword/long/broadsword/psy/getonmobprop(tag)
@@ -1152,7 +1152,7 @@
 
 /obj/item/weapon/sword/long/greatsword/angros/unforgotten
 	name = "unforgotten blade"
-	desc = "High Inquisitor Archibald once recorded an expedition of seven brave order members into eastern snow-felled wastes to root out evil. Its leader, Holy Ordinator Guillemin, was said to have held on for seven daes and seven nights against darksteel-clad heretics before Angros acknowledged his endurance. Nothing but his blade remained - his psycross wrapped around its hilt in remembrance."
+	desc = "High Inquisitor Archibald once recorded an expedition of seven brave order members into eastern snow-felled wastes to root out evil. Its leader, Holy Ordinator Guillemin, was said to have held on for seven daes and seven nights against darksteel-clad heretics before the Four and One acknowledged his endurance. Nothing but his blade remained - his amulet wrapped around its hilt in remembrance."
 	icon_state = "forgottenblade"
 	item_weight = 2.5 KILOGRAMS
 

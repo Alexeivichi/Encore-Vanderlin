@@ -1,0 +1,11 @@
+{
+    "map_name": "Necropolis Capillary",
+    "map_path": "map_files/domotan",
+    "map_file": "necropolis_l2_capillary.dmm",
+	"traits": [
+		{"Up": true, "Turf Weather Effects": true, "Leylines": true, "Cellar": false},
+		{"Up": true, "Down": true, "Turf Weather Effects": true, "Leylines": true, "Cellar": false},
+		{"Up": true, "Down": true, "Turf Weather Effects": true, "Leylines": true, "Cellar": false},
+		{"Up": false, "Down": true, "Turf Weather Effects": true, "Leylines": true, "Cellar": false}
+	]
+}

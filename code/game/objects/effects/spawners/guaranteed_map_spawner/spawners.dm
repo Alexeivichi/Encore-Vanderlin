@@ -187,6 +187,42 @@
 		/obj/item/storage/belt/leather = 1,
 	)
 
+/obj/effect/spawner/guaranteed_map_spawner/listed/armor/royal
+	name = "Heir Armor Set Spawner"
+	spawned = list(
+		/obj/item/clothing/head/helmet/visored/sallet = 1,
+		/obj/item/clothing/neck/chaincoif = 1,
+		/obj/item/clothing/armor/cuirass = 1,
+		/obj/item/clothing/armor/gambeson/hunts = 1,
+		/obj/item/clothing/gloves/leather/advanced = 1,
+		/obj/item/clothing/pants/trou/leather/guard = 1,
+		/obj/item/clothing/shoes/boots/leather/advanced = 1,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/armor/royal/regent
+	name = "Regent Armor Set Spawner"
+	spawned = list(
+		/obj/item/clothing/head/helmet/heavy/decorated/hounskull = 1,
+		/obj/item/clothing/neck/chaincoif = 1,
+		/obj/item/clothing/armor/plate/decorated = 1,
+		/obj/item/clothing/armor/gambeson/hunts = 1,
+		/obj/item/clothing/gloves/plate = 1,
+		/obj/item/clothing/pants/platelegs = 1,
+		/obj/item/clothing/shoes/boots/armor = 1,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/armor/royal/consort
+	name = "Consort Armor Set Spawner"
+	spawned = list(
+		/obj/item/clothing/head/helmet/heavy/decorated/bascinet = 1,
+		/obj/item/clothing/neck/chaincoif = 1,
+		/obj/item/clothing/armor/plate/decorated = 1,
+		/obj/item/clothing/armor/gambeson/hunts = 1,
+		/obj/item/clothing/gloves/chain = 1,
+		/obj/item/clothing/pants/chainlegs = 1,
+		/obj/item/clothing/shoes/boots/armor = 1,
+	)
+
 /obj/effect/spawner/guaranteed_map_spawner/listed/weapons
 	name = "Crude Weapons Spawner"
 	icon_state = "weapon_spawner"

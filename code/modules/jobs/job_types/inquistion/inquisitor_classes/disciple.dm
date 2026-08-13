@@ -26,7 +26,7 @@
 
 /datum/job/advclass/sacrestant/disciple
 	title = "Disciple"
-	tutorial = "Some train their steel, others train their wits. You have honed your body itself into a weapon, anointing it with faithful markings to fortify your soul. You serve and train under the Ordo Benetarus, and one day you will be among Angros’s most dauntless warriors."
+	tutorial = "Some train their steel, others train their wits. You have honed your body itself into a weapon, anointing it with faithful markings to fortify your soul. You serve and train under the Knightly Chapter, and one day you will be among the most dauntless warriors of the Four and One."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_LESS_DISCRIMINATED
 	outfit = /datum/outfit/disciple
@@ -48,7 +48,7 @@
 /datum/job/advclass/sacrestant/disciple/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
-	GLOB.inquisition.add_member_to_school(spawned, "Benetarus", 0, "Disciple")
+	GLOB.inquisition.add_member_to_school(spawned, "Knightly Chapter", 0, "Disciple")
 
 	var/datum/species/species = spawned.dna?.species
 	if(species)
@@ -89,12 +89,19 @@
 	beltl = /obj/item/storage/belt/pouch/coins/mid
 	cloak = /obj/item/clothing/cloak/angrostabard/alt
 	ring = /obj/item/clothing/ring/signet/silver
-	neck = /obj/item/clothing/neck/psycross/silver
 	wrists = /obj/item/clothing/wrists/bracers/psythorns
 	mask = /obj/item/clothing/head/helmet/blacksteel/psythorns
 	head = /obj/item/clothing/head/roguehood/angros
 	backpack_contents = list(
-		/obj/item/key/inquisition = 1,
+		/obj/item/storage/keyring/inquisitor = 1,
 		/obj/item/paper/inqslip/arrival/ortho = 1,
 		/obj/item/collar_detonator = 1,
 	)
+
+/datum/outfit/disciple/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+	. = ..()
+	switch(equipped_human.patron?.type)
+		if(/datum/patron/divine/centrist)
+			neck = /obj/item/clothing/neck/psycross/silver/divine
+		if(/datum/patron/angros)
+			neck = /obj/item/clothing/neck/psycross/silver

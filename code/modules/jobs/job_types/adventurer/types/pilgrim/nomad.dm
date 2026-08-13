@@ -25,7 +25,7 @@
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/pilgrim/nomad
 	category_tags = list(CTAG_PILGRIM)
-	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
+	cmode_music = 'sound/music/cmode/adventurer/CombatSteppe.ogg'
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/pilgrim/nomad
 
