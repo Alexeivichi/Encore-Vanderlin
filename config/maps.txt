@@ -23,6 +23,10 @@ map domotan_lowpop
 	votable
 endmap
 
+map domotan_event
+	disabled
+endmap
+
 map roguetest
 	disabled
 endmap

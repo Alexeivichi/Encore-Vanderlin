@@ -1,0 +1,4 @@
+author: "MisterLayne"
+delete-after: True
+changes:
+  - rscadd: "Headshot can now be removed by entering blank text or hitting cancel"

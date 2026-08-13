@@ -20,25 +20,27 @@
 /turf/open/floor/carpet/purple,
 /area/indoors/town/keep/lord_appt)
 "n" = (
-/obj/structure/bookcase/random,
+/obj/structure/closet/crate/chest,
+/obj/item/weapon/sword/long/judgement,
+/obj/item/clothing/wrists/bracers/leather,
+/obj/item/clothing/gloves/angle,
+/obj/effect/mapping_helpers/access/keyset/manor/lord,
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/wood,
 /area/indoors/town/keep/lord_appt)
 "o" = (
 /turf/closed/wall/mineral/stonebrick,
 /area/indoors/town/keep/lord_appt)
 "p" = (
-/obj/structure/table/wood{
-	icon_state = "tablewood1"
+/obj/structure/mannequin{
+	name = "regent's display stand"
 	},
-/obj/item/candle/yellow/lit{
-	pixel_x = -9;
-	pixel_y = 14
-	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/armor/royal/regent,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/lord_appt)
 "u" = (
 /obj/structure/bed/inn/double,
-/obj/item/bedsheet/double_pelt,
+/obj/item/bedsheet/fabric_double,
 /turf/open/floor/carpet/purple,
 /area/indoors/town/keep/lord_appt)
 "y" = (
@@ -59,26 +61,26 @@
 /turf/open/floor/carpet/purple,
 /area/indoors/town/keep/lord_appt)
 "H" = (
-/obj/structure/chair/wood,
+/obj/structure/closet/crate/drawer/random{
+	pixel_y = 10
+	},
+/obj/item/storage/belt/pouch/coins/veryrich,
+/obj/item/storage/belt/pouch/coins/veryrich,
+/obj/item/gem/diamond,
+/obj/item/scomstone,
+/obj/item/scomstone,
+/obj/item/key/lord,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/lord_appt)
 "N" = (
-/obj/structure/closet/crate/chest,
-/obj/item/weapon/sword/long/judgement,
-/obj/item/clothing/gloves/angle,
-/obj/item/clothing/wrists/bracers/leather,
+/obj/structure/mannequin{
+	name = "consort's display stand"
+	},
+/obj/effect/spawner/guaranteed_map_spawner/listed/armor/royal/consort,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/lord_appt)
 "T" = (
-/obj/item/scomstone,
-/obj/item/storage/belt/pouch/coins/mid,
-/obj/item/gem/diamond,
-/obj/item/scomstone,
-/obj/structure/closet/crate/drawer/random{
-	pixel_y = 0
-	},
 /obj/machinery/light/fueled/wallfire/candle/r,
-/obj/item/key/lord,
 /turf/open/floor/carpet/purple,
 /area/indoors/town/keep/lord_appt)
 "Y" = (
@@ -90,7 +92,7 @@
 o
 o
 o
-o
+B
 y
 y
 o
@@ -102,7 +104,7 @@ Y
 f
 e
 e
-B
+o
 "}
 (3,1,1) = {"
 h

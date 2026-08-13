@@ -42,3 +42,13 @@
 	name = "Necropolis Level 3"
 	first_time_text = "Edge of First Doma"
 	threat_region = THREAT_REGION_MOUNT_DECAP
+
+//Area for event-only shortcut to Fort Hellwatch
+/area/under/necropolis/bypass
+	name = "Bypass Area"
+	icon_state = "beach"
+	ambush_times = null
+	ambush_types = null
+	ambush_mobs = null
+	first_time_text = "Nexus of Hands"
+	custom_area_sound = 'sound/misc/stings/RosewoodSting.ogg'

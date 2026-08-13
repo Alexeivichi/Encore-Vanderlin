@@ -1,0 +1,531 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/fluff/walldeco/vinez,
+/turf/closed/wall/mineral/white_slab,
+/area/under/necropolis/bypass)
+"b" = (
+/obj/structure/bars/pipe{
+	dir = 5
+	},
+/turf/open/water/river{
+	dir = 4
+	},
+/area/under/necropolis/bypass)
+"c" = (
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/metal/red,
+/area/under/necropolis/bypass)
+"d" = (
+/turf/closed/mineral/bedrock,
+/area)
+"f" = (
+/obj/structure/fluff/traveltile{
+	aallmig = "bypass2";
+	aportalgoesto = "bypass_out";
+	aportalid = "bypass2";
+	name = "To Seculton Gate"
+	},
+/turf/open/floor/metal/alt,
+/area/under/necropolis/bypass)
+"g" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/innie{
+	dir = 10
+	},
+/turf/open/water/river{
+	dir = 4
+	},
+/area/under/necropolis/bypass)
+"h" = (
+/turf/open/water/river{
+	dir = 4
+	},
+/area/under/necropolis/bypass)
+"i" = (
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 8
+	},
+/obj/structure/fluff/railing/tall/retaining/concrete{
+	dir = 8
+	},
+/turf/open/water/river,
+/area/under/necropolis/bypass)
+"k" = (
+/obj/structure/fluff/traveltile{
+	aallmig = "bypass1";
+	aportalgoesto = "bypass_in";
+	aportalid = "bypass1";
+	name = "To Old Doma";
+	dir = 1
+	},
+/turf/open/floor/metal/alt,
+/area/under/necropolis/bypass)
+"l" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/fluff/traveltile{
+	aallmig = "bypass2";
+	aportalgoesto = "bypass_out";
+	aportalid = "bypass2";
+	name = "To Seculton Gate"
+	},
+/turf/open/floor/metal/alt,
+/area/under/necropolis/bypass)
+"m" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/innie,
+/turf/open/water/river,
+/area/under/necropolis/bypass)
+"o" = (
+/obj/structure/bars,
+/turf/open/floor/metal/alt,
+/area/under/necropolis/bypass)
+"p" = (
+/obj/structure/bars/pipe{
+	dir = 6
+	},
+/turf/open/water/river,
+/area/under/necropolis/bypass)
+"q" = (
+/turf/open/floor/metal/red/alt,
+/area/under/necropolis/bypass)
+"r" = (
+/obj/structure/fluff/railing/tall/retaining/concrete{
+	dir = 4
+	},
+/turf/open/water/river,
+/area/under/necropolis/bypass)
+"s" = (
+/obj/structure/bars/pipe{
+	dir = 4
+	},
+/obj/structure/bars/pipe{
+	dir = 8
+	},
+/turf/open/water/river{
+	dir = 8
+	},
+/area/under/necropolis/bypass)
+"t" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/turf/open/floor/metal/red,
+/area/under/necropolis/bypass)
+"u" = (
+/obj/structure/fluff/steamvent,
+/turf/open/floor/metal/red/alt,
+/area/under/necropolis/bypass)
+"v" = (
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 4
+	},
+/obj/structure/fluff/railing/tall/retaining/concrete{
+	dir = 4
+	},
+/turf/open/water/river,
+/area/under/necropolis/bypass)
+"x" = (
+/turf/closed/wall/mineral/white_slab,
+/area/under/necropolis/bypass)
+"z" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/innie{
+	dir = 10
+	},
+/turf/open/water/river,
+/area/under/necropolis/bypass)
+"A" = (
+/obj/structure/fluff/railing/tall/retaining/concrete,
+/obj/structure/fluff/railing/tall/retaining/concrete{
+	dir = 4
+	},
+/turf/open/water/river{
+	dir = 8
+	},
+/area/under/necropolis/bypass)
+"B" = (
+/obj/structure/fluff/railing/tall/retaining/concrete,
+/obj/structure/bars/pipe{
+	dir = 4
+	},
+/obj/structure/bars/pipe{
+	dir = 8
+	},
+/turf/open/water/river{
+	dir = 8
+	},
+/area/under/necropolis/bypass)
+"C" = (
+/obj/effect/decal/cleanable/dirt/cobweb,
+/obj/structure/fluff/traveltile{
+	aallmig = "bypass1";
+	aportalgoesto = "bypass_in";
+	aportalid = "bypass1";
+	name = "To Old Doma";
+	dir = 1
+	},
+/turf/open/floor/metal/alt,
+/area/under/necropolis/bypass)
+"D" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/innie,
+/turf/open/water/river{
+	dir = 4
+	},
+/area/under/necropolis/bypass)
+"E" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/metal/red/alt,
+/area/under/necropolis/bypass)
+"F" = (
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 4
+	},
+/turf/open/floor/metal/red,
+/area/under/necropolis/bypass)
+"H" = (
+/obj/structure/fluff/railing/tall/retaining/concrete{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/concrete{
+	dir = 8
+	},
+/turf/open/water/river,
+/area/under/necropolis/bypass)
+"I" = (
+/turf/open/water/river,
+/area/under/necropolis/bypass)
+"K" = (
+/obj/structure/bars/pipe{
+	dir = 1
+	},
+/turf/open/water/river,
+/area/under/necropolis/bypass)
+"L" = (
+/obj/structure/fluff/railing/tall/retaining/concrete{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/concrete{
+	dir = 4
+	},
+/turf/open/water/river,
+/area/under/necropolis/bypass)
+"M" = (
+/turf/open/water/river{
+	dir = 8
+	},
+/area/under/necropolis/bypass)
+"N" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/innie,
+/obj/structure/fluff/walldeco/bath/wallpipes/innie{
+	dir = 8
+	},
+/turf/open/water/river,
+/area/under/necropolis/bypass)
+"O" = (
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 8
+	},
+/turf/open/floor/metal/red,
+/area/under/necropolis/bypass)
+"P" = (
+/obj/structure/fluff/railing/tall/retaining/concrete{
+	dir = 8
+	},
+/turf/open/water/river,
+/area/under/necropolis/bypass)
+"Q" = (
+/obj/structure/fluff/railing/tall/retaining/concrete,
+/obj/structure/bars/pipe{
+	dir = 1
+	},
+/turf/open/water/river{
+	dir = 4
+	},
+/area/under/necropolis/bypass)
+"T" = (
+/turf/open/floor/metal/red,
+/area/under/necropolis/bypass)
+"V" = (
+/turf/closed/wall/mineral/pipe,
+/area/under/necropolis/bypass)
+"W" = (
+/obj/structure/fluff/walldeco/vinez,
+/turf/closed/wall/mineral/pipe,
+/area/under/necropolis/bypass)
+"X" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/innie{
+	dir = 8
+	},
+/turf/open/water/river,
+/area/under/necropolis/bypass)
+"Y" = (
+/obj/structure/fluff/railing/tall/retaining/concrete,
+/obj/structure/fluff/railing/tall/retaining/concrete{
+	dir = 8
+	},
+/obj/structure/bars/pipe{
+	dir = 1
+	},
+/turf/open/water/river{
+	dir = 4
+	},
+/area/under/necropolis/bypass)
+"Z" = (
+/obj/structure/bars/pipe,
+/turf/open/water/river,
+/area/under/necropolis/bypass)
+
+(1,1,1) = {"
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+"}
+(2,1,1) = {"
+d
+x
+a
+a
+V
+V
+x
+x
+V
+V
+V
+a
+x
+x
+d
+"}
+(3,1,1) = {"
+d
+V
+I
+I
+I
+m
+I
+I
+Z
+M
+M
+I
+I
+a
+d
+"}
+(4,1,1) = {"
+d
+V
+X
+X
+X
+N
+z
+I
+Z
+M
+M
+I
+I
+x
+d
+"}
+(5,1,1) = {"
+d
+V
+V
+a
+a
+V
+V
+o
+W
+s
+B
+a
+V
+V
+d
+"}
+(6,1,1) = {"
+d
+C
+F
+T
+L
+r
+r
+r
+v
+r
+A
+T
+F
+f
+d
+"}
+(7,1,1) = {"
+d
+k
+q
+q
+u
+E
+q
+u
+q
+q
+u
+E
+q
+f
+d
+"}
+(8,1,1) = {"
+d
+k
+q
+q
+q
+q
+q
+q
+q
+E
+q
+q
+q
+f
+d
+"}
+(9,1,1) = {"
+d
+k
+q
+E
+u
+q
+q
+u
+q
+q
+u
+q
+E
+f
+d
+"}
+(10,1,1) = {"
+d
+k
+O
+T
+H
+P
+P
+P
+i
+P
+Y
+t
+c
+l
+d
+"}
+(11,1,1) = {"
+d
+V
+V
+x
+a
+o
+o
+x
+V
+g
+Q
+V
+V
+V
+d
+"}
+(12,1,1) = {"
+d
+x
+I
+I
+I
+I
+I
+I
+K
+D
+b
+p
+I
+a
+d
+"}
+(13,1,1) = {"
+d
+x
+I
+I
+I
+I
+I
+I
+K
+D
+h
+I
+I
+a
+d
+"}
+(14,1,1) = {"
+d
+x
+x
+x
+x
+x
+x
+V
+V
+V
+a
+x
+x
+x
+d
+"}
+(15,1,1) = {"
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+"}
