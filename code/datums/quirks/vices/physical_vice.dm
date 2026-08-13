@@ -433,7 +433,6 @@
 
 		if(world.time >= next_panic)
 			next_panic = world.time + 8 SECONDS
-			owner.emote("scream")
 			var/move_dir = pick(GLOB.cardinals)
 			step(owner, move_dir)
 
