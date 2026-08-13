@@ -278,12 +278,12 @@
 		var/obj/I = new X(src)
 		held_items[I] = list()
 		held_items[I]["NAME"] = I.name
-		held_items[I]["PRICE"] = 20
-	for(var/X in list(/obj/item/key/luxroomi))
+		held_items[I]["PRICE"] = 10
+	for(var/X in list(/obj/item/key/luxroomi, /obj/item/key/luxroomii, /obj/item/key/luxroomiii))
 		var/obj/I = new X(src)
 		held_items[I] = list()
 		held_items[I]["NAME"] = I.name
-		held_items[I]["PRICE"] = 60
+		held_items[I]["PRICE"] = 40
 
 /obj/structure/fake_machine/vendor/steward
 	lockids = list(ACCESS_STEWARD)

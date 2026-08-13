@@ -192,6 +192,8 @@
 /obj/structure/closet/crate/chest,
 /obj/structure/fluff/railing/border,
 /obj/machinery/light/fueled/wallfire/candle/blue,
+/obj/item/soap/bath,
+/obj/item/natural/cloth,
 /turf/open/floor/wood,
 /area/indoors/town/tavern)
 "afS" = (
@@ -2197,6 +2199,9 @@
 /area/indoors/town/clinic_large)
 "bBI" = (
 /obj/structure/table/wood/plain_alt,
+/obj/structure/fake_machine/hailerboard{
+	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
+	},
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/clinic_large)
 "bBW" = (
@@ -2952,8 +2957,8 @@
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/clinic_large)
 "ceM" = (
-/obj/item/bedsheet/cloth,
-/obj/structure/bed/inn,
+/obj/structure/bed/inn/double,
+/obj/item/bedsheet/double_pelt,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern)
 "ceU" = (
@@ -5407,7 +5412,6 @@
 /turf/open/floor/church/purple,
 /area/indoors/town/keep/magician/basement)
 "dLd" = (
-/obj/structure/fake_machine/atm,
 /turf/open/floor/ruinedwood/alt,
 /area/outdoors/town/plaza)
 "dLk" = (
@@ -5541,10 +5545,11 @@
 /turf/open/floor/cobble,
 /area/outdoors/town)
 "dQJ" = (
-/obj/machinery/light/fueled/torchholder/r,
-/obj/structure/bed/inn,
-/turf/open/floor/ruinedwood/turned,
-/area/indoors/town/tavern)
+/obj/structure/fake_machine/hailerboard{
+	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/town)
 "dQL" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -6174,12 +6179,7 @@
 /area/indoors/town/church)
 "emH" = (
 /obj/structure/closet/crate/chest/neu,
-/obj/item/key/roomi,
-/obj/item/key/roomii,
-/obj/item/key/roomiii,
-/obj/item/key/roomiv,
-/obj/item/key/roomv,
-/obj/item/key/roomvi,
+/obj/effect/spawner/guaranteed_map_spawner/listed/inn_keys/full,
 /turf/open/floor/wood,
 /area/indoors/town/tavern)
 "env" = (
@@ -7057,8 +7057,8 @@
 /turf/open/floor/cobble,
 /area/outdoors/exposed)
 "eQl" = (
-/obj/structure/rack/shelf/biggest{
-	pixel_y = 24
+/obj/structure/fake_machine/vendor/inn{
+	pixel_y = 32
 	},
 /turf/open/floor/wood,
 /area/indoors/town/tavern)
@@ -8815,19 +8815,8 @@
 /turf/open/floor/dirt/road,
 /area/indoors/town/garrison)
 "gch" = (
-/obj/structure/rack/shelf,
-/obj/structure/table/wood{
-	icon_state = "longtable";
-	dir = 1
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_y = 37;
-	pixel_x = -8
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_y = 37;
-	pixel_x = 5
-	},
+/obj/structure/fake_machine/lottery_roguetown,
+/obj/structure/chair/stool,
 /turf/open/floor/wood,
 /area/indoors/town/tavern)
 "gcv" = (
@@ -9200,6 +9189,9 @@
 "gsw" = (
 /obj/structure/fluff/railing/tall/retaining/stone{
 	dir = 9
+	},
+/obj/structure/fake_machine/hailerboard/r{
+	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
 	},
 /turf/open/floor/cobble,
 /area/outdoors/exposed)
@@ -11582,9 +11574,11 @@
 /turf/open/water/bath,
 /area/indoors/town/bath)
 "hUT" = (
-/obj/machinery/light/fueled/torchholder/c,
-/turf/open/water/ocean,
-/area/under/town/basement/smugglers_den)
+/obj/structure/fake_machine/hailerboard{
+	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
+	},
+/turf/open/floor/blocks/stonered/tiny,
+/area/outdoors/farm)
 "hVw" = (
 /obj/item/flint,
 /obj/structure/table/wood{
@@ -12358,6 +12352,14 @@
 	},
 /turf/open/floor/blocks,
 /area/indoors/town/clinic_large)
+"iti" = (
+/obj/structure/bounty_board{
+	pixel_x = 4;
+	pixel_y = 26;
+	layer = 4.2
+	},
+/turf/open/floor/ruinedwood,
+/area/under/town/basement/smugglers_den)
 "itF" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -14406,6 +14408,7 @@
 	mailtag = "Merchant";
 	pixel_x = -23
 	},
+/obj/structure/fake_machine/hailerboard,
 /turf/open/floor/tile,
 /area/indoors/town/shop)
 "jLx" = (
@@ -14936,13 +14939,10 @@
 /turf/open/floor/cobble,
 /area/indoors/town/clinic_large)
 "kcW" = (
-/obj/structure/lever{
-	redstone_id = "hoard_shutter";
-	name = "sealing shutter lever";
-	desc = "Curiously positioned on the exterior of the secure area, as opposed to the interior..."
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "divine_gourd"
 	},
-/obj/machinery/light/fueledstreet/blue/wall,
-/turf/open/floor/tile/checkeralt,
+/turf/closed/wall/mineral/stonebrick/reddish,
 /area/indoors/town/vault)
 "kdu" = (
 /obj/structure/fluff/railing/border{
@@ -15698,6 +15698,9 @@
 	pixel_y = 10
 	},
 /obj/structure/table/wood,
+/obj/structure/fake_machine/hailerboard{
+	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
+	},
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/church)
 "kAs" = (
@@ -17312,6 +17315,12 @@
 "lKy" = (
 /turf/closed/wall/mineral/stone/moss,
 /area/under/town/basement/smugglers_den)
+"lKJ" = (
+/obj/structure/fake_machine/hailerboard{
+	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
+	},
+/turf/open/floor/wood,
+/area/indoors/town/keep/throne)
 "lKL" = (
 /obj/structure/fluff/statue/knight,
 /turf/open/floor/churchmarble,
@@ -18580,6 +18589,9 @@
 /area/indoors/town/keep/garrison)
 "msp" = (
 /obj/machinery/light/fueled/torchholder/r,
+/obj/structure/fake_machine/hailerboard{
+	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
+	},
 /turf/open/floor/cobble,
 /area/indoors/town/keep)
 "mst" = (
@@ -18906,9 +18918,11 @@
 /turf/open/floor/tile,
 /area/indoors/town/clinic_large)
 "mFn" = (
-/obj/structure/door/weak{
-	name = "Inn Staffers"
+/obj/structure/door/fancy{
+	name = "Staff Backroom"
 	},
+/obj/effect/mapping_helpers/access/keyset/town/inn,
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/herringbone,
 /area/indoors/town/tavern)
 "mFp" = (
@@ -20086,6 +20100,10 @@
 "nrF" = (
 /obj/effect/decal/cobbleedge{
 	dir = 6
+	},
+/obj/structure/fake_machine/stockpile{
+	pixel_y = 27;
+	pixel_x = 16
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/town/plaza)
@@ -21938,14 +21956,11 @@
 /turf/open/floor/blocks/green,
 /area/indoors/town/keep/kitchen/cellar)
 "oDY" = (
-/obj/structure/fake_machine/stockpile{
-	pixel_y = 27;
-	pixel_x = 16
-	},
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-e"
 	},
+/obj/structure/fake_machine/hailer,
 /turf/open/floor/snow,
 /area/outdoors/town/plaza)
 "oEz" = (
@@ -23474,10 +23489,8 @@
 /turf/open/floor/blocks,
 /area/indoors/town/keep/garrison)
 "pIY" = (
-/obj/structure/bounty_board{
-	pixel_x = 4;
-	pixel_y = 30;
-	layer = 4.2
+/obj/structure/fake_machine/mail{
+	mailtag = "Town Square"
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/town/plaza)
@@ -24176,8 +24189,19 @@
 /turf/open/floor/dirt/road,
 /area/outdoors/town/neighborhood/east)
 "qkb" = (
-/obj/structure/closet/crate/chest/neu_iron,
-/obj/effect/spawner/guaranteed_map_spawner/listed/inn_keys/full,
+/obj/item/clothing/shoes/sandals,
+/obj/item/clothing/shoes/sandals,
+/obj/item/clothing/shoes/sandals,
+/obj/item/clothing/shoes/sandals,
+/obj/item/natural/feather,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
+/obj/item/candle/yellow,
+/obj/item/candle/yellow,
+/obj/item/clothing/shoes/simpleshoes,
+/obj/item/clothing/shoes/shortboots,
+/obj/structure/closet/crate/chest/crate,
 /turf/open/floor/herringbone,
 /area/indoors/town/tavern)
 "qkf" = (
@@ -25754,12 +25778,10 @@
 /turf/closed/wall/mineral/stonebrick,
 /area/indoors/town/vault)
 "rpQ" = (
-/obj/structure/bars/passage/shutter{
-	redstone_id = "hoard_shutter";
-	name = "Divine Hoard Sanctum";
-	desc = "Marred with deep slashes and oozing of the most sinister presence."
+/obj/effect/mapping_helpers/secret_door_creator/keep{
+	redstone_id = "divine_gourd"
 	},
-/turf/open/floor/tile/checkeralt,
+/turf/closed/wall/mineral/stonebrick/reddish,
 /area/indoors/town/vault)
 "rpU" = (
 /obj/machinery/light/fueledstreet/blue/wall{
@@ -27035,6 +27057,9 @@
 /area/under/town/basement/smugglers_den)
 "snt" = (
 /obj/structure/chair/stool,
+/obj/structure/fake_machine/hailerboard{
+	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
+	},
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors/town)
 "snB" = (
@@ -29377,6 +29402,9 @@
 /area/indoors/town/waterworks)
 "tTj" = (
 /obj/structure/closet/crate/chest/crate,
+/obj/structure/fake_machine/hailerboard{
+	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
+	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town/tavern)
 "tTq" = (
@@ -32579,19 +32607,8 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/steward)
 "wfH" = (
-/obj/item/clothing/shoes/sandals,
-/obj/item/clothing/shoes/sandals,
-/obj/item/clothing/shoes/sandals,
-/obj/item/clothing/shoes/sandals,
-/obj/item/natural/feather,
-/obj/item/natural/cloth,
-/obj/item/natural/cloth,
-/obj/item/natural/cloth,
-/obj/item/candle/yellow,
-/obj/item/candle/yellow,
-/obj/item/clothing/shoes/simpleshoes,
-/obj/item/clothing/shoes/shortboots,
-/obj/structure/closet/crate/chest/crate,
+/obj/structure/closet/crate/chest/neu_iron,
+/obj/effect/spawner/guaranteed_map_spawner/listed/inn_keys/full,
 /turf/open/floor/ruinedwood,
 /area/indoors/town/tavern)
 "wgc" = (
@@ -33086,6 +33103,12 @@
 "wtv" = (
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/garrison)
+"wtF" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "divine_gourd"
+	},
+/turf/closed/wall/mineral/pipe,
+/area/indoors/town/vault)
 "wtQ" = (
 /obj/structure/fluff/railing/border{
 	dir = 10
@@ -34083,6 +34106,7 @@
 /obj/structure/fluff/railing/wood{
 	dir = 4
 	},
+/obj/structure/fake_machine/atm,
 /turf/open/floor/ruinedwood,
 /area/outdoors/town/plaza)
 "xda" = (
@@ -34264,12 +34288,10 @@
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern)
 "xkI" = (
-/obj/structure/table/wood{
-	dir = 1;
-	icon_state = "longtable_mid"
+/obj/structure/fake_machine/hailerboard{
+	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
 	},
-/obj/structure/fake_machine/vendor/inn,
-/turf/open/floor/wood,
+/turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern)
 "xkJ" = (
 /obj/item/reagent_containers/food/snacks/crow,
@@ -34911,9 +34933,11 @@
 /turf/open/floor/tile/checkeralt,
 /area/indoors/town/keep/kitchen/cellar)
 "xHr" = (
-/obj/structure/fake_machine/hailerboard,
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-n"
+	},
+/obj/structure/fake_machine/hailerboard{
+	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
 	},
 /turf/open/floor/snow,
 /area/outdoors/town/plaza)
@@ -39398,8 +39422,8 @@ dqL
 nVq
 gmC
 lKy
-tNU
-tNU
+iti
+uEX
 sKV
 gZG
 uEX
@@ -39530,7 +39554,7 @@ fxN
 tKR
 hRL
 lKy
-hUT
+gZG
 gZG
 gZG
 lKy
@@ -60735,7 +60759,7 @@ tMC
 rpm
 alA
 alA
-alA
+wtF
 rpm
 iUL
 kVN
@@ -60873,7 +60897,7 @@ tGT
 kVN
 kVN
 tGT
-rpm
+kcW
 rpm
 nKu
 jdz
@@ -60999,9 +61023,9 @@ tMC
 rpm
 alA
 alA
-alA
+wtF
 rpm
-kcW
+iUL
 kVN
 kVN
 jPa
@@ -61707,7 +61731,7 @@ vKU
 vKU
 fZn
 fZn
-rkh
+hUT
 rkh
 gNh
 rNj
@@ -73986,7 +74010,7 @@ aFc
 vrp
 oLs
 eup
-jgF
+dQJ
 olG
 uWy
 mrR
@@ -75031,7 +75055,7 @@ dKp
 dKp
 fIP
 dKp
-hhL
+xkI
 hhL
 xfN
 xfN
@@ -90076,13 +90100,13 @@ fNx
 fNx
 fNx
 dvc
-xfN
+pdl
 tBS
 qqt
-xfN
+pdl
 oBR
 qqt
-xfN
+pdl
 afY
 qqt
 xfN
@@ -90208,17 +90232,17 @@ fNx
 fNx
 fNx
 dvc
-xfN
+bTr
+xnA
+fXt
+bTr
+xnA
+fXt
+bTr
 xnA
 fXt
 xfN
-xnA
-fXt
-xfN
-xnA
-fXt
-xfN
-xkI
+gch
 xnA
 xnA
 kXH
@@ -90340,13 +90364,13 @@ fNx
 fNx
 fNx
 dvc
-xfN
+pdl
 xnA
 hPc
-xfN
+pdl
 xnA
 hPc
-xfN
+pdl
 xnA
 hPc
 xfN
@@ -91264,7 +91288,7 @@ fNx
 fNx
 fNx
 dvc
-xfN
+pdl
 ifj
 ifj
 ifj
@@ -91396,7 +91420,7 @@ fNx
 fNx
 fNx
 bvv
-xfN
+pdl
 arw
 ifj
 ifj
@@ -92786,8 +92810,8 @@ fNx
 fNx
 fNx
 fNx
-fVf
-tiw
+irS
+lKJ
 vwN
 vvG
 xSj
@@ -106710,7 +106734,7 @@ fNx
 fNx
 fNx
 dvc
-xfN
+bTr
 cTE
 vOp
 vOp
@@ -106987,7 +107011,7 @@ cPk
 ifj
 ifj
 ifj
-xfN
+bTr
 fNx
 fNx
 fNx
@@ -107238,7 +107262,7 @@ fNx
 fNx
 fNx
 dvc
-xfN
+bTr
 jBI
 dsB
 dsB
@@ -107372,7 +107396,7 @@ fNx
 dvc
 noo
 ceM
-dQJ
+pry
 ceM
 xfN
 hhL
@@ -107383,7 +107407,7 @@ xfN
 xfN
 ifj
 ifj
-pdl
+bTr
 fNx
 fNx
 dvc
@@ -107766,7 +107790,7 @@ fNx
 fNx
 fNx
 dvc
-pdl
+bTr
 xwm
 dsB
 dsB
@@ -107779,7 +107803,7 @@ vOp
 xfN
 ifj
 ifj
-pdl
+bTr
 fNx
 fNx
 dvc
