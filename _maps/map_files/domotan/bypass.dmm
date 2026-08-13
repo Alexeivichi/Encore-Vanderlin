@@ -26,7 +26,8 @@
 	aallmig = "bypass2";
 	aportalgoesto = "bypass_out";
 	aportalid = "bypass2";
-	name = "To Seculton Gate"
+	name = "To Seculton Gate";
+	icon_state = "event"
 	},
 /turf/open/floor/metal/alt,
 /area/under/necropolis/bypass)
@@ -58,7 +59,8 @@
 	aportalgoesto = "bypass_in";
 	aportalid = "bypass1";
 	name = "To Old Doma";
-	dir = 1
+	dir = 1;
+	icon_state = "event"
 	},
 /turf/open/floor/metal/alt,
 /area/under/necropolis/bypass)
@@ -68,7 +70,8 @@
 	aallmig = "bypass2";
 	aportalgoesto = "bypass_out";
 	aportalid = "bypass2";
-	name = "To Seculton Gate"
+	name = "To Seculton Gate";
+	icon_state = "event"
 	},
 /turf/open/floor/metal/alt,
 /area/under/necropolis/bypass)
@@ -161,7 +164,8 @@
 	aportalgoesto = "bypass_in";
 	aportalid = "bypass1";
 	name = "To Old Doma";
-	dir = 1
+	dir = 1;
+	icon_state = "event"
 	},
 /turf/open/floor/metal/alt,
 /area/under/necropolis/bypass)

@@ -2994,13 +2994,19 @@
 	aportalgoesto = "bypass2";
 	aportalid = "bypass_out";
 	name = "To Bypassage";
-	dir = 1
+	dir = 1;
+	icon_state = "event";
+	desc = "A passageway to a shortcut which is only present at very particularly dire times..."
 	},
 /turf/open/floor/metal/alt,
 /area/under/cave)
 "NV" = (
 /turf/open/openspace,
 /area/outdoors/mountains/decap/miracle_caldera)
+"Ob" = (
+/obj/structure/fluff/statue/knight/r,
+/turf/open/floor/metal/red,
+/area/under/cave)
 "Od" = (
 /turf/closed/mineral,
 /area/indoors/hellwatch)
@@ -3618,6 +3624,7 @@
 /turf/open/floor/church,
 /area/indoors/hellwatch)
 "Vi" = (
+/obj/structure/fluff/statue/knight,
 /turf/open/floor/metal/red,
 /area/under/cave)
 "Vn" = (
@@ -7849,7 +7856,7 @@ xI
 lv
 NR
 kP
-Vi
+Ob
 lv
 lv
 lv
