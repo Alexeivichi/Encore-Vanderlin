@@ -35,10 +35,10 @@
 	var/obj/item/weapon/knife/dagger/bayonet/bayonet = null
 
 /obj/item/gun/ballistic/powder/musket/Initialize(mapload)
-	. = ..()
 	bayonet = new(src)
 	possible_item_intents = list(/datum/intent/shoot/musket, /datum/intent/shoot/musket/arc, SPEAR_THRUST)
 	gripped_intents = list(/datum/intent/shoot/musket, /datum/intent/shoot/musket/arc, POLEARM_THRUST)
+	. = ..()
 	AddElement(/datum/element/gun_launches_little_guys, throwing_force = 1, throwing_range = 1)
 
 /obj/item/gun/ballistic/powder/musket/Destroy(force)
