@@ -40,11 +40,6 @@
 	},
 /turf/open/floor/dirt,
 /area/under/cavewet)
-"al" = (
-/obj/structure/gravemarker,
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "am" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -88,13 +83,6 @@
 "au" = (
 /turf/closed/mineral/bedrock,
 /area/outdoors/woods/heavenscoast)
-"av" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "aw" = (
 /obj/structure/door/weak/bolt{
 	dir = 8
@@ -758,13 +746,6 @@
 /obj/structure/bridge,
 /turf/open/openspace,
 /area/outdoors/woods/heavenscoast)
-"dC" = (
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/obj/structure/closet/dirthole/grave,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "dD" = (
 /obj/structure/chair/wood/alt/chair_noble/purple,
 /turf/open/floor/ruinedwood/darker,
@@ -1816,7 +1797,6 @@
 /turf/open/floor/sand/sandstone,
 /area/indoors/shelter)
 "iW" = (
-/obj/structure/gravemarker,
 /obj/structure/closet/dirthole/grave,
 /turf/open/floor/dirt,
 /area/outdoors/woods/crossroads)
@@ -1888,7 +1868,6 @@
 /turf/closed/wall/mineral/stone/moss/red,
 /area/under/cave)
 "jm" = (
-/obj/structure/gravemarker,
 /obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt,
 /area/outdoors/woods/crossroads)
@@ -2653,9 +2632,9 @@
 /turf/open/floor/hexstone,
 /area/under/cavewet)
 "mZ" = (
-/obj/structure/bounty_board,
-/turf/open/floor/ruinedwood/spiral,
-/area/indoors/shelter)
+/obj/effect/landmark/map_load_mark/generic_tile/two_level,
+/turf/open/floor/sand/sandstone,
+/area/outdoors/woods/heavenscoast)
 "na" = (
 /turf/closed/mineral,
 /area/under/cave)
@@ -2862,8 +2841,6 @@
 /turf/open/floor/hexstone,
 /area/under/town/basement)
 "of" = (
-/obj/structure/gravemarker,
-/obj/structure/closet/dirthole/closed/loot,
 /obj/machinery/light/fueled/wallfire/candle/skull,
 /turf/open/floor/dirt/road,
 /area/under/town/basement)
@@ -3217,11 +3194,6 @@
 /obj/item/grown/log/tree/stick,
 /turf/open/floor/twig,
 /area/outdoors/woods/crossroads)
-"pK" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker,
-/turf/open/floor/grass/healthy,
-/area/indoors/shelter/bog)
 "pM" = (
 /mob/living/carbon/human/species/skeleton/npc/peasant,
 /turf/open/floor/wood/nosmooth,
@@ -3821,13 +3793,6 @@
 /obj/machinery/light/fueled/wallfire/candle/skull,
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter/bog)
-"sJ" = (
-/obj/structure/bounty_board{
-	pixel_y = 28;
-	pixel_x = 9
-	},
-/turf/open/floor/ruinedwood/darker,
-/area/indoors/shelter/bog)
 "sL" = (
 /obj/machinery/light/fueled/wallfire/candle/skull/l,
 /turf/open/water/sewer,
@@ -4375,11 +4340,6 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/cobble,
 /area/under/cavewet)
-"vp" = (
-/obj/structure/gravemarker,
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt,
-/area/outdoors/woods/crossroads)
 "vs" = (
 /mob/living/simple_animal/hostile/retaliate/bigrat,
 /turf/open/floor/cobble/mossy,
@@ -4696,10 +4656,14 @@
 /turf/open/floor/wood/nosmooth,
 /area/indoors/shelter)
 "wU" = (
-/obj/structure/gravemarker,
-/obj/structure/closet/dirthole/grave,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
+/obj/effect/decal/borderfall{
+	dir = 1
+	},
+/obj/structure/notice_board{
+	pixel_x = 11
+	},
+/turf/open/floor/grass/yel,
+/area/outdoors/woods/crossroads)
 "wW" = (
 /obj/structure/fluff/railing/tall/retaining,
 /obj/structure/fluff/railing/wood,
@@ -5227,13 +5191,6 @@
 	},
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
-"zx" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/turf/open/floor/grass/healthy,
-/area/indoors/shelter/bog)
 "zA" = (
 /obj/structure/fluff/railing/border{
 	dir = 1;
@@ -5637,14 +5594,6 @@
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/swamp,
 /area/outdoors/bog)
-"Bn" = (
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/obj/structure/closet/dirthole/closed/loot,
-/obj/machinery/light/fueled/wallfire/candle/skull,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "Bo" = (
 /obj/structure/door/weak/bolt{
 	dir = 1
@@ -5926,7 +5875,6 @@
 /turf/open/floor/cobble/mossy,
 /area/indoors/shelter/bog)
 "Cz" = (
-/obj/structure/gravemarker,
 /obj/structure/closet/dirthole/grave,
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
@@ -8017,13 +7965,6 @@
 /obj/machinery/light/fueled/torchholder/metal_torch/west,
 /turf/open/floor/cobble/alt,
 /area/outdoors/bog/w_highroad)
-"NP" = (
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "NQ" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/dirt,
@@ -8272,10 +8213,9 @@
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
 "Pm" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
+/obj/effect/landmark/map_load_mark/generic_tile/two_level,
+/turf/open/floor/dirt,
+/area/under/cavewet)
 "Po" = (
 /obj/item/natural/stone,
 /turf/open/floor/grass,
@@ -15652,7 +15592,7 @@ Yh
 hB
 CQ
 WX
-sJ
+vy
 bZ
 bZ
 vy
@@ -23295,7 +23235,7 @@ Wj
 Wj
 Wj
 Wj
-YR
+Pm
 YR
 YR
 YR
@@ -26554,7 +26494,7 @@ eS
 eS
 eS
 eS
-eS
+mZ
 eS
 eS
 eS
@@ -36252,7 +36192,7 @@ eS
 eS
 eS
 eS
-eS
+mZ
 eS
 eS
 eS
@@ -48074,7 +48014,7 @@ eS
 eS
 eS
 eS
-eS
+mZ
 eS
 eS
 eS
@@ -51961,7 +51901,7 @@ eS
 eS
 eS
 eS
-eS
+mZ
 eS
 eS
 eS
@@ -61337,7 +61277,7 @@ nE
 nE
 nE
 Ho
-al
+rv
 WA
 tl
 ca
@@ -61862,7 +61802,7 @@ Ci
 AT
 Ug
 BY
-al
+rv
 AT
 fG
 xU
@@ -62252,7 +62192,7 @@ eS
 eS
 sz
 sz
-mZ
+hG
 mD
 bu
 xM
@@ -62374,7 +62314,7 @@ UC
 Er
 we
 AT
-NP
+rv
 Ug
 Ug
 AT
@@ -62622,7 +62562,7 @@ nE
 nE
 nE
 UC
-Bn
+of
 xY
 Ci
 Wy
@@ -63640,13 +63580,13 @@ CJ
 Ho
 YB
 UC
-dC
+Ug
 BY
-av
+rv
 Ho
-dC
-av
-dC
+Ug
+rv
+Ug
 UC
 UC
 nE
@@ -63904,7 +63844,7 @@ ky
 CJ
 CJ
 Ci
-dC
+Ug
 Ho
 cw
 rv
@@ -64418,7 +64358,7 @@ Yf
 ky
 SU
 Ci
-Pm
+rv
 UC
 AI
 SY
@@ -64668,13 +64608,13 @@ CJ
 UC
 YB
 UC
-Pm
-wU
-al
+rv
+Ug
+rv
 UC
 BY
-wU
-al
+Ug
+rv
 Ho
 Ho
 na
@@ -65787,7 +65727,7 @@ eS
 eS
 eS
 eS
-eS
+mZ
 eS
 eS
 eS
@@ -77098,11 +77038,11 @@ mb
 mb
 QN
 WX
-zx
 DO
-zx
 DO
-zx
+DO
+DO
+DO
 WX
 Ki
 Ki
@@ -78126,11 +78066,11 @@ mb
 mb
 mb
 WX
-pK
 DO
-pK
 DO
-pK
+DO
+DO
+DO
 WX
 Ki
 Ki
@@ -133326,7 +133266,7 @@ sY
 sY
 sY
 zV
-UO
+wU
 js
 js
 Qn
@@ -139728,7 +139668,7 @@ jm
 sY
 iW
 sY
-vp
+iO
 Vy
 Vy
 iO
