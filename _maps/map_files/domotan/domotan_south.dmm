@@ -1411,7 +1411,7 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/shelter)
 "gV" = (
-/turf/open/openspace,
+/turf/closed/basic,
 /area)
 "gX" = (
 /obj/structure/table/wood/plain_alt,
@@ -5221,6 +5221,13 @@
 /obj/effect/mapping_helpers/access/keyset/garrison/forest,
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/villagegarrison)
+"zu" = (
+/obj/effect/landmark/mapGenerator/cave{
+	endTurfX = 255;
+	endTurfY = 255
+	},
+/turf/closed/basic,
+/area)
 "zv" = (
 /obj/structure/flora/tree/pine/dead{
 	icon_state = "dead5"
@@ -7978,6 +7985,13 @@
 	},
 /turf/open/floor/dirt,
 /area/indoors/shelter/woods)
+"NE" = (
+/obj/effect/landmark/mapGenerator/beach{
+	endTurfX = 255;
+	endTurfY = 255
+	},
+/turf/closed/basic,
+/area)
 "NF" = (
 /obj/item/natural/stone{
 	pixel_x = 6;
@@ -10330,6 +10344,13 @@
 "ZJ" = (
 /turf/open/floor/grass/healthy,
 /area/outdoors/woods/crossroads)
+"ZK" = (
+/obj/effect/landmark/mapGenerator/domotan/forest{
+	endTurfX = 255;
+	endTurfY = 255
+	},
+/turf/closed/basic,
+/area)
 "ZL" = (
 /obj/item/coin/copper,
 /obj/machinery/light/fueled/wallfire/candle/skull/l,
@@ -76188,8 +76209,8 @@ gV
 gV
 gV
 gV
-gV
-gV
+ZK
+NE
 "}
 (2,1,2) = {"
 qd
@@ -76446,7 +76467,7 @@ gV
 gV
 gV
 gV
-gV
+zu
 "}
 (3,1,2) = {"
 qd
@@ -79054,7 +79075,7 @@ Vy
 Vy
 Vy
 Vy
-Vy
+LS
 Vy
 Vy
 Vy
@@ -79311,7 +79332,7 @@ Vy
 Vy
 Vy
 Vy
-Vy
+LS
 Vy
 Vy
 Vy
@@ -79566,9 +79587,9 @@ Vy
 Vy
 Vy
 Vy
-Vy
-Vy
-Vy
+LS
+DW
+DW
 Vy
 Vy
 Vy
@@ -79823,9 +79844,9 @@ Vy
 Vy
 Vy
 Vy
-Vy
-Vy
-Vy
+LS
+LS
+DW
 Vy
 Vy
 Vy
@@ -80081,8 +80102,8 @@ Vy
 Vy
 Vy
 Vy
-Vy
-Vy
+LS
+DW
 Vy
 Vy
 Vy
@@ -82900,7 +82921,7 @@ Vy
 Vy
 Vy
 Vy
-Vy
+DW
 Vy
 Vy
 Vy
@@ -83156,8 +83177,8 @@ Vy
 Vy
 Vy
 Vy
-Vy
-Vy
+DW
+DW
 Vy
 Vy
 Vy
@@ -83413,9 +83434,9 @@ Vy
 Vy
 Vy
 Vy
-Vy
-Vy
-Vy
+DW
+LS
+LS
 Vy
 Vy
 Vy
@@ -83671,7 +83692,7 @@ Vy
 Vy
 Vy
 Vy
-Vy
+LS
 Vy
 Vy
 Vy
@@ -83928,7 +83949,7 @@ Vy
 Vy
 Vy
 Vy
-Vy
+LS
 Vy
 Vy
 Vy
@@ -87027,7 +87048,7 @@ Vy
 Vy
 Vy
 Vy
-Vy
+LS
 Vy
 Vy
 Vy
@@ -87283,9 +87304,9 @@ Vy
 Vy
 Vy
 Vy
-Vy
-Vy
-Vy
+LS
+LS
+DW
 Vy
 Vy
 Vy
@@ -87540,9 +87561,9 @@ Vy
 Vy
 Vy
 Vy
-Vy
-Vy
-Vy
+LS
+LS
+DW
 Vy
 Vy
 Vy
@@ -87798,8 +87819,8 @@ Vy
 Vy
 Vy
 Vy
-Vy
-Vy
+DW
+DW
 Vy
 Vy
 Vy
@@ -88054,9 +88075,9 @@ Vy
 Vy
 Vy
 Vy
-Vy
-Vy
-Vy
+LS
+DW
+DW
 Vy
 Vy
 Vy
@@ -88311,8 +88332,8 @@ Vy
 Vy
 Vy
 Vy
-Vy
-Vy
+LS
+LS
 Vy
 Vy
 Vy
@@ -88569,8 +88590,8 @@ Vy
 Vy
 Vy
 Vy
-Vy
-Vy
+LS
+LS
 Vy
 Vy
 Vy
@@ -88827,7 +88848,7 @@ Vy
 Vy
 Vy
 Vy
-Vy
+LS
 Vy
 Vy
 Vy
