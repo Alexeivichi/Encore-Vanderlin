@@ -408,6 +408,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_KEENEYES "Keen Eyes"
 #define TRAIT_POISON_RESILIENCE "Poison Resilience"
 #define TRAIT_SEED_FINDER "Seed Finder"
+#define TRAIT_SAGE_PHOBIA "Blood Memory"//Encore specific- Practically every playermob should have this.
 /// Cannot count coins
 #define TRAIT_COIN_ILLITERATE "Barterer"
 /// Chance for extra items when cooking

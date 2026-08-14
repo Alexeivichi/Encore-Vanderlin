@@ -1,0 +1,4 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - rscadd: "Added an inherent trait to players through job spawns that ensures they are, in fact, scared of the sages' names."

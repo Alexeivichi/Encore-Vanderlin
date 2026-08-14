@@ -1,0 +1,6 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - map: "Re-maps Domotan South."
+  - rscadd: "Makes Beespiders respond more positively to half-drow when taming."
+  - rscadd: "Makes tent walls opaque instead of transparent."

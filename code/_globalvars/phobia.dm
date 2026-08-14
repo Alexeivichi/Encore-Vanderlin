@@ -14,6 +14,7 @@ GLOBAL_LIST_INIT(phobia_types, sortList(list(
 	"spiders",
 	"strangers",
 	"undead",
+	"sages",
 )))
 
 GLOBAL_LIST_INIT(phobia_regexes, list(
@@ -28,6 +29,7 @@ GLOBAL_LIST_INIT(phobia_regexes, list(
 	"spiders" = construct_phobia_regex("spiders"),
 	"strangers" = construct_phobia_regex("strangers"),
 	"undead" = construct_phobia_regex("undead"),
+	"sages" = construct_phobia_regex("sages"),
 ))
 
 GLOBAL_LIST_INIT(phobia_mobs, list(

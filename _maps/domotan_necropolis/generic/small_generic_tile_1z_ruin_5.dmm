@@ -1,0 +1,362 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"b" = (
+/obj/structure/rack,
+/obj/effect/spawner/map_spawner/loot/armor,
+/turf/open/floor/twig,
+/area/under/cave)
+"c" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/twig,
+/area/template_noop)
+"d" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/twig,
+/area/template_noop)
+"e" = (
+/obj/structure/chair/bench/ancientlog,
+/turf/open/floor/dirt,
+/area/template_noop)
+"g" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
+/turf/open/floor/dirt,
+/area/template_noop)
+"h" = (
+/turf/open/floor/cobble,
+/area/template_noop)
+"i" = (
+/obj/item/grown/log/tree/small,
+/turf/open/floor/twig,
+/area/template_noop)
+"j" = (
+/obj/structure/roguetent,
+/turf/open/floor/twig,
+/area/under/cave)
+"k" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
+/turf/open/floor/twig,
+/area/under/cave)
+"o" = (
+/obj/structure/bars,
+/turf/open/floor/twig,
+/area/under/cave)
+"p" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/twig,
+/area/template_noop)
+"q" = (
+/obj/structure/table/wood/plain,
+/obj/item/grown/log/tree/stick,
+/turf/open/floor/dirt,
+/area/template_noop)
+"r" = (
+/obj/structure/rack,
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/twig,
+/area/template_noop)
+"s" = (
+/obj/structure/bars,
+/turf/open/floor/cobble,
+/area/template_noop)
+"t" = (
+/obj/structure/chair/wood/alt/chair3,
+/obj/effect/decal/cleanable/dirt/cobweb,
+/turf/open/floor/dirt,
+/area/template_noop)
+"u" = (
+/obj/structure/bars,
+/turf/open/floor/twig,
+/area/template_noop)
+"z" = (
+/turf/open/floor/twig,
+/area/under/cave)
+"A" = (
+/obj/structure/rack/shelf/biggest,
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/twig,
+/area/under/cave)
+"D" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"E" = (
+/obj/structure/rack,
+/obj/effect/spawner/map_spawner/loot/potion_vitals,
+/turf/open/floor/twig,
+/area/template_noop)
+"G" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/twig,
+/area/template_noop)
+"H" = (
+/turf/open/floor/twig,
+/area/template_noop)
+"I" = (
+/obj/item/grown/log/tree/stick,
+/turf/open/floor/cobble,
+/area/template_noop)
+"J" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/dirt,
+/area/template_noop)
+"L" = (
+/obj/structure/chair/wood/alt/chair3,
+/turf/open/floor/dirt,
+/area/template_noop)
+"M" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cave)
+"N" = (
+/obj/item/natural/stone,
+/turf/open/floor/dirt,
+/area/template_noop)
+"O" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/template_noop)
+"R" = (
+/obj/structure/chair/wood/alt/chair3{
+	dir = 8
+	},
+/turf/open/floor/cobble,
+/area/template_noop)
+"S" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/twig,
+/area/under/cave)
+"U" = (
+/obj/structure/table/wood/plain,
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/cobble,
+/area/template_noop)
+"Y" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/cobble,
+/area/template_noop)
+
+(1,1,1) = {"
+D
+M
+M
+s
+s
+M
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+D
+p
+M
+D
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(3,1,1) = {"
+D
+h
+a
+a
+a
+Y
+h
+a
+a
+p
+p
+a
+a
+a
+"}
+(4,1,1) = {"
+h
+D
+a
+M
+M
+M
+D
+a
+H
+G
+i
+H
+a
+a
+"}
+(5,1,1) = {"
+D
+D
+a
+M
+L
+q
+D
+D
+d
+r
+E
+u
+a
+a
+"}
+(6,1,1) = {"
+a
+a
+a
+M
+D
+g
+O
+D
+D
+H
+c
+M
+a
+a
+"}
+(7,1,1) = {"
+a
+a
+a
+a
+h
+Y
+h
+a
+a
+a
+M
+M
+a
+a
+"}
+(8,1,1) = {"
+a
+a
+M
+M
+u
+u
+D
+a
+a
+a
+a
+h
+Y
+h
+"}
+(9,1,1) = {"
+a
+a
+M
+t
+H
+D
+D
+e
+a
+a
+Y
+a
+h
+Y
+"}
+(10,1,1) = {"
+a
+a
+s
+U
+H
+d
+d
+J
+O
+D
+I
+a
+a
+a
+"}
+(11,1,1) = {"
+a
+a
+M
+R
+N
+d
+H
+D
+M
+M
+M
+j
+M
+a
+"}
+(12,1,1) = {"
+a
+a
+M
+M
+a
+D
+D
+D
+M
+b
+k
+z
+M
+a
+"}
+(13,1,1) = {"
+D
+a
+a
+a
+a
+a
+D
+a
+M
+A
+S
+S
+o
+a
+"}
+(14,1,1) = {"
+D
+a
+a
+a
+a
+a
+a
+a
+M
+M
+M
+M
+M
+a
+"}
