@@ -1,0 +1,727 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ad" = (
+/obj/structure/door/weak,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"ae" = (
+/obj/structure/stairs/stone,
+/turf/open/floor/cobble,
+/area/indoors/shelter/woods)
+"at" = (
+/turf/open/floor/rooftop,
+/area/template_noop)
+"aJ" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/dirt/road,
+/area/indoors/shelter/woods)
+"cl" = (
+/obj/structure/window/stained,
+/turf/open/floor/cobble,
+/area/indoors/shelter/woods)
+"cq" = (
+/obj/structure/fluff/walldeco/churchbanner/red,
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/shelter/woods)
+"dw" = (
+/obj/structure/chair/bench/church/smallbench/stone,
+/turf/open/floor/cobble,
+/area/indoors/shelter/woods)
+"dx" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/table/stone_small,
+/turf/open/floor/church,
+/area/indoors/shelter/woods)
+"dK" = (
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"ev" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/turf/open/floor/cobble/alt,
+/area/indoors/shelter/woods)
+"eN" = (
+/obj/structure/fluff/stonecoffin,
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/dirt,
+/area/template_noop)
+"fa" = (
+/obj/structure/spider/stickyweb,
+/turf/open/floor/church,
+/area/indoors/shelter/woods)
+"gx" = (
+/obj/structure/fluff/walldeco/churchbanner/red,
+/turf/closed/wall/mineral/stonebrick,
+/area/template_noop)
+"ic" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/church/violet,
+/area/indoors/shelter/woods)
+"iL" = (
+/obj/structure/fluff/psycross/angros/abandoned,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"jx" = (
+/turf/open/floor/dirt,
+/area/indoors/shelter/woods)
+"kT" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/cobble,
+/area/indoors/shelter/woods)
+"mb" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/dirt,
+/area/template_noop)
+"mp" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"nm" = (
+/turf/open/floor/church/gold,
+/area/indoors/shelter/woods)
+"rk" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/shelter/woods)
+"sl" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church,
+/area/indoors/shelter/woods)
+"tC" = (
+/obj/effect/mapping_helpers/structure/breaker,
+/obj/structure/door/weak,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"tF" = (
+/obj/structure/spider/stickyweb,
+/turf/open/floor/church/gold,
+/area/indoors/shelter/woods)
+"tR" = (
+/obj/structure/stairs/stone,
+/obj/effect/mapping_helpers/structure/breaker,
+/obj/structure/door/weak,
+/turf/open/floor/cobble/mossy,
+/area/indoors/shelter/woods)
+"up" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/turf/open/floor/cobble,
+/area/indoors/shelter/woods)
+"vi" = (
+/obj/structure/spider/stickyweb,
+/turf/open/floor/cobble/mossy,
+/area/indoors/shelter/woods)
+"wD" = (
+/turf/template_noop,
+/area/template_noop)
+"wQ" = (
+/obj/item/natural/bundle/plank,
+/turf/open/floor/dirt,
+/area/indoors/shelter/woods)
+"wX" = (
+/turf/open/floor/church,
+/area/indoors/shelter/woods)
+"xp" = (
+/turf/open/floor/church/violet,
+/area/indoors/shelter/woods)
+"Ar" = (
+/turf/open/floor/cobble/mossy,
+/area/template_noop)
+"By" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 8
+	},
+/turf/open/floor/cobble,
+/area/indoors/shelter/woods)
+"CH" = (
+/obj/structure/fluff/psycross/angros/abandoned,
+/obj/effect/decal/cleanable/dirt/cobweb,
+/turf/open/floor/church/violet,
+/area/indoors/shelter/woods)
+"ER" = (
+/turf/open/floor/cobble,
+/area/indoors/shelter/woods)
+"Gc" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 8
+	},
+/obj/structure/spider/stickyweb,
+/turf/open/floor/cobble/alt,
+/area/indoors/shelter/woods)
+"GI" = (
+/obj/structure/fluff/walldeco/stone{
+	icon_state = "walldec6"
+	},
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/shelter/woods)
+"Hn" = (
+/obj/structure/chair/bench/church{
+	dir = 1
+	},
+/turf/open/floor/church,
+/area/indoors/shelter/woods)
+"Ip" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/turf/open/floor/church/violet,
+/area/indoors/shelter/woods)
+"Ix" = (
+/turf/open/floor/cobble/mossy,
+/area/indoors/shelter/woods)
+"Jb" = (
+/obj/structure/chair/bench/church/mid{
+	dir = 1
+	},
+/turf/open/floor/churchrough,
+/area/indoors/shelter/woods)
+"Jd" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/turf/open/floor/church/purple,
+/area/template_noop)
+"Jk" = (
+/turf/open/floor/churchrough,
+/area/indoors/shelter/woods)
+"Jt" = (
+/obj/structure/fluff/railing/border{
+	dir = 9
+	},
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"Ju" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/template_noop)
+"Ks" = (
+/obj/structure/fluff/stonecoffin,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/dirt,
+/area/template_noop)
+"KI" = (
+/obj/structure/fluff/stonecoffin,
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/dirt,
+/area/template_noop)
+"Nr" = (
+/obj/structure/fluff/railing/border{
+	dir = 5
+	},
+/turf/open/floor/church,
+/area/indoors/shelter/woods)
+"NZ" = (
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/cobble/mossy,
+/area/indoors/shelter/woods)
+"Of" = (
+/obj/structure/spider/stickyweb,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"Pc" = (
+/obj/structure/window/stained,
+/obj/effect/mapping_helpers/structure/breaker,
+/turf/open/floor/cobble,
+/area/indoors/shelter/woods)
+"Rb" = (
+/obj/structure/chair/bench/church/r,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"Su" = (
+/turf/open/floor/cobble/alt,
+/area/indoors/shelter/woods)
+"SP" = (
+/obj/structure/lootable_structure/grain_barrel,
+/turf/open/floor/church,
+/area/indoors/shelter/woods)
+"Vk" = (
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"VT" = (
+/obj/structure/fluff/stonecoffin,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/dirt,
+/area/template_noop)
+"Wb" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/table/stone_small,
+/obj/effect/spawner/map_spawner/loot/coin/low,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"ZD" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/cobble/mossy,
+/area/indoors/shelter/woods)
+
+(1,1,1) = {"
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+mp
+mp
+wD
+wD
+wD
+wD
+"}
+(2,1,1) = {"
+wD
+wD
+wD
+wD
+rk
+cl
+rk
+cl
+rk
+eN
+mb
+KI
+wD
+wD
+"}
+(3,1,1) = {"
+wD
+wD
+wD
+mp
+rk
+Ix
+NZ
+dw
+Pc
+Vk
+mp
+mp
+mp
+wD
+"}
+(4,1,1) = {"
+wD
+wD
+mp
+Ar
+tR
+Ix
+Su
+ER
+rk
+Vk
+mp
+mp
+wD
+wD
+"}
+(5,1,1) = {"
+wD
+rk
+rk
+rk
+cq
+ev
+kT
+up
+rk
+gx
+VT
+Ks
+wD
+wD
+"}
+(6,1,1) = {"
+mp
+rk
+CH
+xp
+Ip
+Nr
+Hn
+nm
+tF
+rk
+rk
+GI
+wD
+wD
+"}
+(7,1,1) = {"
+Ju
+aJ
+SP
+xp
+dx
+Jk
+Jb
+Jk
+wX
+dK
+tC
+Jd
+wD
+wD
+"}
+(8,1,1) = {"
+wD
+rk
+fa
+nm
+Wb
+Jk
+Jb
+Jk
+sl
+Of
+ad
+Jd
+wD
+wD
+"}
+(9,1,1) = {"
+wD
+rk
+iL
+nm
+ic
+Jt
+Rb
+wX
+nm
+rk
+rk
+GI
+mp
+wD
+"}
+(10,1,1) = {"
+wD
+rk
+rk
+rk
+cq
+By
+By
+Gc
+rk
+gx
+Vk
+mp
+wD
+wD
+"}
+(11,1,1) = {"
+wD
+wD
+Vk
+Vk
+ae
+ZD
+Ix
+ER
+rk
+mp
+wD
+mp
+wD
+wD
+"}
+(12,1,1) = {"
+wD
+wD
+wD
+wD
+wQ
+jx
+vi
+dw
+cl
+wD
+wD
+wD
+wD
+wD
+"}
+(13,1,1) = {"
+wD
+wD
+wD
+mp
+mp
+Pc
+rk
+cl
+rk
+wD
+wD
+wD
+wD
+wD
+"}
+(14,1,1) = {"
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+"}
+
+(1,1,2) = {"
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+"}
+(2,1,2) = {"
+wD
+wD
+wD
+wD
+at
+at
+at
+at
+at
+wD
+wD
+wD
+wD
+wD
+"}
+(3,1,2) = {"
+wD
+wD
+wD
+wD
+at
+at
+at
+at
+at
+wD
+wD
+wD
+wD
+wD
+"}
+(4,1,2) = {"
+wD
+wD
+wD
+wD
+at
+at
+at
+at
+at
+wD
+wD
+wD
+wD
+wD
+"}
+(5,1,2) = {"
+wD
+at
+at
+at
+at
+at
+at
+at
+at
+at
+wD
+wD
+wD
+wD
+"}
+(6,1,2) = {"
+wD
+at
+at
+at
+at
+at
+at
+at
+at
+at
+at
+at
+wD
+wD
+"}
+(7,1,2) = {"
+wD
+at
+at
+at
+at
+at
+at
+at
+at
+at
+at
+at
+wD
+wD
+"}
+(8,1,2) = {"
+wD
+at
+at
+at
+at
+at
+at
+at
+at
+at
+at
+at
+wD
+wD
+"}
+(9,1,2) = {"
+wD
+at
+at
+at
+at
+at
+at
+at
+at
+at
+at
+at
+wD
+wD
+"}
+(10,1,2) = {"
+wD
+at
+at
+at
+at
+at
+at
+at
+at
+wD
+wD
+wD
+wD
+wD
+"}
+(11,1,2) = {"
+wD
+wD
+wD
+wD
+at
+at
+at
+at
+at
+wD
+wD
+wD
+wD
+wD
+"}
+(12,1,2) = {"
+wD
+wD
+wD
+wD
+at
+at
+at
+at
+at
+wD
+wD
+wD
+wD
+wD
+"}
+(13,1,2) = {"
+wD
+wD
+wD
+wD
+wD
+at
+at
+at
+at
+wD
+wD
+wD
+wD
+wD
+"}
+(14,1,2) = {"
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+wD
+"}
