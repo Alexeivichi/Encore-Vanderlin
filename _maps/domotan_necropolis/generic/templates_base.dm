@@ -13,7 +13,7 @@
 	name = "Small Generic 1Z Random Tile"
 	templates = GENERIC_SMALL_TEMPLATES
 
-/obj/effect/landmark/map_load_mark/generic_tile/2z
+/obj/effect/landmark/map_load_mark/generic_tile/two_level
 	name = "Small Generic 2Z Random Tile"
 	templates = GENERIC_SMALL_TEMPLATES_2Z
 
