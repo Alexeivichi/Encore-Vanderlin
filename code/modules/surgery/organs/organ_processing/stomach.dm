@@ -172,7 +172,7 @@
 		combined_disgust_metabolism += stomach.disgust_metabolism
 
 	if(owner.disgust)
-		var/pukeprob = 5 + (0.05 * owner.disgust)
+		var/stutterprob = 5 + (0.05 * owner.disgust)//this isnt vomiting anymore - Encore edit
 		if(owner.disgust >= DISGUST_LEVEL_GROSS)
 			if(DT_PROB(10, delta_time))
 				owner.stuttering += 1
@@ -181,10 +181,9 @@
 				to_chat(owner, span_warning("I feel kind of iffy..."))
 			owner.adjust_jitter(-6 SECONDS)
 		if(owner.disgust >= DISGUST_LEVEL_VERYGROSS)
-			if(DT_PROB(pukeprob, delta_time))
+			if(DT_PROB(stutterprob, delta_time))
 				owner.adjust_confusion(5 SECONDS)
 				owner.stuttering += 1
-				owner.vomit(10, 0, 1, 0, 1, 0)
 			owner.set_dizzy(10 SECONDS)
 		if(owner.disgust >= DISGUST_LEVEL_DISGUSTED)
 			if(DT_PROB(25, delta_time))
