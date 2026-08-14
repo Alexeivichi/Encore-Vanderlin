@@ -1,14 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"ab" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
-/obj/structure/fluff/walldeco/church/line{
-	dir = 1
-	},
-/obj/effect/landmark/start/vampirespawn,
-/turf/open/floor/tile/diamond,
-/area/indoors/vampire_manor)
 "ae" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/tile,
@@ -2876,14 +2866,6 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/under/cave/oldfort)
-"sX" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
-/obj/structure/fluff/walldeco/church/line,
-/obj/effect/landmark/start/vampirespawn,
-/turf/open/floor/tile/diamond,
-/area/indoors/vampire_manor)
 "tb" = (
 /mob/living/simple_animal/hostile/retaliate/minotaur/axe{
 	name = "Mulchgore"
@@ -28526,8 +28508,8 @@ OD
 zz
 By
 Yq
-ab
-sX
+kv
+Pz
 ht
 By
 zz
