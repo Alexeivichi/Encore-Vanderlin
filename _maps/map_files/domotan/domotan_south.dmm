@@ -7741,10 +7741,6 @@
 /mob/living/simple_animal/hostile/retaliate/spider,
 /turf/open/floor/blocks/green,
 /area/under/cavewet)
-"Mo" = (
-/turf/open/floor/grass,
-/turf/open/floor/dirt,
-/area/outdoors/woods/crossroads)
 "Mp" = (
 /obj/structure/handcart{
 	dir = 4
@@ -87767,7 +87763,7 @@ Vy
 Vy
 Vy
 iO
-Mo
+iO
 Vy
 iO
 iO
