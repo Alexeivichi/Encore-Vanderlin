@@ -5140,6 +5140,10 @@
 	},
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
+"zc" = (
+/obj/effect/landmark/map_load_mark/generic_tile/two_level,
+/turf/open/floor/sand/sandstone,
+/area/outdoors/woods/heavenscoast)
 "zd" = (
 /obj/structure/closet/crate/chest/crate,
 /obj/item/needle/thorn,
@@ -10094,6 +10098,10 @@
 	},
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/shelter/bog)
+"Yw" = (
+/obj/effect/landmark/map_load_mark/generic_tile/two_level,
+/turf/closed/mineral,
+/area/under/cavewet)
 "YA" = (
 /obj/structure/closet/crate/chest/wicker,
 /obj/item/reagent_containers/powder/salt,
@@ -23314,7 +23322,7 @@ TP
 TP
 Wj
 Wj
-Wj
+Yw
 Wj
 YR
 YR
@@ -26316,7 +26324,7 @@ eS
 eS
 eS
 eS
-eS
+zc
 eS
 eS
 eS
@@ -36060,7 +36068,7 @@ eS
 eS
 eS
 eS
-eS
+zc
 eS
 eS
 eS
@@ -36788,7 +36796,7 @@ eS
 eS
 eS
 eS
-eS
+zc
 eS
 eS
 eS
@@ -51979,7 +51987,7 @@ eS
 eS
 eS
 eS
-eS
+zc
 eS
 eS
 eS
@@ -66068,7 +66076,7 @@ eS
 eS
 eS
 eS
-eS
+zc
 eS
 eS
 eS
@@ -87561,8 +87569,8 @@ Vy
 Vy
 Vy
 Vy
-LS
-LS
+Vy
+Vy
 DW
 Vy
 Vy
@@ -87819,8 +87827,8 @@ Vy
 Vy
 Vy
 Vy
-DW
-DW
+Vy
+Vy
 Vy
 Vy
 Vy
@@ -88075,9 +88083,9 @@ Vy
 Vy
 Vy
 Vy
-LS
-DW
-DW
+Vy
+Vy
+Vy
 Vy
 Vy
 Vy
@@ -88332,8 +88340,8 @@ Vy
 Vy
 Vy
 Vy
-LS
-LS
+Vy
+Vy
 Vy
 Vy
 Vy
@@ -88590,8 +88598,8 @@ Vy
 Vy
 Vy
 Vy
-LS
-LS
+Vy
+Vy
 Vy
 Vy
 Vy
@@ -88848,7 +88856,7 @@ Vy
 Vy
 Vy
 Vy
-LS
+Vy
 Vy
 Vy
 Vy
