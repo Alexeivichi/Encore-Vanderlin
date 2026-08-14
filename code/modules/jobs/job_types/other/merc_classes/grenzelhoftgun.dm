@@ -22,9 +22,9 @@
 	attribute_sheet = /datum/attribute_holder/sheet/job/sterkenstadtengun
 
 	traits = list(TRAIT_MEDIUMARMOR)
-	languages = list(/datum/language/newpsydonic)
+	languages = list(/datum/language/oldunsundered)
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = 2 //strong gun so limited
+	total_positions = 99 //strong gun so limited
 
 	cmode_music = 'sound/music/cmode/combat_grenzelhoft.ogg'
 
@@ -36,7 +36,7 @@
 	gloves = /obj/item/clothing/gloves/angle/sterkenstadten
 	belt = /obj/item/storage/belt/leather/mercenary
 	shirt = /obj/item/clothing/shirt/sterkenstadten
-	backl = /obj/item/storage/backpack/sterkenstadten/musketeer
+	backl = /obj/item/storage/backpack/satchel/musketeer
 	beltl = /obj/item/weapon/sword/sabre/dec
 	head = /obj/item/clothing/head/helmet/skullcap/sterkenstadten
 	armor = /obj/item/clothing/armor/cuirass/sterkenstadten //bad stats so they cna keep the strong armor
