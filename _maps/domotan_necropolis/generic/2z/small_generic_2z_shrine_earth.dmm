@@ -1,0 +1,618 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"b" = (
+/obj/item/alch/earthdust,
+/turf/open/floor/churchrough,
+/area/template_noop)
+"c" = (
+/turf/open/floor/churchrough,
+/area/template_noop)
+"d" = (
+/turf/open/floor/churchrough/green,
+/area/template_noop)
+"f" = (
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"g" = (
+/obj/structure/essence_node/earth,
+/turf/open/floor/dirt,
+/area/template_noop)
+"h" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 10
+	},
+/turf/template_noop,
+/area/template_noop)
+"i" = (
+/obj/structure/fluff/statue/crystal,
+/turf/open/floor/dirt,
+/area/template_noop)
+"j" = (
+/obj/structure/fluff/railing/tall/retaining/stone,
+/obj/item/alch/earthdust,
+/turf/open/floor/dirt,
+/area/template_noop)
+"n" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 6
+	},
+/turf/open/floor/dirt,
+/area/template_noop)
+"p" = (
+/obj/item/natural/elementalmote,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"r" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/floor/dirt,
+/area/template_noop)
+"s" = (
+/obj/item/natural/elementalmote,
+/turf/open/floor/dirt,
+/area/template_noop)
+"t" = (
+/obj/structure/fluff/statue/femalestatue/cleanlying,
+/turf/open/floor/churchrough/pale,
+/area/template_noop)
+"u" = (
+/obj/structure/fluff/railing/tall/retaining/stone,
+/turf/open/floor/dirt,
+/area/template_noop)
+"v" = (
+/obj/structure/flora/ausbushes/grassybush,
+/turf/open/floor/dirt,
+/area/template_noop)
+"x" = (
+/obj/item/alch/earthdust,
+/turf/open/floor/dirt,
+/area/template_noop)
+"y" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 8
+	},
+/obj/structure/chair/bench{
+	dir = 4
+	},
+/turf/open/floor/dirt,
+/area/template_noop)
+"z" = (
+/turf/open/floor/churchrough/pale,
+/area/template_noop)
+"A" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 1
+	},
+/obj/structure/chair/bench/church/smallbench/stone,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"B" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 1
+	},
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"C" = (
+/obj/structure/flora/pillar,
+/turf/open/floor/dirt,
+/area/template_noop)
+"E" = (
+/obj/structure/fluff/psycross/gani,
+/turf/open/floor/dirt,
+/area/template_noop)
+"N" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"O" = (
+/obj/structure/fluff/railing/tall/retaining/stone,
+/obj/item/natural/elementalmote,
+/turf/open/floor/dirt,
+/area/template_noop)
+"P" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 4
+	},
+/obj/structure/chair/bench{
+	dir = 8
+	},
+/turf/open/floor/dirt,
+/area/template_noop)
+"Q" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 1
+	},
+/obj/structure/chair/bench/church/smallbench/stone,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"R" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 8
+	},
+/obj/structure/chair/bench{
+	dir = 4
+	},
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"T" = (
+/turf/open/openspace,
+/area/template_noop)
+"V" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 4
+	},
+/obj/structure/chair/bench{
+	dir = 8
+	},
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"W" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 5
+	},
+/turf/open/floor/dirt,
+/area/template_noop)
+"X" = (
+/obj/structure/fluff/statue/crystal,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"Y" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 9
+	},
+/turf/open/floor/dirt,
+/area/template_noop)
+"Z" = (
+/obj/structure/flora/ausbushes/grassybush,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+a
+a
+N
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(3,1,1) = {"
+a
+N
+x
+a
+a
+a
+f
+a
+a
+a
+r
+a
+a
+a
+"}
+(4,1,1) = {"
+a
+a
+N
+a
+a
+N
+Z
+f
+a
+a
+a
+a
+a
+a
+"}
+(5,1,1) = {"
+a
+a
+a
+a
+a
+i
+p
+g
+i
+a
+a
+a
+a
+a
+"}
+(6,1,1) = {"
+a
+a
+a
+a
+C
+n
+V
+P
+W
+C
+f
+a
+a
+a
+"}
+(7,1,1) = {"
+a
+a
+a
+f
+f
+O
+d
+b
+A
+r
+f
+N
+a
+a
+"}
+(8,1,1) = {"
+a
+a
+a
+a
+v
+u
+t
+z
+B
+E
+N
+N
+a
+a
+"}
+(9,1,1) = {"
+a
+a
+a
+a
+f
+j
+c
+d
+Q
+s
+v
+a
+a
+a
+"}
+(10,1,1) = {"
+a
+a
+a
+a
+C
+h
+y
+R
+Y
+C
+N
+a
+a
+a
+"}
+(11,1,1) = {"
+a
+a
+a
+N
+a
+a
+a
+X
+g
+a
+N
+a
+a
+a
+"}
+(12,1,1) = {"
+a
+a
+N
+N
+r
+a
+f
+f
+x
+a
+a
+a
+a
+a
+"}
+(13,1,1) = {"
+a
+a
+N
+a
+a
+a
+f
+v
+a
+a
+a
+a
+a
+a
+"}
+(14,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+
+(1,1,2) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,2) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(3,1,2) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(4,1,2) = {"
+a
+a
+a
+a
+a
+a
+T
+a
+a
+a
+a
+a
+a
+a
+"}
+(5,1,2) = {"
+a
+a
+a
+a
+a
+T
+T
+T
+T
+a
+a
+a
+a
+a
+"}
+(6,1,2) = {"
+a
+a
+a
+a
+a
+T
+T
+T
+T
+T
+a
+a
+a
+a
+"}
+(7,1,2) = {"
+a
+a
+a
+a
+a
+T
+T
+T
+T
+T
+a
+a
+a
+a
+"}
+(8,1,2) = {"
+a
+a
+a
+a
+T
+T
+T
+T
+T
+T
+a
+a
+a
+a
+"}
+(9,1,2) = {"
+a
+a
+a
+a
+a
+T
+T
+T
+T
+T
+a
+a
+a
+a
+"}
+(10,1,2) = {"
+a
+a
+a
+a
+a
+T
+T
+T
+T
+T
+a
+a
+a
+a
+"}
+(11,1,2) = {"
+a
+a
+a
+a
+a
+a
+a
+T
+a
+a
+a
+a
+a
+a
+"}
+(12,1,2) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(13,1,2) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(14,1,2) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}

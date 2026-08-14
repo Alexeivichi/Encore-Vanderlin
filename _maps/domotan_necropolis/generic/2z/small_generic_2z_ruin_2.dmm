@@ -1,0 +1,859 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aG" = (
+/obj/effect/spawner/map_spawner/loot/medium,
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"aN" = (
+/obj/structure/rack/shelf/biggest,
+/obj/effect/spawner/map_spawner/loot/coin,
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"bR" = (
+/obj/structure/minecart_rail,
+/turf/open/floor/dirt,
+/area/template_noop)
+"dz" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/orcs/hard,
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"dH" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"dJ" = (
+/turf/open/floor/cobble/alt,
+/area/template_noop)
+"eb" = (
+/obj/item/reagent_containers/glass/bucket/wooden,
+/turf/open/floor/dirt,
+/area/template_noop)
+"fz" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/paper/scroll,
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"ge" = (
+/obj/item/flashlight/flare/torch,
+/turf/open/floor/dirt,
+/area/template_noop)
+"gG" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"iw" = (
+/obj/structure/fluff/railing/wood,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"iR" = (
+/obj/item/natural/rock/random,
+/turf/open/floor/dirt,
+/area/template_noop)
+"iT" = (
+/obj/effect/spawner/map_spawner/loot/medium,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"jb" = (
+/turf/open/floor/cobble,
+/area/template_noop)
+"jI" = (
+/obj/item/weapon/pick/copper,
+/turf/open/floor/dirt,
+/area/template_noop)
+"jP" = (
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"kU" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"lk" = (
+/obj/structure/chair/stool,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"mb" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/cobble/alt,
+/area/template_noop)
+"mk" = (
+/obj/structure/fluff/railing/wood{
+	pixel_y = 11;
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"mB" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"nq" = (
+/obj/item/natural/rock/random,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"nL" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"ov" = (
+/turf/closed/wall/mineral/stonebrick/reddish,
+/area/template_noop)
+"oA" = (
+/obj/structure/fluff/railing/wood,
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"pa" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/openspace,
+/area/template_noop)
+"pm" = (
+/obj/structure/minecart_rail,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"pz" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"qj" = (
+/obj/item/flashlight/flare/torch,
+/obj/structure/rack,
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"qF" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/effect/spawner/map_spawner/loot/medium,
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"qL" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/openspace,
+/area/template_noop)
+"ru" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"tF" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/weapon/hammer/copper,
+/turf/open/floor/dirt,
+/area/template_noop)
+"uX" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/openspace,
+/area/template_noop)
+"wZ" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"xm" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"yj" = (
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"yB" = (
+/obj/structure/chair/wood/alt,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"yI" = (
+/obj/machinery/light/fueled/campfire,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"yJ" = (
+/obj/item/reagent_containers/glass/bucket/pot,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"yM" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/orcs/hard,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"yX" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"zH" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"At" = (
+/obj/structure/fluff/railing/wood{
+	pixel_y = 11;
+	dir = 1
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"AN" = (
+/obj/item/clothing/head/helmet/leather/minershelm,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"BB" = (
+/obj/structure/minecart_rail,
+/obj/item/weapon/shovel,
+/turf/open/floor/dirt,
+/area/template_noop)
+"BQ" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/orcs,
+/turf/open/floor/dirt,
+/area/template_noop)
+"Cc" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/orcs,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"CB" = (
+/turf/template_noop,
+/area/template_noop)
+"Do" = (
+/obj/structure/fluff/railing/wood,
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"EM" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"EZ" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"Fo" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"Gl" = (
+/obj/structure/rack,
+/obj/effect/spawner/map_spawner/loot/coin,
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"Hb" = (
+/obj/effect/spawner/map_spawner/loot/armor,
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"Hv" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/orcs/hard,
+/turf/open/floor/cobble/alt,
+/area/template_noop)
+"Ic" = (
+/turf/open/openspace,
+/area/template_noop)
+"Im" = (
+/obj/item/weapon/pick/stone,
+/turf/open/floor/dirt,
+/area/template_noop)
+"IB" = (
+/obj/effect/decal/remains/human,
+/turf/open/floor/dirt,
+/area/template_noop)
+"Ji" = (
+/obj/structure/fluff/railing/wood,
+/turf/template_noop,
+/area/template_noop)
+"Js" = (
+/obj/item/book/random,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"KS" = (
+/obj/structure/handcart,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"Ld" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"Le" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/cobble/alt,
+/area/template_noop)
+"LY" = (
+/obj/structure/fluff/walldeco/vinez,
+/turf/closed/wall/mineral/stonebrick,
+/area/template_noop)
+"Ms" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"Mu" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood,
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/openspace,
+/area/template_noop)
+"ND" = (
+/obj/structure/door/weak,
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"NJ" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood{
+	pixel_y = 11;
+	dir = 1
+	},
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"Of" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/orcs,
+/turf/open/floor/cobble/alt,
+/area/template_noop)
+"Ou" = (
+/obj/structure/stairs/stone,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"OF" = (
+/obj/structure/fluff/railing/wood{
+	pixel_y = 11;
+	dir = 1
+	},
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"QN" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/orcs/hard,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"TE" = (
+/obj/item/weapon/pick/copper,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"TR" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/template_noop)
+"Uj" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/orcs/hard,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"Vd" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"Vg" = (
+/obj/structure/roguetent/preopen,
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"Vu" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"Vv" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"Xh" = (
+/obj/structure/fluff/railing/wood,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"Yd" = (
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"ZD" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood{
+	pixel_y = 11;
+	dir = 1
+	},
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"ZX" = (
+/obj/structure/fluff/walldeco/vinez,
+/turf/closed/wall/mineral/stonebrick/reddish,
+/area/template_noop)
+
+(1,1,1) = {"
+LY
+TR
+ZX
+ov
+wZ
+yj
+yj
+CB
+CB
+CB
+ZX
+ov
+TR
+TR
+"}
+(2,1,1) = {"
+TR
+aG
+Ou
+ov
+ov
+ov
+Vg
+Vg
+TR
+ov
+ov
+qj
+aN
+TR
+"}
+(3,1,1) = {"
+TR
+yB
+EM
+ND
+Hv
+ov
+yj
+nq
+TR
+Of
+ND
+Yd
+jP
+ov
+"}
+(4,1,1) = {"
+TR
+TR
+TR
+LY
+IB
+wZ
+gG
+wZ
+wZ
+wZ
+TR
+TR
+ZX
+ZX
+"}
+(5,1,1) = {"
+CB
+ZX
+jb
+wZ
+eb
+wZ
+yj
+yj
+jI
+iR
+wZ
+Le
+ov
+CB
+"}
+(6,1,1) = {"
+CB
+ov
+dJ
+BQ
+yj
+KS
+yj
+yJ
+IB
+wZ
+wZ
+mb
+ov
+CB
+"}
+(7,1,1) = {"
+yj
+ov
+ov
+dH
+yj
+TE
+AN
+yI
+yj
+wZ
+Im
+wZ
+TR
+yj
+"}
+(8,1,1) = {"
+yj
+Vg
+yj
+gG
+wZ
+bR
+bR
+pm
+pm
+pm
+gG
+yj
+Vg
+CB
+"}
+(9,1,1) = {"
+CB
+Vg
+wZ
+ge
+wZ
+yj
+wZ
+wZ
+yj
+yj
+Cc
+yj
+yj
+yj
+"}
+(10,1,1) = {"
+CB
+TR
+dJ
+iR
+IB
+pm
+bR
+BB
+bR
+bR
+wZ
+dJ
+ov
+CB
+"}
+(11,1,1) = {"
+TR
+TR
+ND
+LY
+wZ
+yj
+yj
+Cc
+yj
+wZ
+TR
+ND
+ZX
+ZX
+"}
+(12,1,1) = {"
+TR
+fz
+EM
+LY
+tF
+yM
+yj
+ov
+yj
+wZ
+TR
+Js
+Hb
+ZX
+"}
+(13,1,1) = {"
+TR
+Gl
+lk
+TR
+TR
+TR
+TR
+ov
+Vg
+yj
+ov
+Ms
+EM
+TR
+"}
+(14,1,1) = {"
+LY
+LY
+TR
+TR
+CB
+CB
+CB
+wZ
+wZ
+yj
+TR
+TR
+TR
+TR
+"}
+
+(1,1,2) = {"
+NJ
+Fo
+Ld
+oA
+CB
+CB
+CB
+CB
+CB
+Ji
+Ld
+pz
+yX
+oA
+"}
+(2,1,2) = {"
+At
+pa
+pa
+Ou
+Vu
+Vu
+pz
+pz
+Vu
+Vu
+Yd
+xm
+xm
+Do
+"}
+(3,1,2) = {"
+OF
+jP
+jP
+Yd
+kU
+nL
+nL
+Vd
+Vd
+Vd
+jP
+jP
+EZ
+zH
+"}
+(4,1,2) = {"
+ZD
+Uj
+Yd
+iw
+Ic
+Ic
+Ic
+Ic
+Ic
+uX
+qF
+jP
+jP
+zH
+"}
+(5,1,2) = {"
+Ji
+jP
+ru
+Ic
+Ic
+Ic
+Ic
+Ic
+Ic
+Ic
+uX
+jP
+zH
+CB
+"}
+(6,1,2) = {"
+Ji
+Yd
+ru
+Ic
+Ic
+Ic
+Ic
+Ic
+Ic
+Ic
+uX
+jP
+zH
+CB
+"}
+(7,1,2) = {"
+Ji
+Yd
+zH
+Ic
+Ic
+Ic
+Ic
+Ic
+Ic
+Ic
+uX
+jP
+zH
+CB
+"}
+(8,1,2) = {"
+Ji
+Yd
+zH
+Ic
+Ic
+Ic
+Ic
+Ic
+Ic
+Ic
+uX
+Yd
+ru
+CB
+"}
+(9,1,2) = {"
+Ji
+jP
+ru
+Ic
+Ic
+Ic
+Ic
+Ic
+Ic
+Ic
+uX
+Yd
+ru
+CB
+"}
+(10,1,2) = {"
+Ji
+jP
+ru
+Ic
+Ic
+Ic
+Ic
+Ic
+Ic
+Ic
+uX
+Vv
+ru
+CB
+"}
+(11,1,2) = {"
+NJ
+Vv
+Vv
+oA
+Ic
+Ic
+Ic
+Ic
+Ic
+uX
+Vu
+QN
+Yd
+zH
+"}
+(12,1,2) = {"
+mk
+dz
+Vv
+jP
+Ld
+Ld
+yX
+yX
+yX
+yX
+jP
+jP
+jP
+zH
+"}
+(13,1,2) = {"
+OF
+EZ
+iT
+jP
+kU
+Vd
+Vd
+nL
+nL
+kU
+mB
+qL
+Mu
+ru
+"}
+(14,1,2) = {"
+ZD
+kU
+kU
+iw
+CB
+CB
+CB
+CB
+CB
+Ji
+kU
+kU
+kU
+Xh
+"}
