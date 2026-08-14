@@ -61,7 +61,7 @@
 	shoes = /obj/item/clothing/shoes/boots
 	ring = /obj/item/clothing/ring/silver
 	belt = /obj/item/storage/belt/leather
-	beltl = /obj/item/storage/keyring/consort
+	beltl = /obj/item/key/consort
 	beltr = /obj/item/storage/belt/pouch/coins/rich
 
 /* ! ! ! CONSORT CLASSES ! ! !

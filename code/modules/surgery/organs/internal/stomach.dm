@@ -38,6 +38,57 @@
 	else if(damage >= low_threshold)
 		examine_list += span_notice("<b>[owner]</b> looks a little peaky.")
 
+	//We are checking if we have nutriment in a damaged stomach.
+	var/datum/reagent/nutri = locate(/datum/reagent/consumable/nutriment) in reagents.reagent_list
+	//No nutriment found lets exit out
+	if(!nutri)
+		return
+
+	//The stomach is damage has nutriment but low on theshhold, lo prob of vomit
+	if(prob(damage * 0.025 * nutri.volume * nutri.volume))
+		body.vomit(damage)
+		to_chat(body, "<span class='warning'>Your stomach reels in pain as you're incapable of holding down all that food!</span>")
+		return
+
+	// the change of vomit is now high
+	if(damage > high_threshold && prob(damage * 0.1 * nutri.volume * nutri.volume))
+		body.vomit(damage)
+		to_chat(body, "<span class='warning'>Your stomach reels in pain as you're incapable of holding down all that food!</span>")
+
+/obj/item/organ/stomach/proc/handle_disgust(mob/living/carbon/human/H)
+	if(H.disgust)
+		var/stutterprob = 5 + 0.05 * H.disgust
+		if(H.disgust >= DISGUST_LEVEL_GROSS)
+			if(prob(10))
+				H.stuttering += 1
+				H.adjust_confusion(4 SECONDS)
+			if(prob(10) && !H.stat)
+				to_chat(H, "<span class='warning'>I feel kind of iffy...</span>")
+			H.adjust_jitter(-6 SECONDS)
+		if(H.disgust >= DISGUST_LEVEL_VERYGROSS)
+			if(prob(stutterprob)) //this doesnt make you vomit anymore
+				H.adjust_confusion(5 SECONDS)
+				H.stuttering += 1
+			H.set_dizzy(10 SECONDS)
+		if(H.disgust >= DISGUST_LEVEL_DISGUSTED)
+			if(prob(25))
+				H.set_eye_blur_if_lower(6 SECONDS)
+
+		H.adjust_disgust(-0.5 * disgust_metabolism)
+	switch(H.disgust)
+		if(0 to DISGUST_LEVEL_GROSS)
+			H.clear_alert("disgust")
+			H.remove_stress(/datum/stress_event/disgust)
+		if(DISGUST_LEVEL_GROSS to DISGUST_LEVEL_VERYGROSS)
+			H.throw_alert("disgust", /atom/movable/screen/alert/gross)
+			H.add_stress(/datum/stress_event/gross)
+		if(DISGUST_LEVEL_VERYGROSS to DISGUST_LEVEL_DISGUSTED)
+			H.throw_alert("disgust", /atom/movable/screen/alert/verygross)
+			H.add_stress(/datum/stress_event/verygross)
+		if(DISGUST_LEVEL_DISGUSTED to INFINITY)
+			H.throw_alert("disgust", /atom/movable/screen/alert/disgusted)
+			H.add_stress(/datum/stress_event/disgusted)
+
 /obj/item/organ/stomach/Remove(mob/living/carbon/M, special = 0)
 	var/mob/living/carbon/human/H = owner
 	if(istype(H))

@@ -1,0 +1,5 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - rscdel: "Removed vomiting from smell mechanics."
+  - rscdel: "Removed spontaneous uncontrollable screaming from most selectable phobias."

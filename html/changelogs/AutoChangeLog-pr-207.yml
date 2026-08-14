@@ -1,0 +1,4 @@
+author: "Clem-The-Duck"
+delete-after: True
+changes:
+  - bugfix: "fixed GM Templar not being able to hold their weapons"

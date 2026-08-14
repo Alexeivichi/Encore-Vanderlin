@@ -1,38 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"ab" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-e"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-n"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/turf/open/floor/ruinedwood/turned,
-/area/indoors/tutorial)
-"ah" = (
-/obj/structure/bars/passage/shutter{
-	name = "False Heaven"
-	},
-/turf/open/floor/wood,
-/area/latejoin_area)
-"am" = (
-/obj/effect/decal/borderfall{
-	dir = 1
-	},
-/obj/structure/table/wood,
-/obj/item/paper,
-/obj/item/paper,
-/obj/item/paper,
-/obj/item/paper,
-/obj/item/natural/feather,
-/obj/item/natural/feather,
-/turf/open/floor/churchmarble/violet,
-/area/latejoin_area)
 "ap" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water,
@@ -91,18 +57,6 @@
 	},
 /turf/open/floor/twig,
 /area/indoors/shelter)
-"aA" = (
-/obj/structure/bars/passage{
-	density = 0;
-	icon_state = "passage1";
-	redstone_id = "tutorial_gates_north"
-	},
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
-"aH" = (
-/obj/machinery/light/fueled/torchholder/l,
-/turf/open/floor/grass/cold,
-/area/outdoors/woods/tutorial)
 "aJ" = (
 /obj/item/reagent_containers/food/snacks/saltfish{
 	icon_state = "carpdried"
@@ -124,22 +78,6 @@
 	},
 /turf/open/floor/twig,
 /area/indoors/shelter)
-"aK" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 8;
-	icon_state = "churchslate"
-	},
-/obj/structure/water_vent{
-	pixel_y = 5
-	},
-/obj/effect/decal/borderfall{
-	dir = 1
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
-"aL" = (
-/turf/open/water/clean,
-/area/latejoin_area)
 "aM" = (
 /obj/structure/fluff/railing/tall/palisade{
 	dir = 4
@@ -160,12 +98,6 @@
 "aV" = (
 /turf/closed/mineral,
 /area/under/cave)
-"aW" = (
-/obj/effect/decal/shadow_floor{
-	dir = 4
-	},
-/turf/open/floor/churchmarble/green,
-/area/latejoin_area)
 "aX" = (
 /obj/structure/fluff/railing/border,
 /turf/open/floor/twig/platform,
@@ -175,30 +107,9 @@
 /obj/structure/bed,
 /turf/open/floor/twig,
 /area/indoors/shelter)
-"aZ" = (
-/obj/structure/train/carriage/not_train/far_travel,
-/turf/open/floor/metal,
-/area/outdoors/woods/tutorial)
-"bd" = (
-/turf/open/floor/grass/cold,
-/area/outdoors/woods/tutorial)
 "be" = (
 /turf/open/floor/dirt,
 /area/under/cave)
-"bf" = (
-/obj/structure/door{
-	name = "Tutorial Castle"
-	},
-/turf/open/floor/ruinedwood/turned,
-/area/indoors/tutorial)
-"bi" = (
-/obj/structure/rack,
-/turf/open/floor/wood/nosmooth,
-/area/indoors/tutorial)
-"bl" = (
-/obj/structure/plough,
-/turf/open/floor/dirt/road,
-/area/outdoors/woods/tutorial)
 "bo" = (
 /obj/structure/rack/shelf/big{
 	pixel_y = 0
@@ -210,18 +121,6 @@
 /obj/item/weapon/shovel/small,
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
-"bs" = (
-/obj/structure/carpet/red,
-/obj/structure/table/vtable/v2,
-/obj/item/candle/yellow{
-	pixel_y = 6
-	},
-/obj/item/candle/yellow{
-	pixel_y = 6;
-	pixel_x = 8
-	},
-/turf/open/floor/wood,
-/area/latejoin_area)
 "bt" = (
 /turf/open/floor/concrete,
 /area/under/cave)
@@ -243,36 +142,16 @@
 /obj/item/fishingrod,
 /turf/open/floor/twig,
 /area/outdoors/beach)
-"bO" = (
-/obj/structure/stairs/stone,
-/obj/structure/fluff/railing/wood{
-	dir = 8
-	},
-/turf/open/floor/churchmarble,
-/area/latejoin_area)
 "bP" = (
 /obj/effect/landmark/quest_spawner/easy,
 /turf/open/floor/snow,
 /area/outdoors/woods/lakeside)
-"bQ" = (
-/obj/structure/stairs/stone,
-/obj/machinery/light/fueledstreet/blue/wall{
-	dir = 8
-	},
-/turf/open/floor/churchmarble,
-/area/latejoin_area)
 "bU" = (
 /turf/open/water/ocean/abyss,
 /area/outdoors/beach)
 "bX" = (
 /turf/closed/wall/mineral/stone/moss,
 /area/under/cave)
-"bZ" = (
-/obj/item/weapon/mace/spiked,
-/obj/structure/rack,
-/obj/item/weapon/flail,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/tutorial)
 "ca" = (
 /obj/item/cooking/pan,
 /turf/open/floor/concrete,
@@ -287,53 +166,6 @@
 	},
 /turf/open/floor/grass/cold,
 /area/outdoors/woods/etgard)
-"cf" = (
-/obj/machinery/light/fueled/torchholder/r,
-/turf/open/floor/wood/nosmooth,
-/area/indoors/tutorial)
-"cg" = (
-/obj/structure/rack/shelf/biggest,
-/obj/item/reagent_containers/glass/bottle{
-	layer = 7;
-	pixel_x = 8;
-	pixel_y = 20
-	},
-/obj/item/reagent_containers/glass/bottle{
-	layer = 6;
-	pixel_y = 20
-	},
-/obj/item/reagent_containers/glass/bottle{
-	layer = 5;
-	pixel_x = -8;
-	pixel_y = 20
-	},
-/obj/item/reagent_containers/glass/bottle{
-	layer = 5;
-	pixel_x = -8
-	},
-/obj/item/reagent_containers/glass/bottle{
-	layer = 6
-	},
-/obj/item/reagent_containers/glass/bottle{
-	layer = 7;
-	pixel_x = 8
-	},
-/obj/item/reagent_containers/glass/bottle{
-	layer = 6;
-	pixel_y = 10
-	},
-/obj/item/reagent_containers/glass/bottle{
-	layer = 5;
-	pixel_x = -8;
-	pixel_y = 10
-	},
-/obj/item/reagent_containers/glass/bottle{
-	layer = 7;
-	pixel_x = 8;
-	pixel_y = 10
-	},
-/turf/open/floor/blocks,
-/area/outdoors/woods/tutorial)
 "cj" = (
 /turf/open/floor/twig/platform,
 /area/outdoors/beach)
@@ -351,52 +183,21 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/outdoors/beach)
-"cu" = (
-/obj/structure/chair/stool,
-/turf/open/floor/churchrough,
-/area/latejoin_area)
 "cz" = (
 /obj/structure/door/weak/bolt,
 /turf/open/floor/cobble/mossy,
 /area/indoors/shelter)
-"cN" = (
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/obj/item/bin,
-/turf/open/floor/churchmarble,
-/area/latejoin_area)
-"cT" = (
-/obj/structure/fluff/psycross/hugecrystal{
-	pixel_y = -16
-	},
-/turf/open/floor/metal,
-/area/latejoin_area)
 "cV" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
-"cZ" = (
-/obj/structure/flora/grass,
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
 "db" = (
 /obj/structure/closet/dirthole/grave,
 /turf/open/floor/dirt,
 /area/outdoors/town)
-"df" = (
-/obj/structure/fluff/railing/tall/stone,
-/turf/open/floor/metal,
-/area/latejoin_area)
 "dg" = (
 /turf/open/floor/twig,
 /area/under/cavewet)
-"di" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
 "dl" = (
 /obj/structure/table/wood{
 	icon_state = "longtable"
@@ -465,21 +266,10 @@
 /obj/item/grown/log/tree/small,
 /turf/open/floor/cobble/mossy,
 /area/indoors/shelter)
-"dV" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/turf/open/floor/cobble/mossy,
-/area/outdoors/woods/tutorial)
 "dX" = (
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/twig,
 /area/indoors/shelter)
-"ec" = (
-/obj/machinery/light/fueled/torchholder/r,
-/turf/open/floor/dirt,
-/area/outdoors/woods/tutorial)
 "ee" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/stairs{
@@ -493,38 +283,12 @@
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/town)
-"ej" = (
-/obj/structure/flora/grass/water,
-/turf/open/water/ocean/abyss,
-/area/outdoors/woods/tutorial)
-"en" = (
-/obj/structure/lever/wall{
-	dir = 8;
-	pixel_x = -2;
-	redstone_id = "tutorial_gates_south"
-	},
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "es" = (
 /obj/structure/table/wood{
 	icon_state = "tablewood1"
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/indoors)
-"et" = (
-/obj/structure/composter/halffull,
-/turf/open/floor/dirt,
-/area/outdoors/woods/tutorial)
-"ew" = (
-/turf/open/water/ocean/abyss,
-/area/outdoors/woods/tutorial)
-"ey" = (
-/turf/open/floor/metal,
-/area/latejoin_area)
-"eC" = (
-/obj/structure/flora/ausbushes/brflowers,
-/turf/open/floor/grass/healthy,
-/area/latejoin_area)
 "eG" = (
 /obj/structure/table/wood{
 	icon_state = "longtable";
@@ -533,46 +297,12 @@
 /obj/item/weapon/hammer,
 /turf/open/floor/twig,
 /area/indoors/shelter)
-"eH" = (
-/obj/structure/fluff/railing/tall/stone{
-	dir = 9
-	},
-/turf/open/floor/metal,
-/area/latejoin_area)
-"eI" = (
-/obj/structure/rack,
-/obj/item/weapon/pitchfork{
-	pixel_x = -6
-	},
-/obj/item/weapon/pitchfork{
-	pixel_x = 7
-	},
-/obj/item/weapon/pitchfork,
-/obj/item/weapon/pitchfork{
-	pixel_x = 15
-	},
-/obj/item/weapon/sickle,
-/obj/item/weapon/sickle{
-	pixel_x = 10
-	},
-/obj/item/weapon/thresher,
-/obj/item/weapon/thresher{
-	pixel_x = -6
-	},
-/turf/open/floor/dirt/road,
-/area/outdoors/woods/tutorial)
 "eO" = (
 /obj/machinery/light/fueled/lanternpost/fixed{
 	pixel_x = -2
 	},
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
-"eR" = (
-/obj/machinery/light/fueledstreet/blue/wall{
-	dir = 8
-	},
-/turf/open/floor/grass/healthy,
-/area/latejoin_area)
 "eS" = (
 /obj/structure/closet/crate/chest/wicker,
 /turf/open/floor/snow,
@@ -591,53 +321,6 @@
 /obj/item/reagent_containers/food/snacks/crow,
 /turf/open/floor/sand,
 /area/outdoors/beach)
-"fd" = (
-/obj/structure/fluff/railing/border{
-	icon_state = "border";
-	dir = 10
-	},
-/turf/open/floor/churchmarble/green,
-/area/latejoin_area)
-"fl" = (
-/obj/structure/chair/bench/couch/corner/lord_primary,
-/turf/open/floor/wood,
-/area/latejoin_area)
-"fp" = (
-/obj/item/reagent_containers/glass/bowl{
-	pixel_x = -8
-	},
-/obj/item/reagent_containers/glass/bowl{
-	pixel_x = 6;
-	pixel_y = -6
-	},
-/obj/item/candle/yellow{
-	pixel_x = -10;
-	pixel_y = -13
-	},
-/obj/item/candle/yellow{
-	pixel_x = -4;
-	pixel_y = -13
-	},
-/obj/item/candle/yellow{
-	pixel_x = 1;
-	pixel_y = -13
-	},
-/obj/structure/table/wood{
-	dir = 8;
-	icon_state = "largetable"
-	},
-/obj/machinery/light/fueled/torchholder/r,
-/turf/open/floor/dirt,
-/area/outdoors/woods/tutorial)
-"fB" = (
-/obj/item/weapon/pick/stone,
-/turf/open/floor/dirt,
-/area/indoors/tutorial)
-"fC" = (
-/obj/effect/decal/shadow_floor,
-/obj/structure/fluff/walldeco/church/line,
-/turf/open/floor/church/purple,
-/area/latejoin_area)
 "fD" = (
 /obj/effect/landmark/quest_spawner/easy,
 /turf/open/floor/grass/cold,
@@ -646,10 +329,6 @@
 /obj/item/natural/rock/salt,
 /turf/open/floor/naturalstone,
 /area/under/cave)
-"fG" = (
-/obj/machinery/light/fueledstreet/blue/wall,
-/turf/open/floor/wood,
-/area/latejoin_area)
 "fI" = (
 /obj/structure/stairs/stone{
 	dir = 1;
@@ -660,35 +339,12 @@
 	},
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
-"fM" = (
-/obj/structure/fluff/railing/wood,
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
 "fT" = (
 /turf/closed/wall/mineral/wooddark,
 /area/outdoors/town)
-"fV" = (
-/turf/open/floor/dirt,
-/area/outdoors/woods/tutorial)
-"fW" = (
-/mob/living/simple_animal/hostile/retaliate/cow,
-/turf/open/floor/grass/cold,
-/area/outdoors/woods/tutorial)
 "fX" = (
 /turf/closed/wall/mineral/stone,
 /area/indoors/shelter)
-"fZ" = (
-/obj/structure/flora/grass/water,
-/turf/open/water/clean,
-/area/latejoin_area)
-"gb" = (
-/obj/machinery/light/fueled/torchholder/c,
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/turf/open/floor/cobble/mossy,
-/area/outdoors/woods/tutorial)
 "gd" = (
 /obj/structure/fluff/railing/border{
 	dir = 1;
@@ -699,16 +355,6 @@
 	},
 /turf/open/floor/twig/platform,
 /area/outdoors/beach)
-"ge" = (
-/obj/item/clothing/gloves/chain/iron,
-/obj/item/flashlight/flare/torch/lantern,
-/obj/item/clothing/neck/gorget,
-/obj/item/clothing/neck/chaincoif/iron,
-/obj/item/clothing/head/helmet/bascinet,
-/obj/item/clothing/head/helmet/kettle,
-/obj/item/clothing/head/helmet,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "gi" = (
 /turf/closed/wall/mineral/stone/moss,
 /area/outdoors/woods/etgard)
@@ -717,11 +363,6 @@
 /obj/structure/bed,
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
-"gm" = (
-/obj/structure/closet/crate/chest/old_crate,
-/obj/item/rope,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "go" = (
 /obj/structure/flora/ausbushes/genericbush,
 /turf/open/floor/snow,
@@ -729,25 +370,10 @@
 "gp" = (
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
-"gz" = (
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/obj/structure/dye_bin/luxury,
-/turf/open/floor/churchmarble/green,
-/area/latejoin_area)
-"gD" = (
-/obj/structure/closet/crate/chest/neu,
-/obj/item/ingot/steel,
-/obj/item/ingot/steel,
-/obj/item/ingot/steel,
-/obj/item/ingot/steel,
-/obj/item/ingot/iron,
-/obj/item/ingot/iron,
-/obj/item/ingot/iron,
-/obj/item/ingot/iron,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
+"gx" = (
+/obj/structure/closet/dirthole/closed/loot,
+/turf/open/floor/dirt,
+/area/outdoors/town)
 "gH" = (
 /turf/closed/mineral/random/med,
 /area/under/cavewet)
@@ -767,15 +393,6 @@
 	},
 /turf/open/floor/grass/cold,
 /area/outdoors/woods/etgard)
-"hj" = (
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
-"hm" = (
-/turf/open/floor/churchmarble,
-/area/latejoin_area)
 "hs" = (
 /obj/structure/fluff/railing/tall/palisade{
 	dir = 8
@@ -786,48 +403,12 @@
 /obj/item/reagent_containers/powder/salt,
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
-"hB" = (
-/obj/structure/water_pipe,
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
 "hE" = (
 /obj/structure/stairs{
 	dir = 4
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/woods/etgard)
-"hH" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
-/obj/structure/fluff/walldeco/bath/wallpipes/innie{
-	dir = 8
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
-"hK" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
-/obj/structure/fluff/walldeco/bath/wallpipes/innie{
-	dir = 8
-	},
-/obj/effect/decal/borderfall{
-	dir = 1
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
-"hL" = (
-/obj/machinery/light/fueledstreet/blue/wall,
-/obj/structure/fluff/traveltile{
-	aallmig = "arrivals";
-	aportalgoesto = "arrivals_out";
-	aportalid = "spawn_deadend_2";
-	name = "To Old Doma";
-	dir = 1
-	},
-/turf/open/floor/metal/alt,
-/area/latejoin_area)
 "hN" = (
 /obj/structure/fluff/railing/wood,
 /obj/structure/stairs{
@@ -835,12 +416,6 @@
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/beach)
-"hU" = (
-/obj/structure/train/carriage/not_train/far_travel{
-	dir = 1
-	},
-/turf/open/floor/metal,
-/area/indoors/tutorial)
 "hV" = (
 /obj/structure/fluff/railing/tall{
 	dir = 4
@@ -856,58 +431,25 @@
 /obj/item/natural/stone,
 /turf/open/floor/naturalstone,
 /area/outdoors/woods/lakeside)
-"ib" = (
-/obj/structure/handcart{
-	dir = 8
-	},
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
 "ie" = (
 /obj/structure/closet/crate/chest/neu,
 /obj/item/ingot/iron,
 /obj/item/ingot/iron,
 /turf/open/floor/twig,
 /area/indoors/shelter)
-"in" = (
-/obj/structure/fluff/railing/wood,
-/obj/machinery/light/fueledstreet/blue/wall,
-/turf/open/floor/wood,
-/area/latejoin_area)
-"iq" = (
-/obj/structure/fluff/traveltile{
-	aportalid = "tutorial_out";
-	name = "to Tutorial Island";
-	desc = "You can not go back to the real world! Use a main menu portal to respawn from this point onward.";
-	aportalgoesto = "no_escape"
-	},
-/turf/open/floor/wood/nosmooth,
-/area/indoors/tutorial)
 "iv" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/lakeside)
-"iz" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-n"
-	},
-/turf/open/floor/cobble/mossy,
-/area/outdoors/woods/tutorial)
 "iC" = (
 /obj/effect/landmark/quest_spawner/easy,
 /turf/open/floor/naturalstone,
 /area/outdoors/woods/etgard)
-"iD" = (
-/obj/structure/fluff/railing/wood,
-/turf/open/water/ocean,
-/area/outdoors/woods/tutorial)
 "iF" = (
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town)
 "iL" = (
 /turf/open/floor/twig,
 /area/outdoors/beach)
-"iQ" = (
-/turf/closed/mineral/bedrock,
-/area/indoors/tutorial)
 "iR" = (
 /turf/closed/mineral/coal,
 /area/under/cave)
@@ -919,21 +461,6 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/grass/cold,
 /area/outdoors/woods/etgard)
-"iZ" = (
-/obj/structure/fluff/signage{
-	name = "To Old Doma";
-	pixel_y = 34;
-	pixel_x = 20;
-	density = 0;
-	desc = "This leads to Old Doma, the primary and most populated settlement on Domotan Island. It is probably safe here.";
-	dir = 1
-	},
-/obj/effect/decal/shadow_floor{
-	dir = 10
-	},
-/obj/structure/fluff/walldeco/church/line,
-/turf/open/floor/church/purple,
-/area/latejoin_area)
 "ja" = (
 /obj/structure/fluff/signage{
 	name = "WEEPING WOOD - WEST";
@@ -1017,12 +544,6 @@
 	},
 /turf/open/floor/sand,
 /area/outdoors/beach)
-"jV" = (
-/obj/structure/door{
-	name = "Tutorial Castle"
-	},
-/turf/open/floor/cobble,
-/area/indoors/tutorial)
 "jW" = (
 /turf/open/floor/grass/cold,
 /area/outdoors/woods/etgard)
@@ -1032,18 +553,6 @@
 "jY" = (
 /turf/closed/wall/mineral/tent,
 /area/under/cavewet)
-"jZ" = (
-/obj/structure/lever/wall{
-	dir = 8;
-	pixel_x = -2;
-	redstone_id = "tutorial_gates_north"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-e"
-	},
-/turf/open/floor/dirt,
-/area/outdoors/woods/tutorial)
 "kb" = (
 /obj/structure/flora/grass/bush_meagre,
 /obj/structure/fluff/walldeco/church/line{
@@ -1051,11 +560,6 @@
 	},
 /turf/open/floor/dirt,
 /area/indoors/town/church)
-"kf" = (
-/obj/effect/mapping_helpers/structure/grave_spawner/t2/angros,
-/obj/structure/closet/dirthole/closed,
-/turf/open/floor/dirt,
-/area/outdoors/town)
 "kh" = (
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "z1-northeast1-out";
@@ -1076,27 +580,6 @@
 	},
 /turf/open/floor/naturalstone,
 /area/outdoors/woods/lakeside)
-"ku" = (
-/obj/machinery/light/fueled/torchholder/l,
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
-"kz" = (
-/obj/effect/decal/borderfall{
-	dir = 1
-	},
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
-"kC" = (
-/obj/structure/closet/crate/chest/wicker,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
-"kD" = (
-/obj/structure/fluff/railing/wood,
-/turf/open/floor/wood/nosmooth,
-/area/outdoors/woods/tutorial)
 "kI" = (
 /mob/living/simple_animal/hostile/retaliate/bigrat,
 /turf/open/floor/naturalstone,
@@ -1105,22 +588,9 @@
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/etgard)
-"kM" = (
-/obj/structure/chair/bench/couch/left/lord_primary{
-	dir = 4
-	},
-/obj/structure/fluff/walldeco/painting/crown{
-	pixel_x = -32
-	},
-/turf/open/floor/wood,
-/area/latejoin_area)
 "kN" = (
 /turf/open/floor/cobble/mossy,
 /area/outdoors/woods/lakeside)
-"kO" = (
-/obj/structure/flora/grass/swampweed,
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
 "lc" = (
 /obj/structure/table/wood{
 	icon_state = "tablewood1"
@@ -1145,29 +615,9 @@
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean/abyss,
 /area/outdoors/beach)
-"lx" = (
-/mob/living/simple_animal/hostile/retaliate/chicken,
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
-"lz" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 8
-	},
-/obj/structure/fluff/walldeco/bath/wallpipes/innie{
-	pixel_y = 3
-	},
-/obj/structure/fluff/walldeco/bath/wallpipes/innie{
-	pixel_y = 20
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
 "lA" = (
 /turf/closed/wall/mineral/wood,
 /area/indoors)
-"lB" = (
-/obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean,
-/area/outdoors/woods/tutorial)
 "lG" = (
 /obj/structure/fluff/railing/tall/retaining{
 	dir = 1
@@ -1184,10 +634,6 @@
 /obj/item/fishingrod,
 /turf/open/floor/twig,
 /area/outdoors/beach)
-"lM" = (
-/obj/structure/fluff/railing/border,
-/turf/open/floor/cobble,
-/area/indoors/tutorial)
 "lS" = (
 /obj/structure/fluff/psycross,
 /turf/open/floor/dirt/road,
@@ -1196,19 +642,6 @@
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
-"lY" = (
-/obj/machinery/light/fueled/torchholder/l,
-/turf/open/floor/blocks/green,
-/area/outdoors/woods/tutorial)
-"mi" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
-/obj/machinery/light/fueledstreet/blue/wall{
-	dir = 8
-	},
-/turf/open/floor/churchmarble/violet,
-/area/latejoin_area)
 "mn" = (
 /turf/open/water/marsh,
 /area/under/cavewet)
@@ -1222,27 +655,10 @@
 	},
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
-"mv" = (
-/obj/structure/fluff/signage{
-	name = "To Wey Whisperen";
-	pixel_y = 34;
-	pixel_x = -21;
-	density = 0;
-	desc = "This leads to a wilderness entrypoint near the abandoned village of Wey Whisperen, on the southern coast of Domotan Island."
-	},
-/obj/effect/decal/shadow_floor{
-	dir = 6
-	},
-/obj/structure/fluff/walldeco/church/line,
-/turf/open/floor/sand/desert,
-/area/latejoin_area)
 "mB" = (
 /obj/structure/flora/grass/water,
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/etgard)
-"mG" = (
-/turf/open/floor/wood/nosmooth,
-/area/indoors/tutorial)
 "mH" = (
 /obj/item/natural/rock,
 /turf/open/floor/grass/yel,
@@ -1253,34 +669,6 @@
 	},
 /turf/open/floor/cobble/mossy,
 /area/indoors/shelter)
-"mL" = (
-/obj/item/needle/thorn,
-/obj/item/needle/thorn{
-	pixel_x = 6
-	},
-/obj/item/natural/cloth,
-/obj/item/natural/cloth{
-	pixel_x = 7
-	},
-/obj/item/natural/cloth{
-	pixel_x = -6
-	},
-/obj/item/natural/cloth{
-	pixel_x = 7
-	},
-/obj/item/natural/cloth{
-	pixel_x = 7
-	},
-/obj/item/needle/thorn{
-	pixel_x = 6
-	},
-/obj/item/needle/thorn,
-/obj/structure/table/wood{
-	icon_state = "largetable";
-	dir = 10
-	},
-/turf/open/floor/dirt,
-/area/outdoors/woods/tutorial)
 "mN" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -1290,51 +678,14 @@
 "mY" = (
 /turf/open/water/marsh,
 /area/outdoors/woods/etgard)
-"nh" = (
-/turf/open/floor/blocks/stonered,
-/area/outdoors/woods/tutorial)
 "nj" = (
 /obj/structure/flora/grass/water,
 /turf/open/water/ocean,
 /area/outdoors/woods/etgard)
-"no" = (
-/obj/structure/handcart{
-	dir = 4
-	},
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
-"np" = (
-/obj/structure/flora/grass,
-/turf/open/floor/grass/healthy,
-/area/latejoin_area)
 "nt" = (
 /obj/structure/fluff/railing/tall/palisade,
 /turf/open/floor/grass/cold,
 /area/outdoors/woods/etgard)
-"nA" = (
-/obj/machinery/light/fueled/torchholder/r,
-/obj/structure/fluff/millstone,
-/turf/open/floor/ruinedwood/turned,
-/area/indoors/tutorial)
-"nF" = (
-/obj/structure/flora/newtree,
-/turf/open/floor/grass/healthy,
-/area/latejoin_area)
-"nM" = (
-/obj/item/clothing/cloak/apron/cook{
-	name = "barber's apron"
-	},
-/obj/item/clothing/cloak/apron/cook{
-	name = "barber's apron"
-	},
-/obj/item/clothing/cloak/apron/cook{
-	name = "barber's apron"
-	},
-/obj/item/clothing/cloak/apron/cook{
-	name = "barber's apron"
-	},
-/turf/open/floor/blocks/green,
-/area/outdoors/woods/tutorial)
 "nS" = (
 /obj/structure/chair/stool,
 /turf/open/floor/ruinedwood,
@@ -1353,24 +704,6 @@
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/etgard)
-"nY" = (
-/obj/item/weapon/shovel,
-/obj/item/weapon/shovel,
-/obj/item/weapon/shovel{
-	pixel_x = -6
-	},
-/obj/item/weapon/shovel{
-	pixel_x = 5
-	},
-/obj/item/weapon/shovel/small,
-/obj/item/weapon/shovel/small{
-	pixel_x = 6
-	},
-/obj/item/weapon/shovel/small{
-	pixel_x = -7
-	},
-/turf/open/floor/dirt/road,
-/area/outdoors/woods/tutorial)
 "nZ" = (
 /obj/item/bait/sweet,
 /obj/item/bait/sweet,
@@ -1382,18 +715,10 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town)
-"ob" = (
-/obj/item/weapon/mace/goden/steel,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "oc" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/ruinedwood,
 /area/outdoors/woods/etgard)
-"oh" = (
-/obj/item/natural/rock,
-/turf/open/floor/grass/cold,
-/area/outdoors/woods/tutorial)
 "oj" = (
 /obj/effect/landmark/map_load_mark/generic_tile,
 /turf/open/floor/snow,
@@ -1425,12 +750,6 @@
 "ou" = (
 /turf/closed/wall/mineral/decowood,
 /area/under/cave)
-"ov" = (
-/obj/effect/decal/shadow_floor{
-	dir = 8
-	},
-/turf/open/floor/churchmarble,
-/area/latejoin_area)
 "oz" = (
 /turf/closed/wall/mineral/wooddark,
 /area/indoors/town)
@@ -1455,15 +774,6 @@
 "oL" = (
 /turf/open/floor/dirt,
 /area/outdoors/town)
-"oO" = (
-/obj/machinery/light/fueledstreet/blue/wall{
-	dir = 8
-	},
-/obj/effect/decal/shadow_floor{
-	dir = 8
-	},
-/turf/open/floor/churchmarble,
-/area/latejoin_area)
 "oP" = (
 /obj/structure/table/wood{
 	icon_state = "longtable"
@@ -1492,30 +802,6 @@
 "oV" = (
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
-"pa" = (
-/obj/structure/fluff/walldeco/bath/wallpipes/innie{
-	pixel_y = 3
-	},
-/obj/structure/fluff/walldeco/bath/wallpipes/innie{
-	pixel_y = 20
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
-"pf" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 8
-	},
-/turf/open/floor/churchrough,
-/area/latejoin_area)
-"pg" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-n"
-	},
-/obj/structure/fluff/walldeco/customflag/regent{
-	pixel_y = 27
-	},
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
 "pi" = (
 /obj/structure/fluff/traveltile{
 	aallmig = "z1-northsouth4";
@@ -1531,34 +817,12 @@
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/twig/platform,
 /area/under/cave)
-"pn" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-n"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/turf/open/floor/cobble/mossy,
-/area/outdoors/woods/tutorial)
 "po" = (
 /obj/structure/fluff/signage{
 	name = "CROSSROADS - SOUTH"
 	},
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
-"pu" = (
-/turf/open/water/ocean,
-/area/outdoors/woods/tutorial)
-"pv" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 8
-	},
-/obj/machinery/light/fueledstreet/blue/wall{
-	dir = 4
-	},
-/turf/open/floor/churchmarble/violet,
-/area/latejoin_area)
 "pE" = (
 /turf/open/floor/cobble/mossy,
 /area/under/cave)
@@ -1577,22 +841,10 @@
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/etgard)
-"pP" = (
-/turf/open/floor/churchrough/rust,
-/area/latejoin_area)
 "pS" = (
 /obj/structure/closet/crate/chest/crate,
 /turf/open/floor/naturalstone,
 /area/under/cave)
-"pV" = (
-/obj/machinery/light/fueledstreet/blue/wall{
-	dir = 4
-	},
-/obj/structure/fluff/walldeco/church/line{
-	dir = 8
-	},
-/turf/open/floor/churchrough/green,
-/area/latejoin_area)
 "pY" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/cobble/mossy,
@@ -1612,12 +864,6 @@
 /obj/machinery/light/fueled/firebowl/stump,
 /turf/open/floor/grass/cold,
 /area/outdoors/woods/etgard)
-"qj" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 8
-	},
-/turf/open/floor/churchmarble/violet,
-/area/latejoin_area)
 "qm" = (
 /obj/structure/chair/stool,
 /turf/open/floor/cobble,
@@ -1632,27 +878,6 @@
 /obj/structure/bars/cemetery,
 /turf/open/floor/snow,
 /area/outdoors/town)
-"qC" = (
-/obj/structure/fluff/signage{
-	name = "To the Weeping Wood";
-	pixel_y = 34;
-	pixel_x = -21;
-	density = 0;
-	desc = "This leads to a wilderness entrypoint on the dock of the Weeping Wood lighthouse on the western region of Domotan Island. It will not be a safe journey to Old Doma from here."
-	},
-/obj/effect/decal/shadow_floor{
-	dir = 6
-	},
-/obj/structure/fluff/walldeco/church/line,
-/turf/open/floor/grass/healthy,
-/area/latejoin_area)
-"qI" = (
-/obj/structure/fluff/walldeco/bath/wallpipes/innie{
-	dir = 10;
-	pixel_y = 3
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
 "qN" = (
 /turf/open/floor/sand,
 /area/outdoors/beach)
@@ -1725,30 +950,10 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town)
-"rb" = (
-/obj/structure/flora/grass/water,
-/turf/open/water/ocean,
-/area/outdoors/woods/tutorial)
 "re" = (
 /obj/machinery/light/fueled/firebowl/standing,
 /turf/open/floor/grass/yel,
 /area/outdoors/town)
-"ri" = (
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/turf/open/floor/cobble,
-/area/indoors/tutorial)
-"rp" = (
-/obj/effect/landmark/latejoin,
-/obj/effect/landmark/start/late{
-	dir = 1
-	},
-/obj/effect/landmark/start/adventurer{
-	dir = 1
-	},
-/turf/open/floor/metal/barograte,
-/area/latejoin_area)
 "rs" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/beach)
@@ -1768,11 +973,6 @@
 /obj/effect/landmark/map_load_mark/generic_tile,
 /turf/open/floor/naturalstone,
 /area/outdoors/woods/etgard)
-"rL" = (
-/obj/structure/fluff/railing/tall/stone,
-/obj/structure/fluff/steamvent,
-/turf/open/floor/metal,
-/area/latejoin_area)
 "rS" = (
 /obj/structure/rack/shelf/big{
 	pixel_y = 10
@@ -1787,27 +987,6 @@
 /obj/item/natural/stone,
 /turf/open/floor/naturalstone,
 /area/under/cave)
-"sc" = (
-/obj/structure/table/wood{
-	icon_state = "largetable";
-	dir = 6
-	},
-/obj/item/reagent_containers/glass/mortar,
-/obj/item/reagent_containers/glass/mortar,
-/obj/item/pestle,
-/obj/item/pestle,
-/turf/open/floor/blocks/green,
-/area/outdoors/woods/tutorial)
-"sd" = (
-/obj/structure/fluff/railing/border{
-	icon_state = "border";
-	dir = 6
-	},
-/obj/effect/decal/shadow_floor{
-	dir = 4
-	},
-/turf/open/floor/churchmarble,
-/area/latejoin_area)
 "sg" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/clean,
@@ -1822,16 +1001,6 @@
 /obj/structure/fluff/railing/border,
 /turf/open/floor/twig,
 /area/outdoors/beach)
-"ss" = (
-/obj/item/reagent_containers/glass/bucket/wooden{
-	pixel_x = -6;
-	pixel_y = 15
-	},
-/turf/open/floor/cobble/mossy,
-/area/outdoors/woods/tutorial)
-"sv" = (
-/turf/open/floor/blocks/green,
-/area/outdoors/woods/tutorial)
 "sw" = (
 /obj/machinery/light/fueled/firebowl/standing,
 /turf/open/floor/dirt/road,
@@ -1844,45 +1013,14 @@
 /obj/structure/chair/stool,
 /turf/open/floor/twig/platform,
 /area/outdoors/beach)
-"sK" = (
-/obj/structure/closet/crate/chest/old_crate,
-/obj/item/fishingrod,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "sQ" = (
 /obj/structure/bed,
 /turf/open/floor/twig,
 /area/indoors/shelter)
-"sR" = (
-/obj/structure/fluff/traveltile{
-	aportalid = "spawn_deadend_3";
-	name = "To Wey Whisperen";
-	aportalgoesto = "south_arrivals_out";
-	dir = 1
-	},
-/obj/structure/fluff/walldeco/sparrowflag{
-	pixel_y = 32
-	},
-/turf/open/floor/metal/alt,
-/area/latejoin_area)
 "sV" = (
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/lakeside)
-"sX" = (
-/obj/item/reagent_containers/glass/bucket/wooden{
-	pixel_x = -6;
-	pixel_y = 15
-	},
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
-"sY" = (
-/obj/effect/decal/shadow_floor{
-	dir = 8
-	},
-/obj/structure/dye_bin,
-/turf/open/floor/churchmarble,
-/area/latejoin_area)
 "ta" = (
 /obj/structure/roguetent,
 /turf/open/floor/naturalstone,
@@ -1901,12 +1039,6 @@
 /obj/structure/bars/cemetery,
 /turf/open/water/ocean/abyss,
 /area/under/cave)
-"ts" = (
-/obj/structure/fluff/railing/border{
-	dir = 9
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
 "tu" = (
 /turf/open/floor/dirt,
 /area/indoors/shelter)
@@ -1953,10 +1085,6 @@
 	},
 /turf/closed/mineral,
 /area/under/town/basement)
-"uc" = (
-/obj/structure/bars,
-/turf/open/floor/metal/alt,
-/area/latejoin_area)
 "ug" = (
 /obj/effect/landmark/map_load_mark/generic_tile,
 /turf/open/floor/snow,
@@ -1985,27 +1113,10 @@
 	},
 /turf/open/floor/twig,
 /area/indoors/shelter)
-"uO" = (
-/obj/machinery/light/fueledstreet/blue/wall,
-/obj/structure/fluff/walldeco/bath/wallpipes/innie{
-	dir = 10
-	},
-/obj/structure/fluff/traveltile{
-	aportalid = "spawn_deadend_3";
-	name = "To Wey Whisperen";
-	aportalgoesto = "south_arrivals_out";
-	dir = 1
-	},
-/turf/open/floor/metal/alt,
-/area/latejoin_area)
 "uS" = (
 /obj/structure/flora/grass/pyroclasticflowers,
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/etgard)
-"uV" = (
-/obj/structure/flora/ausbushes/ppflowers,
-/turf/open/floor/grass/healthy,
-/area/latejoin_area)
 "uX" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/cobblerock,
@@ -2077,21 +1188,6 @@
 	},
 /turf/open/floor/dirt,
 /area/under/cave)
-"vJ" = (
-/obj/structure/fluff/railing/tall/stone{
-	dir = 8
-	},
-/turf/open/floor/metal,
-/area/latejoin_area)
-"vL" = (
-/turf/open/floor/dirt,
-/area/indoors/tutorial)
-"vM" = (
-/obj/structure/fluff/railing/tall/stone{
-	dir = 10
-	},
-/turf/open/floor/metal,
-/area/latejoin_area)
 "vW" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass/cold,
@@ -2105,19 +1201,6 @@
 	},
 /turf/open/floor/church,
 /area/indoors/town/church)
-"wa" = (
-/obj/structure/table/wood{
-	dir = 1;
-	icon_state = "longtable"
-	},
-/obj/item/bait/sweet,
-/obj/item/bait/sweet,
-/obj/item/bait/sweet,
-/obj/item/bait/sweet,
-/obj/item/bait/sweet,
-/obj/machinery/light/fueled/torchholder/c,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "wg" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -2149,10 +1232,6 @@
 /obj/item/natural/rock/salt,
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
-"wx" = (
-/obj/item/weapon/hammer,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "wB" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/naturalstone,
@@ -2161,9 +1240,6 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/etgard)
-"wF" = (
-/turf/closed/mineral/random/med,
-/area/indoors/tutorial)
 "wG" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean/abyss,
@@ -2171,26 +1247,6 @@
 "wV" = (
 /turf/closed/wall/mineral/stone,
 /area/under/cave)
-"wY" = (
-/obj/structure/carpet/red,
-/turf/open/floor/wood,
-/area/latejoin_area)
-"xa" = (
-/obj/structure/door/violet{
-	name = "Stargazing"
-	},
-/turf/open/floor/wood,
-/area/latejoin_area)
-"xj" = (
-/obj/structure/window/openclose,
-/turf/open/floor/wood/nosmooth,
-/area/indoors/tutorial)
-"xk" = (
-/obj/structure/fluff/railing/tall/stone{
-	dir = 5
-	},
-/turf/open/floor/metal,
-/area/latejoin_area)
 "xl" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -2220,51 +1276,11 @@
 	},
 /turf/open/floor/cobble/mossy,
 /area/indoors/shelter)
-"xB" = (
-/obj/structure/fluff/walldeco/bath/wallpipes/innie{
-	dir = 8
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
-"xH" = (
-/obj/structure/closet/crate/chest/wicker,
-/obj/item/reagent_containers/powder/flour,
-/obj/item/reagent_containers/powder/flour,
-/obj/item/reagent_containers/powder/flour,
-/obj/item/reagent_containers/powder/flour,
-/obj/item/reagent_containers/powder/flour,
-/obj/item/reagent_containers/powder/flour,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
-"xI" = (
-/obj/effect/landmark/latejoin,
-/obj/effect/landmark/start/late{
-	dir = 1
-	},
-/obj/effect/landmark/start/adventurer{
-	dir = 1
-	},
-/obj/structure/fluff/railing/wood{
-	dir = 8
-	},
-/turf/open/floor/metal/barograte,
-/area/latejoin_area)
 "xR" = (
 /obj/item/natural/stone,
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/naturalstone,
 /area/under/cave)
-"xW" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-n"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/turf/open/floor/ruinedwood/turned,
-/area/indoors/tutorial)
 "xX" = (
 /obj/structure/flora/grass/water,
 /turf/open/water/ocean/abyss,
@@ -2275,11 +1291,6 @@
 	},
 /turf/open/floor/sand,
 /area/outdoors/beach)
-"yh" = (
-/obj/structure/flora/grass,
-/obj/structure/fluff/railing/wood,
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
 "yl" = (
 /obj/structure/closet/crate/chest/wicker{
 	opened = 1
@@ -2294,15 +1305,6 @@
 /obj/structure/fluff/railing/tall,
 /turf/open/floor/dirt,
 /area/outdoors/woods/lakeside)
-"yr" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 8
-	},
-/obj/structure/rack{
-	pixel_y = 13
-	},
-/turf/open/floor/churchrough,
-/area/latejoin_area)
 "ys" = (
 /obj/structure/flora/grass/bush,
 /turf/open/floor/dirt,
@@ -2319,9 +1321,6 @@
 	},
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
-"yD" = (
-/turf/closed/wall/mineral/wooddark,
-/area/indoors/tutorial)
 "yK" = (
 /obj/item/candle/yellow{
 	pixel_y = 10
@@ -2345,9 +1344,6 @@
 "yX" = (
 /turf/open/water/clean,
 /area/under/cave)
-"yY" = (
-/turf/open/floor/churchrough,
-/area/latejoin_area)
 "yZ" = (
 /obj/structure/bed/shit{
 	name = "makeshift bed"
@@ -2361,25 +1357,9 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/woods/etgard)
-"ze" = (
-/turf/closed/wall/mineral/stone,
-/area/outdoors/woods/tutorial)
 "zl" = (
 /turf/closed/mineral,
 /area/indoors/town/church)
-"zp" = (
-/obj/item/natural/rock,
-/turf/open/floor/dirt,
-/area/indoors/tutorial)
-"zq" = (
-/obj/machinery/light/fueled/torchholder/r,
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
-"zr" = (
-/obj/structure/fluff/railing/wood,
-/obj/structure/chair/stool,
-/turf/open/floor/churchrough/rust,
-/area/latejoin_area)
 "zw" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean,
@@ -2390,31 +1370,9 @@
 	},
 /turf/open/floor/grass/cold,
 /area/outdoors/woods/etgard)
-"zG" = (
-/obj/structure/fluff/walldeco/customflag/regent{
-	pixel_y = 27
-	},
-/obj/structure/fluff/traveltile{
-	aallmig = "arrivals";
-	aportalgoesto = "arrivals_out";
-	aportalid = "spawn_deadend_2";
-	name = "To Old Doma";
-	dir = 1
-	},
-/turf/open/floor/metal/alt,
-/area/latejoin_area)
-"zV" = (
-/obj/machinery/light/fueled/torchholder/l,
-/obj/structure/closet/crate/chest/crate,
-/turf/open/floor/wood/nosmooth,
-/area/indoors/tutorial)
 "Ab" = (
 /turf/open/water/swamp,
 /area/under/cavewet)
-"Ao" = (
-/obj/structure/chair/bench/couch/right/lord_primary,
-/turf/open/floor/wood,
-/area/latejoin_area)
 "Ar" = (
 /obj/item/natural/rock,
 /turf/open/floor/naturalstone,
@@ -2427,8 +1385,8 @@
 /turf/open/floor/grass/yel,
 /area/outdoors/town)
 "Ax" = (
-/obj/effect/mapping_helpers/structure/grave_spawner/_elementalist,
-/obj/structure/closet/dirthole/closed,
+/obj/structure/closet/dirthole/closed/loot,
+/obj/structure/gravemarker,
 /turf/open/floor/dirt,
 /area/outdoors/town)
 "Ay" = (
@@ -2438,29 +1396,9 @@
 "AC" = (
 /turf/open/floor/dirt,
 /area/indoors)
-"AK" = (
-/obj/machinery/anvil,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
-"AL" = (
-/obj/item/kitchen/rollingpin,
-/obj/machinery/light/fueled/torchholder/c,
-/obj/item/cooking/skewer,
-/obj/item/cooking/skewer,
-/obj/item/cooking/skewer,
-/obj/structure/table/wood{
-	icon_state = "tablewood1"
-	},
-/obj/item/reagent_containers/glass/bucket/pot,
-/turf/open/floor/cobble,
-/area/indoors/tutorial)
 "AN" = (
 /turf/open/floor/snow,
 /area/outdoors/beach)
-"AR" = (
-/obj/item/flint,
-/turf/open/floor/cobble,
-/area/indoors/tutorial)
 "AU" = (
 /turf/open/floor/ruinedwood/turned,
 /area/under/cave)
@@ -2468,21 +1406,6 @@
 /obj/structure/flora/grass/bush_meagre,
 /turf/open/floor/dirt/road,
 /area/outdoors/town)
-"AZ" = (
-/obj/structure/fluff/signage{
-	name = "To Wey Whisperen";
-	pixel_y = 34;
-	pixel_x = 19;
-	density = 0;
-	desc = "This leads to a wilderness entrypoint near the abandoned village of Wey Whisperen, on the southern coast of Domotan Island.";
-	dir = 1
-	},
-/obj/effect/decal/shadow_floor{
-	dir = 10
-	},
-/obj/structure/fluff/walldeco/church/line,
-/turf/open/floor/sand/desert,
-/area/latejoin_area)
 "Bc" = (
 /obj/effect/landmark/mapGenerator/domotan/forest{
 	endTurfX = 255;
@@ -2491,16 +1414,6 @@
 /obj/effect/landmark/mapGenerator/domotan/cave,
 /turf/closed/mineral/bedrock,
 /area/outdoors/woods/etgard)
-"Bf" = (
-/obj/effect/decal/borderfall{
-	dir = 1
-	},
-/obj/structure/fluff/railing/border{
-	dir = 1;
-	icon_state = "border"
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
 "Bg" = (
 /turf/closed/mineral/iron,
 /area/under/cave)
@@ -2511,33 +1424,10 @@
 /obj/structure/flora/grass/bush_meagre,
 /turf/open/floor/dirt,
 /area/outdoors/town)
-"Bz" = (
-/obj/structure/train/carriage/not_train/far_travel{
-	dir = 4
-	},
-/turf/open/floor/metal,
-/area/latejoin_area)
-"BG" = (
-/obj/structure/stairs/stone,
-/obj/structure/fluff/railing/wood{
-	dir = 4
-	},
-/turf/open/floor/churchmarble,
-/area/latejoin_area)
 "BY" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
-"Cc" = (
-/obj/structure/fluff/railing/tall/stone{
-	dir = 1
-	},
-/obj/structure/fluff/steamvent,
-/turf/open/floor/metal,
-/area/latejoin_area)
-"Ce" = (
-/turf/open/floor/ruinedwood/turned,
-/area/outdoors/woods/tutorial)
 "Ci" = (
 /obj/structure/flora/newtree,
 /turf/open/floor/snow,
@@ -2546,26 +1436,6 @@
 /obj/structure/flora/grass/water,
 /turf/open/water/ocean,
 /area/outdoors/beach)
-"Cl" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 8;
-	icon_state = "churchslate"
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
-"Cn" = (
-/obj/structure/stairs{
-	icon_state = "stairs";
-	dir = 1
-	},
-/obj/structure/fluff/railing/wood{
-	dir = 4
-	},
-/obj/structure/fluff/railing/wood{
-	dir = 8
-	},
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "Cq" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/grass/cold,
@@ -2582,54 +1452,15 @@
 /obj/structure/flora/grass/water,
 /turf/open/water/ocean/abyss,
 /area/outdoors/woods/etgard)
-"Cy" = (
-/obj/effect/landmark/latejoin,
-/obj/effect/landmark/start/late{
-	dir = 1
-	},
-/obj/effect/landmark/start/adventurer{
-	dir = 1
-	},
-/obj/structure/fluff/railing/wood{
-	dir = 4
-	},
-/turf/open/floor/metal/barograte,
-/area/latejoin_area)
 "CA" = (
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/etgard)
-"CE" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 8
-	},
-/obj/structure/chair/bench{
-	pixel_y = 16
-	},
-/turf/open/floor/churchrough/pale,
-/area/latejoin_area)
 "CF" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean,
 /area/outdoors/beach)
-"CG" = (
-/obj/structure/rack/shelf/biggest,
-/turf/open/floor/blocks/stonered/tiny,
-/area/outdoors/woods/tutorial)
-"CL" = (
-/obj/item/reagent_containers/glass/bucket/wooden,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
-"CP" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
-/obj/structure/fluff/walldeco/bath/wallpipes/innie{
-	pixel_y = 3
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
 "CR" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4;
@@ -2641,25 +1472,9 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/outdoors/beach)
-"Da" = (
-/obj/structure/stairs/stone{
-	dir = 1;
-	icon_state = "stonestairs"
-	},
-/turf/open/floor/churchrough,
-/area/latejoin_area)
-"Db" = (
-/obj/structure/stairs/stone,
-/obj/effect/landmark/backup_join,
-/turf/open/floor/churchmarble,
-/area/latejoin_area)
 "Dc" = (
 /turf/closed/wall/mineral/stone/moss,
 /area/indoors/town/church)
-"Dm" = (
-/obj/structure/flora/ausbushes/fullgrass,
-/turf/open/floor/grass/healthy,
-/area/latejoin_area)
 "Dp" = (
 /obj/structure/flora/grass/pyroclasticflowers,
 /turf/open/floor/snow,
@@ -2687,41 +1502,10 @@
 /obj/item/reagent_containers/glass/cup,
 /turf/open/floor/twig,
 /area/indoors/shelter)
-"DH" = (
-/obj/structure/closet/crate/chest{
-	base_icon_state = "woodchestalt";
-	icon_state = "woodchestalt";
-	name = "meat chest"
-	},
-/obj/item/reagent_containers/food/snacks/meat/steak,
-/obj/item/reagent_containers/food/snacks/meat/steak,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/egg,
-/obj/item/reagent_containers/food/snacks/butter,
-/obj/item/reagent_containers/food/snacks/butter,
-/obj/item/reagent_containers/food/snacks/fat,
-/obj/item/reagent_containers/food/snacks/meat/poultry,
-/obj/structure/fluff/railing/border{
-	dir = 1;
-	icon_state = "border"
-	},
-/turf/open/floor/cobble,
-/area/indoors/tutorial)
 "DM" = (
 /obj/item/reagent_containers/powder/salt,
 /turf/open/floor/naturalstone,
 /area/under/cave)
-"Ea" = (
-/obj/structure/fluff/railing/tall/stone{
-	dir = 1
-	},
-/turf/open/floor/metal,
-/area/latejoin_area)
-"Eg" = (
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
 "Ek" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4
@@ -2764,13 +1548,6 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
-"Fb" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-n"
-	},
-/turf/open/floor/ruinedwood/turned,
-/area/indoors/tutorial)
 "Fd" = (
 /obj/structure/window/openclose,
 /turf/open/floor/ruinedwood,
@@ -2807,19 +1584,6 @@
 /obj/structure/table/church,
 /turf/open/floor/dirt/road,
 /area/under/cave)
-"FB" = (
-/obj/machinery/light/fueled/torchholder/c,
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
-"FF" = (
-/obj/machinery/light/fueledstreet/blue/wall{
-	dir = 4
-	},
-/obj/effect/decal/shadow_floor{
-	dir = 4
-	},
-/turf/open/floor/churchmarble,
-/area/latejoin_area)
 "FK" = (
 /obj/structure/fluff/traveltile{
 	aallmig = "z1-northsouth3";
@@ -2832,21 +1596,6 @@
 "FL" = (
 /turf/open/floor/twig/platform,
 /area/under/cave)
-"FO" = (
-/obj/structure/fluff/signage{
-	name = "To the Weeping Wood";
-	pixel_y = 34;
-	pixel_x = 19;
-	density = 0;
-	desc = "This leads to a wilderness entrypoint on the dock of the Weeping Wood lighthouse on the western region of Domotan Island. It will not be a safe journey to Old Doma from here.";
-	dir = 1
-	},
-/obj/effect/decal/shadow_floor{
-	dir = 10
-	},
-/obj/structure/fluff/walldeco/church/line,
-/turf/open/floor/grass/healthy,
-/area/latejoin_area)
 "FP" = (
 /turf/open/floor/snow,
 /area/outdoors/town)
@@ -2886,13 +1635,6 @@
 "Gg" = (
 /turf/open/floor/churchrough,
 /area/indoors/town/church)
-"Gk" = (
-/obj/structure/stairs/stone{
-	dir = 1;
-	icon_state = "stonestairs"
-	},
-/turf/open/floor/churchmarble/violet,
-/area/latejoin_area)
 "Gl" = (
 /obj/structure/composter/halffull,
 /turf/open/floor/snow,
@@ -2908,10 +1650,6 @@
 /obj/structure/stairs/stone,
 /turf/open/floor/church,
 /area/indoors/town/church)
-"GC" = (
-/obj/structure/roguerock,
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
 "GF" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water/reeds,
@@ -2921,10 +1659,6 @@
 /obj/structure/flora/grass/water,
 /turf/open/floor/dirt,
 /area/under/cavewet)
-"GN" = (
-/obj/structure/chair/stool,
-/turf/open/floor/cobble,
-/area/indoors/tutorial)
 "GQ" = (
 /obj/structure/table/wood{
 	dir = 9;
@@ -2941,21 +1675,6 @@
 	},
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
-"GZ" = (
-/obj/structure/stairs/stone{
-	dir = 1;
-	icon_state = "stonestairs"
-	},
-/obj/structure/fluff/signage{
-	name = "to Tutorial Island";
-	pixel_y = 34;
-	pixel_x = 20;
-	density = 0;
-	desc = "This leads to a tutorial area separate from the main playable game world. You can familiarize yourself with game mechanics and act out of character here freely. The only way to exit Tutorial Island is by main menu portals or death.";
-	dir = 1
-	},
-/turf/open/floor/churchmarble/violet,
-/area/latejoin_area)
 "Hd" = (
 /obj/structure/door/weak/bolt{
 	dir = 4
@@ -2973,31 +1692,12 @@
 /obj/structure/fluff/railing/wood,
 /turf/open/water/ocean,
 /area/outdoors/woods/etgard)
-"Hs" = (
-/obj/structure/door{
-	name = "Tutorial Ship"
-	},
-/turf/open/floor/wood/nosmooth,
-/area/indoors/tutorial)
 "Hw" = (
 /turf/open/floor/cobblerock,
 /area/outdoors/woods/lakeside)
 "Hz" = (
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
-"HC" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
-"HI" = (
-/obj/structure/fluff/railing/tall/stone{
-	dir = 6
-	},
-/turf/open/floor/metal,
-/area/latejoin_area)
 "HJ" = (
 /turf/open/floor/twig,
 /area/indoors/shelter)
@@ -3021,18 +1721,6 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/dirt,
 /area/under/cavewet)
-"If" = (
-/obj/structure/carpet/red,
-/obj/structure/table/vtable,
-/obj/item/natural/feather{
-	pixel_y = 6
-	},
-/obj/item/paper/scroll{
-	pixel_y = 6;
-	pixel_x = 14
-	},
-/turf/open/floor/wood,
-/area/latejoin_area)
 "Il" = (
 /turf/closed/wall/mineral/wood,
 /area/indoors/shelter)
@@ -3040,15 +1728,6 @@
 /obj/structure/closet/crate/chest/wicker,
 /turf/open/floor/dirt,
 /area/indoors)
-"Ip" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
-/obj/structure/chair/bench{
-	pixel_y = 16
-	},
-/turf/open/floor/churchrough/violet,
-/area/latejoin_area)
 "Ix" = (
 /turf/open/floor/cobble/mossy,
 /area/indoors/shelter)
@@ -3089,19 +1768,12 @@
 /obj/structure/flora/grass,
 /turf/open/floor/sand,
 /area/outdoors/beach)
-"IQ" = (
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "IS" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
 /turf/open/floor/cobble/mossy,
 /area/under/cave)
-"IW" = (
-/obj/structure/fluff/statue/tdummy,
-/turf/open/floor/dirt/road,
-/area/outdoors/woods/tutorial)
 "IX" = (
 /turf/closed/wall/mineral/stonebrick/reddish,
 /area/under/cave)
@@ -3109,19 +1781,10 @@
 /obj/machinery/light/fueled/firebowl/standing/blue,
 /turf/open/floor/churchrough,
 /area/indoors/town/church)
-"Jd" = (
-/obj/machinery/light/fueledstreet/blue/wall{
-	dir = 8
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
 "Jf" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/dirt,
 /area/under/cave)
-"Jl" = (
-/turf/open/floor/cobble/mossy,
-/area/outdoors/woods/tutorial)
 "Jn" = (
 /obj/item/reagent_containers/glass/bucket/wooden,
 /turf/open/floor/twig,
@@ -3133,14 +1796,6 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/outdoors/beach)
-"Js" = (
-/obj/machinery/light/fueled/torchholder/l,
-/turf/open/floor/cobble,
-/area/indoors/tutorial)
-"Jy" = (
-/obj/machinery/light/fueled/torchholder/l,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "JC" = (
 /obj/structure/fluff/statue/small{
 	desc = "A statue of a dryad, a manifestation of an elemental spirit of Earth. This one possesses a featureless face, evoking the anonymity of the goddess Gani.";
@@ -3178,10 +1833,6 @@
 	},
 /turf/open/floor/twig/platform,
 /area/under/cave)
-"JW" = (
-/obj/item/weapon/tongs,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "JX" = (
 /obj/structure/bed/shit{
 	name = "makeshift bed"
@@ -3198,10 +1849,6 @@
 	},
 /turf/closed/mineral,
 /area/under/town/basement)
-"Ke" = (
-/obj/structure/fluff/statue/knightalt/r,
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
 "Kr" = (
 /obj/structure/flora/grass/water,
 /turf/open/floor/sand,
@@ -3214,14 +1861,6 @@
 /obj/structure/chair/stool,
 /turf/open/floor/cobblerock,
 /area/indoors/shelter)
-"KA" = (
-/obj/structure/fluff/statue/knightalt,
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
-"KB" = (
-/obj/structure/well,
-/turf/open/floor/cobble/mossy,
-/area/outdoors/woods/tutorial)
 "KF" = (
 /obj/structure/flora/grass,
 /turf/open/floor/dirt,
@@ -3229,24 +1868,10 @@
 "KG" = (
 /turf/open/floor/dirt,
 /area/outdoors/woods/etgard)
-"KH" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
-/obj/structure/water_pipe,
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
 "KP" = (
 /obj/structure/closet/crate/chest/crate,
 /turf/open/floor/twig,
 /area/indoors/shelter)
-"KQ" = (
-/obj/item/candle/scandle/lit{
-	pixel_y = 9
-	},
-/obj/structure/table/wood,
-/turf/open/floor/wood,
-/area/latejoin_area)
 "KT" = (
 /obj/structure/door/weak/bolt{
 	dir = 4
@@ -3265,42 +1890,10 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
-"Lq" = (
-/obj/structure/fluff/railing/tall/stone{
-	dir = 4
-	},
-/turf/open/floor/metal,
-/area/latejoin_area)
-"Lu" = (
-/obj/machinery/light/fueledstreet/blue/wall{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/latejoin_area)
 "LB" = (
 /obj/structure/flora/grass/water,
 /turf/open/water/marsh,
 /area/outdoors/woods/etgard)
-"LG" = (
-/turf/closed/wall/mineral/stone/moss/blue,
-/area/latejoin_area)
-"LH" = (
-/obj/item/gun/ballistic/bow/cross,
-/obj/item/gun/ballistic/bow/cross,
-/obj/item/gun/ballistic/bow/cross,
-/obj/item/gun/ballistic/bow,
-/obj/item/gun/ballistic/bow,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
-"LL" = (
-/obj/effect/waterfall,
-/turf/open/water/clean,
-/area/latejoin_area)
-"LO" = (
-/obj/structure/flora/grass,
-/obj/structure/flora/ausbushes/ppflowers,
-/turf/open/floor/grass/healthy,
-/area/latejoin_area)
 "LP" = (
 /obj/structure/table/wood{
 	dir = 8;
@@ -3335,12 +1928,6 @@
 	},
 /turf/open/floor/twig,
 /area/outdoors/beach)
-"Ma" = (
-/obj/effect/decal/shadow_floor{
-	dir = 4
-	},
-/turf/open/floor/churchmarble,
-/area/latejoin_area)
 "Mk" = (
 /obj/structure/table/wood{
 	icon_state = "longtable"
@@ -3354,56 +1941,6 @@
 /obj/structure/rack/shelf/big,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town)
-"Mo" = (
-/obj/structure/rack/shelf/big{
-	icon_state = "shelf_biggest";
-	pixel_y = 0
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_x = 7;
-	pixel_y = -5
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_x = 8;
-	pixel_y = 12
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_x = -9;
-	pixel_y = -5
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_x = -1;
-	pixel_y = -5
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_x = -9;
-	pixel_y = 12
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_y = 12
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_x = -9;
-	pixel_y = -5
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_x = -1;
-	pixel_y = -5
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_x = 8;
-	pixel_y = 12
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_y = 12
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_x = -9;
-	pixel_y = 12
-	},
-/obj/item/cooking/skewer,
-/turf/open/floor/cobble,
-/area/indoors/tutorial)
 "Mq" = (
 /obj/structure/closet/crate/chest/wicker,
 /obj/item/reagent_containers/food/snacks/cheddarslice/aged,
@@ -3413,26 +1950,10 @@
 /obj/item/reagent_containers/food/snacks/cheddarslice/aged,
 /turf/open/floor/twig/platform,
 /area/under/cave)
-"Mr" = (
-/obj/structure/fluff/railing/wood,
-/obj/machinery/light/fueledstreet/blue/wall,
-/obj/structure/fluff/railing/wood{
-	dir = 8
-	},
-/turf/open/floor/wood,
-/area/latejoin_area)
 "Ms" = (
 /obj/structure/closet/crate/chest/lootbox,
 /turf/open/floor/twig,
 /area/indoors/shelter)
-"Mt" = (
-/obj/structure/lever/wall{
-	dir = 8;
-	pixel_x = -2;
-	redstone_id = "tutorial_gates_north"
-	},
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
 "MF" = (
 /obj/structure/door/iron/bars,
 /obj/effect/mapping_helpers/access/keyset/church/grave,
@@ -3447,41 +1968,6 @@
 /obj/structure/closet/crate/chest/crate,
 /turf/open/floor/sand,
 /area/outdoors/beach)
-"MO" = (
-/obj/structure/rack/shelf/biggest,
-/obj/item/natural/cloth,
-/obj/item/natural/cloth,
-/obj/item/natural/cloth,
-/obj/item/natural/cloth,
-/obj/item/natural/cloth,
-/obj/item/natural/cloth,
-/obj/item/natural/cloth,
-/obj/item/natural/cloth{
-	pixel_y = 8
-	},
-/obj/item/natural/cloth{
-	pixel_y = 8
-	},
-/obj/item/natural/cloth{
-	pixel_x = 7
-	},
-/obj/item/natural/cloth{
-	pixel_x = 7
-	},
-/obj/item/natural/cloth{
-	pixel_x = 7
-	},
-/obj/item/natural/cloth{
-	pixel_x = -6
-	},
-/obj/item/natural/cloth{
-	pixel_x = -4;
-	pixel_y = 5
-	},
-/obj/item/needle,
-/obj/item/needle,
-/turf/open/floor/blocks/stonered/tiny,
-/area/outdoors/woods/tutorial)
 "MQ" = (
 /obj/machinery/light/fueled/firebowl/standing/blue,
 /obj/structure/fluff/walldeco/church/line{
@@ -3529,10 +2015,6 @@
 	},
 /turf/open/floor/sand,
 /area/outdoors/woods/etgard)
-"Nr" = (
-/obj/structure/flora/grass,
-/turf/open/floor/grass/cold,
-/area/outdoors/woods/tutorial)
 "Ns" = (
 /obj/item/natural/stone,
 /obj/item/natural/stone,
@@ -3540,10 +2022,6 @@
 /obj/item/natural/stone,
 /turf/open/floor/cobblerock,
 /area/indoors/shelter)
-"Nt" = (
-/obj/structure/train/carriage/not_train/far_travel,
-/turf/open/floor/metal/alt,
-/area/latejoin_area)
 "Ny" = (
 /turf/open/floor/ruinedwood/turned,
 /area/under/cavewet)
@@ -3557,10 +2035,6 @@
 /obj/structure/stairs/stone,
 /turf/open/floor/dirt/road,
 /area/under/cave)
-"NE" = (
-/obj/item/cooking/pan,
-/turf/open/floor/cobble,
-/area/indoors/tutorial)
 "NK" = (
 /obj/structure/door/weak/bolt{
 	dir = 8
@@ -3573,12 +2047,6 @@
 "NR" = (
 /turf/closed/wall/mineral/wood,
 /area/under/cave)
-"NT" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "NU" = (
 /turf/closed/wall/mineral/stone,
 /area/outdoors/woods/etgard)
@@ -3599,31 +2067,6 @@
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/etgard)
-"Oe" = (
-/obj/structure/fluff/railing/wood,
-/obj/structure/table/stone_small,
-/obj/effect/spawner/guaranteed_map_spawner/listed/cups,
-/obj/item/candle/yellow{
-	pixel_y = 6
-	},
-/turf/open/floor/churchrough,
-/area/latejoin_area)
-"Oh" = (
-/obj/structure/fluff/railing/border{
-	icon_state = "border";
-	dir = 10
-	},
-/turf/open/floor/cobble,
-/area/indoors/tutorial)
-"Os" = (
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/obj/effect/decal/borderfall{
-	dir = 1
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
 "Ot" = (
 /obj/structure/fluff/railing/border{
 	icon_state = "border";
@@ -3648,59 +2091,9 @@
 /obj/structure/flora/grass/water,
 /turf/open/water/ocean/abyss,
 /area/under/cavewet)
-"OJ" = (
-/obj/structure/table/wood{
-	icon_state = "longtable"
-	},
-/obj/item/bait/bloody,
-/obj/item/bait/bloody,
-/obj/item/bait/bloody,
-/obj/item/bait/bloody,
-/obj/item/bait/bloody,
-/obj/item/bait/bloody,
-/obj/item/bait{
-	pixel_x = 17
-	},
-/obj/item/bait{
-	pixel_x = 17
-	},
-/obj/item/bait{
-	pixel_x = 17
-	},
-/obj/item/bait{
-	pixel_x = 17
-	},
-/obj/structure/rack/shelf/big,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
-"ON" = (
-/obj/structure/table/wood{
-	icon_state = "tablewood1"
-	},
-/obj/item/paper/scroll,
-/obj/item/natural/feather,
-/obj/item/reagent_containers/glass/bottle/beer/hagwoodbitter{
-	pixel_x = 11
-	},
-/obj/item/paper,
-/turf/open/floor/cobble,
-/area/indoors/tutorial)
 "OO" = (
 /turf/closed/wall/mineral/stonebrick,
 /area/under/cave)
-"OR" = (
-/obj/structure/fluff/traveltile{
-	aallmig = "arrivals";
-	aportalgoesto = "arrivals_out";
-	aportalid = "spawn_deadend_2";
-	name = "To Old Doma";
-	dir = 1
-	},
-/obj/structure/fluff/walldeco/customflag/regent{
-	pixel_y = 27
-	},
-/turf/open/floor/metal/alt,
-/area/latejoin_area)
 "OS" = (
 /obj/machinery/light/fueled/lanternpost/fixed{
 	dir = 1;
@@ -3712,12 +2105,6 @@
 "OX" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/etgard)
-"OZ" = (
-/obj/structure/chair/bench{
-	pixel_y = 16
-	},
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "Pr" = (
 /obj/structure/flora/grass,
 /obj/structure/fluff/railing/tall/retaining{
@@ -3751,22 +2138,12 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
-"PO" = (
-/turf/closed/wall/mineral/pipe,
-/area/latejoin_area)
 "PP" = (
 /turf/closed/mineral,
 /area/outdoors/woods/etgard)
-"PS" = (
-/turf/open/water/clean,
-/area/outdoors/woods/tutorial)
 "PT" = (
 /turf/open/water/ocean/abyss,
 /area/under/cavewet)
-"PX" = (
-/obj/structure/closet/crate/chest/crate,
-/turf/open/floor/wood/nosmooth,
-/area/indoors/tutorial)
 "PY" = (
 /obj/structure/fluff/traveltile{
 	aallmig = "z1-northsouth4";
@@ -3775,23 +2152,14 @@
 	},
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
-"Qq" = (
-/turf/closed/wall/mineral/wood,
-/area/indoors/tutorial)
 "Qs" = (
 /obj/effect/landmark/map_load_mark/generic_tile,
 /turf/open/floor/grass/cold,
 /area/outdoors/woods/etgard)
-"Qv" = (
-/turf/closed/wall/mineral/stone,
-/area/indoors/tutorial)
 "Qw" = (
 /mob/living/simple_animal/hostile/retaliate/bigrat,
 /turf/open/floor/dirt,
 /area/under/cave)
-"QD" = (
-/turf/open/floor/dirt/road,
-/area/outdoors/woods/tutorial)
 "QF" = (
 /turf/closed/sea_fog,
 /area/outdoors/beach)
@@ -3817,9 +2185,6 @@
 	},
 /turf/open/water/ocean/abyss,
 /area/outdoors/beach)
-"Rd" = (
-/turf/closed/mineral/bedrock,
-/area/outdoors/woods/tutorial)
 "Rs" = (
 /obj/structure/table/wood{
 	icon_state = "longtable"
@@ -3843,9 +2208,6 @@
 "RA" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/town)
-"RB" = (
-/turf/open/floor/churchrough/green,
-/area/latejoin_area)
 "RD" = (
 /turf/closed/wall/mineral/wooddark,
 /area/indoors)
@@ -3857,22 +2219,10 @@
 /obj/item/weapon/tongs,
 /turf/open/floor/twig,
 /area/indoors/shelter)
-"RL" = (
-/obj/structure/fluff/walldeco/customflag/regent{
-	pixel_y = 27
-	},
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
 "RM" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/cold,
 /area/outdoors/woods/etgard)
-"RN" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
-/turf/open/floor/churchmarble/violet,
-/area/latejoin_area)
 "RO" = (
 /obj/structure/flora/ausbushes/genericbush,
 /turf/open/floor/dirt/road,
@@ -3889,21 +2239,6 @@
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/etgard)
-"Se" = (
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
-"Sj" = (
-/obj/effect/decal/borderfall{
-	dir = 1
-	},
-/obj/structure/fluff/walldeco/church/line{
-	dir = 8
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
-"Sl" = (
-/turf/closed/mineral,
-/area/indoors/tutorial)
 "Sm" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -3917,24 +2252,10 @@
 /obj/structure/fluff/railing/wood,
 /turf/open/water/ocean,
 /area/outdoors/beach)
-"So" = (
-/obj/item/flashlight/flare/torch/lantern,
-/obj/item/flashlight/flare/torch/lantern,
-/obj/item/flashlight/flare/torch/lantern,
-/obj/item/flashlight/flare/torch/lantern,
-/obj/structure/rack/shelf/biggest,
-/turf/open/floor/blocks/stonered,
-/area/outdoors/woods/tutorial)
 "Sp" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/grass/cold,
 /area/outdoors/woods/etgard)
-"Su" = (
-/obj/effect/landmark/events/testportal{
-	aportalloc = "tutorial"
-	},
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "Sy" = (
 /obj/structure/closet/crate/chest,
 /obj/item/reagent_containers/food/snacks/butter,
@@ -3943,43 +2264,17 @@
 /obj/item/cooking/pan,
 /turf/open/floor/tile/checkeralt,
 /area/indoors/shelter)
-"SB" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 8;
-	icon_state = "churchslate"
-	},
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4;
-	icon_state = "churchslate"
-	},
-/obj/structure/bars,
-/obj/structure/fluff/steamvent,
-/turf/open/floor/metal,
-/area/latejoin_area)
 "SE" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/cobble/mossy,
 /area/indoors/shelter)
-"SF" = (
-/turf/closed/wall/mineral/wooddark,
-/area/outdoors/woods/tutorial)
 "SI" = (
 /obj/structure/flora/grass/water,
 /turf/open/water/ocean/abyss,
 /area/outdoors/beach)
-"SJ" = (
-/turf/open/floor/grass/red,
-/area/outdoors/woods/tutorial)
-"SK" = (
-/obj/structure/fluff/globe,
-/turf/open/floor/wood,
-/area/latejoin_area)
 "SR" = (
 /turf/open/floor/dirt,
 /area/under/cavewet)
-"SS" = (
-/turf/open/floor/churchrough/violet,
-/area/latejoin_area)
 "Te" = (
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/ruinedwood,
@@ -4011,9 +2306,6 @@
 	},
 /turf/open/floor/twig,
 /area/outdoors/beach)
-"Tt" = (
-/turf/open/floor/blocks/stonered/tiny,
-/area/outdoors/woods/tutorial)
 "Ty" = (
 /turf/closed/mineral/random/med,
 /area/under/cave)
@@ -4055,13 +2347,6 @@
 /obj/structure/fluff/railing/border,
 /turf/open/floor/cobble/mossy,
 /area/under/cave)
-"TU" = (
-/obj/item/natural/rock,
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
-"TV" = (
-/turf/open/floor/churchmarble/violet,
-/area/latejoin_area)
 "TZ" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/twig,
@@ -4069,20 +2354,6 @@
 "Uc" = (
 /turf/closed/wall/mineral/tent,
 /area/under/cave)
-"Ue" = (
-/obj/structure/train/carriage/not_train/far_travel{
-	dir = 8
-	},
-/turf/open/floor/metal,
-/area/outdoors/woods/tutorial)
-"Uf" = (
-/obj/structure/bars/passage{
-	density = 0;
-	icon_state = "passage1";
-	redstone_id = "tutorial_gates_south"
-	},
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "Uh" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -4096,16 +2367,6 @@
 	},
 /turf/open/floor/dirt/road,
 /area/indoors/town)
-"Uk" = (
-/obj/structure/fluff/traveltile{
-	aportalid = "spawn_deadend_1";
-	name = "To the Weeping Wood";
-	aportalgoesto = "west_arrivals_out";
-	dir = 1
-	},
-/obj/machinery/light/fueledstreet/blue/wall,
-/turf/open/floor/metal/alt,
-/area/latejoin_area)
 "Ul" = (
 /obj/structure/chair/stool,
 /turf/open/floor/twig,
@@ -4118,27 +2379,6 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/dirt,
 /area/under/cavewet)
-"UE" = (
-/obj/structure/chair/bench/couch/middle/lord_primary,
-/obj/structure/fluff/walldeco/painting{
-	pixel_y = 32;
-	desc = "A painting of a cloaked feminine figure, the face is obscured beneath a veil of shadows. Their only features are two burning eyes, both of which follow you despite having no visible contraption or illusion at play. This image is not borne of good intent."
-	},
-/obj/item/clothing/head/wizhat/witch,
-/turf/open/floor/wood,
-/area/latejoin_area)
-"UQ" = (
-/obj/structure/rack/shelf/big{
-	icon_state = "shelf_biggest";
-	pixel_y = 0
-	},
-/obj/item/weapon/hoe,
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/turf/open/floor/dirt,
-/area/outdoors/woods/tutorial)
 "Va" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water/reeds,
@@ -4195,9 +2435,6 @@
 /obj/item/storage/bag,
 /turf/open/floor/sand,
 /area/outdoors/beach)
-"Vs" = (
-/turf/open/floor/churchrough/pale,
-/area/latejoin_area)
 "Vx" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -4212,22 +2449,6 @@
 "VJ" = (
 /turf/open/water/ocean,
 /area/outdoors/beach)
-"VT" = (
-/obj/structure/bars/cemetery,
-/turf/open/floor/metal/alt,
-/area/latejoin_area)
-"VX" = (
-/obj/structure/fluff/walldeco/bath/wallpipes/innie{
-	pixel_y = 3
-	},
-/obj/structure/fluff/walldeco/bath/wallpipes/innie{
-	pixel_y = 20
-	},
-/obj/machinery/light/fueledstreet/blue/wall{
-	dir = 8
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
 "Wi" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/clean,
@@ -4239,24 +2460,9 @@
 "Wk" = (
 /turf/open/floor/cobble/alt,
 /area/outdoors/woods/etgard)
-"Wm" = (
-/obj/structure/fluff/signage{
-	name = "To Old Doma";
-	pixel_y = 34;
-	pixel_x = -21;
-	density = 0;
-	desc = "This leads to Old Doma, the primary and most populated settlement on Domotan Island. It is probably safe here."
-	},
-/obj/effect/decal/shadow_floor{
-	dir = 6
-	},
-/obj/structure/fluff/walldeco/church/line,
-/turf/open/floor/church/purple,
-/area/latejoin_area)
 "WA" = (
-/obj/effect/mapping_helpers/structure/grave_spawner/t2/_elementalist,
-/obj/structure/closet/dirthole/closed,
-/turf/open/floor/dirt,
+/obj/structure/closet/dirthole/closed/loot,
+/turf/open/floor/dirt/road,
 /area/outdoors/town)
 "WB" = (
 /obj/item/natural/stone,
@@ -4289,9 +2495,6 @@
 /obj/effect/landmark/map_load_mark/generic_tile,
 /turf/closed/mineral,
 /area/under/cave)
-"WW" = (
-/turf/open/floor/cobble,
-/area/indoors/tutorial)
 "WY" = (
 /obj/structure/fluff/railing/border{
 	icon_state = "border";
@@ -4299,17 +2502,6 @@
 	},
 /turf/open/water/ocean/abyss,
 /area/outdoors/beach)
-"Xc" = (
-/obj/effect/decal/borderfall{
-	dir = 1
-	},
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
-/obj/structure/fluff/wallclock,
-/obj/structure/chair/wood,
-/turf/open/floor/churchmarble/violet,
-/area/latejoin_area)
 "Xg" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean,
@@ -4318,15 +2510,6 @@
 /obj/structure/flora/grass,
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
-"Xq" = (
-/obj/structure/fluff/traveltile{
-	aportalid = "spawn_deadend_4";
-	name = "to Tutorial Island";
-	aportalgoesto = "tutorial_out";
-	dir = 1
-	},
-/turf/open/floor/metal/alt,
-/area/latejoin_area)
 "Xt" = (
 /obj/item/bin/water,
 /turf/open/floor/snow,
@@ -4348,21 +2531,6 @@
 /obj/structure/flora/grass/water,
 /turf/open/water/ocean/abyss,
 /area/outdoors/beach)
-"XJ" = (
-/obj/structure/fluff/traveltile{
-	aportalid = "spawn_deadend_1";
-	name = "To the Weeping Wood";
-	aportalgoesto = "west_arrivals_out";
-	dir = 1
-	},
-/obj/structure/fluff/walldeco/bath/wallpipes/innie{
-	dir = 10
-	},
-/obj/structure/fluff/walldeco/serpflag{
-	pixel_y = 32
-	},
-/turf/open/floor/metal/alt,
-/area/latejoin_area)
 "XK" = (
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "z2-townsouth1-in";
@@ -4372,55 +2540,13 @@
 	},
 /turf/open/floor/cobble/alt,
 /area/outdoors/woods/etgard)
-"XO" = (
-/obj/structure/table/wood{
-	dir = 5;
-	icon_state = "largetable"
-	},
-/obj/item/paper{
-	pixel_x = -4;
-	pixel_y = -3
-	},
-/obj/item/paper{
-	pixel_x = -4;
-	pixel_y = -3
-	},
-/obj/item/paper{
-	pixel_x = -4;
-	pixel_y = -3
-	},
-/obj/item/paper{
-	pixel_x = -4;
-	pixel_y = -3
-	},
-/obj/item/paper{
-	pixel_x = -4;
-	pixel_y = -3
-	},
-/obj/item/natural/feather,
-/turf/open/floor/blocks/green,
-/area/outdoors/woods/tutorial)
 "XS" = (
 /turf/closed/mineral/bedrock,
 /area/under/cave)
-"XU" = (
-/obj/structure/flora/ausbushes/reedbush,
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
-"XX" = (
-/turf/open/floor/wood,
-/area/latejoin_area)
 "Yi" = (
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
-"Yj" = (
-/obj/structure/stairs/stone,
-/obj/machinery/light/fueledstreet/blue/wall{
-	dir = 4
-	},
-/turf/open/floor/churchmarble,
-/area/latejoin_area)
 "Yn" = (
 /obj/structure/chair/stool,
 /turf/open/floor/ruinedwood/turned,
@@ -4430,41 +2556,10 @@
 /obj/item/clothing/shoes/boots/furlinedboots,
 /turf/open/floor/twig,
 /area/indoors/shelter)
-"YA" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 8
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
-"YB" = (
-/obj/structure/chair/stool,
-/turf/open/floor/blocks/green,
-/area/outdoors/woods/tutorial)
-"YC" = (
-/obj/item/weapon/shield/wood,
-/obj/item/weapon/shield/wood,
-/obj/structure/rack,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
-"YD" = (
-/obj/structure/closet/crate/chest/crate,
-/obj/item/fishingrod,
-/turf/open/floor/snow,
-/area/outdoors/woods/tutorial)
-"YE" = (
-/obj/structure/flora/grass/water,
-/turf/open/water/clean,
-/area/outdoors/woods/tutorial)
 "YG" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
-"YM" = (
-/obj/machinery/light/fueledstreet/blue/wall{
-	dir = 4
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
 "YP" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/snow,
@@ -4477,65 +2572,6 @@
 	},
 /turf/open/floor/sand,
 /area/outdoors/beach)
-"YX" = (
-/obj/structure/fluff/walldeco/church/line{
-	dir = 4
-	},
-/obj/structure/rack{
-	pixel_y = 13
-	},
-/turf/open/floor/churchrough,
-/area/latejoin_area)
-"YZ" = (
-/obj/structure/closet/crate/chest/old_crate,
-/obj/item/reagent_containers/glass/bottle/manapot,
-/obj/item/reagent_containers/glass/bottle/manapot,
-/obj/item/reagent_containers/glass/bottle/manapot,
-/obj/item/reagent_containers/glass/bottle/manapot,
-/obj/item/reagent_containers/glass/bottle/healthpot,
-/obj/item/reagent_containers/glass/bottle/healthpot,
-/obj/item/reagent_containers/glass/bottle/healthpot,
-/obj/item/reagent_containers/glass/bottle/healthpot,
-/obj/item/reagent_containers/powder/ozium,
-/obj/item/reagent_containers/powder/ozium,
-/obj/item/reagent_containers/powder/ozium,
-/obj/item/reagent_containers/powder/ozium,
-/obj/item/reagent_containers/powder/ozium,
-/obj/item/reagent_containers/powder/ozium,
-/obj/item/reagent_containers/powder/ozium,
-/obj/item/reagent_containers/powder/ozium,
-/obj/item/reagent_containers/powder/ozium,
-/obj/item/reagent_containers/powder/ozium,
-/turf/open/floor/blocks/green,
-/area/outdoors/woods/tutorial)
-"Zc" = (
-/turf/open/floor/wood/nosmooth,
-/area/outdoors/woods/tutorial)
-"Ze" = (
-/obj/effect/decal/borderfall{
-	dir = 1
-	},
-/turf/open/floor/underworld/space,
-/area/latejoin_area)
-"Zf" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/structure/rack,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
-"Zl" = (
-/obj/structure/rack,
-/obj/item/weapon/sword/short,
-/obj/item/weapon/sword/short,
-/obj/item/weapon/sword,
-/obj/item/weapon/sword,
-/obj/item/weapon/sword/rapier,
-/obj/item/weapon/sword/gladius,
-/obj/item/weapon/sword/silver,
-/obj/item/weapon/sword/sabre,
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "Zo" = (
 /turf/open/floor/ruinedwood,
 /area/outdoors/beach)
@@ -4548,40 +2584,10 @@
 	},
 /turf/open/floor/sand,
 /area/outdoors/woods/etgard)
-"Zq" = (
-/obj/structure/fluff/steamvent,
-/turf/open/floor/churchrough,
-/area/latejoin_area)
-"Zr" = (
-/obj/effect/decal/borderfall{
-	dir = 1
-	},
-/obj/structure/fluff/walldeco/church/line{
-	dir = 8
-	},
-/obj/structure/rack,
-/obj/item/clothing/pants/tights/colored/black,
-/obj/item/clothing/pants/tights,
-/obj/item/clothing/pants/tights/colored/guardsecond,
-/obj/item/clothing/shoes/boots/leather,
-/obj/item/clothing/shoes/boots/leather,
-/obj/item/clothing/shirt/dress/gen,
-/obj/item/clothing/shirt/dress/gen/colored/black,
-/obj/item/clothing/shirt/undershirt,
-/obj/item/clothing/shirt/undershirt,
-/obj/item/clothing/face/eyepatch,
-/turf/open/floor/churchmarble/violet,
-/area/latejoin_area)
 "Zs" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean/abyss,
 /area/outdoors/woods/etgard)
-"ZE" = (
-/obj/machinery/light/fueledstreet/blue/wall{
-	dir = 4
-	},
-/turf/open/water/clean,
-/area/latejoin_area)
 "ZG" = (
 /obj/structure/fluff/signage{
 	name = "COUNTY OF ETGARD - SOUTH"
@@ -4592,11 +2598,6 @@
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
-"ZQ" = (
-/obj/structure/fluff/walldeco/bigpainting,
-/obj/structure/fluff/railing/wood,
-/turf/open/floor/wood,
-/area/latejoin_area)
 "ZS" = (
 /obj/structure/fluff/signage{
 	name = "WEEPING WOOD - NORTHWEST";
@@ -4604,12 +2605,6 @@
 	},
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
-"ZU" = (
-/obj/structure/fluff/railing/wood{
-	dir = 4
-	},
-/turf/open/floor/wood/nosmooth,
-/area/outdoors/woods/tutorial)
 "ZW" = (
 /obj/structure/fluff/railing/border{
 	icon_state = "border";
@@ -4619,64 +2614,64 @@
 /area/under/cave)
 
 (1,1,1) = {"
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -4876,64 +2871,64 @@ tq
 Bc
 "}
 (2,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -5133,64 +3128,64 @@ Hz
 tq
 "}
 (3,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -5390,64 +3385,64 @@ Hz
 tq
 "}
 (4,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -5647,64 +3642,64 @@ Hz
 tq
 "}
 (5,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -5904,64 +3899,64 @@ Hz
 tq
 "}
 (6,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -6161,64 +4156,64 @@ Hz
 tq
 "}
 (7,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -6418,64 +4413,64 @@ Hz
 tq
 "}
 (8,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -6675,64 +4670,64 @@ OX
 FK
 "}
 (9,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -6932,64 +4927,64 @@ OX
 FK
 "}
 (10,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -7189,64 +5184,64 @@ OX
 FK
 "}
 (11,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-pu
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -7446,64 +5441,64 @@ OX
 FK
 "}
 (12,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-rb
-pu
-lB
-pu
-rb
-pu
-pu
-pu
-ew
-ew
-ew
-pu
-pu
-rb
-rb
-rb
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -7703,64 +5698,64 @@ OX
 FK
 "}
 (13,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-Eg
-pu
-pu
-pu
-pu
-pu
-rb
-rb
-rb
-pu
-pu
-pu
-pu
-pu
-rb
-rb
-rb
-rb
-pu
-pu
-pu
-pu
-lB
-pu
-pu
-pu
-pu
-pu
-pu
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -7960,71 +5955,71 @@ OX
 FK
 "}
 (14,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-Eg
-cZ
-Eg
-Eg
-Eg
-pu
-pu
-pu
-rb
-pu
-lB
-pu
-rb
-rb
-rb
-rb
-rb
-rb
-rb
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-lB
-pu
-pu
-pu
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-Rd
-Rd
 Ep
-LG
-LG
-LG
-LG
-xa
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -8217,71 +6212,71 @@ OX
 FK
 "}
 (15,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-rb
-Eg
-TU
-iQ
-iQ
-iQ
-Eg
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-lB
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-Rd
-Rd
-Rd
 Ep
-LG
-fl
-kM
-Lu
-XX
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -8474,78 +6469,78 @@ OX
 FK
 "}
 (16,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-pu
-rb
-pu
-lB
-Eg
-iQ
-iQ
-iQ
-cZ
-pu
-pu
-lB
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-rb
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-Rd
-Rd
-Rd
-Rd
 Ep
-LG
-UE
-If
-wY
-XX
-LG
-LG
-PO
-PO
-PO
-LG
-LG
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -8731,78 +6726,78 @@ Hz
 tq
 "}
 (17,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-pu
-rb
-pu
-pu
-Eg
-iQ
-iQ
-iQ
-Eg
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-cZ
-Eg
-pu
-pu
-Eg
-Eg
-pu
-pu
-pu
-pu
-rb
-pu
-pu
-pu
-yD
-Qq
-Qq
-Qq
-Qq
-Qq
-yD
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-Rd
-Rd
-Rd
-Rd
-Rd
 Ep
-LG
-Ao
-bs
-wY
-SK
-Bf
-Se
-YM
-hB
-Se
-Se
-YM
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -8988,78 +6983,78 @@ Hz
 tq
 "}
 (18,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-rb
-pu
-pu
-Eg
-Eg
-pu
-pu
-pu
-pu
-pu
-pu
-Eg
-Eg
-Eg
-Eg
-Eg
-Eg
-TU
-Eg
-Eg
-Eg
-Eg
-pu
-pu
-pu
-pu
-Qq
-Qq
-yD
-bi
-PX
-zV
-mG
-yD
-Qq
-yD
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-rb
-pu
-Rd
-Rd
-Rd
-Rd
-Rd
 Ep
-LG
-fG
-XX
-XX
-KQ
-Bf
-Se
-di
-KH
-di
-Se
-Se
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -9245,78 +7240,78 @@ Hz
 tq
 "}
 (19,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-rb
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-Eg
-Eg
-Eg
-kO
-PS
-PS
-Eg
-Eg
-Eg
-Eg
-cZ
-Eg
-Eg
-Eg
-pu
-pu
-yD
-yD
-yD
-PX
-mG
-mG
-mG
-mG
-iq
-Qq
-yD
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
 Ep
-LG
-LG
-Os
-hj
-hj
-ts
-Se
-eH
-vJ
-vM
-Ze
-Se
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -9502,78 +7497,78 @@ Hz
 tq
 "}
 (20,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-rb
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-Eg
-Eg
-Eg
-GC
-PS
-YE
-PS
-kO
-zq
-Eg
-Eg
-Eg
-Eg
-zq
-Eg
-GC
-pu
-pu
-Qq
-Qq
-yD
-hU
-mG
-mG
-cf
-iq
-Qq
-yD
-ew
-ew
-ew
-ew
-pu
-rb
-pu
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
 Ep
 Ep
 Ep
-PO
-hK
-hH
-hH
-xB
-qI
-Ea
-cT
-df
-Ze
-Se
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -9759,78 +7754,78 @@ Hz
 tq
 "}
 (21,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-Eg
-Eg
-cZ
-Eg
-PS
-PS
-YE
-PS
-PS
-Eg
-Qv
-Qv
-Qv
-Qv
-Qv
-Qv
-Eg
-Eg
-pu
-pu
-pu
-pu
-yD
-Qq
-Hs
-Qq
-Qq
-yD
-yD
-ew
-ew
-ew
-ew
-pu
-rb
-pu
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
 Ep
-LG
-LG
-LG
-uc
-uc
-LG
-Ze
-CP
-Cc
-ey
-rL
-kz
-di
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -10016,82 +8011,82 @@ Hz
 tq
 "}
 (22,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-Eg
-Eg
-bd
-Eg
-Eg
-YE
-PS
-PS
-YE
-Eg
-Eg
-Qv
-XO
-sc
-lY
-YZ
-Qv
-cZ
-Eg
-Eg
-pu
-pu
-pu
-pu
-iD
-kD
-pu
-pu
-pu
-pu
-pu
-ew
-ew
-pu
-pu
-Rd
-Rd
-Rd
-SF
-SF
-SF
-Rd
-Rd
-Rd
 Ep
-LG
-Uk
-qC
-RB
-RB
-LG
-LG
-LG
-uc
-uc
-LG
-LG
-LG
-LG
-LG
-LG
-LG
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 bU
@@ -10273,82 +8268,82 @@ Hz
 tq
 "}
 (23,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-rb
-pu
-pu
-pu
-Eg
-Eg
-oh
-bd
-Eg
-Eg
-Eg
-kO
-Eg
-Eg
-Nr
-Qv
-cg
-YB
-sv
-nM
-Qv
-Eg
-Qv
-Qv
-Qv
-Qv
-Qv
-Qv
-yh
-kD
-Eg
-GC
-pu
-pu
-lB
-ew
-ew
-rb
-Rd
-Rd
-Rd
-Rd
-SF
-Ue
-SF
-Rd
-Rd
-Rd
 Ep
-LG
-XJ
-FO
-yY
-RB
-pV
-pf
-Da
-FF
-aW
-aW
-Yj
-Nt
-LG
-nF
-ZE
-fZ
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 bU
@@ -10530,82 +8525,82 @@ Hz
 tq
 "}
 (24,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-rb
-rb
-pu
-Eg
-Eg
-Sl
-vL
-Sl
-Eg
-Eg
-Eg
-Eg
-Eg
-bd
-bd
-Qv
-MO
-Tt
-Tt
-nh
-Qv
-zq
-Qv
-Mo
-Js
-lM
-NE
-Qv
-fM
-ZU
-Cn
-IQ
-XU
-pu
-pu
-ew
-ew
-pu
-Eg
-Eg
-IQ
-IQ
-IQ
-IQ
-gm
-ge
-LH
-Rd
 Ep
-LG
-LG
-CE
-Vs
-Zq
-yY
-Vs
-Da
-hm
-hm
-fd
-gz
-LG
-LG
-LL
-fZ
-nF
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 bU
@@ -10787,82 +8782,82 @@ Hz
 tq
 "}
 (25,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-rb
-rb
-rb
-pu
-Eg
-Sl
-Sl
-vL
-Sl
-Sl
-TU
-Eg
-Eg
-fW
-bd
-lx
-Qv
-CG
-Tt
-Tt
-So
-Qv
-Qv
-Qv
-AL
-GN
-Oh
-ri
-Qv
-Eg
-Eg
-cZ
-IQ
-Eg
-Eg
-pu
-pu
-ej
-pu
-Eg
-Eg
-Eg
-IQ
-IQ
-IQ
-IQ
-ob
-Zf
-Rd
 Ep
-LG
-LG
-YX
-Vs
-yY
-pP
-Vs
-Da
-ov
-ov
-ov
-sY
-LG
-LG
-LO
-eC
-Dm
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 bU
@@ -11044,82 +9039,82 @@ Hz
 tq
 "}
 (26,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-rb
-pu
-rb
-pu
-Eg
-Sl
-Sl
-vL
-vL
-Sl
-no
-Eg
-Eg
-Eg
-Eg
-fV
-Qv
-sX
-IQ
-IQ
-Eg
-Eg
-Eg
-xj
-GN
-WW
-AR
-xW
-Qv
-GC
-Eg
-Eg
-IQ
-IQ
-Eg
-Eg
-rb
-pu
-pu
-cZ
-Eg
-Eg
-IQ
-IQ
-IQ
-YC
-Zl
-NT
-Rd
 Ep
-LG
-OR
-Wm
-yY
-yY
-pP
-zr
-Zr
-qj
-qj
-qj
-qj
-qj
-pv
-qj
-bO
-xI
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 bU
@@ -11301,82 +9296,82 @@ Hz
 tq
 "}
 (27,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-rb
-rb
-pu
-Eg
-Sl
-wF
-wF
-Sl
-Sl
-Eg
-cZ
-Eg
-Eg
-ec
-fV
-Qv
-Eg
-IQ
-IQ
-IQ
-Eg
-Eg
-Qv
-ON
-DH
-WW
-Fb
-bf
-IQ
-Eg
-IQ
-IQ
-Eg
-Eg
-YD
-pu
-pu
-Eg
-Eg
-ib
-IQ
-IQ
-Eg
-Eg
-Eg
-Eg
-bZ
-Rd
 Ep
-LG
-hL
-fC
-yY
-Zq
-cu
-Oe
-am
-TV
-TV
-TV
-TV
-TV
-TV
-TV
-Db
-rp
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 bU
@@ -11558,82 +9553,82 @@ Hz
 tq
 "}
 (28,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-rb
-pu
-cZ
-Eg
-wF
-wF
-wF
-wF
-fB
-Eg
-Eg
-Eg
-et
-Qv
-Qv
-Qv
-RL
-IQ
-IQ
-IQ
-IQ
-IQ
-jV
-WW
-WW
-ab
-nA
-Qv
-OZ
-IQ
-IQ
-GC
-cZ
-Eg
-pu
-lB
-Eg
-Eg
-Eg
-Eg
-IQ
-Eg
-QD
-IW
-QD
-QD
-SJ
-Rd
 Ep
-LG
-zG
-iZ
-RB
-RB
-LG
-LG
-Xc
-RN
-RN
-RN
-RN
-RN
-mi
-RN
-BG
-Cy
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 bU
@@ -11815,82 +9810,82 @@ Hz
 tq
 "}
 (29,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-rb
-pu
-Eg
-wF
-wF
-wF
-wF
-wF
-zp
-vL
-Eg
-Qv
-Qv
-Qv
-KA
-Mt
-Eg
-IQ
-IQ
-IQ
-Eg
-Eg
-Qv
-Qv
-Qv
-Qv
-Qv
-Qv
-pg
-cZ
-IQ
-IQ
-Eg
-pu
-pu
-Eg
-Eg
-Eg
-SF
-gD
-IQ
-SF
-QD
-QD
-QD
-QD
-SJ
-Rd
 Ep
-LG
-LG
-yr
-SS
-RB
-VT
-Xq
-Gk
-Ma
-Ma
-sd
-cN
-LG
-LG
-eC
-np
-nF
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 bU
@@ -12072,82 +10067,82 @@ Hz
 tq
 "}
 (30,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-Eg
-wF
-wF
-wF
-wF
-wF
-wF
-vL
-Eg
-fV
-jZ
-aA
-IQ
-IQ
-IQ
-IQ
-IQ
-Su
-IQ
-IQ
-Jy
-en
-Uf
-en
-IQ
-IQ
-iz
-Jl
-dV
-IQ
-IQ
-Ce
-Ce
-Eg
-IQ
-IQ
-IQ
-IQ
-IQ
-IQ
-QD
-IW
-QD
-QD
-SJ
-Rd
 Ep
-LG
-LG
-Ip
-SS
-Zq
-VT
-Xq
-GZ
-oO
-ov
-ov
-bQ
-Nt
-LG
-uV
-eC
-fZ
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 bU
@@ -12329,82 +10324,82 @@ Hz
 tq
 "}
 (31,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-lB
-pu
-pu
-Eg
-Eg
-Sl
-Sl
-Sl
-Sl
-Sl
-Sl
-Eg
-fV
-IQ
-aA
-IQ
-IQ
-IQ
-IQ
-IQ
-IQ
-IQ
-IQ
-IQ
-IQ
-Uf
-IQ
-IQ
-pn
-Jl
-Jl
-Eg
-Eg
-pu
-pu
-rb
-cZ
-Eg
-Eg
-IQ
-IQ
-JW
-IQ
-QD
-QD
-QD
-QD
-SJ
-Rd
 Ep
-LG
-sR
-mv
-yY
-yY
-LG
-LG
-LG
-uc
-uc
-LG
-LG
-LG
-LG
-nF
-eR
-aL
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 bU
@@ -12586,82 +10581,82 @@ Hz
 tq
 "}
 (32,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-pu
-Eg
-Eg
-Eg
-Sl
-Sl
-Sl
-fV
-fV
-fV
-HC
-Qv
-Ke
-zq
-IQ
-IQ
-Eg
-Eg
-IQ
-IQ
-Eg
-xH
-Qv
-Qv
-gb
-KB
-ss
-Eg
-Eg
-Eg
-pu
-rb
-ew
-pu
-Eg
-Eg
-IQ
-wx
-CL
-AK
-QD
-IW
-QD
-QD
-SJ
-Rd
 Ep
-LG
-uO
-AZ
-yY
-SS
-VT
-Sj
-YA
-Cc
-ey
-rL
-Sj
-lz
-LG
-LG
-LG
-LG
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 bU
@@ -12843,78 +10838,78 @@ Hz
 tq
 "}
 (33,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-pu
-Eg
-Eg
-Eg
-Sl
-Sl
-fV
-fV
-fV
-Eg
-Qv
-Qv
-Qv
-OJ
-IQ
-Eg
-Eg
-Eg
-Eg
-Eg
-kC
-Qv
-Eg
-Eg
-Jl
-GC
-cZ
-XU
-pu
-pu
-rb
-ew
-pu
-rb
-Eg
-SF
-IQ
-IQ
-SF
-QD
-QD
-QD
-QD
-SJ
-Rd
 Ep
-LG
-LG
-LG
-Bz
-LG
-LG
-Ze
-Se
-Ea
-cT
-df
-Ze
-pa
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -13100,78 +11095,78 @@ Hz
 tq
 "}
 (34,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-TU
-Eg
-Eg
-Eg
-Eg
-Eg
-Eg
-Eg
-aH
-bd
-Qv
-wa
-IQ
-Eg
-QD
-QD
-QD
-Eg
-sK
-Qv
-Eg
-Eg
-Eg
-XU
-Eg
-pu
-pu
-rb
-rb
-ew
-ew
-pu
-rb
-Eg
-Eg
-Eg
-SJ
-SJ
-SJ
-SJ
-SJ
-SJ
-Rd
 Ep
 Ep
-LG
-LG
-SB
-aK
-Cl
-Se
-Se
-xk
-Lq
-HI
-Ze
-pa
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 QF
@@ -13357,78 +11352,78 @@ Hz
 tq
 "}
 (35,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-Eg
-Eg
-Eg
-Eg
-Eg
-cZ
-bd
-bd
-bd
-Qv
-ze
-IQ
-Eg
-QD
-bl
-QD
-Eg
-Qv
-Qv
-TU
-Eg
-Eg
-pu
-pu
-pu
-pu
-lB
-ew
-ew
-ew
-ew
-pu
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
 Ep
 Ep
-LG
-Mr
-Ze
-Se
-Se
-Se
-Cl
-Cl
-Cl
-Se
-pa
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 bU
@@ -13614,78 +11609,78 @@ Hz
 tq
 "}
 (36,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-rb
-pu
-pu
-pu
-pu
-cZ
-Eg
-Eg
-Eg
-Eg
-TU
-bd
-Qv
-UQ
-Eg
-Eg
-QD
-QD
-QD
-Eg
-aZ
-Qv
-Eg
-cZ
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
 Ep
 Ep
-LG
-ZQ
-Ze
-Se
-Se
-Se
-Se
-Se
-Se
-Se
-pa
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 bU
@@ -13871,78 +11866,78 @@ Hz
 tq
 "}
 (37,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-rb
-pu
-pu
-pu
-pu
-pu
-pu
-Eg
-Eg
-Eg
-Eg
-Eg
-Qv
-et
-Eg
-Eg
-QD
-QD
-QD
-Eg
-Qv
-Qv
-FB
-pu
-pu
-rb
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-ew
-rb
-pu
-pu
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
 Ep
 Ep
-LG
-in
-Ze
-Se
-Se
-Se
-Jd
-Se
-Se
-Se
-VX
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 bU
@@ -14128,78 +12123,78 @@ Hz
 tq
 "}
 (38,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-lB
-rb
-rb
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-Eg
-Eg
-Eg
-Qv
-Qv
-fp
-mL
-nY
-eI
-QD
-zq
-Zc
-Qv
-pu
-rb
-rb
-rb
-Eg
-Eg
-Eg
-Eg
-pu
-pu
-pu
-pu
-pu
-pu
-ew
-pu
-pu
-pu
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
 Ep
 Ep
-LG
-ah
-LG
-LG
-LG
-LG
-LG
-LG
-LG
-PO
-PO
-LG
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 QF
 bU
@@ -14385,64 +12380,64 @@ Hz
 tq
 "}
 (39,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-rb
-rb
-rb
-rb
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-ku
-Qv
-Qv
-Qv
-Qv
-Qv
-Qv
-Qv
-Qv
-Qv
-rb
-rb
-pu
-TU
-Eg
-Eg
-GC
-Eg
-cZ
-Eg
-pu
-pu
-lB
-pu
-pu
-ew
-ej
-pu
-pu
-Rd
-Rd
-Rd
-Rd
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -14642,64 +12637,64 @@ Hz
 tq
 "}
 (40,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-rb
-pu
-rb
-rb
-rb
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-Eg
-Eg
-ku
-Eg
-pu
-pu
-pu
-pu
-pu
-Eg
-Eg
-Eg
-Eg
-PS
-PS
-PS
-Eg
-pu
-pu
-rb
-pu
-pu
-ew
-ew
-pu
-pu
-Rd
-Rd
-Rd
-Rd
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -14899,64 +12894,64 @@ Hz
 tq
 "}
 (41,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-lB
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-Eg
-Eg
-GC
-PS
-PS
-PS
-PS
-TU
-Eg
-pu
-rb
-pu
-lB
-ew
-ew
-ew
-pu
-Rd
-Rd
-Rd
-Rd
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -15156,64 +13151,64 @@ Hz
 tq
 "}
 (42,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-lB
-pu
-pu
-pu
-pu
-pu
-pu
-rb
-rb
-rb
-pu
-rb
-pu
-pu
-pu
-cZ
-Eg
-PS
-PS
-PS
-PS
-Eg
-Eg
-Eg
-pu
-pu
-pu
-lB
-ew
-ew
-ew
-pu
-pu
-Rd
-Rd
-Rd
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -15413,64 +13408,64 @@ Hz
 tq
 "}
 (43,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-rb
-rb
-rb
-rb
-rb
-pu
-pu
-pu
-Eg
-Eg
-PS
-PS
-PS
-GC
-Eg
-Eg
-Eg
-pu
-pu
-pu
-pu
-ew
-ew
-ew
-pu
-pu
-Rd
-Rd
-Rd
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -15670,64 +13665,64 @@ Hz
 tq
 "}
 (44,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-rb
-rb
-pu
-pu
-lB
-pu
-pu
-Eg
-Eg
-TU
-Eg
-Eg
-Eg
-Eg
-pu
-pu
-pu
-rb
-pu
-ew
-ew
-ew
-pu
-pu
-Rd
-Rd
-Rd
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -15927,64 +13922,64 @@ Hz
 tq
 "}
 (45,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-ew
-ew
-pu
-pu
-pu
-pu
-Eg
-Eg
-Eg
-cZ
-pu
-pu
-pu
-pu
-rb
-rb
-pu
-ew
-ew
-ew
-pu
-pu
-pu
-Rd
-Rd
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -16184,64 +14179,64 @@ Hz
 tq
 "}
 (46,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-rb
-pu
-pu
-pu
-ew
-ew
-ew
-ew
-pu
-pu
-Rd
-Rd
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -16441,64 +14436,64 @@ Hz
 tq
 "}
 (47,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-pu
-lB
-pu
-rb
-rb
-pu
-pu
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-Rd
-Rd
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -16698,64 +14693,64 @@ Hz
 tq
 "}
 (48,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-pu
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-Rd
-Rd
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -16955,64 +14950,64 @@ Hz
 tq
 "}
 (49,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-Rd
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -17212,64 +15207,64 @@ Hz
 tq
 "}
 (50,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -17469,64 +15464,64 @@ Hz
 tq
 "}
 (51,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-pu
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -17726,64 +15721,64 @@ Hz
 tq
 "}
 (52,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -17983,64 +15978,64 @@ Hz
 XS
 "}
 (53,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-pu
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -18240,64 +16235,64 @@ Hz
 XS
 "}
 (54,1,1) = {"
-Rd
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-ew
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -18497,64 +16492,64 @@ XS
 XS
 "}
 (55,1,1) = {"
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
-Rd
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
+Ep
 Ep
 Ep
 Ep
@@ -51445,9 +49440,9 @@ um
 RA
 QT
 Eq
-Ax
 RA
-Ax
+RA
+RA
 KF
 qt
 Hz
@@ -51690,9 +49685,9 @@ Hz
 Hz
 qt
 dL
-WA
+RA
 dL
-WA
+RA
 dL
 RA
 RA
@@ -51700,7 +49695,7 @@ XA
 FP
 fT
 RA
-oL
+gx
 oL
 RA
 xu
@@ -51947,11 +49942,11 @@ Hz
 Hz
 qt
 RA
+WA
 RA
-RA
-RA
+WA
 sw
-RA
+WA
 RA
 RA
 RA
@@ -52204,11 +50199,11 @@ Hz
 gi
 Dc
 Ra
-WA
 RA
-WA
 RA
-WA
+RA
+RA
+RA
 RA
 RA
 RA
@@ -52732,7 +50727,7 @@ aV
 aV
 aV
 oL
-oL
+Ax
 RA
 qt
 Hz
@@ -52975,11 +50970,11 @@ Hz
 OX
 MF
 RA
-WA
 RA
-WA
 RA
-WA
+RA
+RA
+RA
 eg
 oL
 cc
@@ -53232,11 +51227,11 @@ Hz
 Hz
 Dc
 RA
+WA
 RA
-RA
-RA
+WA
 sw
-RA
+WA
 RA
 RA
 aV
@@ -53748,9 +51743,9 @@ qt
 Eq
 QT
 Eq
-Ax
+oL
 Eq
-Ax
+oL
 oL
 sw
 aV
@@ -54014,7 +52009,7 @@ aV
 aV
 aV
 re
-oL
+gx
 aV
 KF
 RA
@@ -54529,9 +52524,9 @@ RA
 RA
 RA
 RA
-kf
 RA
-kf
+RA
+RA
 sw
 qt
 Hz

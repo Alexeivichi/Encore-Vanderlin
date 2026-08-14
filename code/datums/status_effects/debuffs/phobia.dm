@@ -6,7 +6,6 @@
 
 /datum/status_effect/minor_phobia_reaction/on_apply()
 	. = ..()
-	owner.emote("scream")
 	owner.adjust_jitter(12 SECONDS)
 	owner.add_stress(/datum/stress_event/startled)
 
@@ -45,10 +44,6 @@
 			to_chat(owner, span_warning("You are startled!"))
 			owner.emote("jump")
 			owner.Immobilize(0.1 SECONDS * stacks)
-
-		if(2)
-			owner.emote("scream")
-			owner.say("AAAAH!!", forced = "phobia")
 
 			if(stacks >= 5)
 				var/held_item = owner.get_active_held_item()

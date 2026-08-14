@@ -308,7 +308,7 @@
 /obj/item/key/consort
 	name = "consort key"
 	desc = "The Consort's key."
-	icon_state = "mazekey"
+	icon_state = "cheesekey"
 	lockids = list(ACCESS_LORD)
 
 /obj/item/key/walls

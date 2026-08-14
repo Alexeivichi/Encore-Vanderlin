@@ -6,7 +6,7 @@
 	/// Areas in which activation is allowed
 	var/list/allowed_areas = list(/area/indoors/town/church/chapel)
 	/// Patrons which are allowed to hold
-	var/list/allowed_patrons = list(/datum/patron/divine/mordsol)
+	var/list/allowed_patrons = list(/datum/patron/angros)
 	/// Jobs which are allowed to hold
 	var/list/allowed_jobs = list(/datum/job/gmtemplar)
 
@@ -169,7 +169,7 @@
 	RegisterSignal(bound_user, COMSIG_QDELETING, PROC_REF(bound_deleted))
 
 	if(bound_user)
-		to_chat(bound_user, SPAN_GOD_VISIRES("The weapon binds to you."))
+		to_chat(bound_user, SPAN_GOD_ANGROS("The weapon binds to you."))
 
 /datum/component/martyr_weapon/proc/bound_deleted()
 	SIGNAL_HANDLER

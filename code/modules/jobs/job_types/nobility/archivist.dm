@@ -43,9 +43,6 @@
 		/datum/language/deepspeak
 	)
 
-	mind_traits = list(
-		TRAIT_KNOW_KEEP_DOORS
-	)
 	traits = list(
 		TRAIT_NOBLE_BLOOD,
 		TRAIT_NOBLE_POWER,
