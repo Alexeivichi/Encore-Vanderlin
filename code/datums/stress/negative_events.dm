@@ -611,8 +611,9 @@
 	timer = 10 MINUTES
 	desc = span_red("My wonderful musk has been washed away...")
 	stress_change = 1
+
 /datum/stress_event/startled
-	desc = span_warning("Hearing that word made me think about something scary.")
+	desc = span_warning("For some reason, hearing that word startled me!")
 	stress_change = 1
 	max_stacks = 2
 	stress_change_per_extra_stack = 1

@@ -1,0 +1,744 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bu" = (
+/obj/structure/bars,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"bz" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/purple,
+/area/template_noop)
+"ct" = (
+/obj/effect/spawner/map_spawner/loot/coin,
+/obj/structure/rack,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors/shelter/woods)
+"db" = (
+/obj/item/flashlight/flare/torch,
+/turf/open/floor/church/green,
+/area/template_noop)
+"dM" = (
+/obj/structure/table/wood,
+/obj/item/paper/scroll,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors/shelter/woods)
+"eg" = (
+/obj/machinery/light/fueled/torchholder/r,
+/obj/structure/chair/wood/alt,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors/shelter/woods)
+"fP" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/church/green,
+/area/template_noop)
+"gH" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/turf/open/floor/church/purple,
+/area/template_noop)
+"ho" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/church/purple,
+/area/template_noop)
+"iJ" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/orcs/hard,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors/shelter/woods)
+"ja" = (
+/obj/structure/stairs/stone{
+	dir = 4
+	},
+/turf/open/floor/dirt,
+/area/template_noop)
+"je" = (
+/obj/structure/stairs/stone{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/church/purple,
+/area/template_noop)
+"jO" = (
+/turf/template_noop,
+/area/template_noop)
+"kc" = (
+/obj/structure/stairs/stone{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/church/purple,
+/area/template_noop)
+"kN" = (
+/obj/item/natural/rock/random,
+/turf/open/floor/church/purple,
+/area/template_noop)
+"lp" = (
+/obj/structure/roguetent/preopen,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"mO" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/orcs,
+/turf/open/floor/church/purple,
+/area/template_noop)
+"oc" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+"oB" = (
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors/shelter/woods)
+"pw" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/item/grown/log/tree/stick,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"rB" = (
+/obj/structure/lootable_structure/grain_barrel,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"sL" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/green,
+/area/template_noop)
+"to" = (
+/turf/closed/mineral,
+/area/indoors/shelter/woods)
+"vV" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/orcs,
+/turf/open/floor/church/green,
+/area/indoors/shelter/woods)
+"wg" = (
+/obj/structure/stairs/stone{
+	dir = 8
+	},
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"xS" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors/shelter/woods)
+"xX" = (
+/turf/open/floor/church/purple,
+/area/template_noop)
+"yw" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"yz" = (
+/obj/structure/stairs/stone{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"yG" = (
+/turf/closed/wall/mineral/wooddark/end,
+/area/indoors/shelter/woods)
+"yN" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/item/grown/log/tree/stick,
+/turf/open/floor/church/purple,
+/area/template_noop)
+"zV" = (
+/obj/structure/lootable_structure/powder_sack,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"Aa" = (
+/turf/open/openspace,
+/area/template_noop)
+"Du" = (
+/obj/structure/lootable_structure/fish_barrel,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors/shelter/woods)
+"Ef" = (
+/obj/structure/roguetent/preopen,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors/shelter/woods)
+"ET" = (
+/obj/item/grown/log/tree/stick,
+/turf/open/floor/church/green,
+/area/template_noop)
+"GP" = (
+/obj/structure/rack/shelf/biggest,
+/obj/effect/spawner/map_spawner/loot/weapon,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"Ha" = (
+/obj/structure/rack,
+/obj/effect/spawner/map_spawner/loot/common,
+/obj/effect/spawner/map_spawner/loot/medium,
+/obj/item/clothing/head/wizhat/random,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"HL" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/orcs/hard,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"HP" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/openspace,
+/area/indoors/shelter/woods)
+"HR" = (
+/obj/structure/stairs/stone{
+	dir = 8
+	},
+/turf/open/floor/church/purple,
+/area/template_noop)
+"Je" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/shelter/woods)
+"Jm" = (
+/obj/item/natural/rock/random,
+/turf/open/floor/dirt,
+/area/template_noop)
+"Kk" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/fluff/telescope,
+/turf/open/floor/church/purple,
+/area/template_noop)
+"Kt" = (
+/turf/closed/wall/mineral/wooddark/horizontal,
+/area/indoors/shelter/woods)
+"MA" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/openspace,
+/area/template_noop)
+"MS" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/template_noop)
+"Oh" = (
+/obj/structure/stairs/stone{
+	dir = 4
+	},
+/turf/open/floor/church/purple,
+/area/template_noop)
+"Oq" = (
+/obj/item/flashlight/flare/torch,
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/church/green,
+/area/indoors/shelter/woods)
+"Qj" = (
+/obj/structure/fluff/globe,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors/shelter/woods)
+"Qu" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"QL" = (
+/obj/structure/window,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors/shelter/woods)
+"Rx" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/purple,
+/area/template_noop)
+"To" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/church/purple,
+/area/template_noop)
+"Tp" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/barricade/wooden,
+/turf/open/floor/church/purple,
+/area/template_noop)
+"Uv" = (
+/turf/open/floor/church/green,
+/area/template_noop)
+"Vo" = (
+/obj/structure/stairs/stone{
+	dir = 8
+	},
+/turf/open/floor/dirt,
+/area/template_noop)
+"Vu" = (
+/obj/structure/rack/shelf/biggest,
+/obj/effect/spawner/map_spawner/loot/coin,
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"Wb" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/structure/chair/bench/church/smallbench,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors/shelter/woods)
+"WU" = (
+/obj/structure/fluff/railing/wood,
+/turf/template_noop,
+/area/template_noop)
+"Xj" = (
+/turf/open/floor/church/purple,
+/area/indoors/shelter/woods)
+"XS" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/church/purple,
+/area/template_noop)
+"ZR" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/church/green,
+/area/template_noop)
+
+(1,1,1) = {"
+Qu
+jO
+jO
+Qu
+ja
+ja
+jO
+Qu
+jO
+Qu
+Qu
+jO
+jO
+jO
+"}
+(2,1,1) = {"
+jO
+jO
+jO
+jO
+Je
+Je
+jO
+Je
+Je
+Je
+to
+Qu
+jO
+jO
+"}
+(3,1,1) = {"
+jO
+Qu
+jO
+jO
+Qu
+Qu
+jO
+to
+Ha
+rB
+to
+jO
+jO
+jO
+"}
+(4,1,1) = {"
+jO
+Qu
+Qu
+jO
+jO
+Qu
+jO
+to
+Je
+Xj
+Je
+jO
+jO
+jO
+"}
+(5,1,1) = {"
+jO
+Qu
+jO
+jO
+Je
+Je
+Qu
+Je
+wg
+yw
+lp
+Jm
+jO
+jO
+"}
+(6,1,1) = {"
+jO
+jO
+jO
+jO
+MS
+Qu
+Qu
+Je
+HL
+Xj
+lp
+Qu
+Qu
+jO
+"}
+(7,1,1) = {"
+jO
+jO
+Qu
+Je
+Qu
+jO
+Je
+Je
+Vu
+GP
+to
+Qu
+Je
+oc
+"}
+(8,1,1) = {"
+jO
+Qu
+Qu
+Je
+jO
+Qu
+Je
+Je
+Je
+Je
+to
+jO
+Je
+oc
+"}
+(9,1,1) = {"
+jO
+jO
+jO
+jO
+Qu
+Qu
+Qu
+MS
+Qu
+Qu
+jO
+jO
+jO
+jO
+"}
+(10,1,1) = {"
+jO
+jO
+Je
+lp
+lp
+Je
+Jm
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+"}
+(11,1,1) = {"
+jO
+jO
+Je
+Xj
+yw
+Je
+jO
+jO
+Je
+Je
+jO
+jO
+Qu
+jO
+"}
+(12,1,1) = {"
+jO
+Qu
+to
+HL
+zV
+to
+jO
+Qu
+Vo
+Vo
+jO
+Qu
+Qu
+jO
+"}
+(13,1,1) = {"
+Qu
+Qu
+Je
+Je
+Je
+Je
+jO
+jO
+Qu
+Qu
+jO
+jO
+Qu
+jO
+"}
+(14,1,1) = {"
+jO
+Qu
+Qu
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+"}
+
+(1,1,2) = {"
+jO
+jO
+jO
+jO
+Aa
+Aa
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+"}
+(2,1,2) = {"
+jO
+jO
+jO
+WU
+Oh
+je
+jO
+Je
+Je
+Je
+Je
+jO
+jO
+jO
+"}
+(3,1,2) = {"
+jO
+jO
+jO
+WU
+bz
+ho
+jO
+QL
+vV
+Oq
+bu
+jO
+jO
+jO
+"}
+(4,1,2) = {"
+jO
+jO
+jO
+WU
+Uv
+ho
+Aa
+QL
+yz
+pw
+Je
+jO
+jO
+jO
+"}
+(5,1,2) = {"
+jO
+jO
+jO
+WU
+sL
+ho
+Aa
+Je
+HP
+Xj
+Je
+Aa
+jO
+jO
+"}
+(6,1,2) = {"
+jO
+jO
+jO
+WU
+kN
+ho
+Aa
+Je
+Je
+lp
+Je
+Aa
+jO
+jO
+"}
+(7,1,2) = {"
+jO
+jO
+WU
+Kk
+xX
+xX
+XS
+ET
+Uv
+bz
+XS
+fP
+gH
+jO
+"}
+(8,1,2) = {"
+jO
+jO
+WU
+xX
+db
+ZR
+yN
+Tp
+xX
+Rx
+To
+To
+gH
+jO
+"}
+(9,1,2) = {"
+jO
+jO
+WU
+mO
+ho
+Aa
+Aa
+MA
+xX
+ho
+Aa
+Aa
+jO
+jO
+"}
+(10,1,2) = {"
+jO
+Je
+Je
+Ef
+Ef
+Je
+jO
+WU
+Uv
+ho
+jO
+jO
+jO
+jO
+"}
+(11,1,2) = {"
+jO
+yG
+Du
+oB
+Wb
+QL
+jO
+WU
+HR
+kc
+jO
+jO
+jO
+jO
+"}
+(12,1,2) = {"
+jO
+QL
+iJ
+xS
+Qj
+QL
+jO
+jO
+Aa
+Aa
+jO
+jO
+jO
+jO
+"}
+(13,1,2) = {"
+jO
+QL
+dM
+eg
+ct
+yG
+jO
+jO
+Aa
+Aa
+jO
+jO
+jO
+jO
+"}
+(14,1,2) = {"
+jO
+Je
+Kt
+Kt
+Kt
+Je
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+jO
+"}

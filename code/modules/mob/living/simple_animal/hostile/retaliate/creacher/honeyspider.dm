@@ -1,7 +1,7 @@
 /mob/living/simple_animal/hostile/retaliate/spider
 	icon = 'icons/roguetown/mob/monster/spider.dmi'
 	name = "beespider"
-	desc = "Swamp-lurking creachers with a wicked bite. They make honey from flowers and spin silk from their abdomen. Some dark elves see them as a sacred animal."
+	desc = "Swamp-lurking creachers with a wicked bite. They make honey from flowers and spin silk from their abdomen. Some dark elves are known to cultivate them in their underground societies."
 	icon_state = "honeys"
 	icon_living = "honeys"
 	icon_dead = "honeys-dead"
@@ -116,13 +116,13 @@
 	if(!.)
 		return
 
-	if(is_species(user, /datum/species/elf/dark))
+	if(is_species(user, list(/datum/species/elf/dark, /datum/species/human/halfdrow)))
 		production += 50
 	else
 		production += 25
 
 /mob/living/simple_animal/hostile/retaliate/spider/try_tame(mob/user, additional_tame_chance)
-	if(is_species(user, /datum/species/elf/dark))
+	if(is_species(user, list(/datum/species/elf/dark, /datum/species/human/halfdrow)))
 		additional_tame_chance += 15
 	. = ..(user, additional_tame_chance)
 

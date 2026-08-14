@@ -286,6 +286,8 @@
 
 	SEND_GLOBAL_SIGNAL(COMSIG_GLOB_JOB_AFTER_SPAWN, src, spawned, player_client)
 
+	spawned.gain_trauma(/datum/brain_trauma/mild/phobia/sages)
+
 	if(spawned.attributes)
 		assign_attributes(spawned, player_client)
 	if(!ishuman(spawned))
@@ -296,6 +298,7 @@
 
 	for(var/trait in mind_traits)
 		ADD_TRAIT(spawned.mind, trait, JOB_TRAIT)
+		ADD_TRAIT(spawned.mind, trait, TRAIT_SAGE_PHOBIA)
 
 	for(var/trait in traits)
 		ADD_TRAIT(spawned, trait, JOB_TRAIT)

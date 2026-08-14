@@ -106,7 +106,6 @@
 		"valdala",
 		"goler",
 		"pomette",
-		"gemini",
 		"archdevil",
 		"sage",
 		"hertannea"
@@ -120,5 +119,15 @@
 		"jokester",
 		"joker",
 		"joke"
+	],
+
+	"sages": [
+		"lovelost",
+		"malevoleket",
+		"gargant",
+		"losturge",
+		"protomos",
+		"heaven",
+		"vistamatra"
 	]
 }
