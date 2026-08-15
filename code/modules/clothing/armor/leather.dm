@@ -202,7 +202,7 @@
 	misc_flags = CRAFTING_TEST_EXCLUDE
 
 /obj/item/clothing/armor/leather/jacket/gatemaster_jacket
-	name = "gatemaster's coat"
+	name = "heavy leather coat"
 	desc = "A thick cloth padded coat specialty made for the gatemaster."
 	icon = 'icons/roguetown/clothing/special/gatemaster.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/gatemaster.dmi'
@@ -214,7 +214,7 @@
 	salvage_result = /obj/item/natural/cloth
 
 /obj/item/clothing/armor/leather/jacket/gatemaster_jacket/armored
-	name = "gatemaster's coat"
+	name = "leather greatcoat"
 	desc = "A thick cloth padded coat specialty made for the gatemaster."
 	icon_state = "master_coat_cuirass"
 	blocksound = PLATEHIT
