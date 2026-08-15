@@ -1,0 +1,5 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - map: "Replaced the invisible zombie mobs with skeletons in Domotan South."
+  - map: "Added missing alchemy equipment to the witch hut."
