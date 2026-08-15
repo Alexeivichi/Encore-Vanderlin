@@ -82,7 +82,7 @@
 #define SKIN_COLOR_GEMINI "C62D4C" //Bright red/pink
 #define SKIN_COLOR_AGATROS "B289C6" //Lavender
 #define SKIN_COLOR_VISTAMATRA "A8619E" //Purple
-#define SKIN_COLOR_HEAVEN "E0CED8" //Bone
+#define SKIN_COLOR_HEAVENER "E0CED8" //Bone
 
 //KOBOLD SKIN TONES
 #define SKIN_COLOR_EMBERHIDE "8B3A2F"//White - Pale
