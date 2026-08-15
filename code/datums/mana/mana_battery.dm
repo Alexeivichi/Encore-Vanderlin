@@ -71,6 +71,8 @@
 	name = MAGIC_MATERIAL_NAME + " crystal"
 	desc = "Crystalized mana." //placeholder desc
 	icon = 'icons/obj/crystals.dmi' //placeholder
+	grind_results = list(/datum/reagent/toxin/plasma = 40)
+	indexed = TRUE
 
 // Do not use, basetype
 /datum/mana_pool/mana_battery/mana_crystal
@@ -90,6 +92,8 @@
 	name = "stabilized primordial quartz crystal"
 	desc = "A stabilized Primordial Quartz Crystal, one of the few objects capable of stably storing mana without binding."
 	icon_state = "standard"
+	grid_height = 64
+	grid_width = 32
 
 /obj/item/mana_battery/mana_crystal/standard/attackby(obj/item/I, mob/living/user, list/modifiers)
 	. = ..()
@@ -114,6 +118,8 @@
 	desc = "A miniaturized Primordial Quartz Crystal, formed using the run-off of cutting larger ones. Able to hold mana still, although not as much as a proper formation."
 	icon_state = "small"
 	w_class = WEIGHT_CLASS_SMALL
+	grid_height = 32
+	grid_width = 32
 
 /obj/item/mana_battery/mana_crystal/small/get_initial_mana_pool_type()
 	return /datum/mana_pool/mana_battery/mana_crystal/small
@@ -218,6 +224,15 @@
 	amount = 0
 	ethereal_recharge_rate = 0
 	intrinsic_recharge_sources = MANA_ALL_LEYLINES
+	var/transfer_threshold = 0
+
+/datum/mana_pool/mana_pylon/transfer_specific_mana(datum/mana_pool/other_pool, amount_to_transfer, decrement_budget = TRUE)
+	if(istype(other_pool, /datum/mana_pool/mana_pylon))
+		if(amount - amount_to_transfer < transfer_threshold)
+			amount_to_transfer = max(0, amount - transfer_threshold)
+		if(!amount_to_transfer)
+			return 0
+	return ..()
 
 /datum/mana_pool/mana_fountain
 	maximum_mana_capacity = 1000

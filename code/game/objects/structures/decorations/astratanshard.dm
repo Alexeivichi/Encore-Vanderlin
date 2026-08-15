@@ -3,6 +3,7 @@ GLOBAL_LIST_EMPTY(street_lamp_lights)
 /obj/structure/crystalreactor
 	name = "shirleighan reactor"
 	max_integrity = 1500
+	integrity_failure = 1
 	icon = 'icons/roguetown/misc/64x64.dmi'
 	icon_state = "clockcrystal"
 	desc = "An unfamiliar machine of pipes and wiry veins that seems to groan in a rather disconcerting way. It appears to harness the power of some large sanguine crystal crowning it, though it holds no semblance to any particular aspect..."
@@ -19,36 +20,28 @@ GLOBAL_LIST_EMPTY(street_lamp_lights)
 	set_light(5, 4, 30, l_color = LIGHT_COLOR_PINK)
 
 /obj/structure/crystalreactor/Destroy()
-	if(broken_containment)
-		Unregall()
 	for(var/obj/machinery/light/fueledstreet/lamp as anything in GLOB.street_lamp_lights)
 		lamp.lights_out(TRUE)
 	if(the_hum)
 		QDEL_NULL(the_hum)
 	return ..()
 
-/obj/structure/crystalreactor/deconstruct(disassembled = FALSE)
-	if(!broken_containment)
-		broken_containment = TRUE
-		QDEL_NULL(the_hum)
-		the_hum = new /datum/looping_sound/crystalreactor_broken(src, FALSE)
-		the_hum.start()
-		RegisterSignal(src, COMSIG_ATOM_ATTACK_HAND,PROC_REF(on_touched))
-		RegisterSignal(src, COMSIG_ATOM_ATTACK_PAW,PROC_REF(on_touched))
-		RegisterSignal(src, COMSIG_ATOM_WAS_ATTACKED,PROC_REF(on_whacked))
-		RegisterSignal(src, COMSIG_ATOM_BUMPED,PROC_REF(on_bump))
-		icon_state = "clockcrystal_broken"
-		resistance_flags |= INDESTRUCTIBLE
-		return FALSE
-	else
-		Unregall()
-		. = ..()
+/obj/structure/crystalreactor/atom_break(damage_flag, silent)
+	. = ..()
+	if(broken_containment)
+		return
+	broken_containment = TRUE
+	QDEL_NULL(the_hum)
+	the_hum = new /datum/looping_sound/crystalreactor_broken(src, FALSE)
+	the_hum.start()
+	RegisterSignals(src, list(COMSIG_ATOM_ATTACK_HAND, COMSIG_ATOM_ATTACK_PAW), PROC_REF(on_touched))
+	RegisterSignal(src, COMSIG_ATOM_WAS_ATTACKED, PROC_REF(on_whacked))
+	RegisterSignal(src, COMSIG_ATOM_BUMPED, PROC_REF(on_bump))
+	icon_state = "clockcrystal_broken"
+	resistance_flags |= INDESTRUCTIBLE
 
-/obj/structure/crystalreactor/proc/Unregall()
-	UnregisterSignal(src, COMSIG_ATOM_ATTACK_HAND)
-	UnregisterSignal(src, COMSIG_ATOM_ATTACK_PAW)
-	UnregisterSignal(src, COMSIG_ATOM_WAS_ATTACKED)
-	UnregisterSignal(src, COMSIG_ATOM_BUMPED)
+/obj/structure/crystalreactor/atom_deconstruct(disassembled)
+	return // Nah
 
 /obj/structure/crystalreactor/proc/on_bump(atom/shard,atom/movable/movie)
 	SIGNAL_HANDLER
@@ -68,9 +61,9 @@ GLOBAL_LIST_EMPTY(street_lamp_lights)
 	if(istype(thingy,/obj))
 		var/obj/deadthing = thingy
 		src.visible_message(span_danger("\The [deadthing] vanishes in a violent flash on contact with \The [src]!"))
-		deadthing.Destroy()
+		qdel(deadthing)
 
-/obj/structure/crystalreactor/proc/send_to_valdala(mob/fool,visible_message,mob_message,cause)
+/obj/structure/crystalreactor/proc/send_to_valdala(mob/living/fool,visible_message,mob_message,cause)
 	if(isdead(fool))
 		return
 	if(!visible_message)

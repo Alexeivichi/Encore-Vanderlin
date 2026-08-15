@@ -32,7 +32,9 @@
 	playsound(owner, 'sound/magic/churn.ogg', 80)
 	ADD_TRAIT(owner, TRAIT_VALDALA_CURSE, "valdala_ritual")
 	ADD_TRAIT(owner, TRAIT_BURIED_COIN_GIVEN, "valdala_ritual")
-	owner.death()
+	ADD_TRAIT(owner, TRAIT_ZOMBIE_IMMUNE, "valdala_ritual")
+	var/mob/living/living_owner = owner
+	living_owner.death()
 
 	var/datum/objective/personal/embrace_death/objective = target
 	if(!QDELETED(objective) && !objective.completed)

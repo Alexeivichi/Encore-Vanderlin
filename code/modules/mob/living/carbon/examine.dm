@@ -33,7 +33,7 @@
 
 	//The wrap-up. Anything else we need to do before we start spanning things, we do it here.
 	//Note that this also sends a copy of our subjective pronouns.
-	SEND_SIGNAL(src, COMSIG_PARENT_EXAMINE, user, examine_sections, P)
+	SEND_SIGNAL(src, COMSIG_ATOM_EXAMINE, user, examine_sections, P)
 
 
 	// round any decimal sections up to the rest of the group
@@ -104,6 +104,9 @@
 
 	// Species, just below the name
 	var/datum/species/species = dna?.species
+	var/datum/component/disguise/spy = GetComponent(/datum/component/disguise)
+	if(spy)
+		species = spy.examine_species
 	if(species)
 		var/species_name = "\improper [user.mind?.has_antag_datum(/datum/antagonist/maniac) ? "disgusting pig" : species.name]"
 		LAZYADDASSOCLIST(examine_list, EXAMINE_SECT_SPECIES, "[P[THEYRE]] \a [species_name].")
@@ -321,6 +324,8 @@
 	. = list()
 	var/list/unobscured = get_unobscured_items(FALSE)
 	for(var/obj/item/I as anything in unobscured)
+		if(istype(I, /obj/item/clothing/armor/regenerating/skin)) //disciple skin and similiar no longer show up on examining
+			continue
 		var/slot_title = null
 		switch(unobscured[I]) // this could probably be abstracted into its own proc at some point
 			if(ITEM_SLOT_SHIRT, ITEM_SLOT_ARMOR, ITEM_SLOT_PANTS, ITEM_SLOT_CLOAK, ITEM_SLOT_SHOES)
@@ -349,12 +354,12 @@
 				slot_title = " on [P[THEIR]] left side"
 			if(ITEM_SLOT_BELT_R)
 				slot_title = " on [P[THEIR]] right side"
-		. += "[I.get_examine_icon(user)] - [P[THEYVE]] [I.get_examine_string(user)][slot_title]."
+		. += "[I.get_examine_icon(user)] - [P[THEYVE]] [I.get_examine_string(user, FALSE, TRUE)][slot_title]."
 	for(var/obj/item/I in held_items)
 		if(I.item_flags & ABSTRACT)
 			continue
 		var/wielding = I.is_wielded()
-		. += "[I.get_examine_icon(user)] - [P[THEYRE]] [wielding ? "wielding" : "holding"] [I.get_examine_string(user)] in [P[THEIR]] [wielding ? "hands" : get_held_index_name(get_held_index_of_item(I))]."
+		. += "[I.get_examine_icon(user)] - [P[THEYRE]] [wielding ? "wielding" : "holding"] [I.get_examine_string(user, FALSE, TRUE)] in [P[THEIR]] [wielding ? "hands" : get_held_index_name(get_held_index_of_item(I))]."
 
 
 /// Things that are physical but do not need to see your face to establish.
@@ -560,22 +565,26 @@
 	// Health statuses
 	if(stat == DEAD || (HAS_TRAIT(src, TRAIT_FAKEDEATH)))
 		appears_dead = TRUE
-		if(suiciding)
+		if(HAS_TRAIT(src, TRAIT_SUICIDED))
 			. += span_red("[P[THEY]] appear[pl] to have committed suicide... there is no hope of recovery.")
 		if(hellbound)
 			. += span_red("[P[THEIR]] soul seems to have been ripped out of [P[THEIR]] body. Revival is impossible.")
 
 	if(!getorganslot(ORGAN_SLOT_BRAIN) || (stat == DEAD && (IsAdminGhost(user) || self_inspect)))
 		. += span_boldred("[P[THEYRE]] dead.")
-	else if(appears_dead || stat >= UNCONSCIOUS)
+	else if(appears_dead || HAS_TRAIT(src, TRAIT_CRITICAL_CONDITION))
 		. += span_boldwarning("[P[THEYRE]] unconscious.")
-	else if(InCritical())
-		. += span_warning("[P[THEYRE]] barely unconscious.")
+	else
+		switch(stat)
+			if(UNCONSCIOUS)
+				. += span_boldwarning("[P[THEYRE]] unconscious.")
+			if(SOFT_CRIT)
+				. += span_notice("[P[THEYRE]] barely conscious.")
 
 	// Blood volume
-	if(!SEND_SIGNAL(src, COMSIG_DISGUISE_STATUS))
+	if(!SEND_SIGNAL(src, COMSIG_DISGUISE_STATUS) && CAN_HAVE_BLOOD(src))
 		var/blood_lvl_msg
-		switch(blood_volume)
+		switch(get_blood_volume())
 			if(-INFINITY to BLOOD_VOLUME_SURVIVE)
 				blood_lvl_msg = html_tag("B", "[P[THEYRE]] extremely pale and sickly.")
 			if(BLOOD_VOLUME_SURVIVE to BLOOD_VOLUME_BAD)

@@ -135,6 +135,13 @@
 "by" = (
 /turf/open/floor/grass/cold,
 /area/outdoors/beach)
+"bz" = (
+/obj/structure/notice_board,
+/obj/effect/decal/borderfall{
+	dir = 1
+	},
+/turf/open/floor/snow,
+/area/outdoors/woods/etgard)
 "bC" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -142,6 +149,11 @@
 /obj/item/fishingrod,
 /turf/open/floor/twig,
 /area/outdoors/beach)
+"bG" = (
+/obj/structure/closet/dirthole/closed,
+/obj/effect/mapping_helpers/structure/grave_spawner/t2/_elementalist,
+/turf/open/floor/dirt,
+/area/outdoors/town)
 "bP" = (
 /obj/effect/landmark/quest_spawner/easy,
 /turf/open/floor/snow,
@@ -339,6 +351,10 @@
 	},
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
+"fL" = (
+/obj/structure/closet/dirthole/closed,
+/turf/open/floor/dirt/road,
+/area/outdoors/woods/etgard)
 "fT" = (
 /turf/closed/wall/mineral/wooddark,
 /area/outdoors/town)
@@ -371,9 +387,11 @@
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "gx" = (
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt,
-/area/outdoors/town)
+/obj/effect/decal/borderfall{
+	dir = 1
+	},
+/turf/open/floor/grass/cold,
+/area/outdoors/woods/etgard)
 "gH" = (
 /turf/closed/mineral/random/med,
 /area/under/cavewet)
@@ -1113,6 +1131,11 @@
 	},
 /turf/open/floor/twig,
 /area/indoors/shelter)
+"uw" = (
+/obj/structure/closet/dirthole/closed,
+/obj/effect/mapping_helpers/structure/grave_spawner/t2/_elementalist,
+/turf/open/floor/dirt/road,
+/area/outdoors/town)
 "uS" = (
 /obj/structure/flora/grass/pyroclasticflowers,
 /turf/open/floor/dirt/road,
@@ -1385,8 +1408,8 @@
 /turf/open/floor/grass/yel,
 /area/outdoors/town)
 "Ax" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker,
+/obj/structure/closet/dirthole/closed,
+/obj/effect/mapping_helpers/structure/grave_spawner/_elementalist,
 /turf/open/floor/dirt,
 /area/outdoors/town)
 "Ay" = (
@@ -1423,6 +1446,11 @@
 "Bo" = (
 /obj/structure/flora/grass/bush_meagre,
 /turf/open/floor/dirt,
+/area/outdoors/town)
+"By" = (
+/obj/structure/closet/dirthole/closed,
+/obj/effect/mapping_helpers/structure/grave_spawner/t2,
+/turf/open/floor/dirt/road,
 /area/outdoors/town)
 "BY" = (
 /obj/machinery/light/fueled/torchholder/c,
@@ -2347,6 +2375,14 @@
 /obj/structure/fluff/railing/border,
 /turf/open/floor/cobble/mossy,
 /area/under/cave)
+"TU" = (
+/turf/closed/wall/mineral/wooddark/end,
+/area/outdoors/woods/etgard)
+"TW" = (
+/obj/structure/closet/dirthole/closed,
+/obj/effect/mapping_helpers/structure/grave_spawner/t2/angros,
+/turf/open/floor/dirt/road,
+/area/outdoors/town)
 "TZ" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/twig,
@@ -2461,9 +2497,8 @@
 /turf/open/floor/cobble/alt,
 /area/outdoors/woods/etgard)
 "WA" = (
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt/road,
-/area/outdoors/town)
+/turf/closed/wall/mineral/wooddark/vertical,
+/area/outdoors/woods/etgard)
 "WB" = (
 /obj/item/natural/stone,
 /obj/machinery/light/fueled/torchholder/c,
@@ -2491,6 +2526,11 @@
 	},
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
+"WU" = (
+/obj/structure/closet/dirthole/closed,
+/obj/effect/mapping_helpers/structure/grave_spawner/_elementalist,
+/turf/open/floor/dirt/road,
+/area/outdoors/town)
 "WV" = (
 /obj/effect/landmark/map_load_mark/generic_tile,
 /turf/closed/mineral,
@@ -2506,6 +2546,11 @@
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean,
 /area/outdoors/woods/etgard)
+"Xl" = (
+/obj/structure/closet/dirthole/closed,
+/obj/effect/mapping_helpers/structure/grave_spawner/t2/angros,
+/turf/open/floor/dirt,
+/area/outdoors/town)
 "Xo" = (
 /obj/structure/flora/grass,
 /turf/open/floor/snow,
@@ -2560,6 +2605,12 @@
 /obj/structure/flora/grass/water/reeds,
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
+"YJ" = (
+/obj/effect/decal/borderfall{
+	dir = 1
+	},
+/turf/open/floor/snow,
+/area/outdoors/woods/etgard)
 "YP" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/snow,
@@ -33729,8 +33780,8 @@ Xy
 Hz
 Hz
 jW
-jW
-jW
+WA
+gx
 jW
 jW
 jW
@@ -33986,9 +34037,9 @@ Xy
 Hz
 Hz
 Xo
-jW
-jW
-jW
+TU
+bz
+OX
 jW
 OX
 nt
@@ -34243,8 +34294,8 @@ Xy
 Xy
 Xy
 Hz
-Hz
-Hz
+WA
+YJ
 Hz
 jW
 OX
@@ -34501,8 +34552,8 @@ Xy
 Tj
 Hz
 OX
-OX
-OX
+Hz
+Hz
 Hz
 yn
 Sp
@@ -48144,8 +48195,8 @@ Hz
 Hz
 Hz
 Hz
-OX
-OX
+fL
+fL
 Hz
 Hz
 Hz
@@ -49694,9 +49745,9 @@ RA
 XA
 FP
 fT
-RA
-gx
+TW
 oL
+Xl
 RA
 xu
 RA
@@ -49942,11 +49993,11 @@ Hz
 Hz
 qt
 RA
-WA
 RA
-WA
+RA
+RA
 sw
-WA
+RA
 RA
 RA
 RA
@@ -50455,11 +50506,11 @@ Hz
 Hz
 eO
 Dc
+uw
 RA
+By
 RA
-RA
-RA
-RA
+WU
 RA
 RA
 RA
@@ -50727,7 +50778,7 @@ aV
 aV
 aV
 oL
-Ax
+oL
 RA
 qt
 Hz
@@ -51227,11 +51278,11 @@ Hz
 Hz
 Dc
 RA
-WA
 RA
-WA
+RA
+RA
 sw
-WA
+RA
 RA
 RA
 aV
@@ -51483,11 +51534,11 @@ Hz
 Hz
 Hz
 Dc
+Ax
 oL
+bG
 oL
-oL
-oL
-oL
+Ax
 oL
 RA
 aV
@@ -52009,7 +52060,7 @@ aV
 aV
 aV
 re
-gx
+oL
 aV
 KF
 RA

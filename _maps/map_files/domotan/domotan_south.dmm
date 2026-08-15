@@ -41,10 +41,20 @@
 /turf/open/floor/dirt,
 /area/under/cavewet)
 "al" = (
-/obj/structure/gravemarker,
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	dir = 1;
+	icon_state = "border"
+	},
+/obj/machinery/light/fueled/lanternpost/fixed{
+	pixel_x = 10
+	},
+/obj/structure/fluff/railing/border,
+/turf/open/floor/ruinedwood,
+/area/outdoors/woods/crossroads)
 "am" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -88,13 +98,6 @@
 "au" = (
 /turf/closed/mineral/bedrock,
 /area/outdoors/woods/heavenscoast)
-"av" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "aw" = (
 /obj/structure/door/weak/bolt{
 	dir = 8
@@ -135,7 +138,9 @@
 /turf/open/floor/blocks/paving,
 /area/indoors/shelter/bog)
 "aF" = (
-/obj/structure/fake_machine/mail,
+/obj/structure/fake_machine/mail{
+	mailtag = "Bog Witch Hut"
+	},
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/shelter/bog/witch)
 "aG" = (
@@ -758,13 +763,6 @@
 /obj/structure/bridge,
 /turf/open/openspace,
 /area/outdoors/woods/heavenscoast)
-"dC" = (
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/obj/structure/closet/dirthole/grave,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "dD" = (
 /obj/structure/chair/wood/alt/chair_noble/purple,
 /turf/open/floor/ruinedwood/darker,
@@ -883,9 +881,7 @@
 /area/outdoors/bog/witch)
 "eh" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/carbon/human/species/zizombie/npc{
-	faction = list("Undead")
-	},
+/mob/living/carbon/human/species/skeleton/npc/peasant,
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter/bog)
 "ei" = (
@@ -930,7 +926,7 @@
 /turf/open/floor/hexstone,
 /area/under/town/basement)
 "eu" = (
-/obj/machinery/light/fueled/wallfire/candle/skull/r,
+/obj/machinery/light/fueled/wallfire/candle/blue/r,
 /turf/open/floor/grass/mixyel,
 /area/outdoors/bog)
 "ev" = (
@@ -1002,7 +998,7 @@
 /turf/open/floor/cobblerock/alt,
 /area/outdoors/bog/w_highroad)
 "eK" = (
-/obj/machinery/light/fueled/wallfire/candle/skull/r,
+/obj/machinery/light/fueled/wallfire/candle/blue/r,
 /turf/open/floor/dirt/road,
 /area/indoors/shelter/bog)
 "eL" = (
@@ -1237,6 +1233,15 @@
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean,
 /area/outdoors/woods/heavenscoast)
+"fT" = (
+/obj/structure/table/wood/large_new{
+	dir = 4;
+	icon_state = "alt_largetable"
+	},
+/obj/machinery/essence/combiner,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/hexstone,
+/area/indoors/shelter/bog/witch)
 "fU" = (
 /obj/structure/closet/crate/crafted_closet/inn,
 /obj/item/weapon/shovel,
@@ -1275,7 +1280,7 @@
 /area/outdoors/bog)
 "ge" = (
 /obj/structure/bed/shit,
-/obj/machinery/light/fueled/wallfire/candle/skull/l,
+/obj/machinery/light/fueled/wallfire/candle/blue/l,
 /turf/open/floor/hay,
 /area/indoors/shelter/bog)
 "gf" = (
@@ -1374,9 +1379,7 @@
 /area/indoors/shelter/bog/witch)
 "gJ" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/carbon/human/species/zizombie/npc{
-	faction = list("Undead")
-	},
+/mob/living/carbon/human/species/skeleton/npc/peasant,
 /turf/open/floor/twig/platform,
 /area/indoors/shelter/bog)
 "gL" = (
@@ -1424,6 +1427,13 @@
 /mob/living/carbon/human/species/human/northern/searaider,
 /turf/open/floor/naturalstone,
 /area/under/cave)
+"ha" = (
+/obj/structure/table/wood/large_new{
+	dir = 4;
+	icon_state = "alt_largetable"
+	},
+/turf/open/openspace,
+/area/outdoors/bog)
 "hb" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4
@@ -1665,6 +1675,24 @@
 /obj/item/fishing/hook/thorn,
 /turf/open/floor/dirt,
 /area/outdoors/bog/witch)
+"ig" = (
+/obj/structure/table/wood/counter/end{
+	dir = 1
+	},
+/obj/item/natural/bundle/stick{
+	pixel_y = 8;
+	amount = 5
+	},
+/obj/item/natural/bundle/stick{
+	pixel_y = 4;
+	amount = 5
+	},
+/turf/open/floor/hexstone,
+/area/indoors/shelter/bog/witch)
+"ih" = (
+/mob/living/carbon/human/species/skeleton/npc/hard,
+/turf/open/floor/dirt/road,
+/area/indoors/shelter/bog)
 "ii" = (
 /obj/structure/bars,
 /turf/open/floor/dirt,
@@ -1816,7 +1844,6 @@
 /turf/open/floor/sand/sandstone,
 /area/indoors/shelter)
 "iW" = (
-/obj/structure/gravemarker,
 /obj/structure/closet/dirthole/grave,
 /turf/open/floor/dirt,
 /area/outdoors/woods/crossroads)
@@ -1860,9 +1887,7 @@
 /turf/open/floor/dirt,
 /area/indoors/shelter/bog)
 "jf" = (
-/mob/living/carbon/human/species/zizombie/npc{
-	faction = list("Undead")
-	},
+/mob/living/carbon/human/species/skeleton/npc/warrior,
 /turf/open/floor/dirt/road,
 /area/outdoors/bog)
 "jg" = (
@@ -1888,7 +1913,6 @@
 /turf/closed/wall/mineral/stone/moss/red,
 /area/under/cave)
 "jm" = (
-/obj/structure/gravemarker,
 /obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt,
 /area/outdoors/woods/crossroads)
@@ -2035,9 +2059,7 @@
 /turf/open/floor/hay,
 /area/indoors/shelter/bog)
 "jZ" = (
-/mob/living/carbon/human/species/zizombie/npc/militiamen{
-	faction = list("Undead")
-	},
+/mob/living/carbon/human/species/skeleton/npc/medium,
 /turf/open/floor/ruinedwood,
 /area/outdoors/bog)
 "kb" = (
@@ -2547,9 +2569,7 @@
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
 "mB" = (
-/mob/living/carbon/human/species/zizombie/npc{
-	faction = list("Undead")
-	},
+/mob/living/carbon/human/species/skeleton/npc/warrior,
 /turf/open/floor/dirt,
 /area/outdoors/bog)
 "mC" = (
@@ -2637,9 +2657,7 @@
 /turf/open/floor/grass/mixyel,
 /area/outdoors/bog)
 "mV" = (
-/mob/living/carbon/human/species/zizombie/npc{
-	faction = list("Undead")
-	},
+/mob/living/carbon/human/species/skeleton/npc/peasant,
 /turf/open/floor/grass/mixyel,
 /area/indoors/shelter/bog)
 "mW" = (
@@ -2652,10 +2670,6 @@
 /obj/effect/decal/cobbleedge,
 /turf/open/floor/hexstone,
 /area/under/cavewet)
-"mZ" = (
-/obj/structure/bounty_board,
-/turf/open/floor/ruinedwood/spiral,
-/area/indoors/shelter)
 "na" = (
 /turf/closed/mineral,
 /area/under/cave)
@@ -2862,8 +2876,6 @@
 /turf/open/floor/hexstone,
 /area/under/town/basement)
 "of" = (
-/obj/structure/gravemarker,
-/obj/structure/closet/dirthole/closed/loot,
 /obj/machinery/light/fueled/wallfire/candle/skull,
 /turf/open/floor/dirt/road,
 /area/under/town/basement)
@@ -2885,7 +2897,7 @@
 /area/under/cavewet)
 "ol" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/fueled/wallfire/candle/skull/r,
+/obj/machinery/light/fueled/wallfire/candle/blue/r,
 /turf/open/floor/twig/platform,
 /area/indoors/shelter/bog)
 "on" = (
@@ -2972,10 +2984,11 @@
 /turf/open/floor/naturalstone,
 /area/under/town/basement)
 "oI" = (
-/obj/structure/window/openclose/reinforced{
-	dir = 1
+/obj/structure/door/green{
+	name = "alchemy laboratory"
 	},
-/turf/open/floor/ruinedwood/darker,
+/obj/effect/mapping_helpers/access/keyset/other/bogwitch,
+/turf/open/floor/rooftop/green,
 /area/indoors/shelter/bog/witch)
 "oJ" = (
 /obj/structure/gate/bars/preopen{
@@ -3218,10 +3231,12 @@
 /turf/open/floor/twig,
 /area/outdoors/woods/crossroads)
 "pK" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker,
-/turf/open/floor/grass/healthy,
-/area/indoors/shelter/bog)
+/obj/effect/decal/borderfall{
+	dir = 1
+	},
+/obj/structure/notice_board,
+/turf/open/floor/grass/yel,
+/area/outdoors/woods/crossroads)
 "pM" = (
 /mob/living/carbon/human/species/skeleton/npc/peasant,
 /turf/open/floor/wood/nosmooth,
@@ -3534,13 +3549,11 @@
 /turf/open/water/ocean/abyss,
 /area/outdoors/woods/heavenscoast)
 "rq" = (
-/mob/living/carbon/human/species/zizombie/npc/peasant{
-	faction = list("Undead")
-	},
+/mob/living/carbon/human/species/skeleton/npc/warrior,
 /turf/open/floor/grass/mixyel,
 /area/outdoors/bog)
 "rr" = (
-/obj/machinery/light/fueled/wallfire/candle/skull/l,
+/obj/machinery/light/fueled/wallfire/candle/blue/l,
 /turf/open/floor/grass/mixyel,
 /area/indoors/shelter/bog)
 "rs" = (
@@ -3818,16 +3831,17 @@
 /obj/effect/decal/cobbleedge{
 	icon_state = "mossyedge-e"
 	},
-/obj/machinery/light/fueled/wallfire/candle/skull,
+/obj/machinery/light/fueled/wallfire/candle/blue,
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter/bog)
-"sJ" = (
-/obj/structure/bounty_board{
-	pixel_y = 28;
-	pixel_x = 9
+"sK" = (
+/obj/machinery/essence/reservoir,
+/obj/structure/table/wood/large_new{
+	dir = 4;
+	icon_state = "alt_largetable"
 	},
-/turf/open/floor/ruinedwood/darker,
-/area/indoors/shelter/bog)
+/turf/open/floor/hexstone,
+/area/indoors/shelter/bog/witch)
 "sL" = (
 /obj/machinery/light/fueled/wallfire/candle/skull/l,
 /turf/open/water/sewer,
@@ -4019,10 +4033,8 @@
 /turf/open/floor/woodturned,
 /area/under/cave)
 "tC" = (
-/mob/living/carbon/human/species/zizombie/npc{
-	faction = list("Undead")
-	},
-/obj/machinery/light/fueled/wallfire/candle/skull/r,
+/mob/living/carbon/human/species/skeleton/npc/warrior,
+/obj/machinery/light/fueled/wallfire/candle/blue/r,
 /turf/open/floor/dirt,
 /area/indoors/shelter/bog)
 "tD" = (
@@ -4146,7 +4158,7 @@
 /turf/open/openspace,
 /area/outdoors/bog)
 "ug" = (
-/obj/machinery/light/fueled/wallfire/candle/skull/r,
+/obj/machinery/light/fueled/wallfire/candle/blue/r,
 /turf/open/floor/hay,
 /area/indoors/shelter/bog)
 "uh" = (
@@ -4375,11 +4387,6 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/cobble,
 /area/under/cavewet)
-"vp" = (
-/obj/structure/gravemarker,
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt,
-/area/outdoors/woods/crossroads)
 "vs" = (
 /mob/living/simple_animal/hostile/retaliate/bigrat,
 /turf/open/floor/cobble/mossy,
@@ -4603,7 +4610,7 @@
 /turf/open/floor/grass/healthy,
 /area/outdoors/woods/crossroads)
 "wC" = (
-/obj/machinery/light/fueled/wallfire/candle/skull,
+/obj/machinery/light/fueled/wallfire/candle/blue,
 /turf/open/floor/ruinedwood,
 /area/outdoors/bog)
 "wD" = (
@@ -4695,11 +4702,6 @@
 /obj/item/chair,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/shelter)
-"wU" = (
-/obj/structure/gravemarker,
-/obj/structure/closet/dirthole/grave,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "wW" = (
 /obj/structure/fluff/railing/tall/retaining,
 /obj/structure/fluff/railing/wood,
@@ -4913,6 +4915,7 @@
 /obj/effect/decal/cobbleedge{
 	icon_state = "mossyedge-sread"
 	},
+/mob/living/carbon/human/species/skeleton/npc/peasant,
 /turf/open/floor/dirt,
 /area/indoors/shelter/bog)
 "xT" = (
@@ -5045,6 +5048,10 @@
 /obj/structure/lootable_structure/fish_barrel,
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
+"yv" = (
+/mob/living/carbon/human/species/skeleton/npc/peasant,
+/turf/open/floor/grass/yel,
+/area/outdoors/woods/heavenscoast)
 "yx" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean/abyss,
@@ -5238,13 +5245,6 @@
 	},
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
-"zx" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/turf/open/floor/grass/healthy,
-/area/indoors/shelter/bog)
 "zA" = (
 /obj/structure/fluff/railing/border{
 	dir = 1;
@@ -5312,6 +5312,11 @@
 "zP" = (
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
+"zQ" = (
+/obj/structure/table/wood/counter/end,
+/obj/machinery/essence/splitter,
+/turf/open/floor/hexstone,
+/area/indoors/shelter/bog/witch)
 "zS" = (
 /obj/item/natural/stone,
 /turf/open/floor/blocks,
@@ -5649,13 +5654,19 @@
 /turf/open/water/swamp,
 /area/outdoors/bog)
 "Bn" = (
-/obj/structure/gravemarker{
-	pixel_x = -21
+/obj/structure/fluff/signage{
+	name = "LODGE BERKLEIGH - WEST";
+	dir = 8;
+	pixel_y = 8;
+	pixel_x = 21
 	},
-/obj/structure/closet/dirthole/closed/loot,
-/obj/machinery/light/fueled/wallfire/candle/skull,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 1;
+	icon_state = "border"
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/woods/crossroads)
 "Bo" = (
 /obj/structure/door/weak/bolt{
 	dir = 1
@@ -5931,13 +5942,10 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/shelter)
 "Cy" = (
-/mob/living/carbon/human/species/zizombie/npc/militiamen{
-	faction = list("Undead")
-	},
+/mob/living/carbon/human/species/skeleton/npc/medium,
 /turf/open/floor/cobble/mossy,
 /area/indoors/shelter/bog)
 "Cz" = (
-/obj/structure/gravemarker,
 /obj/structure/closet/dirthole/grave,
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
@@ -6061,7 +6069,7 @@
 "Dd" = (
 /obj/structure/bed/shit,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/fueled/wallfire/candle/skull,
+/obj/machinery/light/fueled/wallfire/candle/blue,
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter/bog)
 "Df" = (
@@ -6373,6 +6381,11 @@
 "EB" = (
 /turf/open/water/swamp/deep,
 /area/outdoors/bog)
+"ED" = (
+/obj/item/grown/log/tree/small,
+/mob/living/carbon/human/species/skeleton/npc/medium,
+/turf/open/floor/dirt/road,
+/area/indoors/shelter/bog)
 "EE" = (
 /obj/effect/decal/cobbleedge{
 	icon_state = "mossyedge-e"
@@ -6545,10 +6558,8 @@
 /turf/open/floor/cobble/alt,
 /area/indoors/shelter/woods)
 "Fo" = (
-/mob/living/carbon/human/species/zizombie/npc{
-	faction = list("Undead")
-	},
-/obj/machinery/light/fueled/wallfire/candle/skull,
+/mob/living/carbon/human/species/skeleton/npc/peasant,
+/obj/machinery/light/fueled/wallfire/candle/blue,
 /turf/open/floor/dirt,
 /area/indoors/shelter/bog)
 "Fp" = (
@@ -6557,6 +6568,10 @@
 	},
 /turf/open/floor/cobble,
 /area/under/cavewet)
+"Fq" = (
+/obj/structure/ladder,
+/turf/open/floor/hexstone,
+/area/indoors/shelter/bog/witch)
 "Fr" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood/old,
@@ -6607,6 +6622,7 @@
 /obj/item/neuFarm/seed/poppy,
 /obj/item/neuFarm/seed/swampleaf,
 /obj/item/neuFarm/seed/westleach,
+/obj/item/neuFarm/seed/wheat,
 /turf/open/floor/dirt,
 /area/outdoors/bog/witch)
 "FA" = (
@@ -7038,6 +7054,9 @@
 /obj/structure/flora/tree/pine/dead,
 /turf/open/floor/grass,
 /area/outdoors/woods/crossroads)
+"HL" = (
+/turf/open/floor/hexstone,
+/area/outdoors/bog)
 "HN" = (
 /turf/closed/mineral,
 /area/outdoors/bog)
@@ -7227,6 +7246,10 @@
 /obj/structure/door/iron/bars,
 /turf/open/floor/dirt/road,
 /area/indoors/shelter/bog)
+"Jp" = (
+/mob/living/carbon/human/species/skeleton/npc/warrior,
+/turf/open/floor/dirt,
+/area/indoors/shelter/bog)
 "Jq" = (
 /obj/structure/bridge_stakes{
 	dir = 1
@@ -7309,11 +7332,9 @@
 /turf/open/floor/cobblerock,
 /area/under/cave)
 "JF" = (
-/mob/living/carbon/human/species/zizombie/npc/peasant{
-	faction = list("Undead")
-	},
+/mob/living/carbon/human/species/skeleton/npc/medium,
 /turf/open/floor/dirt/road,
-/area/outdoors/bog)
+/area/indoors/shelter/bog)
 "JG" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/twig/platform,
@@ -7397,7 +7418,7 @@
 /obj/effect/decal/borderfall{
 	dir = 1
 	},
-/obj/machinery/light/fueled/wallfire/candle/skull,
+/obj/machinery/light/fueled/wallfire/candle/blue,
 /turf/open/floor/grass/mixyel,
 /area/outdoors/bog)
 "Ke" = (
@@ -7424,9 +7445,7 @@
 /turf/open/floor/grass/healthy,
 /area/outdoors/bog)
 "Kk" = (
-/mob/living/carbon/human/species/zizombie/npc{
-	faction = list("Undead")
-	},
+/mob/living/carbon/human/species/skeleton/npc/peasant,
 /turf/open/floor/dirt/road,
 /area/indoors/shelter/bog)
 "Kl" = (
@@ -7435,6 +7454,12 @@
 	},
 /turf/open/floor/cobblerock/alt,
 /area/outdoors/bog/w_highroad)
+"Ko" = (
+/obj/structure/table/wood/counter/end,
+/obj/item/reagent_containers/glass/mortar,
+/obj/item/pestle,
+/turf/open/floor/hexstone,
+/area/indoors/shelter/bog/witch)
 "Kr" = (
 /obj/structure/closet/crate/drawer,
 /turf/open/floor/hexstone,
@@ -7841,6 +7866,22 @@
 	},
 /turf/open/floor/sand/sandstone,
 /area/outdoors/woods/crossroads)
+"MO" = (
+/obj/structure/closet/crate/chest/old_crate,
+/obj/item/essence_vial,
+/obj/item/essence_vial,
+/obj/item/essence_vial,
+/obj/item/essence_vial,
+/obj/item/essence_vial,
+/obj/item/essence_vial,
+/obj/item/essence_vial,
+/obj/item/essence_vial,
+/obj/item/essence_vial,
+/obj/item/essence_vial,
+/obj/item/essence_node_jar,
+/obj/item/essence_connector,
+/turf/open/floor/hexstone,
+/area/indoors/shelter/bog/witch)
 "MP" = (
 /obj/structure/fluff/railing/border,
 /turf/open/floor/ruinedwood,
@@ -8035,13 +8076,6 @@
 /obj/machinery/light/fueled/torchholder/metal_torch/west,
 /turf/open/floor/cobble/alt,
 /area/outdoors/bog/w_highroad)
-"NP" = (
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "NQ" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/dirt,
@@ -8274,9 +8308,7 @@
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/shelter/bog)
 "Pg" = (
-/mob/living/carbon/human/species/zizombie/npc{
-	faction = list("Undead")
-	},
+/mob/living/carbon/human/species/skeleton/npc/peasant,
 /turf/open/floor/dirt,
 /area/indoors/shelter/bog)
 "Pj" = (
@@ -8289,11 +8321,6 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
-"Pm" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "Po" = (
 /obj/item/natural/stone,
 /turf/open/floor/grass,
@@ -8505,7 +8532,7 @@
 	pixel_y = 10;
 	pixel_x = 15
 	},
-/obj/machinery/light/fueled/wallfire/candle/skull/l,
+/obj/machinery/light/fueled/wallfire/candle/blue/l,
 /turf/open/floor/twig/platform,
 /area/outdoors/bog)
 "Qj" = (
@@ -8632,11 +8659,12 @@
 /turf/open/floor/twig/platform,
 /area/outdoors/woods/heavenscoast)
 "QS" = (
-/mob/living/carbon/human/species/zizombie/npc/peasant{
-	faction = list("Undead")
+/obj/structure/table/wood/counter/end{
+	dir = 1
 	},
-/turf/open/floor/dirt,
-/area/outdoors/bog)
+/obj/machinery/essence/harvester,
+/turf/open/floor/hexstone,
+/area/indoors/shelter/bog/witch)
 "QU" = (
 /turf/open/floor/rooftop/green,
 /area/outdoors/bog)
@@ -8645,6 +8673,10 @@
 /mob/living/simple_animal/hostile/retaliate/spider,
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
+"QW" = (
+/mob/living/carbon/human/species/skeleton/npc/peasant,
+/turf/open/floor/ruinedwood,
+/area/indoors/shelter/bog)
 "QX" = (
 /obj/machinery/light/fueled/wallfire/candle/blue/l,
 /turf/open/floor/ruinedwood/darker,
@@ -8909,8 +8941,21 @@
 /obj/structure/fluff/railing/tall/retaining{
 	dir = 8
 	},
-/obj/structure/fermentation_keg/random/water,
-/obj/item/reagent_containers/glass/bucket/wooden,
+/obj/structure/closet/crate/chest/old_crate,
+/obj/item/reagent_containers/glass/bottle,
+/obj/item/reagent_containers/glass/bottle,
+/obj/item/reagent_containers/glass/bottle,
+/obj/item/reagent_containers/glass/bottle,
+/obj/item/reagent_containers/glass/bottle/vial,
+/obj/item/reagent_containers/glass/bottle/vial,
+/obj/item/reagent_containers/glass/bottle/vial,
+/obj/item/reagent_containers/glass/bottle/vial,
+/obj/item/reagent_containers/glass/bottle/vial,
+/obj/item/reagent_containers/glass/bottle/vial,
+/obj/item/reagent_containers/glass/bottle/vial,
+/obj/item/reagent_containers/glass/bottle/vial,
+/obj/item/reagent_containers/glass/bottle/vial,
+/obj/item/reagent_containers/glass/bottle/vial,
 /turf/open/floor/hexstone,
 /area/indoors/shelter/bog/witch)
 "Sh" = (
@@ -8966,7 +9011,7 @@
 /turf/open/floor/blocks/green,
 /area/under/cavewet)
 "Sw" = (
-/obj/machinery/light/fueled/wallfire/candle/skull/l,
+/obj/machinery/light/fueled/wallfire/candle/blue/l,
 /turf/open/floor/dirt,
 /area/outdoors/bog)
 "Sy" = (
@@ -9221,7 +9266,7 @@
 	pixel_y = 10;
 	pixel_x = 9
 	},
-/obj/machinery/light/fueled/wallfire/candle/skull/r,
+/obj/machinery/light/fueled/wallfire/candle/blue/r,
 /turf/open/floor/twig/platform,
 /area/outdoors/bog)
 "TL" = (
@@ -9586,10 +9631,8 @@
 /turf/open/floor/dirt,
 /area/indoors/shelter/woods)
 "VF" = (
-/mob/living/carbon/human/species/zizombie/npc{
-	faction = list("Undead")
-	},
 /obj/structure/ladder,
+/mob/living/carbon/human/species/skeleton/npc/peasant,
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter/bog)
 "VJ" = (
@@ -9621,22 +9664,6 @@
 /area/under/cavewet)
 "VS" = (
 /obj/structure/fluff/railing/tall/retaining,
-/obj/structure/closet/crate/chest/old_crate,
-/obj/item/reagent_containers/glass/bottle,
-/obj/item/reagent_containers/glass/bottle,
-/obj/item/reagent_containers/glass/bottle,
-/obj/item/reagent_containers/glass/bottle,
-/obj/item/reagent_containers/glass/bottle,
-/obj/item/reagent_containers/glass/bottle,
-/obj/item/reagent_containers/glass/bottle/vial,
-/obj/item/reagent_containers/glass/bottle/vial,
-/obj/item/reagent_containers/glass/bottle/vial,
-/obj/item/reagent_containers/glass/bottle/vial,
-/obj/item/reagent_containers/glass/bottle/vial,
-/obj/item/reagent_containers/glass/bottle/vial,
-/obj/item/reagent_containers/glass/bottle/vial,
-/obj/item/reagent_containers/glass/bottle/vial,
-/obj/item/reagent_containers/glass/bottle/vial,
 /obj/machinery/light/fueled/wallfire/candle/blue/l,
 /turf/open/floor/hexstone,
 /area/indoors/shelter/bog/witch)
@@ -9776,6 +9803,20 @@
 /obj/item/natural/rock,
 /turf/open/floor/cobblerock,
 /area/under/town/basement)
+"WC" = (
+/obj/structure/table/wood/large_new{
+	dir = 4;
+	icon_state = "alt_largetable"
+	},
+/obj/machinery/essence/reservoir,
+/turf/open/floor/hexstone,
+/area/indoors/shelter/bog/witch)
+"WE" = (
+/obj/item/reagent_containers/glass/bucket/wooden,
+/obj/structure/fermentation_keg/random/water,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/hexstone,
+/area/indoors/shelter/bog/witch)
 "WG" = (
 /obj/structure/fluff/railing/tall/retaining,
 /obj/structure/fluff/railing/wood{
@@ -9895,17 +9936,6 @@
 /turf/open/floor/wood,
 /area/indoors/shelter)
 "Xp" = (
-/obj/structure/table/wood/plain_alt,
-/obj/item/reagent_containers/glass/mortar,
-/obj/item/pestle,
-/obj/item/natural/bundle/stick{
-	pixel_y = 8;
-	amount = 5
-	},
-/obj/item/natural/bundle/stick{
-	pixel_y = 4;
-	amount = 5
-	},
 /obj/machinery/light/fueled/wallfire/candle/blue/r,
 /turf/open/floor/hexstone,
 /area/indoors/shelter/bog/witch)
@@ -9981,9 +10011,7 @@
 /turf/open/floor/cobble/alt,
 /area/indoors/shelter/bog)
 "XH" = (
-/mob/living/carbon/human/species/zizombie/npc{
-	faction = list("Undead")
-	},
+/mob/living/carbon/human/species/skeleton/npc/peasant,
 /turf/open/floor/twig/platform,
 /area/indoors/shelter/bog)
 "XJ" = (
@@ -15681,7 +15709,7 @@ Yh
 hB
 CQ
 WX
-sJ
+vy
 bZ
 bZ
 vy
@@ -30066,7 +30094,7 @@ JV
 Xt
 Ac
 Ca
-PO
+Tq
 FP
 FO
 FO
@@ -30323,7 +30351,7 @@ Ua
 Xt
 ri
 Xp
-sb
+Fq
 FP
 FO
 Eo
@@ -30840,7 +30868,7 @@ FO
 FO
 FO
 FO
-mK
+HL
 mK
 mK
 YR
@@ -61366,7 +61394,7 @@ nE
 nE
 nE
 Ho
-al
+rv
 WA
 tl
 ca
@@ -61891,7 +61919,7 @@ Ci
 AT
 Ug
 BY
-al
+rv
 AT
 fG
 xU
@@ -62281,7 +62309,7 @@ eS
 eS
 sz
 sz
-mZ
+hG
 mD
 bu
 xM
@@ -62403,7 +62431,7 @@ UC
 Er
 we
 AT
-NP
+rv
 Ug
 Ug
 AT
@@ -62651,7 +62679,7 @@ nE
 nE
 nE
 UC
-Bn
+of
 xY
 Ci
 Wy
@@ -63669,13 +63697,13 @@ CJ
 Ho
 YB
 UC
-dC
+Ug
 BY
-av
+rv
 Ho
-dC
-av
-dC
+Ug
+rv
+Ug
 UC
 UC
 nE
@@ -63933,7 +63961,7 @@ ky
 CJ
 CJ
 Ci
-dC
+Ug
 Ho
 cw
 rv
@@ -64447,7 +64475,7 @@ Yf
 ky
 SU
 Ci
-Pm
+rv
 UC
 AI
 SY
@@ -64697,13 +64725,13 @@ CJ
 UC
 YB
 UC
-Pm
-wU
-al
+rv
+Ug
+rv
 UC
 BY
-wU
-al
+Ug
+rv
 Ho
 Ho
 na
@@ -77127,11 +77155,11 @@ mb
 mb
 QN
 WX
-zx
 DO
-zx
 DO
-zx
+DO
+DO
+DO
 WX
 Ki
 Ki
@@ -78155,11 +78183,11 @@ mb
 mb
 mb
 WX
-pK
 DO
-pK
 DO
-pK
+DO
+DO
+DO
 WX
 Ki
 Ki
@@ -79190,7 +79218,7 @@ Ax
 nG
 kP
 ZB
-JF
+jf
 ZB
 QN
 ZB
@@ -79204,9 +79232,9 @@ ZB
 QN
 kd
 jV
-qZ
+ED
 CU
-Nw
+JF
 oc
 kd
 DE
@@ -79462,7 +79490,7 @@ QN
 kd
 fu
 Nw
-Nw
+ih
 rN
 UT
 kd
@@ -79707,7 +79735,7 @@ Sf
 QN
 ZB
 ZB
-QS
+mB
 ZB
 mb
 wh
@@ -80500,7 +80528,7 @@ mb
 ZB
 QN
 kd
-Pg
+Jp
 ho
 Wr
 mb
@@ -80750,7 +80778,7 @@ Cy
 Nj
 RZ
 QN
-QS
+mB
 qV
 Nt
 PS
@@ -94055,12 +94083,12 @@ pd
 JV
 JV
 VN
-Iv
 JV
-Zi
-Zi
-Zi
-Zi
+Xt
+FP
+FP
+Xt
+FP
 Rp
 Rp
 Rp
@@ -94313,11 +94341,11 @@ OT
 OT
 OT
 UM
-Ua
-Zi
-Zi
-Zi
-Zi
+Xt
+fT
+WC
+sK
+FP
 Rp
 Rp
 Rp
@@ -94570,12 +94598,12 @@ OT
 OT
 OT
 OT
-uS
-Zi
-Zi
-Zi
-Zi
-Zi
+Xt
+Ca
+Tq
+Ca
+Xt
+Xt
 Rp
 Rp
 Rp
@@ -94828,11 +94856,11 @@ aB
 OT
 OT
 oI
-Zi
-Zi
-Zi
-Zi
-Zi
+Ca
+Ca
+Tq
+zQ
+Xt
 mo
 Rp
 Rp
@@ -95084,12 +95112,12 @@ Cb
 aB
 OT
 OT
-Ua
-Zi
-Zi
-Zi
-Zi
-Zi
+Xt
+MO
+Tq
+Tq
+QS
+FP
 mo
 Rp
 Rp
@@ -95341,12 +95369,12 @@ YC
 aB
 OT
 EV
-uS
-Zi
-Zi
-Zi
-Zi
-Zi
+Xt
+Xt
+sb
+Ca
+WE
+FP
 mo
 mo
 Rp
@@ -95599,11 +95627,11 @@ Iv
 he
 Iv
 JV
-Zi
-Zi
-Zi
-Zi
-Zi
+Xt
+Ko
+PO
+Ca
+Xt
 mo
 mo
 Rp
@@ -95856,11 +95884,11 @@ dz
 OT
 OT
 Ua
-Zi
-Zi
-Zi
-Zi
-Zi
+Xt
+ig
+Ca
+Fq
+Xt
 mo
 Rp
 Rp
@@ -96113,11 +96141,11 @@ II
 OT
 fa
 pn
-Zi
-Zi
-Zi
-Zi
-Zi
+FP
+FP
+Xt
+FP
+FP
 mo
 Rp
 Rp
@@ -96696,7 +96724,7 @@ QN
 mb
 mb
 Ep
-rN
+eh
 oc
 tq
 Kh
@@ -97913,7 +97941,7 @@ Rp
 Rp
 Rp
 Rp
-Rp
+ha
 Rp
 Rp
 Rp
@@ -97985,7 +98013,7 @@ vm
 CV
 Hm
 oc
-oc
+QW
 rN
 tq
 Kh
@@ -123616,7 +123644,7 @@ kp
 kp
 kp
 kp
-kp
+yv
 kp
 kp
 kp
@@ -133097,8 +133125,8 @@ sY
 sY
 sY
 sY
-NH
-sY
+al
+UO
 js
 js
 js
@@ -133354,8 +133382,8 @@ js
 sY
 sY
 sY
-zV
-UO
+Bn
+pK
 js
 js
 Qn
@@ -139757,7 +139785,7 @@ jm
 sY
 iW
 sY
-vp
+iO
 Vy
 Vy
 iO

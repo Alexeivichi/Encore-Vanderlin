@@ -3336,10 +3336,6 @@
 "Cs" = (
 /turf/closed/wall/mineral/tent,
 /area/outdoors/woods/west/crags)
-"Ct" = (
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt/road,
-/area/outdoors/lostkeep)
 "Cw" = (
 /obj/structure/fluff/railing/border{
 	dir = 4;
@@ -5232,10 +5228,6 @@
 "Ql" = (
 /turf/open/floor/rooftop,
 /area/under/cave/oldfort)
-"Qn" = (
-/obj/structure/gravemarker,
-/turf/open/floor/sand,
-/area/outdoors/oldfort)
 "Qo" = (
 /obj/structure/fluff/railing/wood{
 	dir = 1;
@@ -16310,7 +16302,7 @@ he
 he
 he
 UP
-Qn
+UP
 UP
 UP
 he
@@ -16568,7 +16560,7 @@ UP
 UP
 UP
 UP
-Qn
+UP
 he
 he
 pM
@@ -16822,7 +16814,7 @@ he
 Rx
 he
 UP
-Qn
+UP
 UP
 UP
 UP
@@ -82862,7 +82854,7 @@ TG
 kK
 kK
 WL
-Ct
+kK
 TG
 lA
 pt
@@ -83119,7 +83111,7 @@ TG
 kK
 ca
 kK
-Ct
+kK
 TG
 lA
 pt
@@ -83376,7 +83368,7 @@ TG
 kK
 kK
 kK
-Ct
+kK
 TG
 lA
 pt
@@ -83633,7 +83625,7 @@ TG
 kK
 kK
 qJ
-Ct
+kK
 TG
 lA
 pt

@@ -1,7 +1,7 @@
 // Clutter spawners specifically for the Necropolis
 // These differ from the mapgenerators in that they allow a more specific touch to where things spawn
 // these also are probably more efficient given the system Encore uses
-#define NECROPOLIS_CLUTTER_GENERIC list(/obj/structure/flora/grass = 30, /obj/item/natural/stone = 15, /obj/item/natural/rock = 12, /obj/structure/closet/dirthole/closed/loot=0.1, /obj/structure/flora/rock/jungle = 1)
+#define NECROPOLIS_CLUTTER_GENERIC list(/obj/structure/flora/grass = 30, /obj/item/natural/stone = 15, /obj/item/natural/rock = 12, /obj/structure/closet/dirthole/closed=0.1, /obj/structure/flora/rock/jungle = 1)
 #define NECROPOLIS_CLUTTER_SHROOMS list(/obj/structure/kneestingers = 3, /obj/structure/flora/grass/mushroom = 3, /obj/structure/flora/shroom_tree = 2, /obj/structure/wild_plant/nospread/mushroom/waddle = 4, /obj/structure/wild_plant/nospread/mushroom/merkel = 4, /obj/structure/wild_plant/nospread/mushroom/caveweep = 5, /obj/structure/wild_plant/nospread/mushroom/capillus = 5, /obj/structure/wild_plant/nospread/mushroom/borowiki = 5)
 #define NECROPOLIS_CLUTTER_WATER list(/obj/structure/flora/grass/water = 35, /obj/structure/flora/grass/water/reeds = 5, /obj/structure/flora/rock/jungle = 5)
 #define NECROPOLIS_CLUTTER_TECH list(/obj/machinery/light/fueledstreet = 3, /obj/machinery/light/fueledstreet/blue = 3)

@@ -369,8 +369,7 @@
 	. = ..()
 	if(iscarbon(owner))
 		var/mob/living/carbon/human/C = owner
-		C.resize = 1.2
-		C.update_transform()
+		C.update_transform(resize = 1.2)
 		C.RemoveElement(/datum/element/footstep, C.footstep_type, 1, -6)
 		C.AddElement(/datum/element/footstep, FOOTSTEP_MOB_HEAVY, 1, -2)
 
@@ -381,10 +380,9 @@
 		C.emote("pain", forced = TRUE)
 		playsound(C, 'sound/gore/flesh_eat_03.ogg', 100, TRUE)
 		to_chat(C, span_warning("Gani's transformation fades, flesh shrinking back. My body aches..."))
-		C.adjustBruteLoss(10)
+		C.adjustBruteLoss(10, damage_type = BCLASS_BLUNT)
 		C.apply_status_effect(/datum/status_effect/debuff/barbfalter)
-		C.resize = (1/1.2)
-		C.update_transform()
+		C.update_transform(resize = 1/1.2)
 		C.RemoveElement(/datum/element/footstep, FOOTSTEP_MOB_HEAVY, 1, -2)
 		C.AddElement(/datum/element/footstep, C.footstep_type, 1, -6)
 
@@ -526,51 +524,6 @@
 
 #undef BLOODRAGE_FILTER
 
-/atom/movable/screen/alert/status_effect/buff/deceivershealing
-	name = "Healing Miracle"
-	desc = "Strange Divine intervention relieves me of my ailments."
-	icon_state = "buff"
-
-#define MIRACLE_HEALING_FILTER "miracle_heal_glow"
-
-/datum/status_effect/buff/deceivershealing
-	id = "healing"
-	alert_type = /atom/movable/screen/alert/status_effect/buff/deceivershealing
-	duration = 10 SECONDS
-	var/healing_on_tick = 1
-	var/outline_colour = "#c42424"
-
-/datum/status_effect/buff/deceivershealing/on_creation(mob/living/new_owner, new_healing_on_tick)
-	healing_on_tick = new_healing_on_tick
-	return ..()
-
-/datum/status_effect/buff/deceivershealing/on_apply()
-	. = ..()
-	owner.add_filter(MIRACLE_HEALING_FILTER, 2,  outline_filter(2, outline_colour))
-	return TRUE
-
-/datum/status_effect/buff/deceivershealing/on_remove()
-	. = ..()
-	owner.remove_filter(MIRACLE_HEALING_FILTER)
-	return TRUE
-
-/datum/status_effect/buff/deceivershealing/get_examine_text()
-	return "SUBJECTPRONOUN is bathed in a restorative aura!"
-
-/datum/status_effect/buff/deceivershealing/tick()
-	if(owner.blood_volume < BLOOD_VOLUME_NORMAL)
-		owner.blood_volume = min(owner.blood_volume+10, BLOOD_VOLUME_NORMAL)
-	if(owner.get_wounds())
-		owner.heal_wounds(healing_on_tick)
-		owner.update_damage_overlays()
-		owner.adjustBruteLoss(-healing_on_tick, 0)
-		owner.adjustFireLoss(-healing_on_tick, FALSE)
-		owner.adjustOxyLoss(-healing_on_tick, FALSE)
-		owner.adjustToxLoss(-healing_on_tick, FALSE)
-		owner.adjustOrganLoss(ORGAN_SLOT_BRAIN, -healing_on_tick)
-
-#undef MIRACLE_HEALING_FILTER //Why is this a thing?
-
 #define CRANKBOX_FILTER "crankboxbuff_glow"
 /atom/movable/screen/alert/status_effect/buff/churnerprotection
 	name = "Magick Distorted"
@@ -645,15 +598,7 @@
 	tick_interval = 1 SECONDS
 	status_type = STATUS_EFFECT_REFRESH
 	alert_type = /atom/movable/screen/alert/status_effect/bardbuff
-	duration = 50 // Sanity, so that people outside the bard buff listening area lose the buff after a few seconds
-
-// /datum/status_effect/bardicbuff/on_apply()
-// 	. = ..()
-// 	owner.add_stress(/datum/stress_event/bardicbuff)
-
-// /datum/status_effect/bardicbuff/on_remove()
-// 	. = ..()
-// 	owner.remove_stress(/datum/stress_event/bardicbuff)
+	duration = 30 SECONDS // Sanity, so that people outside the bard buff listening area lose the buff after a few seconds
 
 // SKELETON BARD BUFF ALERT
 /atom/movable/screen/alert/status_effect/bardbuff
@@ -665,7 +610,7 @@
 // TIER 1 - WEAK
 /datum/status_effect/bardicbuff/intelligence
 	name = "Enlightening (+1 INT)"
-	id = "bardbuff_int"
+	id = "Enlightening"
 	effectedstats = list(STAT_INTELLIGENCE = 1)
 	alert_type = /atom/movable/screen/alert/status_effect/bardbuff/intelligence
 
@@ -675,7 +620,7 @@
 // TIER 2 - AVERAGE
 /datum/status_effect/bardicbuff/endurance
 	name = "Invigorating (+1 END)"
-	id = "bardbuff_end"
+	id = "Invigorating"
 	effectedstats = list(STAT_ENDURANCE = 1)
 	alert_type = /atom/movable/screen/alert/status_effect/bardbuff/endurance
 
@@ -685,7 +630,7 @@
 // TIER 3 - SKILLED
 /datum/status_effect/bardicbuff/constitution
 	name = "Fortitude (+1 CON)"
-	id = "bardbuff_con"
+	id = "Fortitude"
 	effectedstats = list(STAT_CONSTITUTION = 1)
 	alert_type = /atom/movable/screen/alert/status_effect/bardbuff/constitution
 
@@ -695,7 +640,7 @@
 // TIER 4 - EXPERT
 /datum/status_effect/bardicbuff/speed
 	name = "Inspiring (+1 SPD)"
-	id = "bardbuff_spd"
+	id = "Inspiring"
 	effectedstats = list(STAT_SPEED = 1)
 	alert_type = /atom/movable/screen/alert/status_effect/bardbuff/speed
 
@@ -705,7 +650,7 @@
 // TIER 5 - MASTER
 /datum/status_effect/bardicbuff/mordsol
 	name = "Empowering (+1 STR, +1 PER)"
-	id = "bardbuff_str"
+	id = "Empowering"
 	effectedstats = list(STAT_STRENGTH = 1, STAT_PERCEPTION = 1)
 	alert_type = /atom/movable/screen/alert/status_effect/bardbuff/mordsol
 
@@ -715,7 +660,7 @@
 // TIER 6 - LEGENDARY
 /datum/status_effect/bardicbuff/awaken
 	name = "Awaken! (+energy, +stamina, +1 FOR)"
-	id = "bardbuff_awaken"
+	id = "Awaken!"
 	alert_type = /atom/movable/screen/alert/status_effect/bardbuff/awaken
 	effectedstats = list(STAT_FORTUNE = 1)
 
@@ -735,7 +680,7 @@
 		H.adjust_stamina(-H.maximum_stamina * 0.02, internal_regen = FALSE)
 
 /datum/status_effect/buff/magicknowledge
-	id = "intelligence"
+	id = "Runic Cunning"
 	alert_type = /atom/movable/screen/alert/status_effect/buff/knowledge
 	effectedstats = list(STAT_INTELLIGENCE = 2)
 	duration = 20 MINUTES

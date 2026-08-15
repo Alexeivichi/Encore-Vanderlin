@@ -14,7 +14,7 @@
 	/// Whether this job is intended to give quests
 	var/is_quest_giver = FALSE
 	/// How many quests this job can take at once
-	var/max_active_quests = 3
+	var/max_active_quests = 1
 	/// Id for the Job.
 	var/id
 	//Bitflags for the job
@@ -227,6 +227,9 @@
 	var/attribute_sheet_old
 	var/attribute_sheet_child
 	var/attribute_sheet_adult
+
+	///this is our book path given on middle clicking ui
+	var/obj/item/recipe_book/book_type = /obj/item/recipe_book/survival
 
 /datum/job/New()
 	. = ..()

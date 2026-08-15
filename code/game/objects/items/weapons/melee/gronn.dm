@@ -10,7 +10,7 @@
 	gripped_intents = null
 	minstr = 9 //NO TWINKS!!
 	w_class = WEIGHT_CLASS_NORMAL
-
+	smeltresult = /obj/item/ingot/iron
 	grid_width = 32
 	grid_height = 96
 	item_weight = 1.2 KILOGRAMS
@@ -22,7 +22,7 @@
 	penfactor = 10
 
 /obj/item/weapon/handclaw
-	name = "Iron Hound Claws"
+	name = "iron hound claws"
 	desc = "A pair of heavily curved claws, styled after beasts of the wilds for rending bare flesh, \
 			a show of the continual worship and veneration of the Great Hunt in Nortmidst."
 	icon = 'icons/roguetown/weapons/32/fists_claws.dmi'
@@ -42,7 +42,7 @@
 	swingsound = list('sound/combat/wooshes/bladed/wooshmed (1).ogg','sound/combat/wooshes/bladed/wooshmed (2).ogg','sound/combat/wooshes/bladed/wooshmed (3).ogg')
 	associated_skill = /datum/attribute/skill/combat/unarmed
 	pickup_sound = 'sound/foley/equip/swordsmall2.ogg'
-	melting_material = /datum/material/iron
+	smeltresult = /obj/item/ingot/iron
 	anvilrepair = /datum/attribute/skill/craft/weaponsmithing
 	grid_height = 96
 	grid_width = 32
@@ -59,7 +59,7 @@
 	wbalance = EASY_TO_DODGE
 	max_blade_int = 250
 	max_integrity = INTEGRITY_STRONG
-	melting_material = /datum/material/iron
+	smeltresult = /obj/item/ingot/steel_slag
 	item_weight = 900 GRAMS
 
 /obj/item/weapon/handclaw/gronn

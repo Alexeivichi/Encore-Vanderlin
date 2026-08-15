@@ -93,7 +93,7 @@
 		if("Visires")
 			atmosphere_message = SPAN_GOD_VISIRES("Your body is filled with a sizzling heat. In this overpowering sensation, a moment of clarity hits you. In that silence, your attention is drawn singularly to a raspy, feminine voice that speaks from within you. It burns powerfully with every word She speaks.")
 		if("Akan")
-			atmosphere_message = SPAN_GOD_NOC("Symbols dance in the corner of your vision. For a moment, you are enlightened.. Your mind is imprinted with runes. You are able to decipher the voice of a man. Formal, contemplative, perhaps a little haughty even.")
+			atmosphere_message = SPAN_GOD_AKAN("Symbols dance in the corner of your vision. For a moment, you are enlightened.. Your mind is imprinted with runes. You are able to decipher the voice of a man. Formal, contemplative, perhaps a little haughty even.")
 		if("Mjallidhorn")
 			atmosphere_message = SPAN_GOD_MJALLIDHORN("The rumbling of clouds, the crashing of waves, the smell of salt. You are flooded with a sensation that you could only describe as being lost at sea… the crackling lightning above gives way to a voice. Disgruntled, weary and drowned, the words that you can make out are spoken in a gruff tone.")
 		if("Gani")
@@ -372,22 +372,6 @@ Traitors and the like can also be revived with the previous role mostly intact.
 		to_chat(usr, "<font color='red'>There is no active key like that in the game or the person is not currently a ghost.</font>")
 		return
 
-	if(G_found.mind && !G_found.mind.active)	//mind isn't currently in use by someone/something
-
-		//check if they were a monkey
-		if(findtext(G_found.real_name,"monkey"))
-			if(tgui_alert(usr, "This character appears to have been a monkey. Would you like to respawn them as such?", "Confirm", list("Yes","No")) == "Yes")
-				var/mob/living/carbon/monkey/new_monkey = new
-				SSjob.SendToBackupPoint(new_monkey)
-				G_found.mind.transfer_to(new_monkey)	//be careful when doing stuff like this! I've already checked the mind isn't in use
-				new_monkey.key = G_found.key
-				to_chat(new_monkey, "You have been fully respawned. Enjoy the game.")
-				var/msg = "<span class='adminnotice'>[key_name_admin(usr)] has respawned [new_monkey.key] as a filthy xeno.</span>"
-				message_admins(msg)
-				admin_ticket_log(new_monkey, msg)
-				return	//all done. The ghost is auto-deleted
-
-
 	//Ok, it's not a xeno or a monkey. So, spawn a human.
 	var/mob/living/carbon/human/new_character = new//The mob being spawned.
 	SSjob.SendToBackupPoint(new_character)
@@ -557,7 +541,7 @@ Traitors and the like can also be revived with the previous role mostly intact.
 	else
 		return
 
-/client/proc/cmd_admin_gib(mob/M in GLOB.mob_list)
+/client/proc/cmd_admin_gib(mob/living/M in GLOB.mob_list)
 	set category = "GameMaster.Fun"
 	set name = "Gib"
 
@@ -587,12 +571,15 @@ Traitors and the like can also be revived with the previous role mostly intact.
 	set name = "Gibself"
 	set category = "GameMaster.Fun"
 
+	if(!isliving(mob))
+		return
 	var/confirm = tgui_alert(src, "You sure?", "Confirm", list("Yes", "No"))
 	if(confirm == "Yes")
 		log_admin("[key_name(usr)] used gibself.")
 		message_admins("<span class='adminnotice'>[key_name_admin(usr)] used gibself.</span>")
 		SSblackbox.record_feedback("tally", "admin_verb", 1, "Gib Self") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
-		mob.gib(1, 1, 1)
+		var/mob/living/living_mob = mob
+		living_mob.gib(1, 1, 1)
 
 /client/proc/cmd_admin_check_contents(mob/living/M in GLOB.mob_list)
 	set category = "GameMaster.Equipping"
@@ -879,7 +866,9 @@ Traitors and the like can also be revived with the previous role mostly intact.
 				to_chat(usr, span_warning("Invalid target!"))
 				return
 			wound.infection = BBC_TIME_MAX
+			wound.infection_percent = 1
 			target.death()
+
 
 	punish_log(target, punishment)
 
@@ -1000,7 +989,7 @@ Traitors and the like can also be revived with the previous role mostly intact.
 		if("Remove")
 			if(!GLOB.trait_name_map)
 				GLOB.trait_name_map = generate_trait_name_map()
-			for(var/trait in D.status_traits)
+			for(var/trait in D._status_traits)
 				var/name = GLOB.trait_name_map[trait] || trait
 				availible_traits[name] = trait
 
@@ -1023,7 +1012,7 @@ Traitors and the like can also be revived with the previous role mostly intact.
 				if("All")
 					source = null
 				if("Specific")
-					source = input("Source to be removed","Trait Remove/Add") as null|anything in sortList(D.status_traits[chosen_trait])
+					source = input("Source to be removed","Trait Remove/Add") as null|anything in sortList(D._status_traits[chosen_trait])
 					if(!source)
 						return
 			REMOVE_TRAIT(D,chosen_trait,source)
