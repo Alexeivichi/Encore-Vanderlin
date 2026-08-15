@@ -195,3 +195,5 @@
 /datum/brain_trauma/mild/phobia/sages
 	phobia_type = "sages"
 	random_gain = FALSE
+	gain_text = null
+	lose_text = null
