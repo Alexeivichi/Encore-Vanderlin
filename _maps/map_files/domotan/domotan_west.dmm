@@ -179,17 +179,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobble/mossy,
 /area/outdoors/oldfort)
-"bd" = (
-/obj/structure/closet/crate/crafted_closet/dark,
-/obj/item/clothing/shirt/vampire,
-/obj/item/clothing/armor/cuirass/vampire,
-/obj/item/clothing/pants/platelegs/ancient,
-/obj/item/clothing/neck/gorget,
-/obj/item/clothing/gloves/plate,
-/obj/item/clothing/shoes/boots/armor/ancient,
-/obj/item/clothing/neck/mana_star,
-/turf/open/floor/church/purple,
-/area/indoors/vampire_manor)
 "be" = (
 /obj/structure/fluff/walldeco/wantedposter,
 /turf/open/floor/twig,
@@ -1492,9 +1481,6 @@
 /obj/structure/flora/tree/burnt,
 /turf/open/floor/sand,
 /area/outdoors/woods/west/crags)
-"jJ" = (
-/turf/open,
-/area/indoors/vampire_manor)
 "jK" = (
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/blocks,
@@ -2413,10 +2399,6 @@
 "pM" = (
 /turf/open/water/ocean/abyss,
 /area/outdoors/beach)
-"pP" = (
-/obj/structure/flora/tree/evil,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/west)
 "pQ" = (
 /obj/structure/fluff/walldeco/chains,
 /turf/open/lava/acid,
@@ -2628,12 +2610,10 @@
 /turf/open/floor/ruinedwood,
 /area/indoors/oldtown)
 "rr" = (
-/obj/structure/table/vtable,
-/obj/structure/vampire/scryingorb,
-/obj/item/key/vampire,
-/obj/machinery/light/fueled/wallfire/candle/skull/l,
-/turf/open/floor/church/purple,
-/area/indoors/vampire_manor)
+/obj/effect/decal/cleanable/blood/footprints,
+/obj/structure/door/weak,
+/turf/open/floor/dirt,
+/area/under/cavewet)
 "rs" = (
 /obj/structure/chair/pew{
 	dir = 1
@@ -3893,7 +3873,7 @@
 /area/outdoors/oldtown)
 "zY" = (
 /obj/machinery/light/fueled/wallfire/candle,
-/turf/open,
+/turf/open/openspace,
 /area/indoors/vampire_manor)
 "zZ" = (
 /obj/structure/fluff/railing/tall/retaining/stone{
@@ -6036,8 +6016,11 @@
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/west/thornbed)
 "Nq" = (
-/obj/structure/table/vtable/v2,
 /obj/item/clothing/head/vampire,
+/obj/machinery/light/fueled/wallfire/candle/skull/l,
+/obj/item/key/vampire,
+/obj/structure/vampire/scryingorb,
+/obj/structure/table/wood/fancy/red,
 /turf/open/floor/church/purple,
 /area/indoors/vampire_manor)
 "Nr" = (
@@ -6324,10 +6307,6 @@
 	},
 /turf/open/water/ocean/abyss,
 /area/under/cave/oldfort)
-"Pe" = (
-/obj/structure/flora/tree/evil,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/west)
 "Pf" = (
 /turf/open/floor/wood,
 /area/under/cave/oldfort)
@@ -6800,10 +6779,7 @@
 /turf/open/floor/blocks,
 /area/under/cave/oldfort)
 "Sm" = (
-/obj/structure/stairs/stone/church{
-	dir = 4
-	},
-/turf/open,
+/turf/open/openspace,
 /area/indoors/vampire_manor)
 "So" = (
 /turf/closed/mineral/bedrock,
@@ -6916,7 +6892,6 @@
 /area/outdoors/woods/west)
 "SW" = (
 /obj/machinery/light/fueled/wallfire/candle/skull,
-/obj/structure/closet/crate/crafted_closet/dark,
 /obj/item/clothing/face/spectacles/golden,
 /obj/item/clothing/face/facemask/yoruku_kitsune,
 /obj/item/clothing/face/spectacles/sglasses,
@@ -6928,6 +6903,14 @@
 /obj/item/clothing/cloak/cape/blkknight,
 /obj/item/reagent_containers/glass/bottle/stronghealthpot,
 /obj/item/reagent_containers/glass/bottle/stronghealthpot,
+/obj/item/clothing/neck/mana_star,
+/obj/item/clothing/shoes/boots/armor/ancient,
+/obj/item/clothing/gloves/plate,
+/obj/item/clothing/neck/gorget,
+/obj/item/clothing/pants/platelegs/ancient,
+/obj/item/clothing/armor/cuirass/vampire,
+/obj/item/clothing/shirt/vampire,
+/obj/structure/closet/crate/crafted_closet/dark,
 /turf/open/floor/church/purple,
 /area/indoors/vampire_manor)
 "SX" = (
@@ -24125,8 +24108,8 @@ QZ
 zz
 By
 By
-By
-By
+nC
+nC
 By
 hh
 zc
@@ -24381,9 +24364,9 @@ ie
 OD
 zz
 By
-bd
-ht
-rr
+By
+By
+By
 By
 By
 By
@@ -31074,7 +31057,7 @@ KQ
 zG
 LT
 Mc
-Mc
+rr
 lL
 lL
 QZ
@@ -63705,7 +63688,7 @@ pt
 OD
 cF
 zY
-jJ
+Sm
 RM
 VO
 dx
@@ -65520,7 +65503,7 @@ Jz
 qk
 qk
 Fm
-Pe
+OD
 by
 by
 by
@@ -70646,7 +70629,7 @@ by
 by
 by
 pt
-pP
+pt
 Hm
 Jz
 Jz
