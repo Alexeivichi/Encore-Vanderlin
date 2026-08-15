@@ -32,10 +32,15 @@
 /turf/closed/wall/mineral/stonebrick,
 /area/indoors/town/keep/lord_appt)
 "p" = (
-/obj/structure/mannequin{
-	name = "regent's display stand"
-	},
-/obj/effect/spawner/guaranteed_map_spawner/listed/armor/royal/regent,
+/obj/structure/mannequin/male,
+/obj/item/clothing/shoes/boots/armor,
+/obj/item/clothing/pants/platelegs,
+/obj/item/clothing/gloves/plate,
+/obj/item/clothing/armor/gambeson/hunts,
+/obj/item/clothing/armor/plate/decorated,
+/obj/item/clothing/neck/chaincoif,
+/obj/item/clothing/head/helmet/heavy/decorated/hounskull,
+/obj/item/storage/belt/leather/plaquegold,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/lord_appt)
 "u" = (
@@ -73,10 +78,15 @@
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/lord_appt)
 "N" = (
-/obj/structure/mannequin{
-	name = "consort's display stand"
-	},
-/obj/effect/spawner/guaranteed_map_spawner/listed/armor/royal/consort,
+/obj/structure/mannequin/male,
+/obj/item/clothing/shoes/boots/armor,
+/obj/item/clothing/pants/chainlegs,
+/obj/item/clothing/gloves/chain,
+/obj/item/clothing/armor/gambeson/hunts,
+/obj/item/clothing/armor/plate/decorated,
+/obj/item/clothing/neck/chaincoif,
+/obj/item/clothing/head/helmet/heavy/decorated/bascinet,
+/obj/item/storage/belt/leather/plaquegold,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/lord_appt)
 "T" = (
