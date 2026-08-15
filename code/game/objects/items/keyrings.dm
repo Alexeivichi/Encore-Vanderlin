@@ -235,7 +235,7 @@
 	keys = list(/obj/item/key/manor, /obj/item/key/dungeon, /obj/item/key/atarms, /obj/item/key/walls, /obj/item/key/garrison)
 
 /obj/item/storage/keyring/archivist
-	keys = list(/obj/item/key/archive, /obj/item/key/manor)
+	keys = list(/obj/item/key/archive, /obj/item/key/manor, /obj/item/key/tower)
 
 /obj/item/storage/keyring/merchant
 	keys = list(/obj/item/key/merchant, /obj/item/key/mercenary, /obj/item/key/warehouse)
@@ -277,7 +277,7 @@
 	keys = list(/obj/item/key/manor, /obj/item/key/atarms, /obj/item/key/walls)
 
 /obj/item/storage/keyring/physician
-	keys = list(/obj/item/key/manor, /obj/item/key/atarms, /obj/item/key/dungeon, /obj/item/key/courtphys)
+	keys = list(/obj/item/key/manor, /obj/item/key/atarms, /obj/item/key/dungeon, /obj/item/key/courtphys, /obj/item/key/clinic, /obj/item/key/apothecary, /obj/item/key/feldsher)
 
 /obj/item/storage/keyring/elder
 	keys = list(/obj/item/key/walls, /obj/item/key/elder, /obj/item/key/butcher, /obj/item/key/soilson, /obj/item/key/manor)
