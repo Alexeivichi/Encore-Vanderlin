@@ -10,7 +10,7 @@
 	item_path = /obj/item/clothing/pants/tights/sailor
 	ui_category = "Pants"
 
-	triumph_cost_permanent = 25
+	triumph_cost_permanent = 1
 
 /datum/loadout_item/skirt
 	name = "Skirt"
@@ -27,29 +27,29 @@
 	triumph_cost_permanent = 0
 
 /datum/loadout_item/shepherd_pants
-	name = "Shephred's Pants"
+	name = "Shepherd's Pants"
 	item_path = /obj/item/clothing/pants/trou/leather/shepherd
 	ui_category = "Pants"
 
-	triumph_cost_permanent = 150
+	triumph_cost_permanent = 1
 
 /datum/loadout_item/explorerpants
 	name = "Explorer's Pants"
 	item_path = /obj/item/clothing/pants/tights/explorerpants
 	ui_category = "Pants"
 
-	triumph_cost_permanent = 75
+	triumph_cost_permanent = 1
 
 /datum/loadout_item/kazengunpants
-	name = "Gamebson Trousers"
+	name = "Gambeson Trousers"
 	item_path = /obj/item/clothing/pants/trou/leather/kazengun
 	ui_category = "Pants"
 
-	triumph_cost_permanent = 150
+	triumph_cost_permanent = 1
 
 /datum/loadout_item/pontifex
 	name = "Pontifex's Chaqchur"
 	item_path = /obj/item/clothing/pants/trou/leather/pontifex
 	ui_category = "Pants"
 
-	triumph_cost_permanent = 200
+	triumph_cost_permanent = 2

@@ -841,24 +841,6 @@ const SpecialsTab = ({
   return (
     <Stack vertical fill>
       <Stack.Item>
-        {!!donator ? (
-          <NoticeBox info>
-            <Icon name="heart" mr={1} color="purple" />
-            <Box as="span" bold>
-              Patreon Supporter perk:
-            </Box>{' '}
-            Random rolls are free for you, and specific trait costs are 50% off.
-          </NoticeBox>
-        ) : (
-          <Box color="label" fontSize="0.8em" mb={0.5}>
-            <Icon name="heart" mr={1} color="purple" />
-            Patreon supporters get free random rolls and 50% off specific trait
-            picks.
-          </Box>
-        )}
-      </Stack.Item>
-
-      <Stack.Item>
         <Section title="Next Round Special">
           {showReel ? (
             <TraitReel

@@ -74,7 +74,7 @@
 	uses_lord_coloring = LORD_PRIMARY
 
 /obj/item/clothing/shirt/dress/stewarddress
-	name = "steward's dress"
+	name = "black dress"
 	desc = "A Banterfield-styled black dress with shining bronze buttons."
 	icon = 'icons/roguetown/clothing/special/steward.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/steward.dmi'
@@ -89,7 +89,7 @@
 	icon = 'icons/roguetown/clothing/shirts_royalty.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/shirts_royalty.dmi'
 	name = "royal gown"
-	desc = "An elaborate ball gown, a favoured fashion of queens and elevated nobility around Faience."
+	desc = "An elaborate ball gown, a favoured fashion of queens and elevated nobility around the Goblet."
 	body_parts_covered = CHEST|GROIN|ARMS|VITALS
 	icon_state = "royaldress"
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/sleeves_shirts_royalty.dmi'
@@ -103,14 +103,14 @@
 //................ Princess Dress ............... //
 /obj/item/clothing/shirt/dress/royal/princess
 	name = "pristine dress"
-	desc = "A flowy, intricate dress made by the finest tailors in the land for the monarch's children."
+	desc = "A flowy, intricate dress made by the finest tailors in the land for precious royals."
 	icon_state = "princess"
 	detail_color = CLOTHING_BERRY_BLUE
 
 //................ Prince Shirt   ............... //
 /obj/item/clothing/shirt/dress/royal/prince
 	name = "gilded dress shirt"
-	desc = "A gold-embroidered dress shirt specially tailored for the monarch's children."
+	desc = "A gold-embroidered dress shirt specially tailored for noble forms."
 	icon_state = "prince"
 	detail_color = CLOTHING_ROYAL_MAJENTA
 

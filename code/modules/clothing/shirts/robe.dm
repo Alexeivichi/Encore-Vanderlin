@@ -142,19 +142,19 @@
 	allowed_sex = list(FEMALE)
 
 /obj/item/clothing/shirt/robe/feld
-	name = "feldsher's robe"
+	name = "crimson robe"
 	desc = "Red to hide the blood."
 	icon_state = "feldrobe"
 	item_state = "feldrobe"
 
 /obj/item/clothing/shirt/robe/phys
-	name = "physicker's robe"
+	name = "ashen robe"
 	desc = "Part robe, part butcher's apron."
 	icon_state = "surgrobe"
 	item_state = "surgrobe"
 
 /obj/item/clothing/shirt/robe/courtphysician
-	name = "court physician's robe"
+	name = "courtly robe"
 	desc = "The dark red helps hide blood stains, and is elegant."
 	icon_state = "courtrobe"
 	item_state = "courtrobe"
@@ -163,7 +163,7 @@
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/sleeves_courtphys.dmi'
 
 /obj/item/clothing/shirt/robe/archivist
-	name = "archivist's robe"
+	name = "scholarly robe"
 	desc = "Robes belonging to seekers of knowledge."
 	icon_state = "archivist"
 	icon = 'icons/roguetown/clothing/shirts.dmi'

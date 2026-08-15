@@ -57,7 +57,7 @@
 	salvage_result = /obj/item/natural/silk
 
 /obj/item/clothing/shirt/undershirt/artificer
-	name = "artificer suit"
+	name = "tinkering suit"
 	desc = "Typical fashion of the best Dunnish engineers."
 	icon_state = "artishirt"
 

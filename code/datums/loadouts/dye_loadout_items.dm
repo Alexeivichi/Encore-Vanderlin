@@ -55,7 +55,7 @@
 
 /datum/loadout_item/dye_color/noble
 	abstract_type = /datum/loadout_item/dye_color/noble
-	triumph_cost_permanent = 120
+	triumph_cost_permanent = 2
 	palette = "noble"
 
 /datum/loadout_item/dye_color/noble/royal_blue
