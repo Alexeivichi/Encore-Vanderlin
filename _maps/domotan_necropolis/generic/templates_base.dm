@@ -155,42 +155,42 @@
 /datum/map_template/dungeon/small_generic_2z_ruin
 	name = "Small Generic Tile (2Z Ruin 1)"
 	id = "small_generic_2z_ruin"
-	mappath = "_maps/domotan_necropolis/generic/small_generic_2z_ruin.dmm"
+	mappath = "_maps/domotan_necropolis/generic/two_level/small_generic_2z_ruin.dmm"
 
 /datum/map_template/dungeon/small_generic_2z_ruin_2
 	name = "Small Generic Tile (2Z Ruin 2)"
 	id = "small_generic_2z_ruin_2"
-	mappath = "_maps/domotan_necropolis/generic/small_generic_2z_ruin_2.dmm"
+	mappath = "_maps/domotan_necropolis/generic/two_level/small_generic_2z_ruin_2.dmm"
 
 /datum/map_template/dungeon/small_generic_2z_tower
 	name = "Small Generic Tile (2Z Tower 1)"
 	id = "small_generic_2z_tower"
-	mappath = "_maps/domotan_necropolis/generic/small_generic_2z_tower.dmm"
+	mappath = "_maps/domotan_necropolis/generic/two_level/small_generic_2z_tower.dmm"
 
 /datum/map_template/dungeon/small_generic_2z_tower_2
 	name = "Small Generic Tile (2Z Tower 2)"
 	id = "small_generic_2z_tower_2"
-	mappath = "_maps/domotan_necropolis/generic/small_generic_2z_tower_2.dmm"
+	mappath = "_maps/domotan_necropolis/generic/two_level/small_generic_2z_tower_2.dmm"
 
 /datum/map_template/dungeon/small_generic_2z_tower_3
 	name = "Small Generic Tile (2Z Tower 3)"
 	id = "small_generic_2z_tower_3"
-	mappath = "_maps/domotan_necropolis/generic/small_generic_2z_tower_3.dmm"
+	mappath = "_maps/domotan_necropolis/generic/two_level/small_generic_2z_tower_3.dmm"
 
 /datum/map_template/dungeon/small_generic_2z_tower_4
 	name = "Small Generic Tile (2Z Tower 4)"
 	id = "small_generic_2z_tower_4"
-	mappath = "_maps/domotan_necropolis/generic/small_generic_2z_tower_4.dmm"
+	mappath = "_maps/domotan_necropolis/generic/two_level/small_generic_2z_tower_4.dmm"
 
 /datum/map_template/dungeon/small_generic_2z_shrine
 	name = "Small Generic Tile (2Z Shrine)"
 	id = "small_generic_2z_shrine"
-	mappath = "_maps/domotan_necropolis/generic/small_generic_2z_shrine.dmm"
+	mappath = "_maps/domotan_necropolis/generic/two_level/small_generic_2z_shrine.dmm"
 
 /datum/map_template/dungeon/small_generic_2z_shrine_earth
 	name = "Small Generic Tile (2Z Earth Shrine)"
 	id = "small_generic_2z_shrine_earth"
-	mappath = "_maps/domotan_necropolis/generic/small_generic_2z_shrine_earth.dmm"
+	mappath = "_maps/domotan_necropolis/generic/two_level/small_generic_2z_shrine_earth.dmm"
 
 /datum/map_template/dungeon/medium_emptycave
 	name = "Medium Empty Cave"
