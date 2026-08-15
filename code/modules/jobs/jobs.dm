@@ -141,6 +141,7 @@ GLOBAL_LIST_INIT(allmig_positions, list(
 	/datum/job/bandit::title,
 	/datum/job/folkhero::title,
 	/datum/job/wretch::title,
+	/datum/job/vampirelord::title,
 	))
 
 GLOBAL_LIST_INIT(roguewar_positions, list(

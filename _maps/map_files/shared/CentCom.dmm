@@ -571,7 +571,6 @@
 /area/outdoors)
 "bN" = (
 /obj/effect/decal/cleanable/blood/old,
-/obj/effect/landmark/start/vampireknight,
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/blocks/paving,
 /area/indoors/vampire_manor)
@@ -879,7 +878,6 @@
 /turf/open/floor/blocks/paving,
 /area/indoors/vampire_manor)
 "cP" = (
-/obj/effect/landmark/vteleport,
 /obj/machinery/light/fueled/wallfire/candle/blue/r,
 /obj/structure/fluff/walldeco/church/line,
 /turf/open/floor/herringbone,
@@ -5148,7 +5146,6 @@
 /area/indoors)
 "zm" = (
 /obj/machinery/light/fueled/torchholder/c,
-/obj/effect/landmark/start/vampireknight,
 /turf/open/floor/blocks/paving,
 /area/indoors/vampire_manor)
 "zn" = (
@@ -6444,7 +6441,6 @@
 /turf/closed/wall/mineral/wooddark,
 /area/outdoors/woods/tutorial)
 "Gz" = (
-/obj/effect/landmark/vteleportsending,
 /obj/machinery/light/fueled/wallfire/candle/blue/l,
 /obj/structure/fluff/walldeco/church/line,
 /turf/open/floor/herringbone,
@@ -8869,10 +8865,6 @@
 "Te" = (
 /turf/open/floor/dirt,
 /area/outdoors/woods_safe)
-"Tf" = (
-/obj/effect/landmark/start/vampirespawn,
-/turf/open/floor/blocks/paving,
-/area/indoors/vampire_manor)
 "Tg" = (
 /obj/structure/fluff/railing/border{
 	layer = 2
@@ -9912,10 +9904,6 @@
 "Yk" = (
 /obj/machinery/light/fueled/wallfire/candle/weak/l,
 /turf/open/floor/herringbone,
-/area/indoors/vampire_manor)
-"Ym" = (
-/obj/effect/landmark/start/vampirelord,
-/turf/open/floor/carpet,
 /area/indoors/vampire_manor)
 "Yo" = (
 /obj/structure/flora/ausbushes/reedbush,
@@ -18346,7 +18334,7 @@ nZ
 yE
 ze
 yE
-fD
+Zl
 Gs
 jZ
 jZ
@@ -18485,7 +18473,7 @@ bV
 bV
 hG
 cN
-Tf
+cN
 dR
 yE
 dH
@@ -18615,7 +18603,7 @@ bV
 bV
 hG
 wL
-Tf
+cN
 dR
 yE
 dH
@@ -18745,7 +18733,7 @@ Qr
 ft
 hG
 As
-Tf
+cN
 dR
 yE
 bB
@@ -18861,7 +18849,7 @@ yE
 yE
 yE
 bR
-Ym
+bO
 bO
 cU
 yE
