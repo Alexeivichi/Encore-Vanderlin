@@ -3806,6 +3806,9 @@
 /area/indoors/town/keep/kitchen/cellar)
 "cFx" = (
 /obj/structure/fluid_drain,
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 5
+	},
 /turf/open/floor/blocks,
 /area/outdoors/town/roofs)
 "cFA" = (
@@ -4986,8 +4989,8 @@
 /obj/structure/door/viewport{
 	dir = 1
 	},
-/obj/effect/mapping_helpers/access/keyset/town/apothecary,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/town/clinic,
 /turf/open/floor/blocks/green,
 /area/indoors/town/clinic_large)
 "dwT" = (
@@ -7528,6 +7531,12 @@
 /obj/machinery/light/fueledstreet/orange/wall,
 /turf/open/floor/churchrough/violet,
 /area/indoors/town/church/inquisition)
+"feG" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 1
+	},
+/turf/open/floor/blocks,
+/area/outdoors/town/roofs)
 "feI" = (
 /obj/structure/fluff/railing/wood,
 /obj/structure/fluff/railing/wood{
@@ -7769,11 +7778,11 @@
 /turf/open/water/river,
 /area/indoors/town/waterworks)
 "foj" = (
-/obj/structure/door/fancy{
-	name = "Court Physician's Office"
-	},
 /obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/keyset/manor/physician,
+/obj/structure/door/viewport{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/access/keyset/town/clinic,
 /turf/open/floor/churchrough,
 /area/indoors/town/clinic_large)
 "foC" = (
@@ -10698,7 +10707,9 @@
 	},
 /area/outdoors/town/neighborhood/east)
 "hsP" = (
-/obj/structure/rack/shelf/biggest,
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 10
+	},
 /turf/open/floor/blocks,
 /area/outdoors/town/roofs)
 "htp" = (
@@ -12753,6 +12764,10 @@
 /area/indoors/town/church)
 "iGK" = (
 /obj/structure/closet/crate/crafted_closet/inn,
+/obj/item/storage/magebag{
+	pixel_x = -3;
+	pixel_y = -5
+	},
 /turf/open/floor/blocks,
 /area/outdoors/town/roofs)
 "iGP" = (
@@ -14148,11 +14163,11 @@
 /turf/open/floor/ruinedwood/alt,
 /area/indoors/town)
 "jzM" = (
-/obj/structure/fluff/telescope,
 /obj/structure/fluff/railing/wood{
 	dir = 8;
 	pixel_y = -1
 	},
+/obj/structure/fluff/telescope,
 /turf/open/floor/metal/barograte,
 /area/outdoors/town/roofs)
 "jzP" = (
@@ -14957,9 +14972,9 @@
 /area)
 "kcy" = (
 /obj/structure/closet/crate/chest/neu_iron/corpse,
-/obj/effect/mapping_helpers/access/keyset/town/doctor,
 /obj/effect/mapping_helpers/access/locker,
 /obj/machinery/light/fueled/wallfire/candle/r,
+/obj/effect/mapping_helpers/access/keyset/town/doctor,
 /turf/open/floor/cobble,
 /area/indoors/town/clinic_large)
 "kcW" = (
@@ -15478,6 +15493,9 @@
 /obj/structure/stairs/stone,
 /turf/open/floor/churchrough,
 /area/indoors/town/church)
+"krH" = (
+/turf/open/floor/metal/barograte,
+/area/outdoors/town/roofs)
 "krL" = (
 /obj/machinery/light/fueled/torchholder/r,
 /obj/structure/table/wood/fancy/black,
@@ -17059,6 +17077,12 @@
 	},
 /turf/open/floor/carpet/red,
 /area/under/town/basement)
+"lDj" = (
+/obj/structure/closet/crate/crafted_closet/inn,
+/obj/item/chalk,
+/obj/item/chalk,
+/turf/open/floor/blocks,
+/area/outdoors/town/roofs)
 "lDz" = (
 /obj/structure/table/wood{
 	icon_state = "longtable_mid"
@@ -20315,8 +20339,8 @@
 /obj/item/reagent_containers/glass/bottle/vial/spdpot,
 /obj/item/reagent_containers/glass/bottle/vial/strpot,
 /obj/item/reagent_containers/glass/bottle/vial/lucpot,
-/obj/effect/mapping_helpers/access/keyset/town/apothecary,
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/town/tower,
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/keep/magician)
 "nyC" = (
@@ -23615,6 +23639,13 @@
 "pKD" = (
 /turf/open/floor/carpet/red,
 /area/indoors/town)
+"pLl" = (
+/obj/structure/fluid_drain,
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 9
+	},
+/turf/open/floor/blocks,
+/area/outdoors/town/roofs)
 "pLs" = (
 /obj/machinery/light/fueled/hearth,
 /obj/machinery/light/fueled/wallfire/candle/r,
@@ -24440,9 +24471,7 @@
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/steward)
 "qoa" = (
-/obj/structure/chair/wood/alt/chair3{
-	dir = 8
-	},
+/obj/structure/fluff/railing/tall/retaining/stone,
 /turf/open/floor/blocks,
 /area/outdoors/town/roofs)
 "qoq" = (
@@ -25135,6 +25164,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/ruinedwood,
 /area/indoors/town/church)
+"qLI" = (
+/obj/structure/nocdevice,
+/turf/open/floor/metal/barograte,
+/area/outdoors/town/roofs)
 "qLL" = (
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-n"
@@ -25372,6 +25405,10 @@
 /obj/effect/spawner/guaranteed_map_spawner/listed/food/meat/expensive,
 /turf/open/floor/greenstone,
 /area/indoors/town/keep/kitchen/cellar)
+"qXl" = (
+/obj/structure/chair/stool,
+/turf/open/floor/metal/barograte,
+/area/outdoors/town/roofs)
 "qXm" = (
 /obj/structure/bars/grille{
 	density = 1
@@ -25386,6 +25423,12 @@
 	},
 /turf/open/floor/cobble,
 /area/indoors/town/keep/gate)
+"qXU" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 4
+	},
+/turf/open/floor/blocks,
+/area/outdoors/town/roofs)
 "qXZ" = (
 /obj/structure/lever/hidden/thieves_guild{
 	redstone_id = "slitherway4"
@@ -28581,6 +28624,12 @@
 "tkC" = (
 /turf/closed/mineral,
 /area/under/cave)
+"tkU" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/turf/open/floor/blocks,
+/area/outdoors/town/roofs)
 "tlf" = (
 /obj/structure/door/fancy{
 	name = "Lord's Apartment"
@@ -32575,12 +32624,8 @@
 /turf/open/floor/snow,
 /area/outdoors/town)
 "wav" = (
-/obj/structure/rack/shelf/biggest,
-/obj/item/chalk,
-/obj/item/chalk,
-/obj/item/storage/magebag{
-	pixel_x = -3;
-	pixel_y = -5
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 8
 	},
 /turf/open/floor/blocks,
 /area/outdoors/town/roofs)
@@ -34735,6 +34780,12 @@
 /obj/effect/decal/carpet/square,
 /turf/open/floor/church/purple,
 /area/indoors/town/church)
+"xxj" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 6
+	},
+/turf/open/floor/blocks,
+/area/outdoors/town/roofs)
 "xxv" = (
 /obj/effect/decal/cobbleedge{
 	dir = 4
@@ -128581,8 +128632,8 @@ dvc
 dvc
 uME
 mQt
-aNZ
-aNZ
+xxj
+qXU
 cFx
 aNZ
 aNZ
@@ -128713,11 +128764,11 @@ dvc
 dvc
 uME
 aNZ
+qoa
+krH
+tkU
 aNZ
-aBx
-aNZ
-aNZ
-iGK
+lDj
 iGK
 igB
 fNx
@@ -128845,9 +128896,9 @@ dvc
 dvc
 uME
 aBx
-aNZ
-aNZ
-aNZ
+qoa
+qXl
+feG
 pCG
 aNZ
 aNZ
@@ -128978,8 +129029,8 @@ dvc
 uME
 jzM
 qoa
-aNZ
-aNZ
+qLI
+feG
 aNZ
 aNZ
 aBx
@@ -129109,9 +129160,9 @@ dvc
 dvc
 uME
 aNZ
-aNZ
+hsP
 wav
-cFx
+pLl
 aNZ
 aNZ
 jjp
@@ -129242,7 +129293,7 @@ dvc
 uME
 rqG
 aNZ
-hsP
+aNZ
 aBx
 aNZ
 mQt
