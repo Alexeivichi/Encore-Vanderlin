@@ -179,6 +179,7 @@
 	max_w_class = WEIGHT_CLASS_NORMAL
 	screen_max_rows = 8
 	screen_max_columns = 5
+	allow_quick_empty = TRUE
 
 /datum/component/storage/concrete/grid/magebag/New(datum/P, ...)
 	. = ..()
@@ -200,6 +201,8 @@
 		/obj/item/reagent_containers/food/snacks/produce/manabloom,
 		/obj/item/mana_battery/mana_crystal,
 		/obj/item/fertilizer/ash,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/jacksberry,
+		/obj/item/natural/stone,
 		))
 
 /datum/component/storage/concrete/grid/headhook
