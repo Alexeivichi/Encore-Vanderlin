@@ -1,0 +1,4 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - map: "Swaps the spawners for the royal armour with manually mapping the armour pieces onto the mannequins."
