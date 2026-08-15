@@ -155,7 +155,7 @@
 		"Third Sage" = SKIN_COLOR_GARGANT,
 		"Fourth Sage" = SKIN_COLOR_LOSTURGE,
 		"Fifth Sage" = SKIN_COLOR_PROTOMOS,
-		"Sixth Sage" = SKIN_COLOR_HEAVEN,
+		"Sixth Sage" = SKIN_COLOR_HEAVENER,
 		"Seventh Sage" = SKIN_COLOR_VISTAMATRA,
 		"Artenfel" = SKIN_COLOR_AGATROS,
 		"Gemini" = SKIN_COLOR_GEMINI
