@@ -4,8 +4,7 @@
 
 	if(!isobserver(usr))
 		return
-
-	ghost_up()
+	up()
 
 /mob/dead/observer/verb/ghost_downward()
 	set name = "Ghost Down"
@@ -13,9 +12,7 @@
 
 	if(!isobserver(usr))
 		return
-
-	ghost_down()
-
+	down()
 
 /mob/verb/descend_to_underworld()
 	set name = "Journey to the Underworld"
@@ -52,7 +49,7 @@
 	live_spirit.livingname = real_name
 	live_spirit.ckey = ckey
 	ADD_TRAIT(live_spirit, TRAIT_PACIFISM, TRAIT_GENERIC)
-	live_spirit.set_patron(client.prefs.selected_patron)
+	live_spirit.set_patron(client?.prefs.selected_patron)
 	SSdeath_arena.add_fighter(live_spirit, mind?.last_death)
 
 	if(HAS_TRAIT(mind?.current, TRAIT_BURIED_COIN_GIVEN))
@@ -64,7 +61,7 @@
 	underworld.Entered(live_spirit, null)
 
 /mob/proc/can_enter_underworld()
-	if(stat < DEAD && !mind.has_antag_datum(/datum/antagonist/zombie))
+	if(stat < DEAD && !IS_DEADITE(src))
 		to_chat(src, span_danger("You are not dead!"))
 		return FALSE
 
@@ -82,7 +79,7 @@
 			to_chat(src, span_warning("the Archdevils' influence is currently preventing me from fleeing to the Underworld!"))
 			return FALSE
 
-	var/answer = tgui_alert(src, "Begin the long walk in the Underworld to your judgement?", "JUDGEMENT", DEFAULT_INPUT_CHOICES)
+	var/answer = tgui_alert(src, "Travel within the Forever War and wander towards your reincarnation?", "FOREVER WAR", DEFAULT_INPUT_CHOICES)
 	if(!answer || QDELETED(src))
 		return FALSE
 	if(answer == CHOICE_NO)

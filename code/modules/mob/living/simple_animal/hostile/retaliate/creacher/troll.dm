@@ -60,7 +60,6 @@
 	food_max = 250
 
 	dodgetime = 50
-	aggressive = TRUE
 	gani_taming_chance = GANI_TAME_PROB_HIGH
 
 	remains_type = /obj/effect/decal/remains/troll

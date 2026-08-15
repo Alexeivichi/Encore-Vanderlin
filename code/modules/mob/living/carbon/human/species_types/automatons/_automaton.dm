@@ -19,7 +19,7 @@
 
 /mob/living/carbon/human/species/automaton/vessel/LateInitialize()
 	. = ..()
-	AddComponent(/datum/component/ghost_vessel, /obj/item/reagent_containers/lux)
+	AddComponent(/datum/component/ghost_vessel, /obj/item/riddleofsteel)
 
 /mob/living/carbon/human/species/automaton/prefilled_vessel/LateInitialize()
 	. = ..()
@@ -79,6 +79,9 @@
 		NOTRANSSTING,
 	)
 	inherent_traits = list(
+		TRAIT_NOBLOOD,
+		TRAIT_BLOODLOSS_IMMUNE,
+		TRAIT_NORMALIZED_BLOOD,
 		TRAIT_NOMOOD,
 		TRAIT_NOMETABOLISM,
 		TRAIT_NOHUNGER,
@@ -93,7 +96,8 @@
 		TRAIT_NOSLEEP,
 		TRAIT_SLEEPIMMUNE,
 		TRAIT_TOXIMMUNE,
-		TRAIT_FEARLESS
+		TRAIT_FEARLESS,
+		TRAIT_NO_ORGAN_PROCESS
 	)
 
 	statsheet_male = /datum/attribute_holder/sheet/job/species/automaton
@@ -129,6 +133,7 @@
 
 	organs = list(
 		ORGAN_SLOT_BRAIN = /obj/item/organ/brain/automaton,
+		ORGAN_SLOT_SPLEEN = /obj/item/organ/spleen,
 		ORGAN_SLOT_HEART = /obj/item/organ/heart/automaton,
 		ORGAN_SLOT_EYES = /obj/item/organ/eyes/automaton,
 		ORGAN_SLOT_EARS = /obj/item/organ/ears/automaton,
@@ -144,7 +149,6 @@
 	C.AddComponent(/datum/component/steam_life)
 	C.AddComponent(/datum/component/command_follower)
 	C.AddComponent(/datum/component/augmentable)
-	C.AddComponent(/datum/component/easy_repair)
 	C.AddComponent(/datum/component/damage_shutdown)
 	C.apply_status_effect(/datum/status_effect/automaton_unshackled)
 

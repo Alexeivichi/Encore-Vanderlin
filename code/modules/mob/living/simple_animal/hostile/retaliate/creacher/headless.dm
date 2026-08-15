@@ -41,7 +41,6 @@
 	retreat_health = 0.1
 	gani_taming_chance = GANI_TAME_PROB_NONE
 	dodgetime = 15
-	aggressive = 1
 	remains_type = null
 	body_eater = TRUE
 

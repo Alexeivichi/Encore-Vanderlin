@@ -3,7 +3,6 @@
 		STAT_ENDURANCE = 1,
 		STAT_SPEED = 3,
 		/datum/attribute/skill/misc/music = 50,
-		/datum/attribute/skill/magic/holy = 40,
 		/datum/attribute/skill/combat/knives = 30,
 		/datum/attribute/skill/combat/wrestling = 20,
 		/datum/attribute/skill/combat/unarmed = 20,
@@ -39,15 +38,14 @@
 		TRAIT_FOREIGNER,
 		)
 
-	spells = list(/datum/action/cooldown/spell/vicious_mockery)
+	spells = list(/datum/action/cooldown/spell/projectile/vicious_mockery)
 
-	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander3.ogg'
 
 /datum/job/advclass/sacrestant/psyaltrist/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
 	GLOB.inquisition.add_member_to_school(spawned, "Shadow Chapter", 0, "Precentor")
-	spawned.inspiration = new /datum/inspiration(spawned)
+	spawned.grant_inspiration()
 
 /datum/job/advclass/sacrestant/psyaltrist/on_roundstart(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()

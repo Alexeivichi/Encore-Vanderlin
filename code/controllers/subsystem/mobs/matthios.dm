@@ -52,7 +52,7 @@ SUBSYSTEM_DEF(deceivers_mobs)
 			continue
 
 		if(L.stat == DEAD)
-			L.DeadLife()
+			L.DeadLife(seconds, times_fired)
 		else
 			L.Life(seconds, times_fired)
 

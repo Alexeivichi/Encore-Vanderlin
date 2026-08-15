@@ -119,7 +119,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	worshippers = "Warriors, sellswords, the vengeful and sailors."
 	sins = "Cowardice, hesitation, passivity."
 	boons = "Your used weapons dull slower. Swimming is less tiring. You are immune to leeches."
-	added_traits = list(TRAIT_LEECHIMMUNE, TRAIT_GOOD_SWIM, TRAIT_SHARPER_BLADES)
+	added_traits = list(TRAIT_LEECHIMMUNE, TRAIT_SWIMMER, TRAIT_SHARPER_BLADES)
 	devotion_holder = /datum/devotion/divine/mjallidhorn
 	confess_lines = list(
 		"THE NORTH'S MADNESS!",

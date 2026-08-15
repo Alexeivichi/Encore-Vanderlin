@@ -34,7 +34,7 @@
 		if(istype(target.patron, /datum/patron/divine || /datum/patron/angros))
 			to_chat(target, span_danger("You smell rot and taste bile as the reeking madness of the Hells crashes into you, ravenous for Flesh and Thauma. Yours."))	//Elementals and All-Aspect are Hell's biggest rivals
 			continue
-		if(!owner.faction_check_mob(target))
+		if(!owner.faction_check_atom(target))
 			continue
 		if(target.mob_biotypes & MOB_UNDEAD)
 			continue

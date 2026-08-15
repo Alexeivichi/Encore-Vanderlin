@@ -41,10 +41,20 @@
 /turf/open/floor/dirt,
 /area/under/cavewet)
 "al" = (
-/obj/structure/gravemarker,
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	dir = 1;
+	icon_state = "border"
+	},
+/obj/machinery/light/fueled/lanternpost/fixed{
+	pixel_x = 10
+	},
+/obj/structure/fluff/railing/border,
+/turf/open/floor/ruinedwood,
+/area/outdoors/woods/crossroads)
 "am" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -88,13 +98,6 @@
 "au" = (
 /turf/closed/mineral/bedrock,
 /area/outdoors/woods/heavenscoast)
-"av" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "aw" = (
 /obj/structure/door/weak/bolt{
 	dir = 8
@@ -135,7 +138,9 @@
 /turf/open/floor/blocks/paving,
 /area/indoors/shelter/bog)
 "aF" = (
-/obj/structure/fake_machine/mail,
+/obj/structure/fake_machine/mail{
+	mailtag = "Bog Witch Hut"
+	},
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/shelter/bog/witch)
 "aG" = (
@@ -758,13 +763,6 @@
 /obj/structure/bridge,
 /turf/open/openspace,
 /area/outdoors/woods/heavenscoast)
-"dC" = (
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/obj/structure/closet/dirthole/grave,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "dD" = (
 /obj/structure/chair/wood/alt/chair_noble/purple,
 /turf/open/floor/ruinedwood/darker,
@@ -1846,7 +1844,6 @@
 /turf/open/floor/sand/sandstone,
 /area/indoors/shelter)
 "iW" = (
-/obj/structure/gravemarker,
 /obj/structure/closet/dirthole/grave,
 /turf/open/floor/dirt,
 /area/outdoors/woods/crossroads)
@@ -1916,7 +1913,6 @@
 /turf/closed/wall/mineral/stone/moss/red,
 /area/under/cave)
 "jm" = (
-/obj/structure/gravemarker,
 /obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt,
 /area/outdoors/woods/crossroads)
@@ -2674,10 +2670,6 @@
 /obj/effect/decal/cobbleedge,
 /turf/open/floor/hexstone,
 /area/under/cavewet)
-"mZ" = (
-/obj/structure/bounty_board,
-/turf/open/floor/ruinedwood/spiral,
-/area/indoors/shelter)
 "na" = (
 /turf/closed/mineral,
 /area/under/cave)
@@ -2884,8 +2876,6 @@
 /turf/open/floor/hexstone,
 /area/under/town/basement)
 "of" = (
-/obj/structure/gravemarker,
-/obj/structure/closet/dirthole/closed/loot,
 /obj/machinery/light/fueled/wallfire/candle/skull,
 /turf/open/floor/dirt/road,
 /area/under/town/basement)
@@ -3241,10 +3231,12 @@
 /turf/open/floor/twig,
 /area/outdoors/woods/crossroads)
 "pK" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker,
-/turf/open/floor/grass/healthy,
-/area/indoors/shelter/bog)
+/obj/effect/decal/borderfall{
+	dir = 1
+	},
+/obj/structure/notice_board,
+/turf/open/floor/grass/yel,
+/area/outdoors/woods/crossroads)
 "pM" = (
 /mob/living/carbon/human/species/skeleton/npc/peasant,
 /turf/open/floor/wood/nosmooth,
@@ -3842,13 +3834,6 @@
 /obj/machinery/light/fueled/wallfire/candle/blue,
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter/bog)
-"sJ" = (
-/obj/structure/bounty_board{
-	pixel_y = 28;
-	pixel_x = 9
-	},
-/turf/open/floor/ruinedwood/darker,
-/area/indoors/shelter/bog)
 "sK" = (
 /obj/machinery/essence/reservoir,
 /obj/structure/table/wood/large_new{
@@ -4402,11 +4387,6 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/cobble,
 /area/under/cavewet)
-"vp" = (
-/obj/structure/gravemarker,
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt,
-/area/outdoors/woods/crossroads)
 "vs" = (
 /mob/living/simple_animal/hostile/retaliate/bigrat,
 /turf/open/floor/cobble/mossy,
@@ -4722,11 +4702,6 @@
 /obj/item/chair,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/shelter)
-"wU" = (
-/obj/structure/gravemarker,
-/obj/structure/closet/dirthole/grave,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "wW" = (
 /obj/structure/fluff/railing/tall/retaining,
 /obj/structure/fluff/railing/wood,
@@ -5266,13 +5241,6 @@
 	},
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
-"zx" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/turf/open/floor/grass/healthy,
-/area/indoors/shelter/bog)
 "zA" = (
 /obj/structure/fluff/railing/border{
 	dir = 1;
@@ -5682,13 +5650,19 @@
 /turf/open/water/swamp,
 /area/outdoors/bog)
 "Bn" = (
-/obj/structure/gravemarker{
-	pixel_x = -21
+/obj/structure/fluff/signage{
+	name = "LODGE BERKLEIGH - WEST";
+	dir = 8;
+	pixel_y = 8;
+	pixel_x = 21
 	},
-/obj/structure/closet/dirthole/closed/loot,
-/obj/machinery/light/fueled/wallfire/candle/skull,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 1;
+	icon_state = "border"
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/woods/crossroads)
 "Bo" = (
 /obj/structure/door/weak/bolt{
 	dir = 1
@@ -5968,7 +5942,6 @@
 /turf/open/floor/cobble/mossy,
 /area/indoors/shelter/bog)
 "Cz" = (
-/obj/structure/gravemarker,
 /obj/structure/closet/dirthole/grave,
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
@@ -8099,13 +8072,6 @@
 /obj/machinery/light/fueled/torchholder/metal_torch/west,
 /turf/open/floor/cobble/alt,
 /area/outdoors/bog/w_highroad)
-"NP" = (
-/obj/structure/gravemarker{
-	pixel_x = -21
-	},
-/obj/structure/closet/dirthole/closed/loot,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "NQ" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/dirt,
@@ -8351,11 +8317,6 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
-"Pm" = (
-/obj/structure/closet/dirthole/closed/loot,
-/obj/structure/gravemarker,
-/turf/open/floor/dirt/road,
-/area/under/town/basement)
 "Po" = (
 /obj/item/natural/stone,
 /turf/open/floor/grass,
@@ -15740,7 +15701,7 @@ Yh
 hB
 CQ
 WX
-sJ
+vy
 bZ
 bZ
 vy
@@ -61425,7 +61386,7 @@ nE
 nE
 nE
 Ho
-al
+rv
 WA
 tl
 ca
@@ -61950,7 +61911,7 @@ Ci
 AT
 Ug
 BY
-al
+rv
 AT
 fG
 xU
@@ -62340,7 +62301,7 @@ eS
 eS
 sz
 sz
-mZ
+hG
 mD
 bu
 xM
@@ -62462,7 +62423,7 @@ UC
 Er
 we
 AT
-NP
+rv
 Ug
 Ug
 AT
@@ -62710,7 +62671,7 @@ nE
 nE
 nE
 UC
-Bn
+of
 xY
 Ci
 Wy
@@ -63728,13 +63689,13 @@ CJ
 Ho
 YB
 UC
-dC
+Ug
 BY
-av
+rv
 Ho
-dC
-av
-dC
+Ug
+rv
+Ug
 UC
 UC
 nE
@@ -63992,7 +63953,7 @@ ky
 CJ
 CJ
 Ci
-dC
+Ug
 Ho
 cw
 rv
@@ -64506,7 +64467,7 @@ Yf
 ky
 SU
 Ci
-Pm
+rv
 UC
 AI
 SY
@@ -64756,13 +64717,13 @@ CJ
 UC
 YB
 UC
-Pm
-wU
-al
+rv
+Ug
+rv
 UC
 BY
-wU
-al
+Ug
+rv
 Ho
 Ho
 na
@@ -77186,11 +77147,11 @@ mb
 mb
 QN
 WX
-zx
 DO
-zx
 DO
-zx
+DO
+DO
+DO
 WX
 Ki
 Ki
@@ -78214,11 +78175,11 @@ mb
 mb
 mb
 WX
-pK
 DO
-pK
 DO
-pK
+DO
+DO
+DO
 WX
 Ki
 Ki
@@ -133156,8 +133117,8 @@ sY
 sY
 sY
 sY
-NH
-sY
+al
+UO
 js
 js
 js
@@ -133413,8 +133374,8 @@ js
 sY
 sY
 sY
-zV
-UO
+Bn
+pK
 js
 js
 Qn
@@ -139816,7 +139777,7 @@ jm
 sY
 iW
 sY
-vp
+iO
 Vy
 Vy
 iO

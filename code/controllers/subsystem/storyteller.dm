@@ -1557,13 +1557,13 @@ SUBSYSTEM_DEF(gamemode)
 			record_round_statistic(STATS_WEREVOLVES)
 		if(living.mind.has_antag_datum(/datum/antagonist/vampire))
 			record_round_statistic(STATS_VAMPIRES)
-		if(living.mind.has_antag_datum(/datum/antagonist/zombie) || living.mind.has_antag_datum(/datum/antagonist/skeleton) || living.mind.has_antag_datum(/datum/antagonist/lich))
+		if(IS_DEADITE(living) || living.mind.has_antag_datum(/datum/antagonist/skeleton) || living.mind.has_antag_datum(/datum/antagonist/lich))
 			record_round_statistic(STATS_DEADITES_ALIVE)
 		if(ishuman(living))
 			var/mob/living/carbon/human/human_mob = client.mob
 			current_valid_humans += human_mob
 			record_round_statistic(STATS_TOTAL_POPULATION)
-			for(var/obj/item/clothing/neck/current_item in human_mob.get_equipped_items(TRUE))
+			for(var/obj/item/clothing/neck/current_item in human_mob.get_equipped_items(INCLUDE_POCKETS))
 				if(current_item.type in list(/obj/item/clothing/neck/psycross, /obj/item/clothing/neck/psycross/silver, /obj/item/clothing/neck/psycross/gold))
 					record_round_statistic(STATS_PSYCROSS_USERS)
 					break

@@ -105,6 +105,7 @@
 
 	organs = list(
 		ORGAN_SLOT_BRAIN = /obj/item/organ/brain/smooth,
+		ORGAN_SLOT_SPLEEN = /obj/item/organ/spleen,
 		ORGAN_SLOT_HEART = /obj/item/organ/heart,
 		ORGAN_SLOT_LUNGS = /obj/item/organ/lungs,
 		ORGAN_SLOT_EYES = /obj/item/organ/eyes/kobold,
@@ -140,9 +141,7 @@
 /datum/species/kobold/on_species_loss(mob/living/carbon/C)
 	. = ..()
 	if(hungry_hungry_kobold)
-		var/datum/component/abberant_eater = C.GetComponent(/datum/component/abberant_eater)
-		if(abberant_eater)
-			abberant_eater.RemoveComponent()
+		qdel(GetComponent(/datum/component/abberant_eater))
 	UnregisterSignal(C, COMSIG_MOB_SAY)
 	C.remove_language(/datum/language/common)
 
