@@ -1,0 +1,7 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - bugfix: "Gives the Court Physician Keyring the Clinic, Apothecary, and Feldsher keys."
+  - bugfix: "Gives the Archivist the Mage Tower key so they can access the telescope."
+  - bugfix: "Changes the access on the chest in the Mage Tower's alchemy room to Tower access, not Apothecary."
+  - map: "Puts the big telescope on the roof of the Mage Tower."
