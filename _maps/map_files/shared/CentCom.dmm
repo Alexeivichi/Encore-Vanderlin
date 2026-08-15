@@ -5991,10 +5991,6 @@
 /obj/item/painting/skull,
 /turf/closed/wall/mineral/craftstone,
 /area/indoors/vampire_manor)
-"Ek" = (
-/obj/structure/closet/dirthole/closed,
-/turf/open/floor/dirt/road,
-/area/outdoors/woods_safe)
 "El" = (
 /obj/machinery/light/fueled/hearth,
 /obj/machinery/light/fueled/oven{
@@ -7967,7 +7963,7 @@
 	},
 /obj/structure/fluff/traveltile{
 	aallmig = "very_dead_end";
-	aportalgoesto = "bypass_out";
+	aportalgoesto = "bypass_ooc";
 	aportalid = "very_dead_end";
 	name = "To Seculton Gate";
 	dir = 4;
@@ -9117,7 +9113,7 @@
 "Uo" = (
 /obj/structure/fluff/traveltile{
 	aallmig = "very_dead_end";
-	aportalgoesto = "bypass_out";
+	aportalgoesto = "bypass_ooc";
 	aportalid = "very_dead_end";
 	name = "To Seculton Gate";
 	dir = 4;
@@ -9439,10 +9435,6 @@
 	layer = 2
 	},
 /turf/open/floor/ruinedwood/darker,
-/area/outdoors/bog/inhumen_camp)
-"VP" = (
-/obj/structure/closet/dirthole/closed,
-/turf/open/floor/dirt,
 /area/outdoors/bog/inhumen_camp)
 "VQ" = (
 /obj/structure/table/wood/plain_alt,
@@ -11582,7 +11574,7 @@ QZ
 jW
 Sq
 Ok
-Ek
+gd
 UX
 xt
 Sn
@@ -24193,7 +24185,7 @@ Ae
 GZ
 VC
 GZ
-VP
+ws
 VB
 Zt
 lH
@@ -24453,7 +24445,7 @@ Ae
 GZ
 NL
 GZ
-VP
+ws
 Gt
 wi
 uS

@@ -53,6 +53,13 @@
 	},
 /turf/open/water/river,
 /area/under/necropolis/bypass)
+"j" = (
+/obj/structure/fluff/railing/tall/retaining/concrete,
+/obj/structure/bars/pipe{
+	dir = 1
+	},
+/turf/open/water/river,
+/area/under/necropolis/bypass)
 "k" = (
 /obj/structure/fluff/traveltile{
 	aallmig = "bypass1";
@@ -127,8 +134,15 @@
 	},
 /turf/open/water/river,
 /area/under/necropolis/bypass)
+"w" = (
+/turf/open/floor/metal,
+/area/under/necropolis/bypass)
 "x" = (
 /turf/closed/wall/mineral/white_slab,
+/area/under/necropolis/bypass)
+"y" = (
+/obj/structure/door/iron/bars,
+/turf/open/floor/metal,
 /area/under/necropolis/bypass)
 "z" = (
 /obj/structure/fluff/walldeco/bath/wallpipes/innie{
@@ -244,6 +258,24 @@
 /turf/open/water/river{
 	dir = 4
 	},
+/area/under/necropolis/bypass)
+"R" = (
+/obj/structure/fluff/traveltile{
+	aallmig = "bypass_ooc";
+	aportalgoesto = "superduperdeadend";
+	aportalid = "bypass_ooc";
+	name = "Prismatic Bridge Bypass";
+	dir = 8;
+	icon_state = "event";
+	desc = "This is a bypass from the OOC area leading into this for convenience."
+	},
+/turf/open/floor/metal,
+/area/under/necropolis/bypass)
+"S" = (
+/obj/structure/fluff/railing/tall/retaining/concrete{
+	dir = 1
+	},
+/turf/open/water/river,
 /area/under/necropolis/bypass)
 "T" = (
 /turf/open/floor/metal/red,
@@ -452,7 +484,7 @@ d
 d
 V
 V
-x
+y
 a
 o
 o
@@ -468,9 +500,9 @@ d
 (12,1,1) = {"
 d
 x
-I
-I
-I
+j
+w
+S
 I
 I
 I
@@ -485,9 +517,9 @@ d
 (13,1,1) = {"
 d
 x
-I
-I
-I
+j
+w
+S
 I
 I
 I
@@ -503,7 +535,7 @@ d
 d
 x
 x
-x
+R
 x
 x
 x
