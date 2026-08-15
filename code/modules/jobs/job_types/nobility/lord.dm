@@ -154,6 +154,7 @@ GLOBAL_LIST_EMPTY(lord_titles)
 	scabbards = list(/obj/item/weapon/scabbard/knife/royal, /obj/item/weapon/scabbard/sword/royal)
 	ring = /obj/item/clothing/ring/active/nomag
 	l_hand = /obj/item/weapon/lordscepter
+	r_hand = /obj/item/storage/keyring/heir
 
 /datum/outfit/lord/map_override(mob/living/carbon/human/H)
 	if(SSmapping.config.map_name != "Voyage")
