@@ -4868,7 +4868,6 @@
 /turf/open/water/swamp/deep,
 /area/outdoors/woods/west/lonelyeerie)
 "Gc" = (
-/obj/structure/fluff/wallclock/vampire,
 /obj/structure/vampire/portalmaker,
 /turf/open/floor/church/purple,
 /area/indoors/vampire_manor)
