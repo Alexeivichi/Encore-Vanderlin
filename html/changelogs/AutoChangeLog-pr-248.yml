@@ -1,0 +1,4 @@
+author: "Roostercat12"
+delete-after: True
+changes:
+  - rscadd: "Added fuel and sacks to the servant quarters."
