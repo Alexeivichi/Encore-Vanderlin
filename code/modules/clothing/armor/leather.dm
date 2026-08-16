@@ -259,7 +259,7 @@
 
 /obj/item/clothing/armor/leather/jacket/tailcoat
 	name = "tailcoat"
-	desc = "A finely-sewn tailcoat often worn by those on the brink of the upper echelons of Astratan caste."
+	desc = "A finely-sewn tailcoat often worn by those on the brink of the upper echelons of aristocracy."
 	icon_state = "butlercoat"
 	item_state = "butlercoat"
 	detail_tag = "_detail"

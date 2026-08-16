@@ -487,7 +487,7 @@
 
 /datum/special_trait/blessed
 	name = "The Blessed One"
-	greet_text = span_notice("I am beloved by the Ten, I have been blessed by all their boons.")
+	greet_text = span_notice("I am beloved by the Aspects, I have been blessed by all their boons.")
 	req_text = "Be Tennite"
 	weight = 7
 	allowed_patrons = ALL_TEMPLE_PATRONS

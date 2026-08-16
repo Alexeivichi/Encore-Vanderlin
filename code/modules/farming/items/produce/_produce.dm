@@ -640,7 +640,7 @@
 /obj/item/reagent_containers/food/snacks/produce/sunflower
 	seed = /obj/item/neuFarm/seed/sunflower
 	name = "sunflower"
-	desc = "Astratas favoured flower, said to carry some of her warmth and radiance. Astratan acolytes hold them in high regard."
+	desc = "Visires' favoured flower, said to carry some of her warmth and radiance. Flame acolytes hold them in high regard."
 	icon_state = "sunflower"
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/head_items.dmi'
 	slot_flags = ITEM_SLOT_HEAD

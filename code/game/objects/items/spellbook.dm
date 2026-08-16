@@ -13,7 +13,6 @@
 	pages_to_mastery = 7
 	remarks = list("Recall that place of white and black, so cold after its season of heat...",
 	"Time slips away as I devour each pictograph and sigil...",
-	"Akan is a shrewd God, and his followers’ writings are no different...",
 	"The smell of wet rain fills the room with every turned page...",
 	"Helical text spans the page like a winding puzzle...",
 	"Tracing a finger over one rune renders  my hand paralyzed, if only for a moment...",
@@ -26,8 +25,6 @@
 	"My eyes begin to lid as I finish this chapter. These symbols cast a heavy fog over my mind...",
 	"Silver. Blade. Mana. Blood. These are the ingredients I’ll need to imbibe the very ground with arcyne abilities...",
 	"Elysium incants speak to me in an extinct tongue immortalized on parchment...",
-	"My mind wanders and waves. Z's temptations draw close, but I weather through as I finally finish this chapter...",
-	"I close my eye's for but a moment, and the competing visages of Akan and Z stare into my very soul. I see them blink, and my eyelids open...",
 	"I am the Root. The Root is me. I must reach it, and the Tree...",
 	"I feel the arcyne circuits running through my body, empowered with each word I read...",
 	"Am I reading? Are these words, symbols or inane scribbles? I cannot be sure, yet with each one my eyes glaze over, I can feel the arcyne pulse within me...",
@@ -204,7 +201,7 @@
 
 	user.visible_message(
 		span_warning("[user] is filled with arcyne energy! You witness [user.p_their()] body convulse and spark brightly."),
-		span_notice("Noc blesses me. I have been granted knowledge and wisdom beyond my years, this tome's mysteries unveiled one at a time.")
+		span_notice("The Aspects bless me. I have been granted knowledge and wisdom beyond my years, this tome's mysteries unveiled one at a time.")
 	)
 
 	var/spellpoints = CEILING(bookquality * (qualityoflearn / 100), 1)

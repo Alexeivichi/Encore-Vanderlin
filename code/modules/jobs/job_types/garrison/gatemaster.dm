@@ -176,7 +176,7 @@
 	title = "Archer Gatemaster"
 	tutorial = "Many may try to sneak past your post, thinking you wont see them. \
 	But the years made your senses grow sharp, and your arrows sharper. \
-	There is yet to be an arrow fired from you, that did not put the fear of the ten into their eyes."
+	There is yet to be an arrow fired from you, that did not put the fear of the Aspects into their eyes."
 	outfit = /datum/outfit/gatemaster/bow
 	category_tags = list(CTAG_GATEMASTER)
 

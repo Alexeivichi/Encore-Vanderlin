@@ -84,7 +84,7 @@
 
 /obj/item/weapon/flail/sflail/valdalaflail
 	name = "swift journey"
-	desc = "The striking head resembles Valdala's original skull, striking true with a sculpted emblem of love and sacrifice. Perhaps one of the few Unsundered-designed emblems of The Ten left."
+	desc = "The striking head resembles Valdala's original skull, striking true with a sculpted emblem of love and sacrifice. Perhaps one of the few Unsundered-designed emblems of the ancient world left."
 	icon = 'icons/roguetown/weapons/32/patron.dmi'
 	icon_state = "necraflail"
 	item_weight = 1.4 KILOGRAMS

@@ -1,6 +1,6 @@
 /datum/migrant_role/acolytes
 	name = "Acolytes"
-	greet_text = "The word of the Ten is everything to you and your pilgrimage has brought to you seek the local church."
+	greet_text = "The word of the Elementals is everything to you and your pilgrimage has brought to you seek the local church."
 	migrant_job = /datum/job/monk
 
 /datum/migrant_wave/acolytes
@@ -11,7 +11,7 @@
 	roles = list(
 		/datum/migrant_role/acolytes = 4,
 	)
-	greet_text = "The Tens have decreed that this land needs additional persons of faith, so here you are."
+	greet_text = "The Katholikos has decreed that this land needs additional persons of faith, so here you are."
 
 /datum/migrant_wave/acolytes_down
 	name = "The Holy Voyage"
@@ -21,7 +21,7 @@
 	roles = list(
 		/datum/migrant_role/acolytes = 3,
 	)
-	greet_text = "The Tens have decreed that this land needs additional persons of faith, so here you are."
+	greet_text = "The Katholikos has decreed that this land needs additional persons of faith, so here you are."
 
 /datum/migrant_wave/acolytes_down_one
 	name = "The Holy Voyage"
@@ -31,7 +31,7 @@
 	roles = list(
 		/datum/migrant_role/acolytes = 2,
 	)
-	greet_text = "The Tens have decreed that this land needs additional persons of faith, so here you are."
+	greet_text = "The Katholikos has decreed that this land needs additional persons of faith, so here you are."
 
 /datum/migrant_wave/acolytes_down_two
 	name = "The Holy Voyage"
@@ -40,4 +40,4 @@
 	roles = list(
 		/datum/migrant_role/acolytes = 1,
 	)
-	greet_text = "The Tens have decreed that this land needs additional persons of faith, so here you are."
+	greet_text = "The Katholikos has decreed that this land needs additional persons of faith, so here you are."

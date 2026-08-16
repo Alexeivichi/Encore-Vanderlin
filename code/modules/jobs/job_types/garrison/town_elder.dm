@@ -357,7 +357,7 @@
 
 /datum/job/advclass/town_elder/hearth_acolyte //An acolyte that left the church and now serve and help the town people.
 	title = "Hearth Acolyte"
-	tutorial = "As an Acolyte, you dedicated your life to faith and service, expecting nothing in return. When you saved a noble, they repaid you with a home and gold, but you accepted it as the will of the Ten. Though you stepped away from the Church, you found a new purpose, not in grand temples, but in the rhythm of the streets. Your voice, once raised in hymns and prayers, now carries through alleyways and taverns, offering solace in melody and verse. Whether through healing, wisdom, or song, your faith endures. Only now, your congregation is the town itself."
+	tutorial = "As an Acolyte, you dedicated your life to faith and service, expecting nothing in return. When you saved a noble, they repaid you with a home and gold, but you accepted it as the will of the Aspects. Though you stepped away from the Church, you found a new purpose, not in grand temples, but in the rhythm of the streets. Your voice, once raised in hymns and prayers, now carries through alleyways and taverns, offering solace in melody and verse. Whether through healing, wisdom, or song, your faith endures. Only now, your congregation is the town itself."
 	outfit = /datum/outfit/town_elder/hearth_acolyte
 	category_tags = list(CTAG_TOWN_ELDER)
 	allowed_patrons = ALL_TEMPLE_PATRONS

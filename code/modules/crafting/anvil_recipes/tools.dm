@@ -367,7 +367,7 @@
 	craftdiff = 2
 
 /datum/anvil_recipe/tools/gold/headstone_astrata
-	name = "Golden Astratan Headstone"
+	name = "Golden Ember Headstone"
 	created_item = /obj/item/gravedecor/headstone/astrata
 	category = "Headstones"
 
