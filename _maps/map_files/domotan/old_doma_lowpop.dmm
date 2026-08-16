@@ -6581,6 +6581,7 @@
 /obj/structure/fluff/walldeco/church/line{
 	dir = 1
 	},
+/obj/item/reagent_containers/food/snacks/butter,
 /turf/open/floor/cobble,
 /area/indoors/town/keep/kitchen)
 "eyz" = (
@@ -15048,8 +15049,16 @@
 /area/indoors/town/vault)
 "keG" = (
 /obj/structure/closet/crate/chest,
-/obj/item/reagent_containers/food/snacks/butter,
 /obj/machinery/light/fueled/wallfire/candle/r,
+/obj/item/grown/log/tree/small,
+/obj/item/grown/log/tree/small,
+/obj/item/grown/log/tree/small,
+/obj/item/natural/bundle/stick,
+/obj/item/natural/bundle/stick,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
 /turf/open/floor/cobble,
 /area/indoors/town/keep/kitchen)
 "keV" = (
@@ -17274,8 +17283,7 @@
 	dir = 8
 	},
 /obj/structure/fluff/railing/border{
-	dir = 1;
-	icon_state = "border"
+	dir = 1
 	},
 /obj/structure/quest_counter{
 	counter_id = "guild_1"
@@ -28561,6 +28569,8 @@
 /obj/item/reagent_containers/glass/bottle/redwine,
 /obj/item/reagent_containers/glass/bottle/redwine,
 /obj/item/reagent_containers/glass/bottle/redwine,
+/obj/item/storage/sack,
+/obj/item/storage/sack,
 /turf/open/floor/woodturned,
 /area/indoors/town/keep/kitchen)
 "tiz" = (
