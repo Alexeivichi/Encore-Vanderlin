@@ -25473,6 +25473,17 @@
 	},
 /turf/open/floor/blocks,
 /area/outdoors/town/roofs)
+"qZi" = (
+/obj/structure/dye_bin/luxury{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/structure/dye_bin{
+	pixel_x = -7;
+	pixel_y = -1
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/keep)
 "qZs" = (
 /obj/structure/fluff/railing/wood,
 /obj/structure/fluff/railing/wood{
@@ -75707,7 +75718,7 @@ cEF
 lGQ
 erC
 kxb
-kxb
+qZi
 kvK
 bAs
 bYa
