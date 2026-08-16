@@ -1,0 +1,4 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - bugfix: "Fixed bugged bookcases in Etgard Keep and around Old Doma"
