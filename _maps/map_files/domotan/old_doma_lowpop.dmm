@@ -492,7 +492,7 @@
 /turf/open/floor/church/violet,
 /area/indoors/town/keep/garrison)
 "aqO" = (
-/obj/structure/bookcase/random/archive,
+/obj/structure/bookcase/random,
 /turf/open/floor/church/green,
 /area/indoors/town/keep/library)
 "ard" = (
@@ -6480,7 +6480,7 @@
 /turf/open/floor/carpet/red,
 /area/indoors/town/tavern)
 "evn" = (
-/obj/structure/bookcase/random/archive,
+/obj/structure/bookcase/random,
 /turf/open/floor/churchrough,
 /area/indoors/town/keep/archivist)
 "ewc" = (
@@ -6544,7 +6544,7 @@
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/clinic_large)
 "exV" = (
-/obj/structure/bookcase/random/archive,
+/obj/structure/bookcase/random,
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 4
 	},
@@ -8584,7 +8584,7 @@
 /turf/open/floor/concrete,
 /area/indoors/town/church)
 "fUu" = (
-/obj/structure/bookcase/random/archive,
+/obj/structure/bookcase/random,
 /turf/open/floor/church/purple,
 /area/indoors/town/keep/archivist)
 "fVf" = (
@@ -8907,6 +8907,10 @@
 /obj/structure/fermentation_keg/redwine,
 /turf/open/floor/hexstone,
 /area/indoors/town/church/inquisition)
+"gek" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/tavern)
 "geM" = (
 /obj/structure/flora/newtree/snow,
 /turf/open/floor/grass/yel,
@@ -9184,7 +9188,7 @@
 /area/under/town/basement)
 "grT" = (
 /obj/structure/fluff/railing/wood,
-/obj/structure/bookcase/random,
+/obj/structure/bookcase,
 /turf/open/floor/churchbrick,
 /area/indoors/town/keep)
 "grV" = (
@@ -9955,7 +9959,7 @@
 /area/outdoors/town/noble_manor/blue)
 "gVT" = (
 /obj/structure/fluff/railing/wood,
-/obj/structure/bookcase/random,
+/obj/structure/bookcase,
 /turf/open/floor/wood,
 /area/indoors/town/tavern)
 "gVU" = (
@@ -12231,7 +12235,11 @@
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors/town/steward)
 "ipe" = (
-/obj/structure/bookcase/random,
+/obj/structure/rack/shelf/biggest,
+/obj/item/natural/cloth{
+	pixel_x = -5;
+	pixel_y = 8
+	},
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern)
 "ipg" = (
@@ -13211,7 +13219,7 @@
 /turf/open/floor/blocks/paving,
 /area/indoors/town/keep/phys)
 "iVd" = (
-/obj/structure/bookcase/random/archive,
+/obj/structure/bookcase/random,
 /obj/effect/decal/cleanable/dirt/cobweb,
 /turf/open/floor/church/purple,
 /area/indoors/town/keep/archivist)
@@ -14554,10 +14562,10 @@
 /turf/open/water/ocean,
 /area/under/cavewet)
 "jPF" = (
-/obj/structure/bookcase/random,
 /obj/machinery/light/fueledstreet/orange/wall{
 	dir = 4
 	},
+/obj/structure/bookcase,
 /turf/open/floor/churchbrick,
 /area/indoors/town/keep)
 "jPJ" = (
@@ -18056,11 +18064,8 @@
 /turf/open/floor/concrete,
 /area/indoors/town/church/inquisition)
 "mer" = (
-/obj/structure/bookcase/random{
-	pixel_y = 18;
-	density = 0
-	},
 /obj/machinery/light/fueled/wallfire/candle/r,
+/obj/structure/bookcase/random_recipes,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/shop)
 "mfb" = (
@@ -20864,7 +20869,7 @@
 /obj/structure/fluff/railing/wood,
 /obj/machinery/light/fueled/wallfire/candle/r,
 /obj/machinery/light/fueled/torchholder/r,
-/obj/structure/bookcase/random,
+/obj/structure/bookcase/random_recipes,
 /turf/open/floor/wood,
 /area/indoors/town/tavern)
 "nQE" = (
@@ -21134,7 +21139,7 @@
 /turf/open/floor/blocks/stonered/tiny,
 /area/outdoors/town/neighborhood)
 "ocw" = (
-/obj/structure/bookcase/random/archive,
+/obj/structure/bookcase/random,
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 8
 	},
@@ -22988,7 +22993,7 @@
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep)
 "ppC" = (
-/obj/structure/bookcase/random/archive,
+/obj/structure/bookcase/random,
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 4
 	},
@@ -23113,7 +23118,7 @@
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern)
 "psQ" = (
-/obj/structure/bookcase/random/archive,
+/obj/structure/bookcase/random,
 /turf/open/floor/carpet/red,
 /area/indoors/town/keep/archivist)
 "psR" = (
@@ -23219,7 +23224,7 @@
 /turf/open/floor/churchmarble,
 /area/indoors/town/church/inquisition)
 "pwy" = (
-/obj/structure/bookcase/random,
+/obj/structure/bookcase/random_recipes,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/shop)
 "pwD" = (
@@ -25824,7 +25829,7 @@
 /turf/open/floor/wood,
 /area/indoors/town)
 "rmw" = (
-/obj/structure/bookcase/random/archive,
+/obj/structure/bookcase/random,
 /obj/machinery/light/fueledstreet/blue/wall,
 /turf/open/floor/church/purple,
 /area/indoors/town/keep/archivist)
@@ -25994,7 +25999,7 @@
 /turf/open/floor/metal,
 /area/indoors/town/shop)
 "rve" = (
-/obj/structure/bookcase/random/archive,
+/obj/structure/bookcase/random,
 /obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
 /turf/open/floor/church/green,
 /area/indoors/town/keep/library)
@@ -26011,7 +26016,7 @@
 /turf/open/floor/wood,
 /area/indoors/town/keep)
 "rvB" = (
-/obj/structure/bookcase/random/archive,
+/obj/structure/bookcase/random,
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/keep/library)
 "rvD" = (
@@ -31551,7 +31556,7 @@
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors/town/keep/magician)
 "vmI" = (
-/obj/structure/bookcase/random/archive,
+/obj/structure/bookcase/random,
 /obj/effect/decal/cleanable/dirt/cobweb,
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 4
@@ -106894,7 +106899,7 @@ oeA
 hhL
 hhL
 hhL
-ipe
+gek
 cPk
 ifj
 ifj

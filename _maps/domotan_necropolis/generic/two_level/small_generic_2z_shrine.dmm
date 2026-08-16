@@ -98,18 +98,12 @@
 /obj/effect/spawner/map_spawner/necropolis,
 /turf/open/floor/church,
 /area/indoors/shelter/woods)
-"tC" = (
-/obj/effect/mapping_helpers/structure/breaker,
-/obj/structure/door/weak,
-/turf/open/floor/church/purple,
-/area/indoors/shelter/woods)
 "tF" = (
 /obj/structure/spider/stickyweb,
 /turf/open/floor/church/gold,
 /area/indoors/shelter/woods)
 "tR" = (
 /obj/structure/stairs/stone,
-/obj/effect/mapping_helpers/structure/breaker,
 /obj/structure/door/weak,
 /turf/open/floor/cobble/mossy,
 /area/indoors/shelter/woods)
@@ -239,11 +233,6 @@
 /obj/structure/spider/stickyweb,
 /turf/open/floor/church/purple,
 /area/indoors/shelter/woods)
-"Pc" = (
-/obj/structure/window/stained,
-/obj/effect/mapping_helpers/structure/breaker,
-/turf/open/floor/cobble,
-/area/indoors/shelter/woods)
 "Rb" = (
 /obj/structure/chair/bench/church/r,
 /turf/open/floor/church/purple,
@@ -317,7 +306,7 @@ rk
 Ix
 NZ
 dw
-Pc
+cl
 Vk
 mp
 mp
@@ -383,7 +372,7 @@ Jb
 Jk
 wX
 dK
-tC
+ad
 Jd
 wD
 wD
@@ -474,7 +463,7 @@ wD
 wD
 mp
 mp
-Pc
+cl
 rk
 cl
 rk
