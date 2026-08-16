@@ -1,6 +1,6 @@
 /datum/enchantment/divine_link
 	enchantment_name = "Divine Link"
-	examine_text = "You can feel the Ten closer then ever before."
+	examine_text = "You can feel the Aspects closer then ever before."
 	enchantment_color = "#b6b6b6"
 	essence_recipe = list(
 		/datum/thaumaturgical_essence/life = 50,

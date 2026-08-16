@@ -300,7 +300,7 @@
 
 /obj/item/gem/amber
 	name = "raw petriamber"
-	desc = "A chunk of fossilized mushroom that shines radiantly in sunlight. It's prized amongst Astratans."
+	desc = "A chunk of fossilized mushroom that shines radiantly in sunlight. It's prized amongst southerners."
 	icon = 'icons/roguetown/gems/gem_amber.dmi'
 	icon_state = "raw_amber"
 	sellprice = 50

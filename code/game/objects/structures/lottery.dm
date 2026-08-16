@@ -266,7 +266,7 @@
 			say("Oh, Angros?")
 			playsound(src, 'sound/misc/machinequestion.ogg', 100, FALSE, -1)
 			sleep(30)
-			say("To be honest, I'm about PSY-DONE with this whole debate! Ha-ha-h- ...No? Too soon? Alright.")
+			say("To be honest, I'm burned out with this whole debate! Ha-ha-h- ...No? Too soon? Alright.")
 			playsound(src, 'sound/misc/machinetalk.ogg', 100, FALSE, -1)
 
 		if(6)

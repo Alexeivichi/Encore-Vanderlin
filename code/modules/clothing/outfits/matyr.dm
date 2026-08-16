@@ -14,7 +14,7 @@
 
 /obj/item/clothing/armor/plate/full/holysee
 	name = "holy silver plate"
-	desc = "Silver-clad plate for the guardians and the warriors, for the spears and shields of the Ten."
+	desc = "Silver-clad plate for the guardians and the warriors, for the spears and shields of the Aspects."
 	icon = 'icons/roguetown/clothing/special/martyr.dmi'
 	icon_state = "silverarmor"
 	item_state = "silverarmor"
@@ -42,7 +42,7 @@
 
 /obj/item/clothing/head/helmet/heavy/holysee
 	name = "holy silver bascinet"
-	desc = "Branded by the faithful of the Ten, these helms are worn by its chosen warriors. A bastion of hope in the dark nite."
+	desc = "Branded by the faithful of the Aspects, these helms are worn by its chosen warriors. A bastion of hope in the dark nite."
 	icon = 'icons/roguetown/clothing/special/martyr.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/martyrbascinet.dmi'
 	bloody_icon = 'icons/effects/blood64x64.dmi'
