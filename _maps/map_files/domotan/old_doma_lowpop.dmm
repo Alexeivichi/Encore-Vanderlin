@@ -2662,6 +2662,10 @@
 /area/outdoors/town)
 "bPf" = (
 /obj/structure/well,
+/obj/machinery/light/fueled/wallfire/candle/lamp{
+	pixel_y = 0;
+	pixel_x = -32
+	},
 /turf/open/floor/blocks/paving,
 /area/indoors/town/clinic_large)
 "bPx" = (
@@ -4505,6 +4509,16 @@
 	},
 /turf/open/floor/churchrough/violet,
 /area/indoors/town/church/inquisition)
+"cZS" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/machinery/light/fueled/wallfire/candle/lamp{
+	pixel_y = 0;
+	pixel_x = 32
+	},
+/turf/open/floor/dirt,
+/area/indoors/town/clinic_large)
 "dag" = (
 /obj/structure/window/stained/yellow,
 /turf/open/floor/ruinedwood/alt,
@@ -7688,6 +7702,10 @@
 /area/outdoors/town)
 "ffc" = (
 /obj/structure/composter/halffull,
+/obj/machinery/light/fueled/wallfire/candle/lamp{
+	pixel_y = 0;
+	pixel_x = 32
+	},
 /turf/open/floor/blocks/paving,
 /area/indoors/town/clinic_large)
 "ffp" = (
@@ -17302,6 +17320,16 @@
 	},
 /turf/open/floor/blocks/stonered/tiny,
 /area/outdoors/town/neighborhood)
+"lpK" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/machinery/light/fueled/wallfire/candle/lamp{
+	pixel_y = 0;
+	pixel_x = -32
+	},
+/turf/open/floor/dirt,
+/area/indoors/town/clinic_large)
 "lpL" = (
 /obj/structure/stairs/stone{
 	dir = 1
@@ -19239,6 +19267,16 @@
 	},
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/waterworks)
+"mtm" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/machinery/light/fueled/wallfire/candle/lamp{
+	pixel_y = 0;
+	pixel_x = -32
+	},
+/turf/open/floor/dirt,
+/area/indoors/town/clinic_large)
 "mtp" = (
 /obj/effect/mapping_helpers/access/keyset/manor/general,
 /obj/structure/door/fancy{
@@ -28375,6 +28413,16 @@
 /obj/item/clothing/head/helmet/bascinet,
 /turf/open/floor/church/violet,
 /area/indoors/town/keep/garrison)
+"sEG" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/machinery/light/fueled/wallfire/candle/lamp{
+	pixel_y = 0;
+	pixel_x = 32
+	},
+/turf/open/floor/dirt,
+/area/indoors/town/clinic_large)
 "sEO" = (
 /turf/closed/wall/mineral/stonebrick,
 /area/under/town/basement)
@@ -57821,11 +57869,11 @@ bPf
 otn
 hUO
 gnq
-gnq
+lpK
 gnq
 wZy
 otn
-mpf
+mtm
 buR
 kqx
 kqx
@@ -58481,11 +58529,11 @@ ffc
 otn
 iEE
 cTV
-cTV
+sEG
 cTV
 hdS
 otn
-mpf
+cZS
 oOc
 kqx
 kqx
