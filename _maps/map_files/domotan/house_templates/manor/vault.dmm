@@ -76,7 +76,6 @@
 /obj/item/clothing/gloves/leather/advanced,
 /obj/item/clothing/armor/cuirass,
 /obj/item/clothing/head/helmet/visored/sallet,
-/obj/item/storage/belt/leather/plaquesilver,
 /turf/open/floor/tile/bath,
 /area/indoors/town/keep)
 "F" = (
@@ -104,6 +103,8 @@
 /obj/item/clothing/neck/chaincoif,
 /obj/item/clothing/armor/gambeson/hunts,
 /obj/item/clothing/armor/gambeson/hunts,
+/obj/item/storage/belt/leather/plaquesilver,
+/obj/item/storage/belt/leather/plaquesilver,
 /turf/open/floor/tile/bath,
 /area/indoors/town/keep)
 "J" = (
@@ -114,7 +115,6 @@
 /obj/item/clothing/gloves/leather/advanced,
 /obj/item/clothing/armor/cuirass,
 /obj/item/clothing/head/helmet/visored/sallet,
-/obj/item/storage/belt/leather/plaquesilver,
 /turf/open/floor/tile/bath,
 /area/indoors/town/keep)
 "M" = (

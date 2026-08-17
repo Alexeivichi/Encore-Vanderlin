@@ -38,7 +38,6 @@
 /obj/item/clothing/gloves/plate,
 /obj/item/clothing/armor/plate/decorated,
 /obj/item/clothing/head/helmet/heavy/decorated/hounskull,
-/obj/item/storage/belt/leather/plaquegold,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/lord_appt)
 "u" = (
@@ -76,6 +75,8 @@
 /obj/item/storage/belt/pouch/coins/veryrich,
 /obj/item/scomstone,
 /obj/item/scomstone,
+/obj/item/storage/belt/leather/plaquegold,
+/obj/item/storage/belt/leather/plaquegold,
 /obj/item/key/lord,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/lord_appt)
@@ -86,7 +87,6 @@
 /obj/item/clothing/gloves/chain,
 /obj/item/clothing/armor/plate/decorated,
 /obj/item/clothing/head/helmet/heavy/decorated/bascinet,
-/obj/item/storage/belt/leather/plaquegold,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/lord_appt)
 "T" = (

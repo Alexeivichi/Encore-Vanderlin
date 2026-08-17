@@ -8,6 +8,7 @@
 	},
 /obj/item/clothing/armor/gambeson/hunts,
 /obj/item/clothing/neck/coif,
+/obj/item/storage/belt/leather/plaquesilver,
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/keep/heir/heir2)
 "k" = (
@@ -61,7 +62,6 @@
 /obj/item/clothing/shoes/boots/leather/advanced,
 /obj/item/clothing/pants/trou/leather/advanced,
 /obj/item/clothing/gloves/leather/advanced,
-/obj/item/storage/belt/leather/plaquesilver,
 /obj/item/clothing/armor/cuirass,
 /obj/item/clothing/head/helmet/visored/sallet,
 /turf/open/floor/ruinedwood/two,
