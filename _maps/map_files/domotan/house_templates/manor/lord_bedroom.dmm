@@ -26,10 +26,6 @@
 /obj/item/clothing/gloves/angle,
 /obj/effect/mapping_helpers/access/keyset/manor/lord,
 /obj/effect/mapping_helpers/access/locker,
-/obj/item/clothing/neck/chaincoif,
-/obj/item/clothing/neck/chaincoif,
-/obj/item/clothing/armor/gambeson/hunts,
-/obj/item/clothing/armor/gambeson/hunts,
 /turf/open/floor/wood,
 /area/indoors/town/keep/lord_appt)
 "o" = (
@@ -71,9 +67,13 @@
 /obj/structure/closet/crate/drawer/random{
 	pixel_y = 10
 	},
-/obj/item/storage/belt/pouch/coins/veryrich,
-/obj/item/storage/belt/pouch/coins/veryrich,
+/obj/item/clothing/neck/chaincoif,
+/obj/item/clothing/neck/chaincoif,
+/obj/item/clothing/armor/gambeson/hunts,
+/obj/item/clothing/armor/gambeson/hunts,
 /obj/item/gem/diamond,
+/obj/item/storage/belt/pouch/coins/veryrich,
+/obj/item/storage/belt/pouch/coins/veryrich,
 /obj/item/scomstone,
 /obj/item/scomstone,
 /obj/item/key/lord,

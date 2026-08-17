@@ -6,8 +6,8 @@
 /obj/structure/closet/crate/drawer/random{
 	pixel_y = 0
 	},
-/obj/item/clothing/neck/chaincoif,
 /obj/item/clothing/armor/gambeson/hunts,
+/obj/item/clothing/neck/coif,
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/keep/heir/heir2)
 "k" = (
@@ -39,17 +39,6 @@
 /obj/item/clothing/gloves/leather,
 /obj/item/clothing/gloves/leather/black,
 /obj/structure/closet/crate/crafted_closet/inn,
-/obj/item/clothing/shirt/dress/gen/colored/random,
-/obj/item/clothing/shirt/dress/nobledress,
-/obj/item/clothing/shirt/dress/royal/princess,
-/obj/item/clothing/shirt/dress/royal/princess,
-/obj/item/clothing/shirt/dress/royal/prince,
-/obj/item/clothing/shirt/dress/royal/prince,
-/obj/item/clothing/shirt/tunic/noblecoat,
-/obj/item/clothing/shirt/undershirt/fancy,
-/obj/item/clothing/shirt/undershirt/fancy,
-/obj/item/clothing/cloak/poncho/fancycoat,
-/obj/item/clothing/head/fancyhat,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/heir/heir2)
 "C" = (

@@ -56,8 +56,8 @@
 "G" = (
 /obj/structure/closet/crate/drawer/random,
 /obj/machinery/light/fueled/wallfire/candle,
-/obj/item/clothing/neck/chaincoif,
 /obj/item/clothing/armor/gambeson/hunts,
+/obj/item/clothing/neck/coif,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/heir/heir1)
 "O" = (
@@ -76,17 +76,6 @@
 /obj/item/clothing/gloves/leather/black,
 /obj/item/clothing/shoes/nobleboot,
 /obj/item/clothing/gloves/leather,
-/obj/item/clothing/shirt/dress/gen/colored/random,
-/obj/item/clothing/shirt/dress/nobledress,
-/obj/item/clothing/shirt/dress/royal/princess,
-/obj/item/clothing/shirt/dress/royal/princess,
-/obj/item/clothing/shirt/dress/royal/prince,
-/obj/item/clothing/shirt/dress/royal/prince,
-/obj/item/clothing/shirt/tunic/noblecoat,
-/obj/item/clothing/shirt/undershirt/fancy,
-/obj/item/clothing/shirt/undershirt/fancy,
-/obj/item/clothing/cloak/poncho/fancycoat,
-/obj/item/clothing/head/fancyhat,
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/keep/heir/heir1)
 "S" = (
