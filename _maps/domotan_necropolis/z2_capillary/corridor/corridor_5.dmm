@@ -1,0 +1,396 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"d" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"h" = (
+/obj/effect/spawner/map_spawner/tallgrass,
+/turf/open/floor/dirt,
+/area/template_noop)
+"i" = (
+/obj/effect/spawner/map_spawner/tree/fulltree,
+/turf/open/floor/grass/red,
+/area/template_noop)
+"k" = (
+/turf/open/floor/grass/red,
+/area/template_noop)
+"l" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/template_noop,
+/area/template_noop)
+"o" = (
+/obj/effect/spawner/map_spawner/tallgrass,
+/turf/template_noop,
+/area/template_noop)
+"x" = (
+/turf/open/floor/twig/platform,
+/area/template_noop)
+"z" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/twig/platform,
+/area/template_noop)
+"E" = (
+/obj/structure/flora/grass/bush_meagre,
+/turf/template_noop,
+/area/template_noop)
+"M" = (
+/obj/effect/spawner/map_spawner/tree/fulltree,
+/turf/open/floor/dirt,
+/area/template_noop)
+"P" = (
+/obj/effect/spawner/map_spawner/pit,
+/obj/structure/flora/newleaf,
+/turf/template_noop,
+/area/template_noop)
+"S" = (
+/obj/effect/spawner/map_spawner/tallgrass,
+/turf/open/floor/grass/red,
+/area/template_noop)
+"W" = (
+/obj/machinery/light/fueled/firebowl/stumpg,
+/turf/open/floor/twig/platform,
+/area/template_noop)
+"Z" = (
+/obj/effect/spawner/map_spawner/tree/fulltree,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+Z
+M
+P
+P
+P
+a
+Z
+Z
+a
+Z
+o
+h
+"}
+(2,1,1) = {"
+d
+P
+P
+P
+k
+k
+Z
+Z
+a
+Z
+M
+Z
+"}
+(3,1,1) = {"
+o
+M
+Z
+Z
+Z
+k
+a
+Z
+M
+d
+Z
+Z
+"}
+(4,1,1) = {"
+o
+d
+Z
+d
+Z
+Z
+a
+a
+Z
+a
+a
+Z
+"}
+(5,1,1) = {"
+E
+d
+M
+M
+E
+o
+Z
+Z
+l
+E
+P
+a
+"}
+(6,1,1) = {"
+Z
+h
+M
+M
+Z
+o
+Z
+i
+k
+P
+P
+P
+"}
+(7,1,1) = {"
+Z
+S
+Z
+d
+Z
+a
+k
+i
+Z
+a
+P
+P
+"}
+(8,1,1) = {"
+Z
+S
+M
+M
+Z
+i
+Z
+Z
+M
+Z
+k
+P
+"}
+(9,1,1) = {"
+a
+k
+M
+M
+M
+M
+M
+M
+d
+Z
+k
+a
+"}
+(10,1,1) = {"
+Z
+P
+P
+P
+Z
+M
+Z
+Z
+d
+a
+a
+k
+"}
+(11,1,1) = {"
+Z
+Z
+P
+P
+P
+o
+E
+Z
+M
+l
+o
+Z
+"}
+(12,1,1) = {"
+a
+Z
+Z
+i
+k
+k
+a
+h
+h
+a
+Z
+Z
+"}
+
+(1,1,2) = {"
+a
+a
+a
+a
+a
+x
+a
+a
+a
+a
+a
+a
+"}
+(2,1,2) = {"
+x
+x
+x
+x
+x
+z
+a
+a
+a
+a
+a
+a
+"}
+(3,1,2) = {"
+z
+a
+a
+a
+a
+x
+x
+a
+a
+a
+a
+a
+"}
+(4,1,2) = {"
+x
+x
+a
+a
+a
+a
+x
+W
+a
+a
+x
+a
+"}
+(5,1,2) = {"
+a
+x
+a
+a
+a
+a
+a
+a
+a
+a
+x
+a
+"}
+(6,1,2) = {"
+a
+x
+a
+a
+a
+a
+a
+a
+z
+x
+z
+x
+"}
+(7,1,2) = {"
+a
+x
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(8,1,2) = {"
+a
+x
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(9,1,2) = {"
+a
+x
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(10,1,2) = {"
+a
+x
+x
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(11,1,2) = {"
+a
+a
+z
+x
+x
+a
+a
+a
+a
+a
+a
+a
+"}
+(12,1,2) = {"
+a
+a
+a
+a
+x
+a
+a
+a
+a
+a
+a
+a
+"}

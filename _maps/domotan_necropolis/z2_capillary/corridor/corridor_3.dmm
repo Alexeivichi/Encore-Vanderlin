@@ -6,12 +6,20 @@
 "b" = (
 /turf/template_noop,
 /area)
+"i" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/twig/platform,
+/area)
 "m" = (
 /obj/effect/landmark/ambush,
 /turf/template_noop,
 /area)
 "p" = (
 /turf/open/water/ocean,
+/area)
+"q" = (
+/obj/machinery/light/fueled/firebowl/stumpg,
+/turf/open/floor/twig/platform,
 /area)
 "u" = (
 /obj/effect/spawner/map_spawner/necropolis/water_tiles,
@@ -32,6 +40,9 @@
 "N" = (
 /obj/effect/spawner/map_spawner/necropolis/water_clutter,
 /turf/open/water/ocean,
+/area)
+"O" = (
+/turf/open/floor/twig/platform,
 /area)
 "P" = (
 /obj/effect/spawner/map_spawner/necropolis,
@@ -211,23 +222,23 @@ a
 b
 b
 b
+O
+i
 b
 b
 b
 b
 b
-b
-b
-b
+O
 b
 "}
 (2,1,2) = {"
 b
 b
 b
-b
-b
-b
+O
+O
+q
 b
 b
 b
@@ -260,11 +271,11 @@ b
 b
 b
 b
-b
-b
+O
+i
 "}
 (5,1,2) = {"
-b
+O
 b
 b
 b
@@ -278,9 +289,9 @@ b
 b
 "}
 (6,1,2) = {"
-b
-b
-b
+i
+O
+q
 b
 b
 b
@@ -300,28 +311,28 @@ b
 b
 b
 b
-b
-b
+i
+O
 b
 b
 "}
 (8,1,2) = {"
+O
 b
 b
 b
 b
 b
 b
-b
-b
-b
-b
-b
-b
+q
+i
+O
+i
+O
 "}
 (9,1,2) = {"
-b
-b
+i
+O
 b
 b
 b
@@ -345,7 +356,7 @@ b
 b
 b
 b
-b
+O
 "}
 (11,1,2) = {"
 b
@@ -358,8 +369,8 @@ b
 b
 b
 b
-b
-b
+O
+i
 "}
 (12,1,2) = {"
 b
@@ -371,7 +382,7 @@ b
 b
 b
 b
-b
-b
+O
+O
 b
 "}
