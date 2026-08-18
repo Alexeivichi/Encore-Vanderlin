@@ -1,0 +1,6 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - rscadd: "Addes the Holy See Longsword, Spear, and Dagger."
+  - rscadd: "Adds Frostcleaver, an Axe for Mjallidhorn Templars."
+  - balance: "Made all of the Church weapons have the Silver trait."
