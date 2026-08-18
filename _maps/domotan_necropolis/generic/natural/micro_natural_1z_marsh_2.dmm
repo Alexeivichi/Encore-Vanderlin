@@ -1,0 +1,223 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/obj/structure/fluff/railing/tall/retaining/rock,
+/turf/open/water/marsh,
+/area/template_noop)
+"d" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/obj/structure/flora/grass/water/reeds,
+/turf/open/water/marsh,
+/area/template_noop)
+"e" = (
+/turf/open/water/marsh,
+/area/template_noop)
+"g" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/obj/structure/fluff/railing/tall/retaining/rock,
+/obj/structure/flora/grass/water/reeds,
+/turf/open/water/marsh,
+/area/template_noop)
+"i" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 9
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 10
+	},
+/obj/structure/flora/grass/water/reeds,
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/turf/open/water/marsh,
+/area/template_noop)
+"j" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 5
+	},
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"k" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/obj/structure/flora/grass/water/reeds,
+/turf/open/water/marsh,
+/area/template_noop)
+"l" = (
+/obj/structure/flora/grass/herb/salvia,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"m" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 5
+	},
+/turf/open/water/marsh,
+/area/template_noop)
+"n" = (
+/obj/structure/fluff/railing/tall/retaining/rock,
+/turf/open/water/marsh,
+/area/template_noop)
+"q" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/obj/structure/fluff/railing/tall/retaining/rock,
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/turf/open/water/marsh,
+/area/template_noop)
+"s" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/turf/open/water/marsh,
+/area/template_noop)
+"t" = (
+/obj/structure/flora/grass/mushroom,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"u" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/turf/open/water/marsh,
+/area/template_noop)
+"z" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/obj/structure/fluff/railing/tall/retaining/rock,
+/turf/open/water/marsh,
+/area/template_noop)
+"B" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/obj/structure/fluff/railing/tall/retaining/rock,
+/turf/open/water/marsh,
+/area/template_noop)
+"D" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/turf/open/water/marsh,
+/area/template_noop)
+"J" = (
+/obj/structure/flora/grass/thorn_bush,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"K" = (
+/turf/template_noop,
+/area/template_noop)
+"R" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 5
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 6
+	},
+/turf/open/water/marsh,
+/area/template_noop)
+"T" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/obj/structure/flora/grass/water/reeds,
+/turf/open/water/marsh,
+/area/template_noop)
+"U" = (
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+
+(1,1,1) = {"
+K
+K
+K
+J
+B
+U
+J
+"}
+(2,1,1) = {"
+K
+K
+K
+s
+i
+q
+t
+"}
+(3,1,1) = {"
+K
+U
+J
+U
+j
+l
+U
+"}
+(4,1,1) = {"
+l
+k
+u
+d
+a
+U
+K
+"}
+(5,1,1) = {"
+K
+D
+m
+e
+n
+U
+K
+"}
+(6,1,1) = {"
+K
+J
+T
+R
+g
+U
+K
+"}
+(7,1,1) = {"
+K
+K
+K
+z
+U
+J
+K
+"}

@@ -1,0 +1,437 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"b" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/dirt,
+/area/indoors/shelter/woods)
+"c" = (
+/obj/effect/spawner/map_spawner/grass_low,
+/turf/open/floor/grass/red,
+/area/template_noop)
+"d" = (
+/turf/open/floor/dirt,
+/area/indoors/shelter/woods)
+"e" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/twig/platform,
+/area/template_noop)
+"g" = (
+/obj/structure/flora/grass/herb/random,
+/turf/open/floor/dirt,
+/area/indoors/shelter/woods)
+"h" = (
+/obj/structure/flora/grass/thorn_bush,
+/turf/open/floor/grass/red,
+/area/template_noop)
+"j" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/grass/red,
+/area/template_noop)
+"m" = (
+/obj/structure/flora/grass/bush_meagre,
+/turf/open/floor/grass/red,
+/area/template_noop)
+"n" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/template_noop)
+"p" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"t" = (
+/obj/machinery/light/fueled/firebowl/stumpg,
+/turf/open/floor/grass/red,
+/area/template_noop)
+"w" = (
+/obj/machinery/light/fueled/firebowl/stumpg,
+/turf/open/floor/dirt,
+/area/template_noop)
+"A" = (
+/obj/structure/flora/grass/thorn_bush,
+/turf/open/floor/dirt,
+/area/template_noop)
+"C" = (
+/obj/effect/spawner/map_spawner/tree/fulltree,
+/turf/template_noop,
+/area/template_noop)
+"D" = (
+/obj/structure/flora/grass/bush_meagre,
+/turf/open/floor/dirt,
+/area/template_noop)
+"E" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/template_noop,
+/area/template_noop)
+"G" = (
+/obj/structure/flora/grass/bush_meagre,
+/turf/template_noop,
+/area/template_noop)
+"H" = (
+/obj/effect/spawner/map_spawner/grass_low,
+/turf/open/floor/dirt,
+/area/template_noop)
+"I" = (
+/obj/effect/spawner/map_spawner/tallgrass,
+/turf/open/floor/dirt,
+/area/indoors/shelter/woods)
+"M" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/dirt,
+/area/template_noop)
+"N" = (
+/turf/open/floor/grass/red,
+/area/template_noop)
+"O" = (
+/turf/open/floor/twig/platform,
+/area/template_noop)
+"P" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/indoors/shelter/woods)
+"U" = (
+/turf/closed/mineral,
+/area/indoors/shelter/woods)
+"Z" = (
+/obj/effect/spawner/map_spawner/stump,
+/turf/open/floor/grass/red,
+/area/template_noop)
+
+(1,1,1) = {"
+a
+C
+G
+a
+a
+E
+a
+a
+a
+a
+a
+G
+"}
+(2,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+C
+a
+a
+a
+"}
+(3,1,1) = {"
+a
+a
+U
+d
+U
+G
+U
+U
+a
+a
+U
+a
+"}
+(4,1,1) = {"
+G
+U
+U
+P
+U
+U
+U
+U
+U
+a
+U
+U
+"}
+(5,1,1) = {"
+a
+U
+P
+d
+d
+I
+d
+U
+U
+G
+U
+U
+"}
+(6,1,1) = {"
+a
+U
+g
+U
+d
+P
+g
+b
+U
+d
+g
+a
+"}
+(7,1,1) = {"
+a
+b
+d
+U
+b
+b
+b
+b
+I
+d
+d
+G
+"}
+(8,1,1) = {"
+E
+d
+U
+U
+U
+b
+b
+d
+d
+d
+U
+a
+"}
+(9,1,1) = {"
+d
+I
+b
+U
+U
+U
+d
+g
+d
+d
+U
+C
+"}
+(10,1,1) = {"
+U
+b
+b
+U
+U
+U
+U
+d
+d
+U
+U
+E
+"}
+(11,1,1) = {"
+U
+U
+g
+P
+d
+d
+P
+I
+U
+U
+U
+a
+"}
+(12,1,1) = {"
+a
+U
+a
+G
+a
+U
+U
+U
+U
+a
+a
+C
+"}
+
+(1,1,2) = {"
+a
+a
+a
+a
+a
+a
+e
+a
+a
+a
+a
+a
+"}
+(2,1,2) = {"
+a
+a
+a
+a
+a
+a
+O
+a
+a
+a
+a
+a
+"}
+(3,1,2) = {"
+e
+O
+c
+c
+m
+N
+N
+N
+t
+p
+N
+a
+"}
+(4,1,2) = {"
+a
+c
+m
+m
+D
+p
+j
+p
+N
+D
+m
+m
+"}
+(5,1,2) = {"
+a
+N
+m
+N
+n
+D
+p
+A
+H
+H
+m
+m
+"}
+(6,1,2) = {"
+O
+N
+h
+p
+M
+p
+M
+p
+D
+H
+N
+a
+"}
+(7,1,2) = {"
+a
+j
+N
+p
+M
+h
+p
+D
+p
+p
+N
+a
+"}
+(8,1,2) = {"
+a
+N
+m
+M
+p
+w
+M
+N
+n
+N
+O
+O
+"}
+(9,1,2) = {"
+a
+N
+p
+M
+D
+p
+n
+n
+j
+N
+N
+a
+"}
+(10,1,2) = {"
+N
+Z
+n
+h
+h
+N
+n
+N
+h
+Z
+c
+a
+"}
+(11,1,2) = {"
+Z
+p
+p
+m
+m
+m
+N
+c
+c
+c
+c
+a
+"}
+(12,1,2) = {"
+a
+N
+N
+j
+N
+N
+O
+c
+N
+a
+a
+a
+"}

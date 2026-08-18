@@ -1,0 +1,86 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area)
+"d" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/dirt,
+/area/under/cave)
+"j" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/under/cave)
+"n" = (
+/turf/closed/mineral,
+/area/under/cave)
+"C" = (
+/turf/open/floor/dirt,
+/area/under/cave)
+"W" = (
+/obj/structure/flora/grass/bush/wall,
+/turf/open/floor/dirt,
+/area/under/cave)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+a
+a
+n
+n
+n
+a
+"}
+(3,1,1) = {"
+a
+n
+W
+j
+d
+n
+a
+"}
+(4,1,1) = {"
+a
+n
+d
+C
+j
+W
+a
+"}
+(5,1,1) = {"
+a
+n
+n
+j
+n
+n
+a
+"}
+(6,1,1) = {"
+a
+a
+n
+n
+n
+a
+a
+"}
+(7,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+"}

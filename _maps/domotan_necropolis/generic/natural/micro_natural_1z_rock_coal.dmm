@@ -1,0 +1,90 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/mineral/coal,
+/area/under/cave)
+"b" = (
+/obj/item/natural/stone,
+/turf/open/floor/dirt,
+/area/template_noop)
+"i" = (
+/turf/closed/mineral,
+/area/under/cave)
+"C" = (
+/obj/item/natural/rock/coal,
+/turf/open/floor/dirt,
+/area/template_noop)
+"I" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/template_noop,
+/area/template_noop)
+"J" = (
+/obj/structure/fluff/walldeco/vinez,
+/turf/closed/mineral/coal,
+/area/under/cave)
+"S" = (
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+I
+I
+I
+S
+C
+S
+b
+"}
+(2,1,1) = {"
+I
+S
+a
+a
+I
+J
+S
+"}
+(3,1,1) = {"
+b
+C
+a
+a
+a
+a
+S
+"}
+(4,1,1) = {"
+a
+i
+i
+a
+a
+a
+a
+"}
+(5,1,1) = {"
+J
+a
+i
+i
+i
+a
+a
+"}
+(6,1,1) = {"
+I
+J
+a
+a
+a
+I
+C
+"}
+(7,1,1) = {"
+I
+I
+a
+b
+S
+I
+S
+"}

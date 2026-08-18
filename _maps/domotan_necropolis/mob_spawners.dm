@@ -6,6 +6,8 @@
 #define NECROPOLIS_MOBS_ORCS_HARD list(/mob/living/simple_animal/hostile/orc/orc_marauder/ravager = 20, /mob/living/simple_animal/hostile/orc/ranged = 15)
 #define NECROPOLIS_MOBS_DEEPONES list(/mob/living/simple_animal/hostile/deepone = 30, /mob/living/simple_animal/hostile/deepone/arm = 15)
 #define NECROPOLIS_MOBS_DEEPONES_HARD list(/mob/living/simple_animal/hostile/deepone/wiz = 30, /mob/living/simple_animal/hostile/deepone/spit = 35)
+#define NECROPOLIS_MOBS_ANIMALS_SMALL list(/mob/living/simple_animal/hostile/retaliate/raccoon = 30, /mob/living/simple_animal/hostile/retaliate/bigrat = 30, /mob/living/simple_animal/hostile/retaliate/bobcat = 30, /mob/living/simple_animal/hostile/retaliate/bogbug = 30, /mob/living/simple_animal/hostile/retaliate/fox = 30, /mob/living/simple_animal/hostile/retaliate/bat = 30, /mob/living/simple_animal/hostile/retaliate/frog = 30)
+#define NECROPOLIS_MOBS_ANIMALS_MEDIUM list(/mob/living/simple_animal/hostile/retaliate/spider = 30, /mob/living/simple_animal/hostile/retaliate/wolf = 30, /mob/living/simple_animal/hostile/mirespider_lurker = 30)
 
 /obj/effect/spawner/map_spawner/necropolis/mob_spawner
 	name = "Trivial Necropolis Mob Spawner"
@@ -50,3 +52,13 @@
 	name = "Goblin Necropolis Mob Spawner"
 	probby = 100
 	spawned = list(/mob/living/carbon/human/species/goblin/npc/cave = 100)
+
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/animal
+	name = "Small Animal Mob Spawner"
+	probby = 100
+	spawned = NECROPOLIS_MOBS_ANIMALS_SMALL
+
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/animal/medium
+	name = "Medium Animal Mob Spawner"
+	probby = 100
+	spawned = NECROPOLIS_MOBS_ANIMALS_MEDIUM

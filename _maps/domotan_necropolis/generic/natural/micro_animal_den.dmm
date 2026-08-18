@@ -1,0 +1,115 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/mineral,
+/area/under/cave)
+"f" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/animal,
+/turf/open/floor/dirt/road,
+/area/under/cave)
+"j" = (
+/obj/structure/flora/grass,
+/turf/open/floor/dirt/road,
+/area/under/cave)
+"l" = (
+/obj/structure/flora/grass/herb/random,
+/turf/open/floor/dirt,
+/area/under/cave)
+"m" = (
+/obj/structure/flora/grass,
+/turf/open/floor/dirt,
+/area/under/cave)
+"n" = (
+/turf/open/floor/dirt/road,
+/area/under/cave)
+"t" = (
+/obj/effect/decal/cleanable/dirt/cobweb,
+/obj/structure/spider/stickyweb/solo,
+/turf/open/floor/dirt/road,
+/area/under/cave)
+"x" = (
+/obj/structure/flora/grass/pyroclasticflowers,
+/turf/open/floor/dirt,
+/area/under/cave)
+"z" = (
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/obj/structure/flora/grass/thorn_bush,
+/turf/open/floor/dirt/road,
+/area/under/cave)
+"C" = (
+/obj/structure/flora/grass/bush/wall,
+/turf/open/floor/dirt/road,
+/area/under/cave)
+"K" = (
+/turf/open/floor/dirt,
+/area/under/cave)
+"M" = (
+/turf/template_noop,
+/area/template_noop)
+"W" = (
+/obj/structure/flora/grass/bush/wall,
+/turf/open/floor/dirt,
+/area/under/cave)
+
+(1,1,1) = {"
+M
+M
+M
+a
+W
+a
+a
+"}
+(2,1,1) = {"
+M
+a
+a
+a
+z
+K
+C
+"}
+(3,1,1) = {"
+a
+a
+t
+a
+a
+j
+a
+"}
+(4,1,1) = {"
+W
+l
+K
+f
+n
+l
+a
+"}
+(5,1,1) = {"
+a
+j
+K
+m
+a
+W
+a
+"}
+(6,1,1) = {"
+a
+z
+x
+a
+a
+M
+M
+"}
+(7,1,1) = {"
+a
+a
+C
+a
+M
+M
+M
+"}
