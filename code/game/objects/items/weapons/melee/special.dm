@@ -386,6 +386,10 @@
 	icon_state = "abyssorclaw"
 	item_weight = 350 GRAMS
 
+/obj/item/weapon/katar/mjallidhorn/Initialize(mapload)
+	. = ..()
+	enchant(/datum/enchantment/silver)
+
 /datum/intent/knuckles/strike
 	name = "punch"
 	blade_class = BCLASS_BLUNT
@@ -464,3 +468,7 @@
 	icon_state = "eoraknuckle"
 	force = DAMAGE_KNUCKLES + 2
 	item_weight = 200 GRAMS
+
+/obj/item/weapon/knuckles/pomette/Initialize(mapload)
+	. = ..()
+	enchant(/datum/enchantment/silver)

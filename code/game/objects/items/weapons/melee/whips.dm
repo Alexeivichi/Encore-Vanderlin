@@ -174,6 +174,10 @@
 	anvilrepair = /datum/attribute/skill/craft/weapon_repair
 	item_weight = 500 GRAMS
 
+/obj/item/weapon/whip/iliope/Initialize(mapload)
+	. = ..()
+	enchant(/datum/enchantment/silver)
+
 /obj/item/weapon/whip/nagaika //Import only
 	name = "nagaika whip"
 	desc = "A short but heavy leather whip, sporting a blunt reinforced tip and a longer handle."

@@ -691,9 +691,13 @@
 /obj/item/weapon/sword/rapier/pomette
 	name = "The Heartstring"
 	desc = "For when soft words cannot be spoken more, and hearts are to be pierced."
-	icon = 'icons/roguetown/weapons/32/patron.dmi'
+	icon = 'icons/roguetown/weapons/64/patron.dmi'
 	icon_state = "eorarapier"
 	item_weight = 650 GRAMS
+
+/obj/item/weapon/sword/rapier/pomette/Initialize(mapload)
+	. = ..()
+	enchant(/datum/enchantment/silver)
 
 // Hoplite Kophesh
 /obj/item/weapon/sword/khopesh
@@ -1018,9 +1022,25 @@
 	name = "duel settler"
 	desc = "The tenets of Mordsolian duels are inscribed upon the blade of this sword."
 	icon = 'icons/roguetown/weapons/64/patron.dmi'
-	icon_state = "ravoxflamberge"
+	icon_state = "astratasword"
 	force = DAMAGE_SWORD + 2
 	item_weight = 1.5 KILOGRAMS
+
+/obj/item/weapon/sword/long/mordsol/Initialize(mapload)
+	. = ..()
+	enchant(/datum/enchantment/silver)
+
+/obj/item/weapon/sword/long/holysee
+	name = "holy see longsword"
+	desc = "A blessed longsword, wielded by the Holy See's templars in their stalwart defense against evil. Originating in the wake of Havel Sectus' fall at the conclusion of the Big Burn, forged from an alloy of steel and blessed silver and trimmed in gold, this longsword is the iconic blade of the Katholikos' defenders and the bane of heretics that lurk in the dark."
+	icon = 'icons/roguetown/weapons/64/swords.dmi'
+	icon_state = "eclipsum"
+	force = DAMAGE_SWORD + 1
+	item_weight = 1.5 KILOGRAMS
+
+/obj/item/weapon/sword/long/mordsol/Initialize(mapload)
+	. = ..()
+	enchant(/datum/enchantment/silver)
 
 /obj/item/weapon/sword/long/angros
 	name = "katholikon longsword"
@@ -1450,13 +1470,17 @@
 				return list("shrink" = 0.6,"sx" = -1,"sy" = 3,"nx" = -1,"ny" = 2,"wx" = 3,"wy" = 4,"ex" = -1,"ey" = 5,"nturn" = 0,"sturn" = 0,"wturn" = 70,"eturn" = 20,"nflip" = 1,"sflip" = 1,"wflip" = 1,"eflip" = 1,"northabove" = 1,"southabove" = 0,"eastabove" = 0,"westabove" = 0)
 
 /obj/item/weapon/sword/long/exe/visires
-	name = "solar judge"
-	desc = "This wicked executioner's blade calls for order."
+	name = "flame's hunger"
+	desc = "This wickedly shaped flamberge is blackened with the soot of the flames it was forged in."
 	icon = 'icons/roguetown/weapons/64/patron.dmi'
-	icon_state = "astratasword"
+	icon_state = "ravoxflamberge"
 	possible_item_intents = list(SWORD_CUT, SWORD_STRIKE)
-	gripped_intents = list(SWORD_CUT, SWORD_STRIKE, SWORD_CHOP)
+	gripped_intents = list(SWORD_CUT, SWORD_STRIKE, SWORD_CHOP, SWORD_THRUST)
 	item_weight = 3.5 KILOGRAMS
+
+/obj/item/weapon/sword/long/exe/visires/Initialize(mapload)
+	. = ..()
+	enchant(/datum/enchantment/silver)
 
 /obj/item/weapon/sword/long/exe/silver
 	name = "silver executioner's sword"
