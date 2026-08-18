@@ -636,6 +636,10 @@
 "lA" = (
 /turf/closed/wall/mineral/wood,
 /area/indoors)
+"lB" = (
+/obj/effect/landmark/map_load_mark/generic_tile/natural,
+/turf/open/floor/snow,
+/area/outdoors/woods/lakeside)
 "lG" = (
 /obj/structure/fluff/railing/tall/retaining{
 	dir = 1
@@ -656,6 +660,10 @@
 /obj/structure/fluff/psycross,
 /turf/open/floor/dirt/road,
 /area/outdoors/town)
+"lT" = (
+/obj/effect/landmark/map_load_mark/generic_tile/natural,
+/turf/open/floor/snow,
+/area/outdoors/woods/etgard)
 "lW" = (
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/snow,
@@ -2280,6 +2288,10 @@
 /obj/structure/fluff/railing/wood,
 /turf/open/water/ocean,
 /area/outdoors/beach)
+"So" = (
+/obj/effect/landmark/map_load_mark/generic_tile/natural,
+/turf/open/floor/grass/cold,
+/area/outdoors/woods/etgard)
 "Sp" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/grass/cold,
@@ -9249,7 +9261,7 @@ Hz
 Hz
 Hz
 Hz
-Hz
+lT
 Hz
 aV
 aV
@@ -11512,7 +11524,7 @@ AN
 Hz
 Hz
 Hz
-Hz
+lT
 Hz
 Hz
 OX
@@ -19777,7 +19789,7 @@ Hz
 Hz
 jW
 jW
-jW
+So
 Hz
 Hz
 oJ
@@ -20285,8 +20297,8 @@ OX
 OX
 Hz
 Hz
-ZH
-ZH
+Hz
+Hz
 Hz
 jW
 jW
@@ -20542,11 +20554,11 @@ OX
 Hz
 Hz
 Hz
-ZH
+Hz
 Hz
 Hz
 jW
-Cq
+jW
 jW
 jW
 jW
@@ -37064,7 +37076,7 @@ Hz
 Hz
 Hz
 Hz
-Hz
+lT
 Hz
 Hz
 Hz
@@ -47968,7 +47980,7 @@ Hz
 Hz
 Hz
 Hz
-Hz
+lT
 Hz
 Hz
 Hz
@@ -55085,7 +55097,7 @@ Pu
 Pu
 Pu
 Pu
-Pu
+lB
 Pu
 Pu
 Pu
@@ -58258,7 +58270,7 @@ Hz
 Hz
 Hz
 Hz
-Hz
+lT
 Hz
 Hz
 Hz
@@ -63308,7 +63320,7 @@ Pu
 Pu
 Pu
 Pu
-Pu
+bP
 Pu
 aV
 aV
@@ -64847,8 +64859,8 @@ Pu
 Pu
 Pu
 Pu
+lB
 Pu
-bP
 Pu
 Pu
 Pu

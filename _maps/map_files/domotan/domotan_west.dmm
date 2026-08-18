@@ -194,6 +194,18 @@
 /obj/structure/fluff/walldeco/wantedposter,
 /turf/open/floor/twig,
 /area/indoors/shelter/woods)
+"bf" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 9
+	},
+/turf/open/water/clean,
+/area/outdoors/woods/west)
 "bg" = (
 /turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/crescent)
@@ -605,6 +617,12 @@
 "dW" = (
 /turf/closed/wall/mineral/decowood,
 /area/indoors/oldtown)
+"ea" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/turf/open/water/clean,
+/area/outdoors/woods/west)
 "eb" = (
 /obj/structure/flora/tree/dead_bush,
 /turf/open/floor/grass/red,
@@ -971,6 +989,10 @@
 	},
 /turf/open/floor/metal/barograte,
 /area/under/cave/oldtown)
+"gi" = (
+/obj/effect/landmark/map_load_mark/generic_tile/natural,
+/turf/open/floor/grass/yel,
+/area/outdoors/oldtown)
 "gk" = (
 /obj/machinery/light/fueled/forge,
 /turf/open/floor/blocks,
@@ -2380,6 +2402,12 @@
 /obj/item/natural/stone,
 /turf/open/floor/cobble/mossy,
 /area/outdoors/lostkeep)
+"pI" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 6
+	},
+/turf/open/water/clean,
+/area/outdoors/woods/west)
 "pJ" = (
 /obj/item/natural/bundle/bone/full{
 	pixel_x = 15
@@ -2723,6 +2751,12 @@
 	},
 /turf/open/floor/grass/red,
 /area/outdoors/lostkeep)
+"rZ" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/turf/open/water/clean,
+/area/outdoors/woods/west)
 "sc" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -2866,6 +2900,12 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/under/cave/oldfort)
+"sW" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/turf/open/water/clean,
+/area/outdoors/woods/west)
 "tb" = (
 /mob/living/simple_animal/hostile/retaliate/minotaur/axe{
 	name = "Mulchgore"
@@ -3258,6 +3298,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobble/mossy,
 /area/under/cave/oldfort)
+"vH" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 10
+	},
+/turf/open/water/clean,
+/area/outdoors/woods/west)
 "vI" = (
 /obj/structure/flora/newtree,
 /turf/open/water/ocean,
@@ -3435,6 +3481,18 @@
 /obj/item/candle/scandelabra/lit,
 /turf/open/floor/churchrough,
 /area/indoors/vampire_manor)
+"wO" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 5
+	},
+/turf/open/water/clean,
+/area/outdoors/woods/west)
 "wU" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -3935,6 +3993,12 @@
 "Ap" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/berkleigh)
+"At" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 9
+	},
+/turf/open/water/clean,
+/area/outdoors/woods/west)
 "Au" = (
 /obj/structure/fluff/railing/border{
 	dir = 10
@@ -4208,6 +4272,19 @@
 	},
 /turf/open/openspace,
 /area/outdoors/river)
+"Cm" = (
+/obj/structure/fluff/railing/tall/retaining/rock,
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 9
+	},
+/turf/open/water/clean,
+/area/outdoors/woods/west)
 "Co" = (
 /obj/effect/decal/cobbleedge,
 /obj/structure/fluff/railing/border{
@@ -4867,6 +4944,18 @@
 /obj/structure/spider/stickyweb,
 /turf/open/floor/concrete,
 /area/under/cave/lostkeep)
+"FT" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 9
+	},
+/turf/open/water/clean,
+/area/outdoors/woods/west)
 "FW" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobble/mossy,
@@ -5135,6 +5224,15 @@
 "Hm" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/grass/yel,
+/area/outdoors/woods/west)
+"Ho" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 10
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 9
+	},
+/turf/open/water/clean,
 /area/outdoors/woods/west)
 "Hp" = (
 /turf/open/openspace,
@@ -5559,6 +5657,10 @@
 /obj/structure/fluff/railing/wood,
 /turf/open/water/ocean/abyss,
 /area/outdoors/oldfort)
+"Kc" = (
+/obj/effect/landmark/map_load_mark/generic_tile/natural,
+/turf/open/floor/grass/yel,
+/area/outdoors/woods/west)
 "Kg" = (
 /obj/item/natural/rock,
 /turf/open/floor/metal/barograte,
@@ -5825,6 +5927,15 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/dirt,
 /area/under/cavewet)
+"LU" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/turf/open/water/clean,
+/area/outdoors/woods/west)
 "LV" = (
 /obj/structure/flora/grass/thorn_bush{
 	icon_state = "thornbush2"
@@ -6117,6 +6228,13 @@
 /obj/effect/decal/remains/mole,
 /turf/open/floor/naturalstone,
 /area/under/cave/oldtown)
+"NS" = (
+/obj/structure/fluff/railing/tall/retaining/rock,
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/turf/open/water/clean,
+/area/outdoors/woods/west)
 "NW" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -6818,6 +6936,10 @@
 "Sz" = (
 /turf/open/floor/ruinedwood,
 /area/under/cave/oldfort)
+"SA" = (
+/obj/structure/fluff/railing/tall/retaining/rock,
+/turf/open/water/clean,
+/area/outdoors/woods/west)
 "SC" = (
 /obj/structure/rack/shelf/big{
 	icon_state = "shelf_biggest";
@@ -6973,6 +7095,12 @@
 /obj/effect/decal/cleanable/ash,
 /turf/open/floor/tile,
 /area/under/cave/lostkeep)
+"Tl" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 5
+	},
+/turf/open/water/clean,
+/area/outdoors/woods/west)
 "Tn" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
 /turf/open/floor/churchmarble,
@@ -7327,6 +7455,13 @@
 	},
 /turf/open/openspace,
 /area/outdoors/river)
+"Vy" = (
+/obj/structure/fluff/railing/tall/retaining/rock,
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/turf/open/water/clean,
+/area/outdoors/woods/west)
 "Vz" = (
 /obj/structure/stairs/stone,
 /turf/open/floor/grass/yel,
@@ -63307,7 +63442,7 @@ nV
 OD
 OD
 OD
-Sh
+Cm
 OD
 OD
 OD
@@ -63563,9 +63698,9 @@ OD
 OD
 Kk
 OD
-Sh
-Sh
-Sh
+FT
+Ho
+NS
 OD
 OD
 OD
@@ -63819,10 +63954,10 @@ OD
 OD
 OD
 OD
+FT
+At
 Sh
-Sh
-Sh
-Sh
+SA
 OD
 OD
 nV
@@ -64075,12 +64210,12 @@ qk
 OD
 OD
 OD
+FT
+At
 Sh
 Sh
-Sh
-Sh
-Sh
-Sh
+vH
+NS
 OD
 OD
 OD
@@ -64331,14 +64466,14 @@ jw
 qk
 OD
 OD
+FT
+At
 Sh
 Sh
 Sh
 Sh
-Sh
-Sh
-Sh
-Sh
+vH
+NS
 OD
 OD
 OD
@@ -64588,17 +64723,17 @@ uz
 qk
 OD
 OD
+rZ
 Sh
 Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
+pI
+ea
+ea
+Tl
+vH
+sW
+sW
+NS
 OD
 OD
 OD
@@ -64845,19 +64980,19 @@ OD
 qk
 OD
 OD
+rZ
+Sh
+Sh
+SA
+OD
+OD
+rZ
 Sh
 Sh
 Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
+vH
+sW
+NS
 OD
 OD
 OD
@@ -65102,20 +65237,20 @@ OD
 qk
 qk
 OD
+rZ
+Sh
+Sh
+SA
+OD
+OD
+rZ
 Sh
 Sh
 Sh
 Sh
 Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
+vH
+NS
 OD
 OD
 OD
@@ -65359,20 +65494,20 @@ OD
 qk
 qk
 OD
+LU
+Tl
+Sh
+SA
+OD
+bf
+At
 Sh
 Sh
 Sh
 Sh
 Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
+pI
+Vy
 OD
 OD
 OD
@@ -65617,18 +65752,18 @@ qk
 qk
 OD
 OD
+rZ
+Sh
+vH
+sW
+At
 Sh
 Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
+pI
+ea
+ea
+ea
+Vy
 OD
 OD
 OD
@@ -65874,14 +66009,14 @@ qk
 qk
 OD
 OD
+wO
+Tl
 Sh
 Sh
 Sh
-Sh
-Sh
-Sh
-Sh
-Sh
+pI
+ea
+Vy
 OD
 OD
 OD
@@ -66132,11 +66267,11 @@ OD
 OD
 OD
 OD
-Sh
-Sh
-Sh
-Sh
-Sh
+LU
+ea
+ea
+ea
+Vy
 OD
 OD
 OD
@@ -70991,7 +71126,7 @@ OD
 OD
 OD
 OD
-OD
+Kc
 OD
 OD
 OD
@@ -71581,7 +71716,7 @@ OD
 OD
 OD
 OD
-OD
+Kc
 OD
 OD
 OD
@@ -72089,7 +72224,7 @@ by
 by
 OD
 OD
-nV
+OD
 OD
 OD
 OD
@@ -72345,7 +72480,7 @@ by
 by
 by
 OD
-OD
+nV
 OD
 OD
 OD
@@ -74470,7 +74605,7 @@ dB
 dB
 yt
 yt
-yt
+gi
 yt
 TQ
 yt
@@ -75495,7 +75630,7 @@ yt
 bQ
 bQ
 yt
-TQ
+yt
 yt
 yt
 dB
@@ -75755,7 +75890,7 @@ yt
 yt
 yt
 yt
-Hh
+dB
 yt
 yt
 yt
@@ -76012,7 +76147,7 @@ dB
 dB
 dB
 yt
-Hh
+dB
 bQ
 bQ
 yt
@@ -83993,7 +84128,7 @@ OD
 OD
 OD
 OD
-OD
+Kc
 OD
 OD
 OD
@@ -84932,7 +85067,7 @@ OD
 OD
 OD
 OD
-OD
+Kc
 OD
 OD
 OD

@@ -3311,6 +3311,10 @@
 	},
 /turf/open/floor/grass/mixyel,
 /area/outdoors/bog)
+"qh" = (
+/obj/effect/landmark/map_load_mark/generic_tile/natural,
+/turf/open/floor/grass,
+/area/outdoors/woods/crossroads)
 "qi" = (
 /obj/structure/fluff/walldeco/med6{
 	pixel_y = 29
@@ -5056,6 +5060,10 @@
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean/abyss,
 /area/outdoors/beach)
+"yA" = (
+/obj/effect/landmark/map_load_mark/generic_tile/natural,
+/turf/open/floor/grass/yel,
+/area/outdoors/woods/crossroads)
 "yB" = (
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt/cobweb,
@@ -77308,7 +77316,7 @@ Vy
 Vy
 Vy
 Vy
-Vy
+qh
 Vy
 Vy
 Vy
@@ -82940,7 +82948,7 @@ Vy
 Vy
 Vy
 Vy
-Vy
+qh
 Vy
 Vy
 Vy
@@ -90944,7 +90952,7 @@ Vy
 Vy
 Vy
 Vy
-Vy
+qh
 Vy
 Vy
 Vy
@@ -91169,7 +91177,7 @@ Vy
 Vy
 Vy
 Vy
-Vy
+qh
 Vy
 Vy
 Vy
@@ -107405,7 +107413,7 @@ sY
 sY
 sY
 sY
-sY
+yA
 sY
 sY
 sY
@@ -121765,7 +121773,7 @@ sY
 sY
 sY
 Vy
-Vy
+qh
 Vy
 Vy
 Vy
@@ -121797,7 +121805,7 @@ Vy
 Vy
 sY
 sY
-sY
+yA
 sY
 Vy
 Vy

@@ -1,0 +1,240 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/openspace,
+/area/under/cave)
+"e" = (
+/obj/item/key/graveyard,
+/obj/structure/table/stone_small,
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"f" = (
+/obj/effect/mapping_helpers/structure/grave_spawner/_elementalist,
+/obj/structure/closet/dirthole/grave,
+/turf/open/floor/dirt,
+/area/under/cave)
+"i" = (
+/obj/effect/decal/cleanable/dirt/cobweb,
+/obj/effect/mapping_helpers/structure/grave_spawner/_elementalist,
+/obj/structure/closet/dirthole/grave,
+/turf/open/floor/dirt,
+/area/under/cave)
+"j" = (
+/obj/effect/decal/cleanable/dirt/cobweb,
+/obj/effect/mapping_helpers/structure/grave_spawner/t2/_elementalist,
+/obj/structure/closet/dirthole/grave,
+/turf/open/floor/dirt,
+/area/under/cave)
+"l" = (
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/obj/effect/mapping_helpers/structure/grave_spawner/_elementalist,
+/obj/structure/closet/dirthole/grave,
+/turf/open/floor/dirt,
+/area/under/cave)
+"m" = (
+/obj/structure/door/stone,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"n" = (
+/turf/template_noop,
+/area)
+"o" = (
+/obj/structure/bookcase/random/thesis,
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"q" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/openspace,
+/area/under/cave)
+"r" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/dirt,
+/area/under/cave)
+"s" = (
+/turf/template_noop,
+/area/template_noop)
+"v" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"w" = (
+/obj/machinery/light/fueled/wallfire/candle/blue/l,
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"C" = (
+/mob/living/carbon/human/species/skeleton/npc/mediumspread,
+/turf/open/floor/dirt,
+/area/under/cave)
+"F" = (
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"I" = (
+/turf/open/floor/cobble,
+/area)
+"K" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cave)
+"L" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/naturalstone,
+/area)
+"M" = (
+/obj/machinery/light/fueled/wallfire/candle/blue/r,
+/turf/open/floor/cobblerock,
+/area/under/cave)
+"N" = (
+/obj/item/natural/rock/random,
+/turf/open/floor/dirt,
+/area/under/cave)
+"O" = (
+/turf/open/floor/naturalstone,
+/area)
+"R" = (
+/turf/open/floor/cobblerock,
+/area/under/cave)
+"T" = (
+/obj/effect/spawner/trap,
+/turf/open/floor/dirt,
+/area/under/cave)
+"V" = (
+/obj/structure/window/stained,
+/turf/open/floor/cobble,
+/area/under/cave)
+"Y" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"Z" = (
+/turf/closed/wall/mineral/stonebrick/reddish,
+/area/under/cave)
+
+(1,1,1) = {"
+K
+K
+K
+Z
+Z
+K
+s
+"}
+(2,1,1) = {"
+K
+Z
+j
+Z
+i
+K
+s
+"}
+(3,1,1) = {"
+K
+e
+F
+w
+R
+K
+K
+"}
+(4,1,1) = {"
+Z
+T
+N
+T
+C
+m
+v
+"}
+(5,1,1) = {"
+Z
+Y
+M
+r
+Y
+K
+K
+"}
+(6,1,1) = {"
+K
+l
+Z
+f
+Z
+K
+s
+"}
+(7,1,1) = {"
+K
+K
+K
+K
+K
+K
+s
+"}
+
+(1,1,2) = {"
+I
+O
+O
+L
+O
+O
+n
+"}
+(2,1,2) = {"
+K
+V
+K
+V
+K
+K
+K
+"}
+(3,1,2) = {"
+K
+a
+a
+a
+q
+o
+K
+"}
+(4,1,2) = {"
+K
+a
+a
+a
+q
+o
+K
+"}
+(5,1,2) = {"
+K
+a
+a
+a
+q
+o
+K
+"}
+(6,1,2) = {"
+K
+V
+K
+V
+K
+K
+K
+"}
+(7,1,2) = {"
+L
+O
+I
+I
+O
+O
+n
+"}

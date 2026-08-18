@@ -1,0 +1,214 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/door/stone,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/dirt,
+/area/under/cave)
+"b" = (
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"f" = (
+/obj/structure/fluff/railing/tall/stone,
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"i" = (
+/obj/structure/fluff/stonecoffin,
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"l" = (
+/obj/structure/fluff/stonecoffin,
+/turf/open/floor/dirt,
+/area/under/cave)
+"m" = (
+/obj/structure/fluff/railing/tall/stone,
+/obj/effect/spawner/trap,
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"o" = (
+/turf/closed/mineral,
+/area/under/cave)
+"p" = (
+/turf/open/openspace,
+/area/under/cave)
+"t" = (
+/obj/structure/fluff/stonecoffin,
+/obj/structure/fluff/railing/tall/stone,
+/obj/machinery/light/fueled/wallfire/candle/blue/l,
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"u" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/under/cave)
+"y" = (
+/turf/open/floor/dirt,
+/area/under/cave)
+"B" = (
+/obj/structure/table/stone_small,
+/turf/open/floor/dirt,
+/area/under/cave)
+"D" = (
+/obj/structure/closet/dirthole/grave,
+/obj/effect/mapping_helpers/structure/grave_spawner/_elementalist,
+/turf/open/floor/dirt,
+/area/under/cave)
+"K" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"M" = (
+/obj/structure/fluff/stonecoffin,
+/obj/structure/fluff/railing/tall/stone,
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"Q" = (
+/obj/machinery/light/fueled/wallfire/candle/blue/l,
+/turf/open/floor/dirt,
+/area/under/cave)
+"R" = (
+/mob/living/carbon/human/species/skeleton/npc/mediumspread,
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"S" = (
+/obj/structure/rack,
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+"T" = (
+/turf/template_noop,
+/area/template_noop)
+"V" = (
+/obj/structure/fluff/railing/tall/stone,
+/turf/open/openspace,
+/area/under/cave)
+"Z" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/cobble/alt,
+/area/under/cave)
+
+(1,1,1) = {"
+T
+o
+u
+o
+u
+T
+T
+"}
+(2,1,1) = {"
+u
+u
+u
+a
+u
+u
+T
+"}
+(3,1,1) = {"
+u
+D
+Q
+Z
+D
+u
+T
+"}
+(4,1,1) = {"
+u
+l
+y
+R
+D
+u
+u
+"}
+(5,1,1) = {"
+u
+u
+B
+b
+Z
+a
+o
+"}
+(6,1,1) = {"
+o
+a
+S
+b
+D
+u
+u
+"}
+(7,1,1) = {"
+u
+u
+u
+u
+u
+u
+T
+"}
+
+(1,1,2) = {"
+T
+u
+u
+u
+u
+T
+T
+"}
+(2,1,2) = {"
+u
+u
+u
+u
+u
+u
+T
+"}
+(3,1,2) = {"
+u
+V
+i
+t
+p
+u
+T
+"}
+(4,1,2) = {"
+u
+V
+Z
+m
+p
+u
+u
+"}
+(5,1,2) = {"
+u
+u
+K
+f
+p
+u
+u
+"}
+(6,1,2) = {"
+u
+V
+i
+M
+p
+u
+u
+"}
+(7,1,2) = {"
+u
+u
+u
+u
+u
+u
+T
+"}
