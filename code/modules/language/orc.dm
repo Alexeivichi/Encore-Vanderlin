@@ -1,6 +1,9 @@
 /datum/language/orcish
 	name = "Orcish"
-	desc = ""
+	desc = "The tribal tongue of the Orcs, largely associated with so-called Greenskins as a whole. \
+	Orcs and Goblins speak a more primitive dialect, while Half-Orcs who find themselves segregated \
+	from civilised society utilise a dialect that's taken on elements and structure of the Common \
+	trade-tongue of the Goblet."
 	icon_state = "orc"
 	spans = list(SPAN_ORC)
 	speech_verb = "grumbles"

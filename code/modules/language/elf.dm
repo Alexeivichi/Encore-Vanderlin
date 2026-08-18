@@ -1,6 +1,8 @@
 /datum/language/elvish
 	name = "Elven"
-	desc = ""
+	desc = "An ancient and elegant tongue of Aelonda and its elves, one that branched off from \
+	the ancient tongue of the Old Arnkin. Unlike the booming Dwarven tongue, this one remained \
+	quieter for elven hunters to silently traverse the ancient forests."
 	icon_state = "elf"
 	spans = list(SPAN_ELF)
 	speech_verb = "states"

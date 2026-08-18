@@ -1,9 +1,10 @@
 // Language
 /datum/language/lifesong
-	name = "Lifesong"
-	desc = "The tongue of the lost beasts that once held claim of the Earth, offered its name for unclear reasons \
-	in an age where things were thought not to speak. It is associated with creatures who fall outside the realm of \
-	Mankind but possess primordial wisdom still."
+	name = "Nortic"
+	desc = "The harsh tongue of the Nortic peoples - brief and to the point, so that each word \
+	spoken in the frigid tundras is not wasted energy and wasted breath. Nortic war chants are \
+	frequently heard echoing across the frozen plains, distant and ethereal from the whipping \
+	gales of the Forever War."
 	speech_verb = "remarks"
 	ask_verb = "inquires"
 	exclaim_verb = "asserts"

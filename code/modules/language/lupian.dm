@@ -1,9 +1,10 @@
 /datum/language/canilunzt
-	name = "Canilunzt"
-	desc = "A somewhat simple language consisting of heavily articulate barks, growls, yaps, and combined movements of the tail and ears. It's natively spoken by the Lupian."
-	speech_verb = "rrrfts"
-	ask_verb = "rurs"
-	exclaim_verb = "snaps"
+	name = "Noman"
+	desc = "The language of the Noma people, oft shouted from saigaback \
+	whilst traversing rolling plains."
+	speech_verb = "states"
+	ask_verb = "asks"
+	exclaim_verb = "shouts"
 	key = "l"
 	flags = LANGUAGE_HIDE_ICON_IF_UNDERSTOOD | LANGUAGE_HIDE_ICON_IF_NOT_UNDERSTOOD
 	space_chance = 80

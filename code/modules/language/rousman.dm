@@ -1,11 +1,12 @@
 /datum/language/rousman
-	name = "Rousman"
-	desc = "The tongue of the rousmen, child sized rat savages."
+	name = "Cudese"
+	desc = "The tongue of the Cudese people, descended from the ancient \
+	language of the Old Kui Empire."
 	icon_state = "rous"
 	spans = list(SPAN_DWARF)
-	speech_verb = "squeaks"
-	ask_verb = "chirps"
-	exclaim_verb = "hisses"
+	speech_verb = "states"
+	ask_verb = "asks"
+	exclaim_verb = "shouts"
 	key = "r"
 	space_chance = 15
 	sentence_chance = 0

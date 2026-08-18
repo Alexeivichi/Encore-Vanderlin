@@ -1,6 +1,7 @@
 /datum/language/celestial
 	name = "Celestial"
-	desc = "The language of spirits, "
+	desc = "The language of spirits, an ancient tongue spoken by those \
+	venerable beings from before recorded history."
 	speech_verb = "says"
 	ask_verb = "asks"
 	exclaim_verb = "yells"
