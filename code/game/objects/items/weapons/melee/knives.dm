@@ -264,6 +264,15 @@
 	melting_material = /datum/material/steel
 	item_weight = 220 GRAMS
 
+/obj/item/weapon/knife/dagger/steel/holysee
+	name = "holy see dagger"
+	desc = "A blessed dagger, wielded more widely by the members of the Holy See's ranks as both a signifier of station and item of self defence. Forged from an alloy of steel and blessed silver and trimmed in gold, these daggers were created in the wake of Havel Sectus' fall at the conclusion of the Big Burn, and serve as bane to the wicked."
+	icon_state = "gsdagger"
+
+/obj/item/weapon/knife/dagger/steel/holysee/Initialize(mapload)
+	. = ..()
+	enchant(/datum/enchantment/silver)
+
 /obj/item/weapon/knife/dagger/steel/jile
 	name = "steel jile"
 	desc = "A curved steel dagger from the fallen east."
@@ -318,6 +327,10 @@
 	icon_state = "pestrasickle"
 	wdefense = GOOD_PARRY //They use a dagger, but it should be fine for them to also parry with it.
 	item_weight = 200 GRAMS
+
+/obj/item/weapon/knife/dagger/steel/erdlsickle/Initialize(mapload)
+	. = ..()
+	enchant(/datum/enchantment/silver)
 
 /obj/item/weapon/knife/dagger/steel/hand
 	name = "\proper faervor"
