@@ -142,7 +142,7 @@
 /datum/outfit/watchman/axeman
 	name = "Axeman Men-At-Arms"
 	head = /obj/item/clothing/head/helmet/kettle/slit/atarms
-	armor = /obj/item/clothing/armor/brigandine
+	armor = /obj/item/clothing/armor/brigandine/light
 	shirt = /obj/item/clothing/armor/gambeson/heavy
 	neck = /obj/item/clothing/neck/bevor
 	gloves = /obj/item/clothing/gloves/chain

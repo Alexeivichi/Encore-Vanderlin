@@ -165,7 +165,7 @@
 		/obj/item/clothing/wrists/bracers/ironjackchain = 1,//iron chain bracers
 		/obj/item/clothing/shoes/boots/armor/ironmaille = 1,//iron chain shoes
 		/obj/item/clothing/pants/chainlegs = 1,//steel chain pants
-		/obj/item/clothing/armor/brigandine = 1,
+		/obj/item/clothing/armor/brigandine/light = 1,
 		/obj/item/clothing/armor/chainmail/hauberk = 1,
 		/obj/item/clothing/armor/chainmail/hauberk/fluted = 1,
 		/obj/item/clothing/armor/chainmail/hauberk/gronn = 1,
@@ -181,7 +181,7 @@
 		/obj/item/clothing/wrists/bracers/iron = 1,//iron plate bracers
 		/obj/item/clothing/shoes/boots/armor/light = 1,//iron plate boots
 		/obj/item/clothing/pants/chainlegs/kilt = 1,//steel kilt
-		/obj/item/clothing/armor/plate = 1,//steel halfplate
+		/obj/item/clothing/armor/brigandine = 1,//steel halfplate
 		/obj/item/clothing/gloves/plate/iron = 1,//iron plate gloves
 		/obj/item/clothing/neck/gorget = 1,//iron neck gorget
 		/obj/item/storage/belt/leather = 1,

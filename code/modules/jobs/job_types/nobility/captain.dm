@@ -112,7 +112,7 @@
 	pants = /obj/item/clothing/pants/platelegs/captain
 	armor = /obj/item/clothing/armor/brigandine/captain
 	neck = /obj/item/clothing/neck/gorget
-	shirt = /obj/item/clothing/shirt/undershirt/colored/guard
+	shirt = /obj/item/clothing/armor/gambeson/heavy
 	shoes = /obj/item/clothing/shoes/boots
 	backl = /obj/item/storage/backpack/satchel
 	belt = /obj/item/storage/belt/leather/plaquesilver
