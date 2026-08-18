@@ -1,0 +1,14 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - balance: "Dropped Royal Knight's Steel full-plate to Brigandine."
+  - balance: "Dropped Royal Knight's plate vambraces to jackchain."
+  - balance: "Dropped Royal Knight's plate gloves to chain gloves."
+  - balance: "Dropped Royal Knight's plate leggings to chain chausses."
+  - balance: "Dropped Royal Knight's plate boots to light plate boots."
+  - balance: "Dropped Axeman Man-at-Arms' Brigandine to Light Brigandine."
+  - balance: "Dropped Templar's Steel half-plate to Brigandine."
+  - balance: "Dropped the Steel half-plate in the Heavy Templar Armour Spawner to Brigandine."
+  - balance: "Dropped the Brigandine in the Templar Armour Spawner to Light Brigandine."
+  - balance: "Swapped the t-shirt that the Captain spawns in with for a gambeson underneath their Brigandine, bringing them more in-line with Royal Knight."
+  - bugfix: "Fixed the bug granting Templars a whopping 80 skill level with swords if they picked a deity that granted extra sword skill."

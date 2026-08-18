@@ -7,7 +7,6 @@
 		/datum/attribute/skill/combat/wrestling = 30,
 		/datum/attribute/skill/combat/unarmed = 20,
 		/datum/attribute/skill/combat/shields = 30,
-		/datum/attribute/skill/combat/swords = 40,
 		/datum/attribute/skill/misc/climbing = 10,
 		/datum/attribute/skill/misc/athletics = 30,
 		/datum/attribute/skill/misc/reading = 20,
@@ -201,7 +200,7 @@
 	name = JOB_TEMPLAR
 	head = /obj/item/clothing/head/helmet/heavy/necked
 	cloak = /obj/item/clothing/cloak/tabard/crusader/tief
-	armor = /obj/item/clothing/armor/plate
+	armor = /obj/item/clothing/armor/brigandine
 	shirt = /obj/item/clothing/armor/chainmail
 	pants = /obj/item/clothing/pants/chainlegs
 	shoes = /obj/item/clothing/shoes/boots/armor/light

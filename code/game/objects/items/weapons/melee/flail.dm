@@ -89,6 +89,10 @@
 	icon_state = "necraflail"
 	item_weight = 1.4 KILOGRAMS
 
+/obj/item/weapon/flail/sflail/valdalaflail/Initialize(mapload)
+	. = ..()
+	enchant(/datum/enchantment/silver)
+
 //................ Silver Flail ............... //
 /obj/item/weapon/flail/silver
 	name = "silver flail"

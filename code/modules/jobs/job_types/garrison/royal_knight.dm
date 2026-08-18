@@ -115,14 +115,18 @@
 /datum/outfit/royalknight
 	name = "Royal Knight Base"
 	neck = /obj/item/clothing/neck/chaincoif
-	pants = /obj/item/clothing/pants/platelegs
+	pants = /obj/item/clothing/pants/chainlegs
 	cloak = /obj/item/clothing/cloak/tabard/knight/guard
 	shirt = /obj/item/clothing/armor/gambeson/arming
-	wrists = /obj/item/storage/keyring/manorguard
+	wrists = /obj/item/clothing/wrists/bracers/jackchain
 	belt = /obj/item/storage/belt/leather
 	beltr = /obj/item/weapon/sword/arming
 	backl = /obj/item/storage/backpack/satchel
 	scabbards = list(/obj/item/weapon/scabbard/sword/noble)
+
+	backpack_contents = list(
+		/obj/item/storage/keyring/manorguard,
+	)
 
 /datum/outfit/royalknight/post_equip(mob/living/carbon/human/H, visuals_only = FALSE)
 	. = ..()
@@ -163,9 +167,9 @@
 
 /datum/outfit/royalknight/knight
 	name = JOB_ROYAL_KNIGHT
-	armor = /obj/item/clothing/armor/plate/full
-	gloves = /obj/item/clothing/gloves/plate
-	shoes = /obj/item/clothing/shoes/boots/armor
+	armor = /obj/item/clothing/armor/brigandine
+	gloves = /obj/item/clothing/gloves/chain
+	shoes = /obj/item/clothing/shoes/boots/armor/light
 
 // Helmet Selection (Royal Knight Exclusive)
 /datum/job/advclass/royalknight/knight/on_roundstart(mob/living/carbon/human/spawned, client/player_client)

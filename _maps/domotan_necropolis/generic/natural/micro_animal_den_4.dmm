@@ -1,0 +1,98 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/mineral,
+/area/under/cave)
+"c" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt,
+/area/under/cave)
+"d" = (
+/turf/open/floor/dirt,
+/area/under/cave)
+"m" = (
+/obj/structure/flora/grass/bush,
+/turf/open/floor/dirt,
+/area/under/cave)
+"q" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/animal/medium,
+/turf/open/floor/dirt,
+/area/under/cave)
+"s" = (
+/turf/template_noop,
+/area/template_noop)
+"x" = (
+/obj/structure/flora/grass/herb/random,
+/turf/open/floor/dirt,
+/area/under/cave)
+"E" = (
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/dirt,
+/area/under/cave)
+"S" = (
+/obj/structure/flora/grass/bush/wall,
+/turf/open/floor/dirt,
+/area/under/cave)
+
+(1,1,1) = {"
+s
+a
+a
+a
+s
+s
+s
+"}
+(2,1,1) = {"
+a
+a
+q
+a
+a
+a
+a
+"}
+(3,1,1) = {"
+a
+m
+d
+a
+d
+x
+a
+"}
+(4,1,1) = {"
+a
+E
+c
+d
+d
+d
+a
+"}
+(5,1,1) = {"
+a
+x
+d
+a
+S
+a
+a
+"}
+(6,1,1) = {"
+a
+a
+a
+a
+s
+a
+s
+"}
+(7,1,1) = {"
+s
+a
+a
+s
+s
+s
+s
+"}

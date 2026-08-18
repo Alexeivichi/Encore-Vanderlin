@@ -263,6 +263,15 @@
 			if("onbelt")
 				return list("shrink" = 0.3,"sx" = -2,"sy" = -5,"nx" = 4,"ny" = -5,"wx" = 0,"wy" = -5,"ex" = 2,"ey" = -5,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0,"nturn" = 0,"sturn" = 0,"wturn" = 0,"eturn" = 0,"nflip" = 0,"sflip" = 0,"wflip" = 0,"eflip" = 0)
 
+/obj/item/weapon/axe/steel/mjallidhorn
+	name = "Frostcleaver"
+	desc = "An axe of steel and blessed silver made in the image of the weapon of Mjallidhorn, said to be able to cleave even a glacier in twain."
+	icon = 'icons/roguetown/weapons/32/patron.dmi'
+	icon_state = "abyssoraxe"
+
+/obj/item/weapon/axe/steel/mjallidhorn/Initialize(mapload)
+	. = ..()
+	enchant(/datum/enchantment/silver)
 
 //------------------ Silver Axe ---------------//
 /obj/item/weapon/axe/silver

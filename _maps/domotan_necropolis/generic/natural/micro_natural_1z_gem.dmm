@@ -1,0 +1,96 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"d" = (
+/obj/item/natural/stone,
+/turf/open/floor/dirt,
+/area/template_noop)
+"l" = (
+/turf/closed/mineral/cinnabar,
+/area/under/cave)
+"q" = (
+/obj/structure/fluff/walldeco/vinez,
+/turf/closed/mineral,
+/area/under/cave)
+"w" = (
+/obj/item/natural/rock/random,
+/turf/open/floor/dirt,
+/area/template_noop)
+"N" = (
+/turf/closed/mineral,
+/area/under/cave)
+"T" = (
+/turf/closed/mineral/mana_crystal,
+/area/under/cave)
+"U" = (
+/turf/closed/mineral/gemeralds,
+/area/under/cave)
+"V" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+a
+d
+V
+V
+V
+w
+a
+"}
+(2,1,1) = {"
+V
+V
+N
+T
+U
+V
+a
+"}
+(3,1,1) = {"
+V
+N
+l
+N
+U
+N
+V
+"}
+(4,1,1) = {"
+V
+U
+U
+l
+N
+q
+d
+"}
+(5,1,1) = {"
+a
+V
+U
+N
+T
+w
+a
+"}
+(6,1,1) = {"
+a
+w
+V
+q
+V
+a
+a
+"}
+(7,1,1) = {"
+a
+a
+a
+d
+a
+a
+a
+"}

@@ -1,0 +1,82 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"h" = (
+/obj/item/natural/rock/mana_crystal,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"o" = (
+/obj/structure/wild_plant/nospread/manabloom,
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+"r" = (
+/turf/closed/mineral/mana_crystal/cold,
+/area/under/cave)
+"A" = (
+/turf/open/floor/grass/healthy,
+/area/template_noop)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+a
+A
+h
+r
+a
+a
+"}
+(3,1,1) = {"
+a
+o
+r
+r
+r
+A
+o
+"}
+(4,1,1) = {"
+a
+r
+r
+r
+r
+h
+a
+"}
+(5,1,1) = {"
+a
+a
+r
+r
+r
+r
+a
+"}
+(6,1,1) = {"
+a
+a
+a
+o
+A
+a
+a
+"}
+(7,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+"}

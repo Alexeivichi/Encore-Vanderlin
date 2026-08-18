@@ -204,6 +204,22 @@
 /obj/item/weapon/polearm/spear/mjallidhorn
 	name = "depthseeker"
 	desc = "An instrument of Mjallidhorn's wrath to punish the ignorant."
+	icon = 'icons/roguetown/weapons/64/polearms.dmi'
+	icon_state = "dreamtriactive"
+	force = DAMAGE_SPEARPLUS + 2
+	force_wielded = DAMAGE_SPEAR_WIELD + 2
+	throwforce = DAMAGE_SPEAR_WIELD
+	max_blade_int = 200
+	smeltresult = /obj/item/ingot/steel_slag
+	item_weight = 2.7 KILOGRAMS
+
+/obj/item/weapon/polearm/spear/mjallidhorn/Initialize(mapload)
+	. = ..()
+	enchant(/datum/enchantment/silver)
+
+/obj/item/weapon/polearm/spear/holysee
+	name = "holy see spear"
+	desc = "A blessed spear, wielded by the Holy See's templars in their stalwart defense against evil. Originating in the wake of Havel Sectus' fall at the conclusion of the Big Burn, forged from an alloy of steel and blessed silver and trimmed in gold, this spear is an iconic weapon of the Katholikos' defenders and the bane of heretics that lurk in the dark."
 	icon = 'icons/roguetown/weapons/64/patron.dmi'
 	icon_state = "gsspear"
 	force = DAMAGE_SPEARPLUS + 2
@@ -213,6 +229,9 @@
 	smeltresult = /obj/item/ingot/steel_slag
 	item_weight = 2.7 KILOGRAMS
 
+/obj/item/weapon/polearm/spear/holysee/Initialize(mapload)
+	. = ..()
+	enchant(/datum/enchantment/silver)
 
 //................ Angrosian Spear ............... //
 /obj/item/weapon/polearm/spear/angros
@@ -737,6 +756,10 @@
 	icon_state = "dendorscythe"
 	gripped_intents = list(POLEARM_THRUST, SPEAR_CUT, POLEARM_CHOP, POLEARM_BASH)
 	item_weight = 3.5 KILOGRAMS
+
+/obj/item/weapon/polearm/halberd/bardiche/gani/Initialize(mapload)
+	. = ..()
+	enchant(/datum/enchantment/silver)
 
 /obj/item/weapon/polearm/halberd/bardiche/captain
 	name = "\proper deliverance"

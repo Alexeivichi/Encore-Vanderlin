@@ -6,16 +6,21 @@
 // Do not place template spawners in a location that will cause these sizes to go beyond map edge
 // Generic templates are found on every part of the island except old doma and the necropolis itself
 #define GENERIC_SMALL_TEMPLATES list("small_generic_tile_1z_coal", "small_generic_tile_1z_shrine_fire", "small_generic_tile_1z_shrine_angros", "small_generic_tile_1z_shrine_earth", "small_generic_tile_1z_shrine_air", "small_generic_tile_1z_shrine_frost", "small_generic_tile_1z_flowerfield", "small_generic_tile_1z_flowerfield_2", "small_generic_tile_1z_manabloom", "small_generic_tile_1z_ruin", "small_generic_tile_1z_ruin_2", "small_generic_tile_1z_ruin_3", "small_generic_tile_1z_ruin_4", "small_generic_tile_1z_ruin_5", "small_generic_tile_1z_ruin_6", "small_generic_tile_1z_ruin_7", "small_generic_tile_1z_ruin_8", "small_generic_tile_1z_ruin_9", "small_generic_tile_1z_ruin_10", "small_generic_tile_1z_pond", "small_generic_tile_1z_goblincamp", "small_generic_tile_1z_goblincamp_2", "small_generic_tile_1z_goblincamp_3", "small_generic_tile_1z_goblincamp_4", "small_generic_tile_1z_shack", "small_generic_tile_1z_shack_2", "small_generic_tile_1z_shack_3")
-#define GENERIC_SMALL_TEMPLATES_2Z list("small_generic_2z_ruin", "small_generic_2z_ruin_2", "small_generic_2z_tower","small_generic_2z_tower_2", "small_generic_2z_tower_3", "small_generic_2z_tower_4", "small_generic_2z_shrine", "small_generic_2z_shrine_earth")
+#define GENERIC_SMALL_TEMPLATES_2Z list("micro_generic_2z_tomb", "micro_generic_2z_tomb_2", "small_generic_2z_shrine_angros","small_generic_2z_ruin", "small_generic_2z_ruin_2", "small_generic_2z_ruin_3", "small_generic_2z_tower","small_generic_2z_tower_2", "small_generic_2z_tower_3", "small_generic_2z_tower_4", "small_generic_2z_shrine", "small_generic_2z_shrine_earth")
+#define NATURAL_MICRO_TEMPLATES list("micro_natural_1z_animal_den", "micro_natural_1z_animal_den_2", "micro_natural_1z_animal_den_3", "micro_natural_1z_animal_den_4", "micro_natural_1z_animal_den_5", "micro_natural_1z_cave", "micro_natural_1z_cave_2", "micro_natural_1z_gem", "micro_natural_1z_grove", "micro_natural_1z_logfall", "micro_natural_1z_maneater_pit", "micro_natural_1z_marsh", "micro_natural_1z_marsh_2", "micro_natural_1z_pond", "micro_natural_1z_pond_2", "micro_natural_1z_pond_3", "micro_natural_1z_rock", "micro_natural_1z_rock_coal", "micro_natural_1z_rock_mana", "micro_natural_1z_rock_mana_2", "micro_natural_1z_shroomhole", "micro_natural_1z_shroomhole_2")
 #define NATURAL_MEDIUM_TEMPLATES list("medium_emptycave", "medium_emptypool")
 
-/obj/effect/landmark/map_load_mark/generic_tile
+/obj/effect/landmark/map_load_mark/generic_tile//One level landmarks, ruins, derelicts, outposts etc
 	name = "Small Generic 1Z Random Tile"
 	templates = GENERIC_SMALL_TEMPLATES
 
-/obj/effect/landmark/map_load_mark/generic_tile/two_level
+/obj/effect/landmark/map_load_mark/generic_tile/two_level//Two level landmarks, ruins, derelicts, outposts etc
 	name = "Small Generic 2Z Random Tile"
 	templates = GENERIC_SMALL_TEMPLATES_2Z
+
+/obj/effect/landmark/map_load_mark/generic_tile/natural//Small animal dens and natural formations
+	name = "Micro Natural 1Z Random Tile"
+	templates = NATURAL_MICRO_TEMPLATES
 
 /datum/map_template/dungeon/small_generic_tile_1z_coal
 	name = "Small Generic Tile (Coal)"
@@ -152,6 +157,7 @@
 	id = "small_generic_tile_1z_shack_3"
 	mappath = "_maps/domotan_necropolis/generic/small_generic_tile_1z_shack_3.dmm"
 
+//two zlevel generic templates
 /datum/map_template/dungeon/small_generic_2z_ruin
 	name = "Small Generic Tile (2Z Ruin 1)"
 	id = "small_generic_2z_ruin"
@@ -161,6 +167,11 @@
 	name = "Small Generic Tile (2Z Ruin 2)"
 	id = "small_generic_2z_ruin_2"
 	mappath = "_maps/domotan_necropolis/generic/two_level/small_generic_2z_ruin_2.dmm"
+
+/datum/map_template/dungeon/small_generic_2z_ruin_3
+	name = "Small Generic Tile (2Z Ruin 3)"
+	id = "small_generic_2z_ruin_3"
+	mappath = "_maps/domotan_necropolis/generic/two_level/small_generic_2z_ruin_3.dmm"
 
 /datum/map_template/dungeon/small_generic_2z_tower
 	name = "Small Generic Tile (2Z Tower 1)"
@@ -191,6 +202,138 @@
 	name = "Small Generic Tile (2Z Earth Shrine)"
 	id = "small_generic_2z_shrine_earth"
 	mappath = "_maps/domotan_necropolis/generic/two_level/small_generic_2z_shrine_earth.dmm"
+
+/datum/map_template/dungeon/small_generic_2z_shrine_angros
+	name = "Small Generic Tile (2Z Angrosian Shrine)"
+	id = "small_generic_2z_shrine_angros"
+	mappath = "_maps/domotan_necropolis/generic/two_level/small_generic_2z_shrine_angros.dmm"
+
+//micro two zlevel templatee
+/datum/map_template/dungeon/micro_generic_2z_tomb
+	name = "Micro Generic Tile (2Z Tomb)"
+	id = "micro_generic_2z_tomb"
+	mappath = "_maps/domotan_necropolis/generic/two_level/micro_generic_2z_tomb.dmm"
+
+/datum/map_template/dungeon/micro_generic_2z_tomb_2
+	name = "Micro Generic Tile (2Z Tomb 2)"
+	id = "micro_generic_2z_tomb_2"
+	mappath = "_maps/domotan_necropolis/generic/two_level/micro_generic_2z_tomb_2.dmm"
+
+//micro templates
+/datum/map_template/dungeon/micro_natural_1z_animal_den
+	name = "Micro Generic Tile (Animal Den)"
+	id = "micro_natural_1z_animal_den"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_animal_den.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_animal_den_2
+	name = "Micro Generic Tile (Animal Den 2)"
+	id = "micro_natural_1z_animal_den_2"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_animal_den_2.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_animal_den_3
+	name = "Micro Generic Tile (Animal Den 3)"
+	id = "micro_natural_1z_animal_den_3"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_animal_den_3.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_animal_den_4
+	name = "Micro Generic Tile (Animal Den 4)"
+	id = "micro_natural_1z_animal_den_4"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_animal_den_4.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_animal_den_5
+	name = "Micro Generic Tile (Animal Den 5)"
+	id = "micro_natural_1z_animal_den_5"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_animal_den_5.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_cave
+	name = "Micro Generic Tile (Cave)"
+	id = "micro_natural_1z_cave"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_cave.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_cave_2
+	name = "Micro Generic Tile (Cave 2)"
+	id = "micro_natural_1z_cave_2"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_cave_2.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_gem
+	name = "Micro Generic Tile (Gems)"
+	id = "micro_natural_1z_gem"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_gem.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_grove
+	name = "Micro Generic Tile (Grove)"
+	id = "micro_natural_1z_grove"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_grove.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_logfall
+	name = "Micro Generic Tile (Logfall)"
+	id = "micro_natural_1z_logfall"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_logfall.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_maneater_pit
+	name = "Micro Generic Tile (Maneater Pit)"
+	id = "micro_natural_1z_maneater_pit"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_maneater_pit.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_marsh
+	name = "Micro Generic Tile (Marsh)"
+	id = "micro_natural_1z_marsh"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_marsh.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_marsh_2
+	name = "Micro Generic Tile (Marsh 2)"
+	id = "micro_natural_1z_marsh_2"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_marsh_2.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_marsh_3
+	name = "Micro Generic Tile (Marsh 3)"
+	id = "micro_natural_1z_marsh_3"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_marsh_3.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_pond
+	name = "Micro Generic Tile (Pond)"
+	id = "micro_natural_1z_pond"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_pond.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_pond_2
+	name = "Micro Generic Tile (Pond 2)"
+	id = "micro_natural_1z_pond_2"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_pond_2.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_pond_3
+	name = "Micro Generic Tile (Pond 3)"
+	id = "micro_natural_1z_pond_3"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_pond_3.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_rock
+	name = "Micro Generic Tile (Rock)"
+	id = "micro_natural_1z_rock"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_rock.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_rock_coal
+	name = "Micro Generic Tile (Coal)"
+	id = "micro_natural_1z_rock_coal"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_rock_coal.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_rock_mana
+	name = "Micro Generic Tile (Mana Crystals)"
+	id = "micro_natural_1z_rock_mana"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_rock_mana.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_rock_mana_2
+	name = "Micro Generic Tile (Mana Crystals 2)"
+	id = "micro_natural_1z_rock_mana_2"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_rock_mana_2.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_shroomhole
+	name = "Micro Generic Tile (Shroom Hole)"
+	id = "micro_natural_1z_shroomhole"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_shroomhole.dmm"
+
+/datum/map_template/dungeon/micro_natural_1z_shroomhole_2
+	name = "Micro Generic Tile (Shroom Hole 2)"
+	id = "micro_natural_1z_shroomhole_2"
+	mappath = "_maps/domotan_necropolis/generic/natural/micro_natural_1z_shroomhole_2.dmm"
 
 /datum/map_template/dungeon/medium_emptycave
 	name = "Medium Empty Cave"
