@@ -21,7 +21,7 @@
 
 /datum/job/advclass/mercenary/enforcer
 	title = "Enforcer"
-	tutorial = "You're an exiled enforcer that took refuges in the aelondan regions long ago. Robed in black, and known for wild antics, loose camaraderie and a huge hatred for inconveniences and the descendants of One Envy, You once used your blade to shake down anyone who hasn't paid their 'protection fees', nowadays, you will fight for anyone for the right price."
+	tutorial = "You're an exiled enforcer that took refuges in the Aelondan regions long ago. Robed in black, and known for wild antics, loose camaraderie and a huge hatred for inconveniences and the descendants of Hell. You once used your blade to shake down anyone who hasn't paid their 'protection fees', nowadays, you will fight for anyone for the right price."
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/enforcer
 	category_tags = list(CTAG_MERCENARY)

@@ -1,0 +1,9 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - map: "Moves some armour off the royal mannequins and onto racks and dressers."
+  - map: "Moves around some of the kitchen goods into different racks and chests in Etgard Keep."
+  - map: "Adds a shisha pipe, smokables, and some spare smoking pipes to the Inn."
+  - map: "Adds a greenhouse for the Clinic's laboratory as they had nowhere to grow their herbs that didn't involve a lengthy walk."
+  - map: "Adds some missing alchemy equipment to the Clinic's laboratory."
+  - map: "Adds a dressing room to Etgard Keep's manor for the nobility to play dress-up in."

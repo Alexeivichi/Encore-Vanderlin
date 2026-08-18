@@ -1,0 +1,4 @@
+author: "Roostercat12"
+delete-after: True
+changes:
+  - bugfix: "stairs work and humphrey is locked in his domicile"

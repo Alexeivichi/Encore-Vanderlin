@@ -16,7 +16,7 @@
 
 /datum/job/advclass/wretch/heretic
 	title = "Iconoclast"
-	tutorial = "You are either a heretic or a fanatic, spurned by the church, cast out from society - frowned upon by the tens for your type of faith."
+	tutorial = "You are either a heretic or a fanatic, spurned by the church, cast out from society - frowned upon by the church for your type of faith."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_ALL
 	allowed_patrons = ALL_ICONOCLAST_PATRONS

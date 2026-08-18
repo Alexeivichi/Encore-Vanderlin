@@ -926,7 +926,7 @@
 
 	// The Ten Section
 
-	data += "<div style='text-align: center; font-size: 1.3em; color: #c0a828; margin: 20px 0 10px 0;'><b>THE TEN</b></div>"
+	data += "<div style='text-align: center; font-size: 1.3em; color: #c0a828; margin: 20px 0 10px 0;'><b>THE ELEMENTALS</b></div>"
 	data += "<div style='border-top: 3px solid #404040; margin: 0 auto 30px; width: 91.5%;'></div>"
 
 	data += "<div style='width: 91.5%; margin: 0 auto 40px;'>"
@@ -970,7 +970,7 @@
 
 	// Inhumen Gods Section
 
-	data += "<div style='text-align: center; font-size: 1.3em; color: #AA0000; margin: 20px 0 10px 0;'><b>INHUMEN GODS</b></div>"
+	data += "<div style='text-align: center; font-size: 1.3em; color: #AA0000; margin: 20px 0 10px 0;'><b>HERETICAL GODS</b></div>"
 	data += "<div style='border-top: 3px solid #404040; margin: 0 auto 30px; width: 91.5%;'></div>"
 
 	data += "<div style='width: 91.5%; margin: 0 auto;'>"

@@ -60,7 +60,7 @@
 	alternate_worn_layer = TABARD_LAYER
 	boobed = TRUE
 	name = "undivided tabard"
-	desc = "The refuge of the TEN upon my back. An Undivided House, standing eternal against the encroaching darkness."
+	desc = "The refuge of the Aspects upon my back. An Undivided House, standing eternal against the encroaching darkness."
 	icon_state = "seetabard"
 
 
