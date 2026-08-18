@@ -9,25 +9,25 @@
 /area/under/cave)
 "f" = (
 /obj/effect/mapping_helpers/structure/grave_spawner/_elementalist,
-/obj/structure/closet/dirthole/grave,
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt,
 /area/under/cave)
 "i" = (
 /obj/effect/decal/cleanable/dirt/cobweb,
 /obj/effect/mapping_helpers/structure/grave_spawner/_elementalist,
-/obj/structure/closet/dirthole/grave,
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt,
 /area/under/cave)
 "j" = (
 /obj/effect/decal/cleanable/dirt/cobweb,
 /obj/effect/mapping_helpers/structure/grave_spawner/t2/_elementalist,
-/obj/structure/closet/dirthole/grave,
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt,
 /area/under/cave)
 "l" = (
 /obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
 /obj/effect/mapping_helpers/structure/grave_spawner/_elementalist,
-/obj/structure/closet/dirthole/grave,
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt,
 /area/under/cave)
 "m" = (

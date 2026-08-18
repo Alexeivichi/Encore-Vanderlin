@@ -48,8 +48,8 @@
 /turf/open/floor/dirt,
 /area/under/cave)
 "D" = (
-/obj/structure/closet/dirthole/grave,
 /obj/effect/mapping_helpers/structure/grave_spawner/_elementalist,
+/obj/structure/closet/dirthole/closed,
 /turf/open/floor/dirt,
 /area/under/cave)
 "K" = (
