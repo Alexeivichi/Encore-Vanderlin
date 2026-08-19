@@ -862,6 +862,12 @@
 /turf/open/floor/tile/masonic/spiral
 	icon_state = "masonicspiral"
 
+/turf/open/floor/tile/masonic/moondark
+	icon_state = "moontile_dark"
+
+/turf/open/floor/tile/masonic/moonbw
+	icon_state = "moontile_bw"
+
 /turf/open/floor/tile/brick
 	icon_state = "bricktile"
 
