@@ -102,6 +102,7 @@
 	pants = /obj/item/clothing/pants/tights/colored/black
 	shoes = /obj/item/clothing/shoes/shortboots
 	beltl = /obj/item/storage/keyring/priest
+	beltr = /obj/item/weapon/knife/dagger/steel/holysee
 	belt = /obj/item/storage/belt/leather/rope
 	armor = /obj/item/clothing/shirt/robe/priest
 	backl = /obj/item/storage/backpack/satchel
