@@ -17,51 +17,134 @@
 
 /datum/attribute_holder/sheet/job/templar/patron/visires
 	raw_attribute_list = list(
-		/datum/attribute/skill/combat/swords = 40,
 		/datum/attribute/skill/labor/butchering = 20,
-		/datum/attribute/skill/misc/cooking = 20
+		/datum/attribute/skill/craft/cooking = 20
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/visires/sword
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/swords = 40
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/visires/spear
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/polearms = 40
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/akan
 	raw_attribute_list = list(
-		/datum/attribute/skill/combat/swords = 40,
 		/datum/attribute/skill/labor/mathematics = 20,
-		/datum/attribute/skill/labor/reading = 20
+		/datum/attribute/skill/misc/reading = 20
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/akan/sword
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/swords = 40
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/akan/spear
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/polearms = 40
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/gani
 	raw_attribute_list = list(
-		/datum/attribute/skill/combat/polearms = 40,
 		/datum/attribute/skill/labor/farming = 20,
 		/datum/attribute/skill/misc/medicine = 20
 	)
 
+/datum/attribute_holder/sheet/job/templar/patron/gani/polearm
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/polearms = 40
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/gani/sword
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/swords = 40
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/gani/spear
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/polearms = 40
+	)
+
 /datum/attribute_holder/sheet/job/templar/patron/valdala
 	raw_attribute_list = list(
-		/datum/attribute/skill/combat/whipsflails = 40,
 		/datum/attribute/skill/misc/medicine = 20,
 		/datum/attribute/skill/craft/alchemy = 20
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/valdala/flail
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/whipsflails = 40
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/valdala/sword
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/swords = 40
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/valdala/spear
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/polearms = 40
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/erdl
 	raw_attribute_list = list(
-		/datum/attribute/skill/combat/knives = 40,
 		/datum/attribute/skill/misc/medicine = 20,
 		/datum/attribute/skill/craft/alchemy = 20
 	)
 
+/datum/attribute_holder/sheet/job/templar/patron/erdl/knives
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/knives = 40,
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/erdl/sword
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/swords = 40
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/erdl/spear
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/polearms = 40
+	)
+
 /datum/attribute_holder/sheet/job/templar/patron/mordsol
 	raw_attribute_list = list(
-		/datum/attribute/skill/combat/swords = 40,
-		/datum/attribute/skill/misc/fishing = 30,
-		/datum/attribute/skill/misc/cooking = 20
+		/datum/attribute/skill/labor/fishing = 30,
+		/datum/attribute/skill/craft/cooking = 20
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/mordsol/sword
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/swords = 40
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/mordsol/spear
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/polearms = 40
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/golerkanh
 	raw_attribute_list = list(
-		/datum/attribute/skill/combat/axesmaces = 40
-		/datum/attribute/skill/craft/armorsmithing = 10
+		/datum/attribute/skill/craft/armorsmithing = 10,
 		/datum/attribute/skill/craft/weaponsmithing = 10
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/golerkanh/hammer
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/axesmaces = 40
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/golerkanh/sword
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/swords = 40
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/golerkanh/spear
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/polearms = 40
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/iliope
@@ -72,15 +155,35 @@
 		/datum/attribute/skill/misc/lockpicking = 30
 	)
 
+/datum/attribute_holder/sheet/job/templar/patron/iliope/whip
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/whipsflails = 40
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/iliope/sword
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/swords = 40
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/iliope/spear
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/polearms = 40
+	)
+
 /datum/attribute_holder/sheet/job/templar/patron/pomette
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/farming = 20,
-		/datum/attribute/skill/misc/cooking = 20
+		/datum/attribute/skill/craft/cooking = 20
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/pomette/rapier
+/datum/attribute_holder/sheet/job/templar/patron/pomette/sword
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/swords = 40,
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/pomette/spear
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/polearms = 40
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/pomette/knuckles
@@ -106,6 +209,11 @@
 /datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/axe
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/axesmaces = 40
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/sword
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/swords = 40
 	)
 
 /datum/job/templar
@@ -165,27 +273,109 @@
 		if(/datum/patron/divine/visires)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/visires)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
+			var/static/list/selectable = list(
+				"Holy See Longsword" = /obj/item/weapon/sword/long/holysee,
+				"Holy See Spear" = /obj/item/weapon/polearm/spear/holysee,
+				"Flame's Hunger (Longsword)" = /obj/item/weapon/sword/long/exe/visires
+
+			)
+			var/choice = spawned.select_equippable(player_client, selectable, message = "Choose Your Specialisation", title = "TEMPLAR")
+			if(!choice)
+				return
+			switch(choice)
+				if("Holy See Longsword")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/visires/sword)
+				if("Holy See Spear")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/visires/spear)
+				if("Flame's Hunger (Longsword)")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/visires/sword)
 		if(/datum/patron/divine/akan)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/akan)
 			ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
+			var/static/list/selectable = list(
+				"Holy See Longsword" = /obj/item/weapon/sword/long/holysee,
+				"Holy See Spear" = /obj/item/weapon/polearm/spear/holysee,
+				"Moonlight Khopesh (Swords)" = list(/obj/item/weapon/sword/sabre/akan, /obj/item/weapon/sword/sabre/akan)
+
+			)
+			var/choice = spawned.select_equippable(player_client, selectable, message = "Choose Your Specialisation", title = "TEMPLAR")
+			if(!choice)
+				return
+			switch(choice)
+				if("Holy See Longsword")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/akan/sword)
+				if("Holy See Spear")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/akan/spear)
+				if("Moonlight Khopesh (Swords)")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/akan/sword)
 		if(/datum/patron/divine/gani)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/gani)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatDendor.ogg'
+			var/static/list/selectable = list(
+				"Holy See Longsword" = /obj/item/weapon/sword/long/holysee,
+				"Holy See Spear" = /obj/item/weapon/polearm/spear/holysee,
+				"Summer Scythe (Polearm)" = /obj/item/weapon/polearm/halberd/bardiche/gani,
+
+			)
+			var/choice = spawned.select_equippable(player_client, selectable, message = "Choose Your Specialisation", title = "TEMPLAR")
+			if(!choice)
+				return
+			switch(choice)
+				if("Holy See Longsword")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/gani/sword)
+				if("Holy See Spear")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/gani/spear)
+				if("Summer Scythe (Polearm)")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/gani/polearm)
 		if(/datum/patron/divine/valdala)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/valdala)
 			ADD_TRAIT(spawned, TRAIT_DEADNOSE, TRAIT_GENERIC)
 			ADD_TRAIT(spawned, TRAIT_GRAVEROBBER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
+			var/static/list/selectable = list(
+				"Holy See Longsword" = /obj/item/weapon/sword/long/holysee,
+				"Holy See Spear" = /obj/item/weapon/polearm/spear/holysee,
+				"Swift Journey (Flail)" = /obj/item/weapon/flail/sflail/valdalaflail,
+
+			)
+			var/choice = spawned.select_equippable(player_client, selectable, message = "Choose Your Specialisation", title = "TEMPLAR")
+			if(!choice)
+				return
+			switch(choice)
+				if("Holy See Longsword")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/valdala/sword)
+				if("Holy See Spear")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/valdala/spear)
+				if("Swift Journey (Flail)")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/valdala/flail)
 		if(/datum/patron/divine/erdl)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/erdl)
 			ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
+			var/static/list/selectable = list(
+				"Holy See Longsword" = /obj/item/weapon/sword/long/holysee,
+				"Holy See Spear" = /obj/item/weapon/polearm/spear/holysee,
+				"Plaguebearer Sickles (Knives)" = list(/obj/item/weapon/knife/dagger/steel/erdlsickle, /obj/item/weapon/knife/dagger/steel/erdlsickle)
+
+			)
+			var/choice = spawned.select_equippable(player_client, selectable, message = "Choose Your Specialisation", title = "TEMPLAR")
+			if(!choice)
+				return
+			switch(choice)
+				if("Holy See Longsword")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/erdl/sword)
+				if("Holy See Spear")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/erdl/spear)
+				if("Plaguebearer Sickles (Knives)")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/erdl/knives)
 		if(/datum/patron/divine/pomette)
 			spawned.virginity = FALSE
 			ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
 			var/static/list/selectable = list(
+				"Holy See Longsword" = /obj/item/weapon/sword/long/holysee,
+				"Holy See Spear" = /obj/item/weapon/polearm/spear/holysee,
 				"Heartstring (Rapier)" = /obj/item/weapon/sword/rapier/pomette,
 				"Close Caress (Knuckles)" = /obj/item/weapon/knuckles/pomette,
 			)
@@ -193,34 +383,95 @@
 			if(!choice)
 				return
 			switch(choice)
+				if("Holy See Longsword")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/pomette/sword)
+				if("Holy See Spear")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/pomette/spear)
 				if("Heartstring (Rapier)")
-					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/pomette/rapier)
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/pomette/sword)
 				if("Close Caress (Knuckles)")
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/pomette/knuckles)
 		if(/datum/patron/divine/mordsol)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mordsol)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
-		if(/datum/patron/divine/golerkanh)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/golerkanh)
-			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
-		if(/datum/patron/divine/mjallidhorn)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn)
-			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
 			var/static/list/selectable = list(
-				"DepthSeeker (Spear)" = /obj/item/weapon/polearm/spear/mjallidhorn,
-				"Barotrauma (Katars)" = /obj/item/weapon/katar/mjallidhorn,
+				"Holy See Longsword" = /obj/item/weapon/sword/long/holysee,
+				"Holy See Spear" = /obj/item/weapon/polearm/spear/holysee,
+				"Duel Settler (Longsword)" = /obj/item/weapon/sword/long/mordsol,
+
 			)
 			var/choice = spawned.select_equippable(player_client, selectable, message = "Choose Your Specialisation", title = "TEMPLAR")
 			if(!choice)
 				return
 			switch(choice)
-				if("DepthSeeker (Spear)")
+				if("Holy See Longsword")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mordsol/sword)
+				if("Holy See Spear")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mordsol/spear)
+				if("Duel Settler (Longsword)")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mordsol/sword)
+		if(/datum/patron/divine/golerkanh)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/golerkanh)
+			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
+			var/static/list/selectable = list(
+				"Holy See Longsword" = /obj/item/weapon/sword/long/holysee,
+				"Holy See Spear" = /obj/item/weapon/polearm/spear/holysee,
+				"Forgefiend (Warhammer)" = /obj/item/weapon/hammer/sledgehammer/war/golerkanh,
+
+			)
+			var/choice = spawned.select_equippable(player_client, selectable, message = "Choose Your Specialisation", title = "TEMPLAR")
+			if(!choice)
+				return
+			switch(choice)
+				if("Holy See Longsword")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/golerkanh/sword)
+				if("Holy See Spear")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/golerkanh/spear)
+				if("Forgefiend (Warhammer)")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/golerkanh/hammer)
+		if(/datum/patron/divine/mjallidhorn)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn)
+			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
+			var/static/list/selectable = list(
+				"Holy See Longsword" = /obj/item/weapon/sword/long/holysee,
+				"Holy See Spear" = /obj/item/weapon/polearm/spear/holysee,
+				"Depthseeker (Spear)" = /obj/item/weapon/polearm/spear/mjallidhorn,
+				"Barotrauma (Katars)" = /obj/item/weapon/katar/mjallidhorn,
+				"Frostcleaver (Axe)" = /obj/item/weapon/axe/steel/mjallidhorn,
+			)
+			var/choice = spawned.select_equippable(player_client, selectable, message = "Choose Your Specialisation", title = "TEMPLAR")
+			if(!choice)
+				return
+			switch(choice)
+				if("Holy See Longsword")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/sword)
+				if("Holy See Spear")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/spear)
+				if("Depthseeker (Spear)")
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/spear)
 				if("Barotrauma (Katars)")
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/katars)
+				if("Frostcleaver (Axe)")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/axe)
 		if(/datum/patron/divine/iliope)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/iliope)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
+			var/static/list/selectable = list(
+				"Holy See Longsword" = /obj/item/weapon/sword/long/holysee,
+				"Holy See Spear" = /obj/item/weapon/polearm/spear/holysee,
+				"Cackle Lash (Whip)" = /obj/item/weapon/whip/iliope,
+
+			)
+			var/choice = spawned.select_equippable(player_client, selectable, message = "Choose Your Specialisation", title = "TEMPLAR")
+			if(!choice)
+				return
+			switch(choice)
+				if("Holy See Longsword")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/iliope/sword)
+				if("Holy See Spear")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/iliope/spear)
+				if("Cackle Lash (Whip)")
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/iliope/whip)
 
 /datum/outfit/templar
 	name = JOB_TEMPLAR
@@ -244,29 +495,23 @@
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
 			head = /obj/item/clothing/head/helmet/heavy/necked/visires
 			cloak = /obj/item/clothing/cloak/stabard/templar/visires
-			backr = /obj/item/weapon/sword/long/exe/visires
 		if(/datum/patron/divine/akan)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/akan
 			head = /obj/item/clothing/head/helmet/heavy/necked/akan
 			cloak = /obj/item/clothing/cloak/stabard/templar/akan
-			beltl = /obj/item/weapon/sword/sabre/akan
 		if(/datum/patron/divine/gani)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/gani
 			head = /obj/item/clothing/head/helmet/heavy/necked/ganihelm
 			cloak = /obj/item/clothing/cloak/stabard/templar/gani
-			backr = /obj/item/weapon/polearm/halberd/bardiche/gani
 		if(/datum/patron/divine/valdala)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/valdala
 			head = /obj/item/clothing/head/helmet/heavy/necked/valdala
 			cloak = /obj/item/clothing/cloak/stabard/templar/valdala
-			beltl = /obj/item/weapon/flail/sflail/valdalaflail
 		if(/datum/patron/divine/erdl)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/erdl
 			head = /obj/item/clothing/head/helmet/heavy/necked/erdlhelm
 			cloak = /obj/item/clothing/cloak/stabard/templar/erdl
 			backpack_contents += /obj/item/reagent_containers/glass/bottle/poison
-			beltr = /obj/item/weapon/knife/dagger/steel/erdlsickle
-			beltl = /obj/item/weapon/knife/dagger/steel/erdlsickle
 		if(/datum/patron/divine/pomette)
 			head = /obj/item/clothing/head/helmet/sallet/pomettic
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette
@@ -275,12 +520,10 @@
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol
 			head = /obj/item/clothing/head/helmet/heavy/necked/mordsol
 			cloak = /obj/item/clothing/cloak/stabard/templar/mordsol
-			backr = /obj/item/weapon/sword/long/mordsol
 		if(/datum/patron/divine/golerkanh)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
 			head = /obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm
 			cloak = /obj/item/clothing/cloak/stabard/templar/golerkanh
-			backr = /obj/item/weapon/hammer/sledgehammer/war/golerkanh
 		if(/datum/patron/divine/mjallidhorn)
 			head = /obj/item/clothing/head/helmet/heavy/necked/mjallidhorn
 			armor = /obj/item/clothing/armor/brigandine/mjallidhorn
@@ -290,4 +533,3 @@
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/iliope
 			head = /obj/item/clothing/head/helmet/heavy/necked/iliope
 			cloak = /obj/item/clothing/cloak/stabard/templar/iliope
-			beltl = /obj/item/weapon/whip/iliope
