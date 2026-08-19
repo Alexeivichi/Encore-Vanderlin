@@ -10,66 +10,87 @@
 		/datum/attribute/skill/misc/climbing = 10,
 		/datum/attribute/skill/misc/athletics = 30,
 		/datum/attribute/skill/misc/reading = 20,
-		/datum/attribute/skill/magic/holy = 20,
+		/datum/attribute/skill/magic/holy = 30,
 		/datum/attribute/skill/misc/medicine = 10,
 		/datum/attribute/skill/misc/sewing = 20,
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/visires
 	raw_attribute_list = list(
-		/datum/attribute/skill/combat/swords = 40
+		/datum/attribute/skill/combat/swords = 40,
+		/datum/attribute/skill/labor/butchering = 20,
+		/datum/attribute/skill/misc/cooking = 20
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/akan
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/swords = 40,
-		/datum/attribute/skill/labor/mathematics = 20
+		/datum/attribute/skill/labor/mathematics = 20,
+		/datum/attribute/skill/labor/reading = 20
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/gani
 	raw_attribute_list = list(
-		/datum/attribute/skill/combat/polearms = 40
+		/datum/attribute/skill/combat/polearms = 40,
+		/datum/attribute/skill/labor/farming = 20,
+		/datum/attribute/skill/misc/medicine = 20
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/valdala
 	raw_attribute_list = list(
-		/datum/attribute/skill/combat/whipsflails = 40
+		/datum/attribute/skill/combat/whipsflails = 40,
+		/datum/attribute/skill/misc/medicine = 20,
+		/datum/attribute/skill/craft/alchemy = 20
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/erdl
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/knives = 40,
+		/datum/attribute/skill/misc/medicine = 20,
 		/datum/attribute/skill/craft/alchemy = 20
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/mordsol
 	raw_attribute_list = list(
-		/datum/attribute/skill/combat/swords = 40
+		/datum/attribute/skill/combat/swords = 40,
+		/datum/attribute/skill/misc/fishing = 30,
+		/datum/attribute/skill/misc/cooking = 20
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/golerkanh
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/axesmaces = 40
+		/datum/attribute/skill/craft/armorsmithing = 10
+		/datum/attribute/skill/craft/weaponsmithing = 10
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/iliope
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/whipsflails = 40,
+		/datum/attribute/skill/misc/sneaking = 30,
+		/datum/attribute/skill/misc/stealing = 30,
+		/datum/attribute/skill/misc/lockpicking = 30
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/pomette
+	raw_attribute_list = list(
+		/datum/attribute/skill/labor/farming = 20,
+		/datum/attribute/skill/misc/cooking = 20
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/pomette/rapier
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/swords = 40,
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/pomette/knuckles
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/unarmed = 20,
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/mjallidhorn
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/fishing = 20
-	)
-
-/datum/attribute_holder/sheet/job/templar/patron/iliope
-	raw_attribute_list = list(
-		/datum/attribute/skill/combat/whipsflails = 40
-	)
-
-/datum/attribute_holder/sheet/job/templar/patron/pomette/rapier
-	raw_attribute_list = list(
-		/datum/attribute/skill/combat/swords = 40
-	)
-
-/datum/attribute_holder/sheet/job/templar/patron/pomette/knuckles
-	raw_attribute_list = list(
-		/datum/attribute/skill/combat/unarmed = 20
 	)
 
 /datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/spear
@@ -80,6 +101,11 @@
 /datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/katars
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/unarmed = 20
+	)
+
+/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/axe
+	raw_attribute_list = list(
+		/datum/attribute/skill/combat/axesmaces = 40
 	)
 
 /datum/job/templar
