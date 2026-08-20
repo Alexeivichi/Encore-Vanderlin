@@ -51,7 +51,7 @@
 		TRAIT_INQUISITION,
 	)
 
-	languages = list(/datum/language/oldunsundered)
+	languages = list(/datum/language/newunsundered)
 
 /datum/job/migrant/specialinquisitor/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
@@ -63,7 +63,7 @@
 	var/datum/species/species = spawned.dna?.species
 	if(!species)
 		return
-	species.native_language = "Old Unsundered"
+	species.native_language = "Unsundered"
 	species.accent_language = species.get_accent(species.native_language)
 
 /datum/outfit/specialinquisitor
@@ -132,7 +132,7 @@
 		TRAIT_INQUISITION,
 	)
 
-	languages = list(/datum/language/oldunsundered)
+	languages = list(/datum/language/newunsundered)
 	cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
 	voicepack_m = /datum/voicepack/male/knight
 

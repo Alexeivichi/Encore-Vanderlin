@@ -1,5 +1,5 @@
 // Language
-/datum/language/lifesong
+/datum/language/nortic
 	name = "Nortic"
 	desc = "The harsh tongue of the Nortic peoples - brief and to the point, so that each word \
 	spoken in the frigid tundras is not wasted energy and wasted breath. Nortic war chants are \
@@ -11,8 +11,8 @@
 	key = "s"
 	space_chance = 45
 	default_priority = 90
-	icon_state = "gronnic"
-	spans = list(SPAN_GRONNIC)
+	icon_state = "elf"
+	spans = list(SPAN_NORTIC)
 	syllables = list(
 		"to", "ost", "no", "na", "ni", "ko", "ne", "en", "po", "ra", "li",
 		"on", "ro", "er", "go", "ol", "al", "ot", "ov", "re", "vo", "ka",

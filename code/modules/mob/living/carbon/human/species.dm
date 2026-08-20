@@ -428,12 +428,15 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 
 			var/list/language_map = list(
 				/datum/language/common = "Common",
-				/datum/language/elvish = "Elfish",
-				/datum/language/dwarvish = "Dwarfish",
+				/datum/language/elvish = "Elven",
+				/datum/language/dwarvish = "Dwarven",
 				/datum/language/hellspeak = "Infernal",
 				/datum/language/orcish = "Orcish",
 				/datum/language/celestial = "Celestial",
 				/datum/language/qadirid = "Qadirid",
+				/datum/language/nortic = "Nortic",
+				/datum/language/cudese = "Cudese",
+				/datum/language/noman = "Noman",
 				/datum/language/deepspeak = "Deepspeak",
 				/datum/language/oldunsundered = "Old Unsundered",
 				/datum/language/newunsundered = "Unsundered",

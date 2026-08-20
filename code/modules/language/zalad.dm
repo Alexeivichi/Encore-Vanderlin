@@ -4,7 +4,7 @@
 	is oft a source of dread for the other peoples of the Goblet; particularly \
 	those of Geramor, as those outside of the Sultanate typically only hear it \
 	being accompanied by the marching drums of war."
-	icon_state = "qadirid"
+	icon_state = "infernal"
 	spans = list(SPAN_QADIRID)
 	speech_verb = "states"
 	ask_verb = "questions"

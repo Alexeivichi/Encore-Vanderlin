@@ -370,7 +370,7 @@
 		TRAIT_OLDPARTY
 	)
 
-	languages = list(/datum/language/celestial)
+	languages = list(/datum/language/newunsundered)
 
 /datum/job/advclass/town_elder/hearth_acolyte/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()

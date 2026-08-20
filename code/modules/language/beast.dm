@@ -1,4 +1,4 @@
-/datum/language/beast
+/datum/language/lifesong
 	name = "Lifesong"
 	desc = "The tongue of the lost beasts that once held claim of the Earth, offered its name for unclear reasons \
 	in an age where things were thought not to speak. It is associated with creatures who fall outside the realm of \

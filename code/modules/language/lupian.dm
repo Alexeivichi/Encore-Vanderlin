@@ -1,7 +1,8 @@
-/datum/language/canilunzt
+/datum/language/noman
 	name = "Noman"
 	desc = "The language of the Noma people, oft shouted from saigaback \
 	whilst traversing rolling plains."
+	icon_state = "zalad"
 	speech_verb = "states"
 	ask_verb = "asks"
 	exclaim_verb = "shouts"
@@ -9,8 +10,7 @@
 	flags = LANGUAGE_HIDE_ICON_IF_UNDERSTOOD | LANGUAGE_HIDE_ICON_IF_NOT_UNDERSTOOD
 	space_chance = 80
 	default_priority = 90
-	icon_state = "asse"
-	spans = list(SPAN_LUPIAN)
+	spans = list(SPAN_NOMAN)
 	syllables = list(
 		"rah","mur","ru","ke","grok","wen","tot","sch",
 		"grst","crentz","cet","waz","et","du","kor","heizt","loch","jach","qet","anzhem","icht",

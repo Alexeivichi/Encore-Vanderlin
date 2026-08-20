@@ -14,7 +14,7 @@
 	additional_syllable_high = -1
 	default_priority = 80
 	default_priority = 80
-	icon_state = "celestial"
+	icon_state = "wyrmish"
 	spans = list(SPAN_CELESTIAL)
 	syllables = list(
 		"ak",

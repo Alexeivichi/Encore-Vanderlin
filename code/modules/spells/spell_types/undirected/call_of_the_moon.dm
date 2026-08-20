@@ -21,8 +21,8 @@
 
 /datum/action/cooldown/spell/undirected/howl/call_of_the_moon/cast(atom/cast_on)
 	// if they don't have beast language somehow, give it to them
-	if (!owner.has_language(/datum/language/beast))
-		owner.grant_language(/datum/language/beast)
+	if (!owner.has_language(/datum/language/lifesong))
+		owner.grant_language(/datum/language/lifesong)
 		to_chat(owner, span_boldnotice("The vestige of the hidden moon high above reveals His truth: the knowledge of beast-tongue was in me all along."))
 		to_chat(owner, span_boldwarning("So it is murmured in the Earth and Air: the Call of the Moon is sacred, and to share knowledge gleaned from it with those not of Him is a SIN."))
 		to_chat(owner, span_boldwarning("Ware thee well, child of Gani."))

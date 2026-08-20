@@ -98,7 +98,7 @@
 	. = ..()
 	RegisterSignal(C, COMSIG_MOB_SAY, PROC_REF(handle_speech))
 	C.remove_all_languages()
-	C.grant_language(/datum/language/beast)
+	C.grant_language(/datum/language/lifesong)
 
 /datum/species/werewolf/update_damage_overlays(mob/living/carbon/human/H)
 	H.remove_overlay(DAMAGE_LAYER)
