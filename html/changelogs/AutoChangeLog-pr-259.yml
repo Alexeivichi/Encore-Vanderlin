@@ -1,0 +1,4 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - rscadd: "Adds a Peculiarity called Native Language - you get ONE extra common language for free based on the country your character comes from. You can't pick the obscure ones like Old Unsundered tho."
