@@ -1,12 +1,15 @@
 /datum/language/qadirid
 	name = "Qadirid"
-	desc = ""
-	icon_state = "qadirid"
+	desc = "The venerable language of the Qadirid Sultanate - hearing this tongue \
+	is oft a source of dread for the other peoples of the Goblet; particularly \
+	those of Geramor, as those outside of the Sultanate typically only hear it \
+	being accompanied by the marching drums of war."
+	icon_state = "infernal"
 	spans = list(SPAN_QADIRID)
 	speech_verb = "states"
 	ask_verb = "questions"
 	exclaim_verb = "shouts"
-	key = "z"
+	key = "q"
 	space_chance = 80
 	sentence_chance = 5
 	between_word_sentence_chance = 0

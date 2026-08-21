@@ -83,9 +83,9 @@
 		else
 			spawned.cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
 
-	if(!spawned.has_language(/datum/language/celestial) && (spawned.patron?.type in ALL_TEMPLE_PATRONS))
-		spawned.grant_language(/datum/language/celestial)
-		to_chat(spawned, "<span class='info'>I can speak Celestial with ,c before my speech.</span>")
+	if(!spawned.has_language(/datum/language/newunsundered) && (spawned.patron?.type in ALL_TEMPLE_PATRONS))
+		spawned.grant_language(/datum/language/newunsundered)
+		to_chat(spawned, "<span class='info'>I can speak Unsundered with ,n before my speech.</span>")
 
 	if(spawned.dna?.species.id == SPEC_ID_HUMEN)
 		spawned.dna.species.soundpack_m = new /datum/voicepack/male/knight()

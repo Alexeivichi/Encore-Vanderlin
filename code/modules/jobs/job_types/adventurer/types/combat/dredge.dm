@@ -126,7 +126,7 @@
 			ADD_TRAIT(spawned, TRAIT_STEELHEARTED, TRAIT_GENERIC)
 			if(!spawned.has_language(/datum/language/newunsundered))
 				spawned.grant_language(/datum/language/newunsundered)
-				to_chat(spawned, "<span class='info'>I can speak New Unsundered with ,n before my speech.</span>")
+				to_chat(spawned, "<span class='info'>I can speak Unsundered with ,n before my speech.</span>")
 			if(!istype(spawned.patron, /datum/patron/angros)) // don't overwrite extremist angros
 				spawned.set_patron(/datum/patron/angros, TRUE)
 			to_chat(spawned,span_info("\
@@ -503,8 +503,8 @@
 			spawned.change_stat(STAT_PERCEPTION, -2)
 			spawned.virginity = TRUE
 			spawned.grant_language(/datum/language/elvish)
-			spawned.grant_language(/datum/language/celestial)
-			spawned.grant_language(/datum/language/oldunsundered)
+			spawned.grant_language(/datum/language/dwarvish)
+			spawned.grant_language(/datum/language/newunsundered)
 			to_chat(spawned,span_info("\
 			I was a scribe in my former years. I'm well-educated and can speak a couple languages.")
 			)

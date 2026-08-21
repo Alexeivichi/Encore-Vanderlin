@@ -40,7 +40,7 @@
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/churchling
 
-	languages = list(/datum/language/celestial)
+	languages = list(/datum/language/newunsundered)
 
 /datum/job/churchling/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()

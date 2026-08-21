@@ -393,7 +393,7 @@ GLOBAL_LIST_EMPTY(secret_door_managers)
 	override_floor = FALSE
 	hidden_dc = 14
 	use_phrases = TRUE
-	lang = list(/datum/language/oldunsundered)
+	lang = list(/datum/language/newunsundered)
 
 	manager_id = "inquisition"
 	accessor_trait = TRAIT_KNOW_INQUISITION_DOORS
@@ -427,7 +427,7 @@ GLOBAL_LIST_EMPTY(secret_door_managers)
 	override_floor = FALSE
 	hidden_dc = 16
 	use_phrases = TRUE
-	lang = list(/datum/language/rousman)
+	lang = list(/datum/language/cudese)
 	manager_id = "rousdoors"
 	accessor_trait = TRAIT_KNOW_ROUS_DOORS
 	memory_name = "Rous'"

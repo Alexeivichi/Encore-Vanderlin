@@ -22,7 +22,7 @@
 	attribute_sheet = /datum/attribute_holder/sheet/job/sterkenstadtengun
 
 	traits = list(TRAIT_MEDIUMARMOR)
-	languages = list(/datum/language/oldunsundered)
+	languages = list(/datum/language/dwarvish)
 	category_tags = list(CTAG_MERCENARY)
 	total_positions = 99 //strong gun so limited
 

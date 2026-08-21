@@ -125,7 +125,7 @@
 	attribute_sheet = /datum/attribute_holder/sheet/job/acolyte
 	attribute_sheet_old = /datum/attribute_holder/sheet/job/acolyte/old
 
-	languages = list(/datum/language/celestial)
+	languages = list(/datum/language/newunsundered)
 
 /datum/job/monk/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()

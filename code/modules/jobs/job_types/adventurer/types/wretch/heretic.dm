@@ -102,8 +102,8 @@
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
 
-	if(!spawned.has_language(/datum/language/celestial) && (spawned.patron?.type in ALL_TEMPLE_PATRONS))
-		spawned.grant_language(/datum/language/celestial)
+	if(!spawned.has_language(/datum/language/newunsundered) && (spawned.patron?.type in ALL_TEMPLE_PATRONS))
+		spawned.grant_language(/datum/language/newunsundered)
 
 	var/holder = spawned.patron?.devotion_holder
 	if(holder)

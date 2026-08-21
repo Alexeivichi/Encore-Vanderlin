@@ -1,12 +1,12 @@
 /datum/language/undead
 	name = "Bonesong"
 	desc = "The language of the flesh, bar the soul. Said to be the most transparent and intimate methods of speech, even moreso than divine intrusion."
-	icon_state = "zizo"
+	icon_state = "gronnic"
 	spans = list(SPAN_UNDEAD)
 	speech_verb = "chants"
 	ask_verb = "questions"
 	exclaim_verb = "wails"
-	key = "w"
+	key = "z"
 	space_chance = 75 //very high due to the potential length of each syllable
 	sentence_chance = 10
 	between_word_sentence_chance = 5

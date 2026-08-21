@@ -1,17 +1,18 @@
 // Language
-/datum/language/lifesong
-	name = "Lifesong"
-	desc = "The tongue of the lost beasts that once held claim of the Earth, offered its name for unclear reasons \
-	in an age where things were thought not to speak. It is associated with creatures who fall outside the realm of \
-	Mankind but possess primordial wisdom still."
+/datum/language/nortic
+	name = "Nortic"
+	desc = "The harsh tongue of the Nortic peoples - brief and to the point, so that each word \
+	spoken in the frigid tundras is not wasted energy and wasted breath. Nortic war chants are \
+	frequently heard echoing across the frozen plains, distant and ethereal from the whipping \
+	gales of the Forever War."
 	speech_verb = "remarks"
 	ask_verb = "inquires"
 	exclaim_verb = "asserts"
-	key = "s"
+	key = "g"
 	space_chance = 45
 	default_priority = 90
-	icon_state = "gronnic"
-	spans = list(SPAN_GRONNIC)
+	icon_state = "elf"
+	spans = list(SPAN_NORTIC)
 	syllables = list(
 		"to", "ost", "no", "na", "ni", "ko", "ne", "en", "po", "ra", "li",
 		"on", "ro", "er", "go", "ol", "al", "ot", "ov", "re", "vo", "ka",

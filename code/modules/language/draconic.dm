@@ -1,6 +1,9 @@
 /datum/language/draconic
 	name = "Draconic"
-	desc = ""
+	desc = "An ancient tongue spoken by the venerable beings known as Dragons. Like the Beast-Tongue, \
+	this speech is associated with creatures of inscrutable primordial wisdom. Dragons however, proud \
+	as they are, sought to elevate their own tongue above that of the common beast. In modernity, it's \
+	largely been usurped by the Drakian, as well as the Aelondan and Nortic hunters of Dragons."
 	speech_verb = "hisses"
 	ask_verb = "hisses"
 	exclaim_verb = "roars"

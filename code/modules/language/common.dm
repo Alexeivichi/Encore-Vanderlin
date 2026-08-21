@@ -1,8 +1,8 @@
 // 'basic' language; spoken by default.
 /datum/language/common
 	name = "Common"
-	desc = ""
-	icon_state = "imperial"
+	desc = "The common trade-tongue of the Goblet, spoken by nearly all."
+	icon_state = "psydon_new"
 	speech_verb = "says"
 	whisper_verb = "whispers"
 	exclaim_verb = "yells"

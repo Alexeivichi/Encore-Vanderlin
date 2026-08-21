@@ -252,7 +252,7 @@
 	)
 	mind_traits = list(TRAIT_KNOWBANDITS)
 
-	languages = list(/datum/language/celestial)
+	languages = list(/datum/language/newunsundered)
 
 /datum/job/templar/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()

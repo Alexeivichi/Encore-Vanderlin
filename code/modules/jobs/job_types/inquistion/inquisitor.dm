@@ -27,7 +27,7 @@
 	mind_traits = list(
 		TRAIT_KNOW_INQUISITION_DOORS
 	)
-	languages = /datum/language/newunsundered
+	languages = list(/datum/language/oldunsundered, /datum/language/newunsundered)
 	spells = list(
 		/datum/action/cooldown/spell/undirected/call_bird/inquisitor
 	)

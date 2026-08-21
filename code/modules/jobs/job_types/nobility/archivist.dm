@@ -35,11 +35,11 @@
 		/datum/language/elvish,
 		/datum/language/dwarvish,
 		/datum/language/qadirid,
-		/datum/language/celestial,
-		/datum/language/hellspeak,
+		/datum/language/noman,
+		/datum/language/cudese,
 		/datum/language/newunsundered,
-		/datum/language/oldunsundered,
-		/datum/language/orcish,
+		/datum/language/nortic,
+		/datum/language/hellspeak,
 		/datum/language/deepspeak
 	)
 

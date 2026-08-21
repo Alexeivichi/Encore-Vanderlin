@@ -63,7 +63,7 @@
 		TRAIT_FOREIGNER,
 	)
 
-	languages = list(/datum/language/oldunsundered)
+	languages = list(/datum/language/newunsundered)
 
 /datum/job/advclass/sacrestant/confessor/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()

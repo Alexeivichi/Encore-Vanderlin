@@ -296,3 +296,29 @@
 	ADD_TRAIT(owner, TRAIT_NOBLE_BLOOD, "[type]")
 	ADD_TRAIT(owner, TRAIT_NOBLE_POWER, "[type]")
 	ADD_TRAIT(owner, TRAIT_NOBLE_LOCAL, "[type]")
+
+/datum/quirk/peculiarity/native_language
+	name = "Native Language"
+	desc = "Though you've learned the Common language, you come from somewhere in the Goblet that doesn't speak the trade-tongue as its primary language."
+	customization_label = "Choose Language"
+	customization_options = list(
+		/datum/language/dwarvish,
+		/datum/language/elvish,
+		/datum/language/nortic,
+		/datum/language/cudese,
+		/datum/language/noman,
+		/datum/language/qadirid,
+		/datum/language/deepspeak,
+		/datum/language/hellspeak,
+		/datum/language/orcish,
+	)
+
+/datum/quirk/peculiarity/native_language/on_spawn()
+	if(!customization_value || !ispath(customization_value, /datum/language))
+		return
+	if(!(customization_value in customization_options))
+		return
+
+	if(ishuman(owner))
+		var/mob/living/carbon/human/H = owner
+		H.grant_language(customization_value)

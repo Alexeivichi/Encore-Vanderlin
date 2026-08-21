@@ -38,7 +38,7 @@
 	// 		continue
 
 	// 	// Announcement to other werewolves (and anyone else who has beast language somehow)
-	// 	if(player.mind.has_antag_datum(/datum/antagonist/werewolf) || (use_language && player.has_language(/datum/language/beast)))
+	// 	if(player.mind.has_antag_datum(/datum/antagonist/werewolf) || (use_language && player.has_language(/datum/language/lifesong)))
 	// 		to_chat(player, span_boldannounce("[werewolf_player ? werewolf_player.wolfname : owner.real_name] howls to the hidden moon: [message]"))
 
 	// 	if(get_dist(player, owner) > 7)

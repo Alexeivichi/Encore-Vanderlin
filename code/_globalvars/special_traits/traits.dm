@@ -304,8 +304,10 @@
 	character.grant_language(/datum/language/orcish)
 	character.grant_language(/datum/language/deepspeak)
 	character.grant_language(/datum/language/newunsundered)
-	character.grant_language(/datum/language/oldunsundered)
 	character.grant_language(/datum/language/qadirid)
+	character.grant_language(/datum/language/nortic)
+	character.grant_language(/datum/language/cudese)
+	character.grant_language(/datum/language/noman)
 	character.grant_language(/datum/language/thievescant)
 
 /datum/special_trait/uniglot
@@ -316,7 +318,7 @@
 
 /datum/special_trait/uniglot/on_apply(mob/living/carbon/human/character, silent)
 	character.remove_language(/datum/language/common)
-	switch(rand(1,7))
+	switch(rand(1,10))
 		if(1)
 			character.grant_language(/datum/language/elvish)
 		if(2)
@@ -331,6 +333,12 @@
 			character.grant_language(/datum/language/hellspeak)
 		if(7)
 			character.grant_language(/datum/language/orcish)
+		if(8)
+			character.grant_language(/datum/language/nortic)
+		if(9)
+			character.grant_language(/datum/language/cudese)
+		if(10)
+			character.grant_language(/datum/language/noman)
 
 /datum/special_trait/languageidiot
 	name = "Somewhat Polyglot"
@@ -349,6 +357,9 @@
 	character.grant_language(/datum/language/newunsundered)
 	character.grant_language(/datum/language/oldunsundered)
 	character.grant_language(/datum/language/qadirid)
+	character.grant_language(/datum/language/nortic)
+	character.grant_language(/datum/language/cudese)
+	character.grant_language(/datum/language/noman)
 	character.grant_language(/datum/language/thievescant)
 
 /datum/attribute_holder/sheet/job/tavernbrawler
@@ -916,7 +927,7 @@
 	allowed_patrons = list(/datum/patron/divine/gani)
 
 /datum/special_trait/bestial/on_apply(mob/living/carbon/human/character, silent)
-	character.grant_language(/datum/language/beast)
+	character.grant_language(/datum/language/lifesong)
 	character.add_spell(/datum/action/cooldown/spell/undirected/howl/call_of_the_moon, silent = TRUE)
 	ADD_TRAIT(character, TRAIT_NASTY_EATER, "[type]") // eat the raw meat
 
