@@ -1,0 +1,5 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - rscadd: "Adds weapon selection to every Templar patron."
+  - rscadd: "Added skill variance for Clergy that varies based on their patron."
