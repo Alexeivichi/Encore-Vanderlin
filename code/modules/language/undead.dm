@@ -6,7 +6,7 @@
 	speech_verb = "chants"
 	ask_verb = "questions"
 	exclaim_verb = "wails"
-	key = "w"
+	key = "z"
 	space_chance = 75 //very high due to the potential length of each syllable
 	sentence_chance = 10
 	between_word_sentence_chance = 5

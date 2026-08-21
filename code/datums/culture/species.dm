@@ -4,7 +4,7 @@
 	name = "Aelondan commonfolk"
 	description = "The most common of commonfolk in the realm, shielded from heartache in the deep countryside of Aelonda. \
 	A typical upbringing in the Sanct is a mundane tale, working the land and toiling for a heritage of inscrutable age."
-	species = RACES_PLAYER_NONEXOTIC
+	species = RACES_NON_ANTAG
 	pre_append = "the "
 
 //cityfolk
@@ -26,7 +26,7 @@
 	name = "Havel Sectus"
 	description = "Devout warrior-castes of Havel Sectus who occupy the bridges to Nortmidst and dwell within its mighty walls. \
 	Invariably hardened, combat-trained and stubborn to a fault. Most often, these are immigrants seeking to do some good with otherwise dangerous skills."
-	species = RACES_PLAYER_NONEXOTIC//Only thing that matters is your ability to fight here honestly, kobolds are the only ones actually exempt
+	species = RACES_LESS_DISCRIMINATED//Only thing that matters is your ability to fight here honestly, kobolds are the only ones actually exempt
 
 //Nortmidst species specific cultures
 //commoners
@@ -74,6 +74,15 @@
 	species = RACES_PLAYER_NONDISCRIMINATED//Again, it is Cudao, except it would be strange to see a monstrous tycoon
 	pre_append = "the "
 
+//tycoon underlings
+/datum/culture/species/cudao/tycoon/underclass
+	name = "Dunnish underclass"
+	description = "The working class of Dunmoon, your run of the mill factory worker who keeps the gears turning. \
+	Backbreaking labour and long hours are hallmarks of such an upbringing, assuming one isn't left even deeper in the holes of crime and poverty. \
+	Dunmoon would cease to function without these people, yet life is hard for them, leading to many seeking out a better life overseas."
+	species = RACES_PLAYER_ALL//It is Cudao, nobody cares what you are as long as you can work. Capitalism baby
+	pre_append = "the "
+
 //Sultans specific species cultures
 //commoners
 /datum/culture/species/sultanate
@@ -81,9 +90,10 @@
 	description = "Natives of Milhun and its loyalist states within the Sultanate's grasp. \
 	Despite an abhorrent reputation with their neighbor Geramor, these folk are internally a deeply storied and culturally rich folk. \
 	Their history is defined by unending strife and the pursuit of pride, so much that they would spite their very patron god Visires to see it through. \
+	Though they are racially diverse and their peoples many, the commonfolk of the Qadirid are made up of countless conquered peoples who now culturally fall in-line with the Sultanate. \
 	They are among the few still-divine groups which have been stricken of their ability to channel their Thauma's power, due to their wrongs against Visires. \
 	CAUTION! QADIRID NATIVES CAN NOT PRACTICE MAGIC OUTSIDE OF DIVINE MIRACLES. You will have to utilize Thaumatech if you plan to use magic!"
-	species = RACES_PLAYER_SULTANS//no monstrous races, the sultans are not exactly a welcoming culture
+	species = RACES_NON_ANTAG//The commonfolk, made up of a myriad of countless conquered people. Diverse, but not necessarily treated well by the Sunmen.
 	pre_append = "the "
 
 //nobility
