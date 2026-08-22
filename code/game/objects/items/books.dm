@@ -1130,6 +1130,37 @@
 	throwforce = 1
 	possible_item_intents = list(/datum/intent/use, /datum/intent/mace/strike/wood)
 	var/verses_file = "strings/bibble.txt"
+	var/can_select_verse_ranges = TRUE
+	var/current_verse_range = "Random Verse"
+	var/list/verse_ranges = list(           // Patron divied up by line in txt file
+		"Seperation" = list(1, 4),
+		"Elementalism" = list(5, 9),
+		"Visires" = list(10, 12),
+		"Gani" = list(13, 15),
+		"Valdala" = list(16, 19),
+		"Akan" = list(20, 22),
+		"Goler Kanh" = list(23, 26),
+		"Alaqshir" = list(27, 29),
+		"Pomette" = list(30, 32),
+		"Iliope" = list(33, 36),
+		"Erdl" = list(37, 39),
+		"Mjallidhorn" = list(40, 42),
+		"Random Verse" = null
+		)
+
+/obj/item/book/bibble/examine(mob/user)
+	. = ..()
+
+	if(current_verse_range == "Random Verse")
+		. += span_notice("I'm ready to read a random verse.")
+	else
+		. += span_notice("I'm ready to read a verse from the [current_verse_range] section.")
+
+/obj/item/book/bibble/get_mechanics_examine(mob/user)
+	. = ..()
+	if(!can_select_verse_ranges)
+		return
+	. += span_notice("Alt click this book to select which section to read verses from.")
 
 /obj/item/book/bibble/read(mob/user)
 	if(!open)
@@ -1144,11 +1175,38 @@
 		return
 	if(in_range(user, src) || isobserver(user))
 		user.changeNext_move(CLICK_CD_MELEE)
-		var/m
-		var/list/verses = file2list(verses_file)
-		m = pick(verses)
-		if(m)
-			user.say(m)
+
+	var/list/verses = file2list(verses_file)
+
+	if(!verses || !verses.len)
+		return
+
+	var/selected_verse
+	var/list/range = verse_ranges[current_verse_range]
+
+	if(!range)
+		selected_verse = pick(verses)
+	else
+		var/start = range[1]
+		var/end = min(range[2], verses.len)
+
+		if(start <= verses.len)
+			selected_verse = pick(verses.Copy(start, end + 1))
+
+	if(selected_verse)
+		user.say(selected_verse)
+
+/obj/item/book/bibble/AltClick(mob/user, list/modifiers)
+	if(!can_select_verse_ranges)
+		return ..()
+
+	var/choice = tgui_input_list(user, "Choose a section:", title, verse_ranges)
+	if(!choice)
+		return
+
+	current_verse_range = choice
+
+	to_chat(user, span_notice("You will read a section from [choice]."))
 
 /obj/item/book/bibble/attack(mob/living/M, mob/user, list/modifiers)
 	if(is_priest_job(user.mind?.assigned_role))
@@ -1684,6 +1742,7 @@ ____________End of Example*/
 	title = "angrosian bible"
 	dat = "gott.json"
 	verses_file = "strings/psybibble.txt"
+	can_select_verse_ranges = FALSE
 
 /obj/item/book/bibble/psy/attack(mob/living/M, mob/living/user, list/modifiers)
 	if(istype(user) && istype(user.patron, /datum/patron/angros))
