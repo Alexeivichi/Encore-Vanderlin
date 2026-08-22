@@ -121,28 +121,26 @@
 
 	icon_state = "[icon_state]_end"
 
-		if(!do_after(user, 3 SECONDS, target = src, display_over_user = TRUE))
+	if(!do_after(user, 3 SECONDS, target = src, display_over_user = TRUE))
+		icon_state = initial(icon_state)
+		return ITEM_INTERACT_BLOCKING
+
+	var/paths = list(TRAIT_GANI_GROWING, TRAIT_GANI_STINGING, TRAIT_GANI_DEVOURING, TRAIT_GANI_LORDING)
+	for(var/T in paths)
+		if(HAS_TRAIT(user, T) && T != path_trait)
+			to_chat(user, span_warning("Gabni rejects my offering... I already follow another path."))
 			icon_state = initial(icon_state)
-			return
-
-		record_round_statistic(STATS_DENDOR_SACRIFICES)
-
-		var/paths = list(TRAIT_DENDOR_GROWING, TRAIT_DENDOR_STINGING, TRAIT_DENDOR_DEVOURING, TRAIT_DENDOR_LORDING)
-		for(var/T in paths)
-			if(HAS_TRAIT(user, T) && T != path_trait)
-				to_chat(user, span_warning("Dendor rejects my offering... I already follow another path."))
-				icon_state = initial(icon_state)
-				return
+			return ITEM_INTERACT_BLOCKING
 
 	if(required_trait && !HAS_TRAIT(user, required_trait))
 		to_chat(user, span_warning("I am not yet attuned to this path..."))
 		icon_state = initial(icon_state)
 		return ITEM_INTERACT_BLOCKING
 
-		if(gives_tier2 && HAS_TRAIT(user, TRAIT_BLESSED))
-			to_chat(user, span_info("Dendor has already blessed me once. Further miracles must be earned differently."))
-			icon_state = initial(icon_state)
-			return
+	if(gives_tier2 && HAS_TRAIT(user, TRAIT_BLESSED))
+		to_chat(user, span_info("Gani has already blessed me once. Further miracles must be earned differently."))
+		icon_state = initial(icon_state)
+		return
 
 	INVOKE_ASYNC(src, PROC_REF(give_blessing), user)
 	if(path_trait && !HAS_TRAIT(user, path_trait))
@@ -157,7 +155,7 @@
 
 		qdel(src)
 	else
-		to_chat(user, span_warning("Dendor finds me unworthy of his blessings..."))
+		to_chat(user, span_warning("Gani finds me unworthy of Her blessings..."))
 	return
 
 /obj/item/gani_blessing/proc/check_blessing_requirements(mob/living/user)

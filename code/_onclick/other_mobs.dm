@@ -454,7 +454,7 @@
 	if(ishuman(A))
 		var/mob/living/carbon/human/thief = src
 		var/mob/living/carbon/human/victim = A
-		var/thiefskill = GET_MOB_SKILL_VALUE_OLD(thief, /datum/attribute/skill/misc/stealing) + (has_world_trait(/datum/world_trait/matthios_fingers) ? (is_ascendant(MATTHIOS) ? 2 : 1) : 0)
+		var/thiefskill = GET_MOB_SKILL_VALUE_OLD(thief, /datum/attribute/skill/misc/stealing) + (has_world_trait(/datum/world_trait/deceivers_fingers) ? (is_ascendant(DECEIVERS) ? 2 : 1) : 0)
 		var/thief_skill_base = GET_MOB_SKILL_VALUE_OLD(thief, /datum/attribute/skill/misc/stealing)
 		if(thiefskill <= 0)
 			thiefskill = 1

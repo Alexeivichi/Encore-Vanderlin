@@ -45,7 +45,7 @@
 	if(patient.mob_biotypes & MOB_UNDEAD)
 		return FALSE
 
-	if(HAS_TRAIT(patient, TRAIT_NECRA_CURSE))
+	if(HAS_TRAIT(patient, TRAIT_VALDALA_CURSE))
 		return FALSE
 
 	return TRUE

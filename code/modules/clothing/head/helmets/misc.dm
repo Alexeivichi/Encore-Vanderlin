@@ -775,16 +775,27 @@
 	armor_class = AC_LIGHT
 	material_category = ARMOR_MAT_PLATE
 	body_parts_covered = FULL_HEAD
+	var/list/colors = list(
+	"PURPLE"="#865c9c",
+	"RED"="#933030",
+	"BROWN"="#685542",
+	"GREEN"="#79763f",
+	"BLUE"="#395480",
+	"YELLOW"="#b5b004",
+	"TEAL"="#249589",
+	"WHITE"="#ffffff",
+	"ORANGE"="#b86f0c",
+	"Royal Majenta"="#962e5c")
 
 	melting_material = /datum/material/bronze
 
 /obj/item/clothing/head/helmet/bronzegladiator/attackby(obj/item/W, mob/living/user, params)
 	..()
 	if(istype(W, /obj/item/natural/cloth) && !detail_tag)
-		var/choice = input(user, "Choose a color.", "Orle") as anything in COLOR_MAP
+		var/choice = input(user, "Choose a color.", "Orle") as anything in colors
 		user.visible_message(span_warning("[user] adds [W] to [src]."))
 		user.transferItemToLoc(W, src, FALSE, FALSE)
-		detail_color = COLOR_MAP[choice]
+		detail_color = colors[choice]
 		detail_tag = "_detail"
 		update_icon()
 		if(loc == user && ishuman(user))

@@ -1746,7 +1746,7 @@ ____________End of Example*/
 	bookfile = "Neu_cooking.json"
 
 /obj/item/book/bibble/psy
-	name = "The PSY Book"
+	name = "Unsundered Motonium"
 	icon_state = "bibble_0" // change when sprites avaliable
 	base_icon_state = "bibble"
 	title = "psydon bible"
@@ -1755,7 +1755,7 @@ ____________End of Example*/
 	can_select_verse_ranges = FALSE
 
 /obj/item/book/bibble/psy/interact_with_atom(atom/interacting_with, mob/living/user, list/modifiers)
-	if(!isliving(interacting_with) || !istype(user.patron, /datum/patron/psydon))
+	if(!isliving(interacting_with) || !istype(user.patron, /datum/patron/angros))
 		return NONE
 
 	if(!user.can_read(src))

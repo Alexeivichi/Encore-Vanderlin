@@ -124,6 +124,8 @@
 	/// Supports (/datum/attribute/skill/bar = list(value, clamp)). DEPRECIATED DO NOT USE
 	VAR_FINAL/list/skills
 
+	var/list/verbs
+
 	/// Associative list of skill - base multiplier to set for skill_holder
 	var/list/skill_multipliers = list()
 
@@ -306,6 +308,9 @@
 	for(var/datum/language/to_learn as anything in languages)
 		if(!spawned.has_language(to_learn))
 			spawned.grant_language(to_learn)
+
+	if(length(verbs))
+		add_verb(spawned, verbs)
 
 	if(is_foreigner)
 		ADD_TRAIT(spawned, TRAIT_FOREIGNER, TRAIT_GENERIC)
