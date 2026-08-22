@@ -22,9 +22,6 @@
 	##path/half_elf { \
 		mob_species = /datum/species/human/halfelf; \
 	} \
-	##path/half_snow { \
-		mob_species = /datum/species/human/halfzizo; \
-	} \
 	##path/hollow_kin { \
 		mob_species = /datum/species/demihuman; \
 	} \
@@ -39,9 +36,6 @@
 	} \
 	##path/elf/dark { \
 		mob_species = /datum/species/elf/dark; \
-	} \
-	##path/elf/snow { \
-		mob_species = /datum/species/elf/zizo; \
 	} \
 	##path/half_orc { \
 		mob_species = /datum/species/halforc; \
