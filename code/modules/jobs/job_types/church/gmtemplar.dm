@@ -53,7 +53,7 @@
 	)
 	mind_traits = list(TRAIT_KNOWBANDITS)
 
-	languages = list(/datum/language/newunsundered, /datum/language/oldunsundered)
+	languages = list(/datum/language/common, /datum/language/newunsundered, /datum/language/oldunsundered)
 
 
 /datum/job/gmtemplar/after_spawn(mob/living/carbon/human/spawned, client/player_client)
