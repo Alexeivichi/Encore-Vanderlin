@@ -1,0 +1,5 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - rscdel: "Deleted the annoying hunger sound effects"
+  - rscdel: "Removed maluses from being sleepy"
