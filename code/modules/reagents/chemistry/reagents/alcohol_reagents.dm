@@ -656,7 +656,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	affected_mob.remove_status_effect(/datum/status_effect/buff/lux_drank)
 
 /datum/reagent/consumable/ethanol/luxwine/aged
-	name = "Aged Luxintenebre"
+	name = "Aged Thaumaintenebre"
 	boozepwr = 80
 	taste_description = "a caressing dullness, then a fiery sensation in the heart"
 	color = "#52c984"
@@ -671,7 +671,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	..()
 
 /datum/reagent/consumable/ethanol/luxwine/delectable
-	name = "Delectable Luxintenebre"
+	name = "Delectable Thaumaintenebre"
 	boozepwr = 100
 	taste_description = "a comforting warmth, then a searing wound in the heart"
 	color = "#11db65"
