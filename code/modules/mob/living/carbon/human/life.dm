@@ -56,10 +56,10 @@
 						var/static/list/towner_jobs
 						towner_jobs = GLOB.serf_positions | GLOB.peasant_positions | GLOB.apprentices_positions | GLOB.youngfolk_positions | GLOB.company_positions
 						if(mind.assigned_role.title in towner_jobs) //If you play a towner-related role, you get triumphs.
-							adjust_triumphs(1)
+							adjust_triumphs(3)
 						to_chat(src, span_danger("Nights Survived: \Roman[allmig_reward]"))
 						if(allmig_reward > 0 && allmig_reward % 2 == 0)
-							adjust_triumphs(1)
+							adjust_triumphs(2)
 	if(!HAS_TRAIT(src, TRAIT_STASIS))
 		if(HAS_TRAIT(src, TRAIT_LEPROSY))
 			if(MOBTIMER_FINISHED(src, MT_LEPERBLEED, 12 MINUTES))
