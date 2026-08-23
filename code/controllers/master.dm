@@ -7,13 +7,8 @@
  *
  **/
 
-//This is the ABSOLUTE ONLY THING that should init globally like this
-//2019 update: the failsafe,config and Global controllers also do it
+// See initialization order in /code/game/world.dm
 GLOBAL_REAL(Master, /datum/controller/master)
-
-//THIS IS THE INIT ORDER
-//Master -> SSPreInit -> GLOB -> world -> config -> SSInit -> Failsafe
-//GOT IT MEMORIZED?
 
 /datum/controller/master
 	name = "Master"
@@ -427,9 +422,9 @@ GLOBAL_REAL(Master, /datum/controller/master)
 
 		var/ss_runlevels = SS.runlevels
 		var/added_to_any = FALSE
-		for(var/I in 1 to GLOB.bitflags.len)
+		for(var/I in 1 to length(GLOB.bitflags))
 			if(ss_runlevels & GLOB.bitflags[I])
-				while(runlevel_sorted_subsystems.len < I)
+				while(length(runlevel_sorted_subsystems) < I)
 					runlevel_sorted_subsystems += list(list())
 				runlevel_sorted_subsystems[I] |= SS
 				added_to_any = TRUE

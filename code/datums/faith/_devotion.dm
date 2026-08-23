@@ -59,7 +59,7 @@
 		initialize_hud()
 	else
 		SSticker.OnRoundstart(CALLBACK(src, PROC_REF(initialize_hud)))
-	for(var/trait as anything in traits)
+	for(var/trait in traits)
 		ADD_TRAIT(holder_mob, trait, DEVOTION_TRAIT)
 	for(var/datum/action/miracle as anything in miracles_extra)
 		grant_miracle(miracle)
@@ -97,7 +97,7 @@
 		holder_mob.cleric = null
 		holder_mob.remove_spells(source = src)
 		remove_verb(holder_mob, list(/mob/living/carbon/human/proc/devotionreport, /mob/living/carbon/human/proc/clericpray))
-		for(var/trait as anything in traits)
+		for(var/trait in traits)
 			REMOVE_TRAIT(holder_mob, trait, DEVOTION_TRAIT)
 	holder_mob = null
 
@@ -280,7 +280,7 @@
 		/datum/action/cooldown/spell/aoe/snuff,
 		/datum/action/cooldown/spell/eyebite,
 		/datum/action/cooldown/spell/projectile/profane,
-		/datum/action/cooldown/spell/conjure/raise_lesser_undead,
+		/datum/action/cooldown/spell/conjure_summon/raise_lesser_undead,
 		/datum/action/cooldown/spell/undirected/rituos,
 	)
 	devotion_class = DEVOTION_CLASS_SHIRLEIGH_STRONG

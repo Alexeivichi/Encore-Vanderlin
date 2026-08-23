@@ -51,7 +51,6 @@
 /turf/open/floor/cobble,
 /area/indoors)
 "ai" = (
-/obj/structure/hotspring,
 /obj/effect/lily_petal,
 /obj/effect/lily_petal/three{
 	pixel_y = -14;
@@ -61,7 +60,7 @@
 	pixel_y = 13;
 	pixel_x = 11
 	},
-/turf/open/floor/dirt/road,
+/turf/open/water/hotspring,
 /area/outdoors)
 "aj" = (
 /obj/structure/hotspring/border/five,
@@ -75,8 +74,7 @@
 /turf/open/floor/woodturned,
 /area/indoors)
 "al" = (
-/obj/structure/hotspring,
-/turf/open/floor/dirt/road,
+/turf/open/water/hotspring,
 /area/outdoors)
 "am" = (
 /obj/structure/hotspring/border/eight,
@@ -1167,7 +1165,7 @@
 /obj/item/clothing/shirt/tunic/noblecoat,
 /obj/item/clothing/pants/tights/colored/random,
 /obj/item/clothing/gloves/fingerless,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
 /turf/open/floor/herringbone,
 /area/indoors/vampire_manor)
 "dV" = (
@@ -1486,10 +1484,6 @@
 "fC" = (
 /turf/closed/basic,
 /area/outdoors)
-"fD" = (
-/obj/structure/vampire/portalmaker,
-/turf/open/floor/herringbone,
-/area/indoors/vampire_manor)
 "fF" = (
 /turf/closed/wall/mineral/stone,
 /area/outdoors/woods/tutorial)
@@ -2076,9 +2070,6 @@
 /turf/open/floor/cobble,
 /area/indoors)
 "iY" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/structure/rack,
 /turf/open/floor/cobble,
 /area/outdoors/woods/tutorial)
@@ -3016,7 +3007,7 @@
 /obj/item/clothing/armor/leather/jacket/hand,
 /obj/item/clothing/armor/leather/jacket/leathercoat/black,
 /obj/item/clothing/shirt/undershirt/fancy,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
 /obj/item/clothing/cloak/cape,
 /obj/item/clothing/shirt/tunic/colored/black,
 /obj/item/clothing/gloves/angle,
@@ -3361,7 +3352,7 @@
 /obj/item/clothing/neck/chaincoif/iron,
 /obj/item/clothing/head/helmet/bascinet,
 /obj/item/clothing/head/helmet/kettle,
-/obj/item/clothing/head/helmet,
+/obj/structure/rack,
 /turf/open/floor/cobble,
 /area/outdoors/woods/tutorial)
 "pP" = (
@@ -3415,9 +3406,9 @@
 /turf/open/floor/hexstone,
 /area/indoors/vampire_manor)
 "qc" = (
-/obj/item/clothing/shoes/boots,
-/obj/item/clothing/shoes/boots,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
+/obj/item/clothing/shoes/boots/darkboots,
+/obj/item/clothing/shoes/boots/darkboots,
 /obj/item/clothing/shoes/boots/leather,
 /obj/item/clothing/shoes/boots/leather,
 /obj/item/clothing/shoes/boots/leather,
@@ -3852,10 +3843,9 @@
 /turf/open/floor/cobblerock,
 /area/outdoors/woods_safe)
 "sl" = (
-/obj/structure/hotspring,
 /obj/effect/lily_petal/three,
 /obj/effect/falling_sakura,
-/turf/open/floor/dirt/road,
+/turf/open/water/hotspring,
 /area/outdoors)
 "sm" = (
 /obj/structure/fluff/railing/border{
@@ -3933,12 +3923,11 @@
 /turf/open/water/swamp,
 /area/outdoors/bog/inhumen_camp)
 "sD" = (
-/obj/structure/hotspring,
 /obj/effect/lily_petal/three,
 /obj/structure/flora/sakura{
 	pixel_y = -13
 	},
-/turf/open/floor/dirt/road,
+/turf/open/water/hotspring,
 /area/outdoors)
 "sE" = (
 /obj/structure/bookcase/random,
@@ -4295,6 +4284,7 @@
 /obj/item/gun/ballistic/bow/cross,
 /obj/item/gun/ballistic/bow,
 /obj/item/gun/ballistic/bow,
+/obj/structure/rack,
 /turf/open/floor/cobble,
 /area/outdoors/woods/tutorial)
 "uJ" = (
@@ -6091,12 +6081,6 @@
 	dir = 1
 	},
 /area/indoors/vampire_manor)
-"EK" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "EL" = (
 /obj/structure/hotspring/border/thirteen,
 /obj/machinery/light/fueled/torchholder/hotspring/standing{
@@ -6495,10 +6479,9 @@
 /turf/open/floor/dirt/road,
 /area/indoors/bandit_lair)
 "GP" = (
-/obj/structure/hotspring,
 /obj/effect/lily_petal/two,
 /obj/effect/falling_sakura,
-/turf/open/floor/dirt/road,
+/turf/open/water/hotspring,
 /area/outdoors)
 "GQ" = (
 /obj/structure/door{
@@ -7292,10 +7275,10 @@
 /obj/item/clothing/shoes/boots/armor,
 /obj/item/clothing/shoes/boots/armor,
 /obj/item/clothing/shoes/boots/armor,
-/obj/item/clothing/shoes/boots,
-/obj/item/clothing/shoes/boots,
-/obj/item/clothing/shoes/boots,
-/obj/item/clothing/shoes/boots,
+/obj/item/clothing/shoes/boots/darkboots,
+/obj/item/clothing/shoes/boots/darkboots,
+/obj/item/clothing/shoes/boots/darkboots,
+/obj/item/clothing/shoes/boots/darkboots,
 /turf/open/floor/carpet,
 /area/indoors)
 "KS" = (
@@ -7421,9 +7404,8 @@
 /turf/open/floor/metal/barograte,
 /area/outdoors/bog/inhumen_camp)
 "LE" = (
-/obj/structure/hotspring,
 /obj/effect/falling_sakura,
-/turf/open/floor/dirt/road,
+/turf/open/water/hotspring,
 /area/outdoors)
 "LG" = (
 /obj/structure/flora/grass/herb/random,
@@ -7742,7 +7724,7 @@
 /area/overlord_lair)
 "NB" = (
 /obj/structure/rack/shelf/biggest,
-/obj/item/clothing/shoes/boots{
+/obj/item/clothing/shoes/boots/darkboots{
 	pixel_x = -7;
 	pixel_y = -3
 	},
@@ -9149,9 +9131,8 @@
 /turf/open/floor/blocks,
 /area/indoors)
 "Uw" = (
-/obj/structure/hotspring,
 /obj/effect/lily_petal/two,
-/turf/open/floor/dirt/road,
+/turf/open/water/hotspring,
 /area/outdoors)
 "Ux" = (
 /obj/structure/hotspring/border/eleven,
@@ -9219,9 +9200,8 @@
 /turf/open/floor/churchrough,
 /area/latejoin_area)
 "UR" = (
-/obj/structure/hotspring,
 /obj/effect/lily_petal,
-/turf/open/floor/dirt/road,
+/turf/open/water/hotspring,
 /area/outdoors)
 "UV" = (
 /obj/structure/table/wood{
@@ -21412,7 +21392,7 @@ Ft
 Ft
 pd
 Ob
-EK
+iY
 FM
 ag
 ag
@@ -22315,8 +22295,8 @@ sU
 jh
 zE
 Gx
-Ft
-Ft
+iY
+iY
 Gx
 qF
 qF
