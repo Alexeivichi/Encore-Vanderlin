@@ -206,7 +206,7 @@
 		),
 
 		/// Gani
-        /datum/patron/divine/gani = list(
+		/datum/patron/divine/gani = list(
 			/datum/status_effect/buff/beastsense = "Gani whispers: \"All things of the wild are interconnected; see them, my child.\"",
 			/datum/status_effect/buff/trollshape = "Gani whispers: \"Let the power of the wilds shape your form, my child.\"",
 			/datum/status_effect/buff/divine_beauty = "Gani whispers: \"Bloom with verdant beauty, my child.\"",
@@ -219,7 +219,7 @@
 			/datum/status_effect/buff/haste = "Gani encourages: \"Run as the wolves do, my child!\"",
 			/datum/status_effect/buff/calm = "Gani whispers: \"Be calm, my child. Mother will keep you safe.\"",
 			/datum/status_effect/buff/barbrage = "Gani proclaims: \"Feel a Mother's rage!\""
-        ),
+		),
 
 		/// Pomette
 		/datum/patron/divine/pomette = list(

@@ -2070,9 +2070,6 @@
 /turf/open/floor/cobble,
 /area/indoors)
 "iY" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/structure/rack,
 /turf/open/floor/cobble,
 /area/outdoors/woods/tutorial)
@@ -3355,7 +3352,7 @@
 /obj/item/clothing/neck/chaincoif/iron,
 /obj/item/clothing/head/helmet/bascinet,
 /obj/item/clothing/head/helmet/kettle,
-/obj/item/clothing/head/helmet,
+/obj/structure/rack,
 /turf/open/floor/cobble,
 /area/outdoors/woods/tutorial)
 "pP" = (
@@ -4287,6 +4284,7 @@
 /obj/item/gun/ballistic/bow/cross,
 /obj/item/gun/ballistic/bow,
 /obj/item/gun/ballistic/bow,
+/obj/structure/rack,
 /turf/open/floor/cobble,
 /area/outdoors/woods/tutorial)
 "uJ" = (
@@ -6083,12 +6081,6 @@
 	dir = 1
 	},
 /area/indoors/vampire_manor)
-"EK" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/cobble,
-/area/outdoors/woods/tutorial)
 "EL" = (
 /obj/structure/hotspring/border/thirteen,
 /obj/machinery/light/fueled/torchholder/hotspring/standing{
@@ -21400,7 +21392,7 @@ Ft
 Ft
 pd
 Ob
-EK
+iY
 FM
 ag
 ag
@@ -22303,8 +22295,8 @@ sU
 jh
 zE
 Gx
-Ft
-Ft
+iY
+iY
 Gx
 qF
 qF

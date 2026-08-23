@@ -129,10 +129,10 @@
 // BRONZE HELMET
 
 /datum/anvil_recipe/armor/bronze/helmet
-	name = "Mjallidhorn Helmet (+Bronze Bar)"
+	name = "Bronze Helmet (+Bronze Bar)"
 	required_material = /obj/item/ingot/bronze
 	additional_items = list(/obj/item/ingot/bronze)
-	created_item = /obj/item/clothing/head/helmet/heavy/necked/mjallidhorn
+	created_item = /obj/item/clothing/head/helmet/bronze
 	craftdiff = 3
 
 //////////////////////////////////////////////////////////////////////////////////////////////

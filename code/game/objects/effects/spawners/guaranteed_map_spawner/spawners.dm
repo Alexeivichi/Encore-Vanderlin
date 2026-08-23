@@ -135,7 +135,7 @@
 	fan_out_items = FALSE//This looks horrifyingly messy otherwise, since these primarily get mapped onto racks
 	spawned = list(
 		/obj/item/clothing/wrists/bracers/leather = 1,
-		/obj/item/clothing/shoes/boots = 1,
+		/obj/item/clothing/shoes/boots/darkboots = 1,
 		/obj/item/clothing/pants/trou/leathertights = 1,
 		/obj/item/clothing/gloves/angle = 1,
 		/obj/item/clothing/neck/coif = 1,

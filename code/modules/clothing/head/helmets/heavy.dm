@@ -368,7 +368,6 @@
 	icon_state = "abyssorhelm"
 	item_state = "abyssorhelm"
 	item_weight = 5.5 KILOGRAMS
-	melting_material = /datum/material/bronze
 
 //................ Deep Abyssor Helmet ............. //
 /obj/item/clothing/head/helmet/heavy/necked/deepabyssor
