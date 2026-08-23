@@ -134,11 +134,11 @@
 	var/say_mod = "says"
 
 	/// Multipler for how quickly nutrition decreases
-	var/nutrition_mod = 1
+	var/nutrition_mod = 0.25
 	/// Multiplier for how quickly hygiene decreases
-	var/hygiene_mod = 1
+	var/hygiene_mod = 0.1
 	/// Multipler for blood loss
-	var/bleed_mod = 1
+	var/bleed_mod = 0.5
 	/// Multipler for pain
 	var/pain_mod = 1
 	/// Electrocution coeffcient
