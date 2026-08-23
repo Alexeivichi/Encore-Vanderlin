@@ -21,10 +21,12 @@
 			"fa_icon"= "box-open",
 			"color"= "#2196f3",
 			"fields" = list(
-				list("key" = "loadout_item_path", "label" = "Loadout Item Path",
-				 "type" = "typepath","base" = "/datum/loadout_item",
-				 "placeholder" = "/datum/loadout_item/...",
-				 "required" = TRUE),
+				list(
+					"key" = "loadout_item_path", "label" = "Loadout Item Path",
+					"type" = "typepath","base" = "/datum/loadout_item",
+					"placeholder" = "/datum/loadout_item/...",
+					"required" = TRUE,
+				),
 			),
 		),
 		list(
@@ -33,10 +35,12 @@
 			"fa_icon"= "dice",
 			"color"= "#9c27b0",
 			"fields" = list(
-				list("key" = "special_trait_path", "label" = "Special Trait Path",
-				 "type" = "typepath","base" = "/datum/special_trait",
-				 "placeholder" = "/datum/special_trait/...",
-				 "required" = TRUE),
+				list(
+					"key" = "special_trait_path", "label" = "Special Trait Path",
+					"type" = "typepath","base" = "/datum/special_trait",
+					"placeholder" = "/datum/special_trait/...",
+					"required" = TRUE,
+				),
 			),
 		),
 		list(
@@ -45,13 +49,19 @@
 			"fa_icon"= "briefcase",
 			"color"= "#ff9800",
 			"fields" = list(
-				list("key" = "job_boost_job","label" = "Job / Whitelist (blank = global)",
-				 "type" = "text",
-				 "placeholder" = "e.g. Artificer, or leave blank"),
-				list("key" = "job_boost_typepath", "label" = "Boost Type Path",
-				 "type" = "typepath","base" = "/datum/job_priority_boost",
-				 "placeholder" = "/datum/job_priority_boost/minor",
-				 "required" = TRUE),
+				list(
+					"key" = "job_boost_job","label" = "Job / Whitelist (blank = global)",
+					"type" = "text",
+					"placeholder" = "e.g. Artificer, or leave blank"
+				),
+				list(
+					"key" = "job_boost_typepath",
+					"label" = "Boost Type Path",
+					"type" = "typepath",
+					"base" = "/datum/job_priority_boost",
+					"placeholder" = "/datum/job_priority_boost/minor",
+					"required" = TRUE,
+				),
 			),
 		),
 		list(
@@ -60,10 +70,12 @@
 			"fa_icon"= "trophy",
 			"color"= "#ffd700",
 			"fields" = list(
-				list("key" = "triumph_amount", "label" = "Amount",
-				 "type" = "number", "min" = 1,
-				 "placeholder" = "e.g. 100",
-				 "required" = TRUE),
+				list(
+					"key" = "triumph_amount", "label" = "Amount",
+					"type" = "number", "min" = 1,
+					"placeholder" = "e.g. 100",
+					"required" = TRUE,
+				),
 			),
 		),
 		//here is how we do stuff
@@ -93,11 +105,10 @@
 
 /datum/admin_ticket_granter/proc/_collect_subtypes(base)
 	var/list/out = list()
-	for(var/path in subtypesof(base))
-		var/datum/D = path
-		if(initial(D.abstract_type) == path)
+	for(var/datum/D as anything in subtypesof(base))
+		if(IS_ABSTRACT(D))
 			continue
-		out += "[path]"
+		out += "[D]"
 	return out
 
 /datum/admin_ticket_granter/ui_act(action, list/params, datum/tgui/ui, datum/ui_state/state)
@@ -146,6 +157,16 @@
 			tt.triumph_amount = text2num(params["triumph_amount"])
 
 	deliver_ticket(t, target_ckey, admin_mob)
+
+/datum/admin_ticket_granter/proc/collect_templates()
+	var/list/out = list()
+	for(var/datum/ticket_template/D as anything in subtypesof(/datum/ticket_template))
+		if(IS_ABSTRACT(D))
+			continue
+		var/datum/ticket_template/instance = new D()
+		out += list(instance.to_ui_list())
+		qdel(instance)
+	return out
 
 /datum/admin_ticket_granter/proc/deliver_ticket(datum/ticket/t, target_ckey, mob/admin_mob)
 	var/client/C = GLOB.directory[target_ckey]

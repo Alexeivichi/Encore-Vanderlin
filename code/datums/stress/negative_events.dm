@@ -66,7 +66,7 @@
 	if(ishuman(user))
 		var/mob/living/carbon/human/H = user
 		if(H.dna?.species)
-			return "<span class='red'>Another [lowertext(H.dna.species.name)] perished.</span>"
+			return "<span class='red'>Another [LOWER_TEXT(H.dna.species.name)] perished.</span>"
 	return desc
 
 /datum/stress_event/viewdismember
@@ -675,11 +675,6 @@
 	desc = "<span class='boldwarning'>I can't even end it all!</span>\n"
 	stress_change = 15
 	timer = 60 SECONDS
-
-/datum/stress_event/dismembered
-	desc = "<span class='boldwarning'>AHH! I WAS USING THAT LIMB!</span>\n"
-	stress_change = 10
-	timer = 8 MINUTES
 
 /datum/stress_event/embedded
 	desc = "<span class='boldwarning'>Pull it out!</span>\n"

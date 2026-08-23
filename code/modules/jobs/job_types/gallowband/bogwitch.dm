@@ -23,7 +23,7 @@
 	department_flag = OUTSIDERS
 	job_flags = (JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_BOGWITCH
-	faction = FACTION_TOWN
+	factions = list(FACTION_TOWN)
 	total_positions = 99
 	spawn_positions = 99
 	bypass_lastclass = TRUE

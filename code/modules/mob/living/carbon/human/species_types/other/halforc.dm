@@ -27,7 +27,7 @@
 	)
 	native_language = "Orcish"
 	desc = "<b>Half-Orcs</b><br>\
-    Half-Orcs are a race of bulky humanoids, descended from the union of humanoids and true Orcs. While present in civilised society today, \
+	Half-Orcs are a race of bulky humanoids, descended from the union of humanoids and true Orcs. While present in civilised society today, \
 	they are typically kept to the fringes of it. Trueborn Orcs are often tribal, isolationist, and aggressive; they have centuries of violent \
 	history with the other peoples of the Goblet, and not without reason, as they are creatures tainted by Hell. This leaves the origins of \
 	Half-Orcs mysterious - though the widely accepted tale is that of the divine interference of Erdl, the Bloodfather. The tale states that He \
@@ -35,7 +35,7 @@
 	combined it with the mind and soul of Men, seeking to create a whole greater than the sum of its parts; in doing so, the first Half-Orcs were born. \
 	This act divided the Pantheon however, and many mortals yet feared these people who resembled the vicious Orcs. Only within the last century have \
 	Half-Orcs started to carve out societal tolerance.<br>\
-    +2 Strength, +2 Constitution, +1 Endurance, -2 Perception, Dead Nose, 20% Hunger Increase"
+	+2 Strength, +2 Constitution, +1 Endurance, -2 Perception, Dead Nose, 20% Hunger Increase"
 
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)
 	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_DEADNOSE)

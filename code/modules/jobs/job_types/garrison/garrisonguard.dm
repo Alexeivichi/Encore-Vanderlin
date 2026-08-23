@@ -6,17 +6,20 @@
 	department_flag = GARRISON
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_CITYWATCHMEN
-	faction = FACTION_TOWN
+	factions = list(FACTION_TOWN)
 	total_positions = 99
 	spawn_positions = 99
 	bypass_lastclass = TRUE
 
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_races = RACES_LESS_DISCRIMINATED
+	starting_wage = 30
 
 	outfit = /datum/outfit/guardsman
 	advclass_cat_rolls = list(CTAG_GARRISON = 20)
 	give_bank_account = 30
+	knows_the_town = TRUE
+	known_by_the_town = TRUE
 	cmode_music = 'sound/music/cmode/garrison/CombatGarrison.ogg'
 
 	exp_type = list(EXP_TYPE_LIVING)
@@ -52,6 +55,7 @@
 
 /datum/job/advclass/garrison
 	exp_types_granted = list(EXP_TYPE_GARRISON, EXP_TYPE_COMBAT)
+	factions = list(FACTION_TOWN)
 
 /datum/attribute_holder/sheet/job/garrison/footman
 	raw_attribute_list = list(
@@ -85,6 +89,46 @@
 		TRAIT_MEDIUMARMOR,
 	)
 	mind_traits = list(TRAIT_KNOWBANDITS)
+
+/datum/job/advclass/garrison/footman/on_roundstart(mob/living/carbon/human/spawned, client/player_client)
+	. = ..()
+
+	var/static/list/selectable = list( \
+		"Sword" = list(/obj/item/weapon/scabbard/sword, /obj/item/weapon/sword/iron), \
+		"Axe" = /obj/item/weapon/axe/iron, \
+		"Mace" = /obj/item/weapon/mace, \
+		"Flail" = /obj/item/weapon/flail/militia, \
+		"Warhammer" = /obj/item/weapon/mace/warhammer, \
+	)
+	var/choice = spawned.select_equippable(player_client, selectable, message = "CHOOSE YOUR MAIN AND SIDE WEAPON", title = "FOOTMAN")
+	switch(choice)
+		if("Sword")
+			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 10)
+		if("Axe", "Mace", "Warhammer")
+			spawned.adjust_skill_level(/datum/attribute/skill/combat/axesmaces, 10)
+		if("Flail")
+			spawned.adjust_skill_level(/datum/attribute/skill/combat/whipsflails, 20)
+
+/datum/attribute_holder/sheet/job/garrison/footman
+	raw_attribute_list = list(
+		STAT_STRENGTH = 2,
+		STAT_ENDURANCE = 1,
+		STAT_CONSTITUTION = 2,
+		/datum/attribute/skill/combat/shields = 30,
+		/datum/attribute/skill/combat/wrestling = 30,
+		/datum/attribute/skill/combat/axesmaces = 20,
+		/datum/attribute/skill/combat/swords = 20,
+		/datum/attribute/skill/combat/unarmed = 20,
+		/datum/attribute/skill/combat/polearms = 10,
+		/datum/attribute/skill/combat/whipsflails = 10,
+		/datum/attribute/skill/combat/knives = 10,
+		/datum/attribute/skill/misc/climbing = 30,
+		/datum/attribute/skill/misc/athletics = 30,
+		/datum/attribute/skill/misc/swimming = 20,
+		/datum/attribute/skill/misc/sneaking = 10,
+		/datum/attribute/skill/craft/crafting = 10,
+		/datum/attribute/skill/misc/reading = 10
+	)
 
 /datum/outfit/guardsman/footman
 	name = "City Watch Footman"
@@ -133,6 +177,26 @@
 		TRAIT_DODGEEXPERT,
 	)
 	mind_traits = list(TRAIT_KNOWBANDITS)
+
+/datum/attribute_holder/sheet/job/garrison/archer
+	raw_attribute_list = list(
+		STAT_PERCEPTION = 2,
+		STAT_ENDURANCE = 1,
+		STAT_SPEED = 2,
+		/datum/attribute/skill/combat/bows = 30,
+		/datum/attribute/skill/combat/crossbows = 30, // Because why not? If they somehow will get a crossbow, let them use it to the fullest.
+		/datum/attribute/skill/combat/knives = 30,
+		/datum/attribute/skill/combat/wrestling = 30,
+		/datum/attribute/skill/combat/axesmaces = 20, // Just to be able to non-lethaly detain someone using a cugel
+		/datum/attribute/skill/combat/unarmed = 20,
+		/datum/attribute/skill/combat/swords = 10,
+		/datum/attribute/skill/misc/swimming = 20,
+		/datum/attribute/skill/misc/climbing = 40,
+		/datum/attribute/skill/misc/athletics = 20,
+		/datum/attribute/skill/misc/sneaking = 20,
+		/datum/attribute/skill/craft/crafting = 10,
+		/datum/attribute/skill/misc/reading = 10
+	)
 
 /datum/outfit/guardsman/archer
 	name = "City Watch Archer"

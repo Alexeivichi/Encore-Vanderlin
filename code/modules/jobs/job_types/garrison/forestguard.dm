@@ -9,7 +9,7 @@
 	department_flag = GARRISON
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_FORGUARD
-	faction = FACTION_TOWN
+	factions = list(FACTION_TOWN)
 	total_positions = 99
 	spawn_positions = 99
 	bypass_lastclass = TRUE
@@ -19,8 +19,11 @@
 	allowed_races = RACES_LESS_DISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	give_bank_account = 30
+	knows_the_town = TRUE
+	known_by_the_town = TRUE
 	can_have_apprentices = FALSE
 	cmode_music = 'sound/music/cmode/garrison/CombatForestGarrison2.ogg'
+	starting_wage = 30
 
 	outfit = /datum/outfit/forestguard
 	advclass_cat_rolls = list(CTAG_FORGARRISON = 20)
@@ -40,7 +43,7 @@
 /datum/outfit/forestguard
 	name = "Forest Guard Base"
 	pants = /obj/item/clothing/pants/trou/leather
-	shoes = /obj/item/clothing/shoes/boots
+	shoes = /obj/item/clothing/shoes/boots/darkboots
 	wrists = /obj/item/clothing/wrists/bracers/leather
 	gloves = /obj/item/clothing/gloves/leather
 	belt = /obj/item/storage/belt/leather/fgarrison

@@ -2006,7 +2006,6 @@
 "brF" = (
 /obj/structure/closet/crate/chest,
 /obj/item/key/dungeon,
-/obj/item/key/walls,
 /obj/item/key/manor,
 /obj/item/storage/backpack/satchel,
 /obj/item/storage/keyring,
@@ -4438,7 +4437,6 @@
 /obj/structure/fake_machine/mail{
 	mailtag = "Regent's Suite"
 	},
-/obj/effect/landmark/start/lord,
 /turf/open/floor/wood,
 /area/indoors/town/keep)
 "cWD" = (
@@ -8924,10 +8922,6 @@
 /area/indoors/town/keep)
 "fWn" = (
 /obj/structure/closet/crate/crafted_closet/inn,
-/obj/item/clothing/shoes/boots{
-	pixel_x = -7;
-	pixel_y = -3
-	},
 /obj/item/key/tailor{
 	pixel_x = -5;
 	pixel_y = 2
@@ -10166,10 +10160,6 @@
 /obj/item/clothing/shoes/boots/leather{
 	pixel_x = 1;
 	pixel_y = 15
-	},
-/obj/item/clothing/shoes/boots{
-	pixel_x = -7;
-	pixel_y = -3
 	},
 /obj/item/clothing/shoes/shortboots{
 	pixel_x = 10
@@ -12460,7 +12450,6 @@
 /obj/item/clothing/shirt/robe/wizard,
 /obj/item/clothing/cloak/raincloak/colored/blue,
 /obj/item/clothing/head/wizhat,
-/obj/item/clothing/shoes/boots,
 /obj/item/clothing/shoes/shortboots,
 /obj/item/clothing/face/spectacles/golden,
 /obj/item/clothing/head/wizhat/witch,
@@ -17870,7 +17859,6 @@
 /obj/item/clothing/shirt/robe/wizard,
 /obj/item/clothing/cloak/raincloak/colored/blue,
 /obj/item/clothing/head/wizhat,
-/obj/item/clothing/shoes/boots,
 /obj/item/clothing/shoes/shortboots,
 /obj/item/clothing/face/spectacles/golden,
 /obj/item/clothing/head/wizhat/witch,
@@ -20871,7 +20859,6 @@
 /turf/open/floor/cobblerock,
 /area/outdoors/town)
 "ntV" = (
-/obj/item/key/walls,
 /obj/item/key/manor,
 /obj/item/key/manor,
 /obj/item/key/manor,
@@ -21575,10 +21562,6 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town/clinic_large)
-"nQE" = (
-/obj/effect/landmark/start/prince,
-/turf/open/floor/wood,
-/area/indoors/town/keep)
 "nQJ" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/cobble,
@@ -22151,6 +22134,7 @@
 /area/indoors/town/waterworks)
 "omb" = (
 /obj/structure/fake_machine/scomm,
+/obj/effect/landmark/start/prince,
 /turf/open/floor/wood,
 /area/indoors/town/keep)
 "omq" = (
@@ -23581,7 +23565,6 @@
 "pgI" = (
 /obj/item/natural/cloth,
 /obj/item/clothing/shoes/nobleboot,
-/obj/item/clothing/shoes/boots,
 /obj/effect/spawner/guaranteed_map_spawner/listed/clothes/fancy,
 /obj/structure/closet/crate/crafted_closet/inn,
 /turf/open/floor/wood,
@@ -24394,8 +24377,6 @@
 /area/indoors/town/church)
 "pKo" = (
 /obj/structure/closet/crate/chest/neu,
-/obj/item/key/walls,
-/obj/item/key/walls,
 /obj/item/key/garrison,
 /obj/item/key/garrison,
 /obj/item/key/manor,
@@ -26225,8 +26206,6 @@
 /area/outdoors/farm)
 "qWx" = (
 /obj/structure/closet/crate/chest/neu,
-/obj/item/key/walls,
-/obj/item/key/walls,
 /obj/item/key/garrison,
 /obj/item/key/garrison,
 /obj/item/key/manor,
@@ -33640,10 +33619,6 @@
 /obj/item/listeningdevice,
 /obj/item/listeningdevice,
 /obj/item/listeningdevice,
-/obj/item/speakerinq,
-/obj/item/speakerinq,
-/obj/item/speakerinq,
-/obj/item/speakerinq,
 /obj/item/rope/inqarticles/inquirycord,
 /obj/item/rope/inqarticles/inquirycord,
 /obj/item/rope/inqarticles/inquirycord,
@@ -33821,6 +33796,7 @@
 /area/indoors/town/church)
 "wgZ" = (
 /obj/effect/decal/carpet/kover_black,
+/obj/effect/landmark/start/lord,
 /turf/open/floor/wood,
 /area/indoors/town/keep)
 "wha" = (
@@ -33829,7 +33805,6 @@
 "whj" = (
 /obj/item/clothing/shoes/shortboots,
 /obj/item/clothing/shoes/simpleshoes,
-/obj/item/clothing/shoes/boots,
 /obj/item/flashlight/flare/torch/lantern,
 /obj/structure/rack/shelf/biggest{
 	pixel_y = 24
@@ -110037,7 +110012,7 @@ uEx
 gbc
 gbc
 miA
-nQE
+gbc
 dDR
 pBy
 aNj

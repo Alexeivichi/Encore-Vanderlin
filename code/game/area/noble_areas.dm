@@ -36,6 +36,13 @@
 	name = "Hand's Room"
 	icon_state = "hand"
 
+/area/indoors/town/keep/courtagent
+	name = "Court Agent's Hideout"
+	icon_state = "court agent"
+	background_track = 'sound/music/area/manorgarri.ogg'
+	background_track_dusk = null
+	background_track_night = null
+
 /area/indoors/town/keep/phys
 	name = "Court Physician's Office"
 	icon_state = "physician"
@@ -123,6 +130,10 @@
 /area/indoors/town/keep/guest/guest2
 	name = "Keep Guest Room 2"
 	icon_state = "guest2"
+
+/area/indoors/town/keep/guest/guest3
+	name = "Keep Guest Room 3"
+	icon_state = "guest3"
 
 /area/indoors/town/keep/guest/meeting
 	name = "Keep Meeting Room"

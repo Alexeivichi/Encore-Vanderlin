@@ -50,7 +50,7 @@
 	backr = /obj/item/fishingrod/fisher
 	beltl = /obj/item/weapon/sword/sabre/cutlass
 	beltr = /obj/item/weapon/knife/dagger
-	shoes = /obj/item/clothing/shoes/boots
+	shoes = /obj/item/clothing/shoes/boots/darkboots
 	neck = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 
 /datum/outfit/folkhero/swashbuckler/pre_equip(mob/living/carbon/human/H, visuals_only)

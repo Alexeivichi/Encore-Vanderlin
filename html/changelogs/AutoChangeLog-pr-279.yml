@@ -1,0 +1,4 @@
+author: "Clem-The-Duck"
+delete-after: True
+changes:
+  - bugfix: "Gave Martyr common and lets them use their lesser healing miracle"

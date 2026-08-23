@@ -218,13 +218,16 @@
 
 /datum/job/templar
 	title = JOB_TEMPLAR
+	unique_alt_honororary = TRUE
+	alt_honorary = list("Brother")
+	alt_honorary_female = list("Sister")
 	tutorial = "Templars are warriors who have forsaken wealth and station in the service of the church, either from fervent zeal or remorse for past sins.\
 	They are vigilant sentinels, guarding priest and altar, steadfast against heresy and shadow-beasts that creep in darkness. \
 	But in the quiet of troubled sleep, there is a question left. Does the blood they spill sanctify them, or stain them forever? If service ever demanded it, whose blood would be the price?"
 	department_flag = CHURCHMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_TEMPLAR
-	faction = FACTION_TOWN
+	factions = list(FACTION_TOWN)
 	total_positions = 99
 	spawn_positions = 99
 	bypass_lastclass = TRUE
@@ -234,6 +237,8 @@
 
 	outfit = /datum/outfit/templar
 	give_bank_account = 0
+	knows_the_town = TRUE
+	known_by_the_town = TRUE
 
 	job_bitflag = BITFLAG_CHURCH
 
@@ -249,6 +254,7 @@
 	traits = list(
 		TRAIT_HEAVYARMOR,
 		TRAIT_STEELHEARTED,
+		TRAIT_VIRGIN,
 	)
 	mind_traits = list(TRAIT_KNOWBANDITS)
 
@@ -370,7 +376,6 @@
 				if("Plaguebearer Sickles (Knives)")
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/erdl/knives)
 		if(/datum/patron/divine/pomette)
-			spawned.virginity = FALSE
 			ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
 			var/static/list/selectable = list(
