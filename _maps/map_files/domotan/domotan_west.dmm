@@ -1009,7 +1009,6 @@
 /obj/item/clothing/face/lordmask/l,
 /obj/item/clothing/face/shepherd/clothmask,
 /obj/item/clothing/shoes/nobleboot/thighboots,
-/obj/item/clothing/shoes/boots,
 /obj/item/clothing/head/bardhat,
 /obj/item/clothing/head/wizhat/witch,
 /obj/item/clothing/head/fancyhat,
@@ -5222,10 +5221,6 @@
 /obj/effect/decal/remains/xeno,
 /turf/open/floor/churchrough,
 /area/indoors/lostkeep)
-"Ic" = (
-/obj/item/clothing/shoes/boots,
-/turf/open/floor/naturalstone,
-/area/under/cave/oldtown)
 "Id" = (
 /turf/open/openspace,
 /area/outdoors/oldfort)
@@ -37181,7 +37176,7 @@ dM
 dM
 KQ
 DB
-Ic
+gr
 gr
 Ca
 gr

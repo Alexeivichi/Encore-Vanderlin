@@ -8923,10 +8923,6 @@
 /area/indoors/town/keep)
 "fWn" = (
 /obj/structure/closet/crate/crafted_closet/inn,
-/obj/item/clothing/shoes/boots{
-	pixel_x = -7;
-	pixel_y = -3
-	},
 /obj/item/key/tailor{
 	pixel_x = -5;
 	pixel_y = 2
@@ -10165,10 +10161,6 @@
 /obj/item/clothing/shoes/boots/leather{
 	pixel_x = 1;
 	pixel_y = 15
-	},
-/obj/item/clothing/shoes/boots{
-	pixel_x = -7;
-	pixel_y = -3
 	},
 /obj/item/clothing/shoes/shortboots{
 	pixel_x = 10
@@ -12459,7 +12451,6 @@
 /obj/item/clothing/shirt/robe/wizard,
 /obj/item/clothing/cloak/raincloak/colored/blue,
 /obj/item/clothing/head/wizhat,
-/obj/item/clothing/shoes/boots,
 /obj/item/clothing/shoes/shortboots,
 /obj/item/clothing/face/spectacles/golden,
 /obj/item/clothing/head/wizhat/witch,
@@ -17869,7 +17860,6 @@
 /obj/item/clothing/shirt/robe/wizard,
 /obj/item/clothing/cloak/raincloak/colored/blue,
 /obj/item/clothing/head/wizhat,
-/obj/item/clothing/shoes/boots,
 /obj/item/clothing/shoes/shortboots,
 /obj/item/clothing/face/spectacles/golden,
 /obj/item/clothing/head/wizhat/witch,
@@ -23579,7 +23569,6 @@
 "pgI" = (
 /obj/item/natural/cloth,
 /obj/item/clothing/shoes/nobleboot,
-/obj/item/clothing/shoes/boots,
 /obj/effect/spawner/guaranteed_map_spawner/listed/clothes/fancy,
 /obj/structure/closet/crate/crafted_closet/inn,
 /turf/open/floor/wood,
@@ -33819,7 +33808,6 @@
 "whj" = (
 /obj/item/clothing/shoes/shortboots,
 /obj/item/clothing/shoes/simpleshoes,
-/obj/item/clothing/shoes/boots,
 /obj/item/flashlight/flare/torch/lantern,
 /obj/structure/rack/shelf/biggest{
 	pixel_y = 24

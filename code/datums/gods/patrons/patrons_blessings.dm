@@ -299,7 +299,7 @@
 			/datum/status_effect/buff/haste = "Valdala murmurs: \"Quickly now. Time thins beneath thy feet.\"",
 			/datum/status_effect/buff/calm = "Valdala soothes: \"Rest... the silence shall come for all.\"",
 			/datum/status_effect/buff/barbrage = "Valdala intones: \"Rage, if thy must. The dead are silent, but not still.\""
-        ),
+		),
 
 		/// Akan
 		/datum/patron/divine/akan = list(
