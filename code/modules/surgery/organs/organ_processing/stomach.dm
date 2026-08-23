@@ -100,8 +100,6 @@
 			owner.remove_status_effect(/datum/status_effect/debuff/hungryt2)
 			if(CONFIG_GET(flag/starvation_death))
 				owner.apply_status_effect(/datum/status_effect/debuff/hungryt4)
-			if(DT_PROB(3, delta_time))
-				playsound(owner, pick('sound/vo/hungry1.ogg','sound/vo/hungry2.ogg','sound/vo/hungry3.ogg'), 100, TRUE, -1)
 
 	switch(owner.hydration)
 		if(HYDRATION_LEVEL_SMALLTHIRST to INFINITY)

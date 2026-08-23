@@ -313,7 +313,6 @@
 /datum/status_effect/debuff/sleepytime
 	id = "sleepytime"
 	alert_type = /atom/movable/screen/alert/status_effect/debuff/sleepytime
-	effectedstats = list(STAT_SPEED = -2, STAT_ENDURANCE = -2)
 
 /datum/status_effect/debuff/sleepytime/on_apply()
 	. = ..()
