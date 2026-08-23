@@ -440,7 +440,7 @@ GLOBAL_LIST_EMPTY(ex_court_agents)
 		/datum/job/innkeep_son::title,
 		/datum/job/bandit::title,
 	)
-	var/new_pos = input(user, "Select their new position", src, null) as anything in possible_positions
+	var/new_pos = input(user, "Select their new position", src, null)
 	if(isnull(victim))
 		return
 

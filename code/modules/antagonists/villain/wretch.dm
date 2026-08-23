@@ -43,7 +43,7 @@
 	owner?.special_role = null
 
 /datum/antagonist/wretch/move_to_spawnpoint()
-    if(LAZYLEN(GLOB.bandit_starts))
-        owner.current?.forceMove(pick(GLOB.bandit_starts))
-    else
-        ..()
+	if(LAZYLEN(GLOB.bandit_starts))
+		owner.current?.forceMove(pick(GLOB.bandit_starts))
+	else
+		..()

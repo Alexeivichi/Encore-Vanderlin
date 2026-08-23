@@ -368,11 +368,12 @@
 	icon_state = "abyssorhelm"
 	item_state = "abyssorhelm"
 	item_weight = 5.5 KILOGRAMS
+	melting_material = /datum/material/bronze
 
 //................ Deep Abyssor Helmet ............. //
 /obj/item/clothing/head/helmet/heavy/necked/deepabyssor
 	name = "deep abyssor helmet"
-	desc = "A great helmet crafted from bronze. The visor is slitted and ridged, evoking the gills of a great sea-beast. may his name be remembered..."
+	desc = "A great helmet crafted from bronze. The visor is slitted and ridged, evoking the gills of a great sea-beast. May His name be remembered..."
 	icon_state = "deepabyssorhelm"
 	item_state = "deepabyssorhelm"
 	item_weight = 5.5 KILOGRAMS

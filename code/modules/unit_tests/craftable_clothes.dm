@@ -23,6 +23,10 @@ abstract types are automatically excluded.
 		/obj/item/clothing/ring/feldsher_ring, // uncraftable
 		/obj/item/clothing/ring/apothecary_ring, // uncraftable
 		/obj/item/clothing/head/maniac,
+		/obj/item/clothing/head/helmet/heavy/necked/deepabyssor,
+		/obj/item/clothing/shoes/boots/armor/matthios,
+		/obj/item/clothing/shoes/boots/armor/matthios/lord,
+		/obj/item/clothing/shoes/boots/armor/graggar,
 		/obj/item/clothing/cloak/half/shadowcloak/cult, // cultist item
 		/obj/item/clothing/head/helmet/skullcap/cult, // cultist item
 		/obj/item/clothing/head/helmet/leather/saiga, // idk what kind of recipe to make this

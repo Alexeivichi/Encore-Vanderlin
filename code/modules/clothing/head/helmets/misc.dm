@@ -821,10 +821,8 @@
 /obj/item/clothing/head/helmet/bronzegladiator/attackby(obj/item/W, mob/living/user, params)
 	..()
 	if(istype(W, /obj/item/natural/cloth) && !detail_tag)
-		var/choice = input(user, "Choose a color.", "Orle") as anything in colors
 		user.visible_message(span_warning("[user] adds [W] to [src]."))
 		user.transferItemToLoc(W, src, FALSE, FALSE)
-		detail_color = colors[choice]
 		detail_tag = "_detail"
 		update_icon()
 		if(loc == user && ishuman(user))
