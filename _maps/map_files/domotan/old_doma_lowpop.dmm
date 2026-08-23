@@ -4437,7 +4437,6 @@
 /obj/structure/fake_machine/mail{
 	mailtag = "Regent's Suite"
 	},
-/obj/effect/landmark/start/lord,
 /turf/open/floor/wood,
 /area/indoors/town/keep)
 "cWD" = (
@@ -21563,10 +21562,6 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town/clinic_large)
-"nQE" = (
-/obj/effect/landmark/start/prince,
-/turf/open/floor/wood,
-/area/indoors/town/keep)
 "nQJ" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/cobble,
@@ -22139,6 +22134,7 @@
 /area/indoors/town/waterworks)
 "omb" = (
 /obj/structure/fake_machine/scomm,
+/obj/effect/landmark/start/prince,
 /turf/open/floor/wood,
 /area/indoors/town/keep)
 "omq" = (
@@ -33800,6 +33796,7 @@
 /area/indoors/town/church)
 "wgZ" = (
 /obj/effect/decal/carpet/kover_black,
+/obj/effect/landmark/start/lord,
 /turf/open/floor/wood,
 /area/indoors/town/keep)
 "wha" = (
@@ -110015,7 +110012,7 @@ uEx
 gbc
 gbc
 miA
-nQE
+gbc
 dDR
 pBy
 aNj
