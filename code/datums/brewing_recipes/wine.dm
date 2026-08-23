@@ -69,7 +69,7 @@
 	)
 
 /datum/brewing_recipe/wine/luxwine
-	name = "Luxintenebre"
+	name = "Thaumaintenebre"
 	reagent_to_brew = /datum/reagent/consumable/ethanol/luxwine
 	needed_reagents = list(/datum/reagent/water = 100)
 	needed_items = list(/obj/item/reagent_containers/lux = 1, /obj/item/reagent_containers/food/snacks/sugar = 1)
