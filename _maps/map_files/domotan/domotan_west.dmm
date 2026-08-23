@@ -1673,10 +1673,6 @@
 /obj/item/grown/log/tree/stick,
 /turf/open/floor/cobble,
 /area/indoors/lighthouse)
-"kO" = (
-/obj/item/clothing/head/helmet,
-/turf/open/floor/cobble/mossy,
-/area/outdoors/oldfort)
 "kP" = (
 /obj/machinery/light/fueled/wallfire{
 	pixel_y = 32
@@ -2354,7 +2350,6 @@
 /area/outdoors/woods/west)
 "py" = (
 /obj/effect/decal/cleanable/blood/old,
-/obj/item/clothing/head/helmet,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/churchbrick,
 /area/under/cave/oldfort)
@@ -3786,7 +3781,6 @@
 /area/outdoors/oldfort)
 "zy" = (
 /obj/effect/decal/remains/human,
-/obj/item/clothing/head/helmet,
 /turf/open/floor/ruinedwood,
 /area/under/cave/oldfort)
 "zz" = (
@@ -4467,12 +4461,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobble,
 /area/under/cave/oldfort)
-"DA" = (
-/obj/effect/decal/cleanable/blood/old,
-/obj/item/clothing/head/helmet,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/blocks,
-/area/under/cave/oldfort)
 "DB" = (
 /turf/closed/wall/mineral/stone,
 /area/under/cave/oldtown)
@@ -5011,7 +4999,6 @@
 /area/outdoors/woods/west/crescent)
 "GK" = (
 /obj/effect/decal/cleanable/blood,
-/obj/item/clothing/head/helmet,
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/cobble/mossy,
 /area/outdoors/oldfort)
@@ -5495,10 +5482,6 @@
 	},
 /turf/open/floor/grass/red,
 /area/outdoors/woods/west)
-"JM" = (
-/obj/item/clothing/head/helmet,
-/turf/open/floor/blocks,
-/area/under/cave/oldfort)
 "JO" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -6008,11 +5991,6 @@
 "Nn" = (
 /turf/open/floor/blocks,
 /area/indoors/shelter/woods)
-"No" = (
-/obj/item/clothing/head/helmet,
-/mob/living/simple_animal/hostile/skeleton/bow,
-/turf/open/floor/dirt,
-/area/under/cave/oldfort)
 "Np" = (
 /obj/structure/flora/newtree,
 /turf/open/floor/grass/yel,
@@ -17644,7 +17622,7 @@ xC
 UH
 RQ
 KA
-JM
+qq
 sq
 KA
 rx
@@ -17652,7 +17630,7 @@ Th
 FD
 oq
 hY
-No
+IW
 wD
 wD
 IW
@@ -20979,7 +20957,7 @@ sQ
 sQ
 sQ
 Kb
-kO
+tc
 qF
 KA
 qq
@@ -62118,7 +62096,7 @@ Pf
 KA
 qq
 JX
-DA
+hQ
 hW
 hW
 hW
