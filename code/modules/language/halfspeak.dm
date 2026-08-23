@@ -1,6 +1,7 @@
 /datum/language/halfling
 	name = "Halfspeak"
-	desc = ""
+	desc = "The extremely peculiar language spoken by Halflings. Foreign to the Goblet, \
+	most of its people struggle to even comprehend it."
 	icon_state = "halfspeak"
 	spans = list(SPAN_DWARF)
 	speech_verb = "sputters"

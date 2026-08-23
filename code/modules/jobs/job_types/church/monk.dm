@@ -5,6 +5,7 @@
 		STAT_PERCEPTION = -1,
 		/datum/attribute/skill/misc/sewing = 20,
 		/datum/attribute/skill/misc/medicine = 30,
+		/datum/attribute/skill/craft/alchemy = 30,
 		/datum/attribute/skill/combat/polearms = 20,
 		/datum/attribute/skill/combat/unarmed = 10,
 		/datum/attribute/skill/combat/wrestling = 10,
@@ -51,6 +52,7 @@
 /datum/attribute_holder/sheet/job/acolyte/patron/gani
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/farming = 20,
+		/datum/attribute/skill/misc/medicine = 10,
 		/datum/attribute/skill/labor/taming = 10
 	)
 
@@ -61,7 +63,10 @@
 	)
 /datum/attribute_holder/sheet/job/acolyte/patron/valdala
 	raw_attribute_list = list(
-	/datum/attribute/skill/craft/masonry = 20
+		/datum/attribute/skill/craft/masonry = 20,
+		/datum/attribute/skill/misc/medicine = 10,
+		/datum/attribute/skill/craft/alchemy = 10
+
 	)
 
 /datum/attribute_holder/sheet/job/acolyte/patron/mordsol
@@ -76,7 +81,9 @@
 
 /datum/attribute_holder/sheet/job/acolyte/patron/iliope
 	raw_attribute_list = list(
-		/datum/attribute/skill/misc/stealing = 20,
+		/datum/attribute/skill/misc/stealing = 40,
+		/datum/attribute/skill/misc/lockpicking = 40,
+		/datum/attribute/skill/misc/sneaking = 40,
 		/datum/attribute/skill/misc/music = 30
 	)
 
@@ -123,7 +130,7 @@
 	attribute_sheet = /datum/attribute_holder/sheet/job/acolyte
 	attribute_sheet_old = /datum/attribute_holder/sheet/job/acolyte/old
 
-	languages = list(/datum/language/celestial)
+	languages = list(/datum/language/newunsundered)
 	traits = list(TRAIT_VIRGIN)
 
 /datum/job/monk/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -207,7 +214,8 @@
 	beltl = /obj/item/key/church
 	backl = /obj/item/weapon/polearm/woodstaff/quarterstaff
 	backpack_contents = list(
-		/obj/item/needle = 1
+		/obj/item/needle = 1,
+		/obj/item/weapon/knife/dagger/steel/holysee = 1
 	)
 
 /datum/outfit/monk/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)

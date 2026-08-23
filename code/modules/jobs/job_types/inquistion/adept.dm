@@ -28,7 +28,7 @@
 	mind_traits = list(
 		TRAIT_KNOW_INQUISITION_DOORS
 	)
-	languages = list(/datum/language/oldunsundered)
+	languages = list(/datum/language/newunsundered)
 
 /datum/outfit/adept // Base outfit for Adepts, before loadouts
 	name = JOB_ADEPT

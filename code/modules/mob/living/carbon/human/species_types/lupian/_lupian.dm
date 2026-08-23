@@ -154,21 +154,3 @@
 		"disputed" = "271f2f",
 		"bastardized" = "271f3a"
 	) // This is a dirty hack that stops me using mob defines, the colors do not do anything, it just a var that relates to their pack name on examine
-
-
-/datum/species/lupian/on_species_gain(mob/living/carbon/C, datum/species/old_species)
-	..()
-	RegisterSignal(C, COMSIG_MOB_SAY, PROC_REF(handle_speech))
-	C.grant_language(/datum/language/common)
-	C.grant_language(/datum/language/canilunzt)
-
-/datum/species/lupian/after_creation(mob/living/carbon/C)
-	..()
-	C.dna.species.accent_language = C.dna.species.get_accent(native_language, 1)
-	C.grant_language(/datum/language/canilunzt)
-	to_chat(C, "<span class='info'>I can speak Canilunzt with ,l before my speech.</span>")
-
-/datum/species/lupian/on_species_loss(mob/living/carbon/C)
-	. = ..()
-	UnregisterSignal(C, COMSIG_MOB_SAY)
-	C.remove_language(/datum/language/canilunzt)

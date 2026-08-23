@@ -54,7 +54,7 @@
 		TRAIT_GRAVEROBBER
 	)
 
-	languages = list(/datum/language/celestial)
+	languages = list(/datum/language/newunsundered)
 	book_type = /obj/item/recipe_book/gravemaking
 
 /datum/job/undertaker/after_spawn(mob/living/carbon/human/spawned, client/player_client)

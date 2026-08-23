@@ -26,7 +26,7 @@
 	mind_traits = list(
 		TRAIT_KNOW_INQUISITION_DOORS
 	)
-	languages = list(/datum/language/oldunsundered, /datum/language/newunsundered)
+	languages = list(/datum/language/newunsundered)
 
 	exp_type = list(EXP_TYPE_INQUISITION)
 	exp_types_granted = list(EXP_TYPE_INQUISITION, EXP_TYPE_COMBAT)

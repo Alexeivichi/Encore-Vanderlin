@@ -61,7 +61,7 @@
 		TRAIT_VIRGIN,
 	)
 
-	languages = list(/datum/language/celestial)
+	languages = list(/datum/language/newunsundered)
 
 	cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 

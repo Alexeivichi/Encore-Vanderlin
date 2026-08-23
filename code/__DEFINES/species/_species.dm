@@ -260,6 +260,7 @@
 	SPEC_ID_DROW,\
 	SPEC_ID_HALF_DROW,\
 	SPEC_ID_TIEFLING,\
+	SPEC_ID_AASIMAR,\
 )
 
 /// Elves and Half-Elves

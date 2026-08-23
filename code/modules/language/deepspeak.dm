@@ -1,6 +1,7 @@
 /datum/language/deepspeak
 	name = "Deep Speak"
-	desc = ""
+	desc = "The language of those that dwell within and beneath the water. \
+	Deep, rumbling, and loud - that it might be heard in the depths."
 	icon_state = "fish"
 	spans = list(SPAN_DEEPSPEAK)
 	speech_verb = "blubs"

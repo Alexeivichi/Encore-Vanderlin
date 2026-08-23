@@ -20,7 +20,7 @@
 		spawned.clear_quirks()
 
 	spawned.remove_all_languages()
-	spawned.grant_language(/datum/language/rousman)
+	spawned.grant_language(/datum/language/cudese)
 	spawned.grant_language(/datum/language/common)
 
 /datum/outfit/rousman

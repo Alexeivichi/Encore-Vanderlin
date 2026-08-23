@@ -62,7 +62,7 @@
 #define MODE_SING "sing"
 
 #define SPAN_GEN "say"
-#define SPAN_GRONNIC "gronnic"
+#define SPAN_NORTIC "nortic"
 #define SPAN_DWARF "dwarf"
 #define SPAN_ELF "elf"
 #define SPAN_ANGROS "unsundered"
@@ -75,8 +75,9 @@
 #define SPAN_BEAST "beast"
 #define SPAN_DEEPSPEAK "deepspeak"
 #define SPAN_UNDEAD "undead"
-#define SPAN_LUPIAN "lupian"
+#define SPAN_NOMAN "noman"
 #define SPAN_DRACONIC "reptile"
+#define SPAN_CUDESE "cudese"
 
 //bitflag #defines for return value of the radio() proc.
 #define ITALICS 1

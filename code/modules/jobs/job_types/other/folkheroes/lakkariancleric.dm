@@ -46,7 +46,7 @@
 		TRAIT_DODGEEXPERT,
 	)
 
-	languages = list(/datum/language/celestial)
+	languages = list(/datum/language/newunsundered)
 
 /datum/job/advclass/combat/lakkariancleric/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
