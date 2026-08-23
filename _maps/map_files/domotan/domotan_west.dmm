@@ -2937,7 +2937,6 @@
 	dir = 1;
 	icon_state = "longtable"
 	},
-/obj/item/book/granter/spellbook,
 /turf/open/floor/blocks,
 /area/under/cave/oldfort)
 "tL" = (

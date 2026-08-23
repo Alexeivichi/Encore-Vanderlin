@@ -2006,7 +2006,6 @@
 "brF" = (
 /obj/structure/closet/crate/chest,
 /obj/item/key/dungeon,
-/obj/item/key/walls,
 /obj/item/key/manor,
 /obj/item/storage/backpack/satchel,
 /obj/item/storage/keyring,
@@ -20871,7 +20870,6 @@
 /turf/open/floor/cobblerock,
 /area/outdoors/town)
 "ntV" = (
-/obj/item/key/walls,
 /obj/item/key/manor,
 /obj/item/key/manor,
 /obj/item/key/manor,
@@ -24394,8 +24392,6 @@
 /area/indoors/town/church)
 "pKo" = (
 /obj/structure/closet/crate/chest/neu,
-/obj/item/key/walls,
-/obj/item/key/walls,
 /obj/item/key/garrison,
 /obj/item/key/garrison,
 /obj/item/key/manor,
@@ -26225,8 +26221,6 @@
 /area/outdoors/farm)
 "qWx" = (
 /obj/structure/closet/crate/chest/neu,
-/obj/item/key/walls,
-/obj/item/key/walls,
 /obj/item/key/garrison,
 /obj/item/key/garrison,
 /obj/item/key/manor,
@@ -33640,10 +33634,6 @@
 /obj/item/listeningdevice,
 /obj/item/listeningdevice,
 /obj/item/listeningdevice,
-/obj/item/speakerinq,
-/obj/item/speakerinq,
-/obj/item/speakerinq,
-/obj/item/speakerinq,
 /obj/item/rope/inqarticles/inquirycord,
 /obj/item/rope/inqarticles/inquirycord,
 /obj/item/rope/inqarticles/inquirycord,
