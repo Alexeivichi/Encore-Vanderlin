@@ -54,6 +54,8 @@ SUBSYSTEM_DEF(ParticleWeather)
 	switch(SSmapping.config.map_name)
 		if("Rosewood")
 			selected_forecast = new /datum/forecast/rosewood()
+		if("Domotan")
+			selected_forecast = new /datum/forecast/domotan_fall()
 		else
 			selected_forecast = new /datum/forecast/vanderlin()
 	selected_forecast.set_ambient_temperature(SSnightshift.current_tod ? SSnightshift.current_tod : settod())
