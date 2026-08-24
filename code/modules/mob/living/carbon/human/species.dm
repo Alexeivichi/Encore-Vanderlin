@@ -629,8 +629,8 @@
 		else
 			should_have = TRUE
 
-		if((slot in optional_organ_slots) && !C.dna.organ_dna[slot])
-			should_have = FALSE
+		if(slot in optional_organ_slots)
+			should_have = !!C.dna.organ_dna[slot]
 
 		if(oldorgan && (!should_have || replace_current) && !(oldorgan.zone in excluded_zones))
 			if(slot == ORGAN_SLOT_BRAIN)
