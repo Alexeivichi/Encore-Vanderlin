@@ -1,0 +1,7 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - rscdel: "Removed bilgewater perfume from the random spawn list"
+  - qol: "Hunger is now 25% the rate it previously was,"
+  - qol: "Hygiene is now 10% the rate it previously was,"
+  - qol: "Bleeding is now 50% the rate it previously was."

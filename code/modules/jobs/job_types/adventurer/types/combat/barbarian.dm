@@ -73,6 +73,8 @@
 			spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/swords, 20, 30, TRUE)
 		if("Club")
 			spawned.clamped_adjust_skill_level(/datum/attribute/skill/combat/axesmaces, 20, 30, TRUE)
+			spawned.add_spell(/datum/action/innate/clench_fists, TRUE)
+			ADD_TRAIT(spawned, TRAIT_CLOSECOMBAT, JOB_TRAIT)
 
 /datum/outfit/adventurer/barbarian
 	name = "Barbarian (Adventurer)"

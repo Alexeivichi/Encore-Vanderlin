@@ -23,6 +23,10 @@ abstract types are automatically excluded.
 		/obj/item/clothing/ring/feldsher_ring, // uncraftable
 		/obj/item/clothing/ring/apothecary_ring, // uncraftable
 		/obj/item/clothing/head/maniac,
+		/obj/item/clothing/head/helmet/heavy/necked/deepabyssor,
+		/obj/item/clothing/shoes/boots/armor/matthios,
+		/obj/item/clothing/shoes/boots/armor/matthios/lord,
+		/obj/item/clothing/shoes/boots/armor/graggar,
 		/obj/item/clothing/cloak/half/shadowcloak/cult, // cultist item
 		/obj/item/clothing/head/helmet/skullcap/cult, // cultist item
 		/obj/item/clothing/head/helmet/leather/saiga, // idk what kind of recipe to make this
@@ -55,7 +59,6 @@ abstract types are automatically excluded.
 		/obj/item/clothing/neck/fencerguard/inq, ///inqport
 		/obj/item/clothing/neck/fencerguard, //null
 		/obj/item/clothing/armor/cuirass/fencer, //meh
-		/obj/item/clothing/armor/cuirass/fluted, //eh
 		/obj/item/clothing/armor/medium/scale/inqcoat/armored, //upgrade
 		/obj/item/clothing/armor/brigandine/light, //basetype,
 		/obj/item/clothing/armor/plate/fluted/ornate, //basetype
@@ -95,7 +98,7 @@ abstract types are automatically excluded.
 		/obj/item/clothing/armor/heartfelt,
 		/obj/item/clothing/armor/heartfelt/hand,
 
-		/obj/item/clothing/armor/cuirass/fluted,
+		/obj/item/clothing/wrists/bracers/iron/concealed, // watchmen drip special
 
 		///these can probably have recipes?
 		/obj/item/clothing/face/jestermask,
@@ -161,6 +164,7 @@ abstract types are automatically excluded.
 		/obj/item/clothing/shirt/robe/kimono, //these are mob holders only
 		/obj/item/clothing/armor/regenerating, ///uh no
 		/obj/item/clothing/head/inqarticles, //inqports
+		/obj/item/clothing/ring/courtagent_ring, //uncraftable
 	)
 
 	/// excludes paths that are subtypes of these types and only subtypes
@@ -206,20 +210,20 @@ abstract types are automatically excluded.
 			clothes_list -= path
 
 	// paths by text, if a piece of this text is found in the typepath it's excluded
-	for(var/path as anything in clothes_list)
-		for(var/text_to_find as anything in excluded_paths_by_text)
+	for(var/path in clothes_list)
+		for(var/text_to_find in excluded_paths_by_text)
 			if(findtextEx("[path]", "/[text_to_find]"))
 				clothes_list -= path
 				break
 
 	// paths with subtypes
-	for(var/paths_to_exclude as anything in excluded_paths_with_their_subtypes)
+	for(var/paths_to_exclude in excluded_paths_with_their_subtypes)
 		for(var/path in clothes_list)
 			if(ispath(path, paths_to_exclude))
 				clothes_list -= path
 
 	// paths by subtypes only
-	for(var/paths_to_exclude as anything in excluded_paths_subtypes_only)
+	for(var/paths_to_exclude in excluded_paths_subtypes_only)
 		for(var/path in clothes_list)
 			if(ispath(path, paths_to_exclude) && (paths_to_exclude != path))
 				clothes_list -= path
@@ -230,7 +234,7 @@ abstract types are automatically excluded.
 	for(var/datum/loot_table/loot_datum as anything in subtypesof(/datum/loot_table))
 		var/datum/loot_table/loot_table_to_check = new loot_datum
 		for(var/list/parent_list as anything in loot_table_to_check.loot_table)
-			for(var/loot_path as anything in parent_list)
+			for(var/loot_path in parent_list)
 				clothes_list -= loot_path
 		qdel(loot_table_to_check)
 
@@ -238,7 +242,7 @@ abstract types are automatically excluded.
 	for(var/datum/supply_pack/supply_pack_being_checked as anything in supply_pack_list)
 		var/list/supply_pack_contents = list()
 		supply_pack_contents += supply_pack_being_checked.contains // some contains definitions are not lists
-		for(var/path_in_contents as anything in supply_pack_contents)
+		for(var/path_in_contents in supply_pack_contents)
 			clothes_list -= path_in_contents
 
 	/* crafting recipes go next */

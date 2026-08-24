@@ -61,8 +61,13 @@
 	if(spawned.gender == MALE)
 		// Male: arcyne trident wielder
 		spawned.add_spell(/datum/action/cooldown/spell/undirected/conjure_item/summon_trident)
+		spawned.add_spell(/datum/action/cooldown/spell/bind_weapon)
+		spawned.add_spell(/datum/action/cooldown/spell/recall_weapon)
 		spawned.add_spell(/datum/action/cooldown/spell/pressure)
 		spawned.mana_pool?.set_intrinsic_recharge(MANA_ALL_LEYLINES)
+		ADD_TRAIT(spawned, TRAIT_SORCERER, INNATE_TRAIT)
+		spawned.adjust_form_mastery_points(6)
+		spawned.adjust_technique_mastery_points(3)
 		spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/abyssal/boy)
 
 		if(!istype(spawned.patron, /datum/patron/inhumen/envy))
@@ -81,6 +86,5 @@
 	wrists = /obj/item/clothing/wrists/bracers/leather
 	scabbards = list(/obj/item/weapon/scabbard/sword)
 	backpack_contents = list(
-		/obj/item/storage/keyring/mercenary,
 		/obj/item/storage/belt/pouch/coins/poor,
 	)

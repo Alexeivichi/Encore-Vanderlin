@@ -52,4 +52,4 @@
 	shoes = /obj/item/clothing/shoes/gladiator
 	wrists = /obj/item/clothing/wrists/bracers/leather
 	armor = /obj/item/clothing/armor/amazon_chainkini
-	shoes = /obj/item/clothing/shoes/boots
+	shoes = /obj/item/clothing/shoes/boots/darkboots

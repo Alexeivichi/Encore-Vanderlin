@@ -287,7 +287,7 @@
 	axe_cut = 13
 	item_weight = 1.7 KILOGRAMS
 
-/obj/item/weapon/axe/steel/silver/Initialize(mapload)
+/obj/item/weapon/axe/silver/Initialize(mapload)
 	. = ..()
 	enchant(/datum/enchantment/silver)
 

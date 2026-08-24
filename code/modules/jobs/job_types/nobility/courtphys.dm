@@ -27,13 +27,14 @@
 	)
 /datum/job/courtphys
 	title = JOB_COURT_PHYSICIAN
+	alt_titles = list("Court Chirurgian")
 	tutorial = "One fateful evening at a royal banquet, your steady hand and sharp eye saved the royal bloodline. \
 	Now, you serve as the trusted healer of the crown, a living symbol of Erdl's favor. \
 	Your duty is clear: keep the monarch alive, no matter the cost."
 	department_flag = NOBLEMEN
 	display_order = JDO_PHYSICIAN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
-	faction = FACTION_TOWN
+	factions = list(FACTION_TOWN)
 	total_positions = 99
 	spawn_positions = 99
 	bypass_lastclass = TRUE
@@ -42,6 +43,8 @@
 	outfit = /datum/outfit/courtphys/male
 	outfit_female = /datum/outfit/courtphys/female
 	give_bank_account = 100
+	knows_the_town = TRUE
+	known_by_the_town = TRUE
 	cmode_music = 'sound/music/cmode/nobility/combat_physician.ogg'
 	spells = list(/datum/action/cooldown/spell/diagnose)
 	job_bitflag = BITFLAG_ROYALTY
@@ -59,13 +62,13 @@
 		TRAIT_EMPATH,
 		TRAIT_STEELHEARTED,
 		TRAIT_DEADNOSE,
-		TRAIT_LEGENDARY_ALCHEMIST
+		TRAIT_LEGENDARY_ALCHEMIST,
+		TRAIT_VIRGIN,
 	)
 	book_type = /obj/item/recipe_book/medical
 
 /datum/job/courtphys/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
-	spawned.virginity = TRUE
 
 	if(spawned.dna?.species?.id != SPEC_ID_MEDICATOR)
 		ADD_TRAIT(spawned, TRAIT_NOBLE_BLOOD, JOB_TRAIT)

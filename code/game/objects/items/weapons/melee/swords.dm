@@ -525,7 +525,6 @@
 	parrysound = "rapier"
 	swingsound = BLADEWOOSH_SMALL
 	SET_BASE_PIXEL(-16, -16)
-	dropshrink = 0.8
 
 	weapon_special = /datum/special_intent/piercing_lunge
 	item_weight = 700 GRAMS
@@ -636,7 +635,6 @@
 	desc = "An embellished swift sword from the east."
 	icon = 'icons/roguetown/weapons/64/swords.dmi'
 	icon_state = "nimcha"
-	dropshrink = 0.8
 	sellprice = 140 // its made with gold and steel, thats pretty valuable
 	item_weight = 750 GRAMS
 
@@ -719,7 +717,6 @@
 	inhand_x_dimension = 64
 	inhand_y_dimension = 64
 	SET_BASE_PIXEL(-16, -16)
-	dropshrink = 0.75
 	bigboy = TRUE // WHY DOES THIS FUCKING VARIABLE CONTROL WHETHER THE BLOOD OVERLAY WORKS ON 64x64 WEAPONS
 	slot_flags = ITEM_SLOT_BACK|ITEM_SLOT_HIP
 	smeltresult = /obj/item/ingot/bronze
@@ -753,7 +750,6 @@
 	inhand_x_dimension = 64
 	inhand_y_dimension = 64
 	slot_flags = ITEM_SLOT_BACK|ITEM_SLOT_HIP
-	dropshrink = 0.75
 	sellprice = 60
 	grid_height = 96
 	grid_width = 64
@@ -771,7 +767,6 @@
 	alt_intents = null
 
 	gripsprite = FALSE
-	dropshrink = 0.8
 	sellprice = 80
 	max_integrity = INTEGRITY_STRONG - 50 //this thing is long as hell, it would be more likely to break over time
 	item_weight = 1.4 KILOGRAMS
@@ -826,7 +821,6 @@
 	alt_intents = null
 	gripsprite = FALSE
 	max_integrity = INTEGRITY_STRONGEST
-	dropshrink = 0.9
 	sellprice = 60
 	item_weight = 1.6 KILOGRAMS
 
@@ -885,6 +879,20 @@
 				return list("shrink" = 0.6,"sx" = 6,"sy" = -2,"nx" = -4,"ny" = 2,"wx" = -8,"wy" = -1,"ex" = 8,"ey" = 3,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0,"nturn" = 15,"sturn" = -200,"wturn" = -160,"eturn" = -25,"nflip" = 8,"sflip" = 8,"wflip" = 0,"eflip" = 0)
 			if("onbelt")
 				return list("shrink" = 0.6,"sx" = -4,"sy" = -6,"nx" = 5,"ny" = -6,"wx" = 0,"wy" = -6,"ex" = -1,"ey" = -6,"nturn" = 100,"sturn" = 156,"wturn" = 90,"eturn" = 180,"nflip" = 0,"sflip" = 0,"wflip" = 0,"eflip" = 0,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0)
+
+
+//................Kriegmesser...................//
+/obj/item/weapon/sword/long/kriegmesser
+	name = "kriegmesser"
+	icon_state = "kriegmesser"
+	desc = "A long, single-edged sword with a crossguard and a long grip. It was designed to chop over stab, like a heavy cleaver."
+	force = DAMAGE_SWORD + 2
+	force_wielded = DAMAGE_LONGSWORD_WIELD + 3
+	possible_item_intents = list(SWORD_CUT, SWORD_CHOP)
+	gripped_intents = list(SWORD_CUT, SWDLONG_CHOP, SWORD_STRIKE, SWORD_CLEAVE)
+	max_blade_int = 300
+	max_integrity = INTEGRITY_STRONGEST
+	item_weight = 1.8 KILOGRAMS
 
 //................ Heirloom Sword ............... //
 /obj/item/weapon/sword/long/heirloom
@@ -945,7 +953,6 @@
 	force_wielded = DAMAGE_GREATSWORD_WIELD
 	sellprice = 0
 	static_price = TRUE
-	randomize_blade_int = FALSE
 	item_weight = 1.6 KILOGRAMS
 
 /obj/item/weapon/sword/long/vlord/Initialize(mapload)
@@ -1066,7 +1073,7 @@
 	//Pre-blessed, +5 force +100 Blade int, +100 int, +1 def, make it silver
 	AddComponent(/datum/component/psyblessed, TRUE, 5, 100, 100, 1, TRUE)
 
-/obj/item/weapon/sword/long/decorated
+/obj/item/weapon/sword/long/silver/decorated
 	name = "decorated silver longsword"
 	desc = "A finely crafted silver longsword with a decorated golden hilt."
 	icon = 'icons/roguetown/weapons/64/swords.dmi'
@@ -1224,10 +1231,10 @@
 /obj/item/weapon/sword/long/greatsword/zwei
 	name = "zweihander"
 	desc = "Sometimes known as a doppelhander or beidhander, this weapon's size is so impressive that its handling properties are more akin to that of a polearm than a sword."
-	icon_state = "steelzwei"
+	icon_state = "steelzwei_sk"
 	force_wielded = DAMAGE_LONGSWORD_WIELD
 	possible_item_intents = list(ZWEI_CUT, ZWEI_THRUST, SWORD_STRIKE)
-	gripped_intents = list(SWORD_CUT, SWDLONG_THRUST, SWORD_STRIKE, SWDLONG_CHOP)
+	gripped_intents = list(ZWEI_CUT_REACH, SWDLONG_THRUST, SWORD_STRIKE, SWDLONG_CHOP)
 	max_blade_int = 200
 	max_integrity = INTEGRITY_STRONG
 	smeltresult = /obj/item/ingot/iron
@@ -1247,6 +1254,16 @@
 				return list("shrink" = 0.6,"sx" = 9,"sy" = -4,"nx" = -7,"ny" = 1,"wx" = -9,"wy" = 2,"ex" = 10,"ey" = 2,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0,"nturn" = 5,"sturn" = -190,"wturn" = -170,"eturn" = -10,"nflip" = 4,"sflip" = 4,"wflip" = 1,"eflip" = 0)
 			if("onback")
 				return list("shrink" = 0.6,"sx" = -1,"sy" = 3,"nx" = -1,"ny" = 2,"wx" = 3,"wy" = 4,"ex" = -1,"ey" = 5,"nturn" = 0,"sturn" = 0,"wturn" = 70,"eturn" = 20,"nflip" = 1,"sflip" = 1,"wflip" = 1,"eflip" = 1,"northabove" = 1,"southabove" = 0,"eastabove" = 0,"westabove" = 0)
+
+/obj/item/weapon/sword/long/greatsword/zwei/steel
+	name = "steel zweihander"
+	desc = "A zweihander forged from steel, the pride and joy of any mercenary who wields it. It looks like it could cleave a man in half with a single swing."
+	icon_state = "steelzwei"
+	force_wielded = DAMAGE_LONGSWORD_WIELD + 2
+	max_blade_int = 300
+	max_integrity = INTEGRITY_STRONGEST
+	smeltresult = /obj/item/ingot/steel
+	sellprice = 90
 
 //................ Kriegsmesser ............... //
 /obj/item/weapon/sword/long/greatsword/elfgsword
@@ -1450,8 +1467,9 @@
 	name = "executioner's sword"
 	icon_state = "exe"
 	desc = "An ancient blade of ginormous stature, with a round ended tip. The pride and joy of Vanderlin's greatest pastime, executions."
-	possible_item_intents = list(SWORD_STRIKE)
-	gripped_intents = list(SWORD_CHOP)
+	force_wielded = DAMAGE_GREATSWORD_WIELD + 4
+	possible_item_intents = list(SWORD_STRIKE, SWORD_CUT)
+	gripped_intents = list(SWORD_CUT, SWDLONG_CHOP, SWORD_STRIKE, SWORD_CLEAVE)
 	minstr = 10
 	slot_flags = ITEM_SLOT_BACK
 	item_weight = 3.5 KILOGRAMS
@@ -1486,8 +1504,6 @@
 	name = "silver executioner's sword"
 	desc = "An executioner's sword made of silver, best used against beasts of the nite, to put them to rest."
 	icon_state = "silverexealt"
-	possible_item_intents = list(SWORD_CUT, SWORD_STRIKE)
-	gripped_intents = list(SWORD_CUT, SWORD_STRIKE, SWORD_CHOP)
 	item_weight = 3.5 KILOGRAMS
 
 /obj/item/weapon/sword/long/exe/silver/Initialize(mapload)
@@ -1534,7 +1550,6 @@
 	inhand_x_dimension = 64
 	inhand_y_dimension = 64
 	slot_flags = ITEM_SLOT_BACK|ITEM_SLOT_HIP
-	dropshrink = 0.90
 	smeltresult = /obj/item/ingot/copper
 	sellprice = 10
 	item_weight = 1.8 KILOGRAMS
@@ -1663,7 +1678,6 @@
 	max_integrity = INTEGRITY_STANDARD
 
 	smeltresult = /obj/item/ingot/bronze
-	dropshrink = 0.80
 	item_weight = 700 GRAMS
 
 //A weapon meant to be used with two hands.
@@ -1871,7 +1885,6 @@
 
 	parrysound = "bladedmedium"
 	pickup_sound = 'sound/foley/equip/swordlarge2.ogg'
-	dropshrink = 1
 	smeltresult = /obj/item/ingot/gold
 	item_weight = 2.2 KILOGRAMS
 

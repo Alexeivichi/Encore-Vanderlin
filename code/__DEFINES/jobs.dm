@@ -61,6 +61,7 @@
 #define FACTION_BUMS		"Bums"
 #define FACTION_DECEIVERS	"Deceivers"
 #define FACTION_VIKINGS     "Vikings"
+#define FACTION_INQUISITION	"Inquisition"
 
 #define NOBLEMEN		(1<<0)
 #define GARRISON		(1<<1)
@@ -285,3 +286,5 @@
 #define JOB_LUMBERJACK "Lumberjack"
 #define JOB_CHEESEMAKER "Cheesemaker"
 #define JOB_BUTCHER "Butcher"
+
+#define ALT_TITLE_FLAG_PATREON_LOCKED (1<<0)

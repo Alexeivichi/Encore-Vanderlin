@@ -1,0 +1,5 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - balance: "Towners now receive three triumphs every time they dream."
+  - balance: "Everyone now receives two triumphs when they dream."

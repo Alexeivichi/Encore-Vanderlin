@@ -207,6 +207,10 @@
 	abstract_type = /datum/anvil_recipe/valuables/blacksteel
 	craftdiff = 4
 
+/datum/anvil_recipe/valuables/blacksteel/ring
+	name = "Blacksteel Ring"
+	created_item = /obj/item/clothing/ring/blacksteel
+
 /datum/anvil_recipe/valuables/blacksteel/dorpels
 	name = "Blacksteel Dorpel Ring"
 	additional_items = list(/obj/item/gem/diamond)
@@ -401,33 +405,27 @@
 	created_item = /obj/item/clothing/head/crown/sparrowcrown
 	craftdiff = 6
 
-/datum/anvil_recipe/valuables/signet/unblessedsilver
+/datum/anvil_recipe/valuables/signet/silver
 	name = "Silver Signet Ring"
 	required_material = /obj/item/ingot/silver
-	craftdiff = SKILL_LEVEL_EXPERT
+	craftdiff = 4
 	created_item = /obj/item/clothing/ring/signet/silver
 
 /datum/anvil_recipe/valuables/signet
 	name = "Signet Ring"
 	required_material = /obj/item/ingot/gold
-	craftdiff = SKILL_LEVEL_EXPERT
+	craftdiff = 4
 	created_item = /obj/item/clothing/ring/signet
 
 /datum/anvil_recipe/valuables/signet/psy/gold
 	name = "Gold Signet Ring"
-	craftdiff = SKILL_LEVEL_EXPERT
+	craftdiff = 4
 	required_material = /obj/item/ingot/gold
 	created_item = /obj/item/clothing/ring/signet/psy/g
 
-/datum/anvil_recipe/valuables/signet/silver
+/datum/anvil_recipe/valuables/signet/psy
 	name = "Blessed Silver Signet Ring"
-	craftdiff = SKILL_LEVEL_MASTER
-	required_material = /obj/item/ingot/silverblessed
-	created_item = /obj/item/clothing/ring/signet/psy
-
-/datum/anvil_recipe/valuables/signet/silver/inq
-	name = "Blessed Silver Signet Ring"
-	craftdiff = SKILL_LEVEL_MASTER
+	craftdiff = 5
 	required_material = /obj/item/ingot/silverblessed
 	created_item = /obj/item/clothing/ring/signet/psy
 
@@ -524,6 +522,12 @@
 	name = "Weddingbands, Ancient (x2)"
 	required_material = /obj/item/ingot/purifiedaalloy
 	created_item = /obj/item/clothing/ring/band/paalloy
+	output_amount = 2
+
+/datum/anvil_recipe/valuables/bronze_ring
+	name = "Bronze Rings (x2)"
+	required_material = /obj/item/ingot/bronze
+	created_item = /obj/item/clothing/ring/bronze
 	output_amount = 2
 
 /datum/anvil_recipe/valuables/draconic_ring

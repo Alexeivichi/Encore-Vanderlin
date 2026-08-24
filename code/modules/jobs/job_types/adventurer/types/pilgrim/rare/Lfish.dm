@@ -39,7 +39,7 @@
 	outfit = /datum/outfit/pilgrim/fishermaster
 	total_positions = 99
 	spawn_positions = 99
-	category_tags = list(CTAG_PILGRIM, CTAG_TOWNER)
+	category_tags = list(CTAG_PILGRIM)
 	apprentice_name = "Fisher Apprentice"
 	cmode_music = 'sound/music/cmode/towner/CombatTowner.ogg'
 	is_recognized = TRUE

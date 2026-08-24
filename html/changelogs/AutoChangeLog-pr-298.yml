@@ -1,0 +1,4 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - map: "Moved the lord spawn outside of the apartment so they can summon their key roundstart still."

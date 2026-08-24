@@ -1297,7 +1297,7 @@ SUBSYSTEM_DEF(gamemode)
 
 /datum/controller/subsystem/gamemode/proc/store_roundend_data()
 	var/congealed_string = ""
-	for(var/event_name as anything in triggered_round_events)
+	for(var/event_name in triggered_round_events)
 		congealed_string += event_name
 		congealed_string += ","
 	text2file(congealed_string, "data/last_round_events.txt")
@@ -1312,7 +1312,7 @@ SUBSYSTEM_DEF(gamemode)
 
 	if(!length(last_round_events))
 		return
-	for(var/event_name as anything in last_round_events)
+	for(var/event_name in last_round_events)
 		for(var/datum/round_event_control/listed as anything in control)
 			if(listed.name != event_name)
 				continue
@@ -1538,7 +1538,8 @@ SUBSYSTEM_DEF(gamemode)
 		if(roundstart && istype(client?.mob, /mob/dead/new_player))
 			var/mob/dead/new_player/player = client.mob
 			if(player.ready == PLAYER_READY_TO_PLAY)
-				GLOB.patron_follower_counts[client.prefs.selected_patron.name]++
+				var/datum/patron/pref_patron = client.prefs.read_preference(/datum/preference/choiced/patron)
+				GLOB.patron_follower_counts[pref_patron.name]++
 
 		var/mob/living/living = client.mob
 		if(!istype(living))
@@ -1602,11 +1603,11 @@ SUBSYSTEM_DEF(gamemode)
 				record_round_statistic(STATS_FOREIGNERS)
 			if(human_mob.has_quirk(/datum/quirk/vice/clingy))
 				record_round_statistic(STATS_CLINGY_PEOPLE)
-			if(human_mob.has_quirk(/datum/quirk/vice/alcoholic))
+			if(human_mob.has_quirk(/datum/quirk/vice/addiction/alcoholic))
 				record_round_statistic(STATS_ALCOHOLICS)
-			if(human_mob.has_quirk(/datum/quirk/vice/junkie))
+			if(human_mob.has_quirk(/datum/quirk/vice/addiction/junkie))
 				record_round_statistic(STATS_JUNKIES)
-			if(human_mob.has_quirk(/datum/quirk/vice/kleptomaniac))
+			if(human_mob.has_quirk(/datum/quirk/vice/addiction/kleptomaniac))
 				record_round_statistic(STATS_KLEPTOMANIACS)
 			if(human_mob.has_quirk(/datum/quirk/vice/greedy))
 				record_round_statistic(STATS_GREEDY_PEOPLE)
@@ -1615,8 +1616,7 @@ SUBSYSTEM_DEF(gamemode)
 			if(HAS_TRAIT_NOT_FROM(human_mob, TRAIT_PACIFISM, "hugbox"))
 				record_round_statistic(STATS_PACIFISTS)
 			if(human_mob.family_datum && human_mob.family_member_datum)
-				var/datum/family_member/member = human_mob.family_member_datum
-				if(member.children.len > 0)
+				if(human_mob.family_member_datum.has_children())
 					record_round_statistic(STATS_PARENTS)
 				if(human_mob.IsWedded())
 					record_round_statistic(STATS_MARRIED)

@@ -146,13 +146,3 @@
 			return
 	if(amount > 3 && (amount / total_amount >= 0.25))
 		victim.reagents.add_reagent(musk_reagent, 1)
-
-/datum/pollutant/fragrance/musk/brimstone
-	name = "brimstone"
-	scent = "brimstone"
-	color = "#7b3939"
-
-/datum/pollutant/fragrance/musk/bilgewater
-	name = "bilge water"
-	scent = "rotted fish"
-	color = "#40526d"

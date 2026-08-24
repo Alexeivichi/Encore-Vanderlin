@@ -49,12 +49,9 @@
 	live_spirit.livingname = real_name
 	live_spirit.ckey = ckey
 	ADD_TRAIT(live_spirit, TRAIT_PACIFISM, TRAIT_GENERIC)
-	live_spirit.set_patron(client?.prefs.selected_patron)
 	SSdeath_arena.add_fighter(live_spirit, mind?.last_death)
 
-	if(HAS_TRAIT(mind?.current, TRAIT_BURIED_COIN_GIVEN))
-		live_spirit.paid = TRUE
-		to_chat(client, span_biginfo("Valdala has guaranteed your passage to the next life. Your toll has been already paid."))
+	live_spirit.set_patron(live_spirit.client.prefs.read_preference(/datum/preference/choiced/patron))
 
 	var/area/underworld/underworld = get_area(spawn_loc)
 

@@ -25,7 +25,7 @@
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
 	total_positions = 99
 	spawn_positions = 99
-	faction = FACTION_RATS
+	factions = list(FACTION_RATS)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/rouschild
 
