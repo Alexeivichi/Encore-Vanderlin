@@ -9,6 +9,7 @@
 
 /datum/attribute_holder/sheet/job/species/lupian
 	raw_attribute_list = list(
+		/datum/attribute/skill/labor/butchering = 10,
 		STAT_PERCEPTION = 1,
 	)
 
@@ -22,11 +23,11 @@
 	Lupians are a humanoid race of canines typically resembling wolves, a proud species of hunters \
 	well-regarded for both their capability in battle and their community spirit. Lupians formed a \
 	friendship with Humanity early in the Goblet’s history and can commonly be found in Human communities.<br>\
-	+1 Perception."
+	+1 Perception, Dark Vision, Strong Bite, Scent-Sense, +1 skill tier Butchering."
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY, CUSCOLORS)
-	inherent_traits = list(TRAIT_NOMOBSWAP)
+	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_DARKVISION, TRAIT_STRONGBITE)
 	use_skintones = TRUE
 
 	possible_ages = NORMAL_AGES_LIST
@@ -133,6 +134,15 @@
 		/datum/descriptor_choice/prominent_four,
 	)
 
+/datum/species/lupian/on_species_gain(mob/living/carbon/C, datum/species/old_species, datum/preferences/pref_load)
+	. = ..()
+	RegisterSignal(C, COMSIG_MOB_SAY, PROC_REF(handle_speech))
+	C.grant_language(/datum/language/common)
+
+/datum/species/lupian/on_species_loss(mob/living/carbon/human/C, datum/species/new_species, pref_load)
+	. = ..()
+	UnregisterSignal(C, COMSIG_MOB_SAY)
+
 /datum/species/lupian/check_roundstart_eligible()
 	return TRUE
 
@@ -154,3 +164,78 @@
 		"disputed" = "271f2f",
 		"bastardized" = "271f3a"
 	) // This is a dirty hack that stops me using mob defines, the colors do not do anything, it just a var that relates to their pack name on examine
+
+/datum/action/cooldown/keen_nose_lupian
+	name = "Sniff for scents"
+	desc = "Smell the air to detect living beings at a distance."
+	button_icon_state = "shieldsparkles"
+	cooldown_time = 30 SECONDS
+
+/datum/action/cooldown/keen_nose_lupian/proc/get_smell_message(mob/living/target)
+	if(istype(target, /mob/living/carbon/human))
+		var/mob/living/carbon/human/H = target
+		var/mob/living/carbon/human/U = owner
+		var/datum/species/target_species = H.dna.species
+		var/datum/species/user_species = U.dna.species
+
+		if(!target_species)
+			return "You smell something"
+		if((H.mind && H.mind.has_antag_datum(/datum/antagonist/werewolf)) && U.mind.has_antag_datum(/datum/antagonist/werewolf))
+			return "You smell [H.name], a fellow werevolf"
+		if((H.mob_biotypes & MOB_UNDEAD) || H.stat == DEAD || H.hygiene == HYGIENE_LEVEL_DISGUSTING)
+			return "Euuugh! You smell something rotten"
+		if(istype(target_species, /datum/species/lupian) && istype(user_species, /datum/species/lupian))
+			return "You smell [H.name], the lupian"
+		if(target_species.id in RACES_PLAYER_LUXLESS)
+			return "You smell an animal"
+		if(target_species.id in RACES_PLAYER_NONDISCRIMINATED)
+			return "You smell something humen"
+		if((target_species.id in RACES_PLAYER_HERETICAL_RACE) || (istype(target_species, /datum/species/goblin) || istype(target_species, /datum/species/orc)))
+			return "Ugh! You smell something tainted"
+
+	if(istype(target, /mob/living/simple_animal))
+		return "You smell an animal"
+
+	if(istype(target, /mob/living))
+		var/mob/living/L = target
+		if((L.mob_biotypes & MOB_UNDEAD) || L.stat == DEAD)
+			return "Euuugh! You smell something rotten"
+
+		return "You smell something"
+
+/datum/action/cooldown/keen_nose_lupian/Activate(atom/target)
+	. = ..(target)
+	if(!owner)
+		return
+
+	var/list/smelled_targets = list()
+	for(var/mob/living/smell_target in range(20, owner))
+		smelled_targets += smell_target
+	smelled_targets -= owner
+
+	owner.visible_message(span_notice("[owner] sniffs the air!"))
+	playsound(owner, 'sound/items/sniff.ogg', 70, TRUE)
+	addtimer(CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(playsound), owner, 'sound/items/sniff.ogg', 70, TRUE), 0.5 SECONDS)
+	addtimer(CALLBACK(src, PROC_REF(finish_sniff), smelled_targets), 1.5 SECONDS)
+
+/datum/action/cooldown/keen_nose_lupian/proc/finish_sniff(list/smelled_targets)
+	if(QDELETED(owner) || QDELETED(src))
+		return
+
+	playsound(owner, 'sound/items/sniff.ogg', 100, TRUE)
+	if(!length(smelled_targets))
+		to_chat(owner, span_notice("You smell the air! No creatures are nearby, save yourself."))
+		return
+
+	for(var/mob/living/smell_target in smelled_targets)
+		var/distance = get_dist(owner, smell_target)
+		var/direction = dir2text(get_dir(owner, smell_target))
+		var/distance_phrase = " to the [direction]"
+		if(distance <= 6)
+			distance_phrase = " close to the [direction]"
+		else if(distance > 12)
+			distance_phrase = " far to the [direction]"
+
+		var/message = get_smell_message(smell_target)
+		if(message)
+			to_chat(owner, span_notice("[message][distance_phrase]!"))

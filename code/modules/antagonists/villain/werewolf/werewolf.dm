@@ -25,9 +25,9 @@
 		/datum/action/cooldown/spell/aoe/repulse/howl, \
 		/datum/action/cooldown/spell/woundlick, \
 		/datum/action/cooldown/spell/lunge, \
-		/datum/action/cooldown/spell/throw_target, \
-		/datum/action/cooldown/keen_nose
+		/datum/action/cooldown/spell/throw_target
 	)
+
 	COOLDOWN_DECLARE(message_cooldown)
 
 	innate_traits = list(

@@ -48,7 +48,7 @@
 
 /datum/action/cooldown/spell/undirected/claws
 	name = "Lupine Claws"
-	desc = "!"
+	desc = "Extend your claws."
 	button_icon_state = "claws"
 	has_visual_effects = FALSE
 	antimagic_flags = NONE
