@@ -475,6 +475,22 @@
 	if(spawned.gender == MALE && spawned.dna?.species  && spawned.dna.species.id != SPEC_ID_MEDICATOR)
 		spawned.dna.species.soundpack_m = new /datum/voicepack/male/wizard()
 
+/datum/job/advclass/hand/magister/on_roundstart(mob/living/spawned, client/player_client)
+	. = ..()
+	var/static/list/selectable_books = list(
+		"Blazing Tome (Fire)" = /obj/item/spellbook/legendary/starter/fire,
+		"Frostbound Tome (Ice)" = /obj/item/spellbook/legendary/starter/ice,
+		"Storm-Charged Tome (Lightning)" = /obj/item/spellbook/legendary/starter/lightning,
+		"Stoneveined Tome (Earth)" = /obj/item/spellbook/legendary/starter/earth,
+		"Thrice-Warded Tome (Arcane)" = /obj/item/spellbook/legendary/starter/arcane,
+		"Decay-Touched Tome (Entropy)" = /obj/item/spellbook/legendary/starter/death,
+		"Verdant Tome (Life)" = /obj/item/spellbook/legendary/starter/life,
+		"Windswept Tome (Air)" = /obj/item/spellbook/legendary/starter/air,
+		"Tidebound Tome (Water)" = /obj/item/spellbook/legendary/starter/water,
+	)
+
+	grant_selected_spellbooks(spawned, selectable_books, 2)
+
 /datum/outfit/hand/magister
 	name = "Magister Base (Hand)"
 	head = /obj/item/clothing/head/roguehood/colored/black
@@ -484,9 +500,7 @@
 	backpack_contents = list(
 		/obj/item/scrying = 1,
 		/obj/item/chalk = 1,
-		/obj/item/book/granter/spellbook/expert = 1,
-		/obj/item/weapon/knife/dagger/silver/arcyne = 1,
-		/obj/item/paper/scroll/frumentarii/roundstart = 1
+		/obj/item/frumentarii = 1
 	)
 	armor = /obj/item/clothing/armor/gambeson/hand
 	cloak = /obj/item/clothing/cloak/half
