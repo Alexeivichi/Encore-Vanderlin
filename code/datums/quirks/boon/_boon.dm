@@ -95,6 +95,7 @@
 		/mob/living/simple_animal/hostile/retaliate/chicken,
 		/mob/living/simple_animal/hostile/retaliate/fox,
 		/mob/living/simple_animal/hostile/retaliate/raccoon,
+		/mob/living/simple_animal/hostile/retaliate/spider
 	)
 
 	/// Reference to the spawned pet
