@@ -35,8 +35,8 @@
 /datum/job/tower_mage
 	title = "Tower Magician"
 	alt_titles = list("Magician", "Mage", "Abjurer", "Illusionist", "Wyrd", "Conjurer", "Wizard", "Summoner", "Evocator", "Sorcerer")
-	alt_honorary = list("Professor", "Tutor", "Enchanter" "Sorcerer")
-	alt_honorary_female = list("Professor", "Tutor", "Enchantress" "Sorceress")
+	alt_honorary = list("Professor", "Tutor", "Enchanter", "Sorcerer")
+	alt_honorary_female = list("Professor", "Tutor", "Enchantress", "Sorceress")
 	tutorial = "Endless days and nights of studying have finally paid off - you graduated from your apprenticeship, at long last!\
 	The arcyne is finally your own to command without constant supervision by the Archmagi. Now, you've been granted a measure of freedom to\
 	pursue your own research, although you still answer to them... To make matters worse, now the beady-eyed apprentices are also looking to you for guidance!\
