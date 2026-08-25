@@ -299,32 +299,10 @@
 	popup.set_content(contents)
 	popup.open()
 
-#undef UPGRADE_NOTAX
-
 /obj/structure/fake_machine/merchantvend/public
 	name = "SILVERFACE"
 	desc = "A public version of the GOLDFACE."
 	lock = null
-	unlocked_cats = list(
-		"Apparel",
-		"Storage",
-		"Armor(Light)",
-		"Armor(Steel)",
-		"Food",
-		"Drinks",
-		"Jewelry",
-		"Luxury",
-		"Tools",
-		"Seeds",
-		"Shields",
-		"Medicine",
-		"Raw Materials",
-		"Weapons (Iron)",
-		"Weapons (Steel)",
-		"Weapons (Ranged)",
-		"Ammunition"
-	)
-
 
 /obj/structure/fake_machine/merchantvend/public/artificer
 	name = "Artificer's SILVERFACE"
@@ -353,3 +331,72 @@
 	unlocked_cats = list(
 		"Medicine",
 	)
+
+
+//	This is how we're going to change the cost of shit - just copy the entire proc!
+/obj/structure/fake_machine/merchantvend/public/attack_hand(mob/living/user)
+	. = ..()
+	if(.)
+		return
+	if(!ishuman(user))
+		return
+	if(locked())
+		to_chat(user, "<span class='warning'>It's locked... it really shouldn't be though.</span>")
+		return
+	user.changeNext_move(CLICK_CD_MELEE)
+	playsound(src, 'sound/misc/beep.ogg', 100, FALSE, -1)
+	var/canread = user.can_read(src, TRUE)
+	var/contents
+	contents = "<center>SILVERFACE - Appeasing the masses.<BR>"
+	contents += "<a href='byond://?src=[REF(src)];change=1'>MAMMON LOADED:</a> [budget]<BR>"
+
+	var/mob/living/carbon/human/H = user
+	if(H.job == JOB_MERCHANT)
+		if(canread)
+			contents += "<a href='byond://?src=[REF(src)];secrets=1'>Secrets</a>"
+		else
+			contents += "<a href='byond://?src=[REF(src)];secrets=1'>[stars("Secrets")]</a>"
+
+	contents += "</center><BR>"
+
+	var/list/sorted_cats = sortList(unlocked_cats.Copy())   // alphabetize without mutating the original list
+	var/split = ceil(sorted_cats.len / 2)
+
+	if(isnull(current_cat))
+		contents += "<table style='width: 100%' line-height: 20px;'>"
+		for(var/i = 1 to split)
+			contents += "<tr>"
+			contents += "<td style='width: 50%; text-align: center;'>\
+				<a href='byond://?src=[REF(src)];changecat=[sorted_cats[i]]'>[sorted_cats[i]]</a>\
+				</td>"
+			if(i + split <= sorted_cats.len)
+				contents += "<td style='width: 50%; text-align: center;'>\
+					<a href='byond://?src=[REF(src)];changecat=[sorted_cats[i+split]]'>[sorted_cats[i+split]]</a>\
+					</td>"
+			else
+				contents += "<td></td>"
+			contents += "</tr>"
+		contents += "</table>"
+	else
+		contents += "<center>[current_cat]<BR></center>"
+		contents += "<center><a href='byond://?src=[REF(src)];changecat=0'>\[RETURN\]</a><BR><BR></center>"
+		var/list/pax = list()
+		for(var/pack in SSmerchant.supply_packs)
+			var/datum/supply_pack/picked_pack = SSmerchant.supply_packs[pack]
+			if(picked_pack.group == current_cat)
+				pax[picked_pack.name] = picked_pack
+		for(var/pack_name in sortList(pax))
+			var/datum/supply_pack/picked_pack = pax[pack_name]
+			var/costy = picked_pack.cost*2
+			if(!(upgrade_flags & UPGRADE_NOTAX))
+				costy=round(costy+(SStreasury.tax_value * costy))
+			contents += "[picked_pack.name] - ([costy])<a href='byond://?src=[REF(src)];buy=[picked_pack.type]'>BUY</a><BR>"
+
+	if(!canread)
+		contents = stars(contents)
+
+	var/datum/browser/popup = new(user, "VENDORTHING", "", 500, 800)
+	popup.set_content(contents)
+	popup.open()
+
+#undef UPGRADE_NOTAX
