@@ -152,6 +152,11 @@
 	dir = 8
 	},
 /obj/machinery/light/fueledstreet/orange/wall,
+/obj/structure/fluff/signage{
+	pixel_y = 22;
+	name = "MAGE TOWER - EAST";
+	pixel_x = -6
+	},
 /turf/open/floor/cobblerock,
 /area/outdoors/exposed)
 "adA" = (
@@ -1774,6 +1779,12 @@
 /obj/machinery/light/fueledstreet/orange,
 /turf/open/floor/snow,
 /area/outdoors/town/plaza)
+"bib" = (
+/obj/effect/landmark/start/tower_magician{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/turned/darker,
+/area/indoors/town/keep/magician)
 "bid" = (
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/cobble,
@@ -3289,6 +3300,13 @@
 /obj/structure/ladder,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/soilsons)
+"clY" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/machinery/light/fueled/wallfire/candle/lamp,
+/turf/open/floor/wood,
+/area/outdoors/town)
 "clZ" = (
 /obj/effect/mapping_helpers/access/keyset/manor/general,
 /obj/effect/mapping_helpers/access/locker,
@@ -3581,6 +3599,9 @@
 	},
 /turf/open/floor/blocks,
 /area/outdoors/town)
+"cvl" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/outdoors/beach)
 "cvD" = (
 /obj/structure/wild_plant/nospread/manabloom,
 /turf/open/floor/grass/yel,
@@ -8177,6 +8198,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/ruinedwood,
 /area/outdoors/town/plaza)
+"ftH" = (
+/obj/effect/landmark/start/tower_magician{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/indoors/town/keep/magician)
 "ftW" = (
 /obj/structure/door/viewport{
 	name = "Steward";
@@ -8687,6 +8714,12 @@
 	dir = 8
 	},
 /obj/machinery/light/fueledstreet/orange/wall,
+/obj/structure/fluff/signage{
+	name = "CLINIC - WEST";
+	dir = 1;
+	pixel_y = 22;
+	pixel_x = 4
+	},
 /turf/open/floor/cobblerock,
 /area/indoors/town/keep)
 "fLK" = (
@@ -11558,6 +11591,12 @@
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern)
+"hFc" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/outdoors/town)
 "hFm" = (
 /obj/structure/fluff/railing/border{
 	dir = 1
@@ -11933,6 +11972,9 @@
 /area/outdoors/exposed)
 "hQM" = (
 /obj/structure/chair/bench/couch/left{
+	dir = 4
+	},
+/obj/effect/landmark/start/tower_magician{
 	dir = 4
 	},
 /turf/open/floor/carpet/royalblack,
@@ -12466,6 +12508,13 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/town)
+"igr" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/wood,
+/area/outdoors/town)
 "igB" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/ruinedwood/darker,
@@ -12717,6 +12766,15 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern)
+"ipj" = (
+/obj/structure/fluff/railing/wood,
+/obj/structure/fluff/signage{
+	pixel_y = 26;
+	name = "MAGE TOWER - EAST";
+	pixel_x = 2
+	},
+/turf/open/floor/wood,
+/area/outdoors/town)
 "ipy" = (
 /turf/open/floor/carpet/royalblack,
 /area/outdoors/town/roofs)
@@ -12891,6 +12949,10 @@
 /obj/structure/closet/crate/chest/crate,
 /turf/open/floor/herringbone,
 /area/indoors/town)
+"itm" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/ruinedwood/alt,
+/area/outdoors/beach)
 "itp" = (
 /obj/structure/fluff/walldeco/vinez,
 /turf/closed/wall/mineral/stone,
@@ -17598,6 +17660,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town)
+"lyh" = (
+/obj/structure/stairs{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/water/ocean,
+/area/outdoors/beach)
 "lyi" = (
 /obj/structure/bars,
 /turf/open/water/ocean,
@@ -25513,6 +25582,13 @@
 /mob/living/simple_animal/hostile/retaliate/goat,
 /turf/open/floor/dirt/road,
 /area/outdoors/farm)
+"qvg" = (
+/obj/structure/fluff/railing/wood,
+/obj/structure/stairs{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/outdoors/town)
 "qvr" = (
 /obj/structure/fluff/railing/border{
 	dir = 9
@@ -25824,6 +25900,16 @@
 /obj/structure/plough,
 /turf/open/floor/dirt/road,
 /area/outdoors/farm)
+"qGe" = (
+/obj/structure/fluff/railing/wood,
+/obj/structure/fluff/signage{
+	name = "CLINIC - WEST";
+	dir = 1;
+	pixel_y = 26;
+	pixel_x = -6
+	},
+/turf/open/floor/wood,
+/area/outdoors/town)
 "qGt" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/item/clothing/head/roguehood/angros,
@@ -26999,7 +27085,8 @@
 /area/outdoors/exposed)
 "rzU" = (
 /obj/machinery/light/fueled/torchholder/c,
-/turf/open/openspace,
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/wood,
 /area/outdoors/town)
 "rAl" = (
 /obj/structure/stairs/stone{
@@ -27177,6 +27264,11 @@
 "rHh" = (
 /turf/open/floor/concrete,
 /area/indoors/town/cell)
+"rHA" = (
+/obj/structure/fluff/railing/wood,
+/obj/machinery/light/fueled/wallfire/candle/lamp,
+/turf/open/floor/ruinedwood/alt,
+/area/outdoors/beach)
 "rHI" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -29541,6 +29633,7 @@
 /obj/machinery/light/fueled/wallfire/candle/blue/r,
 /obj/structure/bed/wool/double,
 /obj/item/bedsheet/fabric_double,
+/obj/effect/landmark/start/magician,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/keep/magician)
 "tmo" = (
@@ -29857,7 +29950,7 @@
 "tzn" = (
 /obj/effect/mapping_helpers/access/locker,
 /obj/structure/door/violet,
-/obj/effect/mapping_helpers/access/keyset/town/tower,
+/obj/effect/mapping_helpers/access/keyset/manor/mage,
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/town/keep/magician)
 "tzq" = (
@@ -30445,8 +30538,8 @@
 /turf/open/floor/dirt,
 /area/outdoors/town/neighborhood/east)
 "tRQ" = (
-/obj/effect/landmark/start/magician,
 /obj/structure/chair/bench/couch/middle,
+/obj/effect/landmark/start/tower_magician,
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/keep/magician)
 "tRW" = (
@@ -30782,6 +30875,12 @@
 /obj/item/reagent_containers/glass/bottle/wine/sourwine,
 /turf/open/floor/cobble,
 /area/indoors/town/keep/kitchen/cellar)
+"uff" = (
+/obj/machinery/light/fueledstreet/orange{
+	dir = 1
+	},
+/turf/open/floor/snow,
+/area/outdoors/town)
 "uft" = (
 /obj/structure/fluff/walldeco/painting/seraphina{
 	pixel_y = 32
@@ -31718,9 +31817,15 @@
 /obj/item/natural/stone,
 /turf/open/floor/sand/sandstone,
 /area/indoors/town/keep/magician/basement)
+"uJZ" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/outdoors/town)
 "uKB" = (
 /obj/structure/door/viewport{
-	name = "Steward"
+	name = "Archive"
 	},
 /obj/effect/mapping_helpers/access/locker,
 /obj/effect/mapping_helpers/access/keyset/manor/archive,
@@ -36808,7 +36913,7 @@
 /area/outdoors/exposed)
 "yeQ" = (
 /obj/structure/door/viewport{
-	name = "Steward";
+	name = "Archive";
 	dir = 1
 	},
 /obj/effect/mapping_helpers/access/locker,
@@ -62659,8 +62764,8 @@ jdz
 bBv
 bBv
 jdz
-diq
-xYj
+cvl
+cvl
 xYj
 xYj
 xYj
@@ -62791,8 +62896,8 @@ bBv
 bBv
 jdz
 jdz
-diq
-xYj
+cvl
+lyh
 xYj
 xYj
 xYj
@@ -62923,8 +63028,8 @@ bBv
 jdz
 jdz
 jdz
-jdz
-xYj
+tda
+itm
 xYj
 xYj
 xYj
@@ -63055,8 +63160,8 @@ bBv
 jdz
 jdz
 jdz
-jdz
-xYj
+tda
+rHA
 xYj
 xYj
 rJc
@@ -63186,9 +63291,9 @@ tda
 bBv
 bBv
 jdz
-jdz
-jdz
-xYj
+tda
+tda
+itm
 xYj
 mJh
 xYj
@@ -63319,8 +63424,8 @@ pED
 fcW
 pED
 pED
-xYj
-mJh
+oxP
+itm
 xYj
 xYj
 xYj
@@ -63451,8 +63556,8 @@ iKL
 iiq
 kpG
 pED
-xYj
-xYj
+oxP
+itm
 xYj
 rJc
 xYj
@@ -63583,8 +63688,8 @@ jjN
 tdj
 ciV
 pED
-xYj
-xYj
+oxP
+itm
 xYj
 xYj
 xYj
@@ -76128,7 +76233,7 @@ gVW
 uli
 xqA
 kLs
-dWg
+qGe
 aJX
 aJX
 aJX
@@ -77052,7 +77157,7 @@ xqA
 xqA
 hdV
 pVr
-ted
+uff
 swt
 swt
 swt
@@ -77183,8 +77288,8 @@ ves
 ves
 mQa
 hfO
-erI
-aJX
+hfO
+dWg
 aJX
 veQ
 aJX
@@ -77316,7 +77421,7 @@ ves
 xqA
 hWU
 hWU
-rzU
+ipj
 aJX
 aJX
 aJX
@@ -77448,7 +77553,7 @@ kfC
 kfC
 kfC
 kfC
-hzd
+iUP
 aJX
 aJX
 aJX
@@ -77712,7 +77817,7 @@ aPC
 miV
 aPC
 mpo
-bVE
+qhR
 bVE
 bVE
 gNK
@@ -78372,9 +78477,9 @@ kNE
 qhR
 tKL
 tKL
-syN
-aJX
-aJX
+qhR
+uJZ
+bsh
 aJX
 aJX
 aJX
@@ -78506,7 +78611,7 @@ tdP
 tdP
 ayt
 gIv
-aJX
+dWg
 aJX
 aJX
 aJX
@@ -78638,7 +78743,7 @@ xZc
 jJD
 rIU
 brV
-aJX
+dWg
 aJX
 aJX
 aJX
@@ -78770,7 +78875,7 @@ gIv
 uAk
 rIU
 brV
-aJX
+dWg
 aJX
 aJX
 aJX
@@ -78902,7 +79007,7 @@ gIv
 tdP
 tdP
 gIv
-aJX
+dWg
 aJX
 aJX
 aJX
@@ -79029,12 +79134,12 @@ kbn
 skk
 cnE
 skk
-aJX
-aJX
-aJX
-aJX
-aJX
-aJX
+clY
+hFc
+hFc
+hFc
+hFc
+igr
 aJX
 aJX
 aJX
@@ -79161,7 +79266,7 @@ kbn
 skk
 cnE
 bFX
-aJX
+qvg
 aJX
 aJX
 aJX
@@ -112953,7 +113058,7 @@ pYN
 oVJ
 tPz
 lwu
-lwu
+bib
 tXO
 uUt
 oHm
@@ -113216,7 +113321,7 @@ uaa
 tXO
 rPF
 kXB
-mOc
+ftH
 mOc
 tXO
 uiJ

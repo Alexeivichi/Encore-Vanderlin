@@ -100,7 +100,7 @@
 	backpack_contents = list(
 		/obj/item/chalk = 1,
 		/obj/item/weapon/knife/dagger/silver/arcyne = 1,
-		/obj/item/storage/keyring/mage = 1
+		/obj/item/storage/keyring/mageapprentice = 1
 	)
 
 /datum/job/magician/on_roundstart(mob/living/spawned, client/player_client)
