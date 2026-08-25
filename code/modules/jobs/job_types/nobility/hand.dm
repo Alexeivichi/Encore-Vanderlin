@@ -448,9 +448,6 @@
 	outfit_female = /datum/outfit/hand/magister/female
 	category_tags = list(CTAG_HAND)
 	magic_user = TRUE
-	spell_points = 17
-	attunements_max = 6
-	attunements_min = 4
 	cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg'
 	exp_types_granted  = list(EXP_TYPE_NOBLE, EXP_TYPE_MAGICK)
 	book_type = /obj/item/recipe_book/arcyne
@@ -460,12 +457,23 @@
 	honorary = "Magister"
 	honorary_f = "Magistrix"
 
+	traits = list(
+		TRAIT_NOBLE_BLOOD,
+		TRAIT_NOBLE_POWER,
+		TRAIT_NOBLE_LOCAL,
+		TRAIT_VIRGIN,
+	)
+
 /datum/job/advclass/hand/magister/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 	if(prob(1))
 		spawned.cmode_music = 'sound/music/cmode/antag/combat_evilwizard.ogg'
 
-	spawned.virginity = TRUE
+	if(istype(spawned.patron, /datum/patron/inhumen/archdevils))
+		spawned.grant_language(/datum/language/hellspeak)
+
+	if(spawned.gender == MALE && spawned.dna?.species  && spawned.dna.species.id != SPEC_ID_MEDICATOR)
+		spawned.dna.species.soundpack_m = new /datum/voicepack/male/wizard()
 
 /datum/outfit/hand/magister
 	name = "Magister Base (Hand)"

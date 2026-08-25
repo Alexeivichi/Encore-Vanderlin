@@ -34,6 +34,9 @@
 
 /datum/job/tower_mage
 	title = "Tower Magician"
+	alt_titles = list("Magician", "Mage", "Abjurer", "Illusionist", "Wyrd", "Conjurer", "Wizard", "Summoner", "Evocator", "Sorcerer")
+	alt_honorary = list("Professor", "Tutor", "Enchanter" "Sorcerer")
+	alt_honorary_female = list("Professor", "Tutor", "Enchantress" "Sorceress")
 	tutorial = "Endless days and nights of studying have finally paid off - you graduated from your apprenticeship, at long last!\
 	The arcyne is finally your own to command without constant supervision by the Archmagi. Now, you've been granted a measure of freedom to\
 	pursue your own research, although you still answer to them... To make matters worse, now the beady-eyed apprentices are also looking to you for guidance!\
@@ -41,7 +44,7 @@
 	department_flag = PEASANTS
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_TOWER_MAGE
-	faction = FACTION_TOWN
+	factions = FACTION_TOWN
 	total_positions = 99
 	spawn_positions = 99
 	bypass_lastclass = TRUE
@@ -52,9 +55,6 @@
 	outfit = /datum/outfit/tower_mage
 	cmode_music = 'sound/music/cmode/nobility/CombatCourtMagician.ogg'
 	magic_user = TRUE
-	spell_points = 12
-	attunements_max = 6
-	attunements_min = 4
 	job_bitflag = BITFLAG_CONSTRUCTOR
 	max_apprentices = 1
 	book_type = /obj/item/recipe_book/arcyne
@@ -76,6 +76,7 @@
 
 	traits = list(
 		TRAIT_SEEPRICES,
+		TRAIT_VIRGIN,
 	)
 
 /datum/job/tower_mage/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -83,7 +84,8 @@
 	if(prob(1))
 		spawned.cmode_music = 'sound/music/cmode/antag/combat_evilwizard.ogg'
 
-	spawned.virginity = TRUE
+	if(istype(spawned.patron, /datum/patron/inhumen/archdevils))
+		spawned.grant_language(/datum/language/hellspeak)
 
 	if(spawned.gender == MALE && spawned.dna?.species  && spawned.dna.species.id != SPEC_ID_MEDICATOR)
 		spawned.dna.species.soundpack_m = new /datum/voicepack/male/wizard()
@@ -97,13 +99,13 @@
 	shoes = /obj/item/clothing/shoes/shortboots
 	backpack_contents = list(
 		/obj/item/chalk = 1,
-		/obj/item/book/granter/spellbook/expert = 1,
 		/obj/item/weapon/knife/dagger/silver/arcyne = 1,
 		/obj/item/storage/keyring/mage = 1
 	)
 
-/datum/outfit/tower_mage/post_equip(mob/living/carbon/human/equipped_human, visuals_only)
+/datum/job/magician/on_roundstart(mob/living/spawned, client/player_client)
 	. = ..()
+
 	var/static/list/selectablehat = list(
 		"Witch hat" = /obj/item/clothing/head/wizhat/witch,
 		"Random Wizard hat" = /obj/item/clothing/head/wizhat/random,
@@ -111,12 +113,26 @@
 		"Generic Wizard hat" = /obj/item/clothing/head/wizhat/gen,
 		"Black hood" = /obj/item/clothing/head/roguehood/colored/black,
 	)
-	equipped_human.select_equippable(equipped_human, selectablehat, message = "Choose your hat of choice", title = "WIZARD")
+	spawned.select_equippable(player_client, selectablehat, message = "Choose your hat of choice", title = "WIZARD")
 
 	var/static/list/selectablerobe = list(
 		"Black robes" = /obj/item/clothing/shirt/robe/colored/black,
 		"Mage robes" = /obj/item/clothing/shirt/robe/colored/mage,
 		"Wizard robes" = /obj/item/clothing/shirt/robe/wizard,
 	)
-	equipped_human.select_equippable(equipped_human, selectablerobe, message = "Choose your robe of choice", title = "WIZARD")
+	spawned.select_equippable(player_client, selectablerobe, message = "Choose your robe of choice", title = "WIZARD")
+
+	var/static/list/selectable_books = list(
+		"Blazing Tome (Fire)" = /obj/item/spellbook/expert/starter/fire,
+		"Frostbound Tome (Ice)" = /obj/item/spellbook/expert/starter/ice,
+		"Storm-Charged Tome (Lightning)" = /obj/item/spellbook/expert/starter/lightning,
+		"Stoneveined Tome (Earth)" = /obj/item/spellbook/expert/starter/earth,
+		"Thrice-Warded Tome (Arcane)" = /obj/item/spellbook/expert/starter/arcane,
+		"Decay-Touched Tome (Entropy)" = /obj/item/spellbook/expert/starter/death,
+		"Verdant Tome (Life)" = /obj/item/spellbook/expert/starter/life,
+		"Windswept Tome (Air)" = /obj/item/spellbook/expert/starter/air,
+		"Tidebound Tome (Water)" = /obj/item/spellbook/expert/starter/water,
+	)
+
+	grant_selected_spellbooks(spawned, selectable_books, 2)
 
