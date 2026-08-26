@@ -40,7 +40,7 @@
 
 /datum/job/magician
 	title = "Tower Archmage"
-	alt_titles = list("High Magician", "High Mage", "Grand Abjurer", "Grand Illusionist", "Grand Wyrd", "Grand Conjurer", "Grand Wizard", "Grand Summoner", "Grand Evocator")
+	alt_titles = list("Archwizard", "High Magician", "High Mage", "Grand Abjurer", "Grand Illusionist", "Grand Wyrd", "Grand Conjurer", "Grand Summoner", "Grand Evocator")
 	alt_honorary = list("Archwizard", "Magus", "High Mage", "Proctor", "Headmaster", "Grand Enchanter")
 	alt_honorary_female = list("Archwizard", "Magus", "High Mage", "Proctor", "Headmistress", "Grand Enchantress")
 	tutorial = "A seer of dreams, a reader of stars, and a master of the arcyne. Along a band of unlikely heroes, you shaped the fate of these lands.\
