@@ -118,6 +118,7 @@
 
 	return FALSE
 
+// specifically used for /obj/item/needle/proc/sew_wounds
 /proc/calculate_armor_mod(mob/living/carbon/H, target_zone)
 	var/total_weight = 0
 
