@@ -398,9 +398,17 @@
 "gJ" = (
 /turf/open/floor/cobble,
 /area/outdoors/woods/etgard)
+"gL" = (
+/obj/structure/leyline,
+/turf/open/floor/blocks/green,
+/area/outdoors/woods/lakeside)
 "gN" = (
 /turf/open/water/ocean,
 /area/outdoors/woods/etgard)
+"gW" = (
+/obj/item/natural/rock/copper,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "hh" = (
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "z1-northeast1-out";
@@ -543,6 +551,10 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
+"jL" = (
+/obj/item/ore/iron,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "jM" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -708,6 +720,9 @@
 /obj/structure/flora/grass/water,
 /turf/open/water/ocean,
 /area/outdoors/woods/etgard)
+"ns" = (
+/turf/closed/mineral/copper,
+/area/under/cave)
 "nt" = (
 /obj/structure/fluff/railing/tall/palisade,
 /turf/open/floor/grass/cold,
@@ -762,6 +777,9 @@
 	},
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
+"oo" = (
+/turf/closed/wall/mineral/decowood/vert,
+/area/indoors/shelter)
 "op" = (
 /obj/structure/door/weak/bolt,
 /turf/open/floor/twig,
@@ -886,6 +904,10 @@
 	},
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
+"qg" = (
+/obj/item/natural/rock/iron,
+/turf/open/floor/naturalstone,
+/area/under/cavewet)
 "qh" = (
 /obj/machinery/light/fueled/firebowl/stump,
 /turf/open/floor/grass/cold,
@@ -922,9 +944,8 @@
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
 "qU" = (
-/obj/item/natural/rock/iron,
-/turf/open/floor/naturalstone,
-/area/under/cave)
+/turf/open/floor/blocks/green,
+/area/outdoors/woods/lakeside)
 "qW" = (
 /obj/structure/table/wood{
 	icon_state = "longtable";
@@ -949,6 +970,9 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
+"qZ" = (
+/turf/open/floor/greenstone/runed,
+/area/outdoors/woods/lakeside)
 "ra" = (
 /obj/structure/table/wood{
 	icon_state = "longtable"
@@ -1013,6 +1037,10 @@
 /obj/item/natural/stone,
 /turf/open/floor/naturalstone,
 /area/under/cave)
+"sd" = (
+/obj/item/natural/rock/tin,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "sg" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/clean,
@@ -1023,6 +1051,10 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/beach)
+"sl" = (
+/obj/effect/landmark/quest_spawner/easy,
+/turf/open/floor/dirt/road,
+/area/outdoors/woods/lakeside)
 "sp" = (
 /obj/structure/fluff/railing/border,
 /turf/open/floor/twig,
@@ -1278,6 +1310,10 @@
 "wV" = (
 /turf/closed/wall/mineral/stone,
 /area/under/cave)
+"xi" = (
+/obj/item/ore/coal,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "xl" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -1361,6 +1397,11 @@
 	},
 /turf/open/floor/dirt/road,
 /area/under/cave)
+"yN" = (
+/obj/machinery/light/fueled/hearth,
+/obj/machinery/light/fueled/oven/south,
+/turf/open/floor/twig,
+/area/indoors/shelter)
 "yQ" = (
 /turf/closed/wall/mineral/stone,
 /area/indoors/town/church)
@@ -1460,6 +1501,9 @@
 /obj/effect/mapping_helpers/structure/grave_spawner/t2,
 /turf/open/floor/dirt/road,
 /area/outdoors/town)
+"BH" = (
+/turf/closed/mineral/copper,
+/area/under/cavewet)
 "BY" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/ruinedwood,
@@ -1731,9 +1775,16 @@
 "Hw" = (
 /turf/open/floor/cobblerock,
 /area/outdoors/woods/lakeside)
+"Hy" = (
+/obj/item/natural/rock/copper,
+/turf/open/floor/dirt,
+/area/under/cave)
 "Hz" = (
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
+"HE" = (
+/turf/open/floor/greenstone,
+/area/outdoors/woods/lakeside)
 "HJ" = (
 /turf/open/floor/twig,
 /area/indoors/shelter)
@@ -1764,6 +1815,9 @@
 /obj/structure/closet/crate/chest/wicker,
 /turf/open/floor/dirt,
 /area/indoors)
+"Iu" = (
+/turf/open/floor/grass/cold,
+/area/outdoors/woods/lakeside)
 "Ix" = (
 /turf/open/floor/cobble/mossy,
 /area/indoors/shelter)
@@ -1889,6 +1943,9 @@
 /obj/structure/flora/grass/water,
 /turf/open/floor/sand,
 /area/outdoors/woods/etgard)
+"Kt" = (
+/turf/closed/mineral/coal,
+/area/under/cavewet)
 "Kw" = (
 /obj/structure/well,
 /turf/open/floor/dirt/road,
@@ -1914,6 +1971,10 @@
 	},
 /turf/open/floor/twig,
 /area/indoors/shelter)
+"KX" = (
+/obj/structure/fermentation_keg/random/beer,
+/turf/open/floor/twig/platform,
+/area/under/cave)
 "KZ" = (
 /obj/structure/stairs{
 	dir = 4
@@ -1926,10 +1987,16 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
+"Lw" = (
+/turf/closed/wall/mineral/wood,
+/area/indoors/town)
 "LB" = (
 /obj/structure/flora/grass/water,
 /turf/open/water/marsh,
 /area/outdoors/woods/etgard)
+"LN" = (
+/turf/closed/mineral/tin,
+/area/under/cave)
 "LP" = (
 /obj/structure/table/wood{
 	dir = 8;
@@ -1979,6 +2046,11 @@
 /area/indoors/town)
 "Mq" = (
 /obj/structure/closet/crate/chest/wicker,
+/obj/item/reagent_containers/food/snacks/hardtack,
+/obj/item/reagent_containers/food/snacks/hardtack,
+/obj/item/reagent_containers/food/snacks/hardtack,
+/obj/item/reagent_containers/food/snacks/hardtack,
+/obj/item/reagent_containers/food/snacks/hardtack,
 /obj/item/reagent_containers/food/snacks/cheddarslice/aged,
 /obj/item/reagent_containers/food/snacks/cheddarslice/aged,
 /obj/item/reagent_containers/food/snacks/cheddarslice/aged,
@@ -2052,10 +2124,7 @@
 /turf/open/floor/sand,
 /area/outdoors/woods/etgard)
 "Ns" = (
-/obj/item/natural/stone,
-/obj/item/natural/stone,
-/obj/item/natural/stone,
-/obj/item/natural/stone,
+/obj/machinery/light/fueled/forge,
 /turf/open/floor/cobblerock,
 /area/indoors/shelter)
 "Ny" = (
@@ -2141,6 +2210,10 @@
 "OX" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/etgard)
+"Pl" = (
+/obj/structure/wild_plant/nospread/manabloom,
+/turf/open/floor/grass/cold,
+/area/outdoors/woods/lakeside)
 "Pr" = (
 /obj/structure/flora/grass,
 /obj/structure/fluff/railing/tall/retaining{
@@ -2148,6 +2221,10 @@
 	},
 /turf/open/floor/grass/cold,
 /area/outdoors/woods/etgard)
+"Pt" = (
+/obj/item/ore/copper,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "Pu" = (
 /turf/open/floor/snow,
 /area/outdoors/woods/lakeside)
@@ -2221,6 +2298,9 @@
 	},
 /turf/open/water/ocean/abyss,
 /area/outdoors/beach)
+"Rl" = (
+/turf/closed/wall/mineral/decowood,
+/area/indoors/shelter)
 "Rs" = (
 /obj/structure/table/wood{
 	icon_state = "longtable"
@@ -2241,6 +2321,10 @@
 	},
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
+"Rz" = (
+/obj/item/ore/tin,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "RA" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/town)
@@ -2554,6 +2638,11 @@
 	},
 /turf/open/water/ocean/abyss,
 /area/outdoors/beach)
+"Xd" = (
+/obj/machinery/light/fueled/torchholder/l,
+/obj/item/ore/copper,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "Xg" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean,
@@ -2613,6 +2702,9 @@
 /obj/item/clothing/shoes/boots/furlinedboots,
 /turf/open/floor/twig,
 /area/indoors/shelter)
+"Yv" = (
+/turf/closed/mineral/salt,
+/area/under/cavewet)
 "YG" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/floor/naturalstone,
@@ -10354,10 +10446,10 @@ bU
 bU
 bU
 oz
-oz
-oz
-oz
-oz
+Lw
+Lw
+Lw
+Lw
 oz
 Hz
 Hz
@@ -10610,7 +10702,7 @@ bU
 bU
 bU
 bU
-oz
+Lw
 Mk
 Yn
 vx
@@ -10867,12 +10959,12 @@ bU
 LW
 bC
 LW
-oz
+Lw
 nZ
 Tz
 iF
 iF
-oz
+Lw
 OX
 OX
 OX
@@ -11383,9 +11475,9 @@ bU
 bU
 oz
 dF
-oz
-oz
-oz
+Lw
+Lw
+Lw
 oz
 Hz
 Hz
@@ -47030,8 +47122,8 @@ aV
 aV
 aV
 aV
-aV
-aV
+ns
+ns
 aV
 aV
 aV
@@ -47285,13 +47377,13 @@ SR
 aV
 aV
 aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+ns
+ns
+ns
+ns
+ns
+ns
+ns
 aV
 aV
 jF
@@ -47302,7 +47394,7 @@ aV
 aV
 jF
 LR
-aV
+LR
 aV
 aV
 aV
@@ -47541,16 +47633,16 @@ aR
 SR
 aR
 aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
 aV
 tK
 tK
@@ -47559,8 +47651,8 @@ oK
 oK
 ww
 LR
-aV
-aV
+LR
+LR
 aV
 aV
 aR
@@ -47807,7 +47899,7 @@ be
 be
 be
 be
-aV
+ns
 aV
 tK
 oK
@@ -47816,8 +47908,8 @@ oK
 HT
 DM
 LR
-aV
-aV
+LR
+LR
 be
 be
 SR
@@ -48053,18 +48145,18 @@ Ty
 aV
 aV
 SR
-aR
-aR
-aV
-aR
-aR
-aV
-aV
-aV
-aV
+BH
+BH
+ns
+BH
+BH
+ns
+ns
+ns
+ns
 be
-aV
-aV
+ns
+ns
 jF
 tK
 HT
@@ -48074,7 +48166,7 @@ oK
 jF
 LR
 oR
-aV
+LR
 be
 be
 aR
@@ -48310,19 +48402,19 @@ Ty
 aV
 aV
 SR
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
+ns
 be
 be
-aV
-aV
+ns
+ns
 tK
 oK
 LR
@@ -48330,7 +48422,7 @@ LR
 LR
 LR
 LR
-aV
+LR
 oR
 oR
 aV
@@ -48567,19 +48659,19 @@ Ty
 aV
 aV
 SR
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-be
-aV
-aV
+ns
+ns
+ns
+ns
+ns
+gW
+ns
+ns
+ns
+ns
+Hy
+ns
+ns
 tK
 tK
 LR
@@ -48826,16 +48918,16 @@ aV
 SR
 be
 be
-aV
+ns
 jF
-aV
-aV
+Pt
+tK
 jF
-aV
-aV
+ns
+ns
 jF
 yZ
-aV
+ns
 jF
 LQ
 Ar
@@ -48844,9 +48936,9 @@ LR
 LR
 be
 oR
-aV
-aV
-aV
+LR
+LR
+LR
 aV
 aV
 aR
@@ -49086,24 +49178,24 @@ SR
 SR
 tK
 tK
-sa
-aV
-aV
-aV
-EJ
+tK
+ns
+ns
+ns
+Xd
 tK
 tK
 ta
 tK
 oK
-aV
-aV
+LR
+LR
 LR
 be
 LR
-aV
-aV
-aV
+LR
+LR
+LR
 aV
 aV
 aR
@@ -49344,17 +49436,17 @@ SR
 tK
 oK
 oK
-aV
-aV
-aV
+ns
+ns
+ns
 yZ
 kI
 tK
 ta
 tK
 tK
-aV
-aV
+LR
+LR
 LR
 be
 be
@@ -49602,8 +49694,8 @@ jF
 oK
 oK
 jF
-aV
-aV
+ns
+ns
 jF
 dQ
 dQ
@@ -49611,14 +49703,14 @@ jF
 sa
 tK
 jF
-aV
+LR
 LR
 jF
 ww
 tK
 jF
 LR
-aV
+LR
 aV
 aV
 aV
@@ -49867,15 +49959,15 @@ oK
 oK
 oK
 tK
-aV
-aV
+LR
+LR
 LR
 LR
 oK
 hy
 LR
 LR
-aV
+LR
 aV
 aV
 aV
@@ -50124,15 +50216,15 @@ oK
 Yi
 tK
 tK
-aV
-aV
-aV
-aV
+LR
+LR
+LR
+LR
 oK
 HT
 LR
-aV
-aV
+LR
+LR
 aV
 aV
 aV
@@ -50382,14 +50474,14 @@ jF
 tK
 oK
 jF
-aV
-aV
+LR
+LR
 jF
 oK
 tK
 jF
-aR
-aV
+Yv
+LR
 jF
 aV
 aV
@@ -50896,7 +50988,7 @@ aV
 tK
 sa
 tK
-Ar
+oK
 oK
 oK
 oK
@@ -51149,15 +51241,15 @@ aV
 aV
 aV
 jF
-jF
-jF
-jF
+NR
+NR
+NR
 jF
 tK
 tK
 jF
-aV
-aV
+LN
+LN
 jF
 MY
 HT
@@ -51405,17 +51497,17 @@ aV
 aV
 aV
 aV
-jF
+NR
 Mq
 IE
 FL
 Gc
 tK
-tK
-aV
-aV
-aV
-aV
+sd
+LN
+LN
+LN
+LN
 tK
 tK
 ta
@@ -51662,17 +51754,17 @@ aV
 aV
 aV
 aV
-jF
+NR
 pm
 FL
 FL
 Gc
 tK
-tK
-aV
-aV
-aV
-aV
+Rz
+LN
+LN
+LN
+LN
 sa
 oK
 ta
@@ -51919,16 +52011,16 @@ aV
 aV
 aV
 aV
-jF
-FL
+NR
+KX
 FL
 JE
-jF
-aV
-aV
-aV
-aV
-aV
+NR
+LN
+LN
+LN
+LN
+LN
 jF
 tK
 HT
@@ -51958,7 +52050,7 @@ aV
 Pu
 Pu
 Pu
-Pu
+Iu
 Pu
 Pu
 Pu
@@ -52177,16 +52269,16 @@ aV
 aV
 aV
 jF
+NR
+NR
+NR
 jF
-jF
-jF
-jF
-aV
-aV
-aV
-aV
-aV
-aV
+LN
+LN
+LN
+LN
+LN
+LN
 Cs
 oK
 ta
@@ -52438,12 +52530,12 @@ aV
 aV
 aV
 aV
-aV
-aV
-aV
-aV
-aV
-aV
+LN
+LN
+LN
+LN
+LN
+LN
 oK
 oK
 ta
@@ -52470,11 +52562,11 @@ aV
 Pu
 Pu
 Pu
+Iu
+Iu
 Pu
 Pu
-Pu
-Pu
-iv
+Iu
 Pu
 Pu
 Pu
@@ -52692,14 +52784,14 @@ aV
 Bg
 Bg
 Bg
-aV
+Bg
 aV
 aV
 jF
 Cs
 tK
 jF
-aV
+LN
 jF
 WB
 oK
@@ -52727,14 +52819,14 @@ aV
 Pu
 Pu
 Pu
+Iu
 Pu
 Pu
 Pu
 Pu
 Pu
 Pu
-Pu
-Pu
+Iu
 Pu
 Pu
 Pu
@@ -52950,9 +53042,9 @@ Bg
 Bg
 Bg
 Bg
-aV
-aV
-aV
+Bg
+Bg
+Bg
 tK
 tK
 tK
@@ -52989,7 +53081,7 @@ Pu
 Pu
 Pu
 Pu
-iv
+Iu
 Pu
 Pu
 Pu
@@ -53013,9 +53105,9 @@ Pu
 Pu
 Pu
 HW
-HW
-HW
-HW
+Il
+Il
+Il
 HW
 Pu
 Pu
@@ -53209,7 +53301,7 @@ Bg
 Bg
 Bg
 Bg
-aV
+Bg
 oK
 tK
 tK
@@ -53239,12 +53331,12 @@ aV
 aV
 Pu
 Pu
+Iu
 Pu
 Pu
-Pu
-Pu
-Pu
-Pu
+Pl
+Iu
+iv
 Pu
 Pu
 Pu
@@ -53269,11 +53361,11 @@ Pu
 Pu
 Pu
 Pu
-HW
+Il
 HJ
 tu
 tu
-HW
+Il
 Pu
 Pu
 Pu
@@ -53470,13 +53562,13 @@ jF
 oK
 tK
 FS
-aR
+Kt
 jF
-aV
-aV
+iR
+iR
 jF
-aV
-aV
+iR
+iR
 jF
 aV
 mn
@@ -53497,14 +53589,14 @@ aV
 Pu
 Pu
 Pu
+iv
+HE
+Iu
+HE
+iv
+sl
 Pu
-Pu
-Pu
-Pu
-Pu
-bP
-Pu
-Pu
+Iu
 Pu
 Pu
 aV
@@ -53530,7 +53622,7 @@ op
 HJ
 HJ
 tu
-HW
+Il
 Pu
 Pu
 Pu
@@ -53720,22 +53812,22 @@ Bg
 Bg
 Bg
 Bg
-oK
+qg
 oK
 tK
 xR
 tK
 tK
-aV
-aV
 iR
 iR
 iR
-aV
-aV
-aV
-aV
-aV
+iR
+iR
+iR
+iR
+iR
+iR
+iR
 mn
 mn
 mn
@@ -53754,13 +53846,13 @@ aV
 Pu
 Pu
 Pu
-Pu
-Pu
-Pu
-Pu
-Pu
-Pu
-Pu
+qU
+iv
+qZ
+qU
+qZ
+Iu
+qU
 Pu
 Pu
 Pu
@@ -53783,11 +53875,11 @@ Pu
 Pu
 Pu
 Pu
-HW
+Il
 HJ
 GQ
 qR
-HW
+Il
 Pu
 Pu
 Pu
@@ -53977,22 +54069,22 @@ Bg
 Bg
 Bg
 Bg
-qU
 tK
+jL
 tK
 oK
 oK
 tK
-aV
 iR
 iR
 iR
 iR
 iR
 iR
-aV
-aV
-aV
+iR
+iR
+iR
+iR
 mn
 mn
 mn
@@ -54010,13 +54102,13 @@ aV
 Pu
 Pu
 Pu
-Pu
-Pu
-Pu
-Pu
+Iu
 iv
-Pu
-Pu
+HE
+qU
+gL
+qU
+HE
 Pu
 Pu
 Pu
@@ -54042,8 +54134,8 @@ Pu
 Pu
 HW
 NK
-HW
-HW
+Il
+Il
 HW
 Pu
 kN
@@ -54248,9 +54340,9 @@ iR
 iR
 iR
 iR
-aV
-aV
-aR
+iR
+iR
+Kt
 mn
 mn
 aV
@@ -54267,16 +54359,16 @@ aV
 Pu
 Pu
 Pu
+Iu
 Pu
+HE
+qZ
+qU
+qZ
+Iu
+iv
 Pu
-Pu
-Pu
-Pu
-Pu
-Pu
-Pu
-Pu
-Pu
+Iu
 Pu
 aV
 aV
@@ -54494,7 +54586,7 @@ Bg
 Bg
 Bg
 Bg
-aV
+Bg
 tK
 oK
 oK
@@ -54505,9 +54597,9 @@ iR
 iR
 iR
 iR
-aV
-aV
-aV
+iR
+iR
+iR
 be
 mn
 aV
@@ -54526,13 +54618,13 @@ Pu
 Pu
 Pu
 Pu
-Pu
-Pu
-Pu
-Pu
-Pu
-Pu
-Pu
+iv
+Iu
+HE
+Iu
+iv
+iv
+Pl
 Pu
 Pu
 aV
@@ -54750,20 +54842,20 @@ Bg
 Bg
 Bg
 Bg
-aV
-aV
+Bg
+Bg
 tK
 oK
 dJ
 oK
 oK
-tK
+xi
 iR
 iR
 iR
 iR
-aV
-aV
+iR
+iR
 be
 SR
 aV
@@ -54781,15 +54873,15 @@ Pu
 Pu
 Pu
 Pu
+Iu
+Pl
+iv
+iv
+iv
+qU
 Pu
 Pu
-Pu
-Pu
-Pu
-Pu
-Pu
-Pu
-Pu
+Iu
 Pu
 Pu
 Pu
@@ -55005,9 +55097,9 @@ aV
 Bg
 Bg
 Bg
-aV
-aV
-aV
+Bg
+Bg
+Bg
 jF
 tK
 oK
@@ -55018,10 +55110,10 @@ jF
 iR
 iR
 iR
-aV
-aV
-aV
-aV
+iR
+iR
+iR
+iR
 SR
 oR
 aV
@@ -55041,10 +55133,10 @@ Pu
 Pu
 Pu
 Pu
+Iu
 Pu
 Pu
-Pu
-Pu
+Iu
 Pu
 Pu
 Pu
@@ -55260,25 +55352,25 @@ aV
 aV
 aV
 aV
-aV
-aV
-aV
-aV
-aV
-aV
+Bg
+Bg
+Bg
+Bg
+Bg
+Bg
 Cs
 oK
-aV
 iR
 iR
 iR
 iR
 iR
-aV
-aV
-aV
-aV
-aV
+iR
+iR
+iR
+iR
+iR
+iR
 mn
 mn
 aV
@@ -55294,7 +55386,7 @@ be
 Pu
 Pu
 Pu
-Pu
+Iu
 Pu
 Pu
 Pu
@@ -55522,19 +55614,19 @@ aV
 aV
 aV
 aV
-aV
+Bg
 tK
 tK
-aV
+iR
+iR
+iR
+iR
+iR
 aV
 aV
 iR
 iR
-aV
-aV
-aV
-aV
-aV
+iR
 oR
 mn
 mn
@@ -56088,10 +56180,10 @@ Pu
 Pu
 Pu
 HW
-HW
-HW
+Il
+oo
 dU
-HW
+Il
 HW
 kN
 kN
@@ -56344,12 +56436,12 @@ aV
 Pu
 Pu
 Pu
-HW
+Il
 KP
 aS
 yT
 Yo
-HW
+Il
 kN
 Pu
 Pu
@@ -56601,12 +56693,12 @@ aV
 Pu
 Pu
 Pu
-HW
+Rl
 dv
 Ix
 HJ
 HJ
-HW
+Rl
 kN
 Pu
 FT
@@ -56858,7 +56950,7 @@ aV
 Pu
 Pu
 Pu
-HW
+oo
 KP
 HJ
 HJ
@@ -57115,12 +57207,12 @@ aV
 Pu
 Pu
 Pu
-HW
+oo
 tu
 HJ
 HJ
 xm
-HW
+oo
 kN
 Pu
 FT
@@ -57372,12 +57464,12 @@ aV
 Pu
 Pu
 Pu
-HW
+Rl
 tu
 tu
 HJ
 DG
-HW
+Rl
 kN
 Pu
 iv
@@ -57629,12 +57721,12 @@ aV
 Pu
 Pu
 Pu
-HW
+Il
 HJ
 aS
 HJ
 HJ
-HW
+Il
 Pu
 Pu
 iv
@@ -57888,9 +57980,9 @@ Pu
 Pu
 HW
 Xx
-HW
-HW
-HW
+oo
+oo
+Il
 HW
 Pu
 Pu
@@ -61245,12 +61337,12 @@ Pu
 Pu
 Pu
 HW
+Il
+Rl
+Il
 HW
-HW
-HW
-HW
-HW
-HW
+oo
+oo
 HW
 LV
 Pu
@@ -61494,21 +61586,21 @@ Pu
 Pu
 Pu
 HW
-HW
+Il
 KT
-HW
+Il
 HW
 Pu
 Pu
 Pu
-HW
+Il
 HJ
 az
 HJ
-HW
+Il
 TZ
 sQ
-HW
+Rl
 LV
 Pu
 Pu
@@ -61750,22 +61842,22 @@ Pu
 Pu
 Pu
 Pu
-HW
+Il
 HJ
 HJ
 HJ
-HW
+Il
 Pu
 Pu
 Pu
-HW
+Rl
 HJ
 HJ
 HJ
 op
 HJ
 ie
-HW
+Rl
 Hw
 Pu
 LV
@@ -62007,21 +62099,21 @@ Pu
 Pu
 Pu
 Pu
-HW
+Il
 oP
 HJ
 HJ
-HW
+Il
 iv
 Pu
 LV
-HW
+oo
+yN
 HJ
 HJ
-HJ
 HW
-HW
-HW
+oo
+oo
 HW
 Hw
 LV
@@ -62264,19 +62356,19 @@ Pu
 Pu
 Pu
 Pu
-HW
+Il
 os
 Ul
 KP
-HW
+Il
 iv
 Pu
 LV
-HW
+oo
 Rs
 HJ
 HJ
-HW
+Rl
 Ns
 rA
 WM
@@ -62522,18 +62614,18 @@ Pu
 Pu
 Pu
 HW
-HW
-HW
-HW
+Il
+Il
+Il
 HW
 iv
 iv
 LV
-HW
+oo
 eG
 HJ
 HJ
-HW
+Il
 WM
 WM
 tu
@@ -62786,7 +62878,7 @@ iv
 iv
 iv
 LV
-HW
+Rl
 HJ
 HJ
 HJ
@@ -63043,11 +63135,11 @@ LV
 LV
 LV
 LV
-HW
+Il
 Jn
 RK
 Ms
-HW
+Il
 WM
 WM
 WM
@@ -63301,9 +63393,9 @@ Pu
 Pu
 Pu
 HW
-HW
-HW
-HW
+Il
+Rl
+Il
 HW
 WM
 WM

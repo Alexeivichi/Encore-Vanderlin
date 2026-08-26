@@ -58,7 +58,6 @@
 /datum/job/hand/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 	add_verb(spawned, /mob/living/carbon/human/proc/torture_victim)
-	addtimer(CALLBACK(SSfamilytree, TYPE_PROC_REF(/datum/controller/subsystem/familytree, AddRoyal), spawned, FAMILY_OMMER), 10 SECONDS)
 	// i know this sucks, but due to how job loading is, we can't just get the agents to load before the hand without some reworks
 	if(SSticker.current_state < GAME_STATE_PLAYING)
 		SSticker.OnRoundstart(CALLBACK(src, PROC_REF(agent_callback), spawned))
@@ -478,15 +477,15 @@
 /datum/job/advclass/hand/magister/on_roundstart(mob/living/spawned, client/player_client)
 	. = ..()
 	var/static/list/selectable_books = list(
-		"Blazing Tome (Fire)" = /obj/item/spellbook/legendary/starter/fire,
-		"Frostbound Tome (Ice)" = /obj/item/spellbook/legendary/starter/ice,
-		"Storm-Charged Tome (Lightning)" = /obj/item/spellbook/legendary/starter/lightning,
-		"Stoneveined Tome (Earth)" = /obj/item/spellbook/legendary/starter/earth,
-		"Thrice-Warded Tome (Arcane)" = /obj/item/spellbook/legendary/starter/arcane,
-		"Decay-Touched Tome (Entropy)" = /obj/item/spellbook/legendary/starter/death,
-		"Verdant Tome (Life)" = /obj/item/spellbook/legendary/starter/life,
-		"Windswept Tome (Air)" = /obj/item/spellbook/legendary/starter/air,
-		"Tidebound Tome (Water)" = /obj/item/spellbook/legendary/starter/water,
+		"Blazing Tome (Fire)" = /obj/item/spellbook/master/starter/fire,
+		"Frostbound Tome (Ice)" = /obj/item/spellbook/master/starter/ice,
+		"Storm-Charged Tome (Lightning)" = /obj/item/spellbook/master/starter/lightning,
+		"Stoneveined Tome (Earth)" = /obj/item/spellbook/master/starter/earth,
+		"Thrice-Warded Tome (Arcane)" = /obj/item/spellbook/master/starter/arcane,
+		"Decay-Touched Tome (Entropy)" = /obj/item/spellbook/master/starter/death,
+		"Verdant Tome (Life)" = /obj/item/spellbook/master/starter/life,
+		"Windswept Tome (Air)" = /obj/item/spellbook/master/starter/air,
+		"Tidebound Tome (Water)" = /obj/item/spellbook/master/starter/water,
 	)
 
 	grant_selected_spellbooks(spawned, selectable_books, 2)

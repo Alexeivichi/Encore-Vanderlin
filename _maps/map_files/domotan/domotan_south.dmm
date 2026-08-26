@@ -575,6 +575,10 @@
 	},
 /turf/open/floor/cobblerock/alt,
 /area/outdoors/bog/w_highroad)
+"cH" = (
+/obj/structure/wild_plant/nospread/manabloom,
+/turf/open/floor/dirt/road,
+/area/outdoors/woods/crossroads)
 "cI" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/fermentation_keg/random/water,
@@ -705,6 +709,9 @@
 	dir = 8
 	},
 /turf/open/water/ocean/abyss,
+/area/outdoors/woods/crossroads)
+"dn" = (
+/turf/open/floor/blocks/green,
 /area/outdoors/woods/crossroads)
 "do" = (
 /obj/structure/bridge_stakes{
@@ -2730,6 +2737,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/cobble,
 /area/under/cavewet)
+"nl" = (
+/obj/structure/leyline,
+/turf/open/floor/blocks/green,
+/area/outdoors/woods/crossroads)
 "nm" = (
 /obj/structure/table/wood/counter/end{
 	dir = 1
@@ -4562,6 +4573,9 @@
 /obj/effect/spawner/map_spawner/loot/coin/med,
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
+"wl" = (
+/turf/open/floor/greenstone,
+/area/outdoors/woods/crossroads)
 "wm" = (
 /obj/structure/flora/tree/pine,
 /turf/open/floor/grass,
@@ -5904,6 +5918,9 @@
 /obj/machinery/light/fueled/torchholder/hotspring/standing,
 /turf/open/floor/cobble/mossy,
 /area/outdoors/bog/witch)
+"Cl" = (
+/turf/open/floor/greenstone/runed,
+/area/outdoors/woods/crossroads)
 "Cm" = (
 /obj/structure/closet/crate/coffin,
 /turf/open/floor/cobble/mossy,
@@ -113056,11 +113073,11 @@ Vy
 Vy
 Vy
 Vy
+wl
 Vy
 Vy
-Vy
-Vy
-Vy
+NH
+NH
 Vy
 Vy
 Vy
@@ -113313,9 +113330,9 @@ Vy
 Vy
 Vy
 Vy
-Vy
-Vy
-Vy
+NH
+wl
+cH
 Vy
 Vy
 Vy
@@ -113569,13 +113586,13 @@ Vy
 Vy
 Vy
 Vy
+NH
 Vy
+Cl
+dn
+Cl
 Vy
-Vy
-Vy
-Vy
-Vy
-Vy
+wl
 Vy
 Vy
 Vy
@@ -113827,11 +113844,11 @@ Vy
 Vy
 Vy
 Vy
-Vy
-Vy
-Vy
-Vy
-Vy
+wl
+dn
+nl
+dn
+wl
 Vy
 Vy
 Vy
@@ -114084,11 +114101,11 @@ Vy
 wE
 Vy
 Vy
-Vy
-Vy
-Vy
-Vy
-Vy
+NH
+Cl
+dn
+Cl
+cH
 Vy
 Vy
 Vy
@@ -114340,12 +114357,12 @@ Vy
 Vy
 Vy
 Vy
+wl
+cH
+NH
+wl
 Vy
-Vy
-Vy
-Vy
-Vy
-Vy
+NH
 Vy
 Vy
 Vy
@@ -114599,9 +114616,9 @@ Vy
 Vy
 Vy
 Vy
+wl
 Vy
-Vy
-Vy
+wl
 Vy
 Vy
 Vy
