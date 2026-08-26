@@ -1,0 +1,5631 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/obj/structure/fluff/walldeco/bigpainting/rainuponthevalley,
+/obj/item/reagent_containers/glass/bottle/manapot,
+/obj/structure/table/wood,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"ae" = (
+/obj/structure/fluff/walldeco/maidensigil,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"aj" = (
+/obj/structure/curtain/cyancurtain/dir{
+	dir = 1
+	},
+/obj/structure/window/openclose{
+	dir = 1
+	},
+/turf/open/floor/twig,
+/area)
+"aq" = (
+/obj/structure/fluff/walldeco/vinez/blue,
+/turf/closed/wall/mineral/stone,
+/area)
+"av" = (
+/turf/open/glass,
+/area)
+"aB" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood,
+/area)
+"aI" = (
+/obj/structure/carpet/purple,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"aS" = (
+/turf/closed/mineral,
+/area)
+"bE" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/broom,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"bI" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"bK" = (
+/obj/effect/decal/carpet/square/black,
+/obj/structure/table/wood/counter{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/turned,
+/area)
+"bL" = (
+/obj/structure/fluff/clutter/shrub/red{
+	pixel_y = 15;
+	density = 0
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"bO" = (
+/obj/effect/decal/borderfall{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/turned,
+/area)
+"ck" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area)
+"cp" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/openspace,
+/area)
+"cw" = (
+/obj/structure/door/fancy{
+	name = "Office"
+	},
+/obj/effect/mapping_helpers/access/keyset/manor/archive/wiz_shared,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/ruinedwood/spiralfade,
+/area)
+"cF" = (
+/obj/effect/decal/shadow_floor{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/turned,
+/area)
+"cJ" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/obj/effect/decal/borderfall{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"cK" = (
+/obj/item/clothing/head/wizhat,
+/obj/structure/table/wood,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"cU" = (
+/obj/structure/fluff/walldeco/bath/wallrope,
+/turf/closed/wall/mineral/stone,
+/area)
+"cW" = (
+/turf/closed/wall/mineral/wooddark,
+/area)
+"dd" = (
+/obj/structure/fluff/nest,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"dB" = (
+/obj/structure/door/fancy{
+	name = "Staff Only"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/archive/wiz_shared,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"dP" = (
+/obj/structure/fluff/clutter/shrub/red{
+	pixel_y = 15;
+	density = 0
+	},
+/obj/structure/carpet/purple,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"dU" = (
+/obj/effect/decal/shadow_floor{
+	dir = 4
+	},
+/obj/structure/chair/wood/alt/chair_noble/purple,
+/turf/open/floor/ruinedwood/two,
+/area)
+"ea" = (
+/obj/structure/bookcase/fancy/random/legends,
+/obj/structure/fluff/railing/wood,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"eb" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"er" = (
+/turf/closed/wall/mineral/stone/window/moss/blue,
+/area)
+"eu" = (
+/obj/structure/fluff/clutter/books,
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"eC" = (
+/turf/open/floor/ruinedwood,
+/area)
+"eI" = (
+/obj/structure/table/map,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"fk" = (
+/obj/structure/tentdoor/bluedeco,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"fV" = (
+/obj/effect/decal/shadow_floor{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"gh" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/effect/waterfall,
+/turf/open/openspace,
+/area)
+"gq" = (
+/obj/structure/table/wood/folding{
+	pixel_y = 16;
+	layer = 4;
+	density = 0
+	},
+/turf/open/floor/ruinedwood/turned,
+/area)
+"gx" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/openspace,
+/area)
+"gR" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/turf/open/openspace,
+/area)
+"gT" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"gV" = (
+/obj/structure/fluff/walldeco/painting/castle,
+/turf/closed/wall/mineral/stone,
+/area)
+"hn" = (
+/obj/structure/fluff/fibermat/square,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"ht" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/openspace,
+/area)
+"hK" = (
+/obj/structure/flora/grass/herb/artemisia,
+/obj/structure/flora/grass/herb/symphitum,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/cobweb,
+/turf/open/floor/grass/healthy,
+/area)
+"hM" = (
+/obj/structure/carpet/green,
+/obj/structure/mirror/fancy,
+/obj/structure/closet/crate/drawer,
+/turf/open/floor/wood,
+/area)
+"hQ" = (
+/obj/effect/decal/shadow_floor{
+	dir = 4
+	},
+/obj/structure/chair/bench/church/smallbench,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/two,
+/area)
+"hW" = (
+/obj/effect/decal/shadow_floor{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned,
+/area)
+"ik" = (
+/obj/structure/door/fancy{
+	name = "Classroom"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/archive/wiz_shared,
+/turf/open/floor/ruinedwood/two,
+/area)
+"ir" = (
+/obj/structure/stairs{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"iB" = (
+/obj/structure/carpet/green,
+/obj/structure/bed/wool,
+/obj/item/bedsheet/wool,
+/turf/open/floor/wood,
+/area)
+"je" = (
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"jy" = (
+/obj/structure/window/openclose{
+	dir = 4
+	},
+/obj/structure/curtain/cyancurtain/dir{
+	dir = 4
+	},
+/turf/open/floor/twig,
+/area)
+"jK" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/turf/open/openspace,
+/area)
+"jT" = (
+/obj/effect/decal/carpet/kover_black{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"ki" = (
+/obj/structure/table/map{
+	dir = 6
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"kk" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/openspace,
+/area)
+"kp" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area)
+"ks" = (
+/obj/structure/fluff/railing/border{
+	dir = 10
+	},
+/turf/open/openspace,
+/area)
+"kt" = (
+/obj/structure/door/fancy{
+	name = "Magus Quarters"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/mage,
+/turf/open/floor/ruinedwood/spiralfade,
+/area)
+"kv" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood,
+/area)
+"kK" = (
+/obj/structure/fluff/telescope,
+/turf/open/floor/metal,
+/area)
+"ll" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/spiralfade,
+/area)
+"lo" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"lB" = (
+/obj/structure/fluff/walldeco/vinez/blue,
+/turf/closed/wall/mineral/wood,
+/area)
+"lC" = (
+/obj/structure/stairs,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area)
+"lH" = (
+/obj/structure/fluff/railing/border,
+/turf/open/floor/grass/healthy,
+/area)
+"lN" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"mk" = (
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/flora/grass/herb/urtica,
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
+/turf/open/floor/grass/healthy,
+/area)
+"mm" = (
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"mn" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area)
+"mw" = (
+/obj/structure/fluff/walldeco/gear,
+/turf/closed/wall/mineral/pipe,
+/area)
+"mN" = (
+/obj/structure/stairs,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"mO" = (
+/obj/structure/chair/stool/bar/fancyplush,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"mS" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/floor/grass/yel,
+/area)
+"mU" = (
+/obj/structure/carpet/purple,
+/obj/structure/mirror/fancy,
+/obj/structure/closet/crate/drawer,
+/turf/open/floor/wood,
+/area)
+"mZ" = (
+/obj/structure/carpet/green,
+/obj/structure/closet/crate/crafted_closet/inn,
+/obj/effect/spawner/guaranteed_map_spawner/listed/clothes,
+/obj/item/clothing/shirt/robe/colored/purple,
+/obj/item/clothing/head/wizhat/witch,
+/obj/item/clothing/head/wizhat/random,
+/turf/open/floor/wood,
+/area)
+"nb" = (
+/obj/structure/table/wood/counter{
+	dir = 1
+	},
+/obj/structure/carpet,
+/turf/open/floor/ruinedwood/spiralfade,
+/area)
+"nD" = (
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"nW" = (
+/obj/item/reagent_containers/food/snacks/crow,
+/turf/open/floor/rooftop,
+/area)
+"ou" = (
+/obj/structure/table/wood/folding{
+	pixel_y = 16;
+	layer = 4;
+	density = 0
+	},
+/obj/effect/decal/shadow_floor{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned,
+/area)
+"oz" = (
+/obj/structure/chair/wood/alt/chair_noble/red,
+/obj/effect/decal/shadow_floor{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/turned,
+/area)
+"oB" = (
+/obj/structure/tentdoor/noc,
+/turf/open/floor/ruinedwood,
+/area)
+"oF" = (
+/obj/structure/fluff/walldeco/customflag/regent,
+/turf/closed/wall/mineral/stone/moss/blue,
+/area)
+"oG" = (
+/obj/structure/table/map{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"oR" = (
+/obj/structure/window/solid,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"oX" = (
+/obj/structure/nocdevice,
+/turf/open/floor/metal,
+/area)
+"oZ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/closed/wall/mineral/wood,
+/area)
+"pf" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/structure/table/wood/fancy,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"pw" = (
+/obj/structure/carpet,
+/turf/open/floor/wood,
+/area)
+"pJ" = (
+/obj/structure/chair/wood/alt/chair_noble/purple,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"pM" = (
+/obj/structure/door/fancy{
+	name = "Staffers Desk"
+	},
+/obj/effect/mapping_helpers/access/keyset/manor/archive/wiz_shared,
+/turf/open/floor/twig,
+/area)
+"pS" = (
+/obj/structure/closet/crate/crafted_closet/inn,
+/turf/open/floor/ruinedwood/turned/darker,
+/area)
+"qa" = (
+/obj/structure/carpet,
+/obj/structure/closet/crate/crafted_closet/inn,
+/obj/effect/spawner/guaranteed_map_spawner/listed/clothes,
+/obj/item/clothing/shirt/robe/colored/purple,
+/obj/item/clothing/head/wizhat/random,
+/obj/item/clothing/head/wizhat/witch,
+/turf/open/floor/wood,
+/area)
+"qh" = (
+/obj/structure/door/fancy{
+	name = "Doma Magick Institute"
+	},
+/obj/effect/mapping_helpers/access/keyset/manor/archive/wiz_shared,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/twig,
+/area)
+"qp" = (
+/obj/structure/door/weak/bolt{
+	dir = 8;
+	name = "Student Dormitory Four"
+	},
+/turf/open/floor/twig,
+/area)
+"qz" = (
+/obj/structure/carpet/purple,
+/turf/open/floor/wood,
+/area)
+"qJ" = (
+/obj/structure/fluff/railing/border,
+/turf/open/openspace,
+/area)
+"qL" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/grass/healthy,
+/area)
+"qZ" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/bookcase/fancy/random_recipes,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"re" = (
+/obj/effect/waterfall,
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/openspace,
+/area)
+"rf" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/openspace,
+/area)
+"rh" = (
+/obj/structure/table/wood/folding{
+	pixel_y = 16;
+	layer = 4;
+	density = 0
+	},
+/obj/effect/decal/shadow_floor{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/turned,
+/area)
+"rl" = (
+/obj/structure/fluff/walldeco/painting/moon,
+/turf/closed/wall/mineral/stone/moss/blue,
+/area)
+"rp" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/openspace,
+/area)
+"ru" = (
+/obj/structure/table/wood/fancy/royalblack,
+/obj/item/candle/yellow{
+	pixel_y = -3
+	},
+/obj/item/candle/yellow{
+	pixel_x = 5
+	},
+/obj/item/candle/scandelabrasingle{
+	pixel_y = 23;
+	pixel_x = -5
+	},
+/turf/open/floor/ruinedwood/two,
+/area)
+"ry" = (
+/obj/effect/waterfall,
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/turf/open/openspace,
+/area)
+"rD" = (
+/obj/effect/decal/borderfall{
+	dir = 1
+	},
+/obj/effect/decal/shadow_floor{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned,
+/area)
+"rT" = (
+/obj/structure/fluff/nest,
+/turf/open/floor/rooftop,
+/area)
+"sa" = (
+/obj/structure/fluff/clutter/shrub/tundra{
+	pixel_y = 15;
+	density = 0
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"sc" = (
+/obj/structure/closet/crate/crafted_closet/inn,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"sq" = (
+/obj/structure/carpet,
+/obj/structure/mirror/fancy,
+/obj/structure/closet/crate/drawer,
+/turf/open/floor/wood,
+/area)
+"sB" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/spiralfade,
+/area)
+"sX" = (
+/obj/structure/door/fancy{
+	name = "Tower"
+	},
+/obj/effect/mapping_helpers/access/keyset/manor/archive/wiz_shared,
+/turf/open/floor/twig,
+/area)
+"ta" = (
+/obj/effect/decal/carpet/kover_black{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"tf" = (
+/obj/structure/fluff/clutter/shrub/tundra{
+	pixel_y = 15;
+	density = 0
+	},
+/obj/structure/carpet/purple,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"ti" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"tk" = (
+/obj/structure/door/weak/bolt{
+	dir = 8;
+	name = "Student Dormitory Six"
+	},
+/turf/open/floor/twig,
+/area)
+"tr" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/ruinedwood,
+/area)
+"tL" = (
+/turf/closed/wall/mineral/stone,
+/area)
+"tZ" = (
+/obj/structure/bookcase/fancy/random_recipes,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"uv" = (
+/obj/structure/chair/wood/alt/chair_noble/red,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"uD" = (
+/obj/structure/fluff/clutter/shrub/red,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"uS" = (
+/obj/structure/bars/pipe{
+	dir = 8
+	},
+/obj/structure/bars/pipe{
+	dir = 4
+	},
+/turf/open/water/river,
+/area)
+"vc" = (
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"vz" = (
+/obj/structure/bookcase/fancy/random_recipes,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"vG" = (
+/obj/structure/chair/stool,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"vP" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"vY" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/openspace,
+/area)
+"wb" = (
+/obj/structure/fluff/clutter/books,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"wD" = (
+/obj/structure/carpet,
+/obj/structure/closet/crate/crafted_closet/inn,
+/obj/effect/spawner/guaranteed_map_spawner/listed/clothes,
+/obj/item/clothing/shirt/robe/colored/purple,
+/obj/item/clothing/head/wizhat/witch,
+/obj/item/clothing/head/wizhat/random,
+/turf/open/floor/wood,
+/area)
+"xw" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 1
+	},
+/turf/open/floor/metal,
+/area)
+"yq" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/wood,
+/area)
+"yU" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/openspace,
+/area)
+"yY" = (
+/turf/open/floor/ruinedwood/two,
+/area)
+"zi" = (
+/obj/effect/decal/shadow_floor{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/two,
+/area)
+"zw" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/floor/ruinedwood,
+/area)
+"zz" = (
+/obj/structure/bars/pipe{
+	dir = 4
+	},
+/obj/structure/bars/pipe{
+	dir = 8
+	},
+/turf/open/water/river,
+/area)
+"zN" = (
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/mage,
+/obj/structure/door/fancy{
+	name = "Quarter One"
+	},
+/turf/open/floor/ruinedwood/spiralfade,
+/area)
+"zO" = (
+/obj/structure/carpet/green,
+/obj/structure/chair/stool,
+/turf/open/floor/wood,
+/area)
+"zS" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/openspace,
+/area)
+"zV" = (
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/mage,
+/obj/structure/door/fancy{
+	name = "Quarter Three"
+	},
+/turf/open/floor/ruinedwood/spiralfade,
+/area)
+"zX" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area)
+"Av" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"AY" = (
+/obj/structure/fluff/railing/border{
+	dir = 9
+	},
+/turf/open/openspace,
+/area)
+"Bg" = (
+/obj/structure/chair/bench/church/smallbench,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"Bi" = (
+/obj/structure/fluff/telescope,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"Bs" = (
+/obj/structure/table/wood/folding{
+	pixel_y = 16;
+	layer = 4;
+	density = 0
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/turned,
+/area)
+"By" = (
+/obj/structure/fluff/walldeco/bigpainting,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"BF" = (
+/obj/structure/stairs,
+/turf/open/floor/wood,
+/area)
+"BL" = (
+/obj/structure/chair/wood/alt/chair_noble/red{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area)
+"BW" = (
+/obj/structure/door/weak/bolt{
+	dir = 8;
+	name = "Student Dormitory Five"
+	},
+/turf/open/floor/twig,
+/area)
+"BZ" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/flora/grass,
+/obj/structure/flora/grass/herb/artemisia,
+/turf/open/floor/grass/healthy,
+/area)
+"Cw" = (
+/obj/structure/fluff/walldeco/moon,
+/turf/closed/wall/mineral/stone,
+/area)
+"CE" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/structure/fluff/railing/border,
+/turf/open/openspace,
+/area)
+"Di" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/openspace,
+/area)
+"Dl" = (
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/mage,
+/obj/structure/door/fancy{
+	name = "Quarter Two"
+	},
+/turf/open/floor/ruinedwood/spiralfade,
+/area)
+"Dq" = (
+/obj/structure/chair/wood/alt/chair_noble/red{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"DB" = (
+/obj/structure/table/map{
+	dir = 9
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"DE" = (
+/obj/structure/chair/wood/alt/chair_noble/red,
+/turf/open/floor/ruinedwood/turned,
+/area)
+"DG" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/turf/open/floor/grass/healthy,
+/area)
+"DJ" = (
+/turf/open/floor/ruinedwood/turned,
+/area)
+"DU" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"DX" = (
+/obj/structure/closet/crate/drawer,
+/obj/item/clothing/face/spectacles/sglasses,
+/obj/item/magnifying_glass,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"Eh" = (
+/turf/closed/wall/mineral/stone/window,
+/area)
+"En" = (
+/obj/structure/door/weak/bolt{
+	dir = 8;
+	name = "Student Dormitory Two"
+	},
+/turf/open/floor/twig,
+/area)
+"Ep" = (
+/obj/effect/mapping_helpers/access/keyset/manor/archive/wiz_shared,
+/obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/fancy{
+	name = "Tower"
+	},
+/turf/open/floor/ruinedwood/spiralfade,
+/area)
+"EL" = (
+/turf/open/floor/rooftop,
+/area)
+"EP" = (
+/turf/open/floor/grass/yel,
+/area)
+"FD" = (
+/obj/structure/table/map{
+	dir = 5
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"FJ" = (
+/obj/structure/fluff/globe,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"FK" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"FW" = (
+/obj/structure/curtain/bounty,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"Gk" = (
+/turf/closed/wall/mineral/stone/moss/blue,
+/area)
+"GL" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/effect/waterfall,
+/turf/open/openspace,
+/area)
+"Hq" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"HB" = (
+/obj/structure/carpet,
+/turf/open/floor/ruinedwood/spiralfade,
+/area)
+"HH" = (
+/obj/structure/carpet/purple,
+/obj/structure/closet/crate/crafted_closet/inn,
+/obj/effect/spawner/guaranteed_map_spawner/listed/clothes,
+/obj/item/clothing/shirt/robe/colored/purple,
+/obj/item/clothing/head/wizhat/random,
+/obj/item/clothing/head/wizhat/witch,
+/turf/open/floor/wood,
+/area)
+"HS" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"HU" = (
+/obj/structure/window/solid,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"Iv" = (
+/turf/open/floor/metal,
+/area)
+"Ix" = (
+/obj/structure/carpet,
+/obj/structure/bed/wool,
+/obj/item/bedsheet/wool,
+/turf/open/floor/wood,
+/area)
+"II" = (
+/turf/open/floor/ruinedwood/turned/darker,
+/area)
+"IU" = (
+/obj/effect/waterfall,
+/turf/open/openspace,
+/area)
+"Jd" = (
+/obj/effect/decal/borderfall{
+	dir = 1
+	},
+/obj/effect/decal/shadow_floor{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/turned,
+/area)
+"Jf" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"Jr" = (
+/obj/structure/fluff/walldeco/maidensigil,
+/turf/open/openspace,
+/area)
+"JI" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/structure/bookcase/fancy/random/apocrypha,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"JK" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/openspace,
+/area)
+"JT" = (
+/obj/structure/table/wood/folding{
+	pixel_y = 16;
+	layer = 4;
+	density = 0
+	},
+/obj/effect/decal/shadow_floor{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/turned,
+/area)
+"Ka" = (
+/obj/structure/table/wood/counter/end,
+/turf/open/floor/ruinedwood/turned,
+/area)
+"Kw" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/grass/herb/rosa,
+/turf/open/floor/grass/healthy,
+/area)
+"KX" = (
+/obj/item/broom,
+/obj/structure/rack/shelf/biggest,
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"LR" = (
+/obj/structure/carpet/purple,
+/obj/structure/closet/crate/crafted_closet/inn,
+/obj/item/clothing/shirt/robe/colored/purple,
+/obj/item/clothing/head/wizhat/random,
+/obj/item/clothing/head/wizhat/witch,
+/obj/effect/spawner/guaranteed_map_spawner/listed/clothes/fancy,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area)
+"LT" = (
+/obj/structure/fluff/walldeco/gear,
+/turf/closed/wall/mineral/stone,
+/area)
+"LU" = (
+/obj/structure/window/openclose,
+/obj/structure/curtain/cyancurtain/dir,
+/turf/open/floor/twig,
+/area)
+"Mc" = (
+/obj/structure/chair/wood/alt/chair_noble/red,
+/obj/effect/decal/shadow_floor{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/turned,
+/area)
+"Mk" = (
+/turf/open/floor/wood,
+/area)
+"MC" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/turf/open/openspace,
+/area)
+"ML" = (
+/obj/structure/table/map{
+	dir = 10
+	},
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"MN" = (
+/obj/effect/decal/carpet/square/black,
+/turf/open/floor/ruinedwood/two,
+/area)
+"MQ" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/two,
+/area)
+"MW" = (
+/obj/structure/fluff/walldeco/vinez/blue,
+/turf/closed/wall/mineral/stone/window,
+/area)
+"Ne" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"NP" = (
+/obj/structure/fluff/walldeco/painting/skull,
+/turf/closed/wall/mineral/stone,
+/area)
+"NY" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/two,
+/area)
+"Od" = (
+/obj/structure/fluff/railing/border,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/openspace,
+/area)
+"Og" = (
+/obj/structure/chair/wood/alt/chair_noble/red,
+/obj/effect/decal/shadow_floor{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned,
+/area)
+"Ov" = (
+/turf/closed/wall/mineral/decowood,
+/area)
+"OU" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/alch/herb/matricaria,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"Pa" = (
+/obj/structure/window/openclose{
+	dir = 8
+	},
+/obj/structure/curtain/cyancurtain/dir{
+	dir = 8
+	},
+/turf/open/floor/twig,
+/area)
+"Pk" = (
+/obj/structure/bookcase/fancy/random/apocrypha,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"Pp" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"Pv" = (
+/turf/open/openspace,
+/area)
+"Pz" = (
+/obj/item/candle/scandle,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area)
+"PF" = (
+/obj/structure/chair/wood/alt/chair_noble/red,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"PT" = (
+/obj/structure/table/wood/folding{
+	pixel_y = 16;
+	layer = 4;
+	density = 0
+	},
+/obj/effect/decal/carpet/square,
+/turf/open/floor/ruinedwood/turned,
+/area)
+"PV" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/structure/fluff/railing/border,
+/turf/open/openspace,
+/area)
+"PX" = (
+/turf/closed/wall/mineral/wood,
+/area)
+"Qb" = (
+/obj/structure/fluff/moonrug,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"QD" = (
+/obj/structure/carpet/green,
+/obj/structure/closet/crate/crafted_closet/inn,
+/obj/effect/spawner/guaranteed_map_spawner/listed/clothes,
+/obj/item/clothing/shirt/robe/colored/purple,
+/obj/item/clothing/head/wizhat/random,
+/obj/item/clothing/head/wizhat/witch,
+/turf/open/floor/wood,
+/area)
+"QF" = (
+/obj/structure/fluff/fibermat/round,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"QM" = (
+/obj/structure/chair/wood/alt/chair_noble/purple{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"QW" = (
+/obj/structure/closet/crate/chest/crate,
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"QY" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"Ri" = (
+/obj/structure/fluff/walldeco/gear/small,
+/turf/closed/wall/mineral/stone,
+/area)
+"Rq" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/turf/open/openspace,
+/area)
+"Rr" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"Rz" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/turned/darker,
+/area)
+"RE" = (
+/obj/structure/fluff/walldeco/painting/skull,
+/turf/closed/wall/mineral/wood,
+/area)
+"RY" = (
+/obj/structure/carpet/purple,
+/obj/structure/chair/stool,
+/turf/open/floor/wood,
+/area)
+"Sj" = (
+/turf/open/floor/ruinedwood/spiralfade,
+/area)
+"St" = (
+/obj/structure/fluff/railing/border,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/openspace,
+/area)
+"SJ" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/openspace,
+/area)
+"SQ" = (
+/obj/structure/fluff/walldeco/customflag/regent,
+/turf/closed/wall/mineral/stone,
+/area)
+"SW" = (
+/obj/structure/fluff/walldeco/bath/four,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/openspace,
+/area)
+"Tg" = (
+/obj/structure/table/wood/counter/end{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/turned,
+/area)
+"Tt" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/two,
+/area)
+"TZ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"Ui" = (
+/obj/structure/chair/wood/alt/chair_noble/red{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"Uz" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"UD" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/book/cardgame,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"UE" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area)
+"UH" = (
+/obj/structure/fluff/railing/wood,
+/obj/structure/fluff/wallclock,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"UN" = (
+/obj/structure/door/weak/bolt{
+	dir = 8;
+	name = "Student Dormitory Three"
+	},
+/turf/open/floor/twig,
+/area)
+"Vs" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/turf/open/openspace,
+/area)
+"VI" = (
+/obj/item/statue/silver,
+/obj/structure/table/wood/nice/decorated_alt,
+/obj/effect/spawner/guaranteed_map_spawner/single/cup,
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"Wl" = (
+/obj/structure/mirror,
+/obj/structure/mannequin,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area)
+"Wm" = (
+/turf/closed/wall/mineral/pipe,
+/area)
+"Wv" = (
+/obj/effect/decal/carpet/kover_black{
+	dir = 4
+	},
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"WA" = (
+/obj/structure/bookcase/fancy/random/legends,
+/turf/open/floor/ruinedwood/spiralfade,
+/area)
+"WD" = (
+/obj/structure/carpet,
+/obj/structure/chair/stool,
+/turf/open/floor/wood,
+/area)
+"WG" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/turf/open/openspace,
+/area)
+"WI" = (
+/obj/structure/fluff/walldeco/vinez/blue,
+/turf/closed/wall/mineral/stone/moss/blue,
+/area)
+"WS" = (
+/obj/item/clothing/face/cigarette/pipe/westman,
+/obj/item/natural/feather,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area)
+"Xd" = (
+/obj/structure/door/weak/bolt{
+	dir = 8;
+	name = "Student Dormitory One"
+	},
+/turf/open/floor/twig,
+/area)
+"Xj" = (
+/obj/structure/table/wood/counter/end{
+	dir = 1
+	},
+/obj/structure/carpet,
+/turf/open/floor/ruinedwood/spiralfade,
+/area)
+"Xq" = (
+/obj/structure/fluff/walldeco/vinez/blue,
+/turf/closed/wall/mineral/pipe,
+/area)
+"Xr" = (
+/obj/structure/tentdoor/noc,
+/turf/open/floor/ruinedwood/spiralfade,
+/area)
+"Xx" = (
+/obj/structure/carpet/green,
+/turf/open/floor/wood,
+/area)
+"Xy" = (
+/obj/structure/closet/crate/crafted_closet/inn,
+/turf/open/floor/ruinedwood/spiralfade,
+/area)
+"XB" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair/bench/church/smallbench,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"Yb" = (
+/obj/structure/fluff/railing/border,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"Yk" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/openspace,
+/area)
+"Yl" = (
+/obj/effect/decal/borderfall{
+	dir = 1
+	},
+/obj/structure/fluff/wallclock,
+/turf/open/floor/ruinedwood/turned,
+/area)
+"YH" = (
+/obj/structure/carpet/purple,
+/obj/structure/bed/wool,
+/obj/item/bedsheet/wool,
+/turf/open/floor/wood,
+/area)
+"YW" = (
+/obj/structure/chair/wood/alt/chair_noble/red,
+/obj/effect/decal/carpet/square,
+/turf/open/floor/ruinedwood/turned,
+/area)
+"Zs" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"Zz" = (
+/obj/structure/ladder,
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"ZA" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"ZY" = (
+/obj/structure/table/wood/fancy/black,
+/obj/item/natural/feather,
+/obj/item/paper/scroll,
+/turf/open/floor/wood,
+/area)
+
+(1,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(2,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(3,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(4,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(5,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+tL
+tL
+tL
+tL
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(6,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+tL
+Zz
+je
+tL
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(7,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+Wm
+Xr
+tL
+tL
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(8,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(9,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(10,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(11,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(12,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(13,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(14,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(15,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(16,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(17,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(18,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(19,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(20,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(21,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(22,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(23,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(24,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+(25,1,1) = {"
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+aS
+"}
+
+(1,1,2) = {"
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+"}
+(2,1,2) = {"
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+"}
+(3,1,2) = {"
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+"}
+(4,1,2) = {"
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+"}
+(5,1,2) = {"
+EP
+EP
+EP
+EP
+EP
+tL
+tL
+tL
+tL
+jy
+jy
+PX
+tL
+jy
+jy
+PX
+tL
+jy
+jy
+PX
+tL
+EP
+EP
+EP
+EP
+"}
+(6,1,2) = {"
+EP
+EP
+EP
+EP
+EP
+tL
+Zz
+Pv
+tL
+hM
+zO
+ZY
+tL
+mU
+RY
+ZY
+tL
+sq
+WD
+ZY
+tL
+EP
+EP
+EP
+EP
+"}
+(7,1,2) = {"
+EP
+tL
+tL
+Wm
+Wm
+Wm
+Ep
+tL
+tL
+QD
+Xx
+BL
+PX
+HH
+qz
+BL
+PX
+qa
+pw
+BL
+aj
+EP
+EP
+EP
+EP
+"}
+(8,1,2) = {"
+EP
+aq
+vY
+Pv
+Pv
+lC
+Mk
+Mk
+PX
+iB
+Xx
+Mk
+PX
+YH
+qz
+Mk
+PX
+Ix
+pw
+Mk
+PX
+EP
+EP
+EP
+EP
+"}
+(9,1,2) = {"
+EP
+aq
+Pv
+Pv
+Pv
+BF
+UE
+UE
+aq
+yq
+Mk
+Mk
+tL
+yq
+Mk
+Mk
+tL
+yq
+Mk
+Mk
+tL
+EP
+EP
+EP
+EP
+"}
+(10,1,2) = {"
+EP
+Wm
+Pv
+Pv
+Pv
+gh
+Mk
+ck
+aq
+tL
+Xd
+tL
+tL
+tL
+En
+tL
+tL
+tL
+UN
+tL
+cW
+EP
+EP
+EP
+EP
+"}
+(11,1,2) = {"
+EP
+Wm
+Pv
+Pv
+Pv
+GL
+Mk
+UE
+sX
+je
+je
+je
+je
+je
+ta
+je
+je
+Zs
+je
+je
+qh
+mS
+EP
+EP
+EP
+"}
+(12,1,2) = {"
+EP
+Wm
+Wm
+Xq
+aq
+mn
+Mk
+UE
+sX
+je
+Wv
+Av
+Av
+je
+je
+je
+je
+je
+jT
+je
+aj
+EP
+EP
+EP
+EP
+"}
+(13,1,2) = {"
+EP
+tL
+tL
+tL
+aq
+zX
+Mk
+Mk
+tL
+pM
+tL
+tL
+dU
+zi
+zi
+hQ
+tZ
+tZ
+qZ
+ir
+PX
+EP
+EP
+EP
+EP
+"}
+(14,1,2) = {"
+EP
+tL
+tL
+tL
+tL
+tL
+pM
+tL
+tL
+vc
+tL
+mn
+yY
+yY
+yY
+tL
+tL
+tL
+tL
+tL
+PX
+PX
+PX
+PX
+cW
+"}
+(15,1,2) = {"
+EP
+EP
+EP
+cW
+vc
+gT
+vc
+FW
+FK
+lN
+tL
+mn
+yY
+MN
+yY
+ik
+eb
+vc
+vc
+FK
+vc
+FK
+bE
+sc
+Ov
+"}
+(16,1,2) = {"
+EP
+EP
+EP
+PX
+lN
+lN
+QY
+FW
+vc
+lN
+tL
+tL
+ru
+yY
+yY
+ik
+Jf
+vc
+lN
+lN
+lN
+vc
+fV
+fV
+aj
+"}
+(17,1,2) = {"
+EP
+EP
+EP
+PX
+vc
+Jf
+Pv
+aq
+vc
+vc
+pJ
+Pz
+yY
+yY
+yY
+tL
+rD
+Og
+ou
+hW
+Og
+ou
+hW
+hW
+Ov
+"}
+(18,1,2) = {"
+EP
+EP
+EP
+cW
+PX
+PX
+cW
+tL
+KX
+vc
+lN
+WS
+yY
+MN
+yY
+tL
+bO
+DE
+gq
+DJ
+DE
+Bs
+Ka
+DJ
+aj
+"}
+(19,1,2) = {"
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+tL
+ab
+vc
+lN
+kp
+yY
+yY
+NY
+tL
+Yl
+DE
+PT
+DJ
+YW
+Bs
+bK
+DJ
+Ov
+"}
+(20,1,2) = {"
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+tL
+cK
+DX
+QM
+kp
+yY
+Tt
+Tt
+tL
+bO
+DE
+gq
+DJ
+DE
+gq
+Tg
+DJ
+aj
+"}
+(21,1,2) = {"
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+tL
+tL
+tL
+tL
+cW
+MQ
+yY
+yY
+tL
+Jd
+oz
+JT
+cF
+Mc
+rh
+cF
+cF
+Ov
+"}
+(22,1,2) = {"
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+cW
+Pa
+qh
+qh
+tL
+cJ
+vc
+vc
+Hq
+lN
+lN
+HS
+vz
+cW
+"}
+(23,1,2) = {"
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+cW
+PX
+Pa
+Pa
+PX
+Pa
+Pa
+PX
+PX
+cW
+"}
+(24,1,2) = {"
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+"}
+(25,1,2) = {"
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+"}
+
+(1,1,3) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(2,1,3) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(3,1,3) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(4,1,3) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(5,1,3) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+tL
+Eh
+tL
+tL
+jy
+jy
+PX
+tL
+jy
+jy
+PX
+tL
+jy
+jy
+PX
+tL
+Pv
+Pv
+Pv
+Pv
+"}
+(6,1,3) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Eh
+Zz
+tL
+tL
+mU
+RY
+ZY
+tL
+sq
+WD
+ZY
+tL
+hM
+zO
+ZY
+tL
+Pv
+Pv
+Pv
+Pv
+"}
+(7,1,3) = {"
+Pv
+Wm
+mw
+jy
+tL
+tL
+tL
+tL
+PX
+HH
+qz
+BL
+PX
+wD
+pw
+BL
+tL
+mZ
+Xx
+BL
+PX
+Pv
+Pv
+Pv
+Pv
+"}
+(8,1,3) = {"
+Pv
+Xq
+Zs
+je
+mN
+Gk
+tL
+tL
+PX
+YH
+qz
+Mk
+PX
+Ix
+pw
+Mk
+PX
+iB
+Xx
+Mk
+PX
+Pv
+Pv
+Pv
+Pv
+"}
+(9,1,3) = {"
+Pv
+LU
+aI
+Av
+mN
+WI
+Gk
+Gk
+tL
+yq
+Mk
+Mk
+tL
+yq
+Mk
+Mk
+tL
+yq
+Mk
+Mk
+tL
+Pv
+Pv
+Pv
+Pv
+"}
+(10,1,3) = {"
+Pv
+Wm
+dP
+je
+cp
+IU
+qJ
+hK
+Gk
+Gk
+qp
+tL
+aq
+aq
+BW
+tL
+NP
+tL
+tk
+Gk
+Gk
+Pv
+Pv
+Pv
+Pv
+"}
+(11,1,3) = {"
+Pv
+Wm
+tf
+je
+WG
+IU
+qJ
+mk
+DG
+je
+Av
+je
+Zs
+je
+eC
+eC
+aB
+Zs
+je
+Pk
+aj
+Pv
+Pv
+Pv
+Pv
+"}
+(12,1,3) = {"
+Pv
+LU
+aI
+je
+Rr
+Pv
+qJ
+BZ
+je
+aB
+aB
+je
+eC
+je
+Av
+Av
+Av
+Av
+mm
+JI
+aj
+Pv
+Pv
+Pv
+Pv
+"}
+(13,1,3) = {"
+Pv
+aq
+ae
+je
+Rr
+Pv
+St
+Kw
+je
+eC
+eC
+pf
+cp
+kk
+PV
+uD
+je
+eC
+Yb
+Pv
+lB
+Pv
+Pv
+Pv
+Pv
+"}
+(14,1,3) = {"
+Pv
+tL
+cw
+Wm
+Wm
+Xq
+Gk
+oF
+Av
+je
+Rr
+Pv
+Pv
+Pv
+qJ
+tL
+nD
+je
+ti
+ir
+cW
+EL
+EL
+EL
+EL
+"}
+(15,1,3) = {"
+Pv
+PX
+Sj
+HB
+nb
+HB
+Sj
+lB
+zw
+je
+Rr
+gR
+gR
+gR
+CE
+cW
+dB
+PX
+PX
+PX
+PX
+PX
+PX
+PX
+PX
+"}
+(16,1,3) = {"
+Pv
+LU
+Sj
+HB
+Xj
+HB
+Sj
+cw
+eC
+je
+uv
+DB
+ML
+Ui
+je
+lB
+je
+SJ
+Pv
+Pv
+vY
+Pv
+Pv
+vY
+PX
+"}
+(17,1,3) = {"
+Pv
+LU
+WA
+HB
+HB
+HB
+Sj
+cw
+je
+eC
+PF
+oG
+eI
+je
+eC
+lB
+je
+Rq
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+PX
+"}
+(18,1,3) = {"
+Pv
+PX
+LR
+Sj
+Sj
+Sj
+ll
+PX
+QW
+eC
+Av
+FD
+ki
+Dq
+je
+lB
+Av
+Rq
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+PX
+"}
+(19,1,3) = {"
+Pv
+cW
+PX
+Pa
+cw
+Pa
+PX
+RE
+qL
+je
+Av
+Dq
+je
+aB
+eC
+PX
+je
+Rq
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+PX
+"}
+(20,1,3) = {"
+Pv
+Pv
+Od
+Bi
+je
+vG
+Rq
+LU
+lH
+Dq
+je
+kv
+eC
+eC
+je
+dB
+Ne
+Rq
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+PX
+"}
+(21,1,3) = {"
+Pv
+Pv
+ks
+kk
+kk
+kk
+AY
+cW
+PX
+Pa
+Pa
+lB
+Pa
+Pa
+PX
+PX
+Ne
+Rq
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+PX
+"}
+(22,1,3) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+EL
+EL
+EL
+EL
+cW
+TZ
+Rq
+Pv
+Pv
+yU
+Pv
+Pv
+yU
+PX
+"}
+(23,1,3) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+cW
+oZ
+PX
+PX
+PX
+PX
+PX
+PX
+PX
+cW
+"}
+(24,1,3) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+rp
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(25,1,3) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+
+(1,1,4) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(2,1,4) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(3,1,4) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(4,1,4) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(5,1,4) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+tL
+Eh
+tL
+EL
+rT
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+rT
+EL
+Pv
+Pv
+Pv
+Pv
+"}
+(6,1,4) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Eh
+Zz
+tL
+EL
+nW
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+"}
+(7,1,4) = {"
+Pv
+Wm
+Wm
+Wm
+Wm
+gV
+tL
+rl
+Gk
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+"}
+(8,1,4) = {"
+Pv
+Wm
+Gk
+SW
+Pv
+mN
+je
+Bg
+Gk
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+nW
+EL
+Pv
+Pv
+Pv
+Pv
+"}
+(9,1,4) = {"
+Pv
+Wm
+Gk
+Jr
+Pv
+mN
+je
+vP
+Gk
+EL
+EL
+EL
+EL
+EL
+rT
+EL
+EL
+EL
+EL
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+"}
+(10,1,4) = {"
+Pv
+Wm
+Gk
+zz
+kk
+re
+je
+XB
+Gk
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+"}
+(11,1,4) = {"
+Pv
+Wm
+Gk
+uS
+gR
+ry
+je
+hn
+tL
+EL
+av
+av
+av
+av
+av
+av
+av
+av
+av
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+"}
+(12,1,4) = {"
+Pv
+Wm
+Wm
+Wm
+tL
+Rr
+Av
+bI
+Wm
+EL
+av
+av
+av
+av
+av
+av
+av
+av
+av
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+"}
+(13,1,4) = {"
+Pv
+tL
+tL
+tL
+tL
+Rr
+je
+je
+Wm
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+"}
+(14,1,4) = {"
+Pv
+Gk
+sB
+Xy
+Gk
+Gk
+SQ
+kt
+Wm
+Wm
+jy
+jy
+Wm
+Wm
+tL
+tL
+tL
+EL
+EL
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+"}
+(15,1,4) = {"
+Pv
+LU
+Sj
+Sj
+Sj
+tL
+yY
+yY
+yY
+yY
+yY
+yY
+Wm
+II
+II
+II
+tL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+"}
+(16,1,4) = {"
+Pv
+LU
+Sj
+Sj
+Sj
+zN
+yY
+yY
+yY
+yY
+yY
+yY
+zV
+II
+II
+II
+aj
+av
+av
+av
+av
+av
+av
+av
+EL
+"}
+(17,1,4) = {"
+Pv
+LU
+Sj
+Sj
+Sj
+Wm
+Wm
+tL
+tL
+Dl
+tL
+tL
+tL
+II
+II
+II
+aj
+av
+av
+av
+av
+av
+av
+av
+EL
+"}
+(18,1,4) = {"
+Pv
+Wm
+Sj
+Sj
+Sj
+Sj
+Wm
+vc
+vc
+vc
+vc
+vc
+tL
+II
+II
+II
+aj
+av
+av
+av
+av
+av
+av
+av
+EL
+"}
+(19,1,4) = {"
+Pv
+Wm
+Pa
+Pa
+Pa
+tL
+Wm
+Uz
+vc
+vc
+vc
+vc
+tL
+pS
+II
+II
+aj
+av
+av
+av
+av
+av
+av
+av
+EL
+"}
+(20,1,4) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+LU
+sc
+vc
+vc
+vc
+vc
+tL
+Rz
+II
+II
+Wm
+av
+av
+av
+av
+av
+av
+av
+EL
+"}
+(21,1,4) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Wm
+Pa
+Pa
+tL
+vc
+vc
+tL
+Pa
+Pa
+Pa
+Wm
+av
+av
+av
+av
+av
+av
+av
+EL
+"}
+(22,1,4) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+tL
+Pa
+Pa
+tL
+Pv
+Pv
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+"}
+(23,1,4) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+"}
+(24,1,4) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(25,1,4) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+
+(1,1,5) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(2,1,5) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(3,1,5) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(4,1,5) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(5,1,5) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+tL
+er
+Gk
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(6,1,5) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Eh
+Zz
+er
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(7,1,5) = {"
+Pv
+Wm
+Wm
+oF
+aq
+tL
+oB
+Gk
+tL
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(8,1,5) = {"
+Pv
+Xq
+sa
+ZA
+mN
+tL
+eC
+Gk
+tL
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(9,1,5) = {"
+Pv
+aq
+je
+Av
+mN
+aq
+tr
+Gk
+Gk
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(10,1,5) = {"
+Pv
+tL
+nD
+hn
+rf
+Pv
+Pv
+Pv
+aq
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(11,1,5) = {"
+Pv
+tL
+By
+je
+ht
+Pv
+Pv
+Pv
+MW
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(12,1,5) = {"
+Pv
+tL
+eu
+je
+JK
+Pv
+Pv
+Pv
+tL
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(13,1,5) = {"
+Pv
+Wm
+bL
+ti
+JK
+Pv
+Pv
+Pv
+Wm
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(14,1,5) = {"
+Pv
+Wm
+Wm
+Xq
+Xq
+oF
+Eh
+Wm
+Wm
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(15,1,5) = {"
+Pv
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(16,1,5) = {"
+Pv
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(17,1,5) = {"
+Pv
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(18,1,5) = {"
+Pv
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(19,1,5) = {"
+Pv
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(20,1,5) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(21,1,5) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(22,1,5) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+EL
+EL
+EL
+EL
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(23,1,5) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(24,1,5) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(25,1,5) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+
+(1,1,6) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(2,1,6) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(3,1,6) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(4,1,6) = {"
+Pv
+Pv
+Di
+Di
+Di
+Di
+Di
+Di
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(5,1,6) = {"
+Pv
+Yk
+aB
+aB
+aB
+aB
+eC
+eC
+Vs
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(6,1,6) = {"
+Yk
+je
+ti
+Iv
+Iv
+Iv
+Iv
+dd
+je
+Vs
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(7,1,6) = {"
+eC
+je
+tL
+HU
+HU
+tL
+HU
+aq
+je
+eC
+MC
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(8,1,6) = {"
+Av
+xw
+LT
+ea
+Pv
+mN
+Pp
+Cw
+tL
+nD
+MC
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(9,1,6) = {"
+Av
+Iv
+cU
+UH
+Pv
+mN
+vc
+bE
+HU
+Iv
+MC
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(10,1,6) = {"
+je
+kK
+fk
+vc
+DU
+lN
+lN
+FJ
+HU
+Iv
+MC
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(11,1,6) = {"
+je
+Iv
+fk
+vc
+Qb
+vc
+QF
+mO
+oR
+Iv
+MC
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(12,1,6) = {"
+je
+oX
+fk
+lN
+vc
+QM
+mO
+VI
+HU
+Iv
+MC
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(13,1,6) = {"
+bI
+Ri
+tL
+Wl
+wb
+OU
+UD
+gV
+aq
+lo
+MC
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(14,1,6) = {"
+eC
+je
+aq
+HU
+fk
+HU
+HU
+tL
+Av
+aB
+MC
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(15,1,6) = {"
+gx
+je
+Zs
+Iv
+Iv
+Iv
+Iv
+Zs
+je
+jK
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(16,1,6) = {"
+Pv
+gx
+eC
+eC
+eC
+aB
+aB
+eC
+jK
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(17,1,6) = {"
+Pv
+Pv
+zS
+zS
+zS
+zS
+zS
+zS
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(18,1,6) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(19,1,6) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(20,1,6) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(21,1,6) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(22,1,6) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(23,1,6) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(24,1,6) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}
+(25,1,6) = {"
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+Pv
+"}

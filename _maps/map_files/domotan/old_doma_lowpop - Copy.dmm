@@ -48,6 +48,10 @@
 /obj/structure/flora/newtree/snow,
 /turf/open/floor/grass/yel,
 /area/outdoors/town/neighborhood/west)
+"abf" = (
+/obj/structure/carpet/purple,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/steward)
 "abp" = (
 /obj/structure/table/wood{
 	icon_state = "tablewood1"
@@ -436,6 +440,14 @@
 /obj/structure/fluid_drain,
 /turf/open/floor/metal,
 /area/indoors/town/vault)
+"apM" = (
+/obj/structure/fake_machine/steward{
+	pixel_y = 13
+	},
+/obj/structure/carpet/purple,
+/obj/item/fake_machine/mastermail,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/steward)
 "apV" = (
 /turf/open/water/sewer/under,
 /area/indoors/town/church/inquisition)
@@ -510,8 +522,17 @@
 /turf/open/floor/snow,
 /area/outdoors/town/neighborhood)
 "asI" = (
-/obj/structure/fluff/walldeco/banner,
-/turf/closed/wall/mineral/stone,
+/obj/structure/door/viewport{
+	name = "Stockpile";
+	dir = 1
+	},
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/steward,
+/obj/structure/bars/passage/shutter/open{
+	name = "Etgard Lockdown Shutter";
+	redstone_id = "keep_lockdown"
+	},
+/turf/open/floor/metal/barograte,
 /area/indoors/town/steward)
 "ath" = (
 /obj/structure/window/stained/yellow,
@@ -2707,6 +2728,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 10
 	},
+/obj/structure/fluff/fibermat/square,
 /turf/open/floor/blocks,
 /area/indoors/town/keep/gate)
 "bUu" = (
@@ -3167,6 +3189,16 @@
 /obj/structure/fluff/walldeco/church/line,
 /turf/open/floor/grass/yel,
 /area/outdoors/exposed)
+"cjM" = (
+/obj/structure/bars/grille{
+	density = 1
+	},
+/obj/structure/bars/passage/shutter/open{
+	name = "Etgard Lockdown Shutter";
+	redstone_id = "keep_lockdown"
+	},
+/turf/open/floor/blocks,
+/area/indoors/town/steward)
 "cjR" = (
 /obj/effect/decal/cobbleedge{
 	dir = 6;
@@ -4642,10 +4674,11 @@
 /turf/open/floor/cobble,
 /area/indoors/town/keep/garrison)
 "dji" = (
-/obj/structure/chair/wood/alt/chair_noble{
-	dir = 1
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
 	},
-/turf/open/floor/carpet/red,
+/obj/structure/fluff/clutter/shrub/red,
+/turf/open/floor/wood,
 /area/indoors/town/steward)
 "djy" = (
 /obj/machinery/light/fueled/wallfire/candle/r,
@@ -6159,8 +6192,9 @@
 /obj/structure/stairs/stone{
 	dir = 1
 	},
+/obj/structure/fluff/walldeco/wantedposter/r,
 /turf/open/floor/ruinedwood,
-/area/indoors/town)
+/area/indoors/town/steward)
 "ell" = (
 /obj/structure/table/wood{
 	icon_state = "longtable"
@@ -6367,7 +6401,7 @@
 	name = "Etgard Trading Guild"
 	},
 /obj/effect/mapping_helpers/access/keyset/manor/steward,
-/turf/open/floor/cobble,
+/turf/open/floor/wood,
 /area/indoors/town/steward)
 "erO" = (
 /obj/effect/decal/borderfall{
@@ -6690,17 +6724,10 @@
 /turf/open/floor/snow,
 /area/outdoors/exposed)
 "eCK" = (
-/obj/structure/door/viewport{
-	name = "Stockpile";
-	dir = 1
+/obj/structure/lever{
+	redstone_id = "warehouse_shutter"
 	},
-/obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/keyset/manor/steward,
-/obj/structure/bars/passage/shutter/open{
-	name = "Etgard Lockdown Shutter";
-	redstone_id = "keep_lockdown"
-	},
-/turf/open/floor/blocks,
+/turf/open/floor/metal/barograte,
 /area/indoors/town/steward)
 "eDk" = (
 /obj/effect/decal/cobbleedge{
@@ -7377,7 +7404,7 @@
 "fan" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/closed/wall/mineral/stonebrick,
-/area/outdoors/exposed)
+/area/indoors/town/steward)
 "fap" = (
 /obj/structure/closet/crate/crafted_closet,
 /turf/open/floor/ruinedwood/turned/alt,
@@ -10114,7 +10141,7 @@
 /turf/open/floor/cobble,
 /area/indoors/town/keep/gate)
 "gWg" = (
-/obj/structure/table/wood,
+/obj/structure/fake_machine/submission,
 /turf/open/floor/herringbone,
 /area/indoors/town)
 "gWr" = (
@@ -10348,6 +10375,10 @@
 	},
 /turf/open/floor/blocks,
 /area/outdoors/exposed)
+"hcb" = (
+/obj/structure/fluff/walldeco/painting/flower,
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/steward)
 "hcs" = (
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors/town/clinic_large)
@@ -15789,8 +15820,10 @@
 /obj/structure/table/wood{
 	icon_state = "longtable"
 	},
-/turf/open/floor/carpet/red,
-/area/outdoors/exposed)
+/obj/structure/carpet/purple,
+/obj/structure/fluff/walldeco/sign/trophy,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/steward)
 "krA" = (
 /obj/structure/stairs/stone,
 /turf/open/floor/churchrough,
@@ -16062,7 +16095,7 @@
 	icon_state = "cobbleedge-n"
 	},
 /turf/closed/wall/mineral/stonebrick,
-/area/outdoors/exposed)
+/area/indoors/town/steward)
 "kAI" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 4
@@ -17827,6 +17860,10 @@
 	},
 /turf/open/floor/blocks,
 /area/outdoors/town)
+"lQB" = (
+/obj/structure/fake_machine/scomm/r,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/steward)
 "lQD" = (
 /obj/structure/fluff/railing/border{
 	dir = 5
@@ -18225,7 +18262,7 @@
 	dir = 8
 	},
 /turf/closed/wall/mineral/stonebrick,
-/area/outdoors/exposed)
+/area/indoors/town/steward)
 "mbl" = (
 /obj/structure/fluff/railing/border{
 	dir = 5
@@ -18304,6 +18341,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobblerock,
 /area/outdoors/exposed)
+"mcV" = (
+/obj/structure/fake_machine/musicbox,
+/obj/structure/table/wood{
+	icon_state = "longtable"
+	},
+/turf/open/floor/wood,
+/area/indoors/town/steward)
 "mdp" = (
 /obj/structure/carpet/red,
 /obj/structure/fluff/walldeco/church/line{
@@ -19149,8 +19193,13 @@
 /turf/closed/wall/mineral/pipe,
 /area/indoors/town/shop)
 "mAM" = (
-/obj/structure/fake_machine/atm,
-/turf/open/floor/carpet/red,
+/obj/structure/fake_machine/atm{
+	pixel_x = 4;
+	pixel_y = 44
+	},
+/obj/structure/chair/wood/alt/chair_noble,
+/obj/structure/carpet/purple,
+/turf/open/floor/ruinedwood,
 /area/indoors/town/steward)
 "mBm" = (
 /obj/effect/decal/shadow_floor{
@@ -19610,7 +19659,11 @@
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/servant)
 "mQa" = (
-/turf/open/floor/cobble,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/obj/structure/fluff/walldeco/wantedposter/l,
+/turf/open/floor/wood,
 /area/indoors/town/steward)
 "mQc" = (
 /obj/structure/fluff/railing/wood{
@@ -19915,11 +19968,9 @@
 /turf/open/floor/rooftop,
 /area/outdoors/exposed)
 "nbp" = (
-/obj/structure/fake_machine/steward{
-	pixel_y = 11
-	},
-/turf/open/floor/herringbone,
-/area/indoors/town)
+/obj/structure/fluff/walldeco/churchbanner/jealousgod,
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/keep/library)
 "nbs" = (
 /turf/closed/wall/mineral/stone,
 /area/indoors/town/keep/phys)
@@ -20607,7 +20658,10 @@
 	redstone_id = "warehouse_shutter";
 	name = "Stockpile Gates"
 	},
-/turf/open/floor/ruinedwood/turned,
+/obj/effect/decal/shadow_floor{
+	dir = 1
+	},
+/turf/open/floor/metal/barograte,
 /area/indoors/town/steward)
 "nzf" = (
 /obj/machinery/light/fueledstreet/orange/wall,
@@ -20682,7 +20736,7 @@
 	dir = 8;
 	redstone_id = "stewardshutter"
 	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/ruinedwood,
 /area/indoors/town/steward)
 "nBu" = (
 /obj/effect/decal/cobbleedge{
@@ -21014,9 +21068,14 @@
 /turf/open/floor/dirt,
 /area/under/cavewet)
 "nLS" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/ruinedwood/turned,
-/area/indoors/town)
+/obj/structure/curtain/bounty{
+	color = "grey"
+	},
+/obj/structure/stairs{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town/steward)
 "nMc" = (
 /obj/structure/fluff/walldeco/churchbanner{
 	pixel_y = 27
@@ -21455,6 +21514,12 @@
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern)
+"oeD" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/metal/alt,
+/area/indoors/town/steward)
 "oeH" = (
 /turf/open/floor/carpet/red,
 /area/indoors/town/shop)
@@ -21482,6 +21547,10 @@
 	},
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/clinic_large)
+"ofr" = (
+/obj/effect/decal/carpet/square,
+/turf/open/floor/wood,
+/area/indoors/town/steward)
 "ofs" = (
 /obj/structure/chair/bench/church/mid{
 	dir = 1
@@ -22947,7 +23016,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/closed/wall/mineral/stonebrick,
-/area/outdoors/exposed)
+/area/indoors/town/steward)
 "pda" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/ruinedwood/turned/alt,
@@ -23473,6 +23542,10 @@
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean,
 /area/outdoors/town)
+"pwp" = (
+/obj/structure/fake_machine/vendor/steward,
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/steward)
 "pwr" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 8
@@ -23538,7 +23611,10 @@
 /turf/open/floor/blocks/green,
 /area/under/town/sewer)
 "pzg" = (
-/obj/machinery/light/fueled/torchholder/c,
+/obj/machinery/light/fueledstreet/blue/wall,
+/obj/structure/chair/bench{
+	pixel_y = 16
+	},
 /turf/open/floor/ruinedwood/turned,
 /area/outdoors/town)
 "pzj" = (
@@ -24523,8 +24599,8 @@
 /turf/open/floor/blocks/stonered/tiny,
 /area/outdoors/farm)
 "qhC" = (
-/obj/structure/stairs/stone,
-/turf/open/floor/herringbone,
+/obj/effect/decal/shadow_floor,
+/turf/open/floor/metal/barograte,
 /area/indoors/town/steward)
 "qhN" = (
 /obj/structure/stairs{
@@ -26840,6 +26916,10 @@
 	},
 /turf/open/floor/church/purple,
 /area/indoors/town/keep/magician/basement)
+"rOM" = (
+/obj/structure/fake_machine/headeater,
+/turf/open/floor/wood,
+/area/indoors/town/steward)
 "rPF" = (
 /obj/structure/fake_machine/mail{
 	mailtag = "Mage Tower"
@@ -27501,7 +27581,7 @@
 /turf/closed/wall/mineral/pipe,
 /area/outdoors/town)
 "sol" = (
-/turf/open/floor/blocks,
+/turf/open/floor/wood,
 /area/indoors/town/steward)
 "sop" = (
 /obj/structure/fluff/railing/wood{
@@ -29296,9 +29376,19 @@
 "tBK" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
 /obj/structure/fake_machine/mail{
-	mailtag = "Steward"
+	mailtag = "Steward";
+	pixel_x = -11;
+	pixel_y = 46
 	},
-/turf/open/floor/carpet/red,
+/obj/structure/chair/wood/alt/chair_noble{
+	dir = 4
+	},
+/obj/structure/fake_machine/hailer{
+	pixel_x = 8;
+	pixel_y = 49
+	},
+/obj/structure/carpet/purple,
+/turf/open/floor/ruinedwood,
 /area/indoors/town/steward)
 "tBN" = (
 /obj/effect/decal/cleanable/dirt,
@@ -31026,8 +31116,11 @@
 "uJg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/fueled/wallfire/candle/lamp,
+/obj/structure/chair/bench{
+	pixel_y = 16
+	},
 /turf/open/floor/ruinedwood/turned,
-/area/indoors/town)
+/area/outdoors/town)
 "uJp" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/grass/yel,
@@ -31144,6 +31237,16 @@
 /obj/structure/closet/crate/chest/crate,
 /turf/open/floor/woodturned/nosmooth,
 /area/outdoors/beach/boat)
+"uOJ" = (
+/obj/structure/table/wood{
+	icon_state = "longtable_mid";
+	dir = 1
+	},
+/obj/structure/bars/passage/shutter{
+	redstone_id = "stewardshutter"
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town/steward)
 "uOL" = (
 /obj/structure/flora/grass/water,
 /obj/structure/fluff/railing/tall/retaining{
@@ -31405,10 +31508,7 @@
 /turf/open/floor/ruinedwood/turned,
 /area/outdoors/town)
 "uWz" = (
-/obj/structure/lever{
-	redstone_id = "warehouse_shutter"
-	},
-/turf/open/floor/blocks,
+/turf/open/floor/metal/alt,
 /area/indoors/town/steward)
 "uWJ" = (
 /obj/structure/fluff/railing/wood{
@@ -31632,10 +31732,8 @@
 /turf/open/floor/ruinedwood,
 /area/indoors/town/keep)
 "ves" = (
-/obj/machinery/light/fueledstreet/orange/wall{
-	dir = 4
-	},
-/turf/open/floor/cobble,
+/obj/structure/fake_machine/atm,
+/turf/open/floor/wood,
 /area/indoors/town/steward)
 "veJ" = (
 /obj/structure/fluff/walldeco/feldshersign,
@@ -31658,7 +31756,12 @@
 /obj/structure/fluff/railing/wood{
 	dir = 8
 	},
-/turf/open/floor/metal/barograte,
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/turf/open/openspace,
 /area/outdoors/town)
 "vfv" = (
 /mob/living/simple_animal/hostile/retaliate/bull,
@@ -33773,6 +33876,15 @@
 /obj/item/clothing/shirt/robe/colored/mage,
 /turf/open/floor/church/rust,
 /area/indoors/town/keep/magician)
+"wHP" = (
+/obj/structure/door/viewport{
+	name = "Bank Desk";
+	dir = 1
+	},
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/steward,
+/turf/open/floor/church,
+/area/indoors/town/steward)
 "wHS" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -35942,8 +36054,10 @@
 	dir = 1;
 	icon_state = "longtable"
 	},
-/turf/open/floor/carpet/red,
-/area/outdoors/exposed)
+/obj/structure/carpet/purple,
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/steward)
 "yeQ" = (
 /obj/structure/door/viewport{
 	name = "Steward";
@@ -76317,10 +76431,10 @@ pcY
 krn
 tBK
 nBs
-xoq
+nFu
 ves
 mQa
-mQa
+sol
 erI
 rzU
 rzU
@@ -76448,15 +76562,15 @@ adu
 mbg
 yeI
 mAM
-dji
-xoq
-mQa
-mQa
-mQa
+pQT
+uOJ
+sol
+sol
+sol
 erI
 rzU
 rzU
-aJX
+bKC
 aJX
 aJX
 xAx
@@ -76577,18 +76691,18 @@ kvK
 kvK
 kvK
 dId
-sOk
-pKD
+wRk
+apM
+abf
 pQT
-pQT
-xoq
-sol
+uOJ
+ofr
 sol
 sol
 mpo
 pzg
 rzU
-aJX
+bKC
 aJX
 aJX
 xAx
@@ -76709,18 +76823,18 @@ ixV
 scq
 kvK
 kvK
-kfC
-tKL
+hcb
+abf
+abf
 pQT
-pQT
-sol
+pwp
 sol
 sol
 sol
 bwC
 rzU
 rzU
-pMx
+bKC
 pMx
 pMx
 wRk
@@ -76842,17 +76956,17 @@ scq
 doO
 eIx
 elg
-tKL
 pQT
 pQT
-sol
+lQB
+wHP
 sol
 sol
 sol
 bwC
-qhR
-qhR
-qhR
+rzU
+rzU
+bKC
 gNK
 gNK
 lxc
@@ -76965,7 +77079,7 @@ kvK
 cBk
 ajX
 fmV
-kvK
+nbp
 kvK
 kvK
 xkK
@@ -76973,18 +77087,18 @@ xkK
 kvK
 kvK
 kvK
-kfC
-kfC
+nFu
+nLS
+nLS
 hTq
-sol
-sol
-sol
-sol
-sol
+nFu
+rOM
+dji
+mcV
 mpo
 uJg
-nLS
-qhR
+olG
+bKC
 qhR
 qhR
 qhR
@@ -77107,16 +77221,16 @@ uBa
 yej
 nLb
 nLb
-hTq
-sol
-sol
-sol
-sol
-sol
-eCK
-qhR
-nPk
-lqe
+nLb
+nLb
+nFu
+mpo
+cjM
+mpo
+eNV
+rzU
+rzU
+bKC
 lqe
 lqe
 lqe
@@ -77239,16 +77353,16 @@ fgx
 yej
 nLb
 nLb
-hTq
-hTq
-hTq
-sol
-sol
-sol
+nLb
+nLb
+qhC
+oeD
+uWz
+oeD
 asI
-qhR
+rzU
+rzU
 bKC
-aJX
 aJX
 aJX
 aJX
@@ -77363,24 +77477,24 @@ kvK
 kvK
 kvK
 kvK
+nbp
 kvK
 kvK
 kvK
 kvK
-kvK
-kvK
+nbp
 nLb
 nLb
 nLb
 nLb
 qhC
-sol
-sol
-sol
+uWz
+uWz
+uWz
 nyR
-qhR
+rzU
+rzU
 bKC
-aJX
 aJX
 aJX
 aJX
@@ -77500,19 +77614,19 @@ skk
 osq
 osq
 skk
-nbp
+nLb
 nLb
 iti
 xZU
 nLb
 qhC
-sol
-sol
+uWz
+uWz
 uWz
 nyR
-qhR
+rzU
+rzU
 bKC
-aJX
 aJX
 aJX
 aJX
@@ -77638,7 +77752,7 @@ xZU
 xZU
 nLb
 mpo
-mpo
+eCK
 mpo
 mpo
 mpo
@@ -77769,8 +77883,8 @@ nLb
 nLb
 nLb
 nLb
-nLb
-kNE
+mpo
+mpo
 gIv
 xZc
 jJD
