@@ -240,9 +240,6 @@
 		for(var/X in GLOB.serf_positions)
 			peopleiknow += X
 			peopleknowme += X
-		for(var/X in GLOB.company_positions)
-			peopleiknow += X
-			peopleknowme += X
 		for(var/X in GLOB.church_positions)
 			peopleiknow += X
 			peopleknowme += X

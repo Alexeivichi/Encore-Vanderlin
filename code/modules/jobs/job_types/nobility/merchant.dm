@@ -22,8 +22,8 @@
 	display_order = JDO_MERCHANT
 	is_quest_giver = TRUE
 	faction = FACTION_TOWN
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	bypass_lastclass = TRUE
 	selection_color = "#192bc2"
 	cmode_music = 'sound/music/cmode/towner/CombatTowner2.ogg'

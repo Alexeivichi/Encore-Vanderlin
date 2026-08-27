@@ -265,7 +265,7 @@
 	keys = list(/obj/item/key/hand, /obj/item/key/manor, /obj/item/key/steward, /obj/item/key/merchant, /obj/item/key/dungeon, /obj/item/key/walls, /obj/item/key/garrison, /obj/item/key/forrestgarrison, /obj/item/key/atarms)
 
 /obj/item/storage/keyring/steward
-	keys = list(/obj/item/key/steward, /obj/item/key/vault, /obj/item/key/manor, /obj/item/key/warehouse)
+	keys = list(/obj/item/key/steward, /obj/item/key/vault, /obj/item/key/manor, /obj/item/key/warehouse, /obj/item/key/merchant)
 
 /obj/item/storage/keyring/dungeoneer
 	keys = list(/obj/item/key/dungeon, /obj/item/key/manor, /obj/item/key/walls, /obj/item/key/atarms)

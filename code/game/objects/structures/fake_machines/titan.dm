@@ -429,7 +429,6 @@ GLOBAL_LIST_EMPTY(roundstart_court_agents)
 	possible_positions += GLOB.noble_positions
 	possible_positions += GLOB.garrison_positions
 	possible_positions += GLOB.serf_positions
-	possible_positions += GLOB.company_positions
 	possible_positions += GLOB.peasant_positions
 	possible_positions += GLOB.apprentices_positions
 	possible_positions += GLOB.youngfolk_positions

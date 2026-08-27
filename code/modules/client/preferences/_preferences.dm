@@ -983,7 +983,6 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 				GLOB.peasant_positions,
 				GLOB.apprentices_positions,
 				GLOB.serf_positions,
-				GLOB.company_positions,
 				GLOB.youngfolk_positions,
 				GLOB.allmig_positions,
 				GLOB.inquisition_positions,
