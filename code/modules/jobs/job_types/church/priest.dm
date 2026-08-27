@@ -19,7 +19,7 @@
 
 /datum/attribute_holder/sheet/job/priest/old
 	raw_attribute_list = list(
-		 STAT_STRENGTH = 1,
+		STAT_STRENGTH = 1,
 		STAT_INTELLIGENCE = 2,
 		STAT_ENDURANCE = 2,
 		STAT_SPEED = 1,
@@ -45,6 +45,11 @@
 /datum/job/priest
 	title = "Bishop"
 	f_title = "Bishop"
+	alt_titles = list("Abbot", "Friar")
+
+	unique_alt_honororary = TRUE
+	alt_honorary = list("Father")
+	alt_honorary_female = list("Mother Superior")
 	tutorial = "You are a devoted representative of the Katholikos, heading the diocese of Domotan Island. \
 	Upon the island, the faithful look to you for guidance and leadership; and you in turn answer to the Pontifex of Aelonda. \
 	The Elementals and their pantheon rule over all, and you will preach their wisdom to this land. \
@@ -52,7 +57,7 @@
 	department_flag = CHURCHMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_PRIEST
-	faction = FACTION_TOWN
+	factions = list(FACTION_TOWN)
 	total_positions = 2
 	spawn_positions = 2
 	bypass_lastclass = TRUE
@@ -80,14 +85,13 @@
 	attribute_sheet = /datum/attribute_holder/sheet/job/priest
 	attribute_sheet_old = /datum/attribute_holder/sheet/job/priest/old
 
-	languages = list(/datum/language/celestial)
+	languages = list(/datum/language/newunsundered)
 	can_have_apprentices = FALSE
+	traits = list(TRAIT_VIRGIN)
 
 /datum/job/priest/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 	spawned.give_priest_verbs()
-
-	spawned.virginity = TRUE
 
 	var/holder = spawned.patron?.devotion_holder
 	if(holder)
@@ -102,6 +106,7 @@
 	pants = /obj/item/clothing/pants/tights/colored/black
 	shoes = /obj/item/clothing/shoes/shortboots
 	beltl = /obj/item/storage/keyring/priest
+	beltr = /obj/item/weapon/knife/dagger/steel/holysee
 	belt = /obj/item/storage/belt/leather/rope
 	armor = /obj/item/clothing/shirt/robe/priest
 	backl = /obj/item/storage/backpack/satchel
@@ -142,7 +147,7 @@
 	f_title = "Ex-Priestess"
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_EQUIP_RANK)
 	department_flag = CHURCHMEN
-	faction = FACTION_TOWN
+	factions = list(FACTION_TOWN)
 	total_positions = 0
 	spawn_positions = 0
 
@@ -151,7 +156,7 @@
 	f_title = "Vice Priestess"
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_EQUIP_RANK)
 	department_flag = CHURCHMEN
-	faction = FACTION_TOWN
+	factions = list(FACTION_TOWN)
 	total_positions = 2
 	spawn_positions = 2
 

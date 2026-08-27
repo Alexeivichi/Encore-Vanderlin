@@ -17,15 +17,18 @@
 
 /datum/job/vagrant
 	title = JOB_BEGGAR
+	alt_titles = list("Reject", "Bum", "Tramp", "Vagabond", "Drifter")
 	tutorial = "You're homeless, broke and miserable. Make something or nothing of it."
 	department_flag = PEASANTS
 	display_order = JDO_VAGRANT
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
-	faction = FACTION_TOWN
+	factions = list(FACTION_TOWN)
 	total_positions = 99
 	spawn_positions = 99
 	bypass_lastclass = TRUE
 	banned_leprosy = FALSE
+	knows_the_town = TRUE
+	known_by_the_town = FALSE
 
 	allowed_races = RACES_PLAYER_ALL
 
@@ -37,10 +40,6 @@
 	cmode_music = 'sound/music/cmode/towner/CombatBeggar.ogg'
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/vagrant
-
-/datum/job/vagrant/New()
-	. = ..()
-	peopleknowme = list()
 
 /datum/job/vagrant/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()

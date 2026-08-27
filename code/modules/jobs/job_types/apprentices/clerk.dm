@@ -37,7 +37,7 @@
 	With enough time, you will become more than a glorified clerk and open a business that rivals all others."
 	department_flag = APPRENTICES
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
-	faction = "Station"
+	factions = list(FACTION_TOWN)
 	total_positions = 99
 	spawn_positions = 99
 	display_order = JDO_CLERK

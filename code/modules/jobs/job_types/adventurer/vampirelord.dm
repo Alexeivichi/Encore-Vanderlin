@@ -3,7 +3,7 @@
 	tutorial = "An embodiment of the living dead, you eke out a meagre existence on the fringes of the weeping wood in your underground lair. Chances are, the mortals and their Shirleigh masters know you're here, and sooner or later your peace is going to be disturbed. If you don't disturb theirs first."
 	department_flag = OUTSIDERS
 	job_flags = (JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE | JOB_SHOW_IN_CREDITS)
-	faction = FACTION_NEUTRAL
+	factions = list(FACTION_NEUTRAL)
 	total_positions = 1
 	spawn_positions = 1
 

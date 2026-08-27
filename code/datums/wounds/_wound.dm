@@ -155,7 +155,6 @@ GLOBAL_LIST_INIT(primordial_wounds, init_primordial_wounds())
 	var/required_bodypart_status
 
 /datum/wound/Destroy(force)
-	. = ..()
 	if(bodypart_owner)
 		remove_from_bodypart()
 	else if(owner)
@@ -165,6 +164,7 @@ GLOBAL_LIST_INIT(primordial_wounds, init_primordial_wounds())
 		werewolf_infection_timer = null
 	bodypart_owner = null
 	owner = null
+	return ..()
 
 /// Description of this wound returned to the player when a bodypart is examined and such
 /datum/wound/proc/get_visible_name(mob/user)
@@ -185,7 +185,7 @@ GLOBAL_LIST_INIT(primordial_wounds, init_primordial_wounds())
 	if(!bodypart_owner || !length(organ_efficiency_reduction))
 		return
 
-	for(var/organ_slot as anything in organ_efficiency_reduction)
+	for(var/organ_slot in organ_efficiency_reduction)
 		var/obj/item/organ/organ = bodypart_owner.getorganslot(organ_slot)
 		organ?.apply_efficiency_modification(organ_efficiency_reduction[organ_slot], organ_slot, src)
 
@@ -193,7 +193,7 @@ GLOBAL_LIST_INIT(primordial_wounds, init_primordial_wounds())
 	if(!bodypart_owner || !length(organ_efficiency_reduction))
 		return
 
-	for(var/organ_slot as anything in organ_efficiency_reduction)
+	for(var/organ_slot in organ_efficiency_reduction)
 		var/obj/item/organ/organ = bodypart_owner.getorganslot(organ_slot)
 		organ?.remove_efficiency_modification(organ_slot, src)
 
@@ -372,6 +372,7 @@ GLOBAL_LIST_INIT(primordial_wounds, init_primordial_wounds())
 		werewolf_infect_attempt()
 	if(mortal && HAS_TRAIT(affected, TRAIT_CRITICAL_WEAKNESS))
 		affected.death()
+	affected.adjustPainLoss(woundpain)
 
 /// Removes this wound from a given, simpler than adding to a bodypart - No extra effects
 /datum/wound/proc/remove_from_mob()

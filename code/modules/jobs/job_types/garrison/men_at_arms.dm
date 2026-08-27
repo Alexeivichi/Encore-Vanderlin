@@ -10,7 +10,7 @@
 	department_flag = GARRISON
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_MENATARMS
-	faction = FACTION_TOWN
+	factions = list(FACTION_TOWN)
 	total_positions = 99
 	spawn_positions = 99
 	bypass_lastclass = TRUE
@@ -22,6 +22,9 @@
 	advclass_cat_rolls = list(CTAG_MENATARMS = 20)
 	cmode_music = 'sound/music/cmode/garrison/CombatManAtArms.ogg'
 	give_bank_account = 30
+	knows_the_town = TRUE
+	known_by_the_town = TRUE
+	starting_wage = 30
 
 	job_bitflag = BITFLAG_GARRISON
 
@@ -52,6 +55,7 @@
 /datum/job/advclass/menatarms
 	exp_type = list(EXP_TYPE_GARRISON, EXP_TYPE_COMBAT)
 	exp_types_granted = list(EXP_TYPE_GARRISON, EXP_TYPE_COMBAT)
+	factions = list(FACTION_TOWN)
 
 /datum/attribute_holder/sheet/job/menatarms/pikeman
 	raw_attribute_list = list(
@@ -197,16 +201,17 @@
 		/obj/item/weapon/knife/dagger/steel/special = 1
 	)
 
-/datum/outfit/watchman/ranger/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+/datum/job/advclass/menatarms/watchman_ranger/on_roundstart(mob/living/carbon/human/equipped_human, client/player_client)
 	. = ..()
-	var/weapontypec = pickweight(list("Bow" = 6, "Crossbow" = 4))
-	switch(weapontypec)
+	var/static/list/weapons = list("Bow", "Crossbow")
+	var/weapon_choice = browser_input_list(equipped_human, "CHOOSE YOUR WEAPON.", "AIM TRUE.", weapons)
+	switch(weapon_choice)
 		if("Bow")
-			backl = /obj/item/gun/ballistic/bow/long
-			backr = /obj/item/ammo_holder/quiver/arrows
+			equipped_human.equip_to_slot_or_del(new /obj/item/gun/ballistic/bow/long, ITEM_SLOT_BACK_L, TRUE)
+			equipped_human.equip_to_slot_or_del(new /obj/item/ammo_holder/quiver/arrows, ITEM_SLOT_BACK_R, TRUE)
 		if("Crossbow")
-			backl = /obj/item/gun/ballistic/bow/cross
-			backr = /obj/item/ammo_holder/quiver/bolts
+			equipped_human.equip_to_slot_or_del(new /obj/item/gun/ballistic/bow/cross, ITEM_SLOT_BACK_L, TRUE)
+			equipped_human.equip_to_slot_or_del(new /obj/item/ammo_holder/quiver/bolts, ITEM_SLOT_BACK_R, TRUE)
 
 /datum/attribute_holder/sheet/job/menatarms/swordsman
 	raw_attribute_list = list(

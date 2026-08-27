@@ -57,7 +57,6 @@
 			ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 		if(/datum/patron/divine/pomette)
-			spawned.virginity = FALSE
 			ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
@@ -102,8 +101,8 @@
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
 
-	if(!spawned.has_language(/datum/language/celestial) && (spawned.patron?.type in ALL_TEMPLE_PATRONS))
-		spawned.grant_language(/datum/language/celestial)
+	if(!spawned.has_language(/datum/language/newunsundered) && (spawned.patron?.type in ALL_TEMPLE_PATRONS))
+		spawned.grant_language(/datum/language/newunsundered)
 
 	var/holder = spawned.patron?.devotion_holder
 	if(holder)
@@ -248,4 +247,4 @@
 			head = /obj/item/clothing/head/helmet/heavy/bucket
 			wrists = /obj/item/clothing/neck/psycross/silver/divine
 			cloak = /obj/item/clothing/cloak/templar/undivided
-			beltr = /obj/item/weapon/sword/long/decorated
+			beltr = /obj/item/weapon/sword/long/silver/decorated

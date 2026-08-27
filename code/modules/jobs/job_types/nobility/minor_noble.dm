@@ -36,10 +36,12 @@
 	display_order = JDO_MINOR_NOBLE
 	department_flag = NOBLEMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
-	faction = FACTION_TOWN
+	factions = list(FACTION_TOWN)
 	total_positions = 99
 	spawn_positions = 99
 	bypass_lastclass = TRUE
+	knows_the_town = TRUE
+	known_by_the_town = TRUE
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	outfit = /datum/outfit/noble
 	advclass_cat_rolls = list(CTAG_MINOR_NOBLE = 20)
@@ -55,6 +57,7 @@
 	exp_types_granted = list(EXP_TYPE_NOBLE)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/minor_noble
+	factions = list(FACTION_TOWN)
 
 /datum/attribute_holder/sheet/job/former_commander
 	raw_attribute_list = list(
@@ -82,6 +85,8 @@
 	category_tags = list(CTAG_MINOR_NOBLE)
 	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	give_bank_account = 40
+	knows_the_town = TRUE
+	known_by_the_town = TRUE
 	honorary = "Baronet"
 	honorary_f = "Baronetess"
 
@@ -124,6 +129,8 @@
 	outfit = /datum/outfit/minornoble/magnate
 	category_tags = list(CTAG_MINOR_NOBLE)
 	give_bank_account = 300
+	knows_the_town = TRUE
+	known_by_the_town = TRUE
 	honorary = "Lord"
 	honorary_f = "Lady"
 
@@ -169,10 +176,29 @@
 	outfit = /datum/outfit/minornoble/magickal_graduate
 	category_tags = list(CTAG_MINOR_NOBLE)
 	give_bank_account = 20
+	knows_the_town = TRUE
+	known_by_the_town = TRUE
 	honorary = "Lord"
 	honorary_f = "Lady"
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/magickal_graduate
+
+/datum/job/advclass/minornoble/magickal_graduate/on_roundstart(mob/living/spawned, client/player_client)
+	. = ..()
+
+	var/static/list/selectable_books = list(
+		"Blazing Tome (Fire)" = /obj/item/spellbook/apprentice/starter/fire,
+		"Frostbound Tome (Ice)" = /obj/item/spellbook/apprentice/starter/ice,
+		"Storm-Charged Tome (Lightning)" = /obj/item/spellbook/apprentice/starter/lightning,
+		"Stoneveined Tome (Earth)" = /obj/item/spellbook/apprentice/starter/earth,
+		"Thrice-Warded Tome (Arcane)" = /obj/item/spellbook/apprentice/starter/arcane,
+		"Grave-Touched Tome (Death)" = /obj/item/spellbook/apprentice/starter/death,
+		"Verdant Tome (Life)" = /obj/item/spellbook/apprentice/starter/life,
+		"Windswept Tome (Air)" = /obj/item/spellbook/apprentice/starter/air,
+		"Tidebound Tome (Water)" = /obj/item/spellbook/apprentice/starter/water,
+	)
+
+	grant_selected_spellbooks(spawned, selectable_books, 2)
 
 /datum/outfit/minornoble/magickal_graduate
 	name = "Magical Graduate (noble)"
@@ -182,7 +208,6 @@
 	cloak = /obj/item/clothing/cloak/raincloak/furcloak
 	backr = /obj/item/storage/backpack/satchel/black
 	backpack_contents = list(
-		/obj/item/book/granter/spellbook/apprentice = 1,
 		/obj/item/chalk = 1
 	)
 
@@ -209,6 +234,8 @@
 	outfit = /datum/outfit/minornoble/herald
 	category_tags = list(CTAG_MINOR_NOBLE)
 	give_bank_account = 60
+	knows_the_town = TRUE
+	known_by_the_town = TRUE
 	honorary = "Lord Herald"
 	honorary_f = "Lady Herald"
 
@@ -246,6 +273,8 @@
 	outfit = /datum/outfit/minornoble/vassal
 	category_tags = list(CTAG_MINOR_NOBLE)
 	give_bank_account = 100
+	knows_the_town = TRUE
+	known_by_the_town = TRUE
 	honorary = "Lord"
 	honorary_f = "Lady"
 
@@ -259,7 +288,7 @@
 
 /datum/outfit/minornoble/vassal
 	name = "Vassal (noble)"
-	shoes = /obj/item/clothing/shoes/boots
+	shoes = /obj/item/clothing/shoes/boots/darkboots
 	shirt = /obj/item/clothing/shirt/tunic/colored/random
 	backl = /obj/item/storage/backpack/satchel
 	neck = /obj/item/storage/belt/pouch/coins/veryrich
@@ -305,7 +334,7 @@
 
 /datum/outfit/noble
 	name = "Noble Base"
-	shoes = /obj/item/clothing/shoes/boots
+	shoes = /obj/item/clothing/shoes/boots/darkboots
 	neck = /obj/item/storage/belt/pouch/coins/veryrich
 	belt = /obj/item/storage/belt/leather
 	ring = /obj/item/clothing/ring/silver

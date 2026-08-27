@@ -16,12 +16,13 @@
 
 /datum/job/merchant
 	title = JOB_MERCHANT
+	alt_titles = list("Hawker", "Fence", "Grifter", "Mercator", "Pawnbroker")
 	tutorial = "You were born into wealth, learning from before you could talk about the basics of mathematics. Counting coins is a simple pleasure for any person, but you've made it an art form. These people are addicted to your wares, and you are the literal beating heart of this economy."
 	department_flag = COMPANY
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_MERCHANT
 	is_quest_giver = TRUE
-	faction = FACTION_TOWN
+	factions = list(FACTION_TOWN)
 	total_positions = 0
 	spawn_positions = 0
 	bypass_lastclass = TRUE
@@ -30,6 +31,8 @@
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/merchant
 	give_bank_account = 200
+	knows_the_town = TRUE
+	known_by_the_town = TRUE
 	exp_type = list(EXP_TYPE_LIVING, EXP_TYPE_MERCHANT_COMPANY)
 	exp_types_granted = list(EXP_TYPE_MERCHANT_COMPANY)
 	exp_requirements = list(

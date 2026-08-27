@@ -54,7 +54,7 @@ GLOBAL_LIST_EMPTY(lord_titles)
 	department_flag = NOBLEMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_LORD
-	faction = FACTION_TOWN
+	factions = list(FACTION_TOWN)
 	total_positions = 1
 	spawn_positions = 1
 	spells = list(
@@ -66,6 +66,11 @@ GLOBAL_LIST_EMPTY(lord_titles)
 	outfit = /datum/outfit/lord
 	bypass_lastclass = TRUE
 	give_bank_account = 500
+
+	knows_the_town = TRUE
+	known_by_the_town = TRUE
+	jobs_always_know_me = list(JOB_COURT_AGENT)
+
 	selection_color = "#7851A9"
 	cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg'
 	can_have_apprentices = FALSE
@@ -86,7 +91,8 @@ GLOBAL_LIST_EMPTY(lord_titles)
 	honorary_f = "Princess"
 
 	mind_traits = list(
-		TRAIT_KNOW_KEEP_DOORS
+		TRAIT_KNOW_KEEP_DOORS,
+		TRAIT_KNOWCOURTAGENTS
 	)
 	traits = list(
 		TRAIT_NOBLE_BLOOD,
@@ -144,6 +150,24 @@ GLOBAL_LIST_EMPTY(lord_titles)
 	if(spawned.dna?.species?.id == SPEC_ID_HUMEN && spawned.gender == MALE)
 		spawned.dna.species.soundpack_m = new /datum/voicepack/male/evil()
 
+	if(player_client?.prefs)
+		var/datum/preferences/prefs = player_client.prefs
+
+		var/list/laws = prefs.read_preference(/datum/preference/list_type/role_setting/monarch_law)
+		if(length(laws))
+			GLOB.laws_of_the_land = list()
+		for(var/law in laws)
+			law = trim(law)
+			GLOB.laws_of_the_land += trim(law)
+
+
+		var/list/decrees = prefs.read_preference(/datum/preference/list_type/role_setting/monarch_decree)
+		if(length(decrees))
+			GLOB.lord_decrees = list()
+		for(var/decree in decrees)
+			decree = trim(decree)
+			GLOB.lord_decrees += trim(decree)
+
 /datum/outfit/lord
 	name = JOB_MONARCH
 	head = /obj/item/clothing/head/crown/serpcrown
@@ -156,6 +180,10 @@ GLOBAL_LIST_EMPTY(lord_titles)
 	l_hand = /obj/item/weapon/lordscepter
 	r_hand = /obj/item/storage/keyring/heir
 
+	backpack_contents = list(
+		/obj/item/storage/keyring/monarch = 1,
+	)
+
 /datum/outfit/lord/map_override(mob/living/carbon/human/H)
 	if(SSmapping.config.map_name != "Voyage")
 		return
@@ -165,7 +193,7 @@ GLOBAL_LIST_EMPTY(lord_titles)
 	armor = /obj/item/clothing/armor/leather/jacket/silk_coat
 	shirt = /obj/item/clothing/shirt/undershirt/puritan
 	wrists = null
-	shoes = /obj/item/clothing/shoes/boots
+	shoes = /obj/item/clothing/shoes/boots/darkboots
 
 /datum/outfit/lord/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
@@ -194,7 +222,7 @@ GLOBAL_LIST_EMPTY(lord_titles)
 /datum/job/exlord //just used to change the lords title
 	title = "Ex-Monarch"
 	department_flag = NOBLEMEN
-	faction = FACTION_TOWN
+	factions = list(FACTION_TOWN)
 	total_positions = 0
 	spawn_positions = 0
 	display_order = JDO_LORD

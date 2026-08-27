@@ -21,7 +21,7 @@
 /datum/job/absolver
 	title = JOB_ABSOLVER
 	department_flag = INQUISITION
-	faction = "Station"
+	factions = list(FACTION_INQUISITION, FACTION_TOWN)
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	total_positions = 1 // THE ONE.
 	spawn_positions = 1
@@ -33,6 +33,8 @@
 	bypass_lastclass = TRUE
 	display_order = JDO_ABSOLVER
 	give_bank_account = 15
+	knows_the_town = TRUE
+	known_by_the_town = TRUE
 	cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
 	antag_role = /datum/antagonist/purishep
 
@@ -84,20 +86,26 @@
 		devotion.make_absolver()
 		devotion.grant_to(spawned)
 
-/*
 	spawned.hud_used?.shutdown_bloodpool()
 	spawned.hud_used?.initialize_bloodpool()
 	spawned.hud_used?.bloodpool.set_fill_color("#dcdddb")
 	spawned.hud_used?.bloodpool?.name = "Aspects' Grace: [spawned.bloodpool]"
 	spawned.hud_used?.bloodpool?.desc = "Devotion: [spawned.bloodpool]/[spawned.maxbloodpool]"
 	spawned.maxbloodpool = 1000
-*/
+	spawned.AddComponent(/datum/component/bloodpool_regen, 0.5)
 
 	var/datum/species/species = spawned.dna?.species
 	if(!species)
 		return
 	species.native_language = "Old Unsundered"
 	species.accent_language = species.get_accent(species.native_language)
+
+/datum/job/absolver/remove_job(mob/living/carbon/human/spawned)
+	. = ..()
+	if(.)
+		spawned.hud_used?.shutdown_bloodpool()
+		spawned.maxbloodpool = initial(spawned.maxbloodpool)
+		qdel(spawned.GetComponent(/datum/component/bloodpool_regen))
 
 /datum/outfit/absolver
 	name = JOB_ABSOLVER
@@ -115,7 +123,7 @@
 	shoes = /obj/item/clothing/shoes/angrosboots
 	mask = /obj/item/clothing/head/helmet/blacksteel/psythorns
 	head = /obj/item/clothing/head/helmet/heavy/absolver
-	ring = /obj/item/clothing/ring/signet/silver
+	ring = /obj/item/clothing/ring/signet/psy
 	backpack_contents = list(
 		/obj/item/natural/bundle/cloth = 2,
 		/obj/item/reagent_containers/glass/bottle/healthpot = 2,
@@ -132,4 +140,3 @@
 			neck = /obj/item/clothing/neck/psycross/silver/divine
 		if(/datum/patron/angros)
 			neck = /obj/item/clothing/neck/psycross/silver
-

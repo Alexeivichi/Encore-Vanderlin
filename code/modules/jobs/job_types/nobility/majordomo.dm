@@ -19,7 +19,7 @@
 	department_flag = NOBLEMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_MAJORDOMO
-	faction = FACTION_TOWN
+	factions = list(FACTION_TOWN)
 	total_positions = 2
 	spawn_positions = 2
 	bypass_lastclass = TRUE
@@ -52,10 +52,6 @@
 	else
 		shirt = /obj/item/clothing/shirt/undershirt/fancy
 		pants = /obj/item/clothing/pants/trou/leathertights
-
-/datum/job/majordomo/after_spawn(mob/living/carbon/human/spawned, client/player_client)
-	. = ..()
-	spawned.virginity = TRUE
 
 /datum/outfit/majordomo
 	name = JOB_MAJORDOMO

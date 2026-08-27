@@ -100,8 +100,6 @@
 			owner.remove_status_effect(/datum/status_effect/debuff/hungryt2)
 			if(CONFIG_GET(flag/starvation_death))
 				owner.apply_status_effect(/datum/status_effect/debuff/hungryt4)
-			if(DT_PROB(3, delta_time))
-				playsound(owner, pick('sound/vo/hungry1.ogg','sound/vo/hungry2.ogg','sound/vo/hungry3.ogg'), 100, TRUE, -1)
 
 	switch(owner.hydration)
 		if(HYDRATION_LEVEL_SMALLTHIRST to INFINITY)
@@ -131,9 +129,7 @@
 	var/list/stomachs = owner.getorganslotlist(ORGAN_SLOT_STOMACH)
 
 	for(var/obj/item/organ/stomach/stomach as anything in stomachs)
-		for(var/chunk in stomach.reagents.reagent_list)
-			var/datum/reagent/bit = chunk
-
+		for(var/datum/reagent/bit as anything in stomach.reagents.reagent_list)
 			if(bit.metabolization_rate <= 0)
 				continue
 
@@ -167,8 +163,7 @@
 
 /datum/organ_process/stomach/proc/handle_disgust(mob/living/carbon/human/owner, delta_time, times_fired)
 	var/combined_disgust_metabolism = 0
-	for(var/thing in owner.getorganslotlist(ORGAN_SLOT_STOMACH))
-		var/obj/item/organ/stomach/stomach = thing
+	for(var/obj/item/organ/stomach/stomach as anything in owner.getorganslotlist(ORGAN_SLOT_STOMACH))
 		combined_disgust_metabolism += stomach.disgust_metabolism
 
 	if(owner.disgust)

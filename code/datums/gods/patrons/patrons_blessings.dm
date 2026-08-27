@@ -160,18 +160,18 @@
 		/// Mjallidhorn
 		/datum/patron/divine/mjallidhorn = list(
 			/datum/status_effect/buff/beastsense = "Mjallidhorn inhales: \"Your senses sharpen and you know that no prey will escape you now.\"",
-            /datum/status_effect/buff/trollshape = "Mjallidhorn grits his teeth: \"Your muscles tighten as the Storm Father gifts you a thimble of his strength.\"",
-            /datum/status_effect/buff/divine_beauty = "Mjallidhorn narrows his eyes: \"A divine radiance shines upon you.\"",
-            /datum/status_effect/buff/call_to_arms = "Mjallidhorn blows his warhorn: \"You hear the warcall and prepare for righteous battle!\"",
-            /datum/status_effect/buff/craft_buff = "Mjallidhorn cracks his knuckles: \"You feel pride and accomplishment as your understanding for the crafts deepens.\"",
-            /datum/status_effect/buff/foodbuff = "Mjallidhorn rumbles: \"Your hunger is satiated and your thirst quenched.\"",
-            /datum/status_effect/buff/clean_plus = "Mjallidhorn’s waves engulf you: \"You feel fresh cleansing saltwater coat your skin.\"",
-            /datum/status_effect/buff/featherfall = "Mjallidhorn exhales: \"Dark storm clouds pool around your feet to soften any fall.\"",
-            /datum/status_effect/buff/darkvision = "Mjallidhorn blinks: \"You blink in unison and suddenly the dark is no longer so daunting.\"",
-            /datum/status_effect/buff/haste = "Mjallidhorn snaps his fingers: \"The harsh frost nips at your heels and urges you to press on.\"",
-            /datum/status_effect/buff/calm = "Mjallidhorn shifts his gaze: \"The battle rages on elsewhere. You are allowed a moment of reprieve.\"",
-            /datum/status_effect/buff/barbrage = "Mjallidhorn roars: \"You hear His thunderous battlecry and feel the storm rage within you!\""
-        ),
+			/datum/status_effect/buff/trollshape = "Mjallidhorn grits his teeth: \"Your muscles tighten as the Storm Father gifts you a thimble of his strength.\"",
+			/datum/status_effect/buff/divine_beauty = "Mjallidhorn narrows his eyes: \"A divine radiance shines upon you.\"",
+			/datum/status_effect/buff/call_to_arms = "Mjallidhorn blows his warhorn: \"You hear the warcall and prepare for righteous battle!\"",
+			/datum/status_effect/buff/craft_buff = "Mjallidhorn cracks his knuckles: \"You feel pride and accomplishment as your understanding for the crafts deepens.\"",
+			/datum/status_effect/buff/foodbuff = "Mjallidhorn rumbles: \"Your hunger is satiated and your thirst quenched.\"",
+			/datum/status_effect/buff/clean_plus = "Mjallidhorn’s waves engulf you: \"You feel fresh cleansing saltwater coat your skin.\"",
+			/datum/status_effect/buff/featherfall = "Mjallidhorn exhales: \"Dark storm clouds pool around your feet to soften any fall.\"",
+			/datum/status_effect/buff/darkvision = "Mjallidhorn blinks: \"You blink in unison and suddenly the dark is no longer so daunting.\"",
+			/datum/status_effect/buff/haste = "Mjallidhorn snaps his fingers: \"The harsh frost nips at your heels and urges you to press on.\"",
+			/datum/status_effect/buff/calm = "Mjallidhorn shifts his gaze: \"The battle rages on elsewhere. You are allowed a moment of reprieve.\"",
+			/datum/status_effect/buff/barbrage = "Mjallidhorn roars: \"You hear His thunderous battlecry and feel the storm rage within you!\""
+		),
 
 		/// Visires
 		/datum/patron/divine/visires = list(
@@ -206,20 +206,20 @@
 		),
 
 		/// Gani
-        /datum/patron/divine/gani = list(
-            /datum/status_effect/buff/beastsense = "Gani whispers: \"All things of the wild are interconnected; see them, my child.\"",
-            /datum/status_effect/buff/trollshape = "Gani whispers: \"Let the power of the wilds shape your form, my child.\"",
-            /datum/status_effect/buff/divine_beauty = "Gani whispers: \"Bloom with verdant beauty, my child.\"",
-            /datum/status_effect/buff/call_to_arms = "Gani proclaims: \"Strike with mercy, strike with precision! The errant stem must be cut at the root.\"",
-            /datum/status_effect/buff/craft_buff = "Gani whispers: \"Show me what you can create, my child.\"",
-            /datum/status_effect/buff/foodbuff = "Gani whispers: \"Eat up, my dear.\"",
-            /datum/status_effect/buff/clean_plus = "Gani rasps: \"Always more cleaning to do, my child.\"",
-            /datum/status_effect/buff/featherfall = "Gani chuckles: \"Jump, my child. Do not fear, Mother has you.\"",
-            /datum/status_effect/buff/darkvision = "Gani whispers: \"See all that the trees and roots do.\"",
-            /datum/status_effect/buff/haste = "Gani encourages: \"Run as the wolves do, my child!\"",
-            /datum/status_effect/buff/calm = "Gani whispers: \"Be calm, my child. Mother will keep you safe.\"",
-            /datum/status_effect/buff/barbrage = "Gani proclaims: \"Feel a Mother's rage!\""
-        ),
+		/datum/patron/divine/gani = list(
+			/datum/status_effect/buff/beastsense = "Gani whispers: \"All things of the wild are interconnected; see them, my child.\"",
+			/datum/status_effect/buff/trollshape = "Gani whispers: \"Let the power of the wilds shape your form, my child.\"",
+			/datum/status_effect/buff/divine_beauty = "Gani whispers: \"Bloom with verdant beauty, my child.\"",
+			/datum/status_effect/buff/call_to_arms = "Gani proclaims: \"Strike with mercy, strike with precision! The errant stem must be cut at the root.\"",
+			/datum/status_effect/buff/craft_buff = "Gani whispers: \"Show me what you can create, my child.\"",
+			/datum/status_effect/buff/foodbuff = "Gani whispers: \"Eat up, my dear.\"",
+			/datum/status_effect/buff/clean_plus = "Gani rasps: \"Always more cleaning to do, my child.\"",
+			/datum/status_effect/buff/featherfall = "Gani chuckles: \"Jump, my child. Do not fear, Mother has you.\"",
+			/datum/status_effect/buff/darkvision = "Gani whispers: \"See all that the trees and roots do.\"",
+			/datum/status_effect/buff/haste = "Gani encourages: \"Run as the wolves do, my child!\"",
+			/datum/status_effect/buff/calm = "Gani whispers: \"Be calm, my child. Mother will keep you safe.\"",
+			/datum/status_effect/buff/barbrage = "Gani proclaims: \"Feel a Mother's rage!\""
+		),
 
 		/// Pomette
 		/datum/patron/divine/pomette = list(
@@ -287,19 +287,19 @@
 
 		/// Valdala
 		/datum/patron/divine/valdala = list(
-            /datum/status_effect/buff/beastsense = "Valdala murmurs: \"The grave knows your scent... and waits.\"",
-            /datum/status_effect/buff/trollshape = "Valdala hums: \"Mass returns to earth. Let the soil remember you.\"",
-            /datum/status_effect/buff/divine_beauty = "Valdala whispers: \"Even beauty rots. But for now... wear it.\"",
-            /datum/status_effect/buff/call_to_arms = "Valdala states: \"Raise thy blade. All paths end the same.\"",
-            /datum/status_effect/buff/craft_buff = "Valdala sighs: \"All things break. Make them, even so.\"",
-            /datum/status_effect/buff/foodbuff = "Valdala croons: \"Feast whilst thou breathe. The hunger ends soon.\"",
-            /datum/status_effect/buff/clean_plus = "Valdala sighs: \"Thou mayest wash flesh... but not its fate.\"",
-            /datum/status_effect/buff/featherfall = "Valdala hums: \"Fall gently. The earth shall catch thee.\"",
-            /datum/status_effect/buff/darkvision = "Valdala whispers: \"The dark is not empty. It welcomes.\"",
-            /datum/status_effect/buff/haste = "Valdala murmurs: \"Quickly now. Time thins beneath thy feet.\"",
-            /datum/status_effect/buff/calm = "Valdala soothes: \"Rest... the silence shall come for all.\"",
-            /datum/status_effect/buff/barbrage = "Valdala intones: \"Rage, if thy must. The dead are silent, but not still.\""
-        ),
+			/datum/status_effect/buff/beastsense = "Valdala murmurs: \"The grave knows your scent... and waits.\"",
+			/datum/status_effect/buff/trollshape = "Valdala hums: \"Mass returns to earth. Let the soil remember you.\"",
+			/datum/status_effect/buff/divine_beauty = "Valdala whispers: \"Even beauty rots. But for now... wear it.\"",
+			/datum/status_effect/buff/call_to_arms = "Valdala states: \"Raise thy blade. All paths end the same.\"",
+			/datum/status_effect/buff/craft_buff = "Valdala sighs: \"All things break. Make them, even so.\"",
+			/datum/status_effect/buff/foodbuff = "Valdala croons: \"Feast whilst thou breathe. The hunger ends soon.\"",
+			/datum/status_effect/buff/clean_plus = "Valdala sighs: \"Thou mayest wash flesh... but not its fate.\"",
+			/datum/status_effect/buff/featherfall = "Valdala hums: \"Fall gently. The earth shall catch thee.\"",
+			/datum/status_effect/buff/darkvision = "Valdala whispers: \"The dark is not empty. It welcomes.\"",
+			/datum/status_effect/buff/haste = "Valdala murmurs: \"Quickly now. Time thins beneath thy feet.\"",
+			/datum/status_effect/buff/calm = "Valdala soothes: \"Rest... the silence shall come for all.\"",
+			/datum/status_effect/buff/barbrage = "Valdala intones: \"Rage, if thy must. The dead are silent, but not still.\""
+		),
 
 		/// Akan
 		/datum/patron/divine/akan = list(
@@ -335,18 +335,18 @@
 
 		/// Mordsol
 		/datum/patron/divine/mordsol  = list(
-            /datum/status_effect/buff/beastsense = "Mordsol growls: \"A good warrior needs keen senses to protect his home. Let no evil escape you.\"",
-            /datum/status_effect/buff/trollshape = "Mordsol offers: \"A strong arm is needed to lift the shield. Let me share thy burden.\"",
-            /datum/status_effect/buff/divine_beauty = "Mordsol declares: \"Be proud child of Frost and wear your glory like a crown.\"",
-            /datum/status_effect/buff/call_to_arms = "Mordsol bellows: \"Duty calls and victory is sure to follow!\"",
-            /datum/status_effect/buff/craft_buff = "Mordsol praises: \"You know your craft like the back of your hand, child of storm.\"",
-            /datum/status_effect/buff/foodbuff = "Mordsol grunts: \"A warrior can’t be strong on an empty stomach, eat up.\"",
-            /datum/status_effect/buff/clean_plus = "Mordsol chuckles: \"Wash up, child! A warrior should look respectable.\"",
-            /datum/status_effect/buff/featherfall = "Mordsol comments: \"Even the bold must fall with grace.\"",
-            /datum/status_effect/buff/darkvision = "Mordsol declares: \"The soul of the brave shines brighter than any darkness.\"",
-            /datum/status_effect/buff/haste = "Mordsol barks: \"Swift feet carry righteous blades.\"",
-            /datum/status_effect/buff/calm = "Mordsol sighs: \"The hearth is warm and the time for fighting has passed. Come and rest awhile, child.\"",
-            /datum/status_effect/buff/barbrage = "Mordsol roars: \"BE FILLED WITH RIGHTEOUS ANGER!\""
+			/datum/status_effect/buff/beastsense = "Mordsol growls: \"A good warrior needs keen senses to protect his home. Let no evil escape you.\"",
+			/datum/status_effect/buff/trollshape = "Mordsol offers: \"A strong arm is needed to lift the shield. Let me share thy burden.\"",
+			/datum/status_effect/buff/divine_beauty = "Mordsol declares: \"Be proud child of Frost and wear your glory like a crown.\"",
+			/datum/status_effect/buff/call_to_arms = "Mordsol bellows: \"Duty calls and victory is sure to follow!\"",
+			/datum/status_effect/buff/craft_buff = "Mordsol praises: \"You know your craft like the back of your hand, child of storm.\"",
+			/datum/status_effect/buff/foodbuff = "Mordsol grunts: \"A warrior can’t be strong on an empty stomach, eat up.\"",
+			/datum/status_effect/buff/clean_plus = "Mordsol chuckles: \"Wash up, child! A warrior should look respectable.\"",
+			/datum/status_effect/buff/featherfall = "Mordsol comments: \"Even the bold must fall with grace.\"",
+			/datum/status_effect/buff/darkvision = "Mordsol declares: \"The soul of the brave shines brighter than any darkness.\"",
+			/datum/status_effect/buff/haste = "Mordsol barks: \"Swift feet carry righteous blades.\"",
+			/datum/status_effect/buff/calm = "Mordsol sighs: \"The hearth is warm and the time for fighting has passed. Come and rest awhile, child.\"",
+			/datum/status_effect/buff/barbrage = "Mordsol roars: \"BE FILLED WITH RIGHTEOUS ANGER!\""
 		),
 
 		/// Iliope

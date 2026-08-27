@@ -25,7 +25,8 @@
 		/datum/action/cooldown/spell/aoe/repulse/howl, \
 		/datum/action/cooldown/spell/woundlick, \
 		/datum/action/cooldown/spell/lunge, \
-		/datum/action/cooldown/spell/throw_target
+		/datum/action/cooldown/spell/throw_target, \
+		/datum/action/cooldown/keen_nose
 	)
 	COOLDOWN_DECLARE(message_cooldown)
 
@@ -63,7 +64,7 @@
 	if(increase_votepwr)
 		forge_werewolf_objectives()
 	owner.current.add_spell(/datum/action/cooldown/spell/undirected/werewolf_form)
-	owner.current.grant_language(/datum/language/beast)
+	owner.current.grant_language(/datum/language/lifesong)
 
 	var/datum/rage/werewolf/new_rage = new
 	new_rage.grant_to_holder(owner.current)
@@ -81,7 +82,7 @@
 	REMOVE_TRAIT(owner, TRAIT_NO_TRANSFORM, REF(src))
 	owner.special_role = null
 	owner.current.remove_spell(/datum/action/cooldown/spell/undirected/werewolf_form)
-	owner.current.remove_language(/datum/language/beast)
+	owner.current.remove_language(/datum/language/lifesong)
 
 	UnregisterSignal(owner.current, list(COMSIG_RAGE_BOTTOMED, COMSIG_RAGE_OVERRAGE))
 	if(ishuman(owner.current))
@@ -190,7 +191,7 @@
 	icon_state = null
 	body_parts_covered = FULL_BODY
 	resistance_flags = FIRE_PROOF
-	armor = ARMOR_BRIGANDINE
+	armor_type = /datum/armor/brigandine
 	prevent_crits = list(BCLASS_CUT, BCLASS_CHOP, BCLASS_STAB, BCLASS_BLUNT, BCLASS_TWIST)
 	blocksound = SOFTHIT
 	blade_dulling = DULLING_BASHCHOP

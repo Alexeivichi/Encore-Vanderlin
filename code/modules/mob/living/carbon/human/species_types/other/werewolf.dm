@@ -25,8 +25,6 @@
 	inherent_traits = list(
 		TRAIT_NOSTAMINA,
 		TRAIT_RESISTCOLD,
-		TRAIT_RESISTHIGHPRESSURE,
-		TRAIT_RESISTLOWPRESSURE,
 		TRAIT_RADIMMUNE,
 		TRAIT_NODISMEMBER,
 		TRAIT_STRONGBITE,
@@ -98,7 +96,7 @@
 	. = ..()
 	RegisterSignal(C, COMSIG_MOB_SAY, PROC_REF(handle_speech))
 	C.remove_all_languages()
-	C.grant_language(/datum/language/beast)
+	C.grant_language(/datum/language/lifesong)
 
 /datum/species/werewolf/update_damage_overlays(mob/living/carbon/human/H)
 	H.remove_overlay(DAMAGE_LAYER)

@@ -1,7 +1,9 @@
 /datum/language/hellspeak
 	name = "Infernal"
-	desc = ""
-	icon_state = "infernal"
+	desc = "The language of the Hellish and the Infernal - something that comes \
+	innately to those of cursed blood, but also proliferates through Daemonic \
+	cults and heretical text."
+	icon_state = "zizo"
 	spans = list(SPAN_HELL)
 	speech_verb = "states"
 	ask_verb = "asks"
