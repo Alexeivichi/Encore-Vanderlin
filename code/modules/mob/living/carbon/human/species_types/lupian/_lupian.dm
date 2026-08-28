@@ -134,14 +134,10 @@
 		/datum/descriptor_choice/prominent_four,
 	)
 
-/datum/species/lupian/on_species_gain(mob/living/carbon/C, datum/species/old_species, datum/preferences/pref_load)
-	. = ..()
+/datum/species/lupian/on_species_gain(mob/living/carbon/C, datum/species/old_species)
+	..()
 	RegisterSignal(C, COMSIG_MOB_SAY, PROC_REF(handle_speech))
 	C.grant_language(/datum/language/common)
-
-/datum/species/lupian/on_species_loss(mob/living/carbon/human/C, datum/species/new_species, pref_load)
-	. = ..()
-	UnregisterSignal(C, COMSIG_MOB_SAY)
 
 /datum/species/lupian/check_roundstart_eligible()
 	return TRUE

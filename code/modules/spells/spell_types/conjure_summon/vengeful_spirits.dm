@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/conjure_summon/vengeful_spirits
 	name = "Avenging Spirits"
-	desc = "Summon temporary rancorous spirits to tear at an opponent!"
+	desc = "Summon temporary rancorous spirits to tear at an opponent! (Heretical)"
 	button_icon = 'icons/mob/actions/spells/necramiracles.dmi'
 	button_icon_state = "vengeful_spirit"
 	sound = 'sound/magic/magnet.ogg'

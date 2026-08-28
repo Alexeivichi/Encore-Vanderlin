@@ -216,8 +216,8 @@
 	return TRUE
 
 /obj/item/natural/worms/leech/parasite
-	name = "the parasite"
-	desc = "A foul, wriggling creecher. Known to suck whole villages of their blood, these rare freeks have been domesticated for medical purposes."
+	name = "the cheele"
+	desc = "A beautiful, blood-infusing altruistic organism made by Gani herself."
 	icon_state = "parasite"
 	dropshrink = 0.9
 	baitpenalty = 0

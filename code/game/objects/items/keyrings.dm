@@ -240,10 +240,10 @@
 	keys = list(/obj/item/key/merchant, /obj/item/key/mercenary, /obj/item/key/warehouse)
 
 /obj/item/storage/keyring/mage
-	keys = list(/obj/item/key/manor, /obj/item/key/tower, /obj/item/key/mage)
+	keys = list(/obj/item/key/gatehouse, /obj/item/key/tower, /obj/item/key/mage)
 
 /obj/item/storage/keyring/mageapprentice
-	keys = list(/obj/item/key/manor, /obj/item/key/tower)
+	keys = list(/obj/item/key/gatehouse, /obj/item/key/tower)
 
 /obj/item/storage/keyring/innkeep
 	keys = list(/obj/item/key/tavern, /obj/item/key/mercenary)

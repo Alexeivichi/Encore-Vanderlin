@@ -393,7 +393,7 @@
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/hellwatch)
 "eH" = (
-/turf/closed/mineral,
+/turf/closed/mineral/deep,
 /area/under/cave)
 "eK" = (
 /obj/structure/fluff/railing/wood{
@@ -1135,6 +1135,10 @@
 /obj/item/candle/yellow/lit,
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/hellwatch)
+"mP" = (
+/obj/structure/wild_plant/nospread/manabloom,
+/turf/open/floor/dirt/road,
+/area/outdoors/mountains)
 "mT" = (
 /obj/structure/fluff/walldeco/sparrowflag{
 	pixel_y = 32
@@ -1516,7 +1520,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 9
 	},
-/turf/closed/mineral,
+/turf/closed/mineral/deep,
 /area/under/cavelava)
 "sh" = (
 /obj/structure/chair/wood{
@@ -1738,7 +1742,7 @@
 /turf/open/floor/cobble,
 /area/indoors/hellwatch)
 "vE" = (
-/turf/closed/mineral,
+/turf/closed/mineral/deep,
 /area/under/cavelava)
 "vG" = (
 /turf/closed/wall/mineral/stone,
@@ -1916,7 +1920,7 @@
 /turf/open/floor/grass/red,
 /area/outdoors/seculton)
 "yd" = (
-/turf/closed/mineral,
+/turf/closed/mineral/deep,
 /area/outdoors/mountains)
 "yf" = (
 /obj/structure/table/wood,
@@ -1990,6 +1994,10 @@
 "yU" = (
 /turf/open/floor/ruinedwood,
 /area/indoors/hellwatch)
+"zc" = (
+/obj/structure/leyline,
+/turf/open/floor/blocks/green,
+/area/outdoors/mountains)
 "zr" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/mountains/decap/miracle_caldera)
@@ -2186,7 +2194,7 @@
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/hellwatch)
 "Di" = (
-/turf/closed/mineral,
+/turf/closed/mineral/deep,
 /area/indoors/shelter/mountains)
 "Dt" = (
 /obj/structure/stairs/stone/church{
@@ -2313,6 +2321,9 @@
 "Fb" = (
 /obj/structure/flora/newtree/snow,
 /turf/open/floor/grass/yel,
+/area/outdoors/mountains)
+"Fg" = (
+/turf/open/floor/greenstone/runed,
 /area/outdoors/mountains)
 "Fn" = (
 /obj/structure/stairs/stone/church{
@@ -2603,6 +2614,9 @@
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/ruinedwood,
 /area/indoors/hellwatch)
+"Iw" = (
+/turf/open/floor/blocks/green,
+/area/outdoors/mountains)
 "IC" = (
 /obj/structure/door/stone{
 	name = "Chapel"
@@ -3065,7 +3079,7 @@
 /turf/open/floor/metal/red,
 /area/under/cave)
 "Od" = (
-/turf/closed/mineral,
+/turf/closed/mineral/deep,
 /area/indoors/hellwatch)
 "Oh" = (
 /obj/item/natural/stone,
@@ -3984,6 +3998,9 @@
 /obj/structure/fluff/statue/knightalt,
 /turf/open/floor/cobble,
 /area/under/cavelava)
+"YY" = (
+/turf/open/floor/greenstone,
+/area/outdoors/mountains)
 "Zb" = (
 /obj/structure/stairs/stone{
 	dir = 1
@@ -94868,9 +94885,9 @@ vH
 bv
 bv
 bv
+fC
 bv
-bv
-bv
+YY
 bv
 bv
 bv
@@ -95074,11 +95091,11 @@ vH
 vH
 bv
 bv
-bv
-bv
-bv
-bv
-bv
+YY
+fC
+fC
+mP
+YY
 bv
 bv
 bv
@@ -95281,12 +95298,12 @@ vH
 vH
 bv
 bv
+fC
+Fg
+Iw
+Fg
 bv
-bv
-bv
-bv
-bv
-bv
+fC
 bv
 bv
 eH
@@ -95487,12 +95504,12 @@ vH
 vH
 vH
 bv
-bv
-bv
-bv
-bv
-bv
-bv
+fC
+fC
+Iw
+zc
+Iw
+fC
 bv
 bv
 bv
@@ -95694,13 +95711,13 @@ vH
 vH
 bv
 bv
-bv
-bv
-bv
-bv
-bv
-bv
-bv
+YY
+mP
+Fg
+Iw
+Fg
+fC
+YY
 bv
 bv
 eH
@@ -95901,13 +95918,13 @@ vH
 vH
 bv
 bv
+fC
 bv
+fC
+fC
+YY
 bv
-UO
-bv
-bv
-bv
-bv
+fC
 bv
 bv
 eH
@@ -96109,11 +96126,11 @@ vH
 bv
 bv
 bv
+YY
+YY
+fC
 bv
-bv
-bv
-bv
-bv
+mP
 bv
 bv
 bv
@@ -96732,7 +96749,7 @@ bv
 bv
 bv
 bv
-bv
+UO
 bv
 bv
 bv

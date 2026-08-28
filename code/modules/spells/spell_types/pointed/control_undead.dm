@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/control_undead
 	name = "Control Undead"
-	desc = "Attempt to make an undead your ally."
+	desc = "Attempt to make an undead your ally. (Heretical)"
 	button_icon_state = "raiseskele"
 	sound = 'sound/vo/smokedrag.ogg'
 	self_cast_possible = FALSE

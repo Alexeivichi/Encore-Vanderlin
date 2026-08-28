@@ -1,7 +1,7 @@
 // TODO touch spell?
 /datum/action/cooldown/spell/decompose
 	name = "Decompose"
-	desc = "Instantly rots the target, if humanoid creates a deadite."
+	desc = "Instantly rots the target, if humanoid creates a deadite. (Heretical)"
 	button_icon_state = "orison"
 	sound = 'sound/magic/whiteflame.ogg'
 	self_cast_possible = FALSE

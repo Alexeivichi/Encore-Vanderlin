@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/raise_undead
 	name = "Raise Undead"
-	desc = "Raise a new skeleton from the fallen."
+	desc = "Raise a new skeleton from the fallen. (Heretical)"
 	button_icon_state = "raiseskele"
 	sound = 'sound/magic/magnet.ogg'
 

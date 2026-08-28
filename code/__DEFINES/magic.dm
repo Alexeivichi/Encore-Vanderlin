@@ -223,7 +223,7 @@ DEFINE_BITFIELD(spell_requirements, list(
 #define FORM_LIGHTNING "Lightning"
 #define FORM_EARTH "Earth"
 #define FORM_ARCANE "Arcane"
-#define FORM_DEATH "Death"
+#define FORM_DEATH "Entropy"
 #define FORM_LIFE "Life"
 #define FORM_AIR "Aeromancy"
 #define FORM_WATER "Hydromancy"

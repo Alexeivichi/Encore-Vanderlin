@@ -1,0 +1,5 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - balance: "Increased devotion gain across the board."
+  - balance: "Reduced meteor storm cast time significantly."
