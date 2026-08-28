@@ -1,0 +1,17 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - rscadd: "Adds a new Hand subclass called the Magister. They're a mage."
+  - rscadd: "Adds a new Yeoman job called the Tower Archmage, the head instructors of the mage tower/university/thing."
+  - rscadd: "Adds a new Yeoman job called the Tower Magician, a middlepoint between the Archmage and the Magician Apprentice."
+  - rscadd: "Adds the Gate key to the Mage and Mage Apprentice keyrings, so Tower roles can still use the gate bypass and access the Mage Tower if someone's locked the gate on them."
+  - rscdel: "Removes the Court Magician role."
+  - rscdel: "Removes the Manor key from the Mage and Mage Apprentice keyrings, so none of the Tower roles can let themselves into the Shirleigh manor willy-nilly, especially since they aren't nobility anymore."
+  - map: "Adds a narrow bridge pathway along Etgard's outer walls so that people can still visit the Mage Tower without having to go through Etgard Keep itself to do so. (Similar to the Clinic's public entrance.)"
+  - map: "Adds some direction signs inside and outside Etgard Keep that point in the directions of the Mage Tower and Clinic respectively."
+  - map: "Adds some inactive leylines in North/South/East/West to encourage Mages to head out of town for leyline shards."
+  - map: "Turns two of Etgard's upstairs guest rooms into rooms for the Captain and Hand."
+  - map: "Turns the tiny 2x3 former-Captain's bedroom into the Dungeoneer's room."
+  - map: "Turns the former Dungeoneer's room into the Watch Lieutenant's room."
+  - map: "Turns the former Watch Lieutenant's room into the Knights' barracks."
+  - map: "Maps in consistent lava tiles in revamped Visires and Goler Kanh shrines in the South and North respectively, so mages can get obsidian."
