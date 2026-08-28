@@ -207,11 +207,16 @@
 	if(stringamt < 1)
 		to_chat(user, span_warning("The needle has no thread left!"))
 		return FALSE
+	var/armor_mod
 	var/mob/living/doctor = user
 	var/mob/living/carbon/patient = target
 	if(!get_location_accessible(patient, check_zone(doctor.zone_selected)))
-		to_chat(doctor, span_warning("Something is in the way."))
-		return FALSE
+		if(GET_MOB_SKILL_VALUE(doctor, /datum/attribute/skill/misc/medicine) >= 35)
+			to_chat(doctor, span_notice("I'm skilled enough to sew through this.."))
+			armor_mod = calculate_armor_mod(patient, doctor.zone_selected)
+		else
+			to_chat(doctor, span_warning("I'm not skilled enough to sew through this!"))
+			return FALSE
 	var/obj/item/bodypart/affecting = patient.get_bodypart(check_zone(doctor.zone_selected))
 	if(!affecting)
 		to_chat(doctor, span_warning("That limb is missing."))
@@ -226,6 +231,8 @@
 	// First try to fix arteries
 	if(affecting.get_cut() && affecting.is_artery_torn())
 		var/time = 5 SECONDS
+		if(armor_mod)
+			time += armor_mod*10
 		time *= perception_mod * doctor_mod
 		playsound(patient, 'sound/foley/sewflesh.ogg', 100, TRUE, -2)
 		if(!do_after(doctor, time, patient))
@@ -265,6 +272,8 @@
 		if(injury.is_sutured())
 			continue
 		var/time = 2 SECONDS + min(injury.damage_per_injury() * 0.1, 2 SECONDS)
+		if(armor_mod)
+			time += armor_mod*10
 		time *= perception_mod * doctor_mod
 		playsound(target, 'sound/foley/sewflesh.ogg', 65, FALSE)
 		if(!do_after(user, time, target))
