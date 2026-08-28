@@ -41,7 +41,7 @@
 	The arcyne is finally your own to command without constant supervision by the Archmagi. Now, you've been granted a measure of freedom to\
 	pursue your own research, although you still answer to them... To make matters worse, now the beady-eyed apprentices are also looking to you for guidance!\
 	Didn't you just graduate yesterday? Oh, Gods... well, maybe just ONE apprentice is manageable..."
-	department_flag = PEASANTS
+	department_flag = SERFS
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_TOWER_MAGE
 	factions = FACTION_TOWN
