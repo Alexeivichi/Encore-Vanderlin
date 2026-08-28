@@ -27,6 +27,13 @@
 
 	triumph_cost_permanent = 2
 
+/datum/loadout_item/wooden_staff
+	name = "Wooden Staff"
+	item_path = /obj/item/weapon/polearm/woodstaff
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 5
+
 /datum/loadout_item/sheath
 	name = "Knife Sheath"
 	item_path = /obj/item/weapon/scabbard/knife
@@ -334,3 +341,73 @@
 	ui_category = "Held Item"
 
 	triumph_cost_permanent = 15
+
+/datum/loadout_item/quarterstaff
+	name = "Quarterstaff"
+	item_path = /obj/item/weapon/polearm/woodstaff/quarterstaff
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 15
+
+/datum/loadout_item/iron_quarterstaff
+	name = "Iron Quarterstaff"
+	item_path = /obj/item/weapon/polearm/woodstaff/quarterstaff/iron
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 20
+
+/datum/loadout_item/iron_spear
+	name = "Iron Spear"
+	item_path = /obj/item/weapon/polearm/spear
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 20
+
+/datum/loadout_item/bronze_spear
+	name = "Bronze Spear"
+	item_path = /obj/item/weapon/polearm/spear/bronze
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 25
+
+/datum/loadout_item/iron_dagger_ax
+	name = "Iron Dagger-Ax"
+	item_path = /obj/item/weapon/polearm/spear/billhook/ji/iron
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 30
+
+/datum/loadout_item/bronze_dagger_ax
+	name = "Bronze Dagger-Ax"
+	item_path = /obj/item/weapon/polearm/spear/billhook/ji/bronze
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 25
+
+/datum/loadout_item/iron_assegai
+	name = "Iron Assegai"
+	item_path = /obj/item/weapon/polearm/spear/assegai
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 30
+
+/datum/loadout_item/iron_javelin
+	name = "Iron Javelin"
+	item_path = /obj/item/weapon/polearm/spear/javelin/iron
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 30
+
+/datum/loadout_item/copper_javelin
+	name = "Copper Javelin"
+	item_path = /obj/item/weapon/polearm/spear/javelin
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 20
+
+/datum/loadout_item/iron_bardiche
+	name = "Iron Bardiche"
+	item_path = /obj/item/weapon/polearm/halberd/bardiche/woodcutter
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 40
