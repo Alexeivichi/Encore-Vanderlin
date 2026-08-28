@@ -24,8 +24,8 @@
 		return
 	prefs.write_preference(/datum/preference/text/flavortext, new_flavortext)
 	var/ft = prefs.read_preference(/datum/preference/text/flavortext)
-	ft = html_encode(ft)
 	ft = replacetext(parsemarkdown_basic(ft), "\n", "<BR>")
+	ft = html_encode(ft)
 	prefs.write_preference(/datum/preference/text/flavortext_display, ft)
 	to_chat(user, span_notice("Successfully updated flavortext"))
 	log_game("[user] has set their flavortext'.")
