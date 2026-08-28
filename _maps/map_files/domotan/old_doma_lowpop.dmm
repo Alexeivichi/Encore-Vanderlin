@@ -3916,14 +3916,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/indoors/town/smithy)
-"cFd" = (
-/obj/structure/bed,
-/obj/item/bedsheet/cloth,
-/obj/effect/landmark/start/watchman{
-	dir = 8
-	},
-/turf/open/floor/tile/diamond,
-/area/indoors/town/keep/garrison)
 "cFh" = (
 /obj/effect/decal/shadow_floor{
 	dir = 4
@@ -8188,6 +8180,14 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town/shop)
+"fqC" = (
+/obj/structure/bed,
+/obj/item/bedsheet/cloth,
+/obj/effect/landmark/start/watchman{
+	dir = 8
+	},
+/turf/open/floor/tile/diamond,
+/area/indoors/town/keep/garrison)
 "fqN" = (
 /obj/structure/door/weak/bolt{
 	dir = 4;
@@ -10855,8 +10855,7 @@
 /obj/effect/landmark/start/squire{
 	dir = 4
 	},
-/obj/structure/bed,
-/obj/item/bedsheet/cloth,
+/obj/structure/bed/hay,
 /turf/open/floor/tile/checkeralt,
 /area/indoors/town/keep/garrison)
 "hiy" = (
@@ -13750,6 +13749,12 @@
 /obj/item/chalk,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern)
+"iRg" = (
+/obj/structure/bed/wool,
+/obj/item/bedsheet/fabric,
+/obj/effect/landmark/start/manorguardsman,
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town/keep/captain)
 "iRj" = (
 /obj/structure/door/stone{
 	name = "Slitherway Passage"
@@ -21627,10 +21632,9 @@
 /obj/effect/landmark/start/squire{
 	dir = 4
 	},
-/obj/structure/bed,
-/obj/item/bedsheet/cloth,
 /obj/machinery/light/fueled/wallfire/candle/l,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/hay,
 /turf/open/floor/tile/checkeralt,
 /area/indoors/town/keep/garrison)
 "nPb" = (
@@ -22324,12 +22328,6 @@
 /obj/structure/closet/crate/chest,
 /turf/open/floor/cobble,
 /area/indoors/town/keep/garrison)
-"onv" = (
-/obj/structure/bed/wool,
-/obj/item/bedsheet/fabric,
-/obj/effect/landmark/start/manorguardsman,
-/turf/open/floor/carpet/royalblack,
-/area/indoors/town/keep/captain)
 "onJ" = (
 /obj/structure/door/red{
 	name = "Adventuring Guild"
@@ -110868,8 +110866,8 @@ fIa
 fIa
 dkW
 szc
-cFd
-cFd
+fqC
+fqC
 xBm
 wBb
 fNx
@@ -111659,7 +111657,7 @@ fIa
 bYr
 fIa
 thO
-onv
+iRg
 heG
 heG
 tWX
@@ -111791,7 +111789,7 @@ fIa
 qsj
 tOW
 thO
-onv
+iRg
 heG
 heG
 tWX
