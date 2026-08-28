@@ -1300,10 +1300,6 @@
 	},
 /turf/open/floor/church/violet,
 /area/indoors/shelter)
-"wd" = (
-/obj/machinery/light/fueled/firebowl/stumpg,
-/turf/open/floor/volcanic,
-/area/indoors/shelter)
 "wg" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -1429,8 +1425,9 @@
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
 "yK" = (
-/turf/closed/basic,
-/area/under/cave)
+/obj/machinery/light/fueled/firebowl/stumpg,
+/turf/open/floor/volcanic,
+/area/indoors/shelter)
 "yN" = (
 /obj/machinery/light/fueled/hearth,
 /obj/machinery/light/fueled/oven/south,
@@ -1471,8 +1468,9 @@
 /turf/closed/mineral,
 /area/indoors/town/church)
 "zu" = (
-/turf/closed/basic,
-/area/under/cavewet)
+/obj/machinery/light/fueled/firebowl/stumpg,
+/turf/open/floor/dirt/road,
+/area/indoors/shelter)
 "zw" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean,
@@ -1941,10 +1939,6 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/outdoors/beach)
-"Jx" = (
-/obj/machinery/light/fueled/firebowl/stumpg,
-/turf/open/floor/dirt/road,
-/area/indoors/shelter)
 "JC" = (
 /obj/structure/fluff/statue/small{
 	desc = "A statue of a dryad, a manifestation of an elemental spirit of Earth. This one possesses a featureless face, evoking the anonymity of the goddess Gani.";
@@ -54887,7 +54881,7 @@ Aq
 Dl
 uY
 uY
-wd
+yK
 Ac
 Ac
 WC
@@ -55916,7 +55910,7 @@ Aq
 Dl
 uY
 uY
-Jx
+zu
 st
 Ac
 uY
@@ -60831,7 +60825,7 @@ aV
 aV
 aV
 aV
-lu
+aV
 aV
 aV
 aV
@@ -61079,17 +61073,17 @@ aV
 aV
 aV
 aV
-yK
-yK
-yK
-zu
-zu
-yK
-yK
-yK
-yK
-yK
-yK
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
 aV
 aV
 aV
@@ -61336,17 +61330,17 @@ aV
 aV
 aV
 aV
-yK
-yK
-zu
-zu
-zu
-zu
-yK
-yK
-zu
-yK
-yK
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
 aV
 aV
 aV
@@ -61593,17 +61587,17 @@ aV
 aV
 aV
 aV
-yK
-yK
-zu
-yK
-yK
-yK
-yK
-yK
-zu
-yK
-yK
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
 aV
 aV
 aV
@@ -61850,17 +61844,17 @@ aV
 aV
 aV
 aV
-yK
-yK
-yK
-zu
-zu
-yK
-zu
-zu
-yK
-yK
-yK
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
 aV
 aV
 aV
@@ -62107,17 +62101,17 @@ aV
 aV
 aV
 aV
-yK
-yK
-yK
-yK
-yK
-zu
-zu
-yK
-yK
-yK
-yK
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
+aV
 aV
 aV
 aV
