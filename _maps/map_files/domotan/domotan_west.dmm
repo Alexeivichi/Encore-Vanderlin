@@ -1,4 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/turf/open/floor/blocks/green,
+/area/outdoors/woods/west)
 "ae" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/tile,
@@ -341,6 +344,10 @@
 	},
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/west)
+"cr" = (
+/obj/effect/landmark/quest_spawner/medium,
+/turf/open/floor/greenstone,
+/area/outdoors/woods/west)
 "cs" = (
 /obj/structure/flora/grass/water/reeds,
 /obj/structure/flora/grass/water,
@@ -632,6 +639,10 @@
 "es" = (
 /turf/closed/mineral/moss,
 /area/outdoors/woods/berkleigh)
+"et" = (
+/obj/structure/wild_plant/nospread/manabloom,
+/turf/open/floor/dirt/road,
+/area/outdoors/woods/west)
 "ev" = (
 /obj/structure/door/viewport,
 /turf/open/floor/blocks,
@@ -1725,7 +1736,7 @@
 	pixel_y = 32;
 	desc = "A painting of a cloaked feminine figure, the face is obscured beneath a veil of shadows. Their only features are two burning eyes, both of which follow you despite having no visible contraption or illusion at play. This image is not borne of good intent."
 	},
-/obj/item/coin/gold/pile,
+/obj/effect/spawner/map_spawner/loot/coin/med,
 /turf/open/floor/wood,
 /area/under/cave/oldfort)
 "lk" = (
@@ -1887,6 +1898,10 @@
 /obj/effect/decal/cleanable/debris/glass,
 /turf/open/floor/ruinedwood/alt,
 /area/outdoors/lighthouse)
+"mj" = (
+/obj/effect/spawner/map_spawner/loot/coin/low,
+/turf/open/floor/blocks,
+/area/under/cave/oldfort)
 "mm" = (
 /obj/structure/dye_bin/luxury,
 /turf/open/floor/churchmarble/violet,
@@ -2314,6 +2329,10 @@
 "pd" = (
 /turf/open/floor/cobblerock,
 /area/indoors/lighthouse)
+"pi" = (
+/obj/structure/leyline,
+/turf/open/floor/blocks/green,
+/area/outdoors/woods/west)
 "pk" = (
 /turf/closed/wall/window/stained/yellow,
 /area/indoors/vampire_manor)
@@ -2406,6 +2425,16 @@
 /obj/structure/fluff/walldeco/chains,
 /turf/open/lava/acid,
 /area/under/cave/lostkeep)
+"pT" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/chest/neu_fancy,
+/obj/effect/spawner/map_spawner/loot/common,
+/obj/effect/spawner/map_spawner/loot/weapon,
+/obj/item/gem,
+/obj/item/gem,
+/obj/item/gem,
+/turf/open/floor/blocks,
+/area/under/cave/oldfort)
 "pW" = (
 /obj/structure/chair/pew/left{
 	dir = 1
@@ -3532,6 +3561,15 @@
 	},
 /turf/open/openspace,
 /area/outdoors/lighthouse)
+"xQ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/chest/neu_fancy,
+/obj/effect/spawner/map_spawner/loot/common,
+/obj/effect/spawner/map_spawner/loot/weapon,
+/obj/effect/spawner/map_spawner/loot/medium,
+/obj/item/gem,
+/turf/open/floor/cobble,
+/area/under/cave/oldfort)
 "xR" = (
 /obj/structure/bars,
 /turf/open/floor/tile/bath,
@@ -4033,6 +4071,10 @@
 /obj/structure/spider/stickyweb,
 /turf/open/floor/naturalstone,
 /area/outdoors/lostkeep)
+"Bw" = (
+/obj/effect/spawner/map_spawner/loot/coin/med,
+/turf/open/floor/wood,
+/area/under/cave/oldfort)
 "By" = (
 /turf/closed/wall/mineral/stone,
 /area/indoors/vampire_manor)
@@ -4166,7 +4208,7 @@
 /turf/open/floor/grass/red,
 /area/outdoors/woods/west)
 "Cg" = (
-/obj/item/coin/gold/pile,
+/obj/effect/spawner/map_spawner/loot/coin/low,
 /turf/open/floor/wood,
 /area/under/cave/oldfort)
 "Ci" = (
@@ -4988,7 +5030,7 @@
 /area/outdoors/woods/west)
 "Gy" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/coin/gold/pile,
+/obj/effect/spawner/map_spawner/loot/coin/low,
 /turf/open/floor/wood,
 /area/under/cave/oldfort)
 "GB" = (
@@ -5464,6 +5506,9 @@
 /obj/structure/closet/crate/chest/neu,
 /turf/open/floor/cobble/mossy,
 /area/under/cave/oldfort)
+"Jt" = (
+/turf/open/floor/greenstone,
+/area/outdoors/woods/west)
 "Jz" = (
 /turf/open/floor/cobblerock,
 /area/outdoors/woods/west)
@@ -5887,6 +5932,10 @@
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/cobble/mossy,
 /area/indoors/lighthouse)
+"Mw" = (
+/obj/effect/spawner/map_spawner/loot/coin/high,
+/turf/open/floor/wood,
+/area/under/cave/oldfort)
 "Mz" = (
 /obj/structure/toilet,
 /turf/open/floor/dirt,
@@ -6342,6 +6391,16 @@
 /obj/item/reagent_containers/glass/cup/wooden,
 /turf/open/floor/cobble,
 /area/under/cave/oldfort)
+"Pw" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/chest/neu_fancy,
+/obj/effect/spawner/map_spawner/loot/common,
+/obj/effect/spawner/map_spawner/loot/armor,
+/obj/item/gem,
+/obj/item/gem,
+/obj/item/gem,
+/turf/open/floor/cobble,
+/area/under/cave/oldfort)
 "Py" = (
 /obj/structure/table/wood{
 	icon_state = "longtable"
@@ -6385,6 +6444,9 @@
 /obj/structure/guillotine,
 /turf/open/floor/metal,
 /area/under/cave/lostkeep)
+"PL" = (
+/turf/open/floor/greenstone/runed,
+/area/outdoors/woods/west)
 "PN" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4
@@ -7881,6 +7943,16 @@
 /obj/structure/spider/stickyweb,
 /turf/open/floor/blocks/green,
 /area/indoors/lostkeep)
+"Zw" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/chest/neu_fancy,
+/obj/effect/spawner/map_spawner/loot/common,
+/obj/effect/spawner/map_spawner/loot/armor,
+/obj/effect/spawner/map_spawner/loot/medium,
+/obj/item/gem,
+/obj/item/gem,
+/turf/open/floor/blocks,
+/area/under/cave/oldfort)
 "Zx" = (
 /obj/structure/fluff/railing/border{
 	dir = 1
@@ -56957,7 +57029,7 @@ qq
 tH
 qq
 hW
-hW
+pT
 KA
 kj
 Aw
@@ -57206,15 +57278,15 @@ by
 Id
 Id
 KA
-Cg
+Mw
 LW
 LW
 Wx
-qq
+mj
 qq
 qq
 hW
-hW
+Zw
 KA
 hb
 kj
@@ -58756,7 +58828,7 @@ hW
 qq
 Hb
 Dz
-Dz
+Pw
 KA
 KA
 KA
@@ -59005,15 +59077,15 @@ by
 Id
 Id
 KA
-Cg
+Mw
 Pf
-Cg
+Bw
 pC
 qq
 qY
 Hb
 Dz
-Dz
+xQ
 KA
 SN
 Ac
@@ -70973,9 +71045,9 @@ IB
 OD
 OD
 OD
-OD
-OD
-OD
+Jt
+qk
+Jt
 OD
 OD
 OD
@@ -71229,12 +71301,12 @@ OD
 IB
 OD
 OD
+Jt
+qk
+qk
+et
 OD
-OD
-OD
-OD
-OD
-OD
+qk
 OD
 OD
 OD
@@ -71485,12 +71557,12 @@ OD
 OD
 IB
 OD
+qk
 OD
-OD
-OD
-OD
-OD
-OD
+PL
+ab
+PL
+Jt
 OD
 OD
 OD
@@ -71743,12 +71815,12 @@ OD
 OD
 OD
 OD
-OD
-OD
-OD
-OD
-OD
-Kk
+Jt
+ab
+pi
+ab
+qk
+cr
 OD
 OD
 OD
@@ -71999,12 +72071,12 @@ OD
 nV
 nV
 OD
-OD
-OD
-OD
-OD
-OD
-OD
+Jt
+et
+PL
+ab
+PL
+qk
 OD
 OD
 OD
@@ -72257,12 +72329,12 @@ OD
 OD
 OD
 OD
-OD
-OD
-OD
-OD
-OD
-OD
+qk
+qk
+Jt
+qk
+Jt
+et
 OD
 OD
 OD
@@ -72514,11 +72586,11 @@ OD
 OD
 OD
 OD
+Jt
+Jt
 OD
 OD
-OD
-OD
-OD
+qk
 OD
 OD
 OD
@@ -72773,7 +72845,7 @@ OD
 OD
 OD
 OD
-OD
+qk
 OD
 OD
 OD

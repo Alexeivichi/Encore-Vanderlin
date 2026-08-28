@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/projectile/blood_steal
 	name = "Blood Steal"
-	desc = "Launch a bolt which leeches the blood of those hit."
+	desc = "Launch a bolt which leeches the blood of those hit. (Heretical)"
 	button_icon_state = "bloodsteal"
 	sound = 'sound/magic/vlightning.ogg'
 
