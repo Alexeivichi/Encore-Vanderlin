@@ -305,8 +305,6 @@
 /turf/open/openspace,
 /area/indoors/town/tavern)
 "ajI" = (
-/obj/item/natural/stone,
-/obj/item/weapon/sword/long/exe,
 /obj/structure/table/wood{
 	dir = 10;
 	icon_state = "tablewood2"
@@ -3921,7 +3919,7 @@
 "cFd" = (
 /obj/structure/bed,
 /obj/item/bedsheet/cloth,
-/obj/effect/landmark/start/guardsman{
+/obj/effect/landmark/start/watchman{
 	dir = 8
 	},
 /turf/open/floor/tile/diamond,
@@ -8190,14 +8188,6 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town/shop)
-"fqC" = (
-/obj/structure/bed,
-/obj/item/bedsheet/cloth,
-/obj/effect/landmark/start/guardsman{
-	dir = 4
-	},
-/turf/open/floor/tile/diamond,
-/area/indoors/town/keep/garrison)
 "fqN" = (
 /obj/structure/door/weak/bolt{
 	dir = 4;
@@ -11714,7 +11704,6 @@
 /area/outdoors/town)
 "hIi" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/start/watchman,
 /turf/open/floor/carpet/red,
 /area/indoors/town/keep/garrison)
 "hIw" = (
@@ -13761,10 +13750,6 @@
 /obj/item/chalk,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern)
-"iRg" = (
-/obj/effect/landmark/start/watchman,
-/turf/open/floor/carpet/red,
-/area/indoors/town/keep/garrison)
 "iRj" = (
 /obj/structure/door/stone{
 	name = "Slitherway Passage"
@@ -18864,7 +18849,6 @@
 "mee" = (
 /obj/structure/fake_machine/scomm/l,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/start/watchman,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/keep/garrison)
 "meg" = (
@@ -19103,10 +19087,6 @@
 	},
 /turf/open/floor/blocks,
 /area/indoors/town/garrison)
-"mky" = (
-/obj/effect/landmark/start/manorguardsman,
-/turf/open/floor/carpet/lord/left,
-/area/indoors/town/keep/throne)
 "mkA" = (
 /turf/open/floor/tile/checkeralt,
 /area/indoors/town/garrison)
@@ -21613,13 +21593,6 @@
 	},
 /turf/open/floor/church/purple,
 /area/indoors/town/keep/archivist)
-"nMC" = (
-/obj/effect/landmark/start/manorguardsman,
-/obj/effect/decal/shadow_floor{
-	dir = 8
-	},
-/turf/open/floor/blocks/bluestone,
-/area/indoors/town/keep/throne)
 "nNd" = (
 /obj/structure/fluff/railing/tall/retaining,
 /turf/open/floor/sand/sandstone,
@@ -22352,12 +22325,11 @@
 /turf/open/floor/cobble,
 /area/indoors/town/keep/garrison)
 "onv" = (
+/obj/structure/bed/wool,
+/obj/item/bedsheet/fabric,
 /obj/effect/landmark/start/manorguardsman,
-/obj/effect/decal/shadow_floor{
-	dir = 4
-	},
-/turf/open/floor/blocks/bluestone,
-/area/indoors/town/keep/throne)
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town/keep/captain)
 "onJ" = (
 /obj/structure/door/red{
 	name = "Adventuring Guild"
@@ -27858,6 +27830,7 @@
 /area/outdoors/town)
 "scp" = (
 /obj/structure/bed,
+/obj/item/bedsheet/cloth,
 /obj/effect/landmark/start/guardsman{
 	dir = 4
 	},
@@ -30773,6 +30746,9 @@
 "tWX" = (
 /obj/structure/bed/wool,
 /obj/item/bedsheet/fabric,
+/obj/effect/landmark/start/manorguardsman{
+	dir = 1
+	},
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/keep/captain)
 "tXb" = (
@@ -33082,7 +33058,6 @@
 /turf/open/floor/ruinedwood,
 /area/outdoors/town)
 "vAQ" = (
-/obj/effect/landmark/start/manorguardsman,
 /obj/effect/decal/shadow_floor{
 	dir = 8
 	},
@@ -33981,10 +33956,6 @@
 	},
 /turf/open/floor/cobble/alt,
 /area/under/town/basement/smugglers_tunnels)
-"wgo" = (
-/obj/effect/landmark/start/manorguardsman,
-/turf/open/floor/carpet/lord/right,
-/area/indoors/town/keep/throne)
 "wgG" = (
 /obj/item/burial_shroud,
 /obj/item/burial_shroud,
@@ -36117,11 +36088,11 @@
 /obj/structure/bed,
 /obj/item/bedsheet/cloth,
 /obj/machinery/light/fueled/wallfire/candle/r,
-/obj/effect/landmark/start/guardsman{
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/watchman{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/diamond,
 /area/indoors/town/keep/garrison)
 "xBq" = (
@@ -93319,7 +93290,7 @@ ePa
 gPI
 gPI
 vAQ
-nMC
+gPI
 gPI
 irS
 fYh
@@ -93450,8 +93421,8 @@ pCY
 pCY
 pCY
 pCY
-mky
-mky
+pCY
+pCY
 pCY
 hyI
 bla
@@ -93714,8 +93685,8 @@ iIe
 iIe
 iIe
 iIe
-wgo
-wgo
+iIe
+iIe
 iIe
 iIe
 fSc
@@ -93846,8 +93817,8 @@ hYs
 hYs
 hYs
 hYs
-onv
-onv
+hYs
+hYs
 hYs
 irS
 oKp
@@ -94657,7 +94628,7 @@ qPd
 vpf
 fIa
 rbj
-iRg
+hyt
 pFB
 ahz
 ahz
@@ -110898,7 +110869,7 @@ fIa
 dkW
 szc
 cFd
-fqC
+cFd
 xBm
 wBb
 fNx
@@ -111688,7 +111659,7 @@ fIa
 bYr
 fIa
 thO
-tWX
+onv
 heG
 heG
 tWX
@@ -111820,7 +111791,7 @@ fIa
 qsj
 tOW
 thO
-tWX
+onv
 heG
 heG
 tWX
