@@ -280,9 +280,9 @@
 		))
 	data["available_colors"] = colors_list
 
-	// Equipped slots (ordered, always 3 entries)
+	// Equipped slots (ordered, always 10 entries - changed to 10 to accommodate loadout )
 	var/list/slots = list()
-	for(var/i in 1 to 3)
+	for(var/i in 1 to 10)
 		var/path_str = (length(owner.prefs.equipped_loadout) >= i) \
 			? owner.prefs.equipped_loadout[i] : null
 		if(path_str)
@@ -638,8 +638,8 @@
 		to_chat(owner.mob, span_warning("You don't meet the requirements for [item.name]."))
 		return FALSE
 	var/used = length(owner.prefs.equipped_loadout) + length(owner.prefs.single_round_loadout)
-	if(used >= 3)
-		to_chat(owner.mob, span_warning("All 3 loadout slots are in use."))
+	if(used >= 10)
+		to_chat(owner.mob, span_warning("All 10 loadout slots are in use."))
 		return FALSE
 	if(CEILING(item.triumph_cost_permanent * 0.05, 1) > 0 && !(owner.is_donator() && !(item.loadout_flags & LOADOUT_FLAG_NO_DONATOR_FREE)))
 		var/balance = get_triumph_amount(owner.ckey)
@@ -666,8 +666,8 @@
 		to_chat(owner.mob, span_warning("[item.name] cannot be equipped as a loadout slot item."))
 		return FALSE
 	var/used = length(owner.prefs.equipped_loadout) + length(owner.prefs.single_round_loadout)
-	if(used >= 3)
-		to_chat(owner.mob, span_warning("All 3 loadout slots are in use."))
+	if(used >= 10)
+		to_chat(owner.mob, span_warning("All 10 loadout slots are in use."))
 		return FALSE
 	owner.prefs.equipped_loadout += path_str
 	return TRUE
