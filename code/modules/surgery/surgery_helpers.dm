@@ -117,3 +117,14 @@
 				return TRUE
 
 	return FALSE
+
+// specifically used for /obj/item/needle/proc/sew_wounds
+/proc/calculate_armor_mod(mob/living/carbon/H, target_zone)
+	var/total_weight = 0
+
+	for(var/obj/item/equipped_item in H.get_equipped_items())
+		if(zone2covered(target_zone, equipped_item.body_parts_covered) && equipped_item.surgery_cover)
+			if(equipped_item.w_class)
+				total_weight += equipped_item.w_class
+
+	return total_weight

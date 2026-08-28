@@ -393,7 +393,7 @@
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/hellwatch)
 "eH" = (
-/turf/closed/mineral,
+/turf/closed/mineral/deep,
 /area/under/cave)
 "eK" = (
 /obj/structure/fluff/railing/wood{
@@ -1520,7 +1520,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 9
 	},
-/turf/closed/mineral,
+/turf/closed/mineral/deep,
 /area/under/cavelava)
 "sh" = (
 /obj/structure/chair/wood{
@@ -1742,7 +1742,7 @@
 /turf/open/floor/cobble,
 /area/indoors/hellwatch)
 "vE" = (
-/turf/closed/mineral,
+/turf/closed/mineral/deep,
 /area/under/cavelava)
 "vG" = (
 /turf/closed/wall/mineral/stone,
@@ -1920,7 +1920,7 @@
 /turf/open/floor/grass/red,
 /area/outdoors/seculton)
 "yd" = (
-/turf/closed/mineral,
+/turf/closed/mineral/deep,
 /area/outdoors/mountains)
 "yf" = (
 /obj/structure/table/wood,
@@ -2194,7 +2194,7 @@
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/hellwatch)
 "Di" = (
-/turf/closed/mineral,
+/turf/closed/mineral/deep,
 /area/indoors/shelter/mountains)
 "Dt" = (
 /obj/structure/stairs/stone/church{
@@ -3079,7 +3079,7 @@
 /turf/open/floor/metal/red,
 /area/under/cave)
 "Od" = (
-/turf/closed/mineral,
+/turf/closed/mineral/deep,
 /area/indoors/hellwatch)
 "Oh" = (
 /obj/item/natural/stone,

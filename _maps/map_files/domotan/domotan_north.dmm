@@ -96,14 +96,14 @@
 /turf/open/floor/cobble,
 /area/under/cave)
 "aR" = (
-/turf/closed/mineral,
+/turf/closed/mineral/random/cold,
 /area/under/cavewet)
 "aS" = (
 /obj/item/grown/log/tree/stick,
 /turf/open/floor/twig,
 /area/indoors/shelter)
 "aV" = (
-/turf/closed/mineral,
+/turf/closed/mineral/random/cold,
 /area/under/cave)
 "aX" = (
 /obj/structure/fluff/railing/border,
@@ -882,7 +882,7 @@
 /turf/open/water/ocean/abyss,
 /area/under/cavewet)
 "pk" = (
-/turf/closed/mineral,
+/turf/closed/mineral/random/cold,
 /area/under/town/basement)
 "pm" = (
 /obj/machinery/light/fueled/torchholder/c,
@@ -1171,7 +1171,7 @@
 	template_y = 14;
 	template_x = 14
 	},
-/turf/closed/mineral,
+/turf/closed/mineral/random/cold,
 /area/under/town/basement)
 "ug" = (
 /obj/effect/landmark/map_load_mark/generic_tile,
@@ -1465,7 +1465,7 @@
 /turf/open/floor/ruinedwood,
 /area/outdoors/woods/etgard)
 "zl" = (
-/turf/closed/mineral,
+/turf/closed/mineral/random/cold,
 /area/indoors/town/church)
 "zu" = (
 /obj/machinery/light/fueled/firebowl/stumpg,
@@ -1990,7 +1990,7 @@
 	template_y = 14;
 	template_x = 14
 	},
-/turf/closed/mineral,
+/turf/closed/mineral/random/cold,
 /area/under/town/basement)
 "Kr" = (
 /obj/structure/flora/grass/water,
@@ -2305,7 +2305,7 @@
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
 "PP" = (
-/turf/closed/mineral,
+/turf/closed/mineral/random/cold,
 /area/outdoors/woods/etgard)
 "PT" = (
 /turf/open/water/ocean/abyss,
@@ -2692,7 +2692,7 @@
 /area/outdoors/town)
 "WV" = (
 /obj/effect/landmark/map_load_mark/generic_tile,
-/turf/closed/mineral,
+/turf/closed/mineral/random/cold,
 /area/under/cave)
 "WY" = (
 /obj/structure/fluff/railing/border{

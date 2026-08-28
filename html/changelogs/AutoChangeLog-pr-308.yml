@@ -1,0 +1,7 @@
+author: "MisterLayne"
+delete-after: True
+changes:
+  - bugfix: "A comment above CUSCOLORS was changed, forgot to do that"
+  - bugfix: "Lupians have thier common back"
+  - bugfix: "Rakshari have their tails back"
+  - bugfix: "Demihumans have their.. everything back"
