@@ -1300,6 +1300,10 @@
 	},
 /turf/open/floor/church/violet,
 /area/indoors/shelter)
+"wd" = (
+/obj/machinery/light/fueled/firebowl/stumpg,
+/turf/open/floor/volcanic,
+/area/indoors/shelter)
 "wg" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -1937,6 +1941,10 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/outdoors/beach)
+"Jx" = (
+/obj/machinery/light/fueled/firebowl/stumpg,
+/turf/open/floor/dirt/road,
+/area/indoors/shelter)
 "JC" = (
 /obj/structure/fluff/statue/small{
 	desc = "A statue of a dryad, a manifestation of an elemental spirit of Earth. This one possesses a featureless face, evoking the anonymity of the goddess Gani.";
@@ -54879,7 +54887,7 @@ Aq
 Dl
 uY
 uY
-uY
+wd
 Ac
 Ac
 WC
@@ -55908,7 +55916,7 @@ Aq
 Dl
 uY
 uY
-st
+Jx
 st
 Ac
 uY
