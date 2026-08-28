@@ -46,3 +46,10 @@
 	ui_category = "Shoes"
 
 	triumph_cost_permanent = 5
+
+/datum/loadout_item/jestershoes
+	name = "Jester's Shoes"
+	item_path = /obj/item/clothing/shoes/jester
+	ui_category = "Shoes"
+
+	triumph_cost_permanent = 15
