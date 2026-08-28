@@ -119,6 +119,14 @@
 /obj/machinery/light/fueledstreet/blue/wall,
 /turf/open/floor/ruinedwood/chevron,
 /area)
+"cR" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/obj/structure/table/wood,
+/obj/item/clothing/head/flowercrown/manabloom,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
 "cU" = (
 /obj/structure/fluff/walldeco/bath/wallrope,
 /turf/closed/wall/mineral/stone,
@@ -341,6 +349,12 @@
 	},
 /turf/open/openspace,
 /area)
+"kn" = (
+/obj/structure/closet/crate/chest/wicker/random_soilson,
+/obj/item/neuFarm/seed/manabloom,
+/obj/item/neuFarm/seed/manabloom,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
 "kp" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
@@ -352,12 +366,7 @@
 /turf/open/openspace,
 /area)
 "kt" = (
-/obj/structure/door/fancy{
-	name = "Magus Quarters"
-	},
-/obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/keyset/manor/mage,
-/turf/open/floor/ruinedwood/spiralfade,
+/turf/open/floor/grass/healthy,
 /area)
 "kv" = (
 /obj/machinery/light/fueledstreet/blue/wall{
@@ -535,8 +544,13 @@
 /turf/open/floor/twig,
 /area)
 "pS" = (
-/obj/structure/closet/crate/crafted_closet/inn,
-/turf/open/floor/ruinedwood/turned/darker,
+/obj/machinery/light/fueledstreet/blue/wall,
+/obj/item/weapon/shovel/small{
+	pixel_x = -7
+	},
+/obj/item/weapon/shovel,
+/obj/structure/table/wood,
+/turf/open/floor/metal,
 /area)
 "qa" = (
 /obj/structure/carpet,
@@ -671,8 +685,11 @@
 /turf/open/floor/wood,
 /area)
 "sB" = (
-/obj/structure/rack/shelf/biggest,
-/turf/open/floor/ruinedwood/spiralfade,
+/obj/structure/bars/pipe,
+/obj/structure/bars/pipe{
+	dir = 1
+	},
+/turf/open/floor/metal/alt,
 /area)
 "sX" = (
 /obj/structure/door/fancy{
@@ -773,6 +790,15 @@
 /obj/item/clothing/head/wizhat/random,
 /turf/open/floor/wood,
 /area)
+"xu" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/cobweb{
+	dir = 8
+	},
+/turf/open/floor/grass/healthy,
+/area)
 "xw" = (
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 1
@@ -813,12 +839,7 @@
 /turf/open/water/river,
 /area)
 "zN" = (
-/obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/keyset/manor/mage,
-/obj/structure/door/fancy{
-	name = "Quarter One"
-	},
-/turf/open/floor/ruinedwood/spiralfade,
+/turf/open/floor/dirt,
 /area)
 "zO" = (
 /obj/structure/carpet/green,
@@ -832,12 +853,7 @@
 /turf/open/openspace,
 /area)
 "zV" = (
-/obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/keyset/manor/mage,
-/obj/structure/door/fancy{
-	name = "Quarter Three"
-	},
-/turf/open/floor/ruinedwood/spiralfade,
+/turf/open/floor/metal/alt,
 /area)
 "zX" = (
 /obj/structure/stairs{
@@ -896,6 +912,18 @@
 	},
 /turf/open/floor/twig,
 /area)
+"BY" = (
+/obj/item/weapon/thresher{
+	pixel_x = -6
+	},
+/obj/item/weapon/pitchfork{
+	pixel_x = 15
+	},
+/obj/item/weapon/sickle,
+/obj/item/weapon/hoe,
+/obj/structure/table/wood,
+/turf/open/floor/metal,
+/area)
 "BZ" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/flora/grass,
@@ -920,12 +948,8 @@
 /turf/open/openspace,
 /area)
 "Dl" = (
-/obj/effect/mapping_helpers/access/locker,
-/obj/effect/mapping_helpers/access/keyset/manor/mage,
-/obj/structure/door/fancy{
-	name = "Quarter Two"
-	},
-/turf/open/floor/ruinedwood/spiralfade,
+/obj/structure/fluff/steamvent,
+/turf/open/floor/metal/alt,
 /area)
 "Dq" = (
 /obj/structure/chair/wood/alt/chair_noble/red{
@@ -1060,7 +1084,10 @@
 /turf/open/floor/wood,
 /area)
 "II" = (
-/turf/open/floor/ruinedwood/turned/darker,
+/obj/structure/flora/grass/water,
+/turf/open/water/river{
+	dir = 4
+	},
 /area)
 "IU" = (
 /obj/effect/waterfall,
@@ -1083,6 +1110,9 @@
 /area)
 "Jr" = (
 /obj/structure/fluff/walldeco/maidensigil,
+/obj/effect/decal/cleanable/dirt/cobweb{
+	dir = 1
+	},
 /turf/open/openspace,
 /area)
 "JI" = (
@@ -1154,6 +1184,16 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area)
+"Mh" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/cobweb{
+	dir = 1
+	},
+/obj/structure/composter/halffull,
+/turf/open/floor/grass/healthy,
+/area)
 "Mk" = (
 /turf/open/floor/wood,
 /area)
@@ -1189,6 +1229,11 @@
 "Ne" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/turned/alt,
+/area)
+"Nf" = (
+/obj/structure/window/solid,
+/obj/structure/window/solid,
 /turf/open/floor/ruinedwood/turned/alt,
 /area)
 "NP" = (
@@ -1265,6 +1310,10 @@
 /obj/effect/decal/carpet/square,
 /turf/open/floor/ruinedwood/turned,
 /area)
+"PU" = (
+/obj/item/reagent_containers/glass/bucket/wooden,
+/turf/open/floor/metal/alt,
+/area)
 "PV" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -1327,8 +1376,9 @@
 /turf/open/floor/ruinedwood/turned/alt,
 /area)
 "Rz" = (
-/obj/structure/rack/shelf/biggest,
-/turf/open/floor/ruinedwood/turned/darker,
+/obj/structure/window/solid,
+/obj/structure/bars/grille,
+/turf/open/floor/ruinedwood/turned/alt,
 /area)
 "RE" = (
 /obj/structure/fluff/walldeco/painting/skull,
@@ -1359,8 +1409,10 @@
 /turf/open/openspace,
 /area)
 "SQ" = (
-/obj/structure/fluff/walldeco/customflag/regent,
-/turf/closed/wall/mineral/stone,
+/obj/structure/door/window{
+	name = "Apothecarium Garden"
+	},
+/turf/open/floor/ruinedwood/turned/alt,
 /area)
 "SW" = (
 /obj/structure/fluff/walldeco/bath/four,
@@ -1393,8 +1445,8 @@
 /turf/open/floor/ruinedwood/turned/alt,
 /area)
 "Uz" = (
-/obj/structure/rack/shelf/biggest,
-/turf/open/floor/ruinedwood/chevron,
+/obj/structure/wild_plant/nospread/manabloom,
+/turf/open/floor/dirt,
 /area)
 "UD" = (
 /obj/structure/rack/shelf/biggest,
@@ -1512,8 +1564,11 @@
 /turf/open/floor/wood,
 /area)
 "Xy" = (
-/obj/structure/closet/crate/crafted_closet/inn,
-/turf/open/floor/ruinedwood/spiralfade,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/obj/structure/well,
+/turf/open/floor/metal/alt,
 /area)
 "XB" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3929,8 +3984,8 @@ Pv
 (13,1,4) = {"
 Pv
 tL
-tL
-tL
+pS
+BY
 tL
 Rr
 je
@@ -3955,22 +4010,22 @@ Pv
 "}
 (14,1,4) = {"
 Pv
+HU
+je
+Av
 Gk
-sB
-Xy
-Gk
-Gk
+oF
 SQ
-kt
+SQ
 Wm
 Wm
-jy
-jy
 Wm
 Wm
 tL
 tL
-tL
+EL
+EL
+EL
 EL
 EL
 EL
@@ -3982,22 +4037,22 @@ Pv
 "}
 (15,1,4) = {"
 Pv
-LU
-Sj
-Sj
-Sj
-tL
-yY
-yY
-yY
-yY
-yY
-yY
-Wm
-II
-II
-II
-tL
+HU
+je
+je
+je
+Zs
+Av
+Av
+Av
+je
+je
+Av
+cR
+HU
+EL
+EL
+EL
 EL
 EL
 EL
@@ -4009,22 +4064,22 @@ EL
 "}
 (16,1,4) = {"
 Pv
-LU
-Sj
-Sj
-Sj
-zN
-yY
-yY
-yY
-yY
-yY
-yY
+HU
 zV
-II
-II
-II
-aj
+je
+je
+Av
+je
+je
+je
+Av
+Av
+je
+kn
+HU
+EL
+EL
+EL
 av
 av
 av
@@ -4036,22 +4091,22 @@ EL
 "}
 (17,1,4) = {"
 Pv
-LU
-Sj
-Sj
-Sj
-Wm
-Wm
-tL
-tL
+HU
+Xy
+PU
 Dl
-tL
-tL
-tL
-II
-II
-II
-aj
+Rz
+Dl
+zV
+Dl
+Rz
+Dl
+zV
+zV
+HU
+EL
+EL
+EL
 av
 av
 av
@@ -4063,22 +4118,22 @@ EL
 "}
 (18,1,4) = {"
 Pv
-Wm
-Sj
-Sj
-Sj
-Sj
-Wm
-vc
-vc
-vc
-vc
-vc
-tL
-II
-II
-II
-aj
+HU
+kt
+zN
+Uz
+sB
+zN
+zN
+Uz
+sB
+zN
+Uz
+kt
+HU
+EL
+EL
+EL
 av
 av
 av
@@ -4090,22 +4145,22 @@ EL
 "}
 (19,1,4) = {"
 Pv
-Wm
-Pa
-Pa
-Pa
-tL
-Wm
+HU
+Mh
 Uz
-vc
-vc
-vc
-vc
-tL
-pS
+zN
 II
+zN
+zN
+zN
 II
-aj
+zN
+Uz
+xu
+HU
+EL
+EL
+EL
 av
 av
 av
@@ -4117,22 +4172,22 @@ EL
 "}
 (20,1,4) = {"
 Pv
-Pv
-Pv
-Pv
-Pv
-Pv
-LU
-sc
-vc
-vc
-vc
-vc
-tL
-Rz
+Nf
+HU
+Uz
+Uz
 II
+Uz
+Uz
+Uz
 II
-Wm
+Uz
+Uz
+HU
+HU
+EL
+EL
+EL
 av
 av
 av
@@ -4145,21 +4200,21 @@ EL
 (21,1,4) = {"
 Pv
 Pv
-Pv
-Pv
-Pv
-Pv
-Wm
-Pa
-Pa
-tL
-vc
-vc
-tL
-Pa
-Pa
-Pa
-Wm
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+HU
+EL
+EL
+EL
+EL
 av
 av
 av
@@ -4179,10 +4234,10 @@ Pv
 Pv
 Pv
 Pv
-tL
-Pa
-Pa
-tL
+Pv
+Pv
+Pv
+Pv
 Pv
 Pv
 EL
@@ -4644,9 +4699,9 @@ EL
 EL
 EL
 EL
-EL
-EL
-EL
+Pv
+Pv
+Pv
 Pv
 Pv
 Pv
@@ -4658,22 +4713,22 @@ Pv
 "}
 (15,1,5) = {"
 Pv
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+Pv
+Pv
+Pv
 Pv
 Pv
 Pv
@@ -4685,22 +4740,22 @@ Pv
 "}
 (16,1,5) = {"
 Pv
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+Pv
+Pv
+Pv
 Pv
 Pv
 Pv
@@ -4712,22 +4767,22 @@ Pv
 "}
 (17,1,5) = {"
 Pv
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+Pv
+Pv
+Pv
 Pv
 Pv
 Pv
@@ -4739,22 +4794,22 @@ Pv
 "}
 (18,1,5) = {"
 Pv
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+Pv
+Pv
+Pv
 Pv
 Pv
 Pv
@@ -4766,22 +4821,22 @@ Pv
 "}
 (19,1,5) = {"
 Pv
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+Pv
+Pv
+Pv
 Pv
 Pv
 Pv
@@ -4793,22 +4848,22 @@ Pv
 "}
 (20,1,5) = {"
 Pv
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
 Pv
 Pv
 Pv
-Pv
-Pv
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
 Pv
 Pv
 Pv
@@ -4821,21 +4876,21 @@ Pv
 (21,1,5) = {"
 Pv
 Pv
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
+av
 Pv
 Pv
 Pv
 Pv
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
-EL
 Pv
 Pv
 Pv
@@ -4855,10 +4910,10 @@ Pv
 Pv
 Pv
 Pv
-EL
-EL
-EL
-EL
+Pv
+Pv
+Pv
+Pv
 Pv
 Pv
 Pv

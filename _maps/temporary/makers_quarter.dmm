@@ -1,0 +1,4464 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ad" = (
+/obj/effect/mapping_helpers/access/keyset/church/general,
+/obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/stone{
+	name = "Acolyte Chambers"
+	},
+/turf/open/floor/concrete,
+/area/indoors/town/church)
+"ap" = (
+/turf/open/openspace,
+/area/outdoors/exposed/dwarf)
+"au" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 1
+	},
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/obj/structure/mirror,
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"aG" = (
+/obj/structure/fluff/walldeco/church/line,
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_x = -32;
+	pixel_y = 0
+	},
+/obj/structure/fluff/walldeco/church/line{
+	dir = 8
+	},
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"aI" = (
+/obj/structure/fluff/walldeco/chains,
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/concrete,
+/area/indoors/town/church)
+"aR" = (
+/obj/structure/closet/crate/chest/neu_iron,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/natural/feather,
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town/church)
+"aU" = (
+/obj/effect/decal/shadow_floor{
+	dir = 1
+	},
+/obj/structure/fake_machine/scomm/l,
+/obj/structure/rack/shelf/biggest,
+/obj/item/reagent_containers/glass/bucket/wooden,
+/obj/item/reagent_containers/glass/bucket/wooden,
+/obj/item/natural/bundle/fibers/full,
+/obj/item/natural/bundle/stick,
+/obj/item/natural/bundle/stick,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
+/turf/open/floor/church/violet,
+/area/indoors/town/dwarfin)
+"aV" = (
+/obj/structure/closet/crate/crafted_closet/inn/chest,
+/obj/item/ore/copper,
+/obj/item/ore/copper,
+/obj/item/ore/copper,
+/obj/item/ore/copper,
+/obj/item/ore/iron,
+/obj/item/ore/iron,
+/obj/item/ore/iron,
+/obj/item/ore/iron,
+/obj/item/ore/tin,
+/obj/item/ore/tin,
+/obj/item/ore/tin,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"aX" = (
+/obj/structure/door/stone{
+	name = "Bath"
+	},
+/obj/effect/mapping_helpers/access/keyset/church/inquisition,
+/turf/open/floor/churchrough/violet,
+/area/indoors/town/church/inquisition)
+"bn" = (
+/obj/structure/flora/grass/herb/random,
+/turf/open/floor/grass/cold,
+/area/outdoors/town)
+"bp" = (
+/obj/structure/window/stained/yellow,
+/turf/open/floor/ruinedwood/alt,
+/area/indoors/town/church)
+"bt" = (
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"bE" = (
+/obj/effect/mapping_helpers/access/keyset/church/general,
+/obj/structure/door/stone{
+	name = "Tower"
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
+"cf" = (
+/obj/structure/flora/grass/water,
+/turf/open/water/ocean,
+/area/outdoors/town)
+"ci" = (
+/obj/structure/boiler{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"cp" = (
+/obj/structure/fluff/railing/border,
+/obj/effect/decal/shadow_floor{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/exposed/dwarf)
+"ct" = (
+/obj/structure/fluff/walldeco/vinez,
+/turf/closed/wall/mineral/stone,
+/area/under/town/sewer)
+"cH" = (
+/obj/structure/table/wood/plain_alt,
+/obj/item/paint_palette{
+	pixel_x = -8;
+	pixel_y = 3
+	},
+/obj/item/paint_palette{
+	pixel_y = 7;
+	pixel_x = 5
+	},
+/obj/item/paint_palette{
+	pixel_x = 9;
+	pixel_y = -2
+	},
+/obj/item/paint_brush{
+	pixel_x = -4;
+	pixel_y = -5
+	},
+/obj/machinery/light/fueled/wallfire/candle/l,
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"cT" = (
+/obj/structure/fluff/railing/border{
+	dir = 9
+	},
+/obj/structure/water_pump{
+	dir = 1
+	},
+/turf/open/water/river,
+/area/indoors/town/dwarfin)
+"cY" = (
+/obj/structure/window/openclose/reinforced{
+	dir = 1
+	},
+/turf/open/floor/cobble/alt,
+/area/indoors/town/dwarfin)
+"dj" = (
+/obj/structure/fluff/steamvent,
+/turf/open/floor/blocks/stonered/tiny,
+/area/outdoors/exposed/dwarf)
+"dy" = (
+/obj/structure/chair/wood/alt/chair3{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/town/roofs)
+"dz" = (
+/obj/structure/door/window{
+	name = "Maker's Quarter"
+	},
+/turf/open/floor/tile/brick,
+/area/indoors/town/dwarfin)
+"dJ" = (
+/turf/closed/wall/mineral/stone/moss/blue,
+/area/indoors/town/church/inquisition)
+"dO" = (
+/turf/open/floor/churchmarble,
+/area/indoors/town/church/inquisition)
+"dP" = (
+/obj/structure/bed,
+/obj/item/bedsheet/cloth,
+/obj/effect/landmark/start/monk,
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town/church)
+"eb" = (
+/obj/effect/decal/borderfall{
+	dir = 1
+	},
+/obj/effect/landmark/start/templar,
+/obj/structure/fluff/walldeco/church/line,
+/turf/open/floor/church/purple,
+/area/indoors/town/church/chapel)
+"eE" = (
+/turf/open/floor/blocks/stonered/tiny,
+/area/outdoors/exposed/dwarf)
+"eF" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/structure/water_pipe,
+/turf/open/water/river,
+/area/indoors/town/dwarfin)
+"eI" = (
+/obj/effect/decal/shadow_floor,
+/obj/effect/decal/shadow_floor{
+	dir = 8
+	},
+/obj/structure/fluff/steamvent,
+/turf/open/floor/church/violet,
+/area/indoors/town/dwarfin)
+"eU" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/structure/bars/pipe/left,
+/obj/structure/bars/pipe,
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 4
+	},
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"eX" = (
+/obj/structure/door/stone{
+	name = "Slitherway Passage"
+	},
+/obj/effect/mapping_helpers/access/keyset/church/inquisition,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/churchrough/violet,
+/area/indoors/town/church/inquisition)
+"fz" = (
+/obj/item/storage/crucible/random,
+/obj/item/storage/crucible/random,
+/obj/item/storage/crucible/random,
+/obj/item/storage/crucible/random,
+/obj/structure/rack,
+/obj/item/contraption/linker,
+/obj/item/contraption/linker,
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"fH" = (
+/obj/structure/fluff/walldeco/masonflag,
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/dwarfin)
+"fR" = (
+/obj/structure/rousman_hole,
+/turf/open/floor/blocks/green,
+/area/under/town/sewer)
+"gj" = (
+/obj/structure/chair/bench/church/mid{
+	dir = 1
+	},
+/turf/open/floor/church,
+/area/indoors/town/church/chapel)
+"gn" = (
+/turf/open/water/ocean/abyss,
+/area/indoors/town/keep/magician/basement)
+"gt" = (
+/obj/structure/stairs/stone{
+	dir = 8
+	},
+/obj/structure/fluff/railing/border,
+/turf/open/floor/blocks/stonered,
+/area/indoors/town/dwarfin)
+"gx" = (
+/turf/open/floor/church/violet,
+/area/indoors/town/dwarfin)
+"gI" = (
+/obj/effect/decal/shadow_floor{
+	dir = 4
+	},
+/obj/item/weapon/hammer,
+/obj/item/weapon/tongs,
+/turf/open/floor/church/violet,
+/area/indoors/town/dwarfin)
+"hr" = (
+/obj/structure/door/stone{
+	name = "Church Passage"
+	},
+/obj/effect/mapping_helpers/access/keyset/church/inquisition,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/churchrough/pale,
+/area/indoors/town/church/inquisition)
+"hv" = (
+/obj/structure/flora/grass/swampweed,
+/turf/open/floor/dirt/road,
+/area/outdoors/town)
+"hw" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
+"hz" = (
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town/church)
+"hC" = (
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 4
+	},
+/turf/open/water/bath,
+/area/indoors/town/church/inquisition)
+"hT" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/gearbox,
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"ik" = (
+/obj/structure/closet/crate/chest,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
+/obj/item/candle/yellow,
+/obj/item/candle/yellow,
+/obj/item/natural/bundle/stick{
+	amount = 10
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors/town/church)
+"iq" = (
+/obj/effect/landmark/start/monk{
+	dir = 4
+	},
+/turf/open/floor/churchmarble,
+/area/indoors/town/church/chapel)
+"iL" = (
+/obj/structure/fluff/walldeco/wantedposter,
+/turf/open/floor/blocks/stonered/tiny,
+/area/outdoors/exposed/dwarf)
+"iT" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/obj/structure/door{
+	name = "Maker's Quarter"
+	},
+/turf/open/floor/tile/brick,
+/area/indoors/town/dwarfin)
+"jc" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/chair/wood/alt{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/town)
+"jh" = (
+/turf/open/floor/churchrough/green,
+/area/indoors/town/church/inquisition)
+"jo" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/openspace,
+/area/outdoors/exposed/dwarf)
+"js" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 1
+	},
+/obj/structure/fluff/walldeco/church/line,
+/turf/open/floor/churchrough/violet,
+/area/indoors/town/church/inquisition)
+"jv" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/structure/bars/pipe{
+	dir = 4
+	},
+/obj/structure/bars/pipe,
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 4
+	},
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"jG" = (
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/church/inquisition)
+"jH" = (
+/obj/effect/decal/shadow_floor{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/exposed/dwarf)
+"jK" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/blocks,
+/area/indoors/town/church)
+"jL" = (
+/turf/closed/basic,
+/area)
+"jN" = (
+/obj/structure/stairs/stone{
+	dir = 8
+	},
+/turf/open/openspace,
+/area/indoors/town/dwarfin)
+"kg" = (
+/obj/structure/door/stone{
+	name = "Stock"
+	},
+/obj/effect/mapping_helpers/access/keyset/church/general,
+/turf/open/floor/blocks,
+/area/indoors/town/church)
+"ki" = (
+/obj/structure/window/openclose{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town/dwarfin)
+"kp" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/ruinedwood/turned,
+/area/outdoors/town/roofs)
+"kG" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/chair/wood/alt,
+/turf/open/floor/ruinedwood,
+/area/outdoors/town)
+"kM" = (
+/obj/structure/ladder,
+/turf/open/floor/blocks/stonered,
+/area/indoors/town/dwarfin)
+"kV" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/openspace,
+/area/outdoors/town/roofs)
+"kZ" = (
+/obj/effect/decal/shadow_floor,
+/obj/structure/fluff/steamvent,
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 4
+	},
+/obj/item/bin/water,
+/turf/open/floor/church/violet,
+/area/indoors/town/dwarfin)
+"la" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 8
+	},
+/turf/open/floor/churchmarble,
+/area/indoors/town/church)
+"le" = (
+/obj/structure/fluff/walldeco/vinez/red,
+/turf/closed/wall/mineral/stone/moss,
+/area/indoors/town/dwarfin)
+"lg" = (
+/obj/effect/mapping_helpers/access/keyset/church/general,
+/obj/structure/door/stone{
+	name = "Tower"
+	},
+/turf/open/floor/church,
+/area/indoors/town/church)
+"lo" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 8
+	},
+/obj/structure/fluff/walldeco/churchbanner{
+	pixel_y = 27
+	},
+/turf/open/floor/churchmarble,
+/area/indoors/town/church)
+"lx" = (
+/obj/structure/fluff/walldeco/church/line,
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/obj/item/natural/cloth{
+	pixel_x = -13;
+	pixel_y = 14
+	},
+/obj/item/soap{
+	pixel_x = -4;
+	pixel_y = 9
+	},
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"ly" = (
+/obj/structure/fluff/walldeco/church/line,
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"lF" = (
+/turf/open/floor/blocks/stonered,
+/area/outdoors/exposed/dwarf)
+"lK" = (
+/turf/closed/wall/mineral/craftstone,
+/area/under/town/sewer)
+"lP" = (
+/obj/structure/door/stone{
+	name = "Tower"
+	},
+/obj/effect/mapping_helpers/access/keyset/church/general,
+/turf/open/floor/church,
+/area/indoors/town/church)
+"lZ" = (
+/turf/closed/wall/mineral/wood,
+/area/indoors/town/dwarfin)
+"mc" = (
+/obj/structure/flora/grass/thorn_bush,
+/obj/structure/bars,
+/turf/open/floor/naturalstone,
+/area/indoors/town/keep/magician/basement)
+"mf" = (
+/obj/effect/decal/shadow_floor{
+	dir = 4
+	},
+/obj/structure/table/wood/reinforced,
+/turf/open/floor/ruinedwood,
+/area/outdoors/exposed/dwarf)
+"mg" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/storage/belt/pouch/coins/mid{
+	pixel_x = -6
+	},
+/obj/item/storage/belt/pouch/coins/mid{
+	pixel_x = 10
+	},
+/obj/item/storage/belt/pouch/coins/mid{
+	pixel_x = -6
+	},
+/obj/item/storage/belt/pouch/coins/mid{
+	pixel_x = 10
+	},
+/obj/item/storage/belt/pouch/coins/mid{
+	pixel_x = -6
+	},
+/obj/item/storage/belt/pouch/coins/mid{
+	pixel_x = 10
+	},
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/churchrough/purple,
+/area/indoors/town/church)
+"mi" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/indoors/town/dwarfin)
+"mH" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
+/turf/open/openspace,
+/area/indoors/town/dwarfin)
+"mN" = (
+/obj/effect/decal/shadow_floor{
+	dir = 8
+	},
+/turf/open/floor/church/violet,
+/area/indoors/town/dwarfin)
+"mP" = (
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church/chapel)
+"mV" = (
+/obj/machinery/tanningrack,
+/turf/open/floor/churchrough/purple,
+/area/indoors/town/church)
+"nc" = (
+/turf/open/openspace,
+/area/indoors/town/dwarfin)
+"nw" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/openspace,
+/area/indoors/town/church/chapel)
+"nz" = (
+/obj/structure/fluff/walldeco/vinez/blue,
+/turf/closed/wall/mineral/stone/moss/blue,
+/area/indoors/town/dwarfin)
+"nK" = (
+/obj/structure/closet/crate/chest/crate,
+/obj/item/natural/bundle/cloth{
+	pixel_x = 5;
+	amount = 10
+	},
+/obj/item/natural/bundle/cloth{
+	pixel_x = 5;
+	amount = 10
+	},
+/obj/item/natural/bundle/cloth{
+	pixel_x = 5;
+	amount = 10
+	},
+/obj/item/natural/bundle/cloth{
+	pixel_x = 5;
+	amount = 10
+	},
+/obj/item/needle,
+/obj/item/needle,
+/obj/item/needle,
+/obj/item/needle,
+/obj/item/reagent_containers/powder/ozium,
+/turf/open/floor/churchrough/purple,
+/area/indoors/town/church)
+"nL" = (
+/obj/structure/fluff/railing/wood,
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_x = 32;
+	pixel_y = 0
+	},
+/turf/open/floor/blocks,
+/area/indoors/town/church)
+"nV" = (
+/obj/structure/fluff/walldeco/gear/small,
+/turf/closed/wall/mineral/pipe,
+/area/indoors/town/dwarfin)
+"nX" = (
+/turf/open/water/bath,
+/area/indoors/town/church/inquisition)
+"oD" = (
+/obj/machinery/light/fueled/wallfire{
+	pixel_y = 32
+	},
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town/church)
+"oH" = (
+/turf/open/floor/snow,
+/area/outdoors/town)
+"oI" = (
+/obj/structure/flora/newtree/snow,
+/turf/open/floor/grass/cold,
+/area/outdoors/town)
+"oL" = (
+/obj/structure/easel,
+/obj/item/canvas{
+	pixel_y = 8
+	},
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"oS" = (
+/turf/open/floor/blocks/green,
+/area/under/cavewet)
+"oX" = (
+/turf/closed/wall/mineral/pipe,
+/area/indoors/town/dwarfin)
+"pe" = (
+/obj/structure/fluff/psycross/gani,
+/turf/open/floor/metal,
+/area/indoors/town/church/chapel)
+"pg" = (
+/turf/open/floor/naturalstone,
+/area/under/town/sewer)
+"pq" = (
+/obj/machinery/light/fueled/smelter,
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"pB" = (
+/obj/effect/decal/cleanable/dirt/cobweb{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"pF" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/ruinedwood,
+/area/outdoors/town)
+"pL" = (
+/turf/open/glass,
+/area/outdoors/town/roofs)
+"pS" = (
+/obj/structure/stairs/stone,
+/turf/open/floor/church/violet,
+/area/indoors/town/dwarfin)
+"pU" = (
+/turf/open/floor/sand/sandstone,
+/area/outdoors/town)
+"pV" = (
+/turf/open/floor/churchmarble,
+/area/indoors/town/church/chapel)
+"qe" = (
+/obj/structure/chair/bench/church{
+	dir = 1
+	},
+/turf/open/floor/church,
+/area/indoors/town/church/chapel)
+"qm" = (
+/obj/structure/chair/bench/church{
+	dir = 1
+	},
+/obj/structure/carpet/red,
+/turf/open/floor/church,
+/area/indoors/town/church/chapel)
+"qo" = (
+/turf/open/floor/blocks/stonered,
+/area/indoors/town/dwarfin)
+"qr" = (
+/obj/structure/fake_machine/mail{
+	mailtag = "Priest"
+	},
+/turf/open/floor/churchrough/purple,
+/area/indoors/town/church)
+"qC" = (
+/obj/effect/decal/shadow_floor{
+	dir = 4
+	},
+/turf/open/floor/church/violet,
+/area/indoors/town/dwarfin)
+"qX" = (
+/obj/structure/bars/pipe{
+	dir = 9
+	},
+/obj/structure/bars/pipe,
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"qY" = (
+/obj/structure/stairs/stone,
+/obj/structure/door{
+	name = "Maker's Quarter"
+	},
+/turf/open/floor/tile/brick,
+/area/indoors/town/dwarfin)
+"qZ" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/turf/open/floor/church/violet,
+/area/indoors/town/dwarfin)
+"ra" = (
+/obj/structure/flora/grass/water,
+/turf/open/water/ocean/abyss,
+/area/indoors/town/keep/magician/basement)
+"rm" = (
+/obj/structure/closet/crate/chest/neu,
+/obj/item/natural/bundle/stick{
+	amount = 10
+	},
+/obj/item/natural/bundle/stick{
+	amount = 10
+	},
+/obj/item/natural/bundle/stick{
+	amount = 10
+	},
+/obj/item/natural/bundle/stick{
+	amount = 10
+	},
+/turf/open/floor/churchrough/purple,
+/area/indoors/town/church)
+"rr" = (
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town/church/chapel)
+"rt" = (
+/turf/closed/wall/mineral/stone/moss/blue,
+/area/indoors/town/dwarfin)
+"rC" = (
+/obj/effect/decal/cleanable/dirt/cobweb{
+	dir = 1
+	},
+/turf/open/floor/blocks/green,
+/area/under/town/sewer)
+"rD" = (
+/turf/closed/mineral,
+/area/under/cavewet)
+"rP" = (
+/obj/effect/mapping_helpers/access/keyset/church/general,
+/obj/structure/door/stone{
+	name = "Stock"
+	},
+/turf/open/floor/blocks,
+/area/indoors/town/church)
+"sh" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/openspace,
+/area/outdoors/town/roofs)
+"sj" = (
+/turf/open/floor/grass/cold,
+/area/outdoors/town)
+"sp" = (
+/obj/machinery/light/fueled/wallfire/candle,
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"sr" = (
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_x = -32;
+	pixel_y = 0
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
+"sv" = (
+/obj/structure/table/wood{
+	dir = 1;
+	icon_state = "longtable"
+	},
+/obj/item/book/bibble{
+	pixel_x = 4;
+	pixel_y = 9
+	},
+/turf/open/floor/church,
+/area/indoors/town/church/chapel)
+"sx" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_y = -32
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
+"sF" = (
+/obj/structure/table/wood{
+	dir = 1;
+	icon_state = "longtable_mid"
+	},
+/obj/item/handheld_bell{
+	pixel_x = -4;
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/glass/bucket/wooden{
+	pixel_x = 3;
+	pixel_y = 12
+	},
+/turf/open/floor/church,
+/area/indoors/town/church/chapel)
+"sH" = (
+/turf/open/floor/churchrough/purple,
+/area/indoors/town/church)
+"th" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/open/floor/dirt/road,
+/area/outdoors/town)
+"tr" = (
+/obj/structure/chair/wood/alt/chair_noble/red{
+	dir = 1
+	},
+/turf/open/floor/church/violet,
+/area/indoors/town/church/inquisition)
+"tB" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/structure/rotation_piece/cog/large,
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"tC" = (
+/turf/open/floor/metal/barograte,
+/area/indoors/town/dwarfin)
+"uf" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/sewer)
+"ui" = (
+/obj/structure/fluff/statue/knight,
+/turf/open/floor/churchmarble,
+/area/indoors/town/church/inquisition)
+"uJ" = (
+/obj/structure/fluff/walldeco/gear,
+/turf/closed/wall/mineral/pipe,
+/area/indoors/town/dwarfin)
+"uV" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors/town/church)
+"uX" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/outie{
+	dir = 9
+	},
+/turf/closed/wall/mineral/pipe,
+/area/indoors/town/dwarfin)
+"vd" = (
+/obj/structure/window/openclose/reinforced{
+	dir = 1
+	},
+/turf/open/floor/blocks/stonered,
+/area/indoors/town/dwarfin)
+"vh" = (
+/turf/open/water/sewer,
+/area/under/town/sewer)
+"vo" = (
+/obj/structure/table/wood/counter{
+	dir = 1
+	},
+/obj/item/candle/scandle/lit{
+	pixel_y = 8;
+	layer = 3.1
+	},
+/turf/open/floor/church/violet,
+/area/indoors/town/church/inquisition)
+"vy" = (
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town/dwarfin)
+"vA" = (
+/turf/open/floor/blocks/green,
+/area/under/town/sewer)
+"vD" = (
+/obj/item/reagent_containers/glass/cup/steel,
+/obj/structure/table/wood{
+	icon_state = "longtable";
+	dir = 1
+	},
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"vG" = (
+/obj/structure/fluff/railing/border{
+	dir = 10
+	},
+/obj/structure/waterwheel{
+	dir = 8
+	},
+/turf/open/water/river,
+/area/indoors/town/dwarfin)
+"vM" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood,
+/area/outdoors/town/roofs)
+"vP" = (
+/turf/open/floor/ruinedwood,
+/area/outdoors/town)
+"vY" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/rooftop,
+/area/outdoors/town/roofs)
+"wb" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/under/town/sewer)
+"wq" = (
+/obj/machinery/light/fueled/smelter/great,
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/effect/decal/shadow_floor{
+	dir = 8
+	},
+/turf/open/floor/church/violet,
+/area/indoors/town/dwarfin)
+"wP" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town/church/chapel)
+"wR" = (
+/obj/effect/mapping_helpers/secret_door_creator/inquisition{
+	redstone_id = "inq_sewer_1"
+	},
+/turf/closed/wall/mineral/stone/moss/blue,
+/area/indoors/town/church/inquisition)
+"xi" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/water/ocean/abyss,
+/area/indoors/town/keep/magician/basement)
+"xk" = (
+/turf/open/floor/metal,
+/area/indoors/town/dwarfin)
+"xq" = (
+/obj/effect/decal/shadow_floor{
+	dir = 1
+	},
+/turf/open/floor/church/violet,
+/area/indoors/town/dwarfin)
+"xB" = (
+/obj/effect/mapping_helpers/secret_door_creator/inquisition{
+	redstone_id = "church_cell"
+	},
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/church)
+"xN" = (
+/obj/structure/chair/stool,
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"xQ" = (
+/obj/structure/fluff/walldeco/vinez/red,
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/dwarfin)
+"xT" = (
+/obj/structure/window/openclose/reinforced{
+	dir = 4
+	},
+/turf/open/floor/cobble/alt,
+/area/indoors/town/dwarfin)
+"yd" = (
+/obj/structure/window/openclose,
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town/dwarfin)
+"yi" = (
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/ruinedwood,
+/area/outdoors/town/roofs)
+"yk" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/churchmarble,
+/area/indoors/town/church/chapel)
+"yl" = (
+/turf/closed/wall/mineral/stone,
+/area/under/town/sewer)
+"yo" = (
+/turf/open/floor/grass/yel,
+/area/outdoors/town)
+"yy" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/fluff/railing/wood,
+/obj/structure/fake_machine/scomm/l,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/sewer)
+"yB" = (
+/obj/structure/chair/bench/church/mid{
+	dir = 1
+	},
+/obj/structure/carpet/red,
+/turf/open/floor/church,
+/area/indoors/town/church/chapel)
+"yZ" = (
+/turf/closed/mineral,
+/area/under/town/sewer)
+"zk" = (
+/obj/structure/ladder,
+/turf/open/floor/churchrough/pale,
+/area/indoors/town/church/inquisition)
+"zp" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/openspace,
+/area/outdoors/town)
+"zy" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town/church/chapel)
+"zz" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/turf/open/floor/churchmarble,
+/area/indoors/town/church/chapel)
+"zC" = (
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 4
+	},
+/obj/item/bin,
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"zJ" = (
+/turf/closed/wall/mineral/pipe,
+/area/indoors/town/keep/magician/basement)
+"zN" = (
+/turf/open/openspace,
+/area/outdoors/town/roofs)
+"zY" = (
+/obj/machinery/light/fueled/smelter,
+/turf/open/floor/metal,
+/area/indoors/town/dwarfin)
+"zZ" = (
+/obj/effect/mapping_helpers/access/keyset/church/general,
+/obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/stone{
+	name = "Church"
+	},
+/turf/open/floor/churchrough/purple,
+/area/indoors/town/church)
+"Ab" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/openspace,
+/area/outdoors/town/roofs)
+"Ae" = (
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
+"An" = (
+/obj/item/bin/water,
+/obj/effect/decal/carpet/square/black{
+	pixel_y = 3
+	},
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"Ar" = (
+/obj/item/natural/stone,
+/turf/open/floor/naturalstone,
+/area/under/town/sewer)
+"Au" = (
+/obj/machinery/light/fueled/wallfire/candle/blue/l,
+/turf/open/floor/churchrough/green,
+/area/indoors/town/church/inquisition)
+"AI" = (
+/obj/structure/flora/ausbushes,
+/turf/open/floor/sand/sandstone,
+/area/outdoors/town)
+"AQ" = (
+/turf/open/floor/tile/bath/pool,
+/area/indoors/town/church/inquisition)
+"AW" = (
+/obj/structure/lever/hidden/inquisition{
+	redstone_id = "inq_sewer_1"
+	},
+/turf/closed/wall/mineral/stone/moss/blue,
+/area/indoors/town/church/inquisition)
+"AX" = (
+/obj/structure/bed/hay,
+/obj/structure/curtain/bounty/dir{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
+"Bh" = (
+/obj/effect/landmark/start/churchling{
+	dir = 4
+	},
+/obj/structure/fluff/walldeco/church/line{
+	dir = 8
+	},
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"Bi" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/table/wood{
+	dir = 1;
+	icon_state = "longtable"
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/town)
+"Bp" = (
+/obj/item/natural/stone,
+/turf/open/floor/sand/sandstone,
+/area/outdoors/town)
+"Bq" = (
+/obj/structure/stairs/stone{
+	dir = 4
+	},
+/turf/open/openspace,
+/area/outdoors/exposed/dwarf)
+"Bu" = (
+/obj/structure/flora/newtree/snow,
+/turf/open/floor/dirt/road,
+/area/outdoors/town)
+"BI" = (
+/turf/open/water/ocean/abyss,
+/area/under/town/sewer)
+"BW" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/concrete,
+/area/indoors/town/church)
+"BZ" = (
+/obj/structure/window/openclose/reinforced{
+	dir = 4
+	},
+/turf/open/floor/tile/brick,
+/area/indoors/town/dwarfin)
+"Ca" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/water/river,
+/area/indoors/town/dwarfin)
+"Cb" = (
+/obj/structure/ladder,
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town/dwarfin)
+"Cf" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 1
+	},
+/obj/effect/landmark/start/churchling,
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"Cl" = (
+/obj/structure/fluff/walldeco/churchbanner{
+	pixel_y = 27
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/church,
+/area/indoors/town/church/chapel)
+"Cx" = (
+/turf/open/floor/greenstone,
+/area/under/town/sewer)
+"CK" = (
+/obj/structure/chair/wood/alt/chair3,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood,
+/area/outdoors/town/roofs)
+"CT" = (
+/turf/open/lava/flow{
+	dir = 8
+	},
+/area/indoors/town/dwarfin)
+"CV" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/outie{
+	dir = 5
+	},
+/turf/closed/wall/mineral/pipe,
+/area/indoors/town/dwarfin)
+"Dc" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/fluff/hanging_banners/church,
+/turf/open/floor/blocks,
+/area/indoors/town/church)
+"Dl" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/outie,
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/dwarfin)
+"DG" = (
+/obj/effect/decal/cleanable/generic,
+/obj/machinery/light/fueled/wallfire/candle/r,
+/turf/open/floor/greenstone,
+/area/under/town/sewer)
+"DS" = (
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
+/turf/open/floor/rooftop,
+/area/outdoors/town/roofs)
+"DY" = (
+/obj/structure/door{
+	name = "Maker's Quarter"
+	},
+/turf/open/floor/blocks,
+/area/indoors/town/dwarfin)
+"Ea" = (
+/obj/structure/water_pipe,
+/turf/open/floor/dirt/road,
+/area/outdoors/town)
+"Ed" = (
+/turf/open/glass,
+/area/outdoors/exposed/dwarf)
+"El" = (
+/obj/machinery/light/fueled/torchholder/l,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood,
+/area/outdoors/town/roofs)
+"Ev" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/turf/open/floor/churchmarble,
+/area/indoors/town/church/inquisition)
+"EC" = (
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
+/turf/open/floor/church,
+/area/indoors/town/church/chapel)
+"EZ" = (
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/ruinedwood,
+/area/outdoors/town)
+"Fa" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/church/chapel)
+"Fg" = (
+/obj/structure/ladder,
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/machinery/light/fueled/wallfire/candle,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
+"Fh" = (
+/obj/structure/flora/grass/water/reeds,
+/turf/open/water/ocean,
+/area/outdoors/town)
+"Fu" = (
+/turf/open/floor/concrete,
+/area/under/town/sewer)
+"Fz" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/brflowers,
+/turf/open/floor/grass/cold,
+/area/outdoors/town)
+"FA" = (
+/obj/structure/table/wood/reinforced,
+/obj/item/weapon/hammer,
+/turf/open/floor/ruinedwood,
+/area/outdoors/exposed/dwarf)
+"FB" = (
+/turf/closed/wall/mineral/wooddark,
+/area/indoors/town/dwarfin)
+"FG" = (
+/obj/structure/fluff/steamvent,
+/turf/open/floor/churchrough/green,
+/area/indoors/town/church/inquisition)
+"FR" = (
+/obj/structure/carpet/purple,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
+"FW" = (
+/obj/structure/bars/pipe,
+/obj/structure/bars/pipe{
+	dir = 1
+	},
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"Gb" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/ladder,
+/turf/open/floor/ruinedwood,
+/area/outdoors/town/roofs)
+"Go" = (
+/obj/item/reagent_containers/glass/bucket/wooden,
+/obj/item/natural/cloth,
+/obj/item/soap/bath,
+/turf/open/floor/tile/bath/pool,
+/area/indoors/town/church/inquisition)
+"Gq" = (
+/obj/item/bin/water,
+/turf/open/floor/churchrough/purple,
+/area/indoors/town/church)
+"Gs" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/church,
+/area/indoors/town/church/chapel)
+"Gv" = (
+/obj/structure/ladder,
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
+"GB" = (
+/obj/effect/decal/shadow_floor{
+	dir = 1
+	},
+/obj/effect/decal/shadow_floor{
+	dir = 8
+	},
+/turf/open/floor/church/violet,
+/area/indoors/town/dwarfin)
+"GI" = (
+/obj/structure/chair/stool,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
+"GL" = (
+/obj/structure/fluff/statue/knight/r,
+/turf/open/floor/churchmarble,
+/area/indoors/town/church/inquisition)
+"Hb" = (
+/obj/structure/fluff/steamvent,
+/obj/machinery/light/fueled/wallfire/candle/blue,
+/turf/open/floor/greenstone,
+/area/indoors/town/church/inquisition)
+"He" = (
+/obj/structure/table/wood/counter/end{
+	dir = 1
+	},
+/obj/item/inqarticles/tallowpot{
+	pixel_x = 8;
+	pixel_y = 9
+	},
+/obj/item/reagent_containers/food/snacks/tallow/red{
+	pixel_y = 8;
+	pixel_x = -5
+	},
+/turf/open/floor/church/violet,
+/area/indoors/town/church/inquisition)
+"Hj" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/glass,
+/area/outdoors/exposed/dwarf)
+"Hz" = (
+/obj/structure/window/openclose{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town/dwarfin)
+"HA" = (
+/obj/structure/fluff/railing/border,
+/turf/open/floor/rooftop,
+/area/outdoors/town/roofs)
+"HL" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/item/natural/stone,
+/turf/open/floor/dirt/road,
+/area/outdoors/town)
+"HN" = (
+/obj/machinery/light/fueled/smelter/great,
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/effect/decal/shadow_floor{
+	dir = 4
+	},
+/turf/open/floor/church/violet,
+/area/indoors/town/dwarfin)
+"HZ" = (
+/turf/open/floor/dirt/road,
+/area/outdoors/town)
+"Id" = (
+/obj/structure/table/wood,
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town/church/chapel)
+"In" = (
+/obj/structure/fluff/railing/border{
+	dir = 10
+	},
+/obj/structure/fake_machine/scomm/l,
+/obj/effect/landmark/start/templar,
+/turf/open/floor/church,
+/area/indoors/town/church/chapel)
+"IC" = (
+/obj/structure/chair/bench{
+	pixel_y = 16
+	},
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town/church/chapel)
+"ID" = (
+/turf/open/openspace,
+/area/outdoors/town)
+"IG" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/outie{
+	dir = 6
+	},
+/turf/closed/wall/mineral/stone/moss,
+/area/indoors/town/dwarfin)
+"IM" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/obj/effect/landmark/start/churchling{
+	dir = 8
+	},
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"IQ" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/outie{
+	dir = 10
+	},
+/obj/machinery/light/fueled/smelter,
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"IZ" = (
+/obj/structure/fluff/railing/border,
+/turf/open/floor/church,
+/area/indoors/town/church/chapel)
+"Jb" = (
+/obj/item/natural/stone,
+/turf/open/floor/snow,
+/area/outdoors/town)
+"Jo" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/chair/stool,
+/turf/open/floor/ruinedwood,
+/area/outdoors/exposed/dwarf)
+"Jq" = (
+/obj/structure/lever/hidden/inquisition{
+	redstone_id = "church_cell"
+	},
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/church)
+"Js" = (
+/obj/structure/window/openclose{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town/dwarfin)
+"JB" = (
+/obj/structure/table/wood/plain,
+/obj/effect/spawner/guaranteed_map_spawner/single/cup,
+/turf/open/floor/ruinedwood,
+/area/outdoors/town/roofs)
+"JD" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/church/inquisition)
+"JN" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/obj/structure/fluff/walldeco/church/line{
+	dir = 8
+	},
+/turf/open/floor/churchrough/violet,
+/area/indoors/town/church/inquisition)
+"JP" = (
+/obj/structure/fluff/walldeco/churchbanner/red{
+	pixel_y = 28;
+	name = "katholikon banner";
+	desc = "A proud banner demarking the territory of the Katholikon's Inquisition. Silver for purity of faith, red for the blood of the faithful."
+	},
+/obj/item/bin/water,
+/turf/open/floor/churchmarble,
+/area/indoors/town/church/inquisition)
+"JT" = (
+/turf/closed/wall/mineral/decowood,
+/area/indoors/town/dwarfin)
+"JU" = (
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"KE" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 1
+	},
+/obj/item/natural/cloth{
+	pixel_x = 10;
+	pixel_y = -18
+	},
+/obj/structure/mirror,
+/obj/structure/fluff/walldeco/church/line{
+	dir = 8
+	},
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"KG" = (
+/obj/structure/bars/pipe,
+/obj/structure/bars/pipe{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border,
+/turf/open/floor/church/violet,
+/area/indoors/town/dwarfin)
+"Lf" = (
+/obj/structure/door{
+	name = "Maker's Quarter"
+	},
+/turf/open/floor/ruinedwood/darker,
+/area/indoors/town/dwarfin)
+"Lt" = (
+/turf/open/water/ocean,
+/area/outdoors/town)
+"Lx" = (
+/turf/closed/wall/mineral/decorstone,
+/area/indoors/town/church)
+"Ly" = (
+/obj/effect/decal/shadow_floor{
+	dir = 8
+	},
+/obj/structure/chair/stool,
+/turf/open/floor/ruinedwood,
+/area/outdoors/exposed/dwarf)
+"Lz" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/turf/open/floor/rooftop,
+/area/outdoors/town/roofs)
+"LJ" = (
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_x = -32;
+	pixel_y = 0
+	},
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/church/chapel)
+"LV" = (
+/obj/machinery/light/fueledstreet/orange/wall,
+/obj/structure/fake_machine/mail{
+	mailtag = "Inquisition Meeting Hall";
+	pixel_y = 9
+	},
+/turf/open/floor/churchmarble,
+/area/indoors/town/church/inquisition)
+"Ma" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_x = 32;
+	pixel_y = 0
+	},
+/obj/structure/fluff/hanging_banners/church,
+/turf/open/floor/blocks,
+/area/indoors/town/church)
+"Mk" = (
+/obj/structure/window,
+/turf/open/floor/ruinedwood/turned,
+/area/indoors/town/church)
+"Mn" = (
+/obj/structure/window/stained/yellow,
+/turf/open/floor/churchmarble,
+/area/indoors/town/church)
+"My" = (
+/obj/structure/window/openclose/reinforced,
+/turf/open/floor/blocks/stonered,
+/area/indoors/town/dwarfin)
+"MB" = (
+/obj/structure/window/openclose/reinforced{
+	dir = 8
+	},
+/turf/open/floor/tile/brick,
+/area/indoors/town/dwarfin)
+"MN" = (
+/obj/structure/mirror,
+/turf/open/floor/churchrough/purple,
+/area/indoors/town/church)
+"MS" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/structure/bars/pipe{
+	dir = 4
+	},
+/turf/open/floor/metal,
+/area/indoors/town/dwarfin)
+"Nm" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 8
+	},
+/turf/open/floor/churchmarble,
+/area/indoors/town/church/inquisition)
+"Nn" = (
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/dwarfin)
+"Nq" = (
+/obj/structure/ladder,
+/turf/open/floor/tile/brick,
+/area/indoors/town/dwarfin)
+"Nw" = (
+/turf/open/floor/churchrough/violet,
+/area/indoors/town/church/inquisition)
+"Nz" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/ladder,
+/turf/open/floor/ruinedwood,
+/area/outdoors/exposed/dwarf)
+"NB" = (
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 4
+	},
+/obj/structure/rack/shelf/biggest,
+/obj/item/recipe_book/engineering,
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"NG" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	dir = 10
+	},
+/turf/open/glass,
+/area/outdoors/exposed/dwarf)
+"NK" = (
+/obj/structure/fluff/railing/border{
+	dir = 10
+	},
+/turf/open/floor/rooftop,
+/area/outdoors/town/roofs)
+"NU" = (
+/obj/structure/flora/ausbushes,
+/turf/open/floor/dirt/road,
+/area/outdoors/town)
+"Op" = (
+/obj/structure/closet/crate/chest/neu_iron,
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town/church)
+"Ou" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/open/floor/sand/sandstone,
+/area/outdoors/town)
+"Oz" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"OM" = (
+/obj/structure/fake_machine/scomm/r,
+/turf/open/floor/churchmarble,
+/area/indoors/town/church/inquisition)
+"ON" = (
+/obj/structure/fluff/railing/border{
+	dir = 9
+	},
+/turf/open/openspace,
+/area/indoors/town/church/chapel)
+"OS" = (
+/obj/structure/bed/hay,
+/obj/structure/curtain/bounty/dir{
+	dir = 4
+	},
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_x = -32;
+	pixel_y = 0
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
+"OW" = (
+/turf/open/floor/church,
+/area/indoors/town/church/chapel)
+"OY" = (
+/obj/item/flashlight/flare/torch/lantern,
+/obj/item/flashlight/flare/torch/metal,
+/obj/item/flashlight/flare/torch/metal,
+/obj/item/flashlight/flare/torch/lantern,
+/obj/item/storage/backpack/satchel,
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/churchrough/purple,
+/area/indoors/town/church)
+"Pr" = (
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church/chapel)
+"Ps" = (
+/obj/structure/closet/crate/chest,
+/obj/item/rope/chain,
+/obj/item/rope/chain,
+/obj/item/rope/chain,
+/obj/item/rope,
+/obj/item/rope,
+/obj/item/rope,
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/churchrough/purple,
+/area/indoors/town/church)
+"PG" = (
+/obj/structure/bed/shit{
+	name = "makeshift bed"
+	},
+/turf/open/floor/concrete,
+/area/indoors/town/church)
+"PQ" = (
+/obj/structure/fluff/walldeco/vinez/blue,
+/turf/closed/wall/mineral/stone/moss/blue,
+/area/indoors/town/church/inquisition)
+"Qu" = (
+/obj/structure/table/wood,
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
+"QX" = (
+/obj/structure/fluff/railing/border{
+	dir = 10
+	},
+/turf/open/floor/blocks/stonered/tiny,
+/area/outdoors/exposed/dwarf)
+"QY" = (
+/obj/structure/lever/hidden/inquisition{
+	redstone_id = "inq_sewer_3"
+	},
+/turf/closed/wall/mineral/stone/moss/blue,
+/area/indoors/town/church/inquisition)
+"RC" = (
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 8
+	},
+/turf/open/water/bath,
+/area/indoors/town/church/inquisition)
+"RQ" = (
+/turf/open/openspace,
+/area/indoors/town/church/chapel)
+"Sn" = (
+/obj/structure/stairs/stone{
+	dir = 8
+	},
+/turf/open/floor/blocks/stonered,
+/area/indoors/town/dwarfin)
+"St" = (
+/obj/structure/closet/crate/chest,
+/obj/item/flashlight/flare/torch/lantern,
+/obj/item/flashlight/flare/torch/lantern,
+/obj/item/flashlight/flare/torch/metal,
+/obj/item/flashlight/flare/torch/metal,
+/turf/open/floor/churchrough/purple,
+/area/indoors/town/church)
+"Tl" = (
+/obj/structure/fluff/railing/wood,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/openspace,
+/area/indoors/town/dwarfin)
+"TJ" = (
+/obj/structure/bars/pipe,
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"TK" = (
+/turf/open/floor/tile/brick,
+/area/indoors/town/dwarfin)
+"TN" = (
+/turf/closed/wall/mineral/craftstone,
+/area/indoors/town/keep/magician/basement)
+"TO" = (
+/obj/structure/door{
+	name = "Maker's Quarter"
+	},
+/turf/open/floor/tile/brick,
+/area/indoors/town/dwarfin)
+"TS" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/openspace,
+/area/outdoors/town)
+"TY" = (
+/turf/open/floor/blocks,
+/area/under/town/sewer)
+"Uk" = (
+/turf/closed/wall/mineral/pipe,
+/area/indoors/town/church/inquisition)
+"Un" = (
+/obj/effect/mapping_helpers/secret_door_creator/inquisition{
+	redstone_id = "inq_sewer_3"
+	},
+/turf/closed/wall/mineral/stone/moss/blue,
+/area/indoors/town/church/inquisition)
+"Uw" = (
+/turf/open/water/ocean,
+/area/under/town/sewer)
+"UE" = (
+/obj/structure/stairs/stone{
+	dir = 4
+	},
+/turf/open/floor/blocks/stonered/tiny,
+/area/outdoors/exposed/dwarf)
+"UW" = (
+/obj/structure/fluff/railing/border,
+/turf/open/glass,
+/area/outdoors/exposed/dwarf)
+"UX" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/church)
+"Vy" = (
+/obj/structure/flora/driftwood,
+/turf/open/floor/dirt/road,
+/area/outdoors/town)
+"VH" = (
+/obj/structure/stairs/stone{
+	dir = 8
+	},
+/turf/open/floor/tile/brick,
+/area/indoors/town/dwarfin)
+"VS" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/blocks,
+/area/indoors/town/church)
+"Wd" = (
+/obj/machinery/light/fueledstreet/orange/wall,
+/turf/open/floor/churchmarble,
+/area/indoors/town/church/inquisition)
+"Wl" = (
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors/town/church)
+"Wz" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/turf/open/openspace,
+/area/indoors/town/church/chapel)
+"WH" = (
+/obj/machinery/light/fueled/smelter,
+/obj/structure/fluff/wallclock{
+	dir = 3
+	},
+/turf/open/floor/metal,
+/area/indoors/town/dwarfin)
+"WR" = (
+/obj/structure/fluff/hanging_banners/church,
+/turf/open/openspace,
+/area/indoors/town/church/chapel)
+"Xe" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/town)
+"Xk" = (
+/obj/structure/bed/hay,
+/obj/structure/curtain/bounty/dir{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
+"Xq" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
+"Xs" = (
+/obj/structure/ladder,
+/obj/machinery/light/fueled/wallfire/candle/blue,
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"Xt" = (
+/obj/structure/stationary_bell{
+	pixel_x = -32;
+	pixel_y = -32
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town/church)
+"Xw" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/outie{
+	dir = 8
+	},
+/turf/closed/wall/mineral/pipe,
+/area/indoors/town/dwarfin)
+"XE" = (
+/obj/structure/ladder,
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors/town/church)
+"XF" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/dwarfin)
+"XG" = (
+/obj/structure/kneestingers,
+/turf/open/floor/greenstone,
+/area/under/town/sewer)
+"XO" = (
+/obj/structure/rack/shelf/big,
+/obj/item/weapon/mace/church{
+	pixel_y = 10
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/blocks,
+/area/indoors/town/church)
+"XQ" = (
+/obj/structure/handcart{
+	dir = 8
+	},
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"XX" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 8
+	},
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/turf/open/floor/churchrough/violet,
+/area/indoors/town/church/inquisition)
+"Yq" = (
+/obj/structure/table/wood/counter/end,
+/obj/item/reagent_containers/glass/cup/glassware/wineglass{
+	pixel_y = 7;
+	pixel_x = -10
+	},
+/obj/item/reagent_containers/glass/cup/glassware/wineglass{
+	pixel_y = 9
+	},
+/obj/item/reagent_containers/glass/cup/glassware/wineglass{
+	pixel_y = 6;
+	pixel_x = 10
+	},
+/turf/open/floor/church/violet,
+/area/indoors/town/church/inquisition)
+"Ys" = (
+/obj/machinery/light/fueled/wallfire/candle/blue,
+/turf/open/floor/churchrough/pale,
+/area/indoors/town/church/inquisition)
+"Yx" = (
+/obj/structure/fluff/walldeco/vinez/red,
+/turf/closed/wall/mineral/pipe,
+/area/indoors/town/dwarfin)
+"YC" = (
+/obj/structure/window/stained/yellow,
+/turf/open/floor/churchrough,
+/area/indoors/town/church)
+"YL" = (
+/turf/open/floor/rooftop,
+/area/outdoors/town/roofs)
+"YR" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/outie,
+/turf/closed/wall/mineral/pipe,
+/area/indoors/town/dwarfin)
+"Zc" = (
+/turf/open/floor/dirt,
+/area/outdoors/town)
+"Zf" = (
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town/church)
+"Zs" = (
+/turf/open/floor/cobble/alt,
+/area/under/town/sewer)
+"Zt" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 1
+	},
+/turf/open/floor/churchrough/violet,
+/area/indoors/town/church/inquisition)
+"ZA" = (
+/obj/item/natural/rock,
+/turf/open/floor/naturalstone,
+/area/indoors/town/keep/magician/basement)
+
+(1,1,1) = {"
+pg
+vA
+vA
+Uw
+Uw
+BI
+yl
+yl
+yl
+yl
+jG
+jh
+jh
+JD
+JP
+dO
+ui
+js
+"}
+(2,1,1) = {"
+pg
+vA
+vA
+Fu
+Uw
+Uw
+Uw
+Zs
+QY
+Au
+FG
+jh
+jh
+eX
+JN
+JN
+JN
+Nw
+"}
+(3,1,1) = {"
+vA
+vh
+vh
+uf
+Uw
+Uw
+Uw
+Zs
+Un
+jh
+JD
+JD
+JD
+JD
+LV
+dO
+dO
+js
+"}
+(4,1,1) = {"
+vA
+vh
+vh
+yy
+XF
+XF
+XF
+mi
+rt
+mi
+mi
+mi
+mi
+mi
+mi
+Ev
+Ev
+js
+"}
+(5,1,1) = {"
+vh
+vh
+vh
+uf
+Dl
+CT
+KG
+pq
+pq
+kZ
+aU
+NB
+aV
+zC
+mi
+Yq
+tr
+js
+"}
+(6,1,1) = {"
+vA
+vA
+fR
+Fu
+YR
+CT
+HN
+qC
+gI
+gx
+xq
+tC
+tC
+tC
+mi
+vo
+tr
+Zt
+"}
+(7,1,1) = {"
+vA
+vA
+vA
+vA
+YR
+CT
+wq
+mN
+mN
+gx
+xq
+tC
+tC
+tC
+mi
+He
+tr
+js
+"}
+(8,1,1) = {"
+yZ
+yZ
+yZ
+yZ
+YR
+CT
+uX
+IQ
+pq
+eI
+GB
+fz
+XQ
+XQ
+mi
+Nm
+Nm
+js
+"}
+(9,1,1) = {"
+vA
+yZ
+yZ
+yZ
+CV
+Xw
+Xw
+IG
+qZ
+tC
+tC
+pS
+mi
+mi
+mi
+Wd
+dO
+js
+"}
+(10,1,1) = {"
+pg
+yZ
+yZ
+Uw
+Uw
+pg
+oX
+oX
+WH
+xk
+xk
+zY
+XF
+XF
+XX
+XX
+XX
+Nw
+"}
+(11,1,1) = {"
+pg
+pg
+Uw
+Uw
+Uw
+oX
+oX
+eU
+MS
+MS
+MS
+MS
+jv
+oX
+dO
+OM
+GL
+js
+"}
+(12,1,1) = {"
+pg
+pg
+Uw
+TY
+TY
+rt
+oX
+FW
+CT
+CT
+CT
+CT
+TJ
+oX
+eX
+JD
+JD
+aX
+"}
+(13,1,1) = {"
+XG
+vA
+vA
+yZ
+pg
+nz
+oX
+FW
+CT
+CT
+CT
+CT
+qX
+oX
+dO
+Uk
+hC
+AQ
+"}
+(14,1,1) = {"
+vA
+Cx
+vA
+pg
+pg
+nz
+oX
+oX
+CT
+CT
+CT
+CT
+mi
+XF
+dO
+Uk
+nX
+AQ
+"}
+(15,1,1) = {"
+rC
+DG
+ct
+pg
+pg
+wR
+jh
+oX
+oX
+oX
+oX
+oX
+oX
+XF
+dO
+Uk
+nX
+AQ
+"}
+(16,1,1) = {"
+lK
+yl
+yl
+Ar
+pg
+AW
+jh
+jh
+jh
+jh
+jh
+jh
+jh
+JD
+dO
+Uk
+RC
+Go
+"}
+(17,1,1) = {"
+zJ
+TN
+zJ
+mc
+zJ
+PQ
+JD
+hr
+JD
+JD
+Hb
+jh
+jh
+dO
+JD
+JD
+JD
+JD
+"}
+(18,1,1) = {"
+gn
+xi
+gn
+gn
+zJ
+lK
+JD
+Ys
+JD
+JD
+JD
+jh
+jh
+JD
+dJ
+dJ
+yZ
+yZ
+"}
+(19,1,1) = {"
+gn
+gn
+gn
+ra
+zJ
+yZ
+JD
+zk
+JD
+yZ
+JD
+jh
+jh
+JD
+dJ
+oS
+oS
+oS
+"}
+(20,1,1) = {"
+gn
+ra
+gn
+gn
+TN
+ZA
+zJ
+zJ
+rD
+wb
+vA
+vA
+vA
+oS
+oS
+oS
+oS
+oS
+"}
+
+(1,1,2) = {"
+Lt
+Lt
+Nn
+xT
+dz
+dz
+xT
+fH
+dj
+lF
+lF
+dj
+fH
+xT
+dz
+dz
+xT
+Nn
+"}
+(2,1,2) = {"
+Lt
+pU
+mi
+TK
+TK
+TK
+TK
+cY
+iL
+lF
+lF
+eE
+mi
+TK
+TK
+TK
+TK
+cY
+"}
+(3,1,2) = {"
+Lt
+pU
+TO
+TK
+TK
+TK
+TK
+dz
+eE
+lF
+lF
+eE
+TO
+TK
+TK
+TK
+TK
+dz
+"}
+(4,1,2) = {"
+Lt
+Lt
+My
+TK
+TK
+TK
+TK
+dz
+eE
+eE
+eE
+eE
+Nn
+TK
+TK
+TK
+TK
+dz
+"}
+(5,1,2) = {"
+Lt
+Lt
+xQ
+TK
+TK
+TK
+TK
+cY
+Hj
+NG
+UE
+UE
+xQ
+TK
+TK
+TK
+TK
+cY
+"}
+(6,1,2) = {"
+Lt
+pU
+le
+TK
+TK
+TK
+TK
+Nn
+Ed
+UW
+Yx
+Nn
+mi
+TK
+TK
+TK
+TK
+Nn
+"}
+(7,1,2) = {"
+Lt
+Ou
+mi
+Nn
+TK
+TK
+TK
+Nn
+uJ
+nV
+oX
+Nn
+Nn
+Nn
+TK
+TK
+TK
+xQ
+"}
+(8,1,2) = {"
+Lt
+pU
+My
+VH
+TK
+TK
+TK
+XF
+oX
+XF
+XF
+XF
+XF
+VH
+TK
+TK
+TK
+xQ
+"}
+(9,1,2) = {"
+Lt
+Lt
+My
+TK
+TK
+TK
+TK
+iT
+nc
+tB
+hT
+nc
+qY
+TK
+TK
+TK
+TK
+xQ
+"}
+(10,1,2) = {"
+Lt
+Lt
+Nn
+Nq
+TK
+TK
+TK
+xQ
+eF
+cT
+vG
+Ca
+XF
+Nq
+TK
+TK
+TK
+Nn
+"}
+(11,1,2) = {"
+Lt
+pU
+Nn
+MB
+MB
+MB
+xQ
+Nn
+ci
+Nn
+Nn
+MB
+Nn
+Nn
+MB
+MB
+MB
+mi
+"}
+(12,1,2) = {"
+Lt
+pU
+Ou
+Bp
+HZ
+Zc
+Zc
+th
+Ea
+HZ
+Zc
+Zc
+HZ
+HZ
+th
+Bu
+HL
+Zc
+"}
+(13,1,2) = {"
+Lt
+Lt
+pU
+HZ
+Lt
+Lt
+cf
+hv
+sj
+HZ
+HZ
+HZ
+Zc
+HL
+HZ
+Zc
+Zc
+HZ
+"}
+(14,1,2) = {"
+Lt
+Lt
+HZ
+Lt
+Lt
+Fz
+oI
+Lt
+sj
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+"}
+(15,1,2) = {"
+Lt
+Lt
+Lt
+HZ
+Fh
+bn
+oH
+yo
+Vy
+UX
+Ps
+St
+OY
+Ps
+UX
+dP
+dP
+dP
+"}
+(16,1,2) = {"
+Lt
+Lt
+Lt
+HZ
+pU
+Jb
+oH
+oH
+NU
+zZ
+sH
+sH
+sH
+rm
+UX
+oD
+hz
+hz
+"}
+(17,1,2) = {"
+Lt
+Lt
+HZ
+pU
+AI
+pU
+UX
+UX
+UX
+UX
+nK
+sH
+sH
+sH
+rP
+Zf
+Zf
+hz
+"}
+(18,1,2) = {"
+Lt
+Lt
+Lt
+HZ
+pU
+pU
+UX
+Xs
+pB
+UX
+qr
+sH
+mV
+Gq
+UX
+aR
+Zf
+Op
+"}
+(19,1,2) = {"
+Lt
+Lt
+HZ
+HZ
+pU
+yo
+UX
+Jq
+xB
+UX
+UX
+kg
+UX
+UX
+UX
+UX
+ad
+UX
+"}
+(20,1,2) = {"
+Lt
+Lt
+HZ
+pU
+pU
+yo
+UX
+aI
+BW
+PG
+UX
+MN
+mg
+UX
+vD
+bt
+JU
+Mk
+"}
+
+(1,1,3) = {"
+ID
+ID
+XF
+BZ
+BZ
+BZ
+BZ
+XF
+ap
+ap
+ap
+ap
+XF
+BZ
+BZ
+BZ
+BZ
+XF
+"}
+(2,1,3) = {"
+ID
+ID
+My
+qo
+qo
+qo
+qo
+vd
+ap
+ap
+ap
+ap
+My
+qo
+qo
+qo
+qo
+vd
+"}
+(3,1,3) = {"
+ID
+ID
+My
+qo
+qo
+qo
+qo
+vd
+ap
+ap
+ap
+ap
+My
+qo
+qo
+qo
+qo
+vd
+"}
+(4,1,3) = {"
+ID
+ID
+XF
+XF
+qo
+qo
+qo
+vd
+ap
+ap
+ap
+ap
+XF
+XF
+qo
+qo
+qo
+vd
+"}
+(5,1,3) = {"
+ID
+ID
+XF
+Sn
+qo
+qo
+qo
+vd
+jo
+jo
+ap
+ap
+XF
+Sn
+qo
+qo
+qo
+vd
+"}
+(6,1,3) = {"
+ID
+ID
+XF
+qo
+qo
+qo
+qo
+vd
+FA
+Jo
+Bq
+Bq
+XF
+qo
+qo
+qo
+qo
+vd
+"}
+(7,1,3) = {"
+ID
+ID
+XF
+gt
+qo
+qo
+qo
+vd
+Ly
+cp
+eE
+eE
+XF
+gt
+qo
+qo
+qo
+vd
+"}
+(8,1,3) = {"
+ID
+TS
+XF
+mH
+qo
+qo
+qo
+XF
+eE
+QX
+eE
+eE
+XF
+mH
+qo
+qo
+qo
+XF
+"}
+(9,1,3) = {"
+ID
+Nz
+DY
+qo
+qo
+qo
+qo
+DY
+eE
+eE
+eE
+eE
+DY
+qo
+qo
+qo
+qo
+DY
+"}
+(10,1,3) = {"
+ID
+zp
+XF
+kM
+qo
+qo
+qo
+XF
+eE
+eE
+eE
+eE
+XF
+kM
+qo
+qo
+qo
+XF
+"}
+(11,1,3) = {"
+ID
+ID
+XF
+MB
+MB
+XF
+XF
+XF
+mf
+jH
+jH
+mf
+XF
+MB
+MB
+XF
+XF
+XF
+"}
+(12,1,3) = {"
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+zp
+zp
+zp
+zp
+ID
+ID
+ID
+ID
+ID
+ID
+"}
+(13,1,3) = {"
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+UX
+Gv
+Mn
+UX
+UX
+UX
+Mn
+UX
+Mn
+"}
+(14,1,3) = {"
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+UX
+KE
+Bh
+aG
+lg
+sr
+Xk
+OS
+AX
+"}
+(15,1,3) = {"
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+Mn
+Cf
+An
+ly
+UX
+FR
+Xq
+Xq
+Ae
+"}
+(16,1,3) = {"
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+ID
+UX
+au
+IM
+lx
+UX
+FR
+Ae
+Ae
+Ae
+"}
+(17,1,3) = {"
+ID
+ID
+ID
+ID
+ID
+ID
+kG
+Bi
+jc
+UX
+UX
+lP
+UX
+UX
+UX
+lo
+la
+la
+"}
+(18,1,3) = {"
+ID
+ID
+ID
+ID
+ID
+ID
+Xe
+vP
+vP
+UX
+LJ
+Cl
+In
+yk
+iq
+pV
+pV
+pV
+"}
+(19,1,3) = {"
+ID
+ID
+ID
+ID
+ID
+ID
+Xe
+vP
+vP
+Mn
+sF
+Gs
+EC
+zz
+pV
+qm
+qe
+qe
+"}
+(20,1,3) = {"
+ID
+ID
+ID
+ID
+ID
+ID
+pF
+vP
+EZ
+UX
+sv
+OW
+IZ
+eb
+pV
+yB
+gj
+gj
+"}
+
+(1,1,4) = {"
+zN
+zN
+FB
+JT
+Js
+Js
+JT
+FB
+zN
+zN
+zN
+zN
+FB
+JT
+Js
+Js
+JT
+FB
+"}
+(2,1,4) = {"
+zN
+zN
+JT
+vy
+vy
+vy
+vy
+JT
+zN
+zN
+zN
+zN
+JT
+vy
+vy
+vy
+vy
+JT
+"}
+(3,1,4) = {"
+zN
+zN
+JT
+vy
+vy
+vy
+vy
+ki
+zN
+zN
+zN
+zN
+JT
+vy
+vy
+vy
+vy
+ki
+"}
+(4,1,4) = {"
+zN
+zN
+JT
+jN
+vy
+vy
+vy
+ki
+zN
+zN
+zN
+zN
+JT
+jN
+vy
+vy
+vy
+ki
+"}
+(5,1,4) = {"
+zN
+zN
+lZ
+Tl
+vy
+vy
+vy
+lZ
+zN
+zN
+zN
+zN
+lZ
+Tl
+vy
+vy
+vy
+lZ
+"}
+(6,1,4) = {"
+zN
+zN
+yd
+vy
+vy
+vy
+vy
+lZ
+zN
+zN
+zN
+zN
+yd
+vy
+vy
+vy
+vy
+lZ
+"}
+(7,1,4) = {"
+zN
+zN
+yd
+vy
+vy
+vy
+vy
+lZ
+zN
+zN
+Ab
+Ab
+yd
+vy
+vy
+vy
+vy
+lZ
+"}
+(8,1,4) = {"
+zN
+Ab
+JT
+vy
+vy
+vy
+vy
+JT
+zN
+sh
+dy
+El
+JT
+vy
+vy
+vy
+vy
+JT
+"}
+(9,1,4) = {"
+zN
+Gb
+Lf
+vy
+vy
+vy
+vy
+JT
+zN
+sh
+JB
+vM
+Lf
+vy
+vy
+vy
+vy
+JT
+"}
+(10,1,4) = {"
+zN
+kV
+JT
+Cb
+vy
+vy
+vy
+JT
+zN
+sh
+CK
+yi
+JT
+Cb
+vy
+vy
+vy
+JT
+"}
+(11,1,4) = {"
+zN
+zN
+FB
+JT
+Hz
+Hz
+JT
+FB
+zN
+zN
+kV
+kV
+FB
+JT
+Hz
+Hz
+JT
+FB
+"}
+(12,1,4) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+"}
+(13,1,4) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+UX
+XE
+uV
+ik
+UX
+YL
+Lx
+Lx
+YC
+"}
+(14,1,4) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+Dc
+GI
+Wl
+Wl
+jK
+YL
+Lx
+cH
+oL
+"}
+(15,1,4) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+UX
+Qu
+GI
+Ae
+UX
+YL
+Lx
+sp
+xN
+"}
+(16,1,4) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+UX
+UX
+bE
+UX
+UX
+Mn
+UX
+Oz
+Oz
+"}
+(17,1,4) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+UX
+Fa
+Pr
+Pr
+Pr
+Pr
+mP
+Pr
+Pr
+"}
+(18,1,4) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+UX
+Id
+Pr
+rr
+wP
+wP
+wP
+rr
+wP
+"}
+(19,1,4) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+UX
+IC
+Pr
+zy
+RQ
+WR
+RQ
+pe
+Wz
+"}
+(20,1,4) = {"
+kp
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+bp
+rr
+Pr
+zy
+RQ
+WR
+RQ
+nw
+ON
+"}
+
+(1,1,5) = {"
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+zN
+zN
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+"}
+(2,1,5) = {"
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+zN
+zN
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+"}
+(3,1,5) = {"
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+zN
+zN
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+"}
+(4,1,5) = {"
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+zN
+zN
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+"}
+(5,1,5) = {"
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+zN
+zN
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+"}
+(6,1,5) = {"
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+zN
+zN
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+"}
+(7,1,5) = {"
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+zN
+zN
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+"}
+(8,1,5) = {"
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+zN
+zN
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+"}
+(9,1,5) = {"
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+zN
+zN
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+"}
+(10,1,5) = {"
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+zN
+zN
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+"}
+(11,1,5) = {"
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+zN
+zN
+zN
+zN
+YL
+YL
+YL
+YL
+YL
+YL
+"}
+(12,1,5) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+"}
+(13,1,5) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+UX
+Fg
+hw
+sx
+UX
+zN
+DS
+Lz
+Lz
+"}
+(14,1,5) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+Dc
+Ae
+Xt
+Ae
+jK
+zN
+HA
+pL
+pL
+"}
+(15,1,5) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+Ma
+Ae
+Ae
+Ae
+nL
+zN
+HA
+pL
+pL
+"}
+(16,1,5) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+UX
+XO
+VS
+VS
+UX
+YL
+NK
+vY
+vY
+"}
+(17,1,5) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+YL
+DS
+Lz
+Lz
+Lz
+Lz
+Lz
+Lz
+Lz
+"}
+(18,1,5) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+YL
+HA
+pL
+pL
+pL
+pL
+pL
+pL
+pL
+"}
+(19,1,5) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+YL
+HA
+pL
+pL
+pL
+pL
+pL
+pL
+pL
+"}
+(20,1,5) = {"
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+zN
+YL
+HA
+pL
+pL
+pL
+pL
+pL
+pL
+pL
+"}
+
+(1,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(2,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(3,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(4,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(5,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(6,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(7,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(8,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(9,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(10,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(11,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(12,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(13,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(14,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(15,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(16,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(17,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(18,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(19,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
+(20,1,6) = {"
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+jL
+"}
