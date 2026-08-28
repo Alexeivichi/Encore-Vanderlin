@@ -251,7 +251,7 @@
 
 	triumph_cost_permanent = 25
 
-/datum/loadout_item/iron_blundgeon
+/datum/loadout_item/iron_bludgeon
 	name = "Iron Bludgeon"
 	item_path = /obj/item/weapon/mace/bludgeon
 	ui_category = "Held Item"
@@ -263,7 +263,7 @@
 	item_path = /obj/item/weapon/mace/bludgeon/copper
 	ui_category = "Held Item"
 
-	triumph_cost_permanent = 25
+	triumph_cost_permanent = 18
 
 /datum/loadout_item/cudgel
 	name = "Cudgel"
@@ -375,7 +375,7 @@
 	item_path = /obj/item/weapon/polearm/spear/billhook/ji/iron
 	ui_category = "Held Item"
 
-	triumph_cost_permanent = 30
+	triumph_cost_permanent = 35
 
 /datum/loadout_item/bronze_dagger_ax
 	name = "Bronze Dagger-Ax"
