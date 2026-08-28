@@ -1,0 +1,4 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - bugfix: "Fixed ore spawns not existing really anywhere in any consistent number."
