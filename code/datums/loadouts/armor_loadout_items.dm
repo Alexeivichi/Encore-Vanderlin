@@ -34,7 +34,7 @@
 	triumph_cost_permanent = 15
 
 /datum/loadout_item/steppe_robes
-	name = "Steppe Robes	"
+	name = "Steppe Robes"
 	item_path = /obj/item/clothing/armor/gambeson/light/steppe
 	ui_category = "Armor"
 
