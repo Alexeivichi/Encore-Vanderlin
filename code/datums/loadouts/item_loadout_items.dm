@@ -20,6 +20,13 @@
 
 	triumph_cost_permanent = 2
 
+/datum/loadout_item/wooden_club
+	name = "Wooden Club"
+	item_path = /obj/item/weapon/mace/woodclub
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 2
+
 /datum/loadout_item/sheath
 	name = "Knife Sheath"
 	item_path = /obj/item/weapon/scabbard/knife
@@ -195,3 +202,135 @@
 
 	triumph_cost_permanent = 25
 
+/datum/loadout_item/iron_mace
+	name = "Iron Mace"
+	item_path = /obj/item/weapon/mace
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 15
+
+/datum/loadout_item/bronze_mace
+	name = "Bronze Mace"
+	item_path = /obj/item/weapon/mace/bronze
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 18
+
+/datum/loadout_item/iron_rungu
+	name = "Iron Rungu"
+	item_path = /obj/item/weapon/mace/rungu
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 15
+
+/datum/loadout_item/iron_shishpar
+	name = "Iron Shishpar"
+	item_path = /obj/item/weapon/mace/shishpar
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 25
+
+/datum/loadout_item/bronze_shishpar
+	name = "Bronze Shishpar"
+	item_path = /obj/item/weapon/mace/bronze/shishpar
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 30
+
+/datum/loadout_item/spiked_mace
+	name = "Spiked Mace"
+	item_path = /obj/item/weapon/mace/spiked
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 25
+
+/datum/loadout_item/iron_blundgeon
+	name = "Iron Bludgeon"
+	item_path = /obj/item/weapon/mace/bludgeon
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 25
+
+/datum/loadout_item/copper_bludgeon
+	name = "Copper Bludgeon"
+	item_path = /obj/item/weapon/mace/bludgeon/copper
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 25
+
+/datum/loadout_item/cudgel
+	name = "Cudgel"
+	item_path = /obj/item/weapon/mace/cudgel
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 15
+
+/datum/loadout_item/peasant_cudgel
+	name = "Peasant Cudgel"
+	item_path = /obj/item/weapon/mace/cudgel/carpenter
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 10
+
+/datum/loadout_item/elven_warclub_bronze
+	name = "Bronze Elven War Club"
+	item_path = /obj/item/weapon/mace/elvenclub/bronze
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 20
+
+/datum/loadout_item/iron_flail
+	name = "Iron Flail"
+	item_path = /obj/item/weapon/flail
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 15
+
+/datum/loadout_item/militia_flail
+	name = "Militia Flail"
+	item_path = /obj/item/weapon/flail/militia
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 18
+
+/datum/loadout_item/peasant_flail
+	name = "Peasant Flail"
+	item_path = /obj/item/weapon/flail/towner
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 12
+
+/datum/loadout_item/iron_axe
+	name = "Iron Axe"
+	item_path = /obj/item/weapon/axe/iron
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 25
+
+/datum/loadout_item/bronze_axe
+	name = "Bronze Axe"
+	item_path = /obj/item/weapon/axe/bronze
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 20
+
+/datum/loadout_item/iron_nsapo
+	name = "Iron Nsapo"
+	item_path = /obj/item/weapon/axe/iron/nsapo
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 25
+
+/datum/loadout_item/bone_axe
+	name = "Bone Axe"
+	item_path = /obj/item/weapon/axe/boneaxe
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 13
+
+/datum/loadout_item/copper_hatchet
+	name = "Copper Hatchet"
+	item_path = /obj/item/weapon/axe/copper
+	ui_category = "Held Item"
+
+	triumph_cost_permanent = 15
