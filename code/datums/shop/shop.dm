@@ -69,8 +69,8 @@
 		if(item && (item.loadout_flags & LOADOUT_FLAG_NO_EQUIP))
 			continue
 		clean_equipped += path_str
-	if(length(clean_equipped) > 3)
-		clean_equipped = clean_equipped.Copy(1, 4)
+	if(length(clean_equipped) > 10)
+		clean_equipped = clean_equipped.Copy(1, 11)
 	equipped_loadout = clean_equipped
 	return TRUE
 
@@ -84,7 +84,7 @@
 
 	var/slot = 1
 	for(var/path_str in player.prefs.equipped_loadout)
-		if(slot > 3)
+		if(slot > 10)
 			break
 		var/datum/loadout_item/item = GLOB.loadout_items[text2path(path_str)]
 		if(!item)
@@ -102,7 +102,7 @@
 		slot++
 
 	for(var/path_str in player.prefs.single_round_loadout)
-		if(slot > 3)
+		if(slot > 10)
 			break
 		if(path_str in player.prefs.equipped_loadout)
 			continue
