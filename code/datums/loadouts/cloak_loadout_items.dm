@@ -55,6 +55,13 @@
 
 	triumph_cost_permanent = 2
 
+/datum/loadout_item/raincloak
+	name = "Leather Raincloak"
+	item_path = /obj/item/clothing/cloak/raincloak/colored/brown
+	ui_category = "Cloaks"
+
+	triumph_cost_permanent = 2
+
 /datum/loadout_item/shadowcloak
 	name = "Stalker Cloak"
 	item_path = /obj/item/clothing/cloak/half/shadowcloak
