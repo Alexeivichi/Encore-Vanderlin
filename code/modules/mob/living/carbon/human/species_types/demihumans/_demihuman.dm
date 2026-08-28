@@ -102,13 +102,16 @@
 		ORGAN_SLOT_LIVER = /obj/item/organ/liver,
 		ORGAN_SLOT_STOMACH = /obj/item/organ/stomach,
 		ORGAN_SLOT_APPENDIX = /obj/item/organ/appendix,
-		ORGAN_SLOT_TAIL = /obj/item/organ/tail/demihuman,
-		ORGAN_SLOT_HORNS = /obj/item/organ/horns,
 	)
 
 	optional_organ_slots = list(
-		ORGAN_SLOT_HORNS,
-		ORGAN_SLOT_TAIL,
+		ORGAN_SLOT_HORNS = /obj/item/organ/horns,
+		ORGAN_SLOT_TAIL = /obj/item/organ/tail,
+		ORGAN_SLOT_FRILLS = /obj/item/organ/frills,
+		ORGAN_SLOT_SNOUT = /obj/item/organ/snout,
+		ORGAN_SLOT_WINGS = /obj/item/organ/wings,
+		ORGAN_SLOT_TAIL_FEATURE = /obj/item/organ/tail_feature,
+		ORGAN_SLOT_NECK_FEATURE = /obj/item/organ/neck_feature,
 	)
 
 	bodypart_features = list(
@@ -124,6 +127,11 @@
 		/datum/customizer/organ/ears/demihuman,
 		/datum/customizer/organ/horns/demihuman,
 		/datum/customizer/organ/tail/demihuman,
+		/datum/customizer/organ/frills/demihuman,
+		/datum/customizer/organ/snout/demihuman,
+		/datum/customizer/organ/wings/demihuman,
+		/datum/customizer/organ/tail_feature/demihuman,
+		/datum/customizer/organ/neck_feature/anthro,
 	)
 
 	descriptor_choices = list(
