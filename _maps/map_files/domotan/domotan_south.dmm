@@ -1151,7 +1151,7 @@
 /area/indoors/shelter/bog/witch)
 "fg" = (
 /obj/structure/fluff/walldeco/vinez/red,
-/turf/closed/mineral,
+/turf/closed/mineral/random/warm,
 /area/under/cave)
 "fh" = (
 /obj/structure/fluff/walldeco/bath/wallpipes/innie,
@@ -2034,7 +2034,7 @@
 /turf/open/floor/greenstone,
 /area/indoors/shelter/bog)
 "jD" = (
-/turf/closed/mineral,
+/turf/closed/mineral/random/warm,
 /area/outdoors/woods/heavenscoast)
 "jG" = (
 /obj/structure/rack,
@@ -2767,7 +2767,7 @@
 /turf/open/floor/hexstone,
 /area/under/cavewet)
 "na" = (
-/turf/closed/mineral,
+/turf/closed/mineral/random/warm,
 /area/under/cave)
 "nb" = (
 /obj/item/gem/violet,
@@ -2874,7 +2874,7 @@
 /turf/open/floor/twig,
 /area/outdoors/bog/witch)
 "nE" = (
-/turf/closed/mineral,
+/turf/closed/mineral/random/warm,
 /area/under/town/basement)
 "nG" = (
 /obj/machinery/light/fueled/firebowl/church,
@@ -3526,9 +3526,6 @@
 	},
 /turf/open/floor/cobble/alt,
 /area/outdoors/bog/w_highroad)
-"qK" = (
-/turf/closed/mineral/warm,
-/area/indoors/shelter)
 "qL" = (
 /turf/open/floor/carpet/royalblack,
 /area/indoors/villagegarrison)
@@ -4190,7 +4187,7 @@
 /obj/effect/decal/cobbleedge{
 	dir = 8
 	},
-/turf/closed/mineral,
+/turf/closed/mineral/random/warm,
 /area/under/cavewet)
 "tL" = (
 /obj/structure/fluff/walldeco/church/line{
@@ -6583,7 +6580,7 @@
 /turf/open/water/ocean/abyss,
 /area/outdoors/woods/heavenscoast)
 "EH" = (
-/turf/closed/mineral,
+/turf/closed/mineral/random/warm,
 /area/outdoors/woods/crossroads)
 "EI" = (
 /obj/structure/closet/crate/chest/neu_iron,
@@ -7258,7 +7255,7 @@
 /turf/open/floor/hexstone,
 /area/outdoors/bog)
 "HN" = (
-/turf/closed/mineral,
+/turf/closed/mineral/random/warm,
 /area/outdoors/bog)
 "HO" = (
 /obj/effect/decal/cobbleedge{
@@ -8520,7 +8517,7 @@
 /area/under/town/basement)
 "OX" = (
 /obj/structure/fluff/walldeco/vinez,
-/turf/closed/mineral,
+/turf/closed/mineral/random/warm,
 /area/under/cave)
 "OY" = (
 /obj/effect/decal/cobbleedge{
@@ -8561,7 +8558,7 @@
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
 "Pn" = (
-/turf/closed/mineral,
+/turf/closed/mineral/random/warm,
 /area/indoors/shelter)
 "Po" = (
 /obj/item/natural/stone,
@@ -9984,7 +9981,7 @@
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter/bog)
 "Wj" = (
-/turf/closed/mineral,
+/turf/closed/mineral/random/warm,
 /area/under/cavewet)
 "Wl" = (
 /obj/structure/table/wood/counter/end{
@@ -10406,7 +10403,7 @@
 /area/indoors/shelter)
 "Yw" = (
 /obj/effect/landmark/map_load_mark/generic_tile/two_level,
-/turf/closed/mineral,
+/turf/closed/mineral/random/warm,
 /area/under/cavewet)
 "YA" = (
 /obj/structure/closet/crate/chest/wicker,
@@ -31503,10 +31500,10 @@ eS
 eS
 Pn
 Pn
-qK
-qK
-qK
-qK
+Pn
+Pn
+Pn
+Pn
 Pn
 pL
 pL
@@ -31760,11 +31757,11 @@ eS
 eS
 Pn
 Pn
-qK
+Pn
 gy
 JI
-qK
-qK
+Pn
+Pn
 EC
 pL
 pL
@@ -32017,7 +32014,7 @@ eS
 eS
 eS
 Pn
-qK
+Pn
 Um
 mv
 FD
@@ -32274,8 +32271,8 @@ eS
 eS
 Pn
 Pn
-qK
-qK
+Pn
+Pn
 LT
 EC
 EC
@@ -32531,7 +32528,7 @@ eS
 eS
 Pn
 Pn
-qK
+Pn
 IL
 EC
 EC
@@ -32788,7 +32785,7 @@ eS
 eS
 Pn
 Pn
-qK
+Pn
 SX
 EC
 EC
@@ -33045,7 +33042,7 @@ eS
 eS
 Pn
 Pn
-qK
+Pn
 lY
 EC
 EC
@@ -33301,9 +33298,9 @@ eS
 eS
 eS
 Pn
-qK
-qK
-qK
+Pn
+Pn
+Pn
 Cw
 EC
 EC
@@ -33558,7 +33555,7 @@ eS
 eS
 eS
 Pn
-qK
+Pn
 bE
 Cd
 kt
@@ -33815,12 +33812,12 @@ eS
 eS
 eS
 Pn
-qK
-qK
+Pn
+Pn
 bB
 Yu
 yL
-qK
+Pn
 EC
 pL
 Pn
@@ -34073,11 +34070,11 @@ eS
 eS
 Pn
 Pn
-qK
+Pn
 rC
-qK
-qK
-qK
+Pn
+Pn
+Pn
 pL
 Pn
 Pn
@@ -34330,9 +34327,9 @@ eS
 eS
 eS
 Pn
-qK
-qK
-qK
+Pn
+Pn
+Pn
 Pn
 Pn
 Pn
