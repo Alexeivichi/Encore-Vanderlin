@@ -342,6 +342,15 @@
 	},
 /turf/open/water/ocean/abyss,
 /area/outdoors/woods/crossroads)
+"bB" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 6
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/turf/open/lava,
+/area/indoors/shelter)
 "bC" = (
 /obj/structure/flora/tree/burnt,
 /turf/open/floor/dirt,
@@ -353,6 +362,21 @@
 /obj/item/weapon/hammer/copper,
 /turf/open/floor/ruinedwood/alt,
 /area/indoors/shelter/woods)
+"bE" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 9
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/turf/open/lava,
+/area/indoors/shelter)
 "bG" = (
 /turf/open/floor/naturalstone,
 /area/under/cave)
@@ -1362,6 +1386,18 @@
 /obj/structure/table/wood/plain_alt,
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/shelter/woods)
+"gy" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 9
+	},
+/turf/open/lava,
+/area/indoors/shelter)
 "gB" = (
 /obj/machinery/light/fueled/firebowl/stump,
 /turf/open/floor/dirt,
@@ -2143,6 +2179,15 @@
 /obj/effect/spawner/map_spawner/loot/common,
 /turf/open/floor/cobble,
 /area/under/cavewet)
+"kt" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 10
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 9
+	},
+/turf/open/lava,
+/area/indoors/shelter)
 "ku" = (
 /mob/living/carbon/human/species/skeleton/npc/warrior,
 /turf/open/floor/ruinedwood,
@@ -2474,6 +2519,16 @@
 /obj/item/coin/copper,
 /turf/open/water/sewer,
 /area/under/town/basement)
+"lY" = (
+/obj/structure/table/church{
+	dir = 1
+	},
+/obj/item/candle/yellow/lit/infinite/strong{
+	pixel_y = 11;
+	desc = "An ordinary wax candle... or is it? It burns with an unfamiliar intensity, never seeming to truly go out, and shines far brighter than it should. You can hardly bring yourself to touch it, let alone take it."
+	},
+/turf/open/floor/church/violet,
+/area/indoors/shelter)
 "lZ" = (
 /turf/open/floor/cobble/mossy,
 /area/outdoors/bog/witch)
@@ -3434,6 +3489,9 @@
 	},
 /turf/open/floor/cobble/alt,
 /area/outdoors/bog/w_highroad)
+"qK" = (
+/turf/closed/mineral/warm,
+/area/indoors/shelter)
 "qL" = (
 /turf/open/floor/carpet/royalblack,
 /area/indoors/villagegarrison)
@@ -3611,6 +3669,22 @@
 /mob/living/carbon/human/species/human/northern/bog_deserters,
 /turf/open/floor/cobble/alt,
 /area/indoors/shelter/bog)
+"rC" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/obj/structure/fluff/railing/tall/retaining/rock,
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 5
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 6
+	},
+/turf/open/lava,
+/area/indoors/shelter)
 "rD" = (
 /obj/structure/flora/grass/water/reeds,
 /obj/structure/flora/grass/water,
@@ -5117,6 +5191,16 @@
 	},
 /turf/open/floor/dirt,
 /area/outdoors/bog/witch)
+"yL" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 6
+	},
+/obj/structure/fluff/railing/tall/retaining/rock,
+/turf/open/lava,
+/area/indoors/shelter)
 "yN" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4
@@ -5895,6 +5979,15 @@
 /obj/item/reagent_containers/glass/carafe/teapot/bronze,
 /turf/open/floor/carpet/royalblack,
 /area/indoors/shelter/bog/witch)
+"Cd" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 5
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/turf/open/lava,
+/area/indoors/shelter)
 "Cg" = (
 /obj/machinery/light/fueled/oven/south,
 /obj/machinery/light/fueled/hearth,
@@ -5961,6 +6054,22 @@
 "Cv" = (
 /turf/open/floor/cobblerock/alt,
 /area/outdoors/bog/w_highroad)
+"Cw" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/obj/structure/fluff/railing/tall/retaining/rock,
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 10
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 9
+	},
+/turf/open/lava,
+/area/indoors/shelter)
 "Cx" = (
 /obj/structure/bed/hay,
 /obj/item/bedsheet/cloth,
@@ -6663,6 +6772,22 @@
 	},
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
+"FD" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/obj/structure/fluff/railing/tall/retaining/rock,
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 6
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 10
+	},
+/turf/open/lava,
+/area/indoors/shelter)
 "FE" = (
 /obj/structure/table/wood{
 	icon_state = "largetable";
@@ -7192,6 +7317,14 @@
 "IK" = (
 /turf/open/floor/twig,
 /area/indoors/shelter/bog/witch)
+"IL" = (
+/obj/structure/table/church,
+/obj/item/candle/yellow/lit/infinite/strong{
+	pixel_y = 11;
+	desc = "An ordinary wax candle... or is it? It burns with an unfamiliar intensity, never seeming to truly go out, and shines far brighter than it should. You can hardly bring yourself to touch it, let alone take it."
+	},
+/turf/open/floor/church/violet,
+/area/indoors/shelter)
 "IM" = (
 /obj/structure/chair/wood/alt/chair3,
 /turf/open/floor/ruinedwood/turned,
@@ -7750,6 +7883,22 @@
 "LS" = (
 /turf/open/water/marsh,
 /area/outdoors/woods/crossroads)
+"LT" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/obj/structure/fluff/railing/tall/retaining/rock,
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 6
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 5
+	},
+/turf/open/lava,
+/area/indoors/shelter)
 "LU" = (
 /obj/effect/decal/cobbleedge{
 	icon_state = "mossyedge-e"
@@ -9132,6 +9281,13 @@
 /obj/structure/fluff/railing/tall/palisade,
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
+"SX" = (
+/obj/structure/table/church/m,
+/obj/structure/fluff/psycross/visires{
+	pixel_y = 16
+	},
+/turf/open/floor/church/violet,
+/area/indoors/shelter)
 "SY" = (
 /obj/item/natural/stone{
 	pixel_x = -5;
@@ -9892,6 +10048,16 @@
 	},
 /turf/open/floor/hexstone,
 /area/indoors/villagegarrison)
+"WP" = (
+/obj/structure/fluff/railing/tall/retaining/rock,
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 8
+	},
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 10
+	},
+/turf/open/lava,
+/area/indoors/shelter)
 "WT" = (
 /mob/living/carbon/human/species/skeleton/npc/warrior/skilled,
 /turf/open/floor/cobble,
@@ -10151,6 +10317,12 @@
 	},
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/shelter/bog)
+"Yu" = (
+/obj/structure/fluff/railing/tall/retaining/rock{
+	dir = 4
+	},
+/turf/open/lava,
+/area/indoors/shelter)
 "Yw" = (
 /obj/effect/landmark/map_load_mark/generic_tile/two_level,
 /turf/closed/mineral,
@@ -31508,10 +31680,10 @@ eS
 eS
 na
 na
-na
-na
-na
-na
+qK
+qK
+qK
+qK
 bG
 bG
 bG
@@ -31765,10 +31937,10 @@ eS
 eS
 na
 na
-na
-na
-na
-bG
+qK
+gy
+FD
+ob
 bG
 bG
 bG
@@ -32021,11 +32193,11 @@ eS
 eS
 na
 na
-na
-na
-na
-bG
-bG
+qK
+qK
+LT
+ob
+ob
 bG
 bG
 bG
@@ -32278,15 +32450,15 @@ eS
 eS
 na
 na
-na
+qK
+IL
+ob
+ob
+ob
 bG
 bG
 bG
-na
-na
-na
-na
-na
+bG
 bG
 na
 na
@@ -32535,12 +32707,12 @@ eS
 eS
 na
 na
+qK
+SX
+ob
+ob
+ob
 bG
-bG
-na
-bG
-bG
-na
 bG
 bG
 bG
@@ -32792,13 +32964,13 @@ eS
 eS
 na
 na
+qK
+lY
+ob
+ob
+ob
 bG
-na
-na
-na
 bG
-na
-na
 bG
 bG
 bG
@@ -33048,15 +33220,15 @@ eS
 eS
 eS
 na
-na
+qK
+qK
+qK
+Cw
+ob
+ob
 bG
-na
-na
-na
 bG
-na
-na
-na
+bG
 na
 na
 na
@@ -33304,16 +33476,16 @@ eS
 eS
 eS
 eS
-eS
 na
+qK
+bE
+Cd
+kt
+WP
+ob
 bG
-na
-na
-na
-na
-na
-na
-na
+bG
+bG
 na
 na
 na
@@ -33561,15 +33733,15 @@ eS
 eS
 eS
 eS
-eS
 na
+qK
+qK
+bB
+Yu
+yL
+qK
 bG
-na
 bG
-na
-na
-na
-na
 na
 na
 na
@@ -33818,13 +33990,13 @@ eS
 eS
 eS
 eS
-eS
-na
-bG
-bG
-bG
 na
 na
+qK
+rC
+qK
+qK
+qK
 bG
 na
 na
@@ -34077,9 +34249,9 @@ eS
 eS
 eS
 na
-bG
-bG
-bG
+qK
+qK
+qK
 na
 na
 na
@@ -34335,7 +34507,7 @@ eS
 eS
 na
 na
-bG
+na
 na
 na
 na
@@ -66262,19 +66434,6 @@ na
 na
 na
 na
-bG
-na
-na
-na
-bG
-na
-na
-bG
-na
-na
-na
-na
-na
 na
 na
 na
@@ -66283,16 +66442,6 @@ na
 na
 na
 bG
-bG
-na
-na
-na
-na
-na
-na
-na
-na
-na
 na
 na
 na
@@ -66307,6 +66456,29 @@ na
 na
 bG
 bG
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+bG
+bG
 bG
 bG
 bG
@@ -66325,14 +66497,14 @@ bG
 bG
 bG
 bG
-bG
-GU
 bG
 GU
 bG
 GU
-GU
-GU
+bG
+bG
+bG
+bG
 bG
 bG
 bG
@@ -66518,8 +66690,8 @@ na
 na
 na
 na
-bG
-bG
+na
+na
 na
 na
 na
@@ -66807,11 +66979,11 @@ na
 na
 na
 na
-bG
 na
 na
 na
-bG
+na
+na
 na
 na
 na
@@ -67063,12 +67235,12 @@ na
 na
 na
 na
-bG
-bG
 na
 na
-bG
-bG
+na
+na
+na
+na
 na
 na
 na
@@ -67294,17 +67466,11 @@ na
 na
 na
 na
-bG
-na
-na
-bG
-bG
 na
 na
 na
 bG
 bG
-na
 na
 na
 na
@@ -67314,18 +67480,24 @@ na
 na
 na
 na
-qd
-qd
-na
-na
-na
-na
-na
-na
-na
-na
-na
 bG
+bG
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
 na
 na
 na
@@ -67551,17 +67723,17 @@ na
 na
 na
 na
-bG
-na
-na
-bG
-bG
-na
 na
 na
 na
 bG
 bG
+na
+na
+na
+na
+bG
+bG
 bG
 bG
 bG
@@ -67570,10 +67742,10 @@ na
 na
 na
 na
-qd
-qd
-qd
-qd
+na
+na
+na
+na
 na
 na
 na
@@ -67808,38 +67980,38 @@ na
 na
 na
 na
-bG
-na
-na
-bG
-bG
-na
-na
-na
-na
-na
-na
-na
-na
-na
-na
-na
-na
-qd
-qd
-qd
-qd
-qd
-qd
-qd
-na
-na
 na
 na
 na
 bG
 bG
-bG
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
 na
 na
 bG
@@ -68065,11 +68237,13 @@ na
 na
 na
 na
+na
+na
+na
+bG
 bG
 na
 na
-bG
-bG
 na
 na
 na
@@ -68082,13 +68256,11 @@ na
 na
 na
 na
-qd
-qd
-qd
-qd
-qd
-qd
-qd
+na
+na
+na
+na
+na
 na
 na
 na
@@ -68331,20 +68503,20 @@ bG
 bG
 na
 na
-qd
-qd
-qd
 na
 na
-qd
 na
 na
-qd
-qd
-qd
-qd
-qd
-qd
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
 na
 na
 na
@@ -68590,17 +68762,17 @@ bG
 na
 na
 na
-qd
-qd
-qd
-qd
-qd
-qd
-qd
-qd
-qd
-qd
-qd
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
 na
 na
 na
@@ -68848,12 +69020,12 @@ bG
 na
 na
 na
-qd
-qd
-qd
-qd
-qd
-qd
+na
+na
+na
+na
+na
+na
 na
 na
 na
@@ -69109,7 +69281,7 @@ na
 na
 na
 na
-qd
+na
 na
 na
 na
@@ -70892,8 +71064,8 @@ na
 na
 na
 na
-qd
-qd
+na
+na
 na
 na
 na
@@ -71149,22 +71321,22 @@ na
 na
 na
 na
-qd
-qd
 na
 na
 na
-na
-bG
-bG
 na
 na
 na
 bG
-na
-na
-na
 bG
+na
+na
+na
+na
+na
+na
+na
+na
 na
 na
 na
@@ -71406,9 +71578,9 @@ na
 na
 na
 na
-qd
-qd
-qd
+na
+na
+na
 na
 na
 na
@@ -71416,7 +71588,7 @@ bG
 bG
 na
 na
-bG
+na
 na
 na
 na
@@ -71663,9 +71835,9 @@ na
 na
 na
 na
-qd
-qd
-qd
+na
+na
+na
 na
 na
 na
@@ -71921,33 +72093,6 @@ na
 na
 na
 na
-qd
-qd
-qd
-na
-na
-na
-bG
-na
-na
-na
-na
-na
-na
-na
-qd
-qd
-na
-na
-na
-na
-na
-na
-na
-na
-na
-na
-na
 na
 na
 na
@@ -71962,6 +72107,33 @@ na
 na
 na
 na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
 bG
 na
 na
@@ -71978,16 +72150,16 @@ bG
 bG
 bG
 bG
+bG
 GU
+bG
 GU
+bG
+bG
+bG
 GU
-GU
-GU
-GU
-GU
-GU
-GU
-GU
+bG
+bG
 bG
 bG
 bG
@@ -72178,30 +72350,6 @@ na
 na
 na
 na
-qd
-qd
-qd
-na
-na
-na
-bG
-na
-na
-bG
-na
-na
-na
-na
-na
-qd
-qd
-na
-na
-na
-na
-na
-na
-na
 na
 na
 na
@@ -72209,9 +72357,33 @@ na
 na
 na
 bG
-bG
-bG
-bG
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
 na
 na
 na
@@ -72436,23 +72608,23 @@ na
 na
 na
 na
-qd
-qd
+na
+na
 na
 na
 na
 bG
 na
 na
-bG
 na
 na
 na
 na
 na
-qd
-qd
-qd
+na
+na
+na
+na
 na
 na
 na
@@ -72693,24 +72865,24 @@ na
 na
 na
 na
-qd
-qd
-qd
+na
+na
+na
 na
 na
 bG
 na
 na
-bG
 na
 na
 na
 na
 na
 na
-qd
-qd
-qd
+na
+na
+na
+na
 na
 na
 na
@@ -72950,24 +73122,24 @@ na
 na
 na
 na
-qd
-qd
-qd
+na
+na
+na
 na
 na
 bG
 na
 na
-bG
 na
 na
 na
 na
 na
 na
-qd
-qd
-qd
+na
+na
+na
+na
 na
 na
 na
@@ -73207,9 +73379,6 @@ na
 na
 na
 na
-qd
-qd
-qd
 na
 na
 na
@@ -73222,10 +73391,13 @@ na
 na
 na
 na
-qd
-qd
-qd
-qd
+na
+na
+na
+na
+na
+na
+na
 na
 na
 na
@@ -73464,9 +73636,6 @@ na
 na
 na
 na
-qd
-qd
-qd
 na
 na
 na
@@ -73479,10 +73648,13 @@ na
 na
 na
 na
-qd
-qd
-qd
-qd
+na
+na
+na
+na
+na
+na
+na
 na
 na
 na
@@ -73512,11 +73684,11 @@ na
 na
 na
 na
-bG
 na
 na
 na
-bG
+na
+na
 na
 na
 na
@@ -73528,7 +73700,7 @@ GU
 na
 na
 na
-bG
+na
 na
 na
 na
@@ -73722,22 +73894,6 @@ na
 na
 na
 na
-qd
-qd
-na
-qd
-qd
-na
-na
-na
-na
-na
-na
-na
-na
-na
-na
-qd
 na
 na
 na
@@ -73753,16 +73909,22 @@ na
 na
 na
 na
-bG
 na
 na
 na
 na
-bG
-bG
 na
 na
-bG
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
 na
 na
 na
@@ -73770,10 +73932,20 @@ na
 na
 bG
 bG
+na
+na
 bG
-bG
-bG
-bG
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
+na
 na
 na
 na
@@ -73785,7 +73957,7 @@ GU
 na
 na
 na
-bG
+na
 na
 na
 na
@@ -73980,9 +74152,6 @@ na
 na
 na
 na
-qd
-qd
-qd
 na
 na
 na
@@ -74010,7 +74179,10 @@ na
 na
 na
 na
-bG
+na
+na
+na
+na
 na
 na
 na
@@ -74042,7 +74214,7 @@ GU
 na
 na
 na
-bG
+na
 na
 na
 na
@@ -74265,9 +74437,9 @@ na
 na
 na
 na
-bG
-bG
-bG
+na
+na
+na
 na
 na
 na
@@ -75053,7 +75225,7 @@ na
 bG
 na
 na
-bG
+na
 na
 na
 na
@@ -75310,12 +75482,12 @@ na
 na
 na
 na
-bG
-bG
-bG
-bG
-bG
-bG
+na
+na
+na
+na
+na
+na
 na
 na
 na
