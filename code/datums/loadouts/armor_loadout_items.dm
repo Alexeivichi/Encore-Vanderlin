@@ -103,13 +103,6 @@
 
 	triumph_cost_permanent = 25
 
-/datum/loadout_item/gatemaster_jacket
-	name = "Leather Greatcoat"
-	item_path = /obj/item/clothing/armor/leather/jacket/gatemaster_jacket/armored
-	ui_category = "Armor"
-
-	triumph_cost_permanent = 45
-
 /datum/loadout_item/silk_coat
 	name = "Padded Noble Silken Coat"
 	item_path = /obj/item/clothing/armor/leather/jacket/silk_coat
@@ -181,7 +174,7 @@
 	triumph_cost_permanent = 45
 
 /datum/loadout_item/fencerjacket
-	name = "Fencer's Jacket"
+	name = "Fencer Jacket"
 	item_path = /obj/item/clothing/armor/leather/fencer
 	ui_category = "Armor"
 

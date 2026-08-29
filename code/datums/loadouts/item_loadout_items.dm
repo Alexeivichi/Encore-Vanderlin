@@ -404,10 +404,3 @@
 	ui_category = "Held Item"
 
 	triumph_cost_permanent = 20
-
-/datum/loadout_item/iron_bardiche
-	name = "Iron Bardiche"
-	item_path = /obj/item/weapon/polearm/halberd/bardiche/woodcutter
-	ui_category = "Held Item"
-
-	triumph_cost_permanent = 40
