@@ -200,22 +200,23 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 <html lang="en">
 <head>
 	<style>
-		body {
-			background-color: #1a1a1a;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			height: 100%;
-			width: 100%;
+		html, body {
 			margin: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			background-color: #1a1a1a;
 			image-rendering: pixelated;
 		}
 		.ui-container {
-			position: relative;
+			position: absolute;
+			top: 0;
+			left: 0;
 			width: 272px;
 			height: 315px;
 			background-image: url('Charsheet_BG.1.png');
 			background-size: cover;
+			transform-origin: top left;
 			transform: scale(3);
 		}
 		.sprite { position: absolute; background-repeat: no-repeat; cursor: pointer; }
@@ -349,6 +350,21 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 				element.offsetHeight;
 			}
 		}
+
+		var BASE_W = 272;
+		var BASE_H = 315;
+
+		function fitCreator() {
+			var w = document.documentElement.clientWidth || window.innerWidth;
+			var h = document.documentElement.clientHeight || window.innerHeight;
+			var s = Math.min(w / BASE_W, h / BASE_H);
+			if (s < 1) s = 1;
+			var el = document.querySelector('.ui-container');
+			if (el) el.style.transform = 'scale(' + s + ')';
+		}
+
+		window.addEventListener('resize', fitCreator);
+		window.addEventListener('load', fitCreator);
 
 		function updateField(fieldId, value) {
 			var elem = document.getElementById(fieldId);
@@ -593,11 +609,15 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 "}
 
 	winshow(user, "stonekeep_prefwin", TRUE)
+	winshow(user, "stonekeep_prefwin.preferences_browser", TRUE)
 	winshow(user, "stonekeep_prefwin.character_preview_map", TRUE)
 	// This should really be a browser datum
-	user << browse(dat.Join(), "window=preferences_browser;size=816x950")
+	winset(user, "stonekeep_prefwin.character_preview_map", "zoom=4;letterbox=false;zoom-mode=normal")
+	user << browse(dat.Join(), "window=preferences_browser")
 	update_preview_icon()
 	// onclose(user, "stonekeep_prefwin", src)
+	if(user.client)
+		user.client.prefwin_resized()
 
 /datum/preferences/proc/update_menu_data(mob/user, list/fields_to_update)
 	if(!winexists(user, "preferences_browser"))
@@ -1156,6 +1176,21 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 			var/datum/browser/popup = new(user, "[read_preference(/datum/preference/text/real_name)]", "<center>[read_preference(/datum/preference/text/real_name)]</center>", width = 480, height = 700)
 			popup.set_content(dat.Join())
 			popup.open(use_onclose = FALSE)
+
+		if("fit_preview")
+			var/client/C = user.client
+			if(!C)
+				return
+			var/win_w = text2num(href_list["w"])
+			var/win_h = text2num(href_list["h"])
+			if(!win_w || !win_h)
+				return
+			var/s = min(win_w / 272, win_h / 315)
+			if(s < 1)
+				s = 1
+			winset(C, "stonekeep_prefwin.character_preview_map", \
+				"pos=[round(10 * s)],[round(52 * s)];size=[round(94 * s)]x[round(79 * s)];zoom=[max(1, round((94 * s) / 140))];letterbox=false")
+			return
 
 		if("input")
 
