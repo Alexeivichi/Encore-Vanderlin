@@ -14,6 +14,7 @@
 	var/maximum_capacity = 300 KILOGRAMS
 
 	var/obj/item/gear/wood/upgrade = null
+	var/mob/living/simple_animal/hitched_animal
 	facepull = FALSE
 	throw_range = 1
 	drag_slowdown = 0.8 // weeping and gnashing of teeth
@@ -22,6 +23,10 @@
 	. = ..()
 	if(upgrade)
 		. += span_notice("This cart has \an [upgrade] installed.")
+	if(hitched_animal)
+		. += span_notice("It is hitched to [hitched_animal]. Drag it onto the animal again to unhitch.")
+	else
+		. += span_notice("Drag this onto a tamed saiga to hitch it.")
 
 /obj/structure/handcart/Initialize(mapload)
 	if(mapload)		// if closed, any item at the crate's loc is put in the contents
@@ -57,6 +62,12 @@
 		return
 	if(!Adjacent(user) || !user.Adjacent(AM))
 		return
+	if(istype(AM, /mob/living/simple_animal))
+		var/mob/living/simple_animal/animal = AM
+		if(animal.can_hitch)
+			var/datum/component/cart_hitch/hitch = animal.GetComponent(/datum/component/cart_hitch)
+			if(hitch && hitch.handle_hitch_interaction(user, src))
+				return TRUE
 	if(user == AM) //try to climb into or onto it
 		if(user.body_position == LYING_DOWN)
 			if(!do_after(user, 2 SECONDS, src))

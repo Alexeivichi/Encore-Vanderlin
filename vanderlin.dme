@@ -1114,6 +1114,7 @@
 #include "code\datums\components\butchering.dm"
 #include "code\datums\components\callout.dm"
 #include "code\datums\components\caltrop.dm"
+#include "code\datums\components\cart_hitch.dm"
 #include "code\datums\components\chimeric_organ.dm"
 #include "code\datums\components\cleaner.dm"
 #include "code\datums\components\combat_noises.dm"

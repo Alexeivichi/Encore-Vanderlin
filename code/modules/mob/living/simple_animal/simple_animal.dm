@@ -161,6 +161,7 @@ GLOBAL_VAR_INIT(farm_animals, FALSE)
 	var/happy_funtime_mob = FALSE
 
 	var/can_saddle = FALSE
+	var/can_hitch = FALSE
 	var/obj/item/ssaddle
 	// A flat percentage bonus to our ability to detect sneaking people only. Use in lieu of giving mobs huge GET_MOB_ATTRIBUTE_VALUE(src, STAT_PERCEPTION) bonuses if you want them to be observant.
 	var/simple_detect_bonus = 0
@@ -1052,3 +1053,10 @@ GLOBAL_VAR_INIT(farm_animals, FALSE)
 	if(binded)
 		return FALSE
 	. = ..()
+
+/mob/living/simple_animal/MouseDrop_T(atom/dropping, mob/living/user)
+	if(can_hitch && istype(dropping, /obj/structure/handcart))
+		var/datum/component/cart_hitch/hitch = GetComponent(/datum/component/cart_hitch)
+		if(hitch && hitch.handle_hitch_interaction(user, dropping))
+			return
+	return ..()
