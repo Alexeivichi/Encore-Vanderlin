@@ -209,3 +209,6 @@
 	var/mob/living/simple_animal/hostile/hostile_animal = animal
 	if(istype(hostile_animal))
 		riding.vehicle_move_delay = hostile_animal.move_to_delay
+
+#undef CART_HITCH_TRAIT_SOURCE
+#undef CART_HITCH_SPEED_ID
