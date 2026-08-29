@@ -40,3 +40,21 @@
 		/datum/sprite_accessory/wings/wide/dragon_alt2,
 		/datum/sprite_accessory/wings/huge/dragon,
 	)
+
+/datum/customizer/organ/wings/demihuman
+	allows_disabling = TRUE
+	default_disabled = TRUE
+	customizer_choices = list(/datum/customizer_choice/organ/wings/demihuman)
+
+/datum/customizer_choice/organ/wings/demihuman
+	name = "Demihuman Wings"
+	organ_type = /obj/item/organ/wings
+	sprite_accessories = list(
+		/datum/sprite_accessory/wings/bat,
+		/datum/sprite_accessory/wings/wide/succubus,
+		/datum/sprite_accessory/wings/wide/dragon_alt1,
+		/datum/sprite_accessory/wings/wide/dragon_alt2,
+		/datum/sprite_accessory/wings/huge/dragon,
+		/datum/sprite_accessory/wings/large/harpyswept,
+		/datum/sprite_accessory/wings/large/gargoyle,
+	)

@@ -11,7 +11,7 @@
 		if(FORM_ARCANE)
 			return list("thrice-warded", "Its script folds in on itself in ways the eye struggles to follow.")
 		if(FORM_DEATH)
-			return list("grave-touched", "A faint chill of the grave lingers about its pages.")
+			return list("decay-touched", "A faint trace of entropic energies linger about its pages.")
 		if(FORM_LIFE)
 			return list("verdant", "Its margins are traced with fine, living green filigree.")
 		if(FORM_AIR)

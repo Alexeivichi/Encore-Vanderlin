@@ -315,9 +315,9 @@
 			if(C.devotion >= C.max_devotion)
 				to_chat(src, "<font color='red'>I have reached the limit of my devotion...</font>")
 				break
-			var/devotion_multiplier = 1
+			var/devotion_multiplier = 10
 			if(mind)
-				devotion_multiplier += (GET_MOB_SKILL_VALUE_OLD(src, /datum/attribute/skill/magic/holy) / 4)
+				devotion_multiplier += (GET_MOB_SKILL_VALUE_OLD(src, /datum/attribute/skill/magic/holy))
 			var/amount = floor(C.prayer_effectiveness * devotion_multiplier)
 			C.update_devotion(amount)
 			C.update_progression(amount)

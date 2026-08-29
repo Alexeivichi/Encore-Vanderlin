@@ -89,6 +89,7 @@
 		ORGAN_SLOT_STOMACH = /obj/item/organ/stomach,
 		ORGAN_SLOT_APPENDIX = /obj/item/organ/appendix,
 		ORGAN_SLOT_GUTS = /obj/item/organ/guts,
+		ORGAN_SLOT_TAIL = /obj/item/organ/tail,
 	)
 	customizers = list(
 		/datum/customizer/organ/eyes/humanoid,
@@ -96,6 +97,7 @@
 		/datum/customizer/bodypart_feature/hair/facial/humanoid/rakshari,
 		/datum/customizer/bodypart_feature/accessory/rakshari,
 		/datum/customizer/bodypart_feature/face_detail,
+		/datum/customizer/organ/tail/demihuman,
 	)
 	COOLDOWN_DECLARE(cat_meow_cooldown)
 

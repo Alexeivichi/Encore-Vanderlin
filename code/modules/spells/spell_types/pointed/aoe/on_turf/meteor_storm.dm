@@ -9,7 +9,7 @@
 	required_technique = TECHNIQUE_DESTRUCTION
 	required_level = 4
 
-	charge_time = 25 SECONDS
+	charge_time = CHARGETIME_HEAVY
 	charge_drain = 2
 	charge_slowdown = 1.3
 	cooldown_time = 3 MINUTES

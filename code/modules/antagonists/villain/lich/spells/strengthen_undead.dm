@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/strengthen_undead
 	name = "Repair Undead"
-	desc = "Repair undead or smite the living."
+	desc = "Repair undead or smite the living. (Heretical)"
 	button_icon_state = "raiseskele"
 	sound = 'sound/magic/whiteflame.ogg'
 

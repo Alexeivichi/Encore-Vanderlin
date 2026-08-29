@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/projectile/blood_bolt
 	name = "Blood Bolt"
-	desc = "Launch a bolt of blood infused with lightning."
+	desc = "Launch a bolt of blood infused with lightning. (Heretical)"
 	button_icon_state = "bloodlightning"
 	sound = 'sound/magic/vlightning.ogg'
 
