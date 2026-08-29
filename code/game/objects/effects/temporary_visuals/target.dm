@@ -1,8 +1,8 @@
 // I don't like this but we have it so
 /// Visual effect that does something once the duration is finished
 /obj/effect/temp_visual/target
-	icon = 'icons/effects/effects.dmi'
-	icon_state = "trap"
+	icon = 'icons/effects/telegraph_effects.dmi'
+	icon_state = "telegraph"
 	layer = BELOW_MOB_LAYER
 	plane = GAME_PLANE
 	light_outer_range = 2

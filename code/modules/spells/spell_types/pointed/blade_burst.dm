@@ -40,8 +40,8 @@
 		to_chat(L, span_userdanger("I'm cut by arcyne force!"))
 
 /obj/effect/temp_visual/trap
-	icon = 'icons/effects/effects.dmi'
-	icon_state = "trap"
+	icon = 'icons/effects/telegraph_effects.dmi'
+	icon_state = "telegraph"
 	light_outer_range =  2
 	duration = 7
 	plane = GAME_PLANE_UPPER

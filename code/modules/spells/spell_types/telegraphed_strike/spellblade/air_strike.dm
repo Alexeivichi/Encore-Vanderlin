@@ -218,8 +218,8 @@
 	return turfs
 
 /obj/effect/temp_visual/air_strike_telegraph
-	icon = 'icons/effects/effects.dmi'
-	icon_state = "trap"
+	icon = 'icons/effects/telegraph_effects.dmi'
+	icon_state = "telegraph"
 	light_outer_range = 1
 	duration = 3
 

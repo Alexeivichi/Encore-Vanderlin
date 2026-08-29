@@ -78,7 +78,7 @@
 	return FALSE
 
 /obj/effect/temp_visual/trap_wall
-	icon = 'icons/effects/effects.dmi'
-	icon_state = "trap"
+	icon = 'icons/effects/telegraph_effects.dmi'
+	icon_state = "telegraph"
 	light_outer_range = 2
 	duration = 1 SECONDS
