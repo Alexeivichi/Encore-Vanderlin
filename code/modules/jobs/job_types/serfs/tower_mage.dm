@@ -103,7 +103,7 @@
 		/obj/item/storage/keyring/mageapprentice = 1
 	)
 
-/datum/job/magician/on_roundstart(mob/living/spawned, client/player_client)
+/datum/job/tower_mage/on_roundstart(mob/living/spawned, client/player_client)
 	. = ..()
 
 	var/static/list/selectablehat = list(
