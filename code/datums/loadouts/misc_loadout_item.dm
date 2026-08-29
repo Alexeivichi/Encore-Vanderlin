@@ -56,9 +56,8 @@
 
 /datum/loadout_item/royal_sleeves
 	name = "Royal Sleeves"
-	item_path = /obj/item/clothing/sleeves/royal
+	item_path = /obj/item/clothing/wrists/royalsleeves
 	ui_category = "Miscellaneous"
-
 	triumph_cost_permanent = 35
 	loadout_flags = LOADOUT_FLAG_NO_RENT
 
