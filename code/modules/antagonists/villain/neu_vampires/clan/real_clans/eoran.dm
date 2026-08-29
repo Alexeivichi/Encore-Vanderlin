@@ -4,6 +4,8 @@
 		/datum/action/cooldown/spell/enslave_mortal,
 		/datum/action/cooldown/spell/undirected/mansion_portal,
 		/datum/action/cooldown/spell/undirected/shapeshift/frog,
+		/datum/action/cooldown/spell/undirected/shapeshift/bat,
+		/datum/action/cooldown/spell/undirected/shapeshift/mist,
 		/datum/action/cooldown/spell/charm/vampire,
 		/datum/action/cooldown/spell/undirected/list_target/encode_thoughts/vampire,
 		/datum/action/cooldown/spell/undirected/conjure_item/vamp_sword,
