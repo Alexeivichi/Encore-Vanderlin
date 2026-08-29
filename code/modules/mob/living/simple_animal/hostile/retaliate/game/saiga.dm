@@ -102,6 +102,7 @@
 			list(/mob/living/simple_animal/hostile/retaliate/saiga/saigakid = 90, /mob/living/simple_animal/hostile/retaliate/saiga/saigakid/boy = 10),\
 			CALLBACK(src, PROC_REF(after_birth)),\
 		)
+	return .
 
 /mob/living/simple_animal/hostile/retaliate/saiga/update_overlays()
 	. = ..()
@@ -258,6 +259,7 @@
 		can_breed_with = list(/mob/living/simple_animal/hostile/retaliate/saiga, /mob/living/simple_animal/hostile/retaliate/saigabuck),\
 		breed_timer = 2 MINUTES\
 	)
+	return .
 
 /mob/living/simple_animal/hostile/retaliate/saigabuck/update_overlays()
 	. = ..()
