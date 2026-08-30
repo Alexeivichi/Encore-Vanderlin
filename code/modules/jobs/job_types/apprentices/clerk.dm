@@ -31,10 +31,10 @@
 
 /datum/job/clerk
 	title = JOB_CLERK
-	tutorial = "You work under the greedy eyes of the Majordomo who has shackled you to the drudgery of employment. \
+	tutorial = "You work under the employ of the Etgard Trading Guild and, by consequence, its Majordomo. \
 	Tasked with handling customers, organizing shelves, and taking inventory, your work is mind-numbing and repetitive. \
 	Despite its mundanity however, it keeps a roof over your head and teaches you the art of mercantilism. \
-	With enough time, you will become more than a glorified clerk and open a business that rivals all others."
+	With enough time, you will become more than a clerk and open a business that rivals all others."
 	department_flag = APPRENTICES
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	factions = list(FACTION_TOWN)

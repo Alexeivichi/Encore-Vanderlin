@@ -15,7 +15,9 @@
 
 /datum/job/majordomo
 	title = JOB_MAJORDOMO
-	tutorial = "The hopelessly-wealthy steward of the Etgard Treasury, and sole protector of the Divine Hoard. Stringently subservient to the Shirleighs, the royals who run Domotan Island."
+	tutorial = "The hopelessly-wealthy steward of the Etgard Treasury, and overseer of the Trading Guild operated from its very walls. \
+	You are a savant of trade, and work hand-in-hand with your hosts to be among most successful business magnates in the Sea of Fire. \
+	Your stringent loyalty to the Shirleighs has made you fabulously rich, and it is by your hand that trade flows freely to this lonesome isle."
 	department_flag = NOBLEMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_MAJORDOMO

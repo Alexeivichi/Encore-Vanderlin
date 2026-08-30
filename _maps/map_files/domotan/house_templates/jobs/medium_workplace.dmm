@@ -290,8 +290,7 @@
 /area/template_noop)
 "yP" = (
 /obj/structure/door{
-	name = "Maker's Quarter";
-	lockid = "workplace1"
+	name = "Maker's Quarter"
 	},
 /turf/open/floor/ruinedwood/darker,
 /area/template_noop)
@@ -316,8 +315,7 @@
 /area/template_noop)
 "Cq" = (
 /obj/structure/door{
-	name = "Maker's Quarter";
-	lockid = "workplace1"
+	name = "Maker's Quarter"
 	},
 /turf/open/floor/tile/brick,
 /area/template_noop)
@@ -392,8 +390,7 @@
 /area/template_noop)
 "Qk" = (
 /obj/structure/door{
-	name = "Maker's Quarter";
-	lockid = "workplace1"
+	name = "Maker's Quarter"
 	},
 /turf/open/floor/blocks,
 /area/template_noop)
@@ -431,8 +428,7 @@
 /area/template_noop)
 "TY" = (
 /obj/structure/door/window{
-	name = "Maker's Quarter";
-	lockid = "workplace1"
+	name = "Maker's Quarter"
 	},
 /turf/open/floor/tile/brick,
 /area/template_noop)

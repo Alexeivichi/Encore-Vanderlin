@@ -1812,6 +1812,11 @@
 /obj/item/reagent_containers/glass/bucket/wooden,
 /turf/open/floor/concrete,
 /area/indoors/town/cell)
+"bou" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/majordomo,
+/turf/open/floor/church/pale,
+/area/indoors/town/steward)
 "boJ" = (
 /obj/machinery/light/fueled/smelter,
 /turf/open/floor/metal/alt,
@@ -5616,6 +5621,10 @@
 /obj/structure/chair/stool,
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/keep/phys)
+"egR" = (
+/obj/effect/landmark/start/majordomo,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/steward)
 "ehg" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 8
@@ -20298,6 +20307,10 @@
 /obj/structure/closet/crate/chest/neu_iron,
 /turf/open/floor/ruinedwood,
 /area/outdoors/town/neighborhood/west)
+"ohn" = (
+/obj/effect/landmark/start/clerk,
+/turf/open/floor/church/pale,
+/area/indoors/town/steward)
 "ohq" = (
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/cobble,
@@ -26582,6 +26595,13 @@
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/ruinedwood/platform,
 /area/indoors/town/tavern/saiga)
+"sNM" = (
+/obj/effect/decal/shadow_floor{
+	dir = 8
+	},
+/obj/effect/landmark/start/clerk,
+/turf/open/floor/church/pale,
+/area/indoors/town/steward)
 "sNY" = (
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-n"
@@ -32507,6 +32527,12 @@
 "wYG" = (
 /turf/open/water/ocean,
 /area/under/town/basement/smugglers_tunnels)
+"wYU" = (
+/obj/effect/decal/shadow_floor,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/clerk,
+/turf/open/floor/church/pale,
+/area/indoors/town/steward)
 "wZh" = (
 /obj/structure/bed,
 /obj/effect/landmark/start/orthodoxist,
@@ -68211,7 +68237,7 @@ kvK
 hcb
 abf
 abf
-pQT
+egR
 wHP
 sol
 sol
@@ -68869,7 +68895,7 @@ kvK
 kvK
 nbp
 igD
-oxX
+bou
 oxX
 igD
 qhC
@@ -69396,7 +69422,7 @@ skk
 skk
 skk
 dwq
-kbn
+sNM
 oxX
 uVo
 qOj
@@ -69928,7 +69954,7 @@ lma
 vKU
 wSs
 dJZ
-oPW
+wYU
 oxX
 hvK
 xNq
@@ -70056,7 +70082,7 @@ oHZ
 pOd
 nFu
 fxl
-igD
+ohn
 igD
 lma
 lma
