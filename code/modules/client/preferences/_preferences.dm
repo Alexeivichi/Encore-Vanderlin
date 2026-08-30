@@ -200,22 +200,23 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 <html lang="en">
 <head>
 	<style>
-		body {
-			background-color: #1a1a1a;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			height: 100%;
-			width: 100%;
+		html, body {
 			margin: 0;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			background-color: #1a1a1a;
 			image-rendering: pixelated;
 		}
 		.ui-container {
-			position: relative;
+			position: absolute;
+			top: 0;
+			left: 0;
 			width: 272px;
 			height: 315px;
 			background-image: url('Charsheet_BG.1.png');
 			background-size: cover;
+			transform-origin: top left;
 			transform: scale(3);
 		}
 		.sprite { position: absolute; background-repeat: no-repeat; cursor: pointer; }
@@ -349,6 +350,21 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 				element.offsetHeight;
 			}
 		}
+
+		var BASE_W = 272;
+		var BASE_H = 315;
+
+		function fitCreator() {
+			var w = document.documentElement.clientWidth || window.innerWidth;
+			var h = document.documentElement.clientHeight || window.innerHeight;
+			var s = Math.min(w / BASE_W, h / BASE_H);
+			if (s < 1) s = 1;
+			var el = document.querySelector('.ui-container');
+			if (el) el.style.transform = 'scale(' + s + ')';
+		}
+
+		window.addEventListener('resize', fitCreator);
+		window.addEventListener('load', fitCreator);
 
 		function updateField(fieldId, value) {
 			var elem = document.getElementById(fieldId);
@@ -593,11 +609,11 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 "}
 
 	winshow(user, "stonekeep_prefwin", TRUE)
+	winshow(user, "stonekeep_prefwin.preferences_browser", TRUE)
 	winshow(user, "stonekeep_prefwin.character_preview_map", TRUE)
-	// This should really be a browser datum
-	user << browse(dat.Join(), "window=preferences_browser;size=816x950")
+	user << browse(dat.Join(), "window=preferences_browser")
 	update_preview_icon()
-	// onclose(user, "stonekeep_prefwin", src)
+	user.client.fit_prefwin_preview()
 
 /datum/preferences/proc/update_menu_data(mob/user, list/fields_to_update)
 	if(!winexists(user, "preferences_browser"))

@@ -1314,13 +1314,37 @@ GLOBAL_LIST_EMPTY(respawncounts)
 		O.dir = D
 		switch(pos)
 			if(1)
-				O.screen_loc = "character_preview_map:2:4,4:-36"
+				O.screen_loc = "character_preview_map:1,1"
 			if(2)
-				O.screen_loc = "character_preview_map:0:4,4:-36"
+				O.screen_loc = "character_preview_map:0,1"
 			if(3)
-				O.screen_loc = "character_preview_map:2:4,0:26"
+				O.screen_loc = "character_preview_map:1,0"
 			if(4)
-				O.screen_loc = "character_preview_map:0:4,0:26"
+				O.screen_loc = "character_preview_map:0,0"
+
+/client/proc/fit_prefwin_preview()
+	if(!winexists(src, "stonekeep_prefwin"))
+		return
+	var/list/wh = splittext(winget(src, "stonekeep_prefwin", "size"), "x")
+	if(length(wh) < 2)
+		return
+	var/win_w = text2num(wh[1])
+	var/win_h = text2num(wh[2])
+	if(!win_w || !win_h)
+		return
+	var/s = min(win_w / 272, win_h / 315)
+	if(s < 1)
+		s = 1
+
+	var/map_id = "stonekeep_prefwin.character_preview_map"
+	winset(src, map_id, "pos=[round(10 * s)],[round(52 * s)];size=[round(94 * s)]x[round(79 * s)];letterbox=true")
+	winset(src, map_id, "zoom-mode=normal;zoom=4")
+
+/client/verb/prefwin_resized()
+	set name = ".prefwin_resized"
+	set hidden = TRUE
+	set instant = TRUE
+	fit_prefwin_preview()
 
 /client/proc/clear_character_previews()
 	for(var/index in char_render_holders) // associative list, have to index

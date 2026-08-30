@@ -354,30 +354,28 @@ window "stonekeep_prefwin"
 		type = MAIN
 		pos = 291,0
 		size = 816x950
-		anchor1 = -1,-1
-		anchor2 = -1,-1
-		background-color = none
 		is-visible = false
 		saved-params = "pos"
 		statusbar = false
 		can-resize = true
+		on-size = ".prefwin_resized"
 		icon = 'icons\\tg_32.png'
 	elem "preferences_browser"
 		type = BROWSER
 		pos = 0,0
 		size = 816x950
 		anchor1 = 0,0
-		anchor2 = 75,100
+		anchor2 = 100,100
 		background-color = none
 		saved-params = ""
-		zoom: 1
 	elem "character_preview_map"
 		type = MAP
 		pos = 30,155
 		size = 282x237
-		anchor2 = 35,50
+		anchor1 = -1,-1
+		anchor2 = -1,-1
 		right-click = true
-		saved-params = "zoom;letterbox;zoom-mode"
+		saved-params = ""
 
 window "native_say"
 	elem "native_say"
