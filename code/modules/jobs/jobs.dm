@@ -82,6 +82,7 @@ GLOBAL_LIST_INIT(serf_positions, list(
 	/datum/job/feldsher::title,
 	/datum/job/apothecary::title,
 	/datum/job/tomb_warden::title,
+	/datum/job/yeoman::title,
 	/datum/job/butler::title,
 	/datum/job/persistence/carpenter::title,
 	/datum/job/persistence/stonemason::title,
@@ -114,7 +115,7 @@ GLOBAL_LIST_INIT(apprentices_positions, list(
 	/datum/job/servant::title,
 	/datum/job/tapster::title,
 	/datum/job/clinicapprentice::title,
-	))
+))
 GLOBAL_PROTECT(apprentices_positions)
 
 GLOBAL_LIST_INIT(youngfolk_positions, list(
