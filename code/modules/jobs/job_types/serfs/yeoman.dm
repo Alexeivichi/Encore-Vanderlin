@@ -14,20 +14,12 @@
 	advclass_cat_rolls = list(CTAG_YEOMAN = 20)
 	cmode_music = 'sound/music/cmode/towner/CombatTowner.ogg'
 	job_bitflag = BITFLAG_CONSTRUCTOR
-
-
+	give_bank_account = 200//To rent their workplace at least once a round
 
 /datum/job/advclass/yeoman
 	factions = list(FACTION_TOWN)
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_races = RACES_PLAYER_ALL
-
-
-
-
-
-
-
 
 /datum/job/advclass/yeoman/handmason
 	title = "Handmason"
@@ -36,7 +28,6 @@
 	category_tags = list(CTAG_YEOMAN)
 	attribute_sheet = /datum/attribute_holder/sheet/job/yeoman/handmason
 	book_type = /obj/item/recipe_book/masonry
-	give_bank_account = 15
 
 /datum/outfit/yeoman/handmason
 	name = "Handmason"
@@ -91,7 +82,6 @@
 	outfit = /datum/outfit/yeoman/tinker
 	category_tags = list(CTAG_YEOMAN)
 	attribute_sheet = /datum/attribute_holder/sheet/job/yeoman/tinker
-	give_bank_account = 30
 	book_type = /obj/item/recipe_book/engineering
 	traits = list(
 		TRAIT_SEEPRICES
@@ -217,7 +207,6 @@
 	outfit = /datum/outfit/yeoman/homesteader
 	category_tags = list(CTAG_YEOMAN)
 	attribute_sheet = /datum/attribute_holder/sheet/job/yeoman/homesteader
-	give_bank_account = 15
 	book_type = /obj/item/recipe_book/cooking
 	traits = list(
 		TRAIT_DEADNOSE,
