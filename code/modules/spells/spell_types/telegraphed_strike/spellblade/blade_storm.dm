@@ -232,8 +232,8 @@
 	return BULLET_ACT_BLOCK
 
 /obj/effect/temp_visual/blade_storm_telegraph
-	icon = 'icons/effects/effects.dmi'
-	icon_state = "trap"
+	icon = 'icons/effects/telegraph_effects.dmi'
+	icon_state = "telegraph"
 	light_outer_range = 1
 	duration = 8
 

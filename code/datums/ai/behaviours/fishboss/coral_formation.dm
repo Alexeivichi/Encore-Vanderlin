@@ -1,7 +1,7 @@
 // Coral formation - can be used by the boss as cover or to block player movement
 /obj/effect/temp_visual/coral_spawn
-	icon = 'icons/effects/effects.dmi'
-	icon_state = "trap"
+	icon = 'icons/effects/telegraph_effects.dmi'
+	icon_state = "telegraph"
 	layer = BELOW_MOB_LAYER
 	plane = GAME_PLANE
 	light_outer_range = 2

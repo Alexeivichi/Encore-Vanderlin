@@ -343,8 +343,8 @@
 	light_outer_range = 3
 
 /obj/effect/temp_visual/target/bombard_preview
-	icon = 'icons/effects/effects.dmi'
-	icon_state = "trap"
+	icon = 'icons/effects/telegraph_effects.dmi'
+	icon_state = "telegraph"
 	layer = BELOW_MOB_LAYER
 	light_outer_range = 2
 	duration = 0.5 SECONDS
