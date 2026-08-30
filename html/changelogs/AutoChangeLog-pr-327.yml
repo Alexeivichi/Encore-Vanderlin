@@ -1,0 +1,8 @@
+author: "Alexeivichi"
+delete-after: True
+changes:
+  - rscadd: "leather raincloak to cloaks loadout"
+  - rscadd: "weapons to held-item loadout"
+  - rscadd: "medium and light gambeson armors to loadout"
+  - rscadd: "more pants to pants loadout"
+  - rscadd: "few boots to shoes loadout\n:cl:\n## Pre-Merge Checklist\n<!-- Don't bother filling these in while creating your Pull Request, just click the checkboxes after the Pull Request is opened and you are redirected to the page. -->\n- [ ✓ ] You tested this on a local server.\n- [ ✓ ] This code did not runtime during testing.\n- [ ✓ ] You documented all of your changes.\n<!-- Neither the compiler nor workflow checks are perfect at detecting runtimes and errors. It is important to test your code/feature/fix locally. -->"
