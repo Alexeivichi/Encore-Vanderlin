@@ -54,6 +54,7 @@
 	can_buckle = TRUE
 	buckle_lying = FALSE
 	can_saddle = TRUE
+	can_hitch = TRUE
 	remains_type = /obj/effect/decal/remains/saiga
 
 	ai_controller = /datum/ai_controller/saiga
@@ -89,6 +90,7 @@
 	AddComponent(/datum/component/obeys_commands, pet_commands) // here due to signal overridings from pet commands // due to signal overridings from pet commands
 	. = ..()
 	AddElement(/datum/element/ai_retaliate)
+	AddComponent(/datum/component/cart_hitch)
 
 	ADD_TRAIT(src, TRAIT_IGNOREDAMAGESLOWDOWN, TRAIT_GENERIC)
 
@@ -100,6 +102,7 @@
 			list(/mob/living/simple_animal/hostile/retaliate/saiga/saigakid = 90, /mob/living/simple_animal/hostile/retaliate/saiga/saigakid/boy = 10),\
 			CALLBACK(src, PROC_REF(after_birth)),\
 		)
+	return .
 
 /mob/living/simple_animal/hostile/retaliate/saiga/update_overlays()
 	. = ..()
@@ -217,6 +220,7 @@
 	can_buckle = TRUE
 	buckle_lying = 0
 	can_saddle = TRUE
+	can_hitch = TRUE
 	tame_chance = 25
 	bonus_tame_chance = 15
 	remains_type = /obj/effect/decal/remains/saiga
@@ -246,6 +250,7 @@
 	AddComponent(/datum/component/obeys_commands, pet_commands) // here due to signal overridings from pet commands // due to signal overridings from pet commands
 	. = ..()
 	AddElement(/datum/element/ai_retaliate)
+	AddComponent(/datum/component/cart_hitch)
 
 	ADD_TRAIT(src, TRAIT_IGNOREDAMAGESLOWDOWN, TRAIT_GENERIC)
 
@@ -254,6 +259,7 @@
 		can_breed_with = list(/mob/living/simple_animal/hostile/retaliate/saiga, /mob/living/simple_animal/hostile/retaliate/saigabuck),\
 		breed_timer = 2 MINUTES\
 	)
+	return .
 
 /mob/living/simple_animal/hostile/retaliate/saigabuck/update_overlays()
 	. = ..()
@@ -350,6 +356,7 @@
 	adult_growth = /mob/living/simple_animal/hostile/retaliate/saiga
 	start_tamed = TRUE
 	can_buckle = FALSE
+	can_hitch = FALSE
 
 	can_breed = FALSE
 
