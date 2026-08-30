@@ -3,6 +3,7 @@
 
 /datum/attribute_holder/sheet/job/species/rakshari
 	raw_attribute_list = list(
+		/datum/attribute/skill/misc/sneaking = 10,
 		STAT_STRENGTH = -2,
 		STAT_PERCEPTION = 2,
 		STAT_CONSTITUTION = -2,
@@ -19,7 +20,7 @@
 	Rakshari are a humanoid race of felines, known for their sneaky nature and shrewd business sense. \
 	They are quite similar to Lupians having formed a kinship with Humanity and can be found in many \
 	Human settlements, however they are far more prone to independence and a nomadic lifestyle.<br>\
-	+2 Perception, +2 Speed, -2 Strength, -2 Constitution."
+	+2 Perception, +2 Speed, -2 Strength, -2 Constitution, Darkvision, Scent-Sense, Extendable Claws, +1 skill tier Sneaking."
 
 	use_skintones = TRUE
 	default_color = "FFFFFF"
@@ -27,7 +28,7 @@
 	possible_ages = NORMAL_AGES_LIST
 
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, OLDGREY, CUSCOLORS)
-	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_KITTEN_MOM)
+	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_KITTEN_MOM, TRAIT_DARKVISION)
 
 	statsheet_male = /datum/attribute_holder/sheet/job/species/rakshari
 
@@ -106,9 +107,10 @@
 	RegisterSignal(C, COMSIG_MOB_SAY, PROC_REF(handle_speech))
 	C.grant_language(/datum/language/common)
 	C.grant_language(/datum/language/qadirid)
+	C.add_spell(/datum/action/innate/extend_claws)
 	add_verb(C, /mob/living/carbon/human/species/rakshari/verb/emote_meow)
 	add_verb(C, /mob/living/carbon/human/species/rakshari/verb/emote_purr)
-	var/datum/action/cooldown/keen_nose/action = new(C)
+	var/datum/action/cooldown/keen_nose_rakshari/action = new(C)
 	action.Grant(C)
 	to_chat(C, "<span class='info'>I can speak Qadirid with ,z before my speech.</span>")
 
@@ -135,7 +137,7 @@
 /datum/species/rakshari/on_species_loss(mob/living/carbon/C)
 	. = ..()
 	UnregisterSignal(C, COMSIG_MOB_SAY)
-	var/datum/action/cooldown/keen_nose/action = locate() in C.actions
+	var/datum/action/cooldown/keen_nose_rakshari/action = locate() in C.actions
 	if(action)
 		qdel(action)
 
@@ -175,13 +177,13 @@
 	"orange - flame" = "b24c2e",
 	))
 
-/datum/action/cooldown/keen_nose
+/datum/action/cooldown/keen_nose_rakshari
 	name = "Sniff for scents"
 	desc = "Smell the air to detect living beings at a distance."
 	button_icon_state = "shieldsparkles"
 	cooldown_time = 30 SECONDS
 
-/datum/action/cooldown/keen_nose/proc/get_smell_message(mob/living/target)
+/datum/action/cooldown/keen_nose_rakshari/proc/get_smell_message(mob/living/target)
 	if(istype(target, /mob/living/carbon/human))
 		var/mob/living/carbon/human/H = target
 		var/mob/living/carbon/human/U = owner
@@ -213,7 +215,7 @@
 
 		return "You smell something"
 
-/datum/action/cooldown/keen_nose/Activate(atom/target)
+/datum/action/cooldown/keen_nose_rakshari/Activate(atom/target)
 	. = ..(target)
 	if(!owner)
 		return
@@ -228,7 +230,7 @@
 	addtimer(CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(playsound), owner, 'sound/items/sniff.ogg', 70, TRUE), 0.5 SECONDS)
 	addtimer(CALLBACK(src, PROC_REF(finish_sniff), smelled_targets), 1.5 SECONDS)
 
-/datum/action/cooldown/keen_nose/proc/finish_sniff(list/smelled_targets)
+/datum/action/cooldown/keen_nose_rakshari/proc/finish_sniff(list/smelled_targets)
 	if(QDELETED(owner) || QDELETED(src))
 		return
 
@@ -249,3 +251,4 @@
 		var/message = get_smell_message(smell_target)
 		if(message)
 			to_chat(owner, span_notice("[message][distance_phrase]!"))
+

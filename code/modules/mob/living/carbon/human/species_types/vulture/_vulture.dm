@@ -25,7 +25,7 @@
 	many visual similarities with the birds of prey that are their namesake. With most of their history \
 	lost to the blaze, these mysterious avians are oft mistrusted and misunderstood, and have attained \
 	a reputation as scavengers; not least of all for their capacity to feed on carrion.<br>\
-	+1 Perception, +2 Intelligence, -1 Constitution, -1 Speed, Dead Nose, Inhuman Digestion"
+	+1 Perception, +2 Intelligence, -1 Constitution, -1 Speed, Dead Nose, Inhuman Digestion, +1 skill tier Medicine."
 
 	possible_ages = NORMAL_AGES_LIST
 
@@ -102,7 +102,9 @@
 		/datum/body_marking/tonage,
 	)
 
+/*
 	COOLDOWN_DECLARE(medicator_cough_cooldown)
+*/
 
 /datum/species/medicator/on_species_gain(mob/living/carbon/C, datum/species/old_species, datum/preferences/pref_load)
 	. = ..()
@@ -113,6 +115,7 @@
 	. = ..()
 	UnregisterSignal(C, COMSIG_MOB_SAY)
 
+/*
 /datum/species/medicator/spec_life(mob/living/carbon/human/H)
 	. = ..()
 	if(prob(0.1))
@@ -124,6 +127,7 @@
 		H.emote(pick(emotes), forced = TRUE)
 
 		COOLDOWN_START(src, medicator_cough_cooldown, 15 MINUTES)
+*/
 
 /datum/species/medicator/check_roundstart_eligible()
 	return TRUE

@@ -46,7 +46,7 @@
 	treasure-eating tendencies in check. They are especially frowned upon on Domotan Island, especially in \
 	the new era of treasure hunting. A Knoblit who covets the treasure of their neighbour is liable to \
 	disappear.<br> \
-	+2 Speed, +1 Endurance, -2 Strength, -2 Constitution, Tiny, Darkvision"
+	+2 Speed, +1 Endurance, -2 Strength, -2 Constitution, Tiny, Darkvision, Ability to eat dirt, stone, coins and gems."
 
 	skin_tone_wording = "Scale Color"
 	default_color = "FFFFFF"
@@ -124,9 +124,9 @@
 		/datum/customizer/bodypart_feature/accessory,
 		/datum/customizer/bodypart_feature/face_detail,
 	)
-
+/*
 	COOLDOWN_DECLARE(kobold_cooldown)
-
+*/
 	// Sorry for this
 	/// If we can eat turfs and items defined above
 	var/hungry_hungry_kobold = TRUE
@@ -152,6 +152,7 @@
 	..()
 	C.dna.species.accent_language = C.dna.species.get_accent(native_language, 1)
 
+/*
 /datum/species/kobold/spec_life(mob/living/carbon/human/H)
 	. = ..()
 	if(prob(1) && !(H.rogue_sneaking))
@@ -163,6 +164,7 @@
 		H.emote(emote, forced = TRUE)
 
 		COOLDOWN_START(src, kobold_cooldown, 5 MINUTES)
+*/
 
 /datum/species/kobold/get_skin_list()
 	return sortList(list(

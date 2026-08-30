@@ -24,9 +24,9 @@
 	uses the Hobknoblits as Her eyes and ears beyond Palasi Necra, but many believe She simply wanted \
 	them to go away and made them our problems instead. Unlike normal Knoblits, Hobknoblits are seen \
 	as daemonic imps in nature, and are often killed whenever they are seen by civilized folk.<br> \
-	+2 Perception, +2 Intelligence, +2 Endurance, +2 Speed, -4 Strength, -4 Constitution, Tiny, Darkvision"
+	+2 Perception, +2 Intelligence, +2 Endurance, +2 Speed, -4 Strength, -4 Constitution, Tiny, Darkvision, Wings, Ability to eat dirt, stone, coins and gems."
 
-	allowed_pronouns = PRONOUNS_LIST_IT_ONLY
+	allowed_pronouns = PRONOUNS_LIST
 
 	statsheet_male = /datum/attribute_holder/sheet/job/species/formikrag
 
