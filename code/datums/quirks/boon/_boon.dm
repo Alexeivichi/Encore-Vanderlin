@@ -93,8 +93,10 @@
 		/mob/living/simple_animal/pet/cat/black,
 		/mob/living/simple_animal/hostile/retaliate/frog,
 		/mob/living/simple_animal/hostile/retaliate/chicken,
+		/mob/living/simple_animal/hostile/retaliate/goatmale,
 		/mob/living/simple_animal/hostile/retaliate/fox,
 		/mob/living/simple_animal/hostile/retaliate/raccoon,
+		/mob/living/simple_animal/hostile/retaliate/spider,
 	)
 
 	/// Reference to the spawned pet
