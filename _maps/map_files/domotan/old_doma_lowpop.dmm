@@ -5852,6 +5852,15 @@
 	},
 /turf/closed/wall/mineral/stone,
 /area/indoors/town/garrison)
+"eqM" = (
+/obj/structure/flora/newtree/snow,
+/obj/structure/fluff/road_sign/corner{
+	pixel_x = -13;
+	pixel_y = 1;
+	desc = "To the north, the Maker's Quarter and Etgard Keep. To the west, the Institute."
+	},
+/turf/open/floor/grass/cold,
+/area/outdoors/town/plaza)
 "eqV" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -7281,6 +7290,9 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/fluff/railing/wood{
 	dir = 4
+	},
+/obj/structure/fluff/road_sign/four_directions{
+	desc = "To the north, Etgard Keep. To the west up the stairs, the clinic. To the east up the stairs, the bank and trading guild. South, the plaza of Old Doma."
 	},
 /turf/open/floor/grass/healthy,
 /area/outdoors/town)
@@ -8939,6 +8951,10 @@
 	},
 /turf/open/floor/blocks/stonered/tiny,
 /area/outdoors/town)
+"gxC" = (
+/obj/machinery/light/fueled/firebowl,
+/turf/open/floor/blocks/green,
+/area/indoors/town/clinic_large/apothecary)
 "gxL" = (
 /obj/structure/chair/stool,
 /turf/open/floor/cobble,
@@ -9854,8 +9870,7 @@
 /area/outdoors/town/roofs)
 "hhj" = (
 /obj/structure/door{
-	name = "Maker's Quarter";
-	lockid = "workplace1"
+	name = "Maker's Quarter"
 	},
 /turf/open/floor/tile/brick,
 /area/indoors/town)
@@ -12457,6 +12472,10 @@
 /obj/structure/hotspring/border/two,
 /turf/open/floor/grass/healthy,
 /area/outdoors/exposed/magiciantower/garden)
+"iPs" = (
+/obj/structure/fluid_drain,
+/turf/open/floor/blocks/green,
+/area/indoors/town/clinic_large/apothecary)
 "iPB" = (
 /obj/structure/fluff/statue/shisha,
 /obj/machinery/light/fueledstreet/orange/wall{
@@ -13183,6 +13202,11 @@
 /obj/item/natural/feather,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep)
+"jnE" = (
+/obj/structure/curtain/bounty,
+/obj/structure/fluid_drain,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors/town/clinic_large)
 "jnN" = (
 /obj/machinery/light/fueled/torchholder/r,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -14223,8 +14247,7 @@
 /area/indoors/town/keep/phys)
 "jYD" = (
 /obj/structure/door/window{
-	name = "Maker's Quarter";
-	lockid = "workplace1"
+	name = "Maker's Quarter"
 	},
 /turf/open/floor/tile/brick,
 /area/indoors/town)
@@ -16038,6 +16061,10 @@
 "lsc" = (
 /turf/open/floor/dirt/road,
 /area/under/cavewet)
+"lsg" = (
+/obj/structure/fluff/walldeco/churchbanner,
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/church)
 "lsu" = (
 /obj/structure/flora/grass/thorn_bush,
 /turf/open/floor/grass/yel,
@@ -16171,6 +16198,8 @@
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/tavern)
 "lxc" = (
+/obj/structure/stockpile_storage,
+/obj/structure/closet/crate/chest/crate,
 /turf/open/floor/church/purple,
 /area/indoors/town/warehouse)
 "lyi" = (
@@ -18835,6 +18864,9 @@
 /area/indoors/town/keep/garrison)
 "ned" = (
 /obj/structure/flora/ausbushes/brflowers,
+/obj/structure/fluff/signage{
+	desc = "To the east, the church."
+	},
 /turf/open/floor/dirt,
 /area/outdoors/town/plaza)
 "neI" = (
@@ -19696,6 +19728,8 @@
 /area/indoors/town/steward)
 "nLA" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/stockpile_storage/metal,
+/obj/structure/closet/crate/chest/crate,
 /turf/open/floor/church/purple,
 /area/indoors/town/warehouse)
 "nLE" = (
@@ -20051,6 +20085,13 @@
 /obj/structure/fermentation_keg/whitewine,
 /turf/open/floor/blocks/green,
 /area/indoors/town/keep/kitchen/cellar)
+"oah" = (
+/obj/structure/table/wood/reinf_long{
+	dir = 4
+	},
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors/town/clinic_large)
 "oar" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/snow,
@@ -21847,6 +21888,13 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/under/town/sewer)
+"pmP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors/town/clinic_large)
 "pop" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4;
@@ -26129,6 +26177,9 @@
 /obj/structure/fluff/railing/wood{
 	dir = 8
 	},
+/obj/structure/fluff/road_sign/four_directions{
+	desc = "To the west, the docks and tavern. To the south, the plaza and housing borough. To the east, the church and botanical greenhouse. To the north, the maker's quarter, institute and Etgard Keep."
+	},
 /turf/open/openspace,
 /area/outdoors/town)
 "syR" = (
@@ -27672,6 +27723,22 @@
 /obj/structure/fluff/walldeco/vinez,
 /turf/closed/mineral,
 /area/under/town/sewer)
+"tEa" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/fluff/road_sign/two_directions{
+	pixel_y = 11;
+	pixel_x = -14;
+	desc = "To the east, the bank and trading guild. To the west, the clinic."
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/openspace,
+/area/outdoors/town)
 "tEq" = (
 /obj/structure/fluff/walldeco/bath/wallpipes/innie,
 /obj/structure/fluff/walldeco/bath/wallpipes/innie{
@@ -28223,6 +28290,10 @@
 /obj/structure/chair/wood/alt/chair_noble/purple,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/magician)
+"tWM" = (
+/obj/structure/fluff/walldeco/churchbanner,
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/church/chapel)
 "tWX" = (
 /obj/structure/closet/crate/chest,
 /obj/item/flashlight/flare/torch/lantern,
@@ -28771,11 +28842,15 @@
 /turf/open/floor/carpet/red,
 /area/indoors/town/keep/guest/meeting)
 "uvo" = (
-/obj/machinery/light/fueledstreet/orange/wall{
+/obj/structure/fluff/railing/wood,
+/obj/structure/fluff/railing/wood{
 	dir = 8
 	},
-/turf/open/floor/ruinedwood/spiral,
-/area/indoors/town/clinic_large)
+/obj/structure/fluff/road_sign/four_directions{
+	desc = "To the west, the docks and tavern. To the south, the plaza and housing borough. To the east, the church and botanical greenhouse. To the north, the maker's quarter, institute and Etgard Keep."
+	},
+/turf/open/openspace,
+/area/outdoors/town/plaza)
 "uvJ" = (
 /obj/structure/fluff/railing/border,
 /turf/open/floor/ruinedwood/turned/alt,
@@ -28783,6 +28858,12 @@
 "uwh" = (
 /turf/open/floor/blocks/stonered,
 /area/outdoors/town/plaza)
+"uwt" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/stockpile_storage,
+/obj/structure/closet/crate/chest/crate,
+/turf/open/floor/church/purple,
+/area/indoors/town/warehouse)
 "uwF" = (
 /obj/structure/fluff/railing/tall,
 /obj/structure/fluff/railing/tall{
@@ -29036,6 +29117,11 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/town/plaza)
+"uEM" = (
+/obj/structure/stockpile_storage/metal,
+/obj/structure/closet/crate/chest/crate,
+/turf/open/floor/church/purple,
+/area/indoors/town/warehouse)
 "uEO" = (
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 8
@@ -32837,6 +32923,11 @@
 "xnc" = (
 /turf/open/floor/concrete,
 /area/indoors/town/church)
+"xnp" = (
+/obj/structure/table/optable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors/town/clinic_large)
 "xnx" = (
 /obj/item/rope,
 /turf/open/floor/dirt,
@@ -40133,7 +40224,7 @@ ldU
 dwP
 ldU
 lQZ
-eKK
+gxC
 eVo
 ioT
 jdz
@@ -40264,7 +40355,7 @@ dGu
 wTQ
 lOM
 sLT
-sLT
+iPs
 sLT
 sLT
 ioT
@@ -54683,7 +54774,7 @@ bzr
 jYD
 uwh
 ttO
-aSy
+eqM
 hWv
 uwh
 nPb
@@ -56265,7 +56356,7 @@ iAQ
 mCK
 hye
 hye
-hye
+lsg
 pGW
 pGW
 pGW
@@ -57719,7 +57810,7 @@ hye
 cfe
 hye
 iIg
-hye
+lsg
 iyf
 fxZ
 fjs
@@ -65481,9 +65572,9 @@ eeg
 oOc
 qmJ
 oOc
-qfr
-cfP
-ovB
+xnp
+oah
+cQA
 tYM
 itp
 sEG
@@ -65612,9 +65703,9 @@ lrU
 oCY
 lWk
 nCF
-oJQ
-qLa
-gLL
+oOc
+jnE
+jnE
 cQA
 bFU
 itp
@@ -65744,7 +65835,7 @@ nCF
 nCF
 nCF
 nCF
-vkd
+pmP
 nCF
 nCF
 bpI
@@ -66008,7 +66099,7 @@ nCF
 nCF
 nqU
 tDS
-nCF
+qLa
 nCF
 fjg
 hJw
@@ -66403,10 +66494,10 @@ eWp
 qCN
 osy
 cfC
-tDS
-uvo
-nCF
-tDS
+gLL
+cfP
+qLa
+qfr
 veQ
 bim
 dun
@@ -67600,7 +67691,7 @@ nFu
 eNV
 dXP
 dXP
-bKC
+tEa
 aJX
 pAq
 ndG
@@ -67755,7 +67846,7 @@ wVF
 wVF
 tAe
 tAe
-kBA
+uvo
 oTa
 sSH
 gSf
@@ -69436,8 +69527,8 @@ skk
 skk
 skk
 iXz
-nLA
-lxc
+uwt
+uEM
 oPW
 kbn
 kbn
@@ -69568,7 +69659,7 @@ mww
 cWH
 skk
 uZJ
-nLA
+uwt
 nLA
 lEa
 nrF
@@ -69728,7 +69819,7 @@ iuZ
 oqD
 oqD
 hye
-hye
+lsg
 qva
 aEO
 dXH
@@ -69864,7 +69955,7 @@ wAj
 ijK
 ijK
 wAj
-wAj
+tWM
 xrQ
 gXe
 nFg
