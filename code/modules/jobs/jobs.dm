@@ -4,7 +4,7 @@ GLOBAL_LIST_INIT(noble_positions, list(
 	/datum/job/hand::title,
 	/datum/job/prince::title,
 	/datum/job/captain::title,
-	/datum/job/steward::title,
+	/datum/job/majordomo::title,
 	/datum/job/magician::title,
 	/datum/job/archivist::title,
 	/datum/job/courtphys::title,
@@ -19,7 +19,7 @@ GLOBAL_LIST_INIT(noble_courthand_positions, list(
 	/datum/job/hand::title,
 	/datum/job/prince::title,
 	/datum/job/captain::title,
-	/datum/job/steward::title,
+	/datum/job/majordomo::title,
 	/datum/job/archivist::title,
 	/datum/job/courtphys::title,
 	/datum/job/minor_noble::title,
@@ -82,6 +82,7 @@ GLOBAL_LIST_INIT(serf_positions, list(
 	/datum/job/feldsher::title,
 	/datum/job/apothecary::title,
 	/datum/job/tomb_warden::title,
+	/datum/job/yeoman::title,
 	/datum/job/butler::title,
 	/datum/job/persistence/carpenter::title,
 	/datum/job/persistence/stonemason::title,
@@ -114,6 +115,7 @@ GLOBAL_LIST_INIT(apprentices_positions, list(
 	/datum/job/servant::title,
 	/datum/job/tapster::title,
 	/datum/job/clinicapprentice::title,
+	/datum/job/clerk::title,
 	))
 GLOBAL_PROTECT(apprentices_positions)
 
@@ -124,13 +126,6 @@ GLOBAL_LIST_INIT(youngfolk_positions, list(
 	/datum/job/soilchild::title,
 ))
 GLOBAL_PROTECT(youngfolk_positions)
-
-GLOBAL_LIST_INIT(company_positions, list(
-	/datum/job/merchant::title,
-	/datum/job/shophand::title,
-	/datum/job/grabber::title,
-	))
-GLOBAL_PROTECT(company_positions)
 
 GLOBAL_LIST_INIT(allmig_positions, list(
 	/datum/job/bogwitch::title,
@@ -161,7 +156,6 @@ GLOBAL_LIST_EMPTY(job_assignment_order)
 	sorting_order += GLOB.church_positions
 	sorting_order += GLOB.inquisition_positions
 	sorting_order += GLOB.serf_positions
-	sorting_order += GLOB.company_positions
 	sorting_order += GLOB.peasant_positions
 	sorting_order += GLOB.apprentices_positions
 	sorting_order += GLOB.allmig_positions

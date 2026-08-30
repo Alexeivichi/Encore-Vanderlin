@@ -350,7 +350,7 @@
 
 /*	..................   The Drunken Saiga   ................... */
 /obj/structure/fluff/walldeco/sign/saiga
-	name = "The Drunken Saiga"
+	name = "Maribelle's Whinny"
 	icon_state = "shopsign_inn_saiga_right"
 	SET_BASE_PIXEL(3, 16)
 
@@ -388,7 +388,7 @@
 
 /*	..................   Merchant Sign   ................... */
 /obj/structure/fluff/walldeco/sign/merchantsign
-	name = "merchant shop sign"
+	name = "trading guild sign"
 	icon_state = "shopsign_merchant_right"
 	SET_BASE_PIXEL(0, 16)
 

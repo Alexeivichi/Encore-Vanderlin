@@ -5,7 +5,6 @@
 		if("church") return GLOB.church_positions
 		if("inquisition") return GLOB.inquisition_positions
 		if("serf") return GLOB.serf_positions
-		if("company") return GLOB.company_positions
 		if("peasant") return GLOB.peasant_positions
 		if("apprentice") return GLOB.apprentices_positions
 		if("allmig") return GLOB.allmig_positions
@@ -25,8 +24,6 @@
 		return "Inquisition"
 	if(title in GLOB.serf_positions)
 		return "Serfs"
-	if(title in GLOB.company_positions)
-		return "Company"
 	if(title in GLOB.peasant_positions)
 		return "Peasants"
 	if(title in GLOB.apprentices_positions)

@@ -64,6 +64,10 @@
 #define ACCESS_SHOP_IV "shop4"
 #define ACCESS_SHOP_V "shop5"
 
+// Workplaces
+#define ACCESS_WORKPLACE_I "workplace1"
+#define ACCESS_WORKPLACE_II "workplace2"
+
 // House
 #define ACCESS_HOUSE_I "house1"
 #define ACCESS_HOUSE_II "house2"

@@ -189,7 +189,6 @@
 	jobs += GLOB.noble_positions
 	jobs += GLOB.garrison_positions
 	jobs += GLOB.serf_positions
-	jobs += GLOB.company_positions
 	jobs += GLOB.peasant_positions
 	jobs += GLOB.apprentices_positions
 	jobs += GLOB.youngfolk_positions
@@ -208,7 +207,6 @@
 		GLOB.garrison_positions,
 		GLOB.church_positions,
 		GLOB.serf_positions,
-		GLOB.company_positions,
 		GLOB.peasant_positions,
 		GLOB.youngfolk_positions,
 		GLOB.apprentices_positions,

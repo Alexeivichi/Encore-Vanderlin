@@ -3330,13 +3330,6 @@
 /obj/item/grown/log/tree/stick,
 /turf/open/floor/twig,
 /area/outdoors/woods/crossroads)
-"pK" = (
-/obj/effect/decal/borderfall{
-	dir = 1
-	},
-/obj/structure/notice_board,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/crossroads)
 "pL" = (
 /turf/open/floor/dirt,
 /area/indoors/shelter)
@@ -133658,7 +133651,7 @@ sY
 sY
 sY
 Bn
-pK
+UO
 js
 js
 Qn

@@ -92,6 +92,7 @@
 #define JDO_PRINCE 1.2
 #define JDO_HAND 2
 #define JDO_STEWARD 3
+#define JDO_MAJORDOMO 3.3
 #define JDO_MINOR_NOBLE 3.5
 #define JDO_PHYSICIAN 3.7
 
@@ -127,6 +128,7 @@
 #define JDO_MERCHANT 18
 #define JDO_SHOPHAND 18.1
 #define JDO_GRABBER 18.2
+#define JDO_CLERK 18.3
 
 #define JDO_TAILOR 19
 
@@ -145,6 +147,7 @@
 
 #define JDO_BUTCHER 28.1
 #define JDO_SOILSON 28.2
+#define JDO_YEOMAN 28.21
 #define JDO_FISHER 28.3
 #define JDO_HUNTER 28.4
 #define JDO_CARPENTER 28.6
@@ -196,6 +199,7 @@
 #define JOB_PRINCE_FEM "Princess"
 #define JOB_GUARD_CAPTAIN "Captain"
 #define JOB_STEWARD "Steward"
+#define JOB_MAJORDOMO "Majordomo"
 #define JOB_ARCHIVIST "Archivist"
 #define JOB_COURT_PHYSICIAN "Court Physician"
 #define JOB_MINOR_NOBLE "Noble"
@@ -252,6 +256,8 @@
 #define JOB_APOTHECARY "Apothecary"
 #define JOB_TOMB_WARDEN "Tomb Warden"
 #define JOB_BUTLER "Butler"
+#define JOB_CLERK "Clerk"
+#define JOB_YEOMAN "Yeoman"
 
 
 #define JOB_MERCHANT "Merchant"

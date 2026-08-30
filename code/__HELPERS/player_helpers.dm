@@ -9,7 +9,6 @@
 	valid_positions += GLOB.peasant_positions
 	valid_positions += GLOB.apprentices_positions
 	valid_positions += GLOB.youngfolk_positions
-	valid_positions += GLOB.company_positions
 
 
 	var/list/reopened_jobs = list()
