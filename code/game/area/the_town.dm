@@ -49,7 +49,7 @@
 	background_track = 'sound/music/area/Fulminate.ogg'
 
 /area/indoors/town/tavern/saiga
-	first_time_text = "The Drunken Saiga"
+	first_time_text = "Maribelle's Whinny"
 	background_track = 'sound/music/area/Folia1490.ogg'
 	background_track_night = 'sound/music/area/LeTourdion.ogg'
 	converted_type = /area/outdoors/exposed/tavern/saiga
@@ -166,12 +166,11 @@
 
 /area/indoors/town/clinic_large
 	name = "The Clinic"
-	first_time_text = "The Clinic"
+	first_time_text = "Etgard Clinic"
 	icon_state = "clinic_large"
 
 /area/indoors/town/clinic_large/apothecary
-	name = "Apothecary's Workshop"
-	icon_state = "clinic_apoth"
+	name = "Etgard Apothecarium"
 
 /area/indoors/town/clinic_large/feldsher
 	name = "Feldsher's Office"
@@ -183,16 +182,16 @@
 	icon_state = "thieves_guild"
 
 /area/indoors/town/merc_guild
-	name = "Mercenary Guild"
-	first_time_text = "Mercenary Guild"
+	name = "Adventurer Guild"
+	first_time_text = "Adventurer's Guild"
 	icon_state = "merc_guild"
 	background_track = 'sound/music/area/shop.ogg'
 	background_track_dusk = null
 	background_track_night = null
 
 /area/indoors/town/steward
-	name = "Steward's Office"
-	first_time_text = "Steward's Office"
+	name = "Etgard Trading Guild"
+	first_time_text = "Etgard Trading Guild"
 	icon_state = "steward"
 
 /area/indoors/town/smithy
@@ -212,6 +211,9 @@
 	background_track_night = null
 	first_time_text = "The Makers' Quarter"
 	converted_type = /area/outdoors/exposed/dwarf
+
+/area/indoors/town/dwarfin/shared
+	first_time_text = "Etgard Foundry"
 
 /area/outdoors/exposed/dwarf
 	icon_state = "dwarf"
@@ -337,6 +339,7 @@
 // so you can teleport to the farm
 /area/indoors/soilsons
 	name = "soilsons"
+	first_time_text = "Etgard Botanical Garden"
 
 /area/indoors/butchershop
 	name = "butcher shop"

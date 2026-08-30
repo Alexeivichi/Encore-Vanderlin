@@ -183,13 +183,17 @@
 	background_track_night = null
 
 /area/indoors/town/keep/magician
-	name = "Wizard's Tower"
+	name = "Magic Institute"
+	first_time_text =  "Institute of Magical Studies"
 	icon_state = "magiciantower"
 	ambient_index = AMBIENCE_MYSTICAL
 	background_track = 'sound/music/area/magiciantower.ogg'
 	background_track_dusk = null
 	background_track_night = null
 	converted_type = /area/outdoors/exposed/magiciantower
+
+/area/indoors/town/keep/magician/greenhouse
+	first_time_text =  "Shirleighan Apothecarium"
 
 /area/indoors/town/keep/magician/basement
 	name = "Etgard Thaumatic Wellspring"
@@ -201,6 +205,8 @@
 	background_track_dusk = null
 	background_track_night = null
 
+/area/outdoors/exposed/magiciantower/garden
+	first_time_text =  "Institute Skysprings"
 
 // Minor Nobles
 /area/indoors/town/noble_manor

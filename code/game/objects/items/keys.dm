@@ -685,6 +685,14 @@
 	name = "shop IX key"
 	lockids = list("shop9")
 
+/obj/item/key/houses/workplace1
+	name = "workplace I key"
+	lockids = list("workplace1")
+
+/obj/item/key/houses/workplace2
+	name = "workplace II key"
+	lockids = list("workplace2")
+
 // INN ROOMS
 
 /obj/item/key/roomi

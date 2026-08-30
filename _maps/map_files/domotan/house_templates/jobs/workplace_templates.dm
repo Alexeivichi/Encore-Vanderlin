@@ -2,6 +2,12 @@
 //separated to avoid conflicts with upstream
 //These templates are strictly for the houses found in the old_doma map file
 //This file is specifically for workplaces and workplaces that have residences built into them
+/datum/map_template/medium_workplace
+	name = "Doma Medium Makers Quarter"
+	mappath = "_maps/map_files/domotan/house_templates/jobs/medium_workplace.dmm"
+	width = 6
+	height = 10
+
 /datum/map_template/doma_artificer_workshop
 	name = "Doma Artificer Workshop"
 	mappath = "_maps/map_files/domotan/house_templates/jobs/doma_artificer_workshop.dmm"
