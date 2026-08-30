@@ -402,6 +402,10 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	name = "Bog Witch and Apprentice"
 	jobs_to_spawn = list(JOB_BOGWITCH, JOB_BOGWITCH_APP)
 
+/obj/effect/landmark/start/tower_magician
+	name = JOB_TOWER_MAGE
+	jobs_to_spawn = list(JOB_TOWER_MAGE)
+
 //Antagonist spawns
 
 /obj/effect/landmark/start/bandit

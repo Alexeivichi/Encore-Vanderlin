@@ -290,6 +290,7 @@
 	sleeved = 'icons/roguetown/clothing/special/onmob/hand.dmi'
 	detail_tag = "_detail"
 	detail_color = CLOTHING_BERRY_BLUE
+	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_SHIRT|ITEM_SLOT_CLOAK
 	body_parts_covered = COVERAGE_SHIRT
 	uses_lord_coloring = LORD_PRIMARY
 

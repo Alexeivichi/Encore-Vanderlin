@@ -39,14 +39,15 @@
 	)
 
 /datum/job/magician
-	title = JOB_COURT_MAGE
-	alt_titles = list("Court Abjurer", "Court Illusionist", "Grand Wyrd", "Court Conjurer", "Court Wizard", "Court Summoner", "Court Evocator")
-	alt_honorary = list("Archwizard", "Magus", "Magister")
+	title = "Tower Archmage"
+	alt_titles = list("Archwizard", "High Magician", "High Mage", "Grand Abjurer", "Grand Illusionist", "Grand Wyrd", "Grand Conjurer", "Grand Summoner", "Grand Evocator")
+	alt_honorary = list("Archwizard", "Magus", "High Mage", "Proctor", "Headmaster", "Grand Enchanter")
+	alt_honorary_female = list("Archwizard", "Magus", "High Mage", "Proctor", "Headmistress", "Grand Enchantress")
 	tutorial = "A seer of dreams, a reader of stars, and a master of the arcyne. Along a band of unlikely heroes, you shaped the fate of these lands.\
-	Now the days of adventure are gone, replaced by dusty tomes and whispered prophecies. The ruler's coin funds your studies,\
+	Now the days of adventure are gone, replaced by dusty tomes and whispered prophecies. The ruler's coin funds your studies, and your university,\
 	but debts both magical and mortal are never so easily repaid. With age comes wisdom, but also the creeping dread that your greatest spell work\
 	may already be behind you."
-	department_flag = NOBLEMEN
+	department_flag = SERFS
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_MAGICIAN
 	factions = list(FACTION_TOWN)
@@ -63,7 +64,7 @@
 	known_by_the_town = TRUE
 	cmode_music = 'sound/music/cmode/nobility/CombatCourtMagician.ogg'
 	magic_user = TRUE
-	job_bitflag = BITFLAG_ROYALTY
+	job_bitflag = BITFLAG_CONSTRUCTOR
 	max_apprentices = 2
 	honorary = "Archmage"
 	book_type = /obj/item/recipe_book/arcyne
@@ -77,7 +78,7 @@
 	form_points = 4
 
 	exp_type = list(EXP_TYPE_ADVENTURER, EXP_TYPE_LIVING, EXP_TYPE_MAGICK)
-	exp_types_granted = list(EXP_TYPE_NOBLE, EXP_TYPE_MAGICK, EXP_TYPE_ADVENTURER)
+	exp_types_granted = list(EXP_TYPE_MAGICK, EXP_TYPE_ADVENTURER)
 	exp_requirements = list(
 		EXP_TYPE_LIVING = 1200,
 		EXP_TYPE_ADVENTURER = 300,
@@ -89,9 +90,6 @@
 
 	traits = list(
 		TRAIT_SEEPRICES,
-		TRAIT_NOBLE_BLOOD,
-		TRAIT_NOBLE_POWER,
-		TRAIT_NOBLE_LOCAL,
 		TRAIT_OLDPARTY,
 		TRAIT_VIRGIN,
 	)
@@ -103,7 +101,7 @@
 		spawned.cmode_music = 'sound/music/cmode/antag/combat_evilwizard.ogg'
 
 	if(istype(spawned.patron, /datum/patron/inhumen/archdevils))
-		spawned.grant_language(/datum/language/undead)
+		spawned.grant_language(/datum/language/hellspeak)
 
 	if(spawned.gender == MALE && spawned.dna?.species  && spawned.dna.species.id != SPEC_ID_MEDICATOR)
 		spawned.dna.species.soundpack_m = new /datum/voicepack/male/wizard()
@@ -134,7 +132,7 @@
 		"Storm-Charged Tome (Lightning)" = /obj/item/spellbook/legendary/starter/lightning,
 		"Stoneveined Tome (Earth)" = /obj/item/spellbook/legendary/starter/earth,
 		"Thrice-Warded Tome (Arcane)" = /obj/item/spellbook/legendary/starter/arcane,
-		"Grave-Touched Tome (Death)" = /obj/item/spellbook/legendary/starter/death,
+		"Decay-Touched Tome (Entropy)" = /obj/item/spellbook/legendary/starter/death,
 		"Verdant Tome (Life)" = /obj/item/spellbook/legendary/starter/life,
 		"Windswept Tome (Air)" = /obj/item/spellbook/legendary/starter/air,
 		"Tidebound Tome (Water)" = /obj/item/spellbook/legendary/starter/water,
@@ -146,8 +144,7 @@
 	name = JOB_COURT_MAGE
 	backr = /obj/item/storage/backpack/satchel
 	cloak = /obj/item/clothing/cloak/black_cloak
-	ring = /obj/item/clothing/ring/gold
-	belt = /obj/item/storage/belt/leather/plaquegold
+	belt = /obj/item/storage/belt/leather
 	beltr = /obj/item/storage/magebag/apprentice
 	backl = /obj/item/weapon/polearm/woodstaff
 	shoes = /obj/item/clothing/shoes/shortboots

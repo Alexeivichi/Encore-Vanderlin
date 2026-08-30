@@ -23,3 +23,20 @@
 		/datum/sprite_accessory/tail_feature/spines/longmeme,
 		/datum/sprite_accessory/tail_feature/spines/aquatic,
 	)
+
+/datum/customizer/organ/tail_feature/demihuman
+	customizer_choices = list(/datum/customizer_choice/organ/tail_feature/demihuman)
+	allows_disabling = TRUE
+	default_disabled = TRUE
+
+/datum/customizer_choice/organ/tail_feature/demihuman
+	name = "Demihuman Tail Spines"
+	organ_type = /obj/item/organ/tail_feature
+	generic_random_pick = TRUE
+	sprite_accessories = list(
+		/datum/sprite_accessory/tail_feature/spines/short,
+		/datum/sprite_accessory/tail_feature/spines/shortmeme,
+		/datum/sprite_accessory/tail_feature/spines/long,
+		/datum/sprite_accessory/tail_feature/spines/longmeme,
+		/datum/sprite_accessory/tail_feature/spines/aquatic,
+	)

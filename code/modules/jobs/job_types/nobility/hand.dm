@@ -1,8 +1,8 @@
 /datum/job/hand
 	title = JOB_HAND
 	tutorial = "You owe everything to your liege. \
-	You are the most trusted of the ruler- their sibling, in fact. \
-	You have played spymaster and confidant to the Shirleighs for so long that you are a vault of intrigue, \
+	You are the most trusted of the ruler- a close friend, a dependable ally, or an object of their favouritism. \
+	You have played advisor and confidant to the Shirleighs for so long that you are a vault of intrigue, \
 	something you exploit with potent conviction. Let no man ever forget whose ear you whisper into. \
 	You have killed more men with those lips than any blademaster could ever claim to.\
 	You can add and remove agents with your Frumentarii scroll."
@@ -58,7 +58,6 @@
 /datum/job/hand/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 	add_verb(spawned, /mob/living/carbon/human/proc/torture_victim)
-	addtimer(CALLBACK(SSfamilytree, TYPE_PROC_REF(/datum/controller/subsystem/familytree, AddRoyal), spawned, FAMILY_OMMER), 10 SECONDS)
 	// i know this sucks, but due to how job loading is, we can't just get the agents to load before the hand without some reworks
 	if(SSticker.current_state < GAME_STATE_PLAYING)
 		SSticker.OnRoundstart(CALLBACK(src, PROC_REF(agent_callback), spawned))
@@ -118,7 +117,7 @@
 	shirt = /obj/item/clothing/shirt/undershirt/fancy
 	backr = /obj/item/storage/backpack/satchel/black
 	backpack_contents = list(
-		/obj/item/weapon/knife/dagger/steel = 1,
+		/obj/item/weapon/knife/dagger/steel/special = 1,
 		/obj/item/frumentarii = 1
 	)
 	armor = /obj/item/clothing/armor/leather/jacket/handjacket
@@ -255,7 +254,7 @@
 	shoes = /obj/item/clothing/shoes/boots/darkboots
 	beltl = /obj/item/weapon/sword/rapier/caneblade/hand
 	backpack_contents = list(
-		/obj/item/weapon/knife/dagger/steel = 1,
+		/obj/item/weapon/knife/dagger/steel/special = 1,
 		/obj/item/reagent_containers/glass/bottle/poison = 1,
 		/obj/item/frumentarii = 1
 	)
@@ -358,7 +357,7 @@
 	beltl = /obj/item/ammo_holder/quiver/arrows
 	beltr = /obj/item/weapon/sword/rapier/dec
 	backpack_contents = list(
-		/obj/item/weapon/knife/dagger/steel = 1,
+		/obj/item/weapon/knife/dagger/steel/special = 1,
 		/obj/item/reagent_containers/glass/bottle/poison = 1,
 		/obj/item/frumentarii = 1,
 		/obj/item/flint = 1,
@@ -397,3 +396,123 @@
 			pet_mob.fully_replace_character_name(null, new_name)
 	pet_mob.tamed(H)
 	ADD_TRAIT(pet_mob, TRAIT_CRITICAL_RESISTANCE, INNATE_TRAIT)
+
+/datum/attribute_holder/sheet/job/magister
+	attribute_variance = list(
+		STAT_INTELLIGENCE = list(0, 1)
+	)
+	raw_attribute_list = list(
+		STAT_INTELLIGENCE = 4,
+		STAT_PERCEPTION = 3,
+		STAT_CONSTITUTION = -2,
+		/datum/attribute/skill/magic/arcane = 40,
+		/datum/attribute/skill/combat/swords = 20,
+		/datum/attribute/skill/misc/swimming = 30,
+		/datum/attribute/skill/misc/climbing = 30,
+		/datum/attribute/skill/misc/athletics = 30,
+		/datum/attribute/skill/combat/wrestling = 20,
+		/datum/attribute/skill/misc/reading = 50,
+		/datum/attribute/skill/misc/riding = 20,
+		/datum/attribute/skill/craft/alchemy = 30,
+		/datum/attribute/skill/misc/medicine = 30,
+		/datum/attribute/skill/labor/mathematics = 30
+	)
+
+/datum/attribute_holder/sheet/job/magister/old
+	raw_attribute_list = list(
+		STAT_INTELLIGENCE = 5,
+		STAT_PERCEPTION = 4,
+		STAT_CONSTITUTION = -3,
+		STAT_SPEED = -1,
+		STAT_STRENGTH = -1,
+		/datum/attribute/skill/magic/arcane = 40,
+		/datum/attribute/skill/combat/swords = 30,
+		/datum/attribute/skill/misc/swimming = 30,
+		/datum/attribute/skill/misc/climbing = 30,
+		/datum/attribute/skill/misc/athletics = 30,
+		/datum/attribute/skill/combat/wrestling = 20,
+		/datum/attribute/skill/misc/reading = 50,
+		/datum/attribute/skill/misc/riding = 30,
+		/datum/attribute/skill/craft/alchemy = 40,
+		/datum/attribute/skill/misc/medicine = 40,
+		/datum/attribute/skill/labor/mathematics = 30
+	)
+
+/datum/job/advclass/hand/magister
+	title = "Magister"
+	tutorial = " You have played researcher and magician to the Shirleighs for so long that you are a vault of knowledge, \
+	something you exploit with potent conviction. Let no man ever forget the magic you wield. \
+	You've silenced more men with those spells than any blademaster or spymaster could ever claim to."
+	outfit = /datum/outfit/hand/magister/male
+	outfit_female = /datum/outfit/hand/magister/female
+	category_tags = list(CTAG_HAND)
+	magic_user = TRUE
+	cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg'
+	exp_types_granted  = list(EXP_TYPE_NOBLE, EXP_TYPE_MAGICK)
+	book_type = /obj/item/recipe_book/arcyne
+
+	attribute_sheet = /datum/attribute_holder/sheet/job/magister
+	attribute_sheet_old = /datum/attribute_holder/sheet/job/magister/old
+	honorary = "Magister"
+	honorary_f = "Magistrix"
+
+	traits = list(
+		TRAIT_NOBLE_BLOOD,
+		TRAIT_NOBLE_POWER,
+		TRAIT_NOBLE_LOCAL,
+		TRAIT_VIRGIN,
+	)
+
+/datum/job/advclass/hand/magister/after_spawn(mob/living/carbon/human/spawned, client/player_client)
+	. = ..()
+	if(prob(1))
+		spawned.cmode_music = 'sound/music/cmode/antag/combat_evilwizard.ogg'
+
+	if(istype(spawned.patron, /datum/patron/inhumen/archdevils))
+		spawned.grant_language(/datum/language/hellspeak)
+
+	if(spawned.gender == MALE && spawned.dna?.species  && spawned.dna.species.id != SPEC_ID_MEDICATOR)
+		spawned.dna.species.soundpack_m = new /datum/voicepack/male/wizard()
+
+/datum/job/advclass/hand/magister/on_roundstart(mob/living/spawned, client/player_client)
+	. = ..()
+	var/static/list/selectable_books = list(
+		"Blazing Tome (Fire)" = /obj/item/spellbook/master/starter/fire,
+		"Frostbound Tome (Ice)" = /obj/item/spellbook/master/starter/ice,
+		"Storm-Charged Tome (Lightning)" = /obj/item/spellbook/master/starter/lightning,
+		"Stoneveined Tome (Earth)" = /obj/item/spellbook/master/starter/earth,
+		"Thrice-Warded Tome (Arcane)" = /obj/item/spellbook/master/starter/arcane,
+		"Decay-Touched Tome (Entropy)" = /obj/item/spellbook/master/starter/death,
+		"Verdant Tome (Life)" = /obj/item/spellbook/master/starter/life,
+		"Windswept Tome (Air)" = /obj/item/spellbook/master/starter/air,
+		"Tidebound Tome (Water)" = /obj/item/spellbook/master/starter/water,
+	)
+
+	grant_selected_spellbooks(spawned, selectable_books, 2)
+
+/datum/outfit/hand/magister
+	name = "Magister Base (Hand)"
+	head = /obj/item/clothing/head/roguehood/colored/black
+	shirt = /obj/item/clothing/shirt/undershirt/fancy
+	backr = /obj/item/storage/backpack/satchel
+	neck = /obj/item/clothing/neck/mana_star
+	backpack_contents = list(
+		/obj/item/scrying = 1,
+		/obj/item/chalk = 1,
+		/obj/item/frumentarii = 1
+	)
+	armor = /obj/item/clothing/armor/gambeson/hand
+	cloak = /obj/item/clothing/cloak/half
+	pants = /obj/item/clothing/pants/tights/colored/black
+	shoes = /obj/item/clothing/shoes/boots
+	beltl = /obj/item/storage/magebag/apprentice
+	beltr = /obj/item/weapon/sword/rapier/caneblade/hand
+	scabbards = list(/obj/item/weapon/scabbard/cane/hand)
+
+/datum/outfit/hand/magister/male //Sol
+	name = "Male Magister (Hand)"
+	mask = /obj/item/clothing/face/facemask/goldveil
+
+/datum/outfit/hand/magister/female //Luna
+	name = "Female Magister (Hand)"
+	mask = /obj/item/clothing/face/facemask/silverveil

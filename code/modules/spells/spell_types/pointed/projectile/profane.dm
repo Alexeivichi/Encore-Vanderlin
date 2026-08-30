@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/projectile/profane
 	name = "Profane"
-	desc = "Fire forth a splinter of unholy bone, tearing flesh and causing bleeding. If you hold pieces of bone in your other hand, you will coax a much stronger lance of bone into being."
+	desc = "Fire forth a splinter of unholy bone, tearing flesh and causing bleeding. If you hold pieces of bone in your other hand, you will coax a much stronger lance of bone into being. (Heretical)"
 	button_icon_state = "profane"
 	sound = 'sound/misc/stings/generic.ogg'
 	charge_sound = 'sound/magic/vlightning.ogg'
