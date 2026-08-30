@@ -201,7 +201,6 @@
 		list("name" = "Peasantry", "jobs" = GLOB.peasant_positions),
 		list("name" = "Apprentices", "jobs" = GLOB.apprentices_positions),
 		list("name" = "Yeomanry", "jobs" = GLOB.serf_positions),
-		list("name" = "Company", "jobs" = GLOB.company_positions),
 		list("name" = "Young Folk", "jobs" = GLOB.youngfolk_positions),
 		list("name" = "Outsiders", "jobs" = GLOB.allmig_positions),
 		list("name" = "Inquisition", "jobs" = GLOB.inquisition_positions),

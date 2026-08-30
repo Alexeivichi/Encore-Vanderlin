@@ -269,8 +269,6 @@
 			jobs_i_know |= X
 		for(var/X in GLOB.serf_positions)
 			jobs_i_know |= X
-		for(var/X in GLOB.company_positions)
-			jobs_i_know |= X
 		for(var/X in GLOB.church_positions)
 			jobs_i_know |= X
 		for(var/X in GLOB.garrison_positions)
@@ -288,8 +286,6 @@
 		for(var/X in GLOB.peasant_positions)
 			jobs_that_know_me |= X
 		for(var/X in GLOB.serf_positions)
-			jobs_that_know_me |= X
-		for(var/X in GLOB.company_positions)
 			jobs_that_know_me |= X
 		for(var/X in GLOB.church_positions)
 			jobs_that_know_me |= X

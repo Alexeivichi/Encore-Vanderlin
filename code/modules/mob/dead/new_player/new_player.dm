@@ -498,7 +498,6 @@ GLOBAL_LIST_INIT(roleplay_readme, file2list("strings/rt/Lore_Primer.txt"))
 		GLOB.peasant_positions,
 		GLOB.apprentices_positions,
 		GLOB.serf_positions,
-		GLOB.company_positions,
 		GLOB.youngfolk_positions,
 		GLOB.allmig_positions,
 		GLOB.inquisition_positions,

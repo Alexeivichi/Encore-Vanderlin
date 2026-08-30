@@ -12,7 +12,6 @@
 		GLOB.church_positions = 20,
 		GLOB.inquisition_positions = 20,
 		GLOB.serf_positions = 10,
-		GLOB.company_positions = 10,
 		GLOB.peasant_positions = 5,
 		GLOB.apprentices_positions = 3,
 		GLOB.youngfolk_positions = 2,

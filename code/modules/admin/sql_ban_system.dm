@@ -285,7 +285,6 @@
 			"Peasants" = GLOB.peasant_positions,
 			"Apprentices" = GLOB.apprentices_positions,
 			"Youngfolk" = GLOB.youngfolk_positions,
-			"Company" = GLOB.company_positions,
 			"Outsiders" = GLOB.allmig_positions,
 		)
 
