@@ -456,6 +456,9 @@
 	honorary = "Magister"
 	honorary_f = "Magistrix"
 
+	form_points = 6
+	technique_points = 8
+
 	traits = list(
 		TRAIT_NOBLE_BLOOD,
 		TRAIT_NOBLE_POWER,

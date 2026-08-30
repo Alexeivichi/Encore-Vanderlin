@@ -271,6 +271,7 @@
 		/obj/item/key/garrison,
 		/obj/item/key/forrestgarrison,
 		/obj/item/key/atarms,
+		/obj/item/key/mage,
 	)
 
 /obj/item/storage/keyring/courtagent
