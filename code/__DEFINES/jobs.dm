@@ -147,6 +147,7 @@
 
 #define JDO_BUTCHER 28.1
 #define JDO_SOILSON 28.2
+#define JDO_YEOMAN 28.21
 #define JDO_FISHER 28.3
 #define JDO_HUNTER 28.4
 #define JDO_CARPENTER 28.6
@@ -256,6 +257,8 @@
 #define JOB_TOMB_WARDEN "Tomb Warden"
 #define JOB_BUTLER "Butler"
 #define JOB_CLERK "Clerk"
+#define JOB_YEOMAN "Yeoman"
+
 
 #define JOB_MERCHANT "Merchant"
 #define JOB_SHOPHAND "Shophand"

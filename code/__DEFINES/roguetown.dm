@@ -122,6 +122,7 @@ GLOBAL_LIST_EMPTY(job_respawn_delays)
 #define CTAG_ADEPT "CAT_ADEPT" // Used for Adept class selection
 #define CTAG_SQUIRE "CAT_SQUIRE" // Squire Love, Classes, as above.
 #define CTAG_HEIR "CAT_HEIR"
+#define CTAG_YEOMAN "CTAG_YEOMAN"
 #define CTAG_HAND "CAT_HAND" // Hand class - Handles Hand class selector
 #define CTAG_COURTAGENT "CAT_COURT_AGENT"
 #define CTAG_MINOR_NOBLE "CAT_MINOR_NOBLE" // Minor Noble classes
