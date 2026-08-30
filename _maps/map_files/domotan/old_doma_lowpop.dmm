@@ -3242,6 +3242,17 @@
 /obj/structure/fluff/walldeco/smugglersigil,
 /turf/closed/wall/mineral/stone,
 /area/under/cavewet)
+"cwl" = (
+/obj/structure/table/wood{
+	icon_state = "longtable_mid";
+	dir = 1
+	},
+/obj/structure/bars/passage/shutter{
+	redstone_id = "stewardshutter"
+	},
+/obj/structure/fake_machine/vendor/steward,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/steward)
 "cws" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
@@ -5964,6 +5975,9 @@
 /obj/structure/fluff/walldeco/church/line{
 	dir = 1
 	},
+/obj/effect/landmark/start/yeoman{
+	dir = 4
+	},
 /turf/open/floor/blocks/stonered,
 /area/outdoors/town)
 "euP" = (
@@ -6429,10 +6443,10 @@
 /area/outdoors/town)
 "eKv" = (
 /obj/structure/door{
-	lockid = "luxroomiii";
 	name = "LUXURY ROOM III"
 	},
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/town/inn_room,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern/saiga)
 "eKK" = (
@@ -11240,6 +11254,12 @@
 	},
 /turf/open/floor/church,
 /area/indoors/town/church/inquisition)
+"hXX" = (
+/obj/effect/landmark/start/yeoman{
+	dir = 4
+	},
+/turf/open/floor/cobble/mossy,
+/area/outdoors/town/plaza)
 "hYs" = (
 /obj/effect/decal/shadow_floor{
 	dir = 4
@@ -15911,10 +15931,10 @@
 /area/outdoors/town)
 "lls" = (
 /obj/structure/door{
-	lockid = "medroomii";
 	name = "MEDIUM ROOM II"
 	},
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/town/inn_room,
 /turf/open/floor/wood,
 /area/indoors/town/tavern/saiga)
 "llB" = (
@@ -16581,7 +16601,6 @@
 /turf/open/openspace,
 /area/indoors/town/garrison)
 "lHj" = (
-/mob/living/simple_animal/hostile/retaliate/banker,
 /obj/structure/fluff/wallclock,
 /obj/structure/fluff/walldeco/wantedposter/l,
 /turf/open/floor/wood,
@@ -17493,10 +17512,10 @@
 /area/outdoors/town/neighborhood/west)
 "mji" = (
 /obj/structure/door{
-	lockid = "medroomi";
 	name = "MEDIUM ROOM I"
 	},
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/town/inn_room,
 /turf/open/floor/wood,
 /area/indoors/town/tavern/saiga)
 "mjL" = (
@@ -18914,6 +18933,13 @@
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/church/green,
 /area/indoors/town/keep/garrison)
+"ngp" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/obj/effect/landmark/start/yeoman,
+/turf/open/floor/blocks/stonered,
+/area/outdoors/town)
 "ngD" = (
 /obj/structure/flora/grass/herb/artemisia,
 /obj/structure/flora/grass/herb/symphitum,
@@ -20206,10 +20232,10 @@
 /area/indoors/town/church)
 "oeA" = (
 /obj/structure/door{
-	lockid = "luxroomi";
 	name = "LUXURY ROOM I"
 	},
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/town/inn_room,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern/saiga)
 "oeD" = (
@@ -22155,11 +22181,14 @@
 /obj/structure/fluff/walldeco/church/line{
 	dir = 8
 	},
+/obj/effect/landmark/start/yeoman,
 /turf/open/floor/blocks/stonered/tiny,
 /area/outdoors/town)
 "pwp" = (
-/obj/structure/fake_machine/vendor/steward,
-/turf/closed/wall/mineral/stone,
+/mob/living/simple_animal/hostile/retaliate/banker,
+/obj/structure/fluff/railing/border,
+/obj/structure/bars/wooden_arch,
+/turf/open/floor/wood,
 /area/indoors/town/steward)
 "pwr" = (
 /obj/item/storage/crucible/random,
@@ -25824,10 +25853,10 @@
 /area/outdoors/town/neighborhood/west)
 "skE" = (
 /obj/structure/door{
-	lockid = "luxroomii";
 	name = "LUXURY ROOM II"
 	},
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/town/inn_room,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern/saiga)
 "skH" = (
@@ -27698,6 +27727,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/blocks/newstone/alt,
 /area/outdoors/exposed)
+"tDp" = (
+/obj/effect/landmark/start/yeoman,
+/turf/open/floor/cobble/mossy,
+/area/indoors/town/waterworks)
 "tDA" = (
 /obj/machinery/light/fueled/firebowl/standing/blue,
 /turf/open/floor/cobble,
@@ -29303,6 +29336,11 @@
 /obj/structure/flora/newtree/snow,
 /turf/open/floor/grass/healthy,
 /area/outdoors/exposed/magiciantower/garden)
+"uJX" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/landmark/start/yeoman,
+/turf/open/floor/ruinedwood,
+/area/outdoors/town)
 "uKB" = (
 /obj/structure/door/viewport{
 	name = "Archivum"
@@ -33160,10 +33198,10 @@
 /area/indoors/town/keep)
 "xwA" = (
 /obj/structure/door{
-	lockid = "medroomiii";
 	name = "MEDIUM ROOM III"
 	},
 /obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/town/inn_room,
 /turf/open/floor/wood,
 /area/indoors/town/tavern/saiga)
 "xwJ" = (
@@ -54525,7 +54563,7 @@ jYD
 hVJ
 uRH
 tPC
-vWz
+ngp
 vWz
 euP
 sBp
@@ -54537,7 +54575,7 @@ smz
 lUi
 qpv
 jRY
-lUi
+hXX
 lUi
 lUi
 eyw
@@ -54649,7 +54687,7 @@ kqx
 kqx
 kqx
 img
-aFv
+uJX
 kNE
 cLj
 bzr
@@ -55461,7 +55499,7 @@ pAq
 yiE
 fht
 xYr
-nLE
+tDp
 pZy
 hRe
 xYr
@@ -68106,7 +68144,7 @@ wRk
 apM
 abf
 pQT
-uOJ
+cwl
 ofr
 sol
 rHI
