@@ -19,6 +19,41 @@
 
 	triumph_cost_permanent = 20
 
+/datum/loadout_item/light_gambeson
+	name = "Light Gambeson"
+	item_path = /obj/item/clothing/armor/gambeson/light
+	ui_category = "Armor"
+
+	triumph_cost_permanent = 10
+
+/datum/loadout_item/gambeson
+	name = "Gambeson"
+	item_path = /obj/item/clothing/armor/gambeson
+	ui_category = "Armor"
+
+	triumph_cost_permanent = 15
+
+/datum/loadout_item/steppe_robes
+	name = "Steppe Robes"
+	item_path = /obj/item/clothing/armor/gambeson/light/steppe
+	ui_category = "Armor"
+
+	triumph_cost_permanent = 15
+
+/datum/loadout_item/arming_jacket
+	name = "Arming Jacket"
+	item_path = /obj/item/clothing/armor/gambeson/arming
+	ui_category = "Armor"
+
+	triumph_cost_permanent = 15
+
+/datum/loadout_item/fencing_shirt
+	name = "Fencing Shirt"
+	item_path = /obj/item/clothing/armor/gambeson/arming/fencer
+	ui_category = "Armor"
+
+	triumph_cost_permanent = 15
+
 /datum/loadout_item/leather_armor
 	name = "Leather Armor"
 	item_path = /obj/item/clothing/armor/leather
@@ -67,13 +102,6 @@
 	ui_category = "Armor"
 
 	triumph_cost_permanent = 25
-
-/datum/loadout_item/gatemaster_jacket
-	name = "Leather Greatcoat"
-	item_path = /obj/item/clothing/armor/leather/jacket/gatemaster_jacket/armored
-	ui_category = "Armor"
-
-	triumph_cost_permanent = 45
 
 /datum/loadout_item/silk_coat
 	name = "Padded Noble Silken Coat"
@@ -146,7 +174,7 @@
 	triumph_cost_permanent = 45
 
 /datum/loadout_item/fencerjacket
-	name = "Leather Belted Jerkin"
+	name = "Fencer Jacket"
 	item_path = /obj/item/clothing/armor/leather/fencer
 	ui_category = "Armor"
 

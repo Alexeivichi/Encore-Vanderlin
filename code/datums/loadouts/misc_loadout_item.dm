@@ -54,6 +54,13 @@
 
 	triumph_cost_permanent = 15
 
+/datum/loadout_item/royal_sleeves
+	name = "Royal Sleeves"
+	item_path = /obj/item/clothing/wrists/royalsleeves
+	ui_category = "Miscellaneous"
+	triumph_cost_permanent = 35
+	loadout_flags = LOADOUT_FLAG_NO_RENT
+
 /datum/loadout_item/pocket_rous
 	name = "Pocket Rous"
 	description = "It's like a normal rat, but it fits in your pocket."

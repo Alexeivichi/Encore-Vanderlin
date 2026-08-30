@@ -31,18 +31,17 @@
 	ui_category = "Accessories"
 	triumph_cost_permanent = 2
 
+/datum/loadout_item/double_belt
+	name = "Leather Bracers Sheath"
+	item_path = /obj/item/clothing/wrists/bracers/leather/scabbard
+	ui_category = "Accessories"
+	triumph_cost_permanent = 5
+
 /datum/loadout_item/breechcloth
 	name = "Breechcloth"
 	item_path = /obj/item/storage/belt/leather/breechcloth
 	ui_category = "Accessories"
 	triumph_cost_permanent = 2
-
-/datum/loadout_item/jestershoes
-	name = "Jester's Shoes"
-	item_path = /obj/item/clothing/shoes/jester
-	ui_category = "Accessories"
-
-	triumph_cost_permanent = 15
 
 /datum/loadout_item/wedding_band
 	name = "Silver Wedding Band"
