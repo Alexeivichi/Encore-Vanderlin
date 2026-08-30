@@ -1,0 +1,15 @@
+author: "Minomato"
+delete-after: True
+changes:
+  - rscadd: "Rakshari now have a toggled Extend Claws power"
+  - rscdel: "obsolete keen_nose list entry on werewolf.dm"
+  - rscdel: "commented out cough cooldowns on Vultura and Knoblits for now, not respecting sneak for some reason (meow/purr cooldown staying on Rakshari for now, it's tremendously funny but I can definitely remove it for them if need be)"
+  - qol: "starting nutrition/hydration minimum values raised by 200 points each"
+  - balance: "Lupians now have Darkvision, Strong Bite, the Scent-Sense Ability, and +1 skill tier to Butchering"
+  - balance: "Rakshari now have Darkvision and +1 skill tier to Sneaking"
+  - bugfix: "Lupians will now learn common properly on spawn"
+  - bugfix: "Hobknoblits are no longer limited to it/it pronouns"
+  - bugfix: "Vultura, Hobknoblit and Knoblit descriptions of their features and bonuses are more complete"
+  - image: "added extended claw icon to fists_claws.dni"
+  - bugfix: "explorer vest should now have l_ and r_ sleeves"
+  - bugfix: "leather armor _f should now be positioned correctly on left and right frames"
