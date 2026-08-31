@@ -263,16 +263,16 @@
 	var/wall_index = 1
 	var/door_index = 1
 
-	if(can_build_above)
-		// Deploy ground level walls (skip door positions)
-		for(var/turf/wall_turf in wall_coords)
-			if(wall_index <= length(tent_walls))
-				var/obj/structure/tent_wall/wall = tent_walls[wall_index]
-				wall.forceMove(wall_turf)
-				RegisterSignal(wall, COMSIG_QDELETING, PROC_REF(part_destroyed))
-				RegisterSignal(wall, COMSIG_MOVABLE_MOVED, PROC_REF(part_moved))
-				wall_index++
+	// Always place the ground-level tent walls. If there is open space above, the roof sections are placed after.
+	for(var/turf/wall_turf in wall_coords)
+		if(wall_index <= length(tent_walls))
+			var/obj/structure/tent_wall/wall = tent_walls[wall_index]
+			wall.forceMove(wall_turf)
+			RegisterSignal(wall, COMSIG_QDELETING, PROC_REF(part_destroyed))
+			RegisterSignal(wall, COMSIG_MOVABLE_MOVED, PROC_REF(part_moved))
+			wall_index++
 
+	if(can_build_above)
 		// Deploy upper level walls for tent shape
 		for(var/turf/upper_wall_turf in upper_wall_coords)
 			if(wall_index <= length(tent_walls))
@@ -339,14 +339,14 @@
 
 	// Pack up all deployed walls
 	for(var/obj/structure/tent_wall/wall in tent_walls)
-		var/turf/door_turf = get_turf(wall)
+		var/turf/wall_turf = get_turf(wall)
 		if(wall.loc != src) // If it's deployed
 			UnregisterSignal(wall, list(COMSIG_QDELETING, COMSIG_MOVABLE_MOVED))
 			wall.forceMove(src)
-			// Reset wall properties
 			wall.name = initial(wall.name)
 			wall.desc = initial(wall.desc)
-		door_turf.reassess_stack()
+		if(wall_turf)
+			wall_turf.reassess_stack()
 
 	// Pack up all deployed doors
 	for(var/obj/structure/roguetent/door in tent_doors)
@@ -354,9 +354,9 @@
 		if(door.loc != src) // If it's deployed
 			UnregisterSignal(door, list(COMSIG_QDELETING, COMSIG_MOVABLE_MOVED))
 			door.forceMove(src)
-			// Reset door description
 			door.desc = initial(door.desc)
-		door_turf.reassess_stack()
+		if(door_turf)
+			door_turf.reassess_stack()
 
 	// Clear pseudo_roof from any remaining turfs
 	var/turf/center_turf = get_turf(src)
