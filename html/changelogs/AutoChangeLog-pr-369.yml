@@ -1,0 +1,4 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - bugfix: "People with the silverblessed trait can have magic used on them again."
