@@ -111,6 +111,7 @@
 		/obj/item/flint,
 		/obj/item/weapon/knife/villager,
 		/obj/item/needle,
+		/obj/item/flashlight/flare/torch/lantern,
 	)
 	ring = /obj/item/clothing/ring/silver/makers_guild
 
