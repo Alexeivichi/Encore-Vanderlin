@@ -222,8 +222,63 @@ GLOBAL_LIST_EMPTY(save_whitelist)
 
 /proc/build_whitelist()
 	var/list/list = list()
-	list += typesof(/obj/item/bedsheet)
-	list += typesof(/obj/item/kitchen)
+	list += typesof(/obj/item/bedsheet) //self explantory
+	list += typesof(/obj/item/kitchen) //all kitchen items
+	list += typesof(/obj/item/weapon) //weapons
+	list += typesof(/obj/item/storage) //bags and the like
+	list += typesof(/obj/item/organ) // your, uh, organs
+	list += typesof(/obj/item/clothing) //yep this one is self explanatory too
+	list += typesof(/obj/item/ore) //tin, iron and coal etc
+	list += typesof(/obj/item/reagent_containers) //this covers anything that holds reagents, this includes bottles and food items. Theres a lot of these. If the server shits the bed, this did it.
+	list += typesof(/obj/item/natural) //Cloth, leather, westleach etc
+	list += typesof(/obj/item/gem)
+	list += typesof(/obj/item/painting)
+	list += typesof(/obj/item/perfume)
+	list += typesof(/obj/item/needle)
+	list += typesof(/obj/item/plate)
+	list += typesof(/obj/item/statue)
+	list += typesof(/obj/item/soap)
+	list += typesof(/obj/item/mould)
+	list += typesof(/obj/item/tent_kit)
+	list += typesof(/obj/item/customlock)
+	list += typesof(/obj/item/gear)
+	list += typesof(/obj/item/flint)
+	list += typesof(/obj/item/grapplinghook)
+	list += typesof(/obj/item/rope)
+	list += typesof(/obj/item/spell_focus)
+	list += typesof(/obj/item/trash)
+	list += typesof(/obj/item/coin)
+	list += typesof(/obj/item/contraption)
+	list += typesof(/obj/item/lipstick)
+	list += typesof(/obj/item/dice_cup)
+	list += typesof(/obj/item/quicksilver)
+	list += typesof(/obj/item/augment_kit)
+	list += typesof(/obj/item/bait)
+	list += typesof(/obj/item/restraints)
+	list += typesof(/obj/item/book)
+	list += typesof(/obj/item/bouquet)
+	list += typesof(/obj/item/broom)
+	list += typesof(/obj/item/candle)
+	list += typesof(/obj/item/dmusicbox)
+	list += typesof(/obj/item/caparison)
+	list += typesof(/obj/item/gravedecor)
+	list += typesof(/obj/item/hourglass)
+	list += typesof(/obj/item/chalk)
+	list += typesof(/obj/item/mimictrinket)
+	list += typesof(/obj/item/flashlight)
+	list += typesof(/obj/item/pylon_linker)
+	list += typesof(/obj/item/textbook)
+	list += typesof(/obj/item/cooking)
+	list += typesof(/obj/item/alch)
+	list += typesof(/obj/item/ingot)
+	list += typesof(/obj/item/lockpick)
+	list += typesof(/obj/item/lockpickring)
+	list += typesof(/obj/item/canvas)
+	list += typesof(/obj/item/paint_brush)
+	list += typesof(/obj/item/paint_palette)
+	list += typesof(/obj/item/melee)
+	list += typesof(/obj/item/gem_device)
+
 	return list
 
 /**
