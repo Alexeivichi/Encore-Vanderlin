@@ -25737,7 +25737,7 @@
 /obj/effect/landmark/house_spot{
 	default_template = /datum/map_template/medium_workplace;
 	property_id = "medium_workplace_one";
-	save_id = "medium_workplace";
+	save_id = "medium_workplace_one";
 	template_y = 6;
 	template_x = 11;
 	template_z = 5;
@@ -29355,7 +29355,7 @@
 /obj/effect/landmark/house_spot{
 	default_template = /datum/map_template/medium_workplace_two;
 	property_id = "medium_workplace_two";
-	save_id = "medium_workplace";
+	save_id = "medium_workplace_two";
 	template_y = 6;
 	template_x = 11;
 	template_z = 5;
@@ -80245,7 +80245,7 @@ rmI
 wlN
 wlN
 wlN
-wlN
+fNx
 wlN
 fNx
 fNx
