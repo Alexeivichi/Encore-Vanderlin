@@ -340,19 +340,6 @@
 /obj/structure/fluff/railing/border,
 /turf/open/floor/blocks/stonered,
 /area/template_noop)
-"GO" = (
-/obj/structure/fluff/walldeco/masonflag,
-/obj/effect/landmark/house_spot{
-	default_template = /datum/map_template/medium_workplace;
-	property_id = "medium_workplace_one";
-	save_id = "medium_workplace";
-	template_y = 6;
-	template_x = 11;
-	template_z = 5;
-	rent_cost = 200
-	},
-/turf/closed/wall/mineral/stone,
-/area/template_noop)
 "GS" = (
 /turf/closed/wall/mineral/stonebrick,
 /area/template_noop)
@@ -477,7 +464,7 @@ Kp
 TY
 TY
 Kp
-GO
+VA
 "}
 (2,1,1) = {"
 yn
