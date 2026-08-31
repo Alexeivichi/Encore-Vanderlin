@@ -34,7 +34,7 @@
 	accesses = list(ACCESS_INN)
 	difficulty = LOCK_EXPERT
 
-obj/effect/mapping_helpers/access/keyset/town/yeoman
+/obj/effect/mapping_helpers/access/keyset/town/yeoman
 	accesses = list(ACCESS_YEOMAN)
 	difficulty = LOCK_EXPERT
 
