@@ -31,11 +31,12 @@
 	if(helditemvalue < 10)
 		to_chat(owner, span_info("This has little value, it will be of no use in such a transaction."))
 		return
-	if(istype(cast_on.patron, /datum/patron/angros))
+/*	if(istype(cast_on.patron, /datum/patron/angros))
 		owner.playsound_local(owner, 'sound/magic/PSY.ogg', 100, FALSE, -1)
 		cast_on.visible_message(span_info("[cast_on] stirs for a moment, the miracle dissipates."), span_notice("A dull warmth swells in your heart, only to fade as quickly as it arrived."))
 		playsound(cast_on, 'sound/magic/PSY.ogg', 100, FALSE, -1)
 		return
+*/
 	if(ismobholder(held_item))
 		var/obj/item/mob_holder/holder = held_item
 		var/mob/living/held_mob = holder.held_mob
