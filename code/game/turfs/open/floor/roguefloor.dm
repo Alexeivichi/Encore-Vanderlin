@@ -1072,6 +1072,9 @@
 	clawfootstep = FOOTSTEP_HARD_CLAW
 	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
 
+/turf/open/glass/LateInitialize()
+	. = ..()
+	ADD_TURF_TRANSPARENCY(src, INNATE_TRAIT)
 
 /turf/open/floor/abyss_sand
 	name = "abyssal sand"

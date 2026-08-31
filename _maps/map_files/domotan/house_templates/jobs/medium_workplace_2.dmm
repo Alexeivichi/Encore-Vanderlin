@@ -1,53 +1,5 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aJ" = (
-/obj/structure/closet/crate/chest/shippingcrate{
-	name = "shop setup supplies crate"
-	},
-/obj/item/natural/bundle/plank{
-	amount = 10
-	},
-/obj/item/natural/bundle/plank{
-	amount = 10
-	},
-/obj/item/natural/bundle/plank{
-	amount = 10
-	},
-/obj/item/natural/bundle/stoneblock{
-	amount = 4
-	},
-/obj/item/natural/bundle/stoneblock{
-	amount = 4
-	},
-/obj/item/natural/bundle/stoneblock{
-	amount = 4
-	},
-/obj/item/natural/bundle/stoneblock{
-	amount = 4
-	},
-/obj/item/natural/bundle/stick{
-	amount = 10
-	},
-/obj/item/natural/bundle/stick{
-	amount = 10
-	},
-/obj/item/natural/bundle/brick{
-	amount = 4
-	},
-/obj/item/natural/bundle/brick{
-	amount = 4
-	},
-/obj/item/natural/bundle/plank{
-	amount = 10
-	},
-/obj/item/natural/bundle/plank{
-	amount = 10
-	},
-/obj/item/natural/bundle/plank{
-	amount = 10
-	},
-/obj/item/natural/bundle/plank{
-	amount = 10
-	},
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/tile/brick,
 /area/template_noop)
@@ -130,26 +82,9 @@
 /turf/open/floor/tile/brick,
 /area/template_noop)
 "iZ" = (
-/obj/item/natural/stone,
-/obj/item/natural/stone,
-/obj/item/natural/stone,
-/obj/item/natural/stone,
-/obj/item/natural/stone,
-/obj/item/natural/stone,
-/obj/item/natural/stone,
-/obj/item/natural/stone,
-/obj/item/natural/stone,
-/obj/item/natural/stone,
-/obj/item/natural/clod/dirt,
-/obj/item/natural/clod/dirt,
-/obj/item/natural/clod/dirt,
-/obj/item/natural/clod/dirt,
-/obj/item/natural/clod/dirt,
-/obj/item/natural/clod/dirt,
-/obj/structure/closet/crate/chest/shippingcrate{
-	name = "shop setup supplies crate"
-	},
-/turf/open/floor/tile/brick,
+/obj/effect/spawner/guaranteed_map_spawner/listed/clothes,
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/turned,
 /area/template_noop)
 "jI" = (
 /obj/structure/window/openclose{
@@ -171,8 +106,6 @@
 /area/template_noop)
 "lq" = (
 /obj/structure/closet/crate/crafted_closet/inn,
-/obj/item/key/houses/workplace1,
-/obj/effect/spawner/guaranteed_map_spawner/listed/clothes,
 /turf/open/floor/ruinedwood/turned,
 /area/template_noop)
 "ls" = (
@@ -191,29 +124,6 @@
 "mB" = (
 /obj/structure/fluff/walldeco/vinez/red,
 /turf/closed/wall/mineral/stone,
-/area/template_noop)
-"nN" = (
-/obj/structure/closet/crate/chest/shippingcrate{
-	name = "shop setup supplies crate"
-	},
-/obj/item/natural/bundle/cloth/roll{
-	amount = 4
-	},
-/obj/item/natural/bundle/cloth/roll{
-	amount = 4
-	},
-/obj/item/natural/bundle/cloth/roll{
-	amount = 4
-	},
-/obj/item/natural/bundle/cloth/roll{
-	amount = 4
-	},
-/obj/item/natural/bundle/glass,
-/obj/item/natural/bundle/glass,
-/obj/item/natural/bundle/plank{
-	amount = 10
-	},
-/turf/open/floor/tile/brick,
 /area/template_noop)
 "oN" = (
 /obj/machinery/light/fueled/wallfire/candle/r,
@@ -285,7 +195,7 @@
 /turf/open/floor/tile/brick,
 /area/template_noop)
 "yn" = (
-/obj/structure/sign/property_sign/for_sale,
+/obj/structure/sign/property_sign/claim,
 /turf/closed/wall/mineral/stone/moss,
 /area/template_noop)
 "yP" = (
@@ -325,6 +235,7 @@
 	amount = 10
 	},
 /obj/machinery/light/fueled/torchholder/l,
+/obj/item/key/houses/workplace2,
 /turf/open/floor/ruinedwood/darker,
 /area/template_noop)
 "ET" = (
@@ -484,7 +395,7 @@ TY
 "}
 (4,1,1) = {"
 Yu
-iZ
+xl
 xl
 xl
 xl
@@ -500,7 +411,7 @@ db
 "}
 (6,1,1) = {"
 bH
-nN
+xl
 xl
 xl
 xl
@@ -697,7 +608,7 @@ ph
 HI
 AC
 AC
-AC
+iZ
 ls
 "}
 (9,1,3) = {"
