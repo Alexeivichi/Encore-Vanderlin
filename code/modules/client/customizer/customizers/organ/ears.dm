@@ -15,7 +15,7 @@
 	sprite_accessories = list(
 		/datum/sprite_accessory/ears/elf,
 		/datum/sprite_accessory/ears/elfw,
-		/datum/sprite_accessory/ears/elfww,
+		/datum/sprite_accessory/ears/elfh,
 		/datum/sprite_accessory/ears/elfwww,
 		/datum/sprite_accessory/ears/elfttw)
 
@@ -33,9 +33,9 @@
 	sprite_accessories = list(
 		/datum/sprite_accessory/ears/elf,
 		/datum/sprite_accessory/ears/elfw,
-		/datum/sprite_accessory/ears/elftw,
-		/datum/sprite_accessory/ears/elfww
-		)
+		/datum/sprite_accessory/ears/elfh,
+		/datum/sprite_accessory/ears/elfwww,
+		/datum/sprite_accessory/ears/elfttw)
 
 /datum/customizer/organ/ears/tiefling
 	customizer_choices = list(/datum/customizer_choice/organ/ears/tiefling)
@@ -47,9 +47,9 @@
 	sprite_accessories = list(
 		/datum/sprite_accessory/ears/elf,
 		/datum/sprite_accessory/ears/elfw,
-		/datum/sprite_accessory/ears/elftw,
-		/datum/sprite_accessory/ears/elfww
-		)
+		/datum/sprite_accessory/ears/elfh,
+		/datum/sprite_accessory/ears/elfwww,
+		/datum/sprite_accessory/ears/elfttw)
 
 /datum/customizer/organ/ears/anthro
 	customizer_choices = list(/datum/customizer_choice/organ/ears/anthro)
