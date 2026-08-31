@@ -46,6 +46,7 @@
 		/obj/item/paper,
 		/obj/item/recipe_book/carpentry,
 		/obj/item/recipe_book/masonry,
+		/obj/item/weapon/knife/villager,
 	)
 
 /datum/attribute_holder/sheet/job/yeoman/handmason
@@ -102,11 +103,14 @@
 	backl = /obj/item/storage/backpack/backpack
 	backpack_contents = list(
 		/obj/item/weapon/tongs,
-		/obj/item/weapon/hammer,
+		/obj/item/weapon/hammer/steel,
 		/obj/item/ore/coal = 2,
 		/obj/item/ore/iron = 3,
 		/obj/item/recipe_book/blacksmithing,
 		/obj/item/recipe_book/engineering,
+		/obj/item/flint,
+		/obj/item/weapon/knife/villager,
+		/obj/item/needle,
 	)
 	ring = /obj/item/clothing/ring/silver/makers_guild
 
@@ -229,6 +233,7 @@
 		/obj/item/neuFarm/seed/potato = 3,
 		/obj/item/recipe_book/agriculture,
 		/obj/item/recipe_book/cooking,
+		/obj/item/needle,
 	)
 
 /datum/attribute_holder/sheet/job/yeoman/homesteader
@@ -258,6 +263,7 @@
 		/datum/attribute/skill/craft/tanning = 10,
 		/datum/attribute/skill/misc/riding = 10,
 		/datum/attribute/skill/craft/masonry = 10,
+		/datum/attribute/skill/craft/alchemy = 15,
 	)
 
 
