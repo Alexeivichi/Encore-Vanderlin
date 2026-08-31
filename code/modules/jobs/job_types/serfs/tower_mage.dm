@@ -59,6 +59,9 @@
 	max_apprentices = 1
 	book_type = /obj/item/recipe_book/arcyne
 
+	form_points = 6
+	technique_points = 8
+
 	spells = list(
 		/datum/action/cooldown/spell/undirected/touch/prestidigitation,
 	)
@@ -100,7 +103,8 @@
 	backpack_contents = list(
 		/obj/item/chalk = 1,
 		/obj/item/weapon/knife/dagger/silver/arcyne = 1,
-		/obj/item/storage/keyring/mageapprentice = 1
+		/obj/item/storage/keyring/mageapprentice = 1,
+		/obj/item/key/tower,
 	)
 
 /datum/job/tower_mage/on_roundstart(mob/living/spawned, client/player_client)
