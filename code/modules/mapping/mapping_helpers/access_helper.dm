@@ -34,6 +34,11 @@
 	accesses = list(ACCESS_INN)
 	difficulty = LOCK_EXPERT
 
+/obj/effect/mapping_helpers/access/keyset/town/yeoman
+	accesses = list(ACCESS_YEOMAN)
+	difficulty = LOCK_EXPERT
+
+
 /obj/effect/mapping_helpers/access/keyset/town/inn_room
 	color = "#1f4a60"
 	accesses = list(ACCESS_INN)

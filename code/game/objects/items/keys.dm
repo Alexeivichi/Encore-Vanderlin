@@ -198,6 +198,12 @@
 	icon_state = "brownkey"
 	lockids = list(ACCESS_MINER)
 
+/obj/item/key/yeoman
+	name = "yeoman's key"
+	desc = "This bronze key should open the places of the yeomanry."
+	icon_state = "brownkey"
+	lockids = list(ACCESS_YEOMAN)
+
 // Residents
 
 /obj/item/key/matron
