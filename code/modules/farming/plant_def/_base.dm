@@ -29,7 +29,7 @@
 	/// Color all seeds of this plant def will have
 	var/seed_color
 	/// Whether the plant can grow underground
-	var/can_grow_underground = FALSE
+	var/can_grow_underground = TRUE
 	/// Whether the plant can grow in mushroom mound
 	var/mound_growth = FALSE
 
