@@ -1,0 +1,11 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - bugfix: "Persistent shops are persistent again and don't cost money this time"
+  - bugfix: "House V's roof is returned"
+  - bugfix: "House key vendor is moved to be more accessible"
+  - bugfix: "Institute's door accesses are fixed"
+  - bugfix: "Added basic tools to the Yeoman subclass loadouts and the makers quarter"
+  - bugfix: "Fixed a bunch of redundant staircases"
+  - bugfix: "Fixed Hobknoblits being unable to spawn as Pilgrim"
+  - bugfix: "Fixes Mount Decapitation mentions in code"
