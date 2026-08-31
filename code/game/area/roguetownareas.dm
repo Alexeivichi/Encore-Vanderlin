@@ -82,7 +82,7 @@
 	threat_region = THREAT_REGION_MOUNT_DECAP
 
 /area/outdoors/mountains/decap
-	name = "mt decapitation"
+	name = "mount miracle"
 	icon_state = "decap"
 	ambush_types = list(
 				/turf/open/floor/dirt)

@@ -141,14 +141,14 @@ GLOBAL_LIST_EMPTY(last_words)
 	var/area_of_death = LOWER_TEXT(get_area_name(src))
 	var/locale = "a locale wreathed in enigmatic fog"
 	switch (area_of_death) // we're deliberately obtuse with this.
-		if ("mountains", "mt decapitation", "goler kanh's pedestal forest", "goler kanh's pedestal under lower caves", "goler kanh's pedestal cave building", "goler kanh's pedestal lower dungeon", "goler kanh's pedestal surface building", "goler kanh's pedestal hidden grove", "goler kanh's pedestal peak")
+		if ("mountains", "mount miracle", "mount miracle foothills", "mount miracle summit", "mount miracle ruins", "mount miracle lower dungeon", "mount miracle surface building", "mount miracle hidden grove", "mount miracle peak")
 			locale = "a twisted tangle of dense rocks and rivers of lava"
-		if ("wilderness", "azure basin")
+		if ("wilderness", "county of etgard")
 			locale = "somewhere in the wilds"
 		if ("the bog", "bog", "dense bog", "latejoin cave")
 			locale = "a wretched, fetid bog"
 		if ("coast", "coastforest", "river")
-			locale = "somewhere betwixt Mjallidhorn's realm and Gani's bounty"
+			locale = "somewhere betwixt Mjallidhorn's shores and Gani's firmament"
 		if ("indoors", "shop", "physician", "outdoors", "roofs", "manor", "wizard's tower", "garrison","village garrison", "dungeon cell", "baths", "tavern", "basement")
 			locale = "the town of [SSmapping.config.map_name] and all its bustling souls"
 		if ("sewers")
