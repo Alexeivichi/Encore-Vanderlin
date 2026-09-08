@@ -1,8 +1,0 @@
-author: "kyres1"
-delete-after: True
-changes:
-  - balance: "Most difficult mobs no longer bleed."
-  - balance: "Most ambush areas now spawn more varying enemies."
-  - bugfix: "Fixed improper area placement in Old Doma causing goblin ambushes"
-  - bugfix: "Fixed incorrect threat region labels"
-  - bugfix: "Removes mentions of Vanderlin lore from racoons and bobcat descs"

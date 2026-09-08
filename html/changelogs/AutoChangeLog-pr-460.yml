@@ -1,9 +1,0 @@
-author: "kyres1"
-delete-after: True
-changes:
-  - rscadd: "Changes the name of the tavern to Wynceslar's Pride by consequence of funny events that occurred in-round."
-  - rscadd: "Adds an innkeeper's silverface to the tavern."
-  - rscadd: "Added shutters to the tavern."
-  - rscdel: "Removed the ambience from the tavern temporarily without replacement because it's headache inducing."
-  - qol: "Slightly remaps the main level of the tavern for space and glamor."
-  - map: "Locks all internal doors of the tavern to avoid people charging in and stealing food for free."

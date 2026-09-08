@@ -1,5 +1,0 @@
-author: "furrycactus"
-delete-after: True
-changes:
-  - bugfix: "Fixed Tower Mages spawning without pants."
-  - balance: "Makes various changes to the Mage job form and technique points."

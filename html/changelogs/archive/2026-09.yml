@@ -455,3 +455,32 @@
   - rscadd: Robes can now be worn on the Cloak slot.
   kyres1:
   - bugfix: Tries fixing the satanic template again.
+2026-09-08:
+  MisterLayne:
+  - rscadd: Functional boss healthbar.
+  - refactor: SilenceLobbyMusic replaced with ToggleLobbyMusic.
+  PineappleMan929:
+  - balance: more saveable items in housing
+  furrycactus:
+  - bugfix: Fixed Tower Mages spawning without pants.
+  - balance: Makes various changes to the Mage job form and technique points.
+  - balance: Added more intents to the Stone Knife and Aetherknife.
+  - bugfix: Fixes the divine hoard secret door.
+  - bugfix: Fixes some redundant winches and stairs.
+  - balance: Added hefty point costs to Foreign Nobility, Local Nobility, Deadened,
+      and Flawed Immortality.
+  kyres1:
+  - rscadd: Changes the name of the tavern to Wynceslar's Pride by consequence of
+      funny events that occurred in-round.
+  - rscadd: Adds an innkeeper's silverface to the tavern.
+  - rscadd: Added shutters to the tavern.
+  - rscdel: Removed the ambience from the tavern temporarily without replacement because
+      it's headache inducing.
+  - qol: Slightly remaps the main level of the tavern for space and glamor.
+  - map: Locks all internal doors of the tavern to avoid people charging in and stealing
+      food for free.
+  - balance: Most difficult mobs no longer bleed.
+  - balance: Most ambush areas now spawn more varying enemies.
+  - bugfix: Fixed improper area placement in Old Doma causing goblin ambushes
+  - bugfix: Fixed incorrect threat region labels
+  - bugfix: Removes mentions of Vanderlin lore from racoons and bobcat descs
