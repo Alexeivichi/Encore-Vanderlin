@@ -2,8 +2,8 @@
 
 /obj/item/weapon/umbrella
 	icon = 'icons/roguetown/weapons/32/umbrellas.dmi' //temporarily using scabbards for testing .dmi
-	lefthand_file = 'icons/mob/inhands/weapons/umbrellas_inhand_lh.dmi'
-	righthand_file = 'icons/mob/inhands/weapons/umbrellas_inhand_rh.dmi'
+	lefthand_file = 'icons/mob/inhands/weapons/umbrella_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/weapons/umbrella_righthand.dmi'
 	resistance_flags = FLAMMABLE
 	parrysound = "parrywood"
 	attacked_sound = "parrywood"
