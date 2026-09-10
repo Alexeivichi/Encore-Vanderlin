@@ -1,9 +1,9 @@
 // Parasol and umbrellas go here, for all your - I hate sun and I hate the rain - needs!
 
 /obj/item/weapon/umbrella
-	icon = 'icons/roguetown/weapons/32/umbrellas.dmi' //temporarily using scabbards for testing .dmi
-	lefthand_file = 'icons/mob/inhands/weapons/umbrella_lefthand.dmi'
-	righthand_file = 'icons/mob/inhands/weapons/umbrella_righthand.dmi'
+	icon = 'icons/roguetown/weapons/32/umbrellas.dmi'
+	lefthand_file = 'icons/mob/inhands/misc/umbrella_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/misc/umbrella_righthand.dmi'
 	resistance_flags = FLAMMABLE
 	parrysound = "parrywood"
 	attacked_sound = "parrywood"
@@ -15,7 +15,7 @@
 	var/open = FALSE
 
 
-/obj/item/weapon/umbrella/attack_hand_secondary(mob/user, list/modifiers)
+/obj/item/weapon/umbrella/attack_self(mob/user, list/modifiers)
 	. = ..()
 	open = !open
 	update_appearance(UPDATE_ICON_STATE)
@@ -24,7 +24,9 @@
 
 /obj/item/weapon/umbrella/update_icon_state()
 	. = ..()
-	icon_state = "[initial(icon_state)] + (open ? "-open" : "")
+	icon_state = "[initial(icon_state)][open ? "-open" : ""]"
+	item_state = "[initial(item_state)][open ? "-open" : ""]"
+
 
 /*
 	NORMAL UMBRELLAS
