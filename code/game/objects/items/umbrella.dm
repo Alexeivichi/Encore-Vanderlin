@@ -24,7 +24,7 @@
 
 /obj/item/weapon/umbrella/update_icon_state()
 	. = ..()
-	icon_state = "umbrella" + (open ? "-open" : "")
+	icon_state = "[initial(icon_state)] + (open ? "-open" : "")
 
 /*
 	NORMAL UMBRELLAS
