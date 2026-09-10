@@ -2,8 +2,8 @@
 
 /obj/item/weapon/umbrella
 	icon = 'icons/roguetown/weapons/32/umbrellas.dmi' //temporarily using scabbards for testing .dmi
-	lefthand_file = 'icons/mob/inhands/misc/umbrellas_inhand_lh.dmi'
-	righthand_file = 'icons/mob/inhands/misc/umbrellas_inhand_lh.dmi'
+	lefthand_file = 'icons/mob/inhands/weapons/umbrellas_inhand_lh.dmi'
+	righthand_file = 'icons/mob/inhands/weapons/umbrellas_inhand_rh.dmi'
 	resistance_flags = FLAMMABLE
 	parrysound = "parrywood"
 	attacked_sound = "parrywood"
@@ -32,7 +32,7 @@
 
 /obj/item/weapon/umbrella/basic
 	name = "test parasol"
-	desc = "A commoner's parasol, for shielding one's self from the rain and sun during a harsh day."
+	desc = "A well-made parasol, for shielding one's self from the rain and sun during a harsh day."
 	icon_state = "umbrella"
 	force = DAMAGE_MACE - 8
 	w_class = WEIGHT_CLASS_BULKY
