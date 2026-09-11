@@ -32,6 +32,16 @@
 		user.remove_traits(list(TRAIT_WEATHER_IMMUNE), REF(src))
 		to_chat(user, span_notice("You close the umbrella."))
 
+/obj/item/weapon/umbrella/dropped(mob/user, silent = FALSE) //dropped cleanup
+	if(open && user)
+		user.remove_traits(list(TRAIT_WEATHER_IMMUNE), REF(src))
+	return ..()
+
+/obj/item/weapon/umbrella/Destroy() //qdel or item breaking cleanup
+	if(open && isliving(loc))
+		loc.remove_traits(list(TRAIT_WEATHER_IMMUNE), REF(src))
+	return ..()
+
 /obj/item/weapon/umbrella/update_icon_state() //open and close sprites update, coded to support other umbrella subpaths
 	. = ..()
 	icon_state = "[initial(icon_state)][open ? "-on" : ""]"
