@@ -9,9 +9,9 @@
 	parrysound = "parrywood"
 	attacked_sound = "parrywood"
 	sharpness = IS_BLUNT
-	wdefense = AVERAGE_PARRY
-	max_integrity = INTEGRITY_STANDARD
-	slot_flags = ITEM_SLOT_BACK
+	wdefense = GOOD_PARRY
+	max_integrity = INTEGRITY_POOR + 25 // desperate weapon
+	w_class = WEIGHT_CLASS_NORMAL
 	possible_item_intents = list(SHIELD_BASH)
 	var/open = FALSE
 
@@ -53,7 +53,7 @@
 
 /obj/item/weapon/umbrella/basic
 	name = "parasol"
-	desc = "A well-made parasol, used for shielding one's self from the rain and sun during a harsh day."
+	desc = "A well-made foldable canopy, used for shielding one's self from the rain and sun during a harsh day."
 	icon_state = "umbrella"
 	item_state = "umbrella"
 	force = DAMAGE_MACE - 8
