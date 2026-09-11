@@ -11,7 +11,7 @@
 	sharpness = IS_BLUNT
 	wdefense = GOOD_PARRY
 	max_integrity = INTEGRITY_POOR + 25 // desperate weapon
-	w_class = WEIGHT_CLASS_SMALL
+	w_class = WEIGHT_CLASS_NORMAL
 	possible_item_intents = list(SHIELD_BASH)
 	var/open = FALSE
 
@@ -57,7 +57,7 @@
 	icon_state = "umbrella"
 	item_state = "umbrella"
 	force = DAMAGE_MACE - 8
-	w_class = WEIGHT_CLASS_BULKY
+	w_class = WEIGHT_CLASS_SMALL
 	dyeable = TRUE
 	anvilrepair = /datum/attribute/skill/craft/carpentry
 	associated_skill = /datum/attribute/skill/combat/swords
