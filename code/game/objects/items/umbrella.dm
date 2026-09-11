@@ -32,12 +32,12 @@
 		user.remove_traits(list(TRAIT_WEATHER_IMMUNE), REF(src))
 		to_chat(user, span_notice("You close the umbrella."))
 
-obj/item/weapon/umbrella/dropped(mob/user, silent = FALSE) //dropped cleanup
+/obj/item/weapon/umbrella/proc/dropped(mob/user, silent = FALSE) //dropped cleanup
 	if(open && user)
 		user.remove_traits(list(TRAIT_WEATHER_IMMUNE), REF(src))
 	return ..()
 
-obj/item/weapon/umbrella/Destroy() //qdel or item breaking cleanup
+/obj/item/weapon/umbrella/proc/Destroy() //qdel or item breaking cleanup
 	if(open && isliving(loc))
 		loc.remove_traits(list(TRAIT_WEATHER_IMMUNE), REF(src))
 	return ..()
