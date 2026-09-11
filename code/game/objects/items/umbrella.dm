@@ -11,7 +11,7 @@
 	sharpness = IS_BLUNT
 	wdefense = GOOD_PARRY
 	max_integrity = INTEGRITY_POOR + 25 // desperate weapon
-	w_class = WEIGHT_CLASS_NORMAL
+	w_class = WEIGHT_CLASS_SMALL
 	possible_item_intents = list(SHIELD_BASH)
 	var/open = FALSE
 
