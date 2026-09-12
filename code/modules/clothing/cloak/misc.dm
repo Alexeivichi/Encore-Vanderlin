@@ -425,3 +425,16 @@
 	slot_flags = ITEM_SLOT_BACK_R|ITEM_SLOT_CLOAK
 	color = "#FFFFFF"
 	detail_color = "#FFFFFF"
+
+/obj/item/clothing/cloak/rosa
+	name = "regal cloak"
+	desc = "A finely crafted cloak from the west, typically worn by their nobility."
+	icon_state = "rosacloak7"
+	alternate_worn_layer = CLOAK_BEHIND_LAYER
+	icon = 'icons/roguetown/clothing/special/rosewood.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/rosewood.dmi'
+	sleeved = 'icons/roguetown/clothing/special/onmob/rosewood.dmi'
+
+/obj/item/clothing/cloak/rosa/two
+	name = "courtly cloak"
+	icon_state = "rosacloak8"
