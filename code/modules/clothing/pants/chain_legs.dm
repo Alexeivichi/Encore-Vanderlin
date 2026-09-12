@@ -67,5 +67,5 @@
 	desc = "Splint mail and brigandine chausses, designed to protect the legs while still providing almost complete free range of movement."
 	icon_state = "steelsplintlegs"
 	item_state = "steelsplintlegs"
-	armor_type = /datum/armor/pants/maille/iron
+	armor_type = /datum/armor/pants/maille
 	max_integrity = INTEGRITY_STRONG

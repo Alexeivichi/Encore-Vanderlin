@@ -214,6 +214,10 @@
 	name = "Iron Gorget"
 	created_item = /obj/item/clothing/neck/gorget
 
+/datum/anvil_recipe/armor/iron/chainbreaker
+	name = "Chainbreaker Collar"
+	created_item = /obj/item/clothing/neck/gorget/chainbreaker
+
 /datum/anvil_recipe/armor/iron/chaincoif
 	name = "Iron Chain Coif"
 	created_item = /obj/item/clothing/neck/chaincoif/iron
@@ -496,6 +500,11 @@
 	created_item = /obj/item/clothing/wrists/bracers/jackchain
 	output_amount = 2
 
+/datum/anvil_recipe/armor/steel/rerebrace
+	name = "Brigandine Rerebraces"
+	created_item = /obj/item/clothing/wrists/bracers/splintarms
+	output_amount = 2
+
 /datum/anvil_recipe/armor/steel/platemask
 	name = "Steel Mask"
 	created_item = /obj/item/clothing/face/facemask/steel
@@ -622,6 +631,10 @@
 /datum/anvil_recipe/armor/steel/chainkilt_steel
 	name = "Chain Kilt"
 	created_item = /obj/item/clothing/pants/chainlegs/kilt
+
+/datum/anvil_recipe/armor/steel/brigchausses
+	name = "brigandine chausses"
+	created_item = /obj/item/clothing/pants/chainlegs/splint
 
 /datum/anvil_recipe/armor/steel/haubergeon
 	name = "Haubergeon"

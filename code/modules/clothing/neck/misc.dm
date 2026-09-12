@@ -418,7 +418,7 @@
 
 /obj/item/clothing/neck/gorget/chainbreaker
 	name = "chainbreaker collar"
-	desc = "A old reminder."
+	desc = "A old reminder. Chainbreakers company wears these to remind themselves what they fight for, and to proudly announce their fight to those that behold them."
 	icon_state = "chainbreaker_collar"
 
 /obj/item/clothing/neck/gorget/kazengun
