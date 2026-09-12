@@ -144,3 +144,10 @@
 	ui_category = "Neck"
 
 	triumph_cost_permanent = 0
+
+/datum/loadout_item/allaspect_cross
+	name = "Amulet of the All-Aspect"
+	item_path = /obj/item/clothing/neck/psycross
+	ui_category = "Neck"
+
+	triumph_cost_permanent = 0
