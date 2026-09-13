@@ -25,7 +25,7 @@
 
 /obj/item/clothing/head/hooded/equipped(mob/user, slot)
 	. = ..()
-	if(!(slot & ITEM_SLOT_HEAD))
+	if(!(slot & ITEM_SLOT_HEAD|ITEM_SLOT_NECK|ITEM_SLOT_MASK))
 		if(connectedc)
 			connectedc.RemoveHood()
 		else
@@ -36,6 +36,7 @@
 	desc = "Conceals your face, whether against the rain, or the gazes of others."
 	icon_state = "basichood"
 	dynamic_hair_suffix = ""
+	slot_flags = ITEM_SLOT_HEAD|ITEM_SLOT_NECK|ITEM_SLOT_MASK
 	equip_sound = 'sound/foley/equip/cloak_equip.ogg'
 	pickup_sound = 'sound/foley/equip/cloak_take_off.ogg'
 	break_sound = 'sound/foley/cloth_rip.ogg'
