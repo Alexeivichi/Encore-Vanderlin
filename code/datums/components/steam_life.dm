@@ -2,7 +2,7 @@
 	var/steam_charge = 100
 	var/max_steam_charge = 100
 	///this to be easier to understand is how much should be drained per minute
-	var/steam_drain_rate = 4
+	var/steam_drain_rate = 1
 	var/mob/living/carbon/human/host
 	var/tmp/needs_particles = TRUE
 

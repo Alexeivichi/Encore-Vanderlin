@@ -18,6 +18,7 @@
 #define SPEC_ID_MEDICATOR "medicator"
 #define SPEC_ID_HALFLING "halfling"
 #define SPEC_ID_AUTOMATON "automaton"
+#define SPEC_ID_ANDROID "android"
 #define SPEC_ID_LUPIAN "lupian"
 #define SPEC_ID_DRACON "drakian"
 #define SPEC_ID_SISSEAN "sissean"
@@ -57,6 +58,7 @@
 	SPEC_ID_HUMAN_SPACE,\
 	SPEC_ID_HALFLING,\
 	SPEC_ID_AUTOMATON,\
+	SPEC_ID_ANDROID,\
 	SPEC_ID_LUPIAN,\
 	SPEC_ID_DRACON,\
 	SPEC_ID_SISSEAN,\
@@ -124,6 +126,8 @@
 	SPEC_ID_SISSEAN,\
 	SPEC_ID_MEDICATOR,\
 	SPEC_ID_RAKSHARI,\
+	SPEC_ID_AUTOMATON,\
+	SPEC_ID_ANDROID,\
 )
 
 /// Species not considered discriminated against as nobility in MOST of the Goblet. Used for nobility, etc.
@@ -165,6 +169,8 @@
 	SPEC_ID_KOBOLD,\
 	SPEC_ID_MEDICATOR,\
 	SPEC_ID_RAKSHARI,\
+	SPEC_ID_AUTOMATON,\
+	SPEC_ID_ANDROID,\
 )
 
 /// Races that can be Towners basically, excludes Wormblood Dwarves and Hobknoblits specifically because they're evil.
@@ -187,6 +193,8 @@
 	SPEC_ID_TIEFLING,\
 	SPEC_ID_MEDICATOR,\
 	SPEC_ID_RAKSHARI,\
+	SPEC_ID_AUTOMATON,\
+	SPEC_ID_ANDROID,\
 )
 
 /// Species who are nonheretical to the church.
@@ -207,6 +215,8 @@
 	SPEC_ID_SISSEAN,\
 	SPEC_ID_MEDICATOR,\
 	SPEC_ID_RAKSHARI,\
+	SPEC_ID_AUTOMATON,\
+	SPEC_ID_ANDROID,\
 )
 
 /// Species who are non-exotic. These are species from foreign lands with no local pull or uncommon species. Used in miscellaneous cases, when they would not be that role.
@@ -228,6 +238,8 @@
 	SPEC_ID_DRACON,\
 	SPEC_ID_SISSEAN,\
 	SPEC_ID_RAKSHARI,\
+	SPEC_ID_AUTOMATON,\
+	SPEC_ID_ANDROID,\
 )
 
 ///Species that will smell unfamiliar or alien to those with keen noses.
@@ -312,6 +324,8 @@
 	SPEC_ID_SISSEAN,\
 	SPEC_ID_MEDICATOR,\
 	SPEC_ID_RAKSHARI,\
+	SPEC_ID_AUTOMATON,\
+	SPEC_ID_ANDROID,\
 )
 
 //races that can be aquatic
@@ -346,6 +360,7 @@
 	SPEC_ID_DRACON,\
 	SPEC_ID_SISSEAN,\
 	SPEC_ID_RAKSHARI,\
+	SPEC_ID_AUTOMATON,\
 )
 
 /// The tennite temple's paladins - Hallowed species excluding Harpies due to their inability to wear plate
@@ -365,6 +380,7 @@
 	SPEC_ID_HALF_ORC,\
 	SPEC_ID_MEDICATOR,\
 	SPEC_ID_RAKSHARI,\
+	SPEC_ID_AUTOMATON,\
 )
 
 /// Foreigner Nobility Species - No Tiefling (you know why) or hollow-kin or medicators (too young to have nobles mayhaps)
