@@ -24,6 +24,7 @@
 	open = !open
 	update_appearance(UPDATE_ICON_STATE)
 	user.update_inv_hands()
+	playsound(src, open ? 'sound/foley/equip/cloak (2).ogg' : 'sound/foley/equip/scabbard_holster.ogg', 100, TRUE)
 
 	if(open)
 		user.add_traits(list(TRAIT_WEATHER_IMMUNE), REF(src))
