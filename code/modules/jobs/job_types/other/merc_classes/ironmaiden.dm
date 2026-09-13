@@ -17,7 +17,7 @@
 	title = "Iron Maiden"
 	tutorial = "You're a battlefield medic and have forsaken the blade for the scalpel. \
 	Your vile apperance has been hidden under layers of steel, allowing you to ply your trade to all those who have the coin."
-	allowed_races = list(SPEC_ID_MEDICATOR)
+	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/ironmaiden
 	category_tags = list(CTAG_MERCENARY)
 	total_positions = 99

@@ -16,7 +16,7 @@
 	title = "Hedge Knight"
 	tutorial = "You spent years serving Aelondan lords, and now you spend your days as a travelling hedge knight. Upon this island, you like to increase the fame of your sword skills, as well as your honor."
 	allowed_sexes = list(MALE)
-	allowed_races = list(SPEC_ID_HUMEN, SPEC_ID_AASIMAR) // not RACES_PLAYER_GERAMOR because dwarves don't have a sprite for this armor
+	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	outfit = /datum/outfit/folkhero/swordmaster
 	total_positions = 99
 	spawn_positions = 99

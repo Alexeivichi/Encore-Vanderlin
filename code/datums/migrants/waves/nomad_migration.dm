@@ -32,7 +32,7 @@
 	title = "Khan"
 	tutorial = "The khan rides at the head of a small horde of nomads, crossing into unfamiliar land in search of pasture and a place to set up tents"
 	outfit = /datum/outfit/khan
-	allowed_races = RACES_PLAYER_FOREIGNNOBLE
+	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
 
 	honorary_suffix = "Khan"

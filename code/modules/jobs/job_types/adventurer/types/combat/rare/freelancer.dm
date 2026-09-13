@@ -16,7 +16,7 @@
 	title = "Lancer"
 	tutorial = "Working for many years as a famous mercenary in the Sultanate, you have left your country to avoid the skeletons of your past. With your polearm by your side, you can face down any foe."
 	allowed_sexes = list(MALE)
-	allowed_races = list(SPEC_ID_HUMEN)
+	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/adventurer/lancer
 	total_positions = 99
 	spawn_positions = 99

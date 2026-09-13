@@ -31,7 +31,7 @@
 	spawn_positions = 0
 	bypass_lastclass = TRUE
 
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_NON_ANTAG
 
 	outfit = /datum/outfit/mason
 	give_bank_account = 8

@@ -16,7 +16,7 @@
 	title = "Travelling Merchant"
 	tutorial = "You are a travelling merchant from far away lands. \
 	You've picked up many wears on your various adventures, now it's time to peddle them to these locals."
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	outfit = /datum/outfit/pilgrim/merchant
 	category_tags = list(CTAG_PILGRIM)
 	total_positions = 99

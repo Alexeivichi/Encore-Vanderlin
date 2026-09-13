@@ -20,7 +20,7 @@
 /datum/job/advclass/pilgrim/rare/aelondan
 	title = "Aelondan Count"
 	tutorial = "A Count hailing from the Emeraldine Court, here on an official visit to Domotan Island."
-	allowed_races = RACES_PLAYER_GERAMOR
+	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	outfit = /datum/outfit/pilgrim/aelondan
 	category_tags = list(CTAG_PILGRIM)
 	total_positions = 99

@@ -220,7 +220,7 @@
 	title = "Rockhill Serjeant"
 	tutorial = "The Mayor of Rockhill has conscripted you and your mens to go see the rulers of Domotan."
 	outfit = /datum/outfit/rockhill/serjeant_at_arms
-	allowed_races = RACES_PLAYER_NONDISCRIMINATED
+	allowed_races = RACES_LESS_DISCRIMINATED
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
 	honorary = "Serjeant"
 

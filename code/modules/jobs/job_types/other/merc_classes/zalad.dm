@@ -24,17 +24,7 @@
 /datum/job/advclass/mercenary/qadirid
 	title = "Red Sands"
 	tutorial = "A cutthroat from Qadirid lands, you've headed into foreign lands to make even greater coin than you had prior."
-	allowed_races = list(\
-		SPEC_ID_HUMEN,\
-		SPEC_ID_RAKSHARI,\
-		SPEC_ID_ELF,\
-		SPEC_ID_HALF_ELF,\
-		SPEC_ID_DWARF,\
-		SPEC_ID_TIEFLING,\
-		SPEC_ID_DROW,\
-		SPEC_ID_AASIMAR,\
-		SPEC_ID_HALF_ORC,\
-	)
+	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/qadirid
 	category_tags = list(CTAG_MERCENARY)
 	total_positions = 99

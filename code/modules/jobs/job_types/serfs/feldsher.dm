@@ -61,7 +61,7 @@
 	apprentice_name = "Feldsher-in-training"
 	can_have_apprentices = TRUE
 
-	allowed_races = RACES_PLAYER_NONHERETICAL
+	allowed_races = RACES_NON_ANTAG
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/feldsher
 	attribute_sheet_old = /datum/attribute_holder/sheet/job/feldsher/old

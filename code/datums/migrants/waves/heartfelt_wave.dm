@@ -164,7 +164,7 @@
 	title = "Hand of Dunmoon"
 	tutorial = "You served your business as right-hand-man to the Tycoon, taking care of diplomatic actions within your company. You now ride by their side in an effort to carry out your duties wherever they may need you."
 	outfit = /datum/outfit/dunmoon_hand
-	allowed_races = RACES_PLAYER_NONDISCRIMINATED
+	allowed_races = RACES_LESS_DISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	is_recognized = TRUE
 	honorary = "Good Sir"
@@ -322,7 +322,7 @@
 	title = "Supreme Artificer"
 	tutorial = "You are the Supreme Artificer, the foremost expert on anything brass and steam. Your knowledge has little equal across all the Goblet."
 	outfit = /datum/outfit/dunmoon_artificer
-	allowed_races = RACES_PLAYER_NONDISCRIMINATED
+	allowed_races = RACES_LESS_DISCRIMINATED
 	is_recognized = TRUE
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/dunmoon_artificer

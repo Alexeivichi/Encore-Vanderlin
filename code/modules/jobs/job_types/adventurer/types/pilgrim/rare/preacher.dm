@@ -11,7 +11,7 @@
 	tutorial = "A devout follower of Angros, you came to this land with nothing more than \
 	the clothes on your back and the faith in your heart. \n\
 	Sway these nonbelievers to the right path!"
-	allowed_races = RACES_PLAYER_GERAMOR
+	allowed_races = RACES_NON_ANTAG
 	outfit = /datum/outfit/pilgrim/preacher
 	category_tags = list(CTAG_PILGRIM)
 	total_positions = 99
