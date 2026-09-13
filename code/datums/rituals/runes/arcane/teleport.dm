@@ -97,7 +97,7 @@
 	followers += item_list
 	active_ui = new(user, src, valid_destinations, followers)
 	active_ui.show()
-	return ..()
+	return
 
 /obj/effect/decal/cleanable/ritual_rune/arcyne/mana_siphon/teleport/drain_mana(travelers, items, mob/living/user)
 	var/cost = mana_cost * max(1, travelers)
@@ -169,6 +169,7 @@
 	var/current_index = 1
 	var/obj/screen/sigil_navigate/left_button
 	var/obj/screen/sigil_navigate/right_button
+	var/reset_alpha_on_close = TRUE
 
 /datum/sigil_travel_ui/New(mob/living/user, obj/effect/decal/cleanable/ritual_rune/arcyne/mana_siphon/teleport/sigil, list/destination_list, list/follower_list)
 	traveler = user
@@ -178,6 +179,34 @@
 	current_index = 1
 
 	RegisterSignal(traveler, COMSIG_MOVABLE_MOVED, PROC_REF(on_traveler_moved))
+
+/datum/sigil_travel_ui/Destroy()
+	if(origin)
+		if(origin.active_ui == src)
+			origin.active_ui = null
+		origin = null
+
+	if(traveler)
+		UnregisterSignal(traveler, COMSIG_MOVABLE_MOVED)
+		if(traveler.client)
+			if(left_button)
+				traveler.client.screen -= left_button
+			if(right_button)
+				traveler.client.screen -= right_button
+		if(reset_alpha_on_close && traveler.alpha != 255)
+			traveler.alpha = 255
+		traveler = null
+
+	if(left_button)
+		left_button.ui = null
+	if(right_button)
+		right_button.ui = null
+	QDEL_NULL(left_button)
+	QDEL_NULL(right_button)
+
+	destinations = null
+	followers = null
+	return ..()
 
 /datum/sigil_travel_ui/proc/on_traveler_moved(mob/source, atom/old_loc, movement_dir, forced, list/old_locs)
 	// Only commit if they end up somewhere that ISN'T one of the destinations
@@ -265,37 +294,33 @@
 	if(!traveler)
 		return
 
-	var/turf/final_turf = get_step(traveler, REVERSE_DIR(travel_dir))
+	var/mob/living/warping = traveler
+	var/turf/final_turf = get_step(warping, REVERSE_DIR(travel_dir))
+	var/obj/effect/decal/cleanable/ritual_rune/arcyne/mana_siphon/teleport/sigil = origin
+	var/list/pending_followers = followers.Copy()
 
 	cleanup(FALSE)
 
-	to_chat(traveler, span_cult("Your vision clears - you've stepped out of the sigil!"))
-	traveler.visible_message(span_danger("[traveler] steps out of a shimmering sigil."))
+
+	if(!QDELETED(warping))
+		to_chat(warping, span_cult("Your vision clears - you've stepped out of the sigil!"))
+		warping.visible_message(span_danger("[warping] steps out of a shimmering sigil."))
+		warping.alpha = 255
 
 	animate(traveler, alpha = 255, time = 0.5 SECONDS, flags = ANIMATION_RELATIVE|ANIMATION_PARALLEL)
 
-	if(!QDELETED(origin))
-		origin.finish_warp(traveler, final_turf, followers)
+	if(!QDELETED(sigil))
+		sigil.finish_warp(warping, final_turf, pending_followers)
 
 /datum/sigil_travel_ui/proc/cleanup(clean_alpha = TRUE)
-	if(traveler)
-		UnregisterSignal(traveler, COMSIG_MOVABLE_MOVED)
-
-	if(traveler?.client)
-		var/client/C = traveler.client
-		if(left_button)
-			C.screen -= left_button
-			qdel(left_button)
-		if(right_button)
-			C.screen -= right_button
-			qdel(right_button)
-
-	if(clean_alpha && traveler?.alpha != 255)
-		traveler.alpha = 255
+	if(QDELING(src))
+		return
+	reset_alpha_on_close = clean_alpha
 
 	qdel(src)
 
 /obj/screen/sigil_navigate
+
 	name = "Navigate"
 	icon = 'icons/obj/cellular/putrid_abilities.dmi'
 	icon_state = "button_bg"
@@ -303,6 +328,10 @@
 
 	var/datum/sigil_travel_ui/ui
 	var/direction = 0
+
+/obj/screen/sigil_navigate/Destroy()
+	ui = null
+	return ..()
 
 /obj/screen/sigil_navigate/update_icon_state()
 	. = ..()
