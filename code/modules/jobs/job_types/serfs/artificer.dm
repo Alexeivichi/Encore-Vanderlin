@@ -57,7 +57,7 @@
 	total_positions = 0
 	spawn_positions = 0
 	bypass_lastclass = TRUE
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_NON_ANTAG
 
 	outfit = /datum/outfit/artificer
 	give_bank_account = 8
