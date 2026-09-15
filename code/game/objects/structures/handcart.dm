@@ -71,11 +71,10 @@
 			if(hitch && hitch.handle_hitch_interaction(user, src))
 				return TRUE
 	if(user == AM) //try to climb into or onto it
-		if(user.body_position == LYING_DOWN)
-			if(!do_after(user, 2 SECONDS, src))
-				return FALSE
-			if(put_in(user, AM))
-				playsound(src, 'sound/foley/cartadd.ogg', 100, FALSE, -1)
+		if(!do_after(user, 2 SECONDS, src))
+			return FALSE
+		if(put_in(user, AM))
+			playsound(src, 'sound/foley/cartadd.ogg', 100, FALSE, -1)
 			return TRUE
 		return ..()
 

@@ -47,6 +47,11 @@
 
 	ai_controller = /datum/ai_controller/volf
 
+/mob/living/simple_animal/hostile/retaliate/bobcat/Initialize()
+	. = ..()
+	AddComponent(/datum/component/ai_aggro_system)
+	AddElement(/datum/element/ai_flee_while_injured, 0.75, retreat_health)
+
 /obj/effect/decal/remains/bobcat
 	icon = 'icons/roguetown/mob/monster/bobcat.dmi'
 	icon_state = "bones"

@@ -384,7 +384,7 @@
 	name = "magister's key"
 	desc = "This is the Magister's key. It watches you..."
 	icon_state = "eyekey"
-	lockids = list(ACCESS_MAGE, ACCESS_TOWER)
+	lockids = list(ACCESS_MAGE, ACCESS_TOWER, ACCESS_ARCHIVIST)
 
 /obj/item/key/atarms
 	name = "keep garrison key"
