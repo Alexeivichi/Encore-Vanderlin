@@ -147,5 +147,4 @@
 
 	allowed_races = RACES_PLAYER_GERAMOR
 	storyteller = /datum/storyteller/archdevils
-	associated_psycross = /obj/item/clothing/neck/psycross/archdevils
 	added_traits = list(TRAIT_WEBWALK, TRAIT_ABOMINATION, TRAIT_STINKY, TRAIT_STRONGBITE)
