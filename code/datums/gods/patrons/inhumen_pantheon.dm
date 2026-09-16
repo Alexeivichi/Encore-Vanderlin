@@ -131,18 +131,17 @@
 
 /datum/patron/inhumen/nidhogg
 	name = NIDHOGG
-	desc = "Nidhogg, the Wurm, a betrayer of the Dwarven kings of Geramor, is the target of perhaps the most vicious and numerous grudges held in mortal times. His mutated and abominable form is the embodiment of beauty and excess to his pestilent worshippers. His ascendency into demonhood has earned him a frightful reputation in the depths of Gernhollow, continuing to haunt the minds of those who might yet be deterred from digging too deep. Today's Nidhogg now resembles that of a monstrous bug, and his insectoid legions mimic a grotesque hive festering far below the prying eyes of Man."
-	domain = "Gernhollow and the infested veins that connect to it far beneath the surface."
-	flaws = "Gluttony, treachery and savagery. Weakness to fire."
-	worshippers = "The mad, the greedy, and infernal slaves"
-	sins = "Loyalty, allegiance to mortals and dignity."
+	desc = "Once a dwarf born to Gurney's own lineage, corrupted by his ambition to make Geramor his alone. An ancient, avaricious evil that lives in the deepest depths of the world. Nidhogg's name musn't be invoked by his faithful unless they are willing to pay the price, for even The Wurm's name hungers to extract what is rightfully his from the world."
+	flaws = "Covetous, Spiteful, Vainglorious. Weakness to fire."
+	worshippers = "The entitled, the exiled yearning for comfort, the corrupted sons of the Deeps."
+	sins = "Generosity, Loyalty, Contentment with one's lot."
 	boons = "Insects do not attack you, and their dens can be traversed easily."
 
 	confess_lines = list(
-		"A THOUSAND SKITTERING LEGS!",
-		"MY SKIN CHURNS! SPIDERS! EVERYWHERE!",
-		"MY HIVE NEEDS ME!",
-		"I'M BUGGING OUT!",
+        "THE WORLD FOR MY HUNGER!",
+        "MY SOUL CRIES TO BE SATED!",
+        "A TRIBUTE FOR THE TRUE KING!",
+        "LET HIS LEGACY SWALLOW ALL!",
 	)
 
 	allowed_races = RACES_PLAYER_GERAMOR
