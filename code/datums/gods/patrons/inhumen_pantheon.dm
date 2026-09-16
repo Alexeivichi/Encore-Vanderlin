@@ -3,9 +3,9 @@
 	associated_faith = /datum/faith/inhumen_pantheon
 
 	confess_lines = list(
-		PLACEHOLDER_PATRON_REBRANDING,
-		PLACEHOLDER_PATRON_REBRANDING,
-		PLACEHOLDER_PATRON_REBRANDING,
+		"CLAW AT THE SOIL! BREAK THE FIRMAMENT!",
+		"RELEASE THE OLD ONES! RETURN THEIR CROWN!",
+		"WHAT ONCE WAS WILL BECOME NOW, AGAIN!",
 	)
 
 /datum/patron/inhumen/can_pray(mob/living/follower)
@@ -128,3 +128,24 @@
 		INVOKE_ASYNC(dreamer, TYPE_PROC_REF(/datum/antagonist/maniac, wake_up))
 		return TRUE
 	. = ..()
+
+/datum/patron/inhumen/nidhogg
+	name = NIDHOGG
+	desc = "Nidhogg, the Wurm, a betrayer of the Dwarven kings of Geramor, is the target of perhaps the most vicious and numerous grudges held in mortal times. His mutated and abominable form is the embodiment of beauty and excess to his pestilent worshippers. His ascendency into demonhood has earned him a frightful reputation in the depths of Gernhollow, continuing to haunt the minds of those who might yet be deterred from digging too deep. Today's Nidhogg now resembles that of a monstrous bug, and his insectoid legions mimic a grotesque hive festering far below the prying eyes of Man."
+	domain = "Gernhollow and the infested veins that connect to it far beneath the surface."
+	flaws = "Gluttony, treachery and savagery. Weakness to fire."
+	worshippers = "The mad, the greedy, and infernal slaves"
+	sins = "Loyalty, allegiance to mortals and dignity."
+	boons = "Insects do not attack you, and their dens can be traversed easily."
+
+	confess_lines = list(
+		"A THOUSAND SKITTERING LEGS!",
+		"MY SKIN CHURNS! SPIDERS! EVERYWHERE!",
+		"MY HIVE NEEDS ME!",
+		"I'M BUGGING OUT!",
+	)
+
+	allowed_races = RACES_PLAYER_GERAMOR
+	storyteller = /datum/storyteller/archdevils
+	associated_psycross = /obj/item/clothing/neck/psycross/archdevils
+	added_traits = list(TRAIT_WEBWALK, TRAIT_ABOMINATION, TRAIT_STINKY, TRAIT_STRONGBITE)

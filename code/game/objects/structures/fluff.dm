@@ -708,7 +708,7 @@
 
 /obj/structure/fluff/statue/visires
 	name = "statue of Visires"
-	desc = PLACEHOLDER_PATRON_REBRANDING
+	desc = null
 	icon = 'icons/roguetown/misc/tallandwide.dmi'
 	icon_state = "astrata"
 	max_integrity = 100 // You wanted descructible statues, you'll get them.

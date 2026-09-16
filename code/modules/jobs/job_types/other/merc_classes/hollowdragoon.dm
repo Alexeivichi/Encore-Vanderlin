@@ -19,8 +19,8 @@
 	)
 
 /datum/job/advclass/mercenary/hollowdragoon
-	title = "Hollow Dragoon"
-	tutorial = PLACEHOLDER_FACTION_REBRANDING
+	title = "Dragoon"
+	tutorial = "You're a dragon slayer. You were or took part in the slaying of a dragon, and were granted the title of Dragoon by the grand guilds of Havel Sectus. With your trusty polearm, you can bring any beast to its knees."
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/dragoon
 	category_tags = list(CTAG_MERCENARY)
@@ -42,7 +42,7 @@
 	new /mob/living/simple_animal/hostile/retaliate/saiga/tame/saddled(get_turf(spawned))
 
 /datum/outfit/mercenary/dragoon
-	name = "Hollow Dragoon (Mercenary)"
+	name = "Dragoon (Mercenary)"
 	head = /obj/item/clothing/head/helmet/heavy/rust
 	armor = /obj/item/clothing/armor/plate/rust
 	neck = /obj/item/clothing/neck/gorget

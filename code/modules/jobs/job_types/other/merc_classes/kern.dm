@@ -14,7 +14,7 @@
 
 /datum/job/advclass/mercenary/kern
 	title = "Kern"
-	tutorial = PLACEHOLDER_FACTION_REBRANDING
+	tutorial = "You're a traveling bowman of little renown. Your competency with a spear has brought you here, somehow, and whether or not that's a good thing is up to you."
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/kern
 	category_tags = list(CTAG_MERCENARY)

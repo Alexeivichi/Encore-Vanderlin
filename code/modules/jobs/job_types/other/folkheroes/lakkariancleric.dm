@@ -29,7 +29,7 @@
 
 /datum/job/advclass/combat/lakkariancleric // terra was here! <3
 	title = "Lakkarian Cleric"
-	tutorial = PLACEHOLDER_FACTION_REBRANDING
+	tutorial = "You're a sellsword from the realm of the Qadirid, emboldened and greatly empowered by your probably unhealthy devotion to Visires."
 	allowed_races = RACES_PLAYER_ALL
 	allowed_patrons = list(/datum/patron/divine/visires)
 	outfit = /datum/outfit/folkhero/lakkariancleric

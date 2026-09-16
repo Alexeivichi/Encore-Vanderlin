@@ -1058,7 +1058,7 @@
 
 	// Subterran dwarves can only be outsiders if they follow the wurm
 	var/datum/patron/pref_patron = prefs.read_preference(/datum/preference/choiced/patron)
-	if(species.id == SPEC_ID_DWARF_SUBTERRAN && istype(pref_patron, /datum/patron/alternate/wurm))
+	if(species.id == SPEC_ID_DWARF_SUBTERRAN && istype(pref_patron, /datum/patron/inhumen/nidhogg))
 		var/datum/job/tested = parent_job ? SSjob.GetJobType(parent_job) : src // FUCK ADVCLASSES!
 		if(!(tested.department_flag & OUTSIDERS))
 			return FALSE

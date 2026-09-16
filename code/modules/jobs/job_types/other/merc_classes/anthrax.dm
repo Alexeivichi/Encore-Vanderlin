@@ -43,7 +43,7 @@
 
 /datum/job/advclass/mercenary/anthrax
 	title = "Anthrax"
-	tutorial = PLACEHOLDER_FACTION_REBRANDING
+	tutorial = "You're a Drow from the underbelly of the safest Aelondan cities. Where others thrived, you chose or were forced to live in the dark passages and among those of the night. You've come to learn the weak are meant to be prey, just as you once were."
 	allowed_races = list(SPEC_ID_DROW)
 	outfit = /datum/outfit/mercenary/anthrax
 	category_tags = list(CTAG_MERCENARY)

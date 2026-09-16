@@ -118,7 +118,7 @@
 
 /obj/item/clothing/head/wizhat/witch
 	name = "witch hat"
-	desc = PLACEHOLDER_PATRON_REBRANDING
+	desc = "Used to distinguish people with great fashion from wizards."
 	icon_state = "witchhat"
 	detail_tag = "_detail"
 	detail_color = CLOTHING_SOOT_BLACK

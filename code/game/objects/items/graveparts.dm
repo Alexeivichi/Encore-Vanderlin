@@ -44,7 +44,7 @@
 			. += SPAN_GOD_MORDSOL("This decoration venerates Mordsol, the Lost Cinder.")
 		if(/datum/patron/divine/iliope in patrons)
 			. += SPAN_GOD_ILIOPE("This decoration venerates Iliope, the Fool.")
-		if((/datum/patron/divine/erdl || /datum/patron/alternate/wurm) in patrons)
+		if(/datum/patron/divine/erdl in patrons)
 			. += SPAN_GOD_ERDL("This decoration venerates Erdl, the Bloodfather.")
 		if(/datum/patron/divine/golerkanh in patrons)
 			. += SPAN_GOD_GOLERKANH("This decoration venerates Goler Kanh, the Great Artisan.")
@@ -116,7 +116,6 @@
 
 /obj/item/gravedecor/headstone/angros
 	name = "angrosian headstone"
-	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon_state = "headstone_psydon"
 	dropshrink = 0.8
 	decorationquality = 2
@@ -124,7 +123,6 @@
 
 /obj/item/gravedecor/headstone/astrata
 	name = "flame headstone"
-	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon_state = "headstone_astrata"
 	dropshrink = 0.8
 	decorationquality = 3
@@ -132,7 +130,6 @@
 
 /obj/item/gravedecor/headstone/erdl
 	name = "erdite headstone"
-	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon_state = "headstone_pestra"
 	dropshrink = 0.8
 	decorationquality = 2
@@ -140,7 +137,6 @@
 
 /obj/item/gravedecor/headstone/mjallidhorn
 	name = "frost headstone"
-	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon_state = "headstone_abyssor"
 	dropshrink = 0.8
 	decorationquality = 2
@@ -148,7 +144,6 @@
 
 /obj/item/gravedecor/headstone/hunt
 	name = "skull headstone"
-	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon_state = "headstone_hunt"
 	dropshrink = 0.8
 	decorationquality = 1
@@ -156,7 +151,6 @@
 
 /obj/item/gravedecor/headstone/valdala
 	name = "valdalan headstone"
-	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon_state = "headstone_necra"
 	dropshrink = 0.8
 	decorationquality = 2
@@ -164,7 +158,6 @@
 
 /obj/item/gravedecor/headstone/golerkanh
 	name = "artisans headstone"
-	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon_state = "headstone_malum"
 	dropshrink = 0.8
 	decorationquality = 3
@@ -172,7 +165,6 @@
 
 /obj/item/gravedecor/headstone/pomette
 	name = "pommetic headstone"
-	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon_state = "headstone_eora"
 	dropshrink = 0.8
 	decorationquality = 3
