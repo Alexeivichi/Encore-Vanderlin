@@ -589,7 +589,7 @@
 	adjustable = CAN_CADJUST
 	toggle_icon_state = TRUE
 	blocksound = CHAINHIT
-	smeltresult = null
+	smeltresult = /obj/item/ingot/steel
 	clothing_flags = CANT_SLEEP_IN
 	max_integrity = INTEGRITY_STRONGEST
 	prevent_crits = ALL_EXCEPT_BLUNT
@@ -628,6 +628,7 @@
 	icon_state = "ihigh_collier"
 	body_parts_covered = NECK|MOUTH
 	armor_type = /datum/armor/neck/maille/iron
+	smeltresult = /obj/item/ingot/iron
 	max_integrity = INTEGRITY_STRONG
 	smeltresult = /obj/item/ingot/iron
 	melt_amount = 100

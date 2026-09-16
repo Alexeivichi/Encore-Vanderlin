@@ -1288,13 +1288,14 @@
 				return list("shrink" = 0.6,"sx" = -1,"sy" = 3,"nx" = -1,"ny" = 2,"wx" = 3,"wy" = 4,"ex" = -1,"ey" = 5,"nturn" = 0,"sturn" = 0,"wturn" = 70,"eturn" = 20,"nflip" = 1,"sflip" = 1,"wflip" = 1,"eflip" = 1,"northabove" = 1,"southabove" = 0,"eastabove" = 0,"westabove" = 0)
 
 //................ Zizo Sword ............... //
+//This looks too cool to not reuse for the One Envy. -kyres
 /obj/item/weapon/sword/long/greatsword/envy
 	name = "darksteel kriegsmesser"
-	desc = "A dark red curved blade. Called forth from Her will, if you wield this blade you are to be feared, if you do not, you are dead."
+	desc = "A dark red curved blade. Called forth from some unknowable evil, if you wield this blade you are to be feared, if you do not, you are dead."
 	icon_state = "zizosword"
 	wdefense = ULTMATE_PARRY
 	minstr = 10
-	sellprice = 0 // Super evil Zizo sword, nobody wants this
+	sellprice = 0 // Super evil sword, nobody wants this
 	item_weight = 2.3 KILOGRAMS
 
 /obj/item/weapon/sword/long/greatsword/envy/getonmobprop(tag)
@@ -1406,7 +1407,7 @@
 
 /obj/item/weapon/sword/long/greatsword/gutsclaymore
 	name = "berserker sword"
-	desc = "A huge sword constructed out of a slab of Iron."
+	desc = "A huge sword constructed out of a slab of iron."
 	icon_state = "gutsclaymore"
 	bigboy = TRUE
 	force_wielded = DAMAGE_GREATSWORD_WIELD + 2

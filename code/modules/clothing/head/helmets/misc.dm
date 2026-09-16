@@ -658,9 +658,9 @@
 
 //................. One Envy Barbute .............. //
 
-/obj/item/clothing/head/helmet/visored/envy
+/obj/item/clothing/head/helmet/visored/evil
 	name = "darksteel barbute"
-	desc = "A darksteel barbute. This one has an adjustable visor. Called forth from the edge of what should be known. In Her name."
+	desc = "A darksteel barbute. This one has an adjustable visor. Called forth from the edge of what should be known."
 	icon_state = "zizobarbute"
 	icon = 'icons/roguetown/clothing/special/evilarmor.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
