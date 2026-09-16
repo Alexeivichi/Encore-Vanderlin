@@ -19,4 +19,3 @@
 	. = ..()
 	if(!.)
 		return
-	var/mob/living/new_shape = .
