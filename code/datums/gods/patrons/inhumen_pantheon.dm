@@ -138,10 +138,10 @@
 	boons = "Insects do not attack you, and their dens can be traversed easily."
 
 	confess_lines = list(
-        "THE WORLD FOR MY HUNGER!",
-        "MY SOUL CRIES TO BE SATED!",
-        "A TRIBUTE FOR THE TRUE KING!",
-        "LET HIS LEGACY SWALLOW ALL!",
+		"THE WORLD FOR MY HUNGER!",
+		"MY SOUL CRIES TO BE SATED!",
+		"A TRIBUTE FOR THE TRUE KING!",
+		"LET HIS LEGACY SWALLOW ALL!",
 	)
 
 	allowed_races = RACES_PLAYER_GERAMOR
