@@ -92,4 +92,7 @@
 #define BB_DRAGON_EXPLOSION_COOLDOWN "dragon_explosion_cooldown"
 #define BB_DRAGON_PHASE_COOLDOWN "dragon_ohase_cooldown"
 
+#define BB_DROID_GUARD_ATTACK_TYPE "droid_guard_attack_type"
+#define BB_DROID_GUARD_SPECIAL_COOLDOWN "droid_guard_special_cooldown"
+
 #define BB_BASIC_MOB_SCARED_ITEM "scared_item"

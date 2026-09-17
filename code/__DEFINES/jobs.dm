@@ -51,6 +51,8 @@
 #define FACTION_HOSTILE		"Hostile"
 #define FACTION_TOWN		"Town"
 #define SUB_FACTION_KEEP 	"Keep"
+#define SUB_FACTION_VAULT 	"Treasury"//Vault access without the guardians killing you
+#define FACTION_SHIRLEIGH 	"Shirleigh"//Princess, prince and lord only
 #define FACTION_FOREIGNERS  "Foreigners"
 #define FACTION_MIGRANTS  	"Migrants"
 #define FACTION_UNDEAD		"Undead"
