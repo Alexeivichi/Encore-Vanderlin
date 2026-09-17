@@ -9,6 +9,7 @@
 
 	var/list/allowed_essence_types = list()
 	var/filter_mode = FALSE
+	var/whitelist_policy_mode = TRUE // TRUE for whitelist, FALSE for blacklist
 
 	var/void_mode = FALSE
 	var/void_rate = 10
@@ -50,8 +51,15 @@
 		return list()
 
 	var/list/allowed = list()
-	for(var/essence_type in allowed_essence_types)
-		allowed[essence_type] = room
+	if (whitelist_policy_mode)
+		// quick add for whitelist
+		for(var/essence_type in allowed_essence_types)
+			allowed[essence_type] = room
+	else
+		// gotta invert essence list for blacklist
+		for(var/essence_type in GLOB.all_essences)
+			if (essence_type in allowed_essence_types) continue
+			allowed[essence_type] = room
 	return allowed
 
 /obj/machinery/essence/reservoir/update_overlays()
@@ -67,7 +75,7 @@
 	. = ..()
 	if(filter_mode)
 		. += span_notice("Filter Mode: ACTIVE")
-		. += span_notice("Allowed types: [length(allowed_essence_types) ? "[allowed_essence_types.len]" : "all (empty whitelist)"]")
+		. += span_notice("[whitelist_policy_mode ? "Allowed" : "Blocked"] types: [length(allowed_essence_types) ? "[allowed_essence_types.len]" : "all allowed (empty list)"]")
 	else
 		. += span_notice("Filter Mode: DISABLED")
 
@@ -97,7 +105,7 @@
 
 	var/essence_type = vial.contained_essence.type
 
-	if(filter_mode && length(allowed_essence_types) && !(essence_type in allowed_essence_types))
+	if(!is_essence_allowed(essence_type))
 		to_chat(user, span_warning("This reservoir's filter does not allow [vial.contained_essence.name]."))
 		return
 
@@ -118,11 +126,19 @@
 /obj/machinery/essence/reservoir/proc/is_essence_allowed(essence_type)
 	if(!filter_mode || !length(allowed_essence_types))
 		return TRUE
-	return (essence_type in allowed_essence_types)
+	// perform a XNOR check to handle a whitelist toggle (trust me i'm smart)
+	// whitelist is true, blacklist is false, condition allows essence when the IN/OUT of list matches the policy
+	return ((essence_type in allowed_essence_types) == whitelist_policy_mode)
 
 /obj/machinery/essence/reservoir/proc/toggle_filter_mode(mob/user)
 	filter_mode = !filter_mode
 	to_chat(user, span_info("Filter mode [filter_mode ? "enabled" : "disabled"]."))
+	if(network)
+		network.invalidate_cache()
+
+/obj/machinery/essence/reservoir/proc/toggle_filter_policy(mob/user)
+	whitelist_policy_mode = !whitelist_policy_mode
+	to_chat(user, span_info("Filter policy is now [whitelist_policy_mode ? "whitelisting" : "blacklisting"]."))
 	if(network)
 		network.invalidate_cache()
 
@@ -171,6 +187,7 @@
 /obj/machinery/essence/reservoir/proc/show_filter_menu(mob/user)
 	var/list/options = list()
 	options["Toggle Filter Mode ([filter_mode ? "ON" : "OFF"])"] = "toggle_filter"
+	options["Toggle Filter Policy ([whitelist_policy_mode ? "WHITELISTING" : "BLACKLISTING"])"]  = "toggle_policy"
 
 	if(GLOB.thaumic_research?.has_research(/datum/thaumic_research_node/resevoir_decay))
 		options["Toggle Void Mode ([void_mode ? "ON" : "OFF"])"] = "toggle_void"
@@ -191,6 +208,8 @@
 	switch(options[choice])
 		if("toggle_filter")
 			toggle_filter_mode(user)
+		if("toggle_policy")
+			toggle_filter_policy(user)
 		if("toggle_void")
 			toggle_void_mode(user)
 		if("adjust_void")
@@ -203,7 +222,7 @@
 				var/datum/thaumaturgical_essence/essence = essence_path
 				filter_options[initial(essence.name)] = essence_path
 
-			var/max_picks = 5 - length(allowed_essence_types)
+			var/max_picks = 8 - length(allowed_essence_types)
 			if(max_picks < 1)
 				to_chat(user, span_warning("There are already too many essences in the filter!"))
 				return
@@ -239,7 +258,7 @@
 			if(!length(allowed_essence_types))
 				to_chat(user, span_info("No filters configured — accepting all essence types."))
 			else
-				to_chat(user, span_info("Allowed essence types:"))
+				to_chat(user, span_info("[whitelist_policy_mode ? "Allowed" : "Blocked"] essence types:"))
 				for(var/essence_type in allowed_essence_types)
 					var/datum/thaumaturgical_essence/essence = essence_type
 					to_chat(user, span_info("  - [initial(essence.name)]"))

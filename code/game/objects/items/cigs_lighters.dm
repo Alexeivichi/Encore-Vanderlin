@@ -274,7 +274,8 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 		reagents.remove_all(transfer_rate)
 
 /obj/item/clothing/face/cigarette/process()
-	smoketime--
+	if(!has_enchantment(/datum/enchantment/eternal_blunt))
+		smoketime--
 	if(smoketime >= 1)
 		if(reagents?.total_volume)
 			handle_reagents()
