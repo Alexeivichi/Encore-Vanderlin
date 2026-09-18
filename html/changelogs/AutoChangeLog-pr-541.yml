@@ -1,0 +1,7 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - rscadd: "Added a description to Nidhogg's patron."
+  - rscadd: "Allowed anyone to select Nidhogg, and added some boons."
+  - rscadd: "Finished placeholder descriptions for the remainder of the god entries."
+  - rscadd: "Added a description to the Great Hunt that fits our lore."
