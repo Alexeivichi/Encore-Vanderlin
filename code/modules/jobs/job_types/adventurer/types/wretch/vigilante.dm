@@ -25,7 +25,7 @@
 	title = "Renegade"
 	tutorial = "A renegade, deserter and a gunslinger, Favoured by Deceivers, You've turned your back on the black empire and Angros alike, Now? you wander around Faience, wielding black powder, grit, and a gambler's instinct."
 	allowed_sexes = list(MALE, FEMALE)
-	allowed_races = RACES_PLAYER_GERAMOR
+	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/wretch/vigilante
 	total_positions = 99
 	spawn_positions = 99

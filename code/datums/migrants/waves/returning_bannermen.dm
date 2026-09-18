@@ -53,7 +53,7 @@
 	title = "Serjeant-at-Arms"
 	tutorial = "You were a part of an expedition sent by the Monarch to Kingsfield, you and those under your command have returned upon fulfilling your task."
 	outfit = /datum/outfit/serjeant_at_arms
-	allowed_races = RACES_PLAYER_NONDISCRIMINATED
+	allowed_races = RACES_LESS_DISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	is_foreigner = FALSE
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
@@ -120,7 +120,7 @@
 	title = "Bannermen Archer"
 	tutorial = "You were a part of an expedition sent by the Monarch to Kingsfield, you and your serjeant-at-arms have returned upon fulfilling your task."
 	outfit = /datum/outfit/archer_bannerman
-	allowed_races = RACES_PLAYER_NONDISCRIMINATED
+	allowed_races = RACES_LESS_DISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	is_foreigner = FALSE
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
@@ -186,7 +186,7 @@
 	title = "Bannermen Crossbowman"
 	tutorial = "You were a part of an expedition sent by the Monarch to Kingsfield, you and your serjeant-at-arms have returned upon fulfilling your task."
 	outfit = /datum/outfit/crossbow_bannerman
-	allowed_races = RACES_PLAYER_NONDISCRIMINATED
+	allowed_races = RACES_LESS_DISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	is_foreigner = FALSE
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
@@ -249,7 +249,7 @@
 	title = "Bannermen Footman"
 	tutorial = "You were a part of an expedition sent by the Monarch to Kingsfield, you and your serjeant-at-arms have returned upon fulfilling your task."
 	outfit = /datum/outfit/footman_bannerman
-	allowed_races = RACES_PLAYER_NONDISCRIMINATED
+	allowed_races = RACES_LESS_DISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	is_foreigner = FALSE
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
@@ -306,7 +306,7 @@
 	title = "Bannermen Pikeman"
 	tutorial = "You were a part of an expedition sent by the Monarch to Kingsfield, you and your serjeant-at-arms have returned upon fulfilling your task."
 	outfit = /datum/outfit/pikeman_bannerman
-	allowed_races = RACES_PLAYER_NONDISCRIMINATED
+	allowed_races = RACES_LESS_DISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	is_foreigner = FALSE
 	exp_types_granted  = list(EXP_TYPE_COMBAT)

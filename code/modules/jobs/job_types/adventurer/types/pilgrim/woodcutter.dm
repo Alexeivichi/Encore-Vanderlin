@@ -20,7 +20,7 @@
 
 /datum/job/advclass/pilgrim/woodcutter
 	title = "Woodcutter"
-	allowed_races = RACES_PLAYER_NONEXOTIC
+	allowed_races = RACES_NON_ANTAG
 	outfit = /datum/outfit/pilgrim/woodcutter
 	apprentice_name = "Woodcutter"
 	cmode_music = 'sound/music/cmode/towner/CombatBeggar.ogg'

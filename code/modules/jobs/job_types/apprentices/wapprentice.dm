@@ -50,7 +50,7 @@
 	magic_user = TRUE
 	can_be_apprentice = TRUE
 
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_NON_ANTAG
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_sexes = list(MALE, FEMALE)
 

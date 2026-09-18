@@ -32,8 +32,8 @@
 	tutorial = "These lands have forfeited the Elementals. You have come to restore the True faith to these people and tear out the rot festering within."
 	outfit = /datum/outfit/specialinquisitor
 	antag_role = /datum/antagonist/purishep
-	allowed_patrons = list(/datum/patron/angros)
-	allowed_races = list(SPEC_ID_HUMEN)
+	allowed_patrons = list(/datum/patron/angros, /datum/patron/divine/centrist)
+	allowed_races = list(RACES_PLAYER_NONDISCRIMINATED)
 	is_recognized = TRUE
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
 
@@ -117,7 +117,7 @@
 	tutorial = "Crusader of the true faith, you came from the Katholikos under the command of the Inquisitor. Obey them as they lead you to smite the heathens."
 	allowed_races = RACES_PLAYER_GERAMOR
 	is_recognized = TRUE
-	allowed_patrons = list(/datum/patron/angros)
+	allowed_patrons = list(/datum/patron/angros, /datum/patron/divine/centrist)
 	outfit = /datum/outfit/inquisition_crusader
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
 

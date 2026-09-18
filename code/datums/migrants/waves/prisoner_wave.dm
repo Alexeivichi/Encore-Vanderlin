@@ -30,17 +30,7 @@
 	tutorial = "The lords of Domotan sent you to repatriate some prisoners that were in a distant prison, you are now on your way back."
 	outfit = /datum/outfit/gaoler
 	is_foreigner = FALSE
-	allowed_races = list(
-		SPEC_ID_HUMEN,
-		SPEC_ID_ELF,
-		SPEC_ID_HALF_ELF,
-		SPEC_ID_DWARF,
-		SPEC_ID_TIEFLING,
-		SPEC_ID_DROW,
-		SPEC_ID_HALF_DROW,
-		SPEC_ID_AASIMAR,
-		SPEC_ID_HALF_ORC,
-	)
+	allowed_races = RACES_PLAYER_ALL
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/gaoler
 
@@ -136,17 +126,7 @@
 	tutorial = "You are a part of a convoy returning prisoners to Domotan. Obey the gaoler and ensure the prisoners get back to the dungeons."
 	outfit = /datum/outfit/mig_guard
 	is_foreigner = FALSE
-	allowed_races = list(
-		SPEC_ID_HUMEN,
-		SPEC_ID_ELF,
-		SPEC_ID_HALF_ELF,
-		SPEC_ID_DWARF,
-		SPEC_ID_TIEFLING,
-		SPEC_ID_DROW,
-		SPEC_ID_HALF_DROW,
-		SPEC_ID_AASIMAR,
-		SPEC_ID_HALF_ORC,
-	)
+	allowed_races = RACES_PLAYER_ALL
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/mig_guard
 

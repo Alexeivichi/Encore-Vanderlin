@@ -159,7 +159,7 @@
 	title = "Sterkenstadten Knight"
 	tutorial = "Your liege, the count and the countess have both took the duty given by the council to voyage to Domotan, ensure their survival and obey their orders."
 	outfit = /datum/outfit/sterkenstadten_knight
-	allowed_races = RACES_PLAYER_NONEXOTIC
+	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	is_recognized = TRUE
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
 
@@ -225,7 +225,7 @@
 	title = "Sterkenstadten Man-at-Arms"
 	tutorial = "You and your fellows are men at arms from the Feathercap Free Company, escorting an Aelondan count with pride. Obey the count and make sure the nobles you arrived with survive."
 	outfit = /datum/outfit/sterkenstadten_man_at_arms
-	allowed_races = RACES_PLAYER_NONEXOTIC
+	allowed_races = RACES_LESS_DISCRIMINATED
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/sterkenstadten_man_at_arms

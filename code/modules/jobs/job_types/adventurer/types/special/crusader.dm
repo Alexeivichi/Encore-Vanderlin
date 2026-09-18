@@ -24,8 +24,8 @@
 	taking up the banner of the Katholikon dedicated to retaking the Firmament against the forces of Hell. \
 	Three sects provide knights for the Church: one each for Visires, Valdala and Mordsol. \
 	You were sent to Domotan by the Church to get any and all assistance from the faithful for the Crusade."
-	allowed_races = RACES_PLAYER_NONHERETICAL
-	allowed_patrons = list(/datum/patron/divine/visires, /datum/patron/divine/valdala, /datum/patron/divine/mordsol)
+	allowed_races = RACES_LESS_DISCRIMINATED
+	allowed_patrons = list(ALL_TEMPLE_PATRONS)
 	outfit = /datum/outfit/adventurer/crusader
 	category_tags = list(CTAG_ADVENTURER)
 	total_positions = 99

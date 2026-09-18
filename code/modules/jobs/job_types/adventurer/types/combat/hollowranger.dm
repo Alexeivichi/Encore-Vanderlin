@@ -24,11 +24,7 @@
 	Acting mostly as scouts for groups of 'supply liberation' militia around their home, \
 	stealth is a virtue for a Hollow Ranger."
 	allowed_sexes = list(MALE, FEMALE)
-	allowed_races = list(\
-		SPEC_ID_HOLLOWKIN,\
-		SPEC_ID_HUMEN,\
-		SPEC_ID_HARPY,\
-	)
+	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/adventurer/hollowranger
 	category_tags = list(CTAG_ADVENTURER)
 	cmode_music = 'sound/music/cmode/adventurer/CombatIntense.ogg'

@@ -139,7 +139,7 @@
 
 	bypass_lastclass = TRUE
 
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_NON_ANTAG
 
 	outfit = /datum/outfit/tapster
 	give_bank_account = TRUE
@@ -148,7 +148,7 @@
 	can_have_apprentices = FALSE
 	cmode_music = 'sound/music/cmode/towner/CombatInn.ogg'
 
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_NON_ANTAG
 
 	outfit = /datum/outfit/tapster
 
@@ -214,7 +214,7 @@
 	known_by_the_town = TRUE
 	can_have_apprentices = FALSE
 
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_NON_ANTAG
 
 	outfit = /datum/outfit/matron_assistant
 

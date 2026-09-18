@@ -16,7 +16,7 @@
 /datum/job/advclass/mercenary/sterkenstadtengun
 	title = "Sterkenstadten Armsman"
 	tutorial = "A Sterkenstadten Armsman, they specialize in blackpowder weaponry, usually seen armed with muskets. Although more frail then other mercenaries, they make up for it with the incredible strength of their equipment."
-	allowed_races = list(SPEC_ID_HUMEN, SPEC_ID_DWARF, SPEC_ID_AASIMAR)
+	allowed_races = RACES_NON_ANTAG
 	outfit = /datum/outfit/mercenary/sterkenstadtengun
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/sterkenstadtengun

@@ -25,7 +25,7 @@
 	Your task is to lead them safely across the wilds, through hardship and wonder alike, until at last the halls of learning they seek rise before you."
 	outfit = /datum/outfit/magic_teacher
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
-	allowed_races = RACES_PLAYER_NONEXOTIC
+	allowed_races = RACES_LESS_DISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	allowed_patrons = list(/datum/patron/divine/akan)
 	exp_types_granted  = list(EXP_TYPE_MAGICK)
@@ -88,7 +88,7 @@
 	Of course, the creatures that lurk along the road seem just as eager... though perhaps for very different reasons."
 	outfit = /datum/outfit/magic_student
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
-	allowed_races = RACES_PLAYER_NONEXOTIC
+	allowed_races = RACES_NON_ANTAG
 	allowed_patrons = list(/datum/patron/divine/akan)
 	exp_types_granted  = list(EXP_TYPE_MAGICK)
 

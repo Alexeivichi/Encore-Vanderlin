@@ -19,7 +19,7 @@
 /datum/job/advclass/yeoman
 	factions = list(FACTION_TOWN)
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_NON_ANTAG
 
 /datum/job/advclass/yeoman/handmason
 	title = "Handmason"

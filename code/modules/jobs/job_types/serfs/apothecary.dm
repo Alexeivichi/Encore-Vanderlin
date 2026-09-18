@@ -60,7 +60,7 @@
 		TRAIT_LEGENDARY_ALCHEMIST,
 	)
 
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_NON_ANTAG
 
 	attribute_sheet_old = /datum/attribute_holder/sheet/job/apothecary/old
 	attribute_sheet = /datum/attribute_holder/sheet/job/apothecary
