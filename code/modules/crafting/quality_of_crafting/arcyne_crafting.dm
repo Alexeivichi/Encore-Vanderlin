@@ -362,3 +362,52 @@
 	)
 	output = /obj/item/arcyne_spellobject/wand/chaotic
 	required_skill = SKILL_LEVEL_JOURNEYMAN
+
+/datum/arcyne_crafting_recipe/parchment
+	name = "parchment"
+	ingredients = list(
+		/obj/item/grown/log/tree/stick,
+	)
+	output = /obj/item/paper
+	required_skill = SKILL_LEVEL_NOVICE
+
+/datum/arcyne_crafting_recipe/scroll
+	name = "scroll"
+	ingredients = list(
+		/obj/item/grown/log/tree/stick,
+		/obj/item/grown/log/tree/stick,
+		/obj/item/grown/log/tree/stick,
+		/obj/item/natural/fibers,
+	)
+	output = /obj/item/paper/scroll
+	required_skill = SKILL_LEVEL_NOVICE
+
+/datum/arcyne_crafting_recipe/vial
+	name = "empty vial"
+	ingredients = list(
+		/obj/item/natural/clod/dirt,
+		/obj/item/natural/stone,
+	)
+	output = /obj/item/reagent_containers/glass/bottle/vial
+	required_skill = SKILL_LEVEL_NOVICE
+
+/datum/arcyne_crafting_recipe/bottle
+	name = "empty bottle"
+	ingredients = list(
+		/obj/item/natural/clod/dirt,
+		/obj/item/natural/stone,
+		/obj/item/natural/stone,
+		/obj/item/natural/stone,
+	)
+	output = /obj/item/reagent_containers/glass/bottle
+	required_skill = SKILL_LEVEL_NOVICE
+
+/datum/arcyne_crafting_recipe/wine
+	name = "bottle of wine"
+	ingredients = list(
+		/obj/item/reagent_containers/glass/bottle,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/jacksberry,
+		/obj/item/reagent_containers/food/snacks/produce/fruit/jacksberry,
+	)
+	output = /obj/item/reagent_containers/glass/bottle/wine
+	required_skill = SKILL_LEVEL_NOVICE
