@@ -1,0 +1,6 @@
+author: "crimsonFig"
+delete-after: True
+changes:
+  - bugfix: "cautery actually gets heated by sources of strong heat"
+  - bugfix: "eternal blunt enchantment actually lets non-pipe blunts last until round end"
+  - qol: "made alachemy reservoirs have more convenient filtering options"
