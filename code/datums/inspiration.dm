@@ -32,7 +32,7 @@
 			maxaudience = 6
 			maxsongs = 4
 	audience |= H // Bard is always in their own audience
-	add_verb(H, list(/mob/living/carbon/human/proc/explain_bard, /mob/living/carbon/human/proc/checkaudience, /mob/living/carbon/human/proc/clear_audience))
+	add_verb(H, list(/mob/living/carbon/human/proc/explain_bard, /mob/living/carbon/human/proc/checkaudience, /mob/living/carbon/human/proc/clear_audience, /mob/living/carbon/human/proc/open_songbook))
 
 /mob/living/carbon/human/proc/in_audience(mob/living/carbon/human/audiencee)
 	if(!src.inspiration)
