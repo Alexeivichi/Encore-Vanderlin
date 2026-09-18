@@ -27,6 +27,12 @@
 		var/mob/living/carbon/C = L
 		if(!istype(C))
 			return
+		var/obj/item/weapon/umbrella/held_umbrella = C.get_active_held_item()
+		if(!istype(held_umbrella) || !held_umbrella.open)
+			held_umbrella = C.get_inactive_held_item()
+		if(istype(held_umbrella) && held_umbrella.open)
+			C.SoakMob(FEET, dirty_water = FALSE, rain = TRUE)
+			return
 		var/obj/item/clothing/head/hooded/rainhood = C.head
 		if(!istype(rainhood))
 			C.SoakMob(FULL_BODY, dirty_water = FALSE, rain = TRUE)

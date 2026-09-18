@@ -31,11 +31,17 @@
 	ui_category = "Accessories"
 	triumph_cost_permanent = 2
 
-/datum/loadout_item/double_belt
+/datum/loadout_item/knife_bracers
 	name = "Leather Bracers Sheath"
 	item_path = /obj/item/clothing/wrists/bracers/leather/scabbard
 	ui_category = "Accessories"
 	triumph_cost_permanent = 5
+
+/datum/loadout_item/umbrella_basic
+	name = "Parasol"
+	item_path = /obj/item/weapon/umbrella/basic
+	ui_category = "Accessories"
+	triumph_cost_permanent = 20
 
 /datum/loadout_item/breechcloth
 	name = "Breechcloth"
