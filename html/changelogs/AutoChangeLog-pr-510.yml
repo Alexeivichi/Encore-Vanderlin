@@ -1,0 +1,4 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - rscadd: "Adds the Chainbreaker mercenary subclass, a port of the Forlorn Hope mercenaries from Azure Peak."
