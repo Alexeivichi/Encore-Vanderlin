@@ -210,3 +210,31 @@
 	detail_tag = "_detail"
 	detail_color = CLOTHING_ROYAL_MAJENTA
 	uses_lord_coloring = LORD_PRIMARY
+
+/obj/item/clothing/shoes/high_heels
+	name = "raised heels"
+	desc = "Woefully uncomfortable, this crime against anatomy can nonetheless help pull off some nice fits. Avoid soft ground."
+	icon = 'icons/roguetown/clothing/heels.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/onmob/heels.dmi'
+	sleeved = 'icons/roguetown/clothing/onmob/heels.dmi'
+	icon_state = "heels"
+	item_state = "heels"
+	detail_tag = "_detail"
+	detail_color = CLOTHING_ROYAL_PURPLE
+	misc_flags = CRAFTING_TEST_EXCLUDE
+
+/obj/item/clothing/shoes/high_heels/Initialize()
+	. = ..()
+	AddComponent(/datum/component/squeak, custom_sounds = list(SFX_HIGH_HEEL_STEP))
+
+/obj/item/clothing/shoes/high_heels/silver
+	name = "silver clasped heels"
+	icon_state = "silverheels"
+	item_state = "silverheels"
+	detail_color = CLOTHING_CHALK_WHITE
+
+/obj/item/clothing/shoes/high_heels/gold
+	name = "gold clasped heels"
+	icon_state = "goldheels"
+	item_state = "goldheels"
+	detail_color = CLOTHING_ROYAL_RED

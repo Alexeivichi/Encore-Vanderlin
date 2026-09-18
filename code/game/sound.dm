@@ -428,6 +428,14 @@
 							'sound/foley/footsteps/armor/evilassfootstep5.ogg',\
 							'sound/foley/footsteps/armor/evilassfootstep6.ogg'\
 							)
+			if(SFX_HIGH_HEEL_STEP)
+				soundin = pick('sound/foley/footsteps/heels/heelstep1.ogg',\
+							'sound/foley/footsteps/heels/heelstep2.ogg',\
+							'sound/foley/footsteps/heels/heelstep3.ogg',\
+							'sound/foley/footsteps/heels/heelstep4.ogg',\
+							'sound/foley/footsteps/heels/heelstep5.ogg',\
+							'sound/foley/footsteps/heels/heelstep6.ogg'\
+							)
 			if(SFX_CAT_MEOW)
 				soundin = pickweight(list(
 					'sound/vo/cat/cat_meow1.ogg' = 33,

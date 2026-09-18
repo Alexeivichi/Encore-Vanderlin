@@ -151,3 +151,24 @@
 	ui_category = "Shoes"
 
 	triumph_cost_permanent = 15
+
+/datum/loadout_item/high_heels
+	name = "High Heels"
+	item_path = /obj/item/clothing/shoes/high_heels
+	ui_category = "Shoes"
+
+	triumph_cost_permanent = 15
+
+/datum/loadout_item/high_heels_silver
+	name = "Silver-Clasped High Heels"
+	item_path = /obj/item/clothing/shoes/high_heels/silver
+	ui_category = "Shoes"
+
+	triumph_cost_permanent = 25
+
+/datum/loadout_item/high_heels_gold
+	name = "Gold-Clasped High Heels"
+	item_path = /obj/item/clothing/shoes/high_heels/gold
+	ui_category = "Shoes"
+
+	triumph_cost_permanent = 35
