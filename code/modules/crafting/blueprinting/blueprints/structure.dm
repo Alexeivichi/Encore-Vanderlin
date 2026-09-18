@@ -481,7 +481,7 @@
 	category = "Structures"
 
 /datum/blueprint_recipe/structure/clutter/shrub/tundra
-	name = "potted shrub"
+	name = "potted shrub blue"
 	desc = "A stone pot with a cold tundra shrub there-in."
 	result_type = /obj/structure/fluff/clutter/shrub/tundra
 	required_materials = list(
@@ -490,7 +490,7 @@
 	category = "Structures"
 
 /datum/blueprint_recipe/structure/clutter/shrub/red
-	name = "potted shrub"
+	name = "potted shrub red"
 	desc = "A stone pot with a red autumnal shrub there-in."
 	result_type = /obj/structure/fluff/clutter/shrub/red
 	required_materials = list(
@@ -586,11 +586,315 @@
 	supports_directions = TRUE
 	place_on_wall = TRUE
 
+/datum/blueprint_recipe/structure/bearpelt
+	name = "bear pelt rug"
+	desc = "A pelt of a direbear, now used as a floor decoration."
+	required_materials = list(
+		/obj/item/natural/fur/direbear = 2,
+	)
+	result_type = /obj/structure/bearpelt
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/craft/tanning
+	craftdiff = 2
+
+/datum/blueprint_recipe/structure/carpet
+	name = "carpet"
+	desc = "A soft carpet for the floor."
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+	)
+	result_type = /obj/structure/carpet
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/misc/sewing
+	craftdiff = 2
+
+/datum/blueprint_recipe/structure/carpet_blue
+	name = "blue carpet"
+	desc = "A soft carpet for the floor."
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+	)
+	result_type = /obj/structure/carpet/blue
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/misc/sewing
+	craftdiff = 2
+
+/datum/blueprint_recipe/structure/carpet_cyan
+	name = "cyan carpet"
+	desc = "A soft carpet for the floor."
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+	)
+	result_type = /obj/structure/carpet/cyan
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/misc/sewing
+	craftdiff = 2
+
+/datum/blueprint_recipe/structure/carpet_green
+	name = "green carpet"
+	desc = "A soft carpet for the floor."
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+	)
+	result_type = /obj/structure/carpet/green
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/misc/sewing
+	craftdiff = 2
+
+/datum/blueprint_recipe/structure/carpet_purple
+	name = "purple carpet"
+	desc = "A soft carpet for the floor."
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+	)
+	result_type = /obj/structure/carpet/purple
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/misc/sewing
+	craftdiff = 2
+
+/datum/blueprint_recipe/structure/carpet_red
+	name = "red carpet"
+	desc = "A soft carpet for the floor."
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+	)
+	result_type = /obj/structure/carpet/red
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/misc/sewing
+	craftdiff = 2
+
+/datum/blueprint_recipe/structure/carpet_navy
+	name = "navy carpet"
+	desc = "A soft carpet for the floor."
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+	)
+	result_type = /obj/structure/carpet/navy
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/misc/sewing
+	craftdiff = 2
+
+/datum/blueprint_recipe/structure/giantfur
+	name = "giant fur"
+	desc = "The pelt of some massive creature made into a floor decoration."
+	required_materials = list(
+		/obj/item/natural/hide = 5,
+	)
+	result_type = /obj/structure/giantfur
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/craft/tanning
+	craftdiff = 2
+
+/datum/blueprint_recipe/structure/giantfur_small
+	name = "medium fur"
+	desc = "The pelt of some moderately sized creature made into a floor decoration."
+	required_materials = list(
+		/obj/item/natural/hide = 3,
+	)
+	result_type = /obj/structure/giantfur/small
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/craft/tanning
+	craftdiff = 2
+
+/datum/blueprint_recipe/structure/giantfur_smaller
+	name = "small fur"
+	desc = "The pelt of some creature made into a floor decoration."
+	required_materials = list(
+		/obj/item/natural/hide = 1,
+	)
+	result_type = /obj/structure/giantfur/smaller
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/craft/tanning
+	craftdiff = 2
+
+/datum/blueprint_recipe/structure/deertrophy
+	name = "saiga trophy"
+	desc = "The trophy head of a Saiga."
+	required_materials = list(
+		/obj/item/grown/log/tree/small = 1,
+		/obj/item/natural/head/saiga
+	)
+	result_type = /obj/structure/fluff/walldeco/sign/trophy
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 2
+	place_on_wall = TRUE
+
+/datum/blueprint_recipe/structure/armorsmithsign
+	name = "armorsmith sign"
+	desc = " sign for a shop."
+	required_materials = list(
+		/obj/item/grown/log/tree/small = 1,
+	)
+	result_type = /obj/structure/fluff/walldeco/sign/armorsmithsign
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
+/datum/blueprint_recipe/structure/armorsmithsignleft
+	name = "armorsmith sign left"
+	desc = "A sign for a shop."
+	required_materials = list(
+		/obj/item/grown/log/tree/small = 1,
+	)
+	result_type = /obj/structure/fluff/walldeco/sign/armorsmithsign/left
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
+/datum/blueprint_recipe/structure/saigasign
+	name = "saiga sign"
+	desc = "A sign for a shop."
+	required_materials = list(
+		/obj/item/grown/log/tree/small = 1,
+	)
+	result_type = /obj/structure/fluff/walldeco/sign/saiga
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
+/datum/blueprint_recipe/structure/saigasignleft
+	name = "saiga sign left"
+	desc = "A sign for a shop."
+	required_materials = list(
+		/obj/item/grown/log/tree/small = 1,
+	)
+	result_type = /obj/structure/fluff/walldeco/sign/saiga/left
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
+/datum/blueprint_recipe/structure/tailorsign
+	name = "tailor sign"
+	desc = "A sign for a shop."
+	required_materials = list(
+		/obj/item/grown/log/tree/small = 1,
+	)
+	result_type = /obj/structure/fluff/walldeco/sign/tailorsign
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
+/datum/blueprint_recipe/structure/tailorsignleft
+	name = "tailor sign left"
+	desc = "A sign for a shop."
+	required_materials = list(
+		/obj/item/grown/log/tree/small = 1,
+	)
+	result_type = /obj/structure/fluff/walldeco/sign/tailorsign/left
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
+/datum/blueprint_recipe/structure/archdevil_cross
+	name = "Archdevil Cross"
+	desc = "A blasphemous sign. You won't make any friends with this."
+	required_materials = list(
+		/obj/item/grown/log/tree/small = 1,
+	)
+	result_type = /obj/structure/fluff/psycross/archdevil_cross
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
+/datum/blueprint_recipe/structure/angros
+	name = "Angros Cross"
+	desc = "A cross of a near forgotten god."
+	required_materials = list(
+		/obj/item/grown/log/tree/small = 1,
+	)
+	result_type = /obj/structure/fluff/psycross/angros
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
+/datum/blueprint_recipe/structure/allaspectcross
+	name = "Pantheon Cross"
+	desc = "A holy sign for the all-around elementalist."
+	required_materials = list(
+		/obj/item/ingot/iron = 1,
+		/obj/item/alch/airdust = 1,
+		/obj/item/alch/firedust = 1,
+		/obj/item/alch/earthdust = 1,
+		/obj/item/alch/waterdust = 1
+	)
+	result_type = /obj/structure/fluff/psycross/copper
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
+/datum/blueprint_recipe/structure/ganicross
+	name = "Gani Cross"
+	desc = "A holy sign for the worshippers of the earth itself."
+	required_materials = list(
+		/obj/item/ingot/iron = 1,
+		/obj/item/alch/earthdust = 2
+	)
+	result_type = /obj/structure/fluff/psycross/gani
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
+/datum/blueprint_recipe/structure/pommettecross
+	name = "Pommette Cross"
+	desc = "A holy sign for the naive and innocent."
+	required_materials = list(
+		/obj/item/ingot/iron = 1,
+		/obj/item/alch/earthdust = 1
+	)
+	result_type = /obj/structure/fluff/psycross/pomette
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
+/datum/blueprint_recipe/structure/mjallidhorncross
+	name = "Mjallidhorn Cross"
+	desc = "A holy sign for the warriors and stalwart defenders of the world."
+	required_materials = list(
+		/obj/item/ingot/iron = 1,
+		/obj/item/alch/waterdust = 2
+	)
+	result_type = /obj/structure/fluff/psycross/mjallidhorn
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
+/datum/blueprint_recipe/structure/mordsolcross
+	name = "Mordsol Cross"
+	desc = "A holy sign for those who refuse to die."
+	required_materials = list(
+		/obj/item/ingot/iron = 1,
+		/obj/item/alch/waterdust = 1,
+		/obj/item/alch/firedust = 1
+	)
+	result_type = /obj/structure/fluff/psycross/mordsol
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
+/datum/blueprint_recipe/structure/valdalacross
+	name = "Valdala Cross"
+	desc = "A holy sign for those who will not forget the fallen."
+	required_materials = list(
+		/obj/item/alch/waterdust = 1
+	)
+	result_type = /obj/structure/fluff/psycross/valdala
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
+/datum/blueprint_recipe/structure/akancross
+	name = "Akan Cross"
+	desc = "A holy sign for the worshippers of the spark of curiosity."
+	required_materials = list(
+		/obj/item/ingot/iron = 1,
+		/obj/item/alch/airdust = 2
+	)
+	result_type = /obj/structure/fluff/psycross/akan
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
+/datum/blueprint_recipe/structure/erdlcross
+	name = "Erdl Cross"
+	desc = "A holy sign for the physicians and infirm."
+	required_materials = list(
+		/obj/item/ingot/iron = 1,
+		/obj/item/alch/earthdust = 1
+	)
+	result_type = /obj/structure/fluff/psycross/erdl
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 1
+
 /datum/blueprint_recipe/structure/angros_metal_cross
 	name = "metal psycross"
-	desc = "A metal psycross dedicated to Angros."
+	desc = "A holy sign dedicated to one nearly forgotten."
 	required_materials = list(
-		/obj/item/ingot/iron = 3,
+		/obj/item/ingot/iron = 1,
 	)
 	result_type = /obj/structure/fluff/psycross/angros/metal
 	construct_tool = /obj/item/weapon/hammer
@@ -599,23 +903,107 @@
 
 /datum/blueprint_recipe/structure/visires_cross
 	name = "visires cross"
-	desc = "A metal psycross dedicated to Visires."
+	desc = "A holy sign for those who won't give up their spirit."
 	required_materials = list(
-		/obj/item/ingot/iron = 3,
+		/obj/item/ingot/iron = 2,
+		/obj/item/alch/firedust = 1
 	)
 	result_type = /obj/structure/fluff/psycross/visires
 	construct_tool = /obj/item/weapon/hammer
 	skillcraft = /datum/attribute/skill/craft/crafting
 	craftdiff = 3
 
-/datum/blueprint_recipe/structure/visires_cross_gold
-	name = "golden visires cross"
-	desc = "A golden psycross dedicated to Visires."
+/datum/blueprint_recipe/structure/decalcarpet
+	name = "big carpet"
+	desc = "A soft carpet for the floor."
 	required_materials = list(
-		/obj/item/ingot/gold = 3,
+		/obj/item/natural/cloth = 2,
 	)
-	result_type = /obj/structure/fluff/psycross/visires/gold
+	result_type = /obj/effect/decal/carpet
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/misc/sewing
+	craftdiff = 2
+	supports_directions = TRUE
+
+/datum/blueprint_recipe/structure/decalcarpetblack
+	name = "big black carpet"
+	desc = "A soft carpet for the floor."
+	required_materials = list(
+		/obj/item/natural/cloth = 2,
+	)
+	result_type = /obj/effect/decal/carpet/kover_black
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/misc/sewing
+	craftdiff = 2
+	supports_directions = TRUE
+
+/datum/blueprint_recipe/structure/decalcarpetdarkred
+	name = "big dark red carpet"
+	desc = "A soft carpet for the floor."
+	required_materials = list(
+		/obj/item/natural/cloth = 2,
+	)
+	result_type = /obj/effect/decal/carpet/kover_darkred
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/misc/sewing
+	craftdiff = 2
+	supports_directions = TRUE
+
+/datum/blueprint_recipe/structure/decalcarpetpurple
+	name = "big purple carpet"
+	desc = "A soft carpet for the floor."
+	required_materials = list(
+		/obj/item/natural/cloth = 2,
+	)
+	result_type = /obj/effect/decal/carpet/kover_purple
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/misc/sewing
+	craftdiff = 2
+	supports_directions = TRUE
+/datum/blueprint_recipe/structure/decalcarpetsquare
+	name = "big square carpet"
+	desc = "A soft carpet for the floor."
+	required_materials = list(
+		/obj/item/natural/cloth = 2,
+	)
+	result_type = /obj/effect/decal/carpet/square
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/misc/sewing
+	craftdiff = 2
+	supports_directions = TRUE
+
+/datum/blueprint_recipe/structure/decalcarpetsquareblack
+	name = "bigblack square carpet"
+	desc = "A soft carpet for the floor."
+	required_materials = list(
+		/obj/item/natural/cloth = 2,
+	)
+	result_type = /obj/effect/decal/carpet/square/black
+	construct_tool = /obj/item/needle
+	skillcraft = /datum/attribute/skill/misc/sewing
+	craftdiff = 2
+	supports_directions = TRUE
+
+/datum/blueprint_recipe/structure/mirror
+	name = "mirror"
+	desc = "A large mirror."
+	required_materials = list(
+		/obj/item/natural/glass = 1,
+		/obj/item/natural/wood/plank = 2
+	)
+	result_type = /obj/structure/mirror
 	construct_tool = /obj/item/weapon/hammer
-	skillcraft = /datum/attribute/skill/craft/crafting
-	craftdiff = 3
+	craftdiff = 2
+
+/datum/blueprint_recipe/structure/mirrorornate
+	name = "ornate mirror"
+	desc = "A large mirror."
+	required_materials = list(
+		/obj/item/natural/glass = 1,
+		/obj/item/natural/wood/plank = 2,
+		/obj/item/ingot/gold = 1
+	)
+	result_type = /obj/structure/mirror/fancy
+	construct_tool = /obj/item/weapon/hammer
+	craftdiff = 2
 

@@ -187,3 +187,33 @@
 	)
 	supports_directions = TRUE
 	craftdiff = 0
+
+/datum/blueprint_recipe/masonry/bench_stone
+	name = "stone bench"
+	desc = "A simplistic stone bench."
+	result_type = /obj/structure/chair/bench/church/smallbench/stone
+	required_materials = list(
+		/obj/item/natural/stone = 2
+	)
+	craftdiff = 1
+
+/datum/blueprint_recipe/masonry/fireplace
+	name = "fireplace"
+	desc = "A warm hearth for keeping cozy"
+	result_type = /obj/machinery/light/fueled/wallfire
+	required_materials = list(
+		/obj/item/grown/log/tree/small = 1,
+		/obj/item/natural/stone = 3
+	)
+	supports_directions = TRUE
+	craftdiff = 1
+
+/datum/blueprint_recipe/masonry/bench
+	name = "ornate stone bench"
+	desc = "An ornate stone bench for sitting."
+	result_type = /obj/structure/chair/bench
+	required_materials = list(
+		/obj/item/natural/stone = 2
+	)
+	supports_directions = TRUE
+	craftdiff = 1

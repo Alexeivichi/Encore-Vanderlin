@@ -1405,3 +1405,13 @@
 		/obj/item/clothing/armor/gambeson = 1,
 	)
 	craftdiff = 4
+
+/datum/repeatable_crafting_recipe/leather/standalone/tentkit
+	name = "tent kit"
+	output = /obj/item/tent_kit
+	requirements = list(
+		/obj/item/natural/hide/cured = 4,
+		/obj/item/rope = 2,
+		/obj/item/natural/cloth = 4
+	)
+	craftdiff = 3

@@ -943,3 +943,17 @@
 	)
 	attacked_atom = /obj/item/natural/cloth
 	starting_atom = /obj/item/weapon/knife
+
+/datum/repeatable_crafting_recipe/crafting/parchment
+	name = "Parchment"
+	output = /obj/item/paper
+	output_amount = 3
+	requirements = list(
+		/obj/item/paper/scroll = 1
+	)
+	tool_usage = list(
+		/obj/item/weapon/knife = list(span_notice("starts to cut the paper"), span_notice("start to cut the paper"), 'sound/items/wood_sharpen.ogg'),
+	)
+
+	attacked_atom = /obj/item/paper/scroll
+	starting_atom = /obj/item/weapon/knife

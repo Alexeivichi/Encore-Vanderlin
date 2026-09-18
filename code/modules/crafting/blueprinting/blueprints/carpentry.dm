@@ -93,6 +93,22 @@
 	supports_directions = TRUE
 	craftdiff = 0
 
+/datum/blueprint_recipe/carpentry/chairwood
+	name = "fancy wooden chair"
+	desc = "A basic wooden chair."
+	result_type = /obj/structure/chair/wood
+	required_materials = list(/obj/item/grown/log/tree/small = 1)
+	supports_directions = TRUE
+	craftdiff = 0
+
+/datum/blueprint_recipe/carpentry/chair
+	name = "alternate wooden chair"
+	desc = "A basic wooden chair."
+	result_type = /obj/structure/chair/wood/alt
+	required_materials = list(/obj/item/grown/log/tree/small = 1)
+	supports_directions = TRUE
+	craftdiff = 0
+
 /datum/blueprint_recipe/carpentry/fancy_chair
 	name = "fancy wooden chair"
 	desc = "An elegant wooden chair with silk upholstery."
@@ -413,6 +429,125 @@
 	supports_directions = TRUE
 	craftdiff = 0
 
+/datum/blueprint_recipe/carpentry/wooden_table_fancy
+	name = "fancy wooden table"
+	desc = "A sturdy, fancy looking wooden table."
+	result_type = /obj/structure/table/wood/fancy
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 1
+
+/datum/blueprint_recipe/carpentry/wooden_table_fancy_black
+	name = "black fancy wooden table"
+	desc = "A sturdy, fancy looking wooden table."
+	result_type = /obj/structure/table/wood/fancy/black
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 1
+
+/datum/blueprint_recipe/carpentry/wooden_table_fancy_blue
+	name = "blue fancy wooden table"
+	desc = "A sturdy, fancy looking wooden table."
+	result_type = /obj/structure/table/wood/fancy/blue
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 1
+
+/datum/blueprint_recipe/carpentry/wooden_table_fancy_cyan
+	name = "cyan fancy wooden table"
+	desc = "A sturdy, fancy looking wooden table."
+	result_type = /obj/structure/table/wood/fancy/cyan
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 1
+
+/datum/blueprint_recipe/carpentry/wooden_table_fancy_green
+	name = "green fancy wooden table"
+	desc = "A sturdy, fancy looking wooden table."
+	result_type = /obj/structure/table/wood/fancy/green
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 1
+
+/datum/blueprint_recipe/carpentry/wooden_table_fancy_orange
+	name = "orange fancy wooden table"
+	desc = "A sturdy, fancy looking wooden table."
+	result_type = /obj/structure/table/wood/fancy/orange
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 1
+
+/datum/blueprint_recipe/carpentry/wooden_table_fancy_purple
+	name = "purple fancy wooden table"
+	desc = "A sturdy, fancy looking wooden table."
+	result_type = /obj/structure/table/wood/fancy/purple
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 1
+
+/datum/blueprint_recipe/carpentry/wooden_table_fancy_red
+	name = "red fancy wooden table"
+	desc = "A sturdy, fancy looking wooden table."
+	result_type = /obj/structure/table/wood/fancy/red
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 1
+
+/datum/blueprint_recipe/carpentry/wooden_table_fancy_royalblack
+	name = "royal black fancy wooden table"
+	desc = "A sturdy, fancy looking wooden table."
+	result_type = /obj/structure/table/wood/fancy/royalblack
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 1
+
+/datum/blueprint_recipe/carpentry/wooden_table_fancy_royalblue
+	name = "royal blue fancy wooden table"
+	desc = "A sturdy, fancy looking wooden table."
+	result_type = /obj/structure/table/wood/fancy/royalblue
+	required_materials = list(
+		/obj/item/natural/cloth = 1,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 1
+
+/datum/blueprint_recipe/carpentry/wooden_table_fine
+	name = "fine wooden table"
+	desc = "A sturdy, fine looking wooden table."
+	result_type = /obj/structure/table/wood/fine
+	required_materials = list(
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 2
+
+/datum/blueprint_recipe/carpentry/optable
+	name = "operating table"
+	desc = "A table made for surgery."
+	result_type = /obj/structure/table/optable
+	required_materials = list(
+		/obj/item/ingot/iron = 1,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 1
+
 /datum/blueprint_recipe/carpentry/wooden_table/smooth
 	name = "wooden table"
 	desc = "A sturdy wooden table."
@@ -539,5 +674,196 @@
 	required_materials = list(
 		/obj/item/natural/wood/plank = 2,
 		/obj/item/ingot/iron = 1
+	)
+	craftdiff = 2
+
+/datum/blueprint_recipe/carpentry/globe
+	name = "globe"
+	desc = "It shows the world."
+	result_type = /obj/structure/fluff/globe
+	required_materials = list(
+		/obj/item/natural/wood/plank = 1,
+	)
+	craftdiff = 1
+
+/datum/blueprint_recipe/carpentry/bookshelf
+	name = "bookcase"
+	desc = "It stores knowledge."
+	result_type = /obj/structure/bookcase/fancy
+	required_materials = list(
+		/obj/item/natural/wood/plank = 2,
+	)
+	craftdiff = 1
+	skillcraft =/datum/attribute/skill/craft/carpentry
+
+/datum/blueprint_recipe/carpentry/wallshelf
+	name = "wall shelf"
+	desc = "It stores your stuff."
+	result_type = /obj/structure/rack/shelf
+	required_materials = list(
+		/obj/item/natural/wood/plank = 1,
+	)
+	craftdiff = 1
+	skillcraft =/datum/attribute/skill/craft/carpentry
+	supports_directions = TRUE
+	category = "Wall Fixtures"
+
+/datum/blueprint_recipe/carpentry/shelfbig
+	name = "small shelf"
+	desc = "It stores your stuff."
+	result_type = /obj/structure/rack/shelf/big
+	required_materials = list(
+		/obj/item/natural/wood/plank = 2,
+	)
+	craftdiff = 1
+	skillcraft =/datum/attribute/skill/craft/carpentry
+
+/datum/blueprint_recipe/carpentry/shelfbiggest
+	name = "shelf"
+	desc = "It stores your stuff."
+	result_type = /obj/structure/rack/shelf/biggest
+	required_materials = list(
+		/obj/item/natural/wood/plank = 3,
+	)
+	craftdiff = 1
+	skillcraft =/datum/attribute/skill/craft/carpentry
+
+/datum/blueprint_recipe/carpentry/clock
+	name = "clock"
+	desc = "Tells the time."
+	result_type = /obj/structure/fluff/clock
+	required_materials = list(
+		/obj/item/natural/wood/plank = 2,
+		/obj/item/gear/metal = 1,
+	)
+	craftdiff = 1
+	skillcraft = /datum/attribute/skill/craft/carpentry
+
+/datum/blueprint_recipe/carpentry/wallclock
+	name = "wall clock"
+	desc = "It tells the time."
+	result_type = /obj/structure/fluff/wallclock
+	required_materials = list(
+		/obj/item/natural/wood/plank = 2,
+		/obj/item/gear/metal = 1,
+	)
+	craftdiff = 1
+	skillcraft =/datum/attribute/skill/craft/carpentry
+	supports_directions = TRUE
+	category = "Wall Fixtures"
+
+/datum/blueprint_recipe/carpentry/boards
+	name = "boards"
+	desc = "For keeping things out. Or in."
+	result_type = /obj/structure/boards
+	required_materials = list(
+		/obj/item/natural/wood/plank = 2,
+	)
+	craftdiff = 0
+
+/datum/blueprint_recipe/carpentry/coucha
+	name = "couch left"
+	desc = "The left half of a very comfortable seat."
+	result_type = /obj/structure/chair/bench/coucha
+	required_materials = list(
+		/obj/item/natural/cloth = 2,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 2
+
+/datum/blueprint_recipe/carpentry/coucha_right
+	name = "couch right"
+	desc = "The right half of a very comfortable seat."
+	result_type = /obj/structure/chair/bench/coucha/r
+	required_materials = list(
+		/obj/item/natural/cloth = 2,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 2
+
+/datum/blueprint_recipe/carpentry/coucha_black
+	name = "black couch left"
+	desc = "The left half of a very comfortable seat."
+	result_type = /obj/structure/chair/bench/couchablack
+	required_materials = list(
+		/obj/item/natural/cloth = 2,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 2
+
+/datum/blueprint_recipe/carpentry/coucha_black_r
+	name = "black couch right"
+	desc = "The right half of a very comfortable seat."
+	result_type = /obj/structure/chair/bench/couchablack/r
+	required_materials = list(
+		/obj/item/natural/cloth = 2,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 2
+
+/datum/blueprint_recipe/carpentry/ultimacouch
+	name = "green couch left"
+	desc = "The left half of a very comfortable seat."
+	result_type = /obj/structure/chair/bench/ultimacouch
+	required_materials = list(
+		/obj/item/natural/cloth = 2,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 2
+
+/datum/blueprint_recipe/carpentry/ultimacouch_r
+	name = "green couch right"
+	desc = "The right half of a very comfortable seat."
+	result_type = /obj/structure/chair/bench/ultimacouch/r
+	required_materials = list(
+		/obj/item/natural/cloth = 2,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 2
+
+/datum/blueprint_recipe/carpentry/loungechair
+	name = "lounge chair left"
+	desc = "The left half of a very comfortable seat."
+	result_type = /obj/structure/chair/bench/chaiselounge
+	required_materials = list(
+		/obj/item/natural/cloth = 2,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 2
+
+/datum/blueprint_recipe/carpentry/loungechair_r
+	name = "lounge chair right"
+	desc = "The right half of a very comfortable seat."
+	result_type = /obj/structure/chair/bench/chaiselounge/r
+	required_materials = list(
+		/obj/item/natural/cloth = 2,
+		/obj/item/natural/wood/plank = 2
+	)
+	craftdiff = 2
+
+/datum/blueprint_recipe/carpentry/bench
+	name = "bench"
+	desc = "A simplistic wooden bench."
+	result_type = /obj/structure/chair/bench/church/smallbench
+	required_materials = list(
+		/obj/item/natural/wood/plank = 1
+	)
+	craftdiff = 2
+
+/datum/blueprint_recipe/carpentry/bench_stone
+	name = "stone bench"
+	desc = "A simplistic stone bench."
+	result_type = /obj/structure/chair/bench/church/smallbench/stone
+	required_materials = list(
+		/obj/item/natural/stone = 2
+	)
+	craftdiff = 1
+
+/datum/blueprint_recipe/carpentry/drawer
+	name = "drawer"
+	desc = "A small bedside table drawer."
+	result_type = /obj/structure/closet/crate/drawer
+	required_materials = list(
+		/obj/item/natural/wood/plank = 1
 	)
 	craftdiff = 2

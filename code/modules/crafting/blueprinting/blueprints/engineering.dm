@@ -136,3 +136,111 @@
 	supports_directions = TRUE
 	craftdiff = 5
 
+/datum/blueprint_recipe/engineering/streetlamp
+	name = "streetlamp"
+	desc = "A bright work of engineering."
+	result_type = /obj/machinery/light/fueledstreet
+	required_materials = list(
+		/obj/item/ingot/iron = 2,
+		/obj/item/gear/metal = 1,
+	)
+	craftdiff = 3
+
+/datum/blueprint_recipe/engineering/streetlampmidlamp
+	name = "midstreetlamp"
+	desc = "A bright work of engineering."
+	result_type = /obj/machinery/light/fueledstreet/midlamp
+	required_materials = list(
+		/obj/item/ingot/iron = 2,
+		/obj/item/gear/metal = 1,
+	)
+	craftdiff = 3
+
+/datum/blueprint_recipe/engineering/streetlampblue
+	name = "blue streetlamp"
+	desc = "A bright work of engineering."
+	result_type = /obj/machinery/light/fueledstreet/blue
+	required_materials = list(
+		/obj/item/ingot/iron = 2,
+		/obj/item/gear/metal = 1,
+	)
+	craftdiff = 3
+
+/datum/blueprint_recipe/engineering/streetlampmidlampblue
+	name = "blue midstreetlamp"
+	desc = "A bright work of engineering."
+	result_type = /obj/machinery/light/fueledstreet/blue/midlamp
+	required_materials = list(
+		/obj/item/ingot/iron = 2,
+		/obj/item/gear/metal = 1,
+	)
+	craftdiff = 3
+
+/datum/blueprint_recipe/engineering/streetlampbluewall
+	name = "blue wall lamp"
+	desc = "A bright work of engineering."
+	result_type = /obj/machinery/light/fueledstreet/blue/wall
+	required_materials = list(
+		/obj/item/ingot/iron = 2,
+		/obj/item/gear/metal = 1,
+	)
+	craftdiff = 3
+	supports_directions = TRUE
+	check_adjacent_wall = TRUE
+	supports_directions = TRUE
+	place_on_wall = TRUE
+
+/datum/blueprint_recipe/engineering/streetlamporange
+	name = "orange streetlamp"
+	desc = "A bright work of engineering."
+	result_type = /obj/machinery/light/fueledstreet/orange
+	required_materials = list(
+		/obj/item/ingot/iron = 2,
+		/obj/item/gear/metal = 1,
+	)
+	craftdiff = 3
+
+/datum/blueprint_recipe/engineering/streetlamporangewall
+	name = "streetlamp"
+	desc = "A bright work of engineering."
+	result_type = /obj/machinery/light/fueledstreet/orange/wall
+	required_materials = list(
+		/obj/item/ingot/iron = 2,
+		/obj/item/gear/metal = 1,
+	)
+	craftdiff = 3
+	supports_directions = TRUE
+	check_adjacent_wall = TRUE
+	supports_directions = TRUE
+	place_on_wall = TRUE
+
+/datum/blueprint_recipe/engineering/sink
+	name = "sink"
+	desc = "Tastes like lead."
+	result_type = /obj/structure/well/fountain/sink
+	required_materials = list(
+		/obj/item/ingot/steel = 2,
+		/obj/item/gear/metal = 4,
+		/obj/item/ingot/bronze = 2
+	)
+	craftdiff = 4
+
+/datum/blueprint_recipe/engineering/winch
+	name = "winch"
+	desc = "A pulley system with iron chain."
+	result_type = /obj/structure/winch
+	required_materials = list(
+		/obj/item/ingot/iron = 2,
+		/obj/item/gear/metal = 1,
+	)
+	craftdiff = 3
+
+/datum/blueprint_recipe/engineering/gate
+	name = "large gate"
+	desc = "A large winch-driven gate system."
+	result_type = /obj/structure/gate/bars/preopen
+	required_materials = list(
+		/obj/item/ingot/iron = 10,
+		/obj/item/gear/metal = 5,
+	)
+	craftdiff = 4

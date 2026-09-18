@@ -30,6 +30,7 @@ GLOBAL_LIST_EMPTY(biggates)
 			BODY_ZONE_L_LEG,
 			BODY_ZONE_R_LEG,
 		)
+	redstone_structure = TRUE
 
 /obj/structure/gate/preopen
 	icon_state = "gate0"
@@ -181,6 +182,7 @@ GLOBAL_LIST_EMPTY(biggates)
 	anchored = TRUE
 	resistance_flags = INDESTRUCTIBLE
 	COOLDOWN_DECLARE(winch_cooldown)
+	redstone_structure = TRUE
 
 /obj/structure/winch/attack_hand(mob/user)
 	. = ..()

@@ -502,6 +502,84 @@
 	skillcraft = /datum/attribute/skill/craft/masonry
 	craftdiff = 4
 
+/datum/blueprint_recipe/floor/marble_church_gold
+	name = "Gold Marble Church Floor"
+	desc = "Flooring fit for a clergy."
+	result_type = /turf/open/floor/churchmarble/gold
+	required_materials = list(
+		/obj/item/ingot/gold = 1
+	)
+	construct_tool = /obj/item/weapon/hammer
+	category = "Floors"
+	floor_object = TRUE
+	skillcraft = /datum/attribute/skill/craft/masonry
+	craftdiff = 4
+
+/datum/blueprint_recipe/floor/marble_church_green
+	name = "Green Marble Church Floor"
+	desc = "Flooring fit for a clergy."
+	result_type = /turf/open/floor/churchmarble/green
+	required_materials = list(
+		/obj/item/natural/stoneblock = 3
+	)
+	construct_tool = /obj/item/weapon/hammer
+	category = "Floors"
+	floor_object = TRUE
+	skillcraft = /datum/attribute/skill/craft/masonry
+	craftdiff = 4
+
+/datum/blueprint_recipe/floor/marble_church_pale
+	name = "Pale Marble Church Floor"
+	desc = "Flooring fit for a clergy."
+	result_type = /turf/open/floor/churchmarble/pale
+	required_materials = list(
+		/obj/item/natural/stoneblock = 3
+	)
+	construct_tool = /obj/item/weapon/hammer
+	category = "Floors"
+	floor_object = TRUE
+	skillcraft = /datum/attribute/skill/craft/masonry
+	craftdiff = 4
+
+/datum/blueprint_recipe/floor/marble_church_purple
+	name = "Purple Marble Church Floor"
+	desc = "Flooring fit for a clergy."
+	result_type = /turf/open/floor/churchmarble/purple
+	required_materials = list(
+		/obj/item/natural/stoneblock = 3
+	)
+	construct_tool = /obj/item/weapon/hammer
+	category = "Floors"
+	floor_object = TRUE
+	skillcraft = /datum/attribute/skill/craft/masonry
+	craftdiff = 4
+
+/datum/blueprint_recipe/floor/marble_church_rust
+	name = "Rust Marble Church Floor"
+	desc = "Flooring fit for a clergy."
+	result_type = /turf/open/floor/churchmarble/rust
+	required_materials = list(
+		/obj/item/natural/stoneblock = 3
+	)
+	construct_tool = /obj/item/weapon/hammer
+	category = "Floors"
+	floor_object = TRUE
+	skillcraft = /datum/attribute/skill/craft/masonry
+	craftdiff = 4
+
+/datum/blueprint_recipe/floor/marble_church_violet
+	name = "Violet Marble Church Floor"
+	desc = "Flooring fit for a clergy."
+	result_type = /turf/open/floor/churchmarble/violet
+	required_materials = list(
+		/obj/item/natural/stoneblock = 3
+	)
+	construct_tool = /obj/item/weapon/hammer
+	category = "Floors"
+	floor_object = TRUE
+	skillcraft = /datum/attribute/skill/craft/masonry
+	craftdiff = 4
+
 /datum/blueprint_recipe/floor/churchbrick
 	name = "Church Brick Floor"
 	desc = "Flooring fit for a clergy."
