@@ -1,0 +1,4 @@
+author: "crimsonFig"
+delete-after: True
+changes:
+  - rscadd: "Adds mage chalk crafting circle recipes for parchment, scroll, vial, bottle, and a bottle of basic wine"
