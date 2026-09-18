@@ -24,8 +24,8 @@
 	)
 
 /datum/job/advclass/mercenary/verderer
-	title = "Hollow Verderer"
-	tutorial = PLACEHOLDER_FACTION_REBRANDING
+	title = "Verderer"
+	tutorial = "You're a savant in the ways of the wood, and your time protecting the forests of the world has afforded you a respectable set of skills. Try to put them to good use."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/verderer
@@ -45,7 +45,7 @@
 	spawned.merctype = 9
 
 /datum/outfit/mercenary/verderer
-	name = "Hollow Verderer (Mercenary)"
+	name = "Verderer (Mercenary)"
 	shoes = /obj/item/clothing/shoes/boots/armor/light/rust
 	cloak = /obj/item/clothing/cloak/raincloak/furcloak/colored/brown
 	head = /obj/item/clothing/head/helmet/leather/advanced

@@ -191,18 +191,18 @@
 
 		/// Hertannea
 		/datum/patron/inhumen/hertannea = list(
-			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
+			/datum/status_effect/buff/beastsense = "Hertannea smoothly speaks: \"So many secrets are held from your lovely eyes...\"",
+			/datum/status_effect/buff/trollshape = "Hertannea whispers: \"Your body could be capable of so much more. Go on, grow stronger.\"",
+			/datum/status_effect/buff/divine_beauty = "Hertannea rasps: \"You're trying to be as beautiful as me? Brave of you.\"",
+			/datum/status_effect/buff/call_to_arms = "Hertannea smoothly demands: \"My palace could use more corpses. Pile them high.\"",
+			/datum/status_effect/buff/craft_buff = "Hertannea imagines out loud: \"A masterpiece to hang on my wall...\"",
+			/datum/status_effect/buff/foodbuff = "Hertannea blissfully wonders: \"The richest banquet...\"",
+			/datum/status_effect/buff/clean_plus = "Hertannea remarks: \"Even I have standards. Do you think I live in a pig sty?\"",
+			/datum/status_effect/buff/featherfall = "Hertannea mutters: \"You can try falling. You'll probably survive.\"",
+			/datum/status_effect/buff/darkvision = "Hertannea smoothly whispers: \"The dark can't hide the light from you forever. Let's hasten that.\"",
+			/datum/status_effect/buff/haste = "Hertannea smoothly urges: \"Put those muscles to good work and move fast, won't you?\"",
+			/datum/status_effect/buff/calm = "Hertannea gives questionable reassurance: \"Fear doesn't look good on you when you're alive.\"",
+			/datum/status_effect/buff/barbrage = "Hertannea shouts rudely: \"I'm exhausted of watching your tiresome life! Pillage and plunder, already!\""
 		),
 
 		/// Gani
@@ -223,66 +223,50 @@
 
 		/// Pomette
 		/datum/patron/divine/pomette = list(
-			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
+			/datum/status_effect/buff/beastsense = "Pomette whispers, \"You should see what the wilder things see...\"",
+			/datum/status_effect/buff/trollshape = "Pomette urges, \"Grow bigger! Bigger, still! There's so much more a mortal body can do!\"",
+			/datum/status_effect/buff/divine_beauty = "Pomette reassures, \"You're perfect just the way you are!\"",
+			/datum/status_effect/buff/call_to_arms = "Pomette mulls, \"Oh... is this the time to fight?\"",
+			/datum/status_effect/buff/craft_buff = "Pomette yaps, \"You can make anything! Your mind is so bright!\"",
+			/datum/status_effect/buff/foodbuff = "Pomette murmurs, \"Hungry again...\"",
+			/datum/status_effect/buff/clean_plus = "Pomette blabbers needlessly, \"Spick and span, tidy and neat!\"",
+			/datum/status_effect/buff/featherfall = "Pomette reassures, \"You can fall forever! For now...?\"",
+			/datum/status_effect/buff/darkvision = "Pomette shouts, \"Cat's eyes!\"",
+			/datum/status_effect/buff/haste = "Pomette urges, \"Quick feet! Mother's not looking!\"",
+			/datum/status_effect/buff/calm = "Pomette soothes, \"Come on, now... I get scared sometimes, too...\"",
+			/datum/status_effect/buff/barbrage = "Pomette worries, \"Don't make too big a mess, okay?\""
 		),
 
 		/// Archdevil
 		/datum/patron/inhumen/archdevils = list(
-			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
+			/datum/status_effect/buff/beastsense = "Hell calls, \"The forma of old sight embraces your true self. See the unseen.\"",
+			/datum/status_effect/buff/trollshape = "Hell calls, \"The forma of the first men embraces your true self. Grow and endure as they did.\"",
+			/datum/status_effect/buff/divine_beauty = "Hell calls, \"The forma of lustor embraces your true self. Walk in the light of purest beauty.\"",
+			/datum/status_effect/buff/call_to_arms = "Hell calls, \"The forma of war embraces your true self. Feed the inferno.\"",
+			/datum/status_effect/buff/craft_buff = "Hell calls, \"The forma of discipline embraces your true self. Craft your masterwork, and live eternally in its memory.\"",
+			/datum/status_effect/buff/foodbuff = "Hell calls, \"The forma of flavor embraces your true self. Embody Hell's kitchen.\"",
+			/datum/status_effect/buff/clean_plus = "Hell calls, \"The forma of purity embraces your true self. Cleanse the world of its mundane filth.\"",
+			/datum/status_effect/buff/featherfall = "Hell calls, \"The forma of gravity embraces your true self. Even a fall from the Firmament shall bring you no harm.\"",
+			/datum/status_effect/buff/darkvision = "Hell calls, \"The forma of Lunae embraces your true self. Behold the light beyond the darkness.\"",
+			/datum/status_effect/buff/haste = "Hell calls, \"The forma of energy embraces your true self. Burst forth like lightning.\"",
+			/datum/status_effect/buff/calm = "Hell calls, \"The forma of clarity embraces your true self. Be soothed, knowing all will succumb to the fire in time.\"",
+			/datum/status_effect/buff/barbrage = "Hell calls, \"The forma of fury embraces your true self. Bring Hell's rage upon them all!\""
 		),
 
 		/// Goler Kanh
 		/datum/patron/divine/golerkanh = list(
-			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
-		),
-
-		/// Deceivers
-		/datum/patron/inhumen/deceivers = list(
-			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
+			/datum/status_effect/buff/beastsense = "Goler Kanh deeply intones, \"See. Imperfections. So subtle.\"",
+			/datum/status_effect/buff/trollshape = "Goler Kanh deeply drones, \"Flesh. More powerful. Joined with steel.\"",
+			/datum/status_effect/buff/divine_beauty = "Goler Kanh deeply booms, \"You are perfection.\"",
+			/datum/status_effect/buff/call_to_arms = "Goler Kanh deeply intones, \"The machines. They cry war.\"",
+			/datum/status_effect/buff/craft_buff = "Goler Kanh deeply rumbles, \"Waste not. My guiding hand.\"",
+			/datum/status_effect/buff/foodbuff = "Goler Kanh deeply intones, \"A full belly. Is the beginning. Of masterwork.\"",
+			/datum/status_effect/buff/clean_plus = "Goler Kanh deeply growls, \"Disorganized. Inefficient. Remedy.\"",
+			/datum/status_effect/buff/featherfall = "Goler Kanh deeply speaks, \"Gravity. A mason's enemy. But, now. No concern to you.\"",
+			/datum/status_effect/buff/darkvision = "Goler Kanh deeply intones, \"Darkness. An illusion. Behold truth.\"",
+			/datum/status_effect/buff/haste = "Goler Kanh deeply urges, \"Your stamina. Lacking. Remedy.\"",
+			/datum/status_effect/buff/calm = "Goler Kanh deeply intones, \"Erring focus. The early doom of perfection. Be calm.\"",
+			/datum/status_effect/buff/barbrage = "Goler Kanh deeply commands, \"A worker's hand. Must be strong. Embrace the heating of blood. Embody fury.\""
 		),
 
 		/// Valdala
@@ -303,34 +287,34 @@
 
 		/// Akan
 		/datum/patron/divine/akan = list(
-			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
+			/datum/status_effect/buff/beastsense = "The winds pick up and reveal the truth of your surroundings.",
+			/datum/status_effect/buff/trollshape = "Father's winds pierce your skin, twisting it into the likeness of an ancient beast.",
+			/datum/status_effect/buff/divine_beauty = "You know that you'd be the star of the court of the sky. Your beauty gleams in the light. You look like a breath of fresh air...",
+			/datum/status_effect/buff/call_to_arms = "Ancient drums pound in your head. Huge gears turn the world over. The path of war is yours to command.",
+			/datum/status_effect/buff/craft_buff = "You feel able to craft a treasure which would cause even Father to turn his gaze toward you!",
+			/datum/status_effect/buff/foodbuff = "A banquet to rouse the whole of the heavens is easily within your grasp.",
+			/datum/status_effect/buff/clean_plus = "It feels as if this is a recently-left home, and you're empowered to clean it.",
+			/datum/status_effect/buff/featherfall = "A gust of air thrusts into your feet from below, making it clear that a fall from any height will do you no harm.",
+			/datum/status_effect/buff/darkvision = "You attempt to see the horizon, and in that clarity, Father's gale parts the darkness for you.",
+			/datum/status_effect/buff/haste = "Your legs feel lighter than ever. Like lightning you can move, and like a cloud you can soar.",
+			/datum/status_effect/buff/calm = "Akan sets his gaze upon you! All of a sudden, tranquility. Everything will be fine.",
+			/datum/status_effect/buff/barbrage = "A maelstrom wells up within your heart. You are the crushing gust. You are the whipping gale. Take their breath away."
 		),
 
 		/// Erdl
 		/datum/patron/divine/erdl = list(
-			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
+			/datum/status_effect/buff/beastsense = "Your blood calls upon an ancient memory. Your eyes shift in their sockets, and after a moment of sightlessness, things seem clearer to you all of a sudden.",
+			/datum/status_effect/buff/trollshape = "Your blood calls upon an ancient memory. Your veins bulge out and glow a deep red. Your body mutates into a beast-like form.",
+			/datum/status_effect/buff/divine_beauty = "Your blood calls upon an ancient memory. Your face grows finer, your hair thicker and fairer, and your body more healthy in appearance. The impeccable beauty of the perfect lifeform!",
+			/datum/status_effect/buff/call_to_arms = "Your blood calls upon an ancient memory. Pieces of a game fall into place, and the way this ends is obvious. The waging of war is so simple now.",
+			/datum/status_effect/buff/craft_buff = "Your blood calls upon an ancient memory. The hands of a forgotten craftsman now share your own.",
+			/datum/status_effect/buff/foodbuff = "Your blood calls upon an ancient memory. Good food is timeless.",
+			/datum/status_effect/buff/clean_plus = "Your blood calls upon an ancient memory. This environment is hardly sterile. You're compelled to fix it.",
+			/datum/status_effect/buff/featherfall = "Your blood calls upon an ancient memory. Your bones feel lighter, and your step feels springy. You could fall from any height and be unphased...",
+			/datum/status_effect/buff/darkvision = "Your blood calls upon an ancient memory. Your eyes take the form of a cat's, and in an instant, the darkness hardly bothers you anymore.",
+			/datum/status_effect/buff/haste = "Your blood calls upon an ancient memory. Your legs deepen in tone, heft and power. You're faster than a bullet.",
+			/datum/status_effect/buff/calm = "Your blood calls upon an ancient memory. It warms, soothing you as something courses through your veins.",
+			/datum/status_effect/buff/barbrage = "Your blood calls upon an ancient memory. Fury engulfs you."
 		),
 
 		/// Mordsol
@@ -351,34 +335,34 @@
 
 		/// Iliope
 		/datum/patron/divine/iliope = list(
-			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
+			/datum/status_effect/buff/beastsense = "A fool's eyes replace your own!",
+			/datum/status_effect/buff/trollshape = "The fool speaks to an unseen audience: \"And now, the beast of the show!\"",
+			/datum/status_effect/buff/divine_beauty = "The fool draws open a curtain: \"And behold, the most beautiful of them all!\"",
+			/datum/status_effect/buff/call_to_arms = "The fool booms: \"And so, the great commander's tact was reborn!\"",
+			/datum/status_effect/buff/craft_buff = "The fool frollicks along the stage, and pulls along a masterwork. It's an exact depiction of what you wish to create, and it practically commands inspiration from your soul.",
+			/datum/status_effect/buff/foodbuff = "The fool shouts: \"And so, at the behest of the tyrant, the hero's hand would be made to boast the finest of cullinary expertise!\"",
+			/datum/status_effect/buff/clean_plus = "The fool declares: \"Cut! Clean up this mess, show's over!\"",
+			/datum/status_effect/buff/featherfall = "The fool shouts: \"And now, the impossibility of trapeze in life before you!\"",
+			/datum/status_effect/buff/darkvision = "The spotlights slam their shutters open, illuminating everything around you! It's your show, now...",
+			/datum/status_effect/buff/haste = "The fool shouts: \"Alacrity!\"",
+			/datum/status_effect/buff/calm = "A somber tune erupts from all around, as if you were comfortably seated in a far theater booth. Aside you, dear friends and fine wine. You're entranced in an unforgettable moment.",
+			/datum/status_effect/buff/barbrage = "The fool recalls: \"With the death of his dignity, the soul of the barbarian was enraged! Oh, how his madness was frightening!\""
 		),
 
 		/// One Envy
 		/datum/patron/inhumen/envy = list(
-			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
+			/datum/status_effect/buff/beastsense = "Your eyes feel like they're burning as you gain a slightly better view of what's ahead. A horrible presence is at your side.",
+			/datum/status_effect/buff/trollshape = "Blackened tendrils slowly rise around your peripheral. Your body bloats into a muscular, abominable form. In its strength, you feel bliss.",
+			/datum/status_effect/buff/divine_beauty = "Your skin is burning with something unholy. It commands the respect of those around you. You feel beautiful.",
+			/datum/status_effect/buff/call_to_arms = "It feels as if you could lead an army. Banners you don't recognize wave eagerly at the edges of your vision.",
+			/datum/status_effect/buff/craft_buff = "Dark hands wrap around your forearms and grasp your own, seeming to guide your craft.",
+			/datum/status_effect/buff/foodbuff = "You feel as if you could cook anything.",
+			/datum/status_effect/buff/clean_plus = "All of a sudden, you feel compelled to cleanse this world of its impurity.",
+			/datum/status_effect/buff/featherfall = "A dark cloud winds around your legs that only you can see. It feels as if you could fall from any height unscathed.",
+			/datum/status_effect/buff/darkvision = "A black fog blinds you. When you blink, you see everything, and you find nothing can stay your vision any longer...",
+			/datum/status_effect/buff/haste = "Your legs feel as if they move on their own. You could outrun a horse. As you peer down, your veins are a deathly black. Only you can apparently notice it.",
+			/datum/status_effect/buff/calm = "You're somehow soothed knowing there's something far, far worse in your proximity than anything else that could possibly bother you.",
+			/datum/status_effect/buff/barbrage = "Burning eyes of amber set their gaze upon you. You're engulfed in a furious rage as they flash away."
 		)
 	)
 

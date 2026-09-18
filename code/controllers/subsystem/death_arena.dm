@@ -205,7 +205,7 @@ SUBSYSTEM_DEF(death_arena)
 
 /obj/structure/underworld/mordsol
 	name = "Mordsol"
-	desc = PLACEHOLDER_PATRON_REBRANDING
+	desc = null
 	icon = 'icons/roguetown/underworld/ravox.dmi'
 	icon_state = "ravox"
 	layer = ABOVE_MOB_LAYER
@@ -218,7 +218,7 @@ SUBSYSTEM_DEF(death_arena)
 
 /obj/structure/underworld/valdala
 	name = "Valdala"
-	desc = PLACEHOLDER_PATRON_REBRANDING
+	desc = null
 	icon = 'icons/roguetown/underworld/necra.dmi'
 	icon_state = "necra"
 	layer = ABOVE_MOB_LAYER

@@ -3,9 +3,9 @@
 	associated_faith = /datum/faith/inhumen_pantheon
 
 	confess_lines = list(
-		PLACEHOLDER_PATRON_REBRANDING,
-		PLACEHOLDER_PATRON_REBRANDING,
-		PLACEHOLDER_PATRON_REBRANDING,
+		"CLAW AT THE SOIL! BREAK THE FIRMAMENT!",
+		"RELEASE THE OLD ONES! RETURN THEIR CROWN!",
+		"WHAT ONCE WAS WILL BECOME NOW, AGAIN!",
 	)
 
 /datum/patron/inhumen/can_pray(mob/living/follower)
@@ -128,3 +128,22 @@
 		INVOKE_ASYNC(dreamer, TYPE_PROC_REF(/datum/antagonist/maniac, wake_up))
 		return TRUE
 	. = ..()
+
+/datum/patron/inhumen/nidhogg
+	name = NIDHOGG
+	desc = "Once a dwarf born to Gurney's own lineage, corrupted by his ambition to make Geramor his alone. An ancient, avaricious evil that lives in the deepest depths of the world. Nidhogg's name musn't be invoked by his faithful unless they are willing to pay the price, for even The Wurm's name hungers to extract what is rightfully his from the world."
+	flaws = "Covetous, Spiteful, Vainglorious. Weakness to fire."
+	worshippers = "The entitled, the exiled yearning for comfort, the corrupted sons of the Deeps."
+	sins = "Generosity, Loyalty, Contentment with one's lot."
+	boons = "Insects do not attack you, and their dens can be traversed easily."
+
+	confess_lines = list(
+		"THE WORLD FOR MY HUNGER!",
+		"MY SOUL CRIES TO BE SATED!",
+		"A TRIBUTE FOR THE TRUE KING!",
+		"LET HIS LEGACY SWALLOW ALL!",
+	)
+
+	allowed_races = RACES_PLAYER_GERAMOR
+	storyteller = /datum/storyteller/archdevils
+	added_traits = list(TRAIT_WEBWALK, TRAIT_ABOMINATION, TRAIT_STINKY, TRAIT_STRONGBITE)

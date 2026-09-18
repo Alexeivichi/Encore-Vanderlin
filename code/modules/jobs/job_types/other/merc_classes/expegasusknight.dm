@@ -19,7 +19,7 @@
 
 /datum/job/advclass/mercenary/expegasusknight
 	title = "Ex-Pegasus Knight"
-	tutorial = PLACEHOLDER_FACTION_REBRANDING
+	tutorial = "You're a former pegasus rider of an Aelondan warband, an elite regiment of global renown who serves as the tip of their metaphorical spear against all evil. For some reason or another, this past is behind you, but you'll never lose the spirit of the rider you once were."
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/mercenary/expegasusknight
 	category_tags = list(CTAG_MERCENARY)

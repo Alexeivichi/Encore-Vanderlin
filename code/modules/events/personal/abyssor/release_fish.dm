@@ -51,7 +51,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE MJALLIDHORN'S CHOSEN!"),
-		span_notice(PLACEHOLDER_PATRON_REBRANDING),
+		span_notice("Release fish into the water to earn Mjallidhorn's favor."),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/items/bucket_transfer (2).ogg', 100)
 

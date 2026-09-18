@@ -5,7 +5,7 @@
 	name = "Wormblooded Dwarf"
 	id = SPEC_ID_DWARF_SUBTERRAN
 	id_override = SPEC_ID_DWARF
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "Wurm-touched dwarves of Nidhogg's realm, usually cannibals who thrive in acidic insect-ridden caves. Their environment and heretical praise has warped their bodies to resemble that of abominations, usually with a carapace and disgusting tumor-growths to match."
 
 	custom_id = SPEC_ID_DWARF // this is stupid
 	custom_clothes = TRUE
@@ -17,7 +17,7 @@
 /datum/species/dwarf/mountain/subterra/on_species_gain(mob/living/carbon/C, datum/species/old_species)
 	. = ..()
 
-	if(!istype(C.patron, /datum/patron/alternate/wurm))
+	if(!istype(C.patron, /datum/patron/inhumen/nidhogg))
 		return // :)
 
 	var/list/slots = list(
@@ -38,7 +38,7 @@
 /datum/species/dwarf/mountain/subterra/after_creation(mob/living/carbon/C)
 	. = ..()
 
-	if(!istype(C.patron, /datum/patron/alternate/wurm))
+	if(!istype(C.patron, /datum/patron/inhumen/nidhogg))
 		return
 
 	if(C.mind && SSticker.current_state < GAME_STATE_PLAYING && length(GLOB.jarosite_starts))

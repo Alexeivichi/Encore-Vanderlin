@@ -217,12 +217,14 @@
 #define POMETTE "Pomette"
 #define GANI "Gani"
 #define DIVINE_CENTRIST "Elementalist"
+#define GREAT_HUNT "The Great Hunt"
 
-// Inhumen pantheon
+// Heretic gods
 #define ENVY "One Envy"
 #define HERTANNEA "Hertannea"
 #define ARCHDEVILS "Archdevils"
 #define DECEIVERS "Deceivers"
+#define NIDHOGG "Nidhogg"
 
 // Devotion Classes
 #define DEVOTION_CLASS_PRIEST "Priest"

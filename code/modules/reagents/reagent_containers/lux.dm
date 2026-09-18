@@ -40,7 +40,7 @@
 
 /obj/item/reagent_containers/lux/pragmas
 	name = "thaumatic pragmas"
-	desc = PLACEHOLDER_PATRON_REBRANDING
+	desc = null
 	icon = 'icons/obj/broodmother_32x.dmi'
 	icon_state = "broodmother_lux"
 
