@@ -1,0 +1,5 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - bugfix: "Fixed a yeoman description typo."
+  - bugfix: "Fixed divine blade ward placeholder text."
