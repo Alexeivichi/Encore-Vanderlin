@@ -1,0 +1,5 @@
+author: "Alexeivichi"
+delete-after: True
+changes:
+  - rscadd: "parasol item, sprites and additional rain-wetting protection mechanic"
+  - rscadd: "loadout option for parasol (and fixed a typo)"
