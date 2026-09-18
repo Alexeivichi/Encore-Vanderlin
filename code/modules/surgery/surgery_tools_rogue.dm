@@ -132,12 +132,18 @@
 	if(user.cmode)
 		return NONE
 
+	// run a check against valid heat sources, looks shitty but it's more "optimal" this way
+	var/hasHeat = FALSE
 	if(istype(interacting_with, /obj/machinery/light/fueled))
-		var/obj/machinery/light/fueled/forge = interacting_with
-		if(forge.on)
-			user.visible_message(span_info("[user] heats [src]."))
-			fire_act(10)
-			return ITEM_INTERACT_SUCCESS
+		var/obj/machinery/light/fueled/heatsource = interacting_with
+		hasHeat = heatsource.on
+	if(istype(interacting_with, /obj/item))
+		var/obj/item/heatsource = interacting_with
+		hasHeat = heatsource.get_temperature() >= 300
+	if(hasHeat)
+		user.visible_message(span_info("[user] heats [src]."))
+		fire_act(15)
+		return ITEM_INTERACT_SUCCESS
 
 	if(get_temperature() && iscarbon(interacting_with))
 		var/mob/living/carbon/C = interacting_with
