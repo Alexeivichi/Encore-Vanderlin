@@ -1,0 +1,6 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - bugfix: "Steel plate boots now smelt into steel properly."
+  - bugfix: "Darksteel armor is no longer associated with the One Envy."
+  - bugfix: "Collosal ribs are now called colossal. This was KILLING me."
