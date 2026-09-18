@@ -13,6 +13,23 @@ GLOBAL_LIST_EMPTY(active_chimeric_surgeries)
 	var/node_purity = 80
 	var/datum/chimeric_table/table_type
 
+// create a spawnable test humour to circumvent the need to use a mob to run generation code
+/datum/chimeric_node/output/speed/test
+	compatible_blood_types = list(/datum/blood_type/human)
+	preferred_blood_types = list(/datum/blood_type/human)
+	incompatible_blood_types = list()
+	base_blood_cost = 0.3
+	tier = 1
+	node_purity = 40
+/obj/item/chimeric_node/test_humour
+	name = "test galewind humour"
+	desc = "galewind humour that should only be for spawning in and not craftable"
+	stored_node = new /datum/chimeric_node/output/speed/test
+	table_type = /datum/chimeric_table/human
+	icon_state = "output_organoid-2"
+	node_tier = 1
+	node_purity = 40
+
 /obj/item/chimeric_node/Destroy()
 	if(GLOB.active_chimeric_surgeries?[src])
 		var/datum/chimeric_surgery_state/surgery = GLOB.active_chimeric_surgeries[src]

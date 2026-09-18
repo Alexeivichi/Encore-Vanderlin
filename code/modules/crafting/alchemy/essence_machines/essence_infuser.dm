@@ -100,6 +100,25 @@
 			new_jar.contained_node.forceMove(new_jar)
 			old_jar.contained_node = null
 			new_jar.update_appearance()
+	// copy over the properties while making the new humour the designated target
+	// this is based on it's original use of transforming via surgery
+	// make sure we're specifically going from one humour to another to avoid clashing with future crafts that aren't humour to humour
+	if(istype(infusion_target,/obj/item/chimeric_node) && istype(new_atom,/obj/item/chimeric_node))
+		var/obj/item/chimeric_node/old_humour = infusion_target
+		var/obj/item/chimeric_node/new_humour = new_atom
+		var/datum/infusion_recipe/humour/new_humour_recipe = current_recipe
+		new_humour.node_tier = old_humour.node_tier
+		new_humour.node_purity = old_humour.node_purity
+		new_humour.table_type = old_humour.table_type
+		new_humour.setup_node(
+			new_humour_recipe.node_type,
+			old_humour.stored_node.compatible_blood_types?.Copy(),
+			old_humour.stored_node.incompatible_blood_types?.Copy(),
+			old_humour.stored_node.preferred_blood_types?.Copy(),
+			old_humour.stored_node.base_blood_cost,
+			old_humour.stored_node.preferred_blood_bonus,
+			old_humour.stored_node.incompatible_blood_penalty
+	)
 
 	qdel(infusion_target)
 	infusion_target = null
@@ -125,13 +144,39 @@
 		return
 	begin_infusion(user)
 
+// let the person reclaim the item and cancel recipe if one was selected
+/obj/machinery/essence/infuser/attack_hand_secondary(mob/user, list/modifiers)
+	. = ..()
+	if(. == SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN)
+		return
+	if(!isliving(user))
+		return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
+	if(!infusion_target)
+		return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
+	if(infusing)
+		to_chat(user, span_warning("Cannot remove item while enchanting."))
+		return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
+
+	user ? user.put_in_hands(infusion_target) : infusion_target.forceMove(get_turf(src))
+	to_chat(user, span_info("You remove [infusion_target] from [src]."))
+	infusion_target = null
+	clear_recipe(user)
+	update_appearance(UPDATE_OVERLAYS)
+
+	return SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
+
 /obj/machinery/essence/infuser/proc/show_recipe_selection(mob/user)
 	var/list/opts = list()
 	var/list/mapping = list()
 	for(var/rpath in subtypesof(/datum/infusion_recipe))
 		var/datum/infusion_recipe/r = new rpath
-		opts[r.name] = rpath
-		mapping[rpath] = r
+		// only add recipes to selection list that actually works for the thing, skip over any abtract types
+		if(istype(infusion_target, r.target_type) && (initial(r.abstract_type) != r.type))
+			opts[r.name] = rpath
+			mapping[rpath] = r
+			continue
+		// else remove the rpath object we just made
+		qdel(r)
 	if(!opts.len)
 		to_chat(user, span_warning("No infusion recipes available."))
 		for(var/rpath in mapping)

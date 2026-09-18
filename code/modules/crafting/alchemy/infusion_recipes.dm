@@ -61,3 +61,75 @@
 	result_type = /obj/item/essence_vial/combat
 	required_essences = list(/datum/thaumaturgical_essence/magic = 20, /datum/thaumaturgical_essence/earth = 10)
 
+// ---- HUMOUR TRANSFORMATION RECIPES ----
+// humours can be found at code\datums\chimeric_organs
+/datum/infusion_recipe/humour
+	abstract_type = /datum/infusion_recipe/humour
+	target_type = /obj/item/chimeric_node
+	result_type = /obj/item/chimeric_node
+	var/datum/chimeric_node/node_type // support specifying the humour type for humour transformation
+
+// ---- INPUT type humours ----
+// most of these are balanced around 20ish essence requirement
+
+/datum/infusion_recipe/humour/heartbeat
+	name = "Heartbeat Synced Humour"
+	required_essences = list(/datum/thaumaturgical_essence/life = 10, /datum/thaumaturgical_essence/cycle = 10, /datum/thaumaturgical_essence/motion = 5)
+	node_type = /datum/chimeric_node/input/heartbeat
+
+/datum/infusion_recipe/humour/wounded
+	name = "Wounded Humour"
+	required_essences = list(/datum/thaumaturgical_essence/fire = 10, /datum/thaumaturgical_essence/water = 10)
+	node_type = /datum/chimeric_node/input/wounded
+
+/datum/infusion_recipe/humour/sunlight
+	name = "Sunblighted Humour"
+	required_essences = list(/datum/thaumaturgical_essence/fire = 20)
+	node_type = /datum/chimeric_node/input/sunlight
+
+/datum/infusion_recipe/humour/stress
+	name = "Stressed Humour"
+	required_essences = list(/datum/thaumaturgical_essence/earth = 10, /datum/thaumaturgical_essence/poison = 10)
+	node_type = /datum/chimeric_node/input/stress
+
+/datum/infusion_recipe/humour/bleading
+	name = "Wound Weeping Humour"
+	required_essences = list(/datum/thaumaturgical_essence/life = 10, /datum/thaumaturgical_essence/water = 10)
+	node_type = /datum/chimeric_node/input/bleeding
+
+// ideally paired with healing comatose humour
+/datum/infusion_recipe/humour/accumlated_damage
+	name = "Responsive Humour"
+	required_essences = list(/datum/thaumaturgical_essence/life = 10, /datum/thaumaturgical_essence/cycle = 5, /datum/thaumaturgical_essence/frost = 5)
+	node_type = /datum/chimeric_node/input/accumlated_damage
+
+// ---- OUTPUT type humours ----
+// most of these are balanced around 40ish essence requirement
+
+/datum/infusion_recipe/humour/clotting
+	name = "Wound Clotting Humour"
+	required_essences = list(/datum/thaumaturgical_essence/life = 20, /datum/thaumaturgical_essence/frost = 20)
+	node_type = /datum/chimeric_node/output/clotting
+
+// heals a specific randomly-chosen-on-humour-spawn damage type for like .5 per trigger
+/datum/infusion_recipe/humour/healing
+	name = "Restoring Humour"
+	required_essences = list(/datum/thaumaturgical_essence/life = 40)
+	node_type = /datum/chimeric_node/output/healing
+
+/datum/infusion_recipe/humour/speed
+	name = "Galewind Humour"
+	required_essences = list(/datum/thaumaturgical_essence/motion = 20, /datum/thaumaturgical_essence/energia = 20)
+	node_type = /datum/chimeric_node/output/speed
+
+// ideally paired with responsive humour
+/datum/infusion_recipe/humour/healing_coma
+	name = "Comatose Humour"
+	required_essences = list(/datum/thaumaturgical_essence/void = 10, /datum/thaumaturgical_essence/life = 10, /datum/thaumaturgical_essence/frost = 20)
+	node_type = /datum/chimeric_node/output/healing_coma
+
+// funny alcohol humour
+/datum/infusion_recipe/humour/alcoholic
+	name = "Distillery Humour"
+	required_essences = list(/datum/thaumaturgical_essence/water = 20, /datum/thaumaturgical_essence/fire = 20)
+	node_type = /datum/chimeric_node/output/alcoholic

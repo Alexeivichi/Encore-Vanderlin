@@ -7,6 +7,8 @@
 			node_types = subtypesof(/datum/chimeric_node/input)
 		if(OUTPUT_NODE)
 			node_types = subtypesof(/datum/chimeric_node/output)
+			// make sure our test humour doesn't show up in the pool that mobs can pull from
+			node_types -= /datum/chimeric_node/output/speed/test
 		if(SPECIAL_NODE)
 			node_types = subtypesof(/datum/chimeric_node/special)
 		else
