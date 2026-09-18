@@ -61,3 +61,11 @@
 	max_integrity = INTEGRITY_STRONG
 	smeltresult = /obj/item/ingot/iron
 	melting_material = /datum/material/iron
+
+/obj/item/clothing/pants/chainlegs/splint
+	name = "brigandine chausses"
+	desc = "Splint mail and brigandine chausses, designed to protect the legs while still providing almost complete free range of movement."
+	icon_state = "steelsplintlegs"
+	item_state = "steelsplintlegs"
+	armor_type = /datum/armor/pants/maille
+	max_integrity = INTEGRITY_STRONG

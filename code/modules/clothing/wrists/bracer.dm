@@ -49,6 +49,14 @@
 	alternate_worn_layer = SHIRT_LAYER + 0.1
 	alternate_sleeve_layer = SHIRTSLEEVE_LAYER + 0.1
 
+/obj/item/clothing/wrists/bracers/splintarms
+	name = "brigandine rerebraces"
+	desc = "Brigandine bracers, pauldrons and a set of metal couters, designed to protect the arms while still providing almost complete free range of movement."
+	icon_state = "splintarms"
+	item_state = "splintarms"
+	armor_class = AC_LIGHT
+	blocksound = SOFTHIT
+
 /obj/item/clothing/wrists/bracers/jackchain
 	name = "jack chains"
 	desc = "Thin strips of steel attached to small shoulder and elbow plates, worn on the outside of the arms to protect against slashes."

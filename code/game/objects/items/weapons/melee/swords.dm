@@ -398,6 +398,11 @@
 	swingsound = BLADEWOOSH_HUGE
 	item_weight = 1.3 KILOGRAMS
 
+/obj/item/weapon/sword/scimitar/falchion/militia
+	name = "maciejowski"
+	desc = "Fittingly coined as a 'peasant's falchion', this hunting sword's blade has been retempered to hunt the most dangerous game. Those jagged edges are perfect for tearing into flesh and maille."
+	icon_state = "maciejowski"
+
 /obj/item/weapon/sword/scimitar/messer
 	name = "messer"
 	desc = "Straight iron blade, simple cutting edge, no nonsense and a popular northern blade."

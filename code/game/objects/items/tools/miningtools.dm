@@ -45,6 +45,29 @@
 	melt_amount = 75
 	item_weight = 1.35 KILOGRAMS
 
+/obj/item/weapon/pick/warpick
+	name = "militia warpick"
+	desc = "At the end of the dae, a knight's bascinet isn't much different than a particularly large stone. After all, both tend to rupture with sobering ease when introduced to a sharpened pickend."
+	icon_state = "milpick"
+	possible_item_intents = list(PICK_INTENT)
+	gripped_intents = list(PICK_INTENT, SHORT_THRUST)
+	slot_flags = ITEM_SLOT_HIP
+	force = 20
+	force_wielded = 25
+	associated_skill = /datum/attribute/skill/combat/axesmaces
+
+/obj/item/weapon/pick/warpick/steel
+	name = "militia steel warpick"
+	desc = "At the end of the dae, a knight's bascinet isn't much different than a particularly large stone. After all, both tend to rupture with sobering ease when introduced to a sharpened pickend. This one is honed out of steel parts."
+	icon_state = "milsteelpick"
+	possible_item_intents = list(PICK_INTENT)
+	gripped_intents = list(PICK_INTENT, SHORT_THRUST)
+	force = 25
+	force_wielded = 30
+	associated_skill = /datum/attribute/skill/combat/axesmaces
+	max_integrity = INTEGRITY_STRONGEST + 100
+	melting_material = /datum/material/steel
+
 /obj/item/weapon/pick/steel
 	name = "steel pick"
 	desc = "With a reinforced handle and sturdy shaft, this is a superior tool for delving in the darkness."

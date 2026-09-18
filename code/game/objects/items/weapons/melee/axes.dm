@@ -485,6 +485,17 @@
 				return list("shrink" = 0.3,"sx" = -2,"sy" = -5,"nx" = 4,"ny" = -5,"wx" = 0,"wy" = -5,"ex" = 2,"ey" = -5,"nturn" = 0,"sturn" = 0,"wturn" = 0,"eturn" = 0,"nflip" = 0,"sflip" = 0,"wflip" = 0,"eflip" = 0,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0)
 
 
+/obj/item/weapon/greataxe/militia
+	name = "militia war axe"
+	desc = "Shovels have always held some manner of importance in a militiaman's lyfe. Instead of digging corpsepits, however, this poleaxe will now fill them up."
+	icon_state = "peasantwaraxe"
+	force_wielded = DAMAGE_HEAVYAXE_WIELD
+	max_blade_int = 200
+	max_integrity = INTEGRITY_STRONGEST
+	melt_amount = 150
+	sellprice = 90
+	item_weight = 4.5 KILOGRAMS
+
 /obj/item/weapon/greataxe/psy
 	name = "katholikon poleaxe"
 	desc = "A poleaxe, fitted with a reinforced shaft and a beaked axe head of alloyed silver. As the fragility of swords has become more apparent, the Katholikon have shifted their focus towards arming their paladins with longer-lasting greatweapons."
