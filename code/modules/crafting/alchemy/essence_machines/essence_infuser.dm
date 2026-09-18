@@ -119,6 +119,12 @@
 			old_humour.stored_node.preferred_blood_bonus,
 			old_humour.stored_node.incompatible_blood_penalty
 	)
+	// overwrite selling price and mark how it's not a natural gem
+	if(istype(current_recipe,/datum/infusion_recipe/gem))
+		var/datum/infusion_recipe/gem/knockoff_gems = current_recipe
+		var/obj/item/gem/new_gem = new_atom
+		new_gem.sellprice = knockoff_gems.artificial_price
+		new_gem.desc += knockoff_gems.artifical_desc
 
 	qdel(infusion_target)
 	infusion_target = null
