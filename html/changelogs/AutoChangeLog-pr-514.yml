@@ -1,0 +1,6 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - rscadd: "Added a supply warehouse for yeomen, the yeoman key, and three new shops."
+  - map: "Moves the Clinic to the middle of the town, next to the Church."
+  - map: "Edits the arrivals ship to look better and be a little more streamlined."
