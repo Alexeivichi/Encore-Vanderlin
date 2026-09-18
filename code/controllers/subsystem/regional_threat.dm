@@ -33,7 +33,6 @@ SUBSYSTEM_DEF(regionthreat)
 	COOLDOWN_START(TR, invasion_cooldown, 30 MINUTES)
 
 	log_game("THREAT: [TR.region_name] reached invasion threshold ([TR.latent_ambush]). Triggering invasion.")
-	message_admins("THREAT: [TR.region_name] has reached invasion threshold! Invasion triggered.")
 
 	TR.on_invasion_threshold()
 
