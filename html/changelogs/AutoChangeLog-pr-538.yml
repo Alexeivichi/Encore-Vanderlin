@@ -1,0 +1,7 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - bugfix: "Fixes bobcats not initializing with any AI."
+  - bugfix: "Fixed rogue mage spellpoints missing."
+  - bugfix: "Fixed a bunch of missing key accesses."
+  - bugfix: "Fixed carriages requiring someone to lay down."
