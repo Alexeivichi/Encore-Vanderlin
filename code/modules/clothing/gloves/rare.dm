@@ -51,3 +51,18 @@
 	allowed_race = list(SPEC_ID_HUMEN)
 	allowed_sex = list(MALE)
 	item_weight = 1.65 KILOGRAMS
+
+/obj/item/clothing/gloves/plate/shirleigh
+	name = "first doman gauntlets"
+	desc = "A second skin, woven in hard, tempered steel of a pure make. It's impossibly old. Seared into each and every face is a deep embroidery of floral-embellished calligraphy. The writing is in a thousand languages. Its enchanted digits are given  plenty freedom to guide a lord's righteous hand."
+	icon_state = "gauntlets"
+	icon = 'icons/roguetown/clothing/special/shirleigh.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/shirleigh.dmi'
+	sleeved = 'icons/roguetown/clothing/special/onmob/shirleigh.dmi'
+	anvilrepair = /datum/attribute/skill/craft/blacksmithing
+	smeltresult = /obj/item/ingot/blacksteel
+	armor_class = AC_MEDIUM
+	armor_type = /datum/armor/gloves/plate/good
+	item_weight = 1.65 KILOGRAMS
+	sellprice = VALUE_SILVER_ITEM * 15
+	max_integrity = ARMOR_INT_SIDE_BLACKSTEEL

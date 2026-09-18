@@ -828,3 +828,19 @@
 		if(loc == user && ishuman(user))
 			var/mob/living/carbon/H = user
 			H.update_inv_head()
+
+//................. Shirleighan Helmet .............. //
+/obj/item/clothing/head/helmet/visored/shirleigh
+	name = "first doman helm"
+	desc = "A second skin, woven in hard, tempered blacksteel of a pure make. It's impossibly old. Seared into each and every face is a deep embroidery of floral-embellished calligraphy. The writing is in a thousand languages. This helm's mighty brow commands that even the gods themselves must be your peer."
+	icon_state = "hounskull"
+	icon = 'icons/roguetown/clothing/special/shirleigh.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/shirleigh.dmi'
+	smeltresult = /obj/item/ingot/blacksteel
+	sellprice = VALUE_SILVER_ITEM * 15
+	item_weight = 3.5 KILOGRAMS
+	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT, BCLASS_SMASH, BCLASS_TWIST, BCLASS_PICK)
+	blocksound = PLATEHIT
+	resistance_flags = LAVA_PROOF | EXPLOSION_MOVE_PROOF | ACID_PROOF | FREEZE_PROOF | UNACIDABLE
+	max_integrity = ARMOR_INT_HELMET_BLACKSTEEL
+	armor_class = AC_MEDIUM

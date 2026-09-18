@@ -68,3 +68,22 @@
 	color = null
 	blocksound = PLATEHIT
 	item_weight = 2.25 KILOGRAMS
+
+/obj/item/clothing/shoes/boots/armor/shirleigh
+	name = "first doman sabatons"
+	desc = "A second skin, woven in hard, tempered steel of a pure make. It's impossibly old. Seared into each and every face is a deep embroidery of floral-embellished calligraphy. The writing is in a thousand languages. These mighty shoes ensure that nature itself can be brought to heel, and crushed under it in the same step."
+	icon_state = "armorboots"
+	icon = 'icons/roguetown/clothing/special/shirleigh.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/shirleigh.dmi'
+	sleeved = 'icons/roguetown/clothing/special/onmob/shirleigh.dmi'
+	anvilrepair = /datum/attribute/skill/craft/blacksmithing
+	smeltresult = /obj/item/ingot/blacksteel
+	armor_class = AC_MEDIUM
+	armor_type = /datum/armor/boots/plate
+	item_weight = 2.1 KILOGRAMS
+	sellprice = VALUE_SILVER_ITEM * 12
+	max_integrity = ARMOR_INT_SIDE_BLACKSTEEL
+
+/obj/item/clothing/shoes/boots/armor/shirleigh/Initialize()
+	. = ..()
+	AddComponent(/datum/component/squeak, custom_sounds = list(SFX_EVIL_BOOT_STEP))

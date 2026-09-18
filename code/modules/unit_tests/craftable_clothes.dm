@@ -88,6 +88,12 @@ abstract types are automatically excluded.
 		/obj/item/clothing/armor/plate/full/dwarven,
 		/obj/item/clothing/armor/plate/full/dwarven/smith,
 
+		/obj/item/clothing/head/helmet/visored/shirleigh,// mapped in only
+		/obj/item/clothing/armor/plate/shirleigh,// mapped in only
+		/obj/item/clothing/pants/platelegs/shirleigh,// mapped in only
+		/obj/item/clothing/gloves/plate/shirleigh,// mapped in only
+		/obj/item/clothing/shoes/boots/armor/shirleigh,// mapped in only
+
 		//stat rings
 		/obj/item/clothing/ring/statgemerald,
 		/obj/item/clothing/ring/statonyx,

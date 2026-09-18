@@ -133,3 +133,21 @@
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/gronn.dmi'
 	icon_state = "gronnplatepants"
 	item_state = "gronnplatepants"
+
+//................. Shirleighan Platelegs .............. //
+/obj/item/clothing/pants/platelegs/shirleigh
+	name = "first doman platelegs"
+	desc = "A second skin, woven in hard, tempered blacksteel of a pure make. It's impossibly old. Seared into each and every face is a deep embroidery of floral-embellished calligraphy. The writing is in a thousand languages. Gleaming plates ensure unbroken stride through the inferno."
+	icon_state = "plate_legs"
+	icon = 'icons/roguetown/clothing/special/shirleigh.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/shirleigh.dmi'
+	sleeved = 'icons/roguetown/clothing/special/onmob/shirleigh.dmi'
+	anvilrepair = /datum/attribute/skill/craft/blacksmithing
+	smeltresult = /obj/item/ingot/blacksteel
+	armor_class = AC_MEDIUM
+	armor_type = /datum/armor/pants/plate/good
+	item_weight = 4.95 KILOGRAMS
+	sellprice = VALUE_SILVER_ITEM * 15
+	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT, BCLASS_SMASH, BCLASS_TWIST, BCLASS_PICK)
+	resistance_flags = LAVA_PROOF | EXPLOSION_MOVE_PROOF | ACID_PROOF | FREEZE_PROOF | UNACIDABLE
+	max_integrity = ARMOR_INT_LEG_BLACKSTEEL

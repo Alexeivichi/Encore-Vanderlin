@@ -31,6 +31,7 @@
 /area/indoors/town/keep)
 "d" = (
 /obj/effect/decal/cleanable/sigil/SE,
+/obj/structure/carpet/blue,
 /turf/open/floor/tile/masonic/moonbw,
 /area/indoors/town/keep)
 "e" = (
@@ -67,6 +68,7 @@
 /area/indoors/town/keep)
 "r" = (
 /obj/effect/decal/cleanable/sigil/NE,
+/obj/structure/carpet/blue,
 /turf/open/floor/tile/masonic/moonbw,
 /area/indoors/town/keep)
 "t" = (
@@ -103,13 +105,12 @@
 /area/indoors/town/keep)
 "B" = (
 /obj/structure/mannequin/male,
-/obj/item/clothing/shoes/boots/armor/envy,
-/obj/item/clothing/pants/platelegs/envy,
-/obj/item/clothing/gloves/plate/envy,
-/obj/item/clothing/armor/plate/full/envy,
-/obj/item/clothing/head/helmet/visored/envy,
-/obj/item/weapon/sword/long/greatsword/envy,
-/obj/structure/curtain/redcurtain,
+/obj/item/clothing/armor/plate/shirleigh,
+/obj/item/clothing/shoes/boots/armor/shirleigh,
+/obj/item/clothing/pants/platelegs/shirleigh,
+/obj/item/clothing/head/helmet/visored/shirleigh,
+/obj/item/clothing/gloves/plate/shirleigh,
+/obj/structure/carpet/blue,
 /turf/open/floor/tile/masonic/moonbw,
 /area/indoors/town/keep)
 "F" = (
@@ -139,21 +140,20 @@
 /obj/item/clothing/armor/gambeson/hunts,
 /obj/item/storage/belt/leather/plaquesilver,
 /obj/item/storage/belt/leather/plaquesilver,
-/obj/structure/curtain/redcurtain,
 /obj/item/storage/belt/leather/plaquegold,
 /obj/item/storage/belt/leather/plaquegold,
+/obj/structure/carpet/blue,
 /turf/open/floor/tile/masonic/moonbw,
 /area/indoors/town/keep)
 "J" = (
 /obj/structure/mannequin/male,
-/obj/item/clothing/shoes/boots/armor/envy,
-/obj/item/clothing/pants/platelegs/envy,
-/obj/item/clothing/head/helmet/heavy/envy,
-/obj/item/clothing/gloves/plate/envy,
-/obj/item/clothing/armor/plate/full/envy,
-/obj/item/weapon/sword/long/greatsword/envy,
-/obj/structure/curtain/redcurtain,
 /obj/structure/fluff/walldeco/mona,
+/obj/item/clothing/armor/plate/shirleigh,
+/obj/item/clothing/shoes/boots/armor/shirleigh,
+/obj/item/clothing/pants/platelegs/shirleigh,
+/obj/item/clothing/head/helmet/visored/shirleigh,
+/obj/item/clothing/gloves/plate/shirleigh,
+/obj/structure/carpet/blue,
 /turf/open/floor/tile/masonic/moonbw,
 /area/indoors/town/keep)
 "M" = (
@@ -203,6 +203,7 @@
 /area/indoors/town/keep)
 "Y" = (
 /obj/effect/decal/cleanable/sigil/E,
+/obj/structure/carpet/blue,
 /turf/open/floor/tile/masonic/moonbw,
 /area/indoors/town/keep)
 

@@ -75,3 +75,22 @@
 
 	body_parts_covered = COVERAGE_ALL_BUT_ARMS
 	item_weight = 12.4 KILOGRAMS
+
+/obj/item/clothing/armor/plate/shirleigh
+	name = "first doman plate"
+	desc = "A second skin, woven in hard, tempered steel of a pure make. It's impossibly old. Seared into each and every face is a deep embroidery of floral-embellished calligraphy. The writing is in a thousand languages. The emblem of the Shirleighs faces the world with unyielding pride, always carried upon the back of its wearer."
+	body_parts_covered = COVERAGE_ALL_BUT_LEGS
+	armor_class = AC_MEDIUM
+	max_integrity = ARMOR_INT_CHEST_PLATE_BLACKSTEEL
+	icon_state = "plate"
+	icon = 'icons/roguetown/clothing/special/shirleigh.dmi'
+	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/shirleigh.dmi'
+	sleeved = 'icons/roguetown/clothing/special/onmob/shirleigh.dmi'
+	anvilrepair = /datum/attribute/skill/craft/blacksmithing
+	smeltresult = /obj/item/ingot/blacksteel
+	item_weight = 20.45 KILOGRAMS
+	sellprice = VALUE_SILVER_ITEM * 15
+	stand_speed_reduction = 1.05
+	prevent_crits = list(BCLASS_CUT, BCLASS_STAB, BCLASS_CHOP, BCLASS_BLUNT, BCLASS_SMASH, BCLASS_TWIST, BCLASS_PICK)
+	resistance_flags = LAVA_PROOF | EXPLOSION_MOVE_PROOF | ACID_PROOF | FREEZE_PROOF | UNACIDABLE
+	allowed_race = list(SPEC_ID_HUMEN, SPEC_ID_HALF_ELF, SPEC_ID_ELF)
