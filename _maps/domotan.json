@@ -9,9 +9,9 @@
 		{"Up": true, "Turf Weather Effects": false, "Leylines": true},
 		{"Up": true, "Down": true, "Turf Weather Effects": true, "Leylines": true},
 		{"Up": true, "Down": true, "Turf Weather Effects": true, "Leylines": true},
-		{"Up": true, "Down": true, "Turf Weather Effects": true},
-		{"Up": true, "Down": true, "Turf Weather Effects": true},
-		{"Down": true, "Turf Weather Effects": true}
+		{"Up": true, "Down": true, "Turf Weather Effects": true, "Leylines": true},
+		{"Up": true, "Down": true, "Turf Weather Effects": true, "Leylines": true},
+		{"Down": true, "Turf Weather Effects": true, "Leylines": true}
 	],
 	"other_z": [
 		"map_files/domotan/domotan_north",
