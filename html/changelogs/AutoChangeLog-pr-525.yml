@@ -1,0 +1,4 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - rscadd: "Allows roguehood subtypes to be worn on the neck and mask slots for more fashion."
