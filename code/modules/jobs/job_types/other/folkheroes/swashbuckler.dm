@@ -24,7 +24,6 @@
 	title = "Swashbuckler"
 	tutorial = "Woe the Sea King! You awake, dazed from a true festivity of revelry and feasting. The last thing you remember? Your mateys dumping you over the side of the boat as a joke. Now on some Gods-forsaken rock, Mjallidhorn will present you with booty and fun, no doubt."
 	allowed_races = RACES_PLAYER_ALL
-	allowed_patrons = list(/datum/patron/divine/mjallidhorn)
 	outfit = /datum/outfit/folkhero/swashbuckler
 	total_positions = 99
 	spawn_positions = 99

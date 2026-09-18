@@ -67,9 +67,25 @@
 				wrists = /obj/item/clothing/neck/psycross/silver
 			if(/datum/patron/divine/visires)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
+			if(/datum/patron/divine/gani)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/gani
+			if(/datum/patron/divine/pomette)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette
+			if(/datum/patron/divine/golerkanh)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
+			if(/datum/patron/divine/mjallidhorn)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
+			if(/datum/patron/divine/mordsol)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol
 			if(/datum/patron/divine/valdala)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/valdala
+			if(/datum/patron/divine/akan)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/akan
 			if(/datum/patron/divine/erdl)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/erdl
+			if(/datum/patron/divine/iliope)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/iliope
+			if(/datum/patron/divine/centrist)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine
 			else
 				wrists = /obj/item/clothing/neck/silveramulet

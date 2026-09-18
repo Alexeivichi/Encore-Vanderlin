@@ -42,6 +42,7 @@
 	attribute_sheet = /datum/attribute_holder/sheet/job/paladin
 
 	traits = list(
+		TRAIT_MEDIUMARMOR,
 		TRAIT_HEAVYARMOR,
 		TRAIT_NOBLE_BLOOD,
 		TRAIT_VIRGIN,
@@ -97,17 +98,17 @@
 /datum/outfit/folkhero/paladin
 	name = "Paladin (Folkhero)"
 
-	armor = /obj/item/clothing/armor/plate
-	shirt = /obj/item/clothing/armor/chainmail
-	pants = /obj/item/clothing/pants/platelegs
+	armor = /obj/item/clothing/armor/brigandine/light
+	shirt = /obj/item/clothing/armor/chainmail/hauberk/iron
+	pants = /obj/item/clothing/pants/chainlegs/iron
 	shoes = /obj/item/clothing/shoes/boots/darkboots
-	belt = /obj/item/storage/belt/leather/steel
+	belt = /obj/item/storage/belt/leather
 	beltl = /obj/item/storage/belt/pouch/coins/mid
 	ring = /obj/item/clothing/ring/silver/toper
 	cloak = /obj/item/clothing/cloak/tabard/crusader
-	neck = /obj/item/clothing/neck/chaincoif
-	gloves = /obj/item/clothing/gloves/plate
-	backl = /obj/item/weapon/sword/long/judgement
+	neck = /obj/item/clothing/neck/chaincoif/iron
+	gloves = /obj/item/clothing/gloves/chain/iron
+	backl = /obj/item/weapon/sword/long/silver
 	head = /obj/item/clothing/head/helmet/heavy/bucket
 	wrists = /obj/item/clothing/neck/psycross/silver
 
