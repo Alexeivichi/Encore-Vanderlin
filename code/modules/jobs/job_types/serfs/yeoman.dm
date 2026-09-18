@@ -214,7 +214,7 @@
 
 /datum/job/advclass/yeoman/homesteader
 	title = "Homesteader"
-	tutorial = "A farmer, a butcher, a vintner and a cook. You toil to feed the realm and to manage your home. Wihtout you, survival is impossible."
+	tutorial = "A farmer, a butcher, a vintner and a cook. You toil to feed the realm and to manage your home. Without you, survival is impossible."
 	outfit = /datum/outfit/yeoman/homesteader
 	category_tags = list(CTAG_YEOMAN)
 	attribute_sheet = /datum/attribute_holder/sheet/job/yeoman/homesteader

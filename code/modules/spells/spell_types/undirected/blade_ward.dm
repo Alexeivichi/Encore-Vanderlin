@@ -61,6 +61,7 @@
 /datum/action/cooldown/spell/undirected/blade_ward/miracle
 	name = "Divine Blade Ward"
 	desc = "This is a placeholder. If you've been given this spell, it's by mistake, please make a bug report on GitHub."
+	abstract_type = /datum/action/cooldown/spell/undirected/blade_ward/miracle
 
 /datum/action/cooldown/spell/undirected/blade_ward/miracle/frost
 	name = "Frost's Aegis"
