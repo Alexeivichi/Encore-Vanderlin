@@ -1,0 +1,6 @@
+author: "crimsonFig"
+delete-after: True
+changes:
+  - rscadd: "Added humour recipes"
+  - qol: "made it so players can retrieve the item and cancel recipe from the infuser machine before committing to infusion"
+  - bugfix: "fixed an oversight with recipe selection allowing any input for any output"
