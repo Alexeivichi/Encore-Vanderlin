@@ -290,7 +290,7 @@
 	keys = list(/obj/item/key/manor, /obj/item/key/atarms, /obj/item/key/gatehouse)
 
 /obj/item/storage/keyring/physician
-	keys = list(/obj/item/key/manor, /obj/item/key/atarms, /obj/item/key/dungeon, /obj/item/key/courtphys, /obj/item/key/clinic, /obj/item/key/apothecary, /obj/item/key/feldsher)
+	keys = list(/obj/item/key/manor, /obj/item/key/atarms, /obj/item/key/dungeon, /obj/item/key/courtphys)
 
 /obj/item/storage/keyring/elder
 	keys = list(/obj/item/key/gatehouse, /obj/item/key/elder, /obj/item/key/butcher, /obj/item/key/soilson, /obj/item/key/manor)

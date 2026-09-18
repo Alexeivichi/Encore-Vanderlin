@@ -86,6 +86,8 @@
 
 /datum/outfit/apothecary
 	name = JOB_APOTHECARY
+	mask = /obj/item/clothing/face/phys
+	neck = /obj/item/clothing/head/roguehood/colored/uncolored
 	armor = /obj/item/clothing/armor/gambeson/apothecary
 	shoes = /obj/item/clothing/shoes/apothboots
 	shirt = /obj/item/clothing/shirt/apothshirt

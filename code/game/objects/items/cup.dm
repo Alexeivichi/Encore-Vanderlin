@@ -64,6 +64,17 @@
 	sellprice = 50
 	item_weight = 200 GRAMS
 
+/obj/item/reagent_containers/glass/cup/church
+	name = "sacred goblet"
+	desc = "A gleaming golden goblet, representing the inhabited world that we all live in; The Goblet. Adorned with intricate carving and runes, each temple of the Katholikos possesses only one of these at a time. Used in religious services and mass, there is no object so small yet so cherished by clergy and layfolk alike. A thousand fingers have grazed it, a thousand lips have drank from it, and a thousand fervent prayers have been whispered before it. The world lies before you, Child of Doma."
+	icon_state = "cup_church"
+	sellprice = 300 //It's a priceless religious relic. Steal it and anticipate any person of the faith gunning for your demise.
+	item_weight = 220 GRAMS
+
+/obj/item/reagent_containers/glass/cup/church/Initialize(mapload, vol)
+	. = ..()
+	enchant(/datum/enchantment/silver)
+
 /obj/item/reagent_containers/glass/cup/skull
 	name = "skull goblet"
 	desc = "The hollow eye sockets tell you of forgotten, dark rituals."

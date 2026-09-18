@@ -1,0 +1,170 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"b" = (
+/obj/machinery/light/fueled/wallfire/candle,
+/obj/structure/chair/stool,
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"d" = (
+/obj/structure/ladder,
+/obj/machinery/light/fueled/wallfire/candle,
+/turf/open/floor/ruinedwood/chevron,
+/area/template_noop)
+"e" = (
+/obj/structure/table/wood/crafted,
+/obj/structure/bars/wood,
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
+	},
+/turf/open/openspace,
+/area/template_noop)
+"f" = (
+/turf/closed/wall/mineral/decowood,
+/area/template_noop)
+"j" = (
+/turf/open/floor/ruinedwood/chevron,
+/area/template_noop)
+"l" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"m" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/chevron,
+/area/template_noop)
+"n" = (
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
+	},
+/turf/closed/wall/mineral/wood/window,
+/area/template_noop)
+"r" = (
+/obj/machinery/light/fueled/wallfire/candle/r,
+/obj/effect/decal/cleanable/debris/glass,
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"I" = (
+/turf/closed/wall/mineral/wood,
+/area/template_noop)
+"J" = (
+/obj/structure/sign/property_sign/claim,
+/turf/closed/wall/mineral/wood,
+/area/template_noop)
+"N" = (
+/turf/closed/wall/mineral/decowood/vert,
+/area/template_noop)
+"O" = (
+/obj/machinery/light/fueled/wallfire/candle,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/debris/glass,
+/turf/open/floor/ruinedwood/chevron,
+/area/template_noop)
+"S" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/chevron,
+/area/template_noop)
+"T" = (
+/obj/structure/door/red{
+	name = "Shop Stall I"
+	},
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"U" = (
+/obj/machinery/light/fueled/wallfire/candle/r,
+/turf/open/floor/ruinedwood/chevron,
+/area/template_noop)
+"V" = (
+/obj/structure/ladder,
+/obj/machinery/light/fueled/wallfire/candle,
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"X" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/chevron,
+/area/template_noop)
+"Y" = (
+/obj/effect/decal/cleanable/debris/glass,
+/turf/open/floor/ruinedwood/chevron,
+/area/template_noop)
+"Z" = (
+/obj/structure/door/red{
+	name = "Shop Stall I"
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/template_noop)
+
+(1,1,1) = {"
+f
+S
+m
+j
+f
+"}
+(2,1,1) = {"
+f
+O
+X
+j
+n
+"}
+(3,1,1) = {"
+n
+j
+X
+j
+I
+"}
+(4,1,1) = {"
+N
+d
+U
+Y
+f
+"}
+(5,1,1) = {"
+I
+I
+f
+Z
+J
+"}
+
+(1,1,2) = {"
+I
+e
+e
+T
+f
+"}
+(2,1,2) = {"
+f
+b
+a
+a
+n
+"}
+(3,1,2) = {"
+n
+a
+l
+l
+I
+"}
+(4,1,2) = {"
+f
+V
+a
+r
+I
+"}
+(5,1,2) = {"
+I
+I
+N
+N
+f
+"}

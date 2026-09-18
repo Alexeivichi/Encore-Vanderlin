@@ -60,6 +60,9 @@
 /obj/effect/mapping_helpers/access/keyset/town/clinic
 	accesses = list(ACCESS_CLINIC)
 
+/obj/effect/mapping_helpers/access/keyset/town/clinic/shared
+	accesses = list(ACCESS_CLINIC, ACCESS_CHURCH)
+
 /obj/effect/mapping_helpers/access/keyset/town/merchant
 	accesses = list(ACCESS_MERCHANT)
 	difficulty = LOCK_EXPERT
@@ -74,8 +77,16 @@
 	accesses = list(ACCESS_APOTHECARY)
 	difficulty = LOCK_EXPERT
 
+/obj/effect/mapping_helpers/access/keyset/town/apothecary/shared
+	accesses = list(ACCESS_APOTHECARY, ACCESS_CHURCH)
+	difficulty = LOCK_EXPERT
+
 /obj/effect/mapping_helpers/access/keyset/town/doctor
 	accesses = list(ACCESS_FELDSHER)
+	difficulty = LOCK_EXPERT
+
+/obj/effect/mapping_helpers/access/keyset/town/doctor/shared
+	accesses = list(ACCESS_FELDSHER, ACCESS_CHURCH)
 	difficulty = LOCK_EXPERT
 
 /obj/effect/mapping_helpers/access/keyset/town/matron
@@ -142,6 +153,10 @@
 /obj/effect/mapping_helpers/access/keyset/church/priest
 	accesses = list(ACCESS_PRIEST)
 	difficulty = LOCK_MASTER
+
+/obj/effect/mapping_helpers/access/keyset/church/priest/reliquary
+	accesses = list(ACCESS_PRIEST)
+	difficulty = LOCK_LEGENDARY
 
 /obj/effect/mapping_helpers/access/keyset/church/inquisition
 	accesses = list(ACCESS_RITTER)

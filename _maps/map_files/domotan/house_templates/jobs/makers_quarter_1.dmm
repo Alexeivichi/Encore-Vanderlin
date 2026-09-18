@@ -10,6 +10,9 @@
 /obj/structure/window/openclose/reinforced{
 	dir = 8
 	},
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
+	},
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
 "j" = (
@@ -29,6 +32,9 @@
 /area/indoors/town/shop)
 "r" = (
 /obj/structure/window/openclose/reinforced,
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
+	},
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/shop)
 "t" = (
@@ -38,6 +44,9 @@
 "w" = (
 /obj/structure/window/openclose/reinforced{
 	dir = 1
+	},
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
 	},
 /turf/open/floor/cobble/alt,
 /area/indoors/town/shop)
@@ -49,9 +58,16 @@
 /obj/structure/fluff/walldeco/masonflag,
 /turf/closed/wall/mineral/stone,
 /area/indoors/town/shop)
+"C" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
 "G" = (
 /obj/structure/window/openclose/reinforced{
 	dir = 4
+	},
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
 	},
 /turf/open/floor/cobble/alt,
 /area/indoors/town/shop)
@@ -66,12 +82,20 @@
 /obj/structure/door/window{
 	name = "Maker's Quarter"
 	},
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
+	},
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
 "P" = (
 /obj/structure/door{
 	name = "Maker's Quarter"
 	},
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"Q" = (
+/obj/machinery/light/fueled/torchholder/c,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
 "U" = (
@@ -82,6 +106,7 @@
 /obj/machinery/light/fueled/torchholder/r{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
 
@@ -95,9 +120,9 @@ y
 "}
 (2,1,1) = {"
 t
+C
 J
-J
-J
+C
 c
 w
 "}
@@ -105,14 +130,14 @@ w
 P
 J
 J
-J
+C
 J
 L
 "}
 (4,1,1) = {"
 r
 J
-J
+C
 J
 J
 L
@@ -120,7 +145,7 @@ L
 (5,1,1) = {"
 l
 m
-J
+C
 J
 J
 w
@@ -129,32 +154,32 @@ w
 H
 J
 J
-J
+C
 J
 a
 "}
 (7,1,1) = {"
 a
 U
-J
-J
+C
+C
 J
 a
 "}
 (8,1,1) = {"
 p
-m
+Q
 J
-J
+C
 J
 X
 "}
 (9,1,1) = {"
 P
+C
 J
-J
-J
-J
+C
+C
 J
 "}
 (10,1,1) = {"
@@ -162,7 +187,7 @@ a
 x
 x
 j
-J
+C
 J
 "}
 (11,1,1) = {"

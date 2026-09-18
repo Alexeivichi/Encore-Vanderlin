@@ -14,6 +14,9 @@
 /obj/structure/door/window{
 	name = "Maker's Quarter"
 	},
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
+	},
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
 "f" = (
@@ -26,11 +29,26 @@
 /obj/structure/window/openclose/reinforced{
 	dir = 8
 	},
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
+	},
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
 "o" = (
 /obj/structure/window/openclose/reinforced,
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
+	},
 /turf/open/floor/blocks/stonered,
+/area/indoors/town/shop)
+"r" = (
+/obj/structure/rack/shelf/biggest,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"w" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/tile/brick,
 /area/indoors/town/shop)
 "z" = (
 /obj/machinery/light/fueled/torchholder/c,
@@ -44,6 +62,9 @@
 /obj/structure/window/openclose/reinforced{
 	dir = 4
 	},
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
+	},
 /turf/open/floor/cobble/alt,
 /area/indoors/town/shop)
 "G" = (
@@ -56,6 +77,9 @@
 "N" = (
 /obj/structure/window/openclose/reinforced{
 	dir = 1
+	},
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
 	},
 /turf/open/floor/cobble/alt,
 /area/indoors/town/shop)
@@ -73,6 +97,7 @@
 "S" = (
 /obj/structure/rack/shelf/biggest,
 /obj/item/key/houses/workplace2,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
 
@@ -94,16 +119,16 @@ A
 "}
 (3,1,1) = {"
 f
+w
 a
-a
-a
+w
 a
 e
 "}
 (4,1,1) = {"
 o
 a
-a
+w
 a
 a
 e
@@ -111,8 +136,8 @@ e
 (5,1,1) = {"
 I
 z
-a
-a
+w
+w
 a
 N
 "}
@@ -120,38 +145,38 @@ N
 O
 a
 a
-a
+w
 a
 I
 "}
 (7,1,1) = {"
 O
 a
-a
-a
+w
+w
 a
 I
 "}
 (8,1,1) = {"
 I
 z
+w
 a
-a
-a
+w
 I
 "}
 (9,1,1) = {"
 f
 a
-a
-a
+w
+w
 a
 f
 "}
 (10,1,1) = {"
 O
 P
-Q
+r
 S
 c
 O

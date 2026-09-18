@@ -173,11 +173,10 @@
 	icon_state = "clinic_large"
 
 /area/indoors/town/clinic_large/apothecary
-	name = "Etgard Apothecarium"
+	name = "The Apothecarium"
 
 /area/indoors/town/clinic_large/feldsher
-	name = "Feldsher's Office"
-	icon_state = "clinic_feld"
+	name = "Feldsher's Stitchery"
 
 /area/indoors/town/thieves_guild
 	name = "Thieves' Guild"

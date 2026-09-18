@@ -1,0 +1,886 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ak" = (
+/obj/machinery/light/fueled/wallfire/candle,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"ap" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors)
+"aH" = (
+/obj/structure/table/wood,
+/obj/structure/carpet/purple,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"bu" = (
+/obj/machinery/light/fueled/wallfire/candle/l,
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_y = -32
+	},
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"dg" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/debris/glass,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors)
+"dA" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"dR" = (
+/obj/structure/door/stone,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors)
+"dT" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/generic,
+/obj/structure/rack,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors)
+"fG" = (
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors)
+"fZ" = (
+/obj/structure/table/wood,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"jp" = (
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"jr" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood,
+/turf/template_noop,
+/area/template_noop)
+"kl" = (
+/obj/structure/chair/wood/alt/chair_noble/red{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"kn" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"kI" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/template_noop,
+/area/template_noop)
+"lD" = (
+/obj/structure/chair/wood/alt/chair_noble/red{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"lU" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/table/wood/crafted,
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"mn" = (
+/obj/structure/chair/stool,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"oq" = (
+/obj/machinery/light/fueled/wallfire/candle/r,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors)
+"oz" = (
+/turf/open/glass,
+/area/template_noop)
+"pV" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/table/wood/crafted,
+/obj/machinery/light/fueled/torchholder/metal_torch/north,
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"qv" = (
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_y = -32
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"rI" = (
+/obj/machinery/light/fueled/wallfire/candle/l,
+/obj/machinery/light/fueled/wallfire/candle,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/cobweb,
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"sr" = (
+/obj/structure/fluff/railing/wood,
+/turf/template_noop,
+/area/template_noop)
+"sL" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"tl" = (
+/obj/structure/sign/property_sign/claim,
+/turf/closed/wall/mineral/wooddark,
+/area/template_noop)
+"tG" = (
+/obj/structure/door/window,
+/obj/structure/curtain/bounty/dir,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"uF" = (
+/turf/open/floor/rooftop,
+/area/template_noop)
+"uR" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/debris/wood,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"vm" = (
+/obj/structure/carpet/purple,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"we" = (
+/obj/structure/chair/wood/alt/chair_noble/red{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"wN" = (
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors)
+"wP" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"wW" = (
+/turf/closed/wall/mineral/stone,
+/area/indoors)
+"xx" = (
+/obj/structure/window/openclose{
+	dir = 1
+	},
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"yQ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"zI" = (
+/obj/machinery/light/fueled/wallfire/candle/l,
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors)
+"zU" = (
+/obj/structure/window/openclose{
+	dir = 4
+	},
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"AO" = (
+/obj/structure/door/stone,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors)
+"AZ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/carpet/purple,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"Bw" = (
+/obj/structure/window/openclose,
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"BL" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood,
+/turf/template_noop,
+/area/template_noop)
+"BQ" = (
+/obj/machinery/light/fueled/wallfire/candle/r,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/cobweb{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"Cq" = (
+/obj/machinery/light/fueled/wallfire/candle/r,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors)
+"CI" = (
+/obj/machinery/light/fueled/wallfire/candle,
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors)
+"DI" = (
+/turf/closed/wall/mineral/stone/window,
+/area/indoors)
+"EQ" = (
+/turf/template_noop,
+/area/template_noop)
+"Fu" = (
+/obj/machinery/light/fueled/wallfire/candle/r,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"FU" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors)
+"GZ" = (
+/obj/structure/window/openclose{
+	dir = 8
+	},
+/obj/structure/curtain/bounty{
+	icon_state = "bounty-closed"
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"Hu" = (
+/obj/structure/table/wood/crafted,
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"HE" = (
+/obj/effect/decal/cleanable/debris/glass,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors)
+"IC" = (
+/obj/structure/table/wood/crafted,
+/obj/machinery/light/fueled/torchholder/metal_torch/west,
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"Jl" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/debris/glass,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"JP" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors)
+"KU" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair/stool,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"LX" = (
+/obj/structure/ladder,
+/obj/machinery/light/fueled/wallfire/candle,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors)
+"Nh" = (
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"OC" = (
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_y = -32
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/carpet/purple,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"PG" = (
+/turf/open/floor/ruinedwood/turned,
+/area/template_noop)
+"QR" = (
+/obj/machinery/light/fueled/wallfire/candle/r,
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_y = -32
+	},
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"RI" = (
+/obj/effect/decal/cleanable/debris/glass,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"Tg" = (
+/obj/structure/ladder,
+/obj/machinery/light/fueled/wallfire/candle,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors)
+"TZ" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"UW" = (
+/obj/effect/decal/cleanable/debris/wood,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"VD" = (
+/obj/machinery/light/fueled/wallfire/candle/l,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors)
+"Wd" = (
+/obj/machinery/light/fueled/wallfire/candle,
+/obj/effect/decal/cleanable/dirt/cobweb,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors)
+"Wr" = (
+/obj/machinery/light/fueled/wallfire/candle/l,
+/obj/effect/decal/cleanable/dirt/cobweb{
+	dir = 4;
+	pixel_x = 16
+	},
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors)
+"Wx" = (
+/obj/structure/table/wood,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors)
+"XQ" = (
+/obj/machinery/light/fueled/wallfire/candle,
+/obj/effect/decal/cleanable/dirt/cobweb,
+/obj/structure/rack,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"Yc" = (
+/obj/machinery/light/fueled/wallfire/candle/l,
+/obj/effect/decal/cleanable/debris/wood,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"YV" = (
+/obj/machinery/light/fueled/wallfire/candle/l,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/spiralfade,
+/area/indoors)
+"Zb" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
+"Zy" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/ruinedwood/spiral,
+/area/indoors)
+
+(1,1,1) = {"
+EQ
+sr
+sL
+lU
+pV
+wW
+wW
+zU
+zU
+zU
+wW
+wW
+"}
+(2,1,1) = {"
+kI
+BL
+Nh
+kl
+kl
+wW
+XQ
+jp
+jp
+kn
+bu
+wW
+"}
+(3,1,1) = {"
+uR
+PG
+Nh
+TZ
+TZ
+Bw
+jp
+Zb
+jp
+dA
+jp
+xx
+"}
+(4,1,1) = {"
+PG
+wP
+TZ
+TZ
+Nh
+tG
+Zb
+RI
+jp
+Zb
+jp
+xx
+"}
+(5,1,1) = {"
+tl
+jr
+Hu
+lD
+Nh
+Bw
+Zb
+jp
+Zb
+jp
+jp
+xx
+"}
+(6,1,1) = {"
+EQ
+sr
+IC
+we
+TZ
+wW
+Zb
+mn
+jp
+Zb
+yQ
+wW
+"}
+(7,1,1) = {"
+wW
+zU
+wW
+zU
+wW
+wW
+ak
+Zb
+fZ
+fZ
+fZ
+wW
+"}
+(8,1,1) = {"
+wW
+CI
+YV
+wN
+Wr
+wW
+jp
+jp
+fZ
+RI
+jp
+xx
+"}
+(9,1,1) = {"
+Bw
+dT
+wN
+wN
+wN
+DI
+jp
+Zb
+fZ
+KU
+jp
+xx
+"}
+(10,1,1) = {"
+Bw
+FU
+wN
+HE
+wN
+wW
+ak
+Zb
+Zb
+Zb
+jp
+xx
+"}
+(11,1,1) = {"
+wW
+LX
+Cq
+wN
+Cq
+AO
+jp
+jp
+jp
+kn
+QR
+wW
+"}
+(12,1,1) = {"
+wW
+Bw
+wW
+GZ
+wW
+wW
+wW
+GZ
+GZ
+GZ
+wW
+wW
+"}
+
+(1,1,2) = {"
+EQ
+EQ
+EQ
+EQ
+EQ
+wW
+wW
+zU
+zU
+zU
+wW
+wW
+"}
+(2,1,2) = {"
+EQ
+EQ
+EQ
+EQ
+EQ
+wW
+rI
+kn
+jp
+jp
+Yc
+xx
+"}
+(3,1,2) = {"
+EQ
+EQ
+EQ
+EQ
+EQ
+Bw
+Zb
+jp
+Zb
+Zb
+qv
+wW
+"}
+(4,1,2) = {"
+EQ
+EQ
+EQ
+EQ
+EQ
+wW
+jp
+Jl
+Zb
+dA
+jp
+xx
+"}
+(5,1,2) = {"
+EQ
+EQ
+EQ
+EQ
+EQ
+Bw
+jp
+jp
+Zb
+jp
+qv
+wW
+"}
+(6,1,2) = {"
+EQ
+EQ
+EQ
+EQ
+EQ
+wW
+jp
+UW
+Zb
+jp
+jp
+xx
+"}
+(7,1,2) = {"
+wW
+zU
+wW
+zU
+wW
+wW
+ak
+jp
+Zb
+jp
+jp
+xx
+"}
+(8,1,2) = {"
+wW
+Wd
+VD
+ap
+zI
+wW
+jp
+jp
+Zb
+Jl
+qv
+wW
+"}
+(9,1,2) = {"
+wW
+Wx
+ap
+dg
+Zy
+DI
+jp
+Zb
+AZ
+AZ
+vm
+xx
+"}
+(10,1,2) = {"
+wW
+fG
+JP
+fG
+fG
+wW
+ak
+Zb
+AZ
+aH
+OC
+wW
+"}
+(11,1,2) = {"
+wW
+Tg
+oq
+fG
+oq
+dR
+Fu
+jp
+jp
+fZ
+BQ
+xx
+"}
+(12,1,2) = {"
+wW
+GZ
+wW
+GZ
+wW
+wW
+wW
+GZ
+GZ
+GZ
+wW
+wW
+"}
+
+(1,1,3) = {"
+EQ
+EQ
+EQ
+EQ
+EQ
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+"}
+(2,1,3) = {"
+EQ
+EQ
+EQ
+EQ
+EQ
+uF
+oz
+oz
+oz
+oz
+oz
+uF
+"}
+(3,1,3) = {"
+EQ
+EQ
+EQ
+EQ
+EQ
+uF
+oz
+oz
+oz
+oz
+oz
+uF
+"}
+(4,1,3) = {"
+EQ
+EQ
+EQ
+EQ
+EQ
+uF
+oz
+oz
+oz
+oz
+oz
+uF
+"}
+(5,1,3) = {"
+EQ
+EQ
+EQ
+EQ
+EQ
+uF
+oz
+oz
+oz
+oz
+oz
+uF
+"}
+(6,1,3) = {"
+EQ
+EQ
+EQ
+EQ
+EQ
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+"}
+(7,1,3) = {"
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+"}
+(8,1,3) = {"
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+"}
+(9,1,3) = {"
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+"}
+(10,1,3) = {"
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+"}
+(11,1,3) = {"
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+"}
+(12,1,3) = {"
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+uF
+"}

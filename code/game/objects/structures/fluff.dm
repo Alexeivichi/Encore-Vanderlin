@@ -1663,3 +1663,25 @@
 	var/obj/effect/abstract/shared_particle_holder/steamvent_particle = add_shared_particles(/particles/smoke/cig/big, "steam_vent", pool_size = 4)
 	steamvent_particle.particles.position = generator(GEN_BOX, list(-14, -14), list(14, 14))
 
+/obj/structure/fluff/ship_hull
+	name = "ship hull"
+	desc = ""
+	icon = 'icons/roguetown/misc/ship_hull.dmi'
+	icon_state = "6,0"
+	layer = ABOVE_OBJ_LAYER
+	max_integrity = 1000
+	anchored = TRUE
+	density = TRUE
+	deconstructible = FALSE
+
+/obj/structure/fluff/ship_mast
+	name = "giant mast"
+	desc = ""
+	icon = 'icons/roguetown/misc/mast.dmi'
+	icon_state = "mast"
+	layer = ABOVE_ALL_MOB_LAYER
+	max_integrity = 1000
+	anchored = TRUE
+	density = TRUE
+	deconstructible = FALSE
+	pixel_x = -32

@@ -734,20 +734,6 @@
 /obj/machinery/light/fueled/lanternpost,
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/berkleigh)
-"fl" = (
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 5;
-	pixel_x = -24;
-	pixel_y = -24
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "fp" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/west/crags)
@@ -824,15 +810,6 @@
 	},
 /turf/open/openspace,
 /area/indoors/lostkeep)
-"fN" = (
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "fP" = (
 /obj/effect/decal/cobbleedge,
 /turf/open/floor/cobble/mossy,
@@ -1059,15 +1036,6 @@
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/churchmarble/violet,
 /area/indoors/vampire_manor)
-"hn" = (
-/obj/structure/fluff/railing/border{
-	dir = 6
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "hp" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 1
@@ -1349,24 +1317,6 @@
 "jh" = (
 /turf/open/floor/carpet/lord/center,
 /area/under/cave/oldfort)
-"ji" = (
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/obj/machinery/light/fueled/torchholder{
-	pixel_y = -10
-	},
-/obj/structure/fluff/railing/border,
-/obj/structure/fluff/railing/border{
-	dir = 9;
-	pixel_x = 24;
-	pixel_y = -24
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "jo" = (
 /mob/living/carbon/human/species/goblin/npc/sea,
 /obj/effect/decal/cleanable/blood/tracks,
@@ -1820,20 +1770,6 @@
 /obj/structure/spider/stickyweb,
 /turf/open/floor/cobble,
 /area/indoors/lostkeep)
-"my" = (
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 9;
-	pixel_x = 24;
-	pixel_y = -24
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "mz" = (
 /obj/structure/fluff/railing/border{
 	dir = 10
@@ -1913,23 +1849,6 @@
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/dirt/road,
 /area/under/cavewet)
-"nl" = (
-/obj/structure/fluff/railing/border{
-	dir = 1
-	},
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 6;
-	pixel_x = -24;
-	pixel_y = 24
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "nn" = (
 /obj/structure/vampire/portalmaker{
 	pixel_x = -18;
@@ -2411,13 +2330,6 @@
 /obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/vampire_manor)
-"qO" = (
-/obj/effect/landmark/tram/queued_path{
-	next_path_id = "cargo_pre_enter";
-	platform_code = "point_4"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "qP" = (
 /turf/open/floor/ruinedwood/alt,
 /area/outdoors/lighthouse)
@@ -2469,13 +2381,6 @@
 	},
 /turf/open/floor/grass/red,
 /area/outdoors/woods/west)
-"rb" = (
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/obj/structure/fluff/railing/border,
-/turf/open/openspace,
-/area/outdoors/river)
 "rc" = (
 /turf/open/floor/church/purple,
 /area/indoors/vampire_manor)
@@ -2787,12 +2692,6 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter/woods)
-"ts" = (
-/obj/effect/landmark/tram/queued_path/cargo_map_exit{
-	next_path_id = "cargo_return_1"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "tu" = (
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/blocks/green,
@@ -3035,15 +2934,6 @@
 "vr" = (
 /turf/open/floor/snow,
 /area/outdoors/woods/west)
-"vu" = (
-/obj/structure/fluff/railing/border{
-	dir = 5
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "vv" = (
 /obj/structure/flora/grass/swampweed,
 /turf/open/water/swamp,
@@ -3121,13 +3011,6 @@
 /obj/structure/stairs/stone,
 /turf/open/floor/cobble,
 /area/outdoors/lostkeep)
-"vW" = (
-/obj/effect/landmark/tram/queued_path{
-	next_path_id = "cargo_map_enter";
-	platform_code = "cargo_return_2"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "vY" = (
 /obj/machinery/light/fueled/lanternpost,
 /turf/open/floor/dirt/road,
@@ -3243,15 +3126,6 @@
 	},
 /turf/closed/wall/mineral/stone,
 /area/indoors/vampire_manor)
-"wH" = (
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "wI" = (
 /obj/item/natural/bundle/stick,
 /turf/open/floor/cobble/mossy,
@@ -3386,23 +3260,6 @@
 	},
 /turf/open/floor/concrete,
 /area/under/cave/lostkeep)
-"xL" = (
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/obj/structure/fluff/railing/border{
-	dir = 1
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "vertw"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 10;
-	pixel_x = 24;
-	pixel_y = 24
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "xO" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
@@ -3920,24 +3777,6 @@
 "BP" = (
 /turf/open/floor/cobble/mossy,
 /area/outdoors/lostkeep)
-"BQ" = (
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/obj/structure/fluff/railing/border,
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/obj/machinery/light/fueled/torchholder{
-	pixel_y = -10
-	},
-/obj/structure/fluff/railing/border{
-	dir = 5;
-	pixel_x = -24;
-	pixel_y = -24
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "BR" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
@@ -3945,10 +3784,6 @@
 	},
 /turf/open/openspace,
 /area/outdoors/lighthouse)
-"BS" = (
-/obj/effect/landmark/tram/queued_path/cargo_stop,
-/turf/open/openspace,
-/area/outdoors/river)
 "BT" = (
 /turf/open/floor/blocks/green,
 /area/indoors/vampire_manor)
@@ -3999,19 +3834,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobble/mossy,
 /area/under/cave/oldfort)
-"Cl" = (
-/obj/effect/decal/cobbleedge{
-	dir = 4;
-	icon_state = "jagged"
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "vertw"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 6
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "Co" = (
 /obj/effect/decal/cobbleedge,
 /obj/structure/fluff/railing/border{
@@ -4227,15 +4049,6 @@
 "Dj" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/west/thornbed)
-"Dk" = (
-/obj/structure/fluff/railing/border{
-	dir = 9
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "Dl" = (
 /obj/structure/fluff/railing/wood,
 /obj/structure/fluff/railing/border{
@@ -4266,15 +4079,6 @@
 	},
 /turf/open/floor/churchrough,
 /area/indoors/lostkeep)
-"Dy" = (
-/obj/effect/landmark/tram/queued_path/cargo_map_enter{
-	next_path_id = "point_1"
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "Dz" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobble,
@@ -4467,15 +4271,6 @@
 /obj/effect/spawner/map_spawner/loot/weapon,
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
-"EZ" = (
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "Fa" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -4491,15 +4286,6 @@
 	},
 /turf/open/floor/twig,
 /area/indoors/shelter/woods)
-"Fe" = (
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "vertw"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "Fh" = (
 /obj/item/clothing/head/helmet/bascinet,
 /turf/open/floor/dirt,
@@ -4521,13 +4307,6 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/lighthouse)
-"Fo" = (
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/obj/machinery/light/fueledstreet/midlamp,
-/turf/open/openspace,
-/area/outdoors/river)
 "Fp" = (
 /obj/item/needle/thorn,
 /obj/item/needle/thorn{
@@ -4821,12 +4600,6 @@
 	},
 /turf/open/floor/blocks,
 /area/outdoors/lostkeep)
-"GW" = (
-/obj/effect/landmark/tram/queued_path/cargo_pre_enter{
-	next_path_id = "cargo_stop"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "GX" = (
 /obj/structure/closet/crate/chest/wicker,
 /obj/item/statue/silver,
@@ -4845,12 +4618,6 @@
 /obj/structure/flora/grass/water,
 /turf/open/water/ocean,
 /area/outdoors/woods/west/crags)
-"Hd" = (
-/obj/structure/industrial_lift/tram{
-	icon_state = "vertw"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "He" = (
 /obj/effect/decal/cobbleedge{
 	dir = 9
@@ -4875,15 +4642,6 @@
 /obj/item/natural/stone,
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
-"Hk" = (
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "vertw"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "Hm" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/grass/yel,
@@ -5026,12 +4784,6 @@
 	},
 /turf/open/floor/blocks,
 /area/outdoors/woods/west)
-"Ip" = (
-/obj/effect/landmark/tram/queued_path/cargo_exit{
-	next_path_id = "cargo_map_exit"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "Iq" = (
 /obj/item/natural/fibers,
 /turf/open/floor/tile/bath,
@@ -5371,19 +5123,6 @@
 "KG" = (
 /turf/closed/mineral/bedrock,
 /area/outdoors/woods/west)
-"KI" = (
-/obj/structure/fluff/railing/border{
-	dir = 1
-	},
-/obj/machinery/light/fueled/torchholder{
-	dir = 1;
-	pixel_y = 31
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "KL" = (
 /obj/item/reagent_containers/glass/bottle/beer/ratkept{
 	pixel_x = 25;
@@ -5616,21 +5355,6 @@
 /obj/structure/ladder,
 /turf/open/floor/metal,
 /area/under/cave/lighthouse)
-"Mi" = (
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/obj/structure/fluff/railing/border,
-/obj/structure/industrial_lift/tram{
-	icon_state = "vertw"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 9;
-	pixel_x = 24;
-	pixel_y = -24
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "Mm" = (
 /obj/item/restraints/legcuffs/beartrap/armed/camouflage,
 /turf/open/floor/sand,
@@ -5829,19 +5553,6 @@
 /obj/structure/flora/grass,
 /turf/open/floor/sand,
 /area/outdoors/woods/west/crags)
-"Ns" = (
-/obj/effect/decal/cobbleedge{
-	dir = 4;
-	icon_state = "jagged"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "vertw"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "Nt" = (
 /obj/item/bedsheet/cloth,
 /obj/structure/bed,
@@ -5978,20 +5689,6 @@
 	},
 /turf/open/floor/blocks,
 /area/outdoors/oldfort)
-"OC" = (
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 10;
-	pixel_x = 24;
-	pixel_y = 24
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "OD" = (
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/west)
@@ -6071,20 +5768,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/ruinedwood/darker,
 /area/outdoors/lighthouse)
-"Pb" = (
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 6;
-	pixel_x = -24;
-	pixel_y = 24
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "Pc" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -6196,23 +5879,6 @@
 	},
 /turf/open/floor/blocks,
 /area/outdoors/woods/west)
-"PR" = (
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/obj/structure/fluff/railing/border{
-	dir = 1
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "vertw"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 6;
-	pixel_x = -24;
-	pixel_y = 24
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "PT" = (
 /obj/structure/closet/crate/chest/neu,
 /obj/item/cooking/pan,
@@ -6479,12 +6145,6 @@
 	},
 /turf/open/floor/cobble/mossy,
 /area/indoors/lighthouse)
-"RK" = (
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "RL" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/item/clothing/head/helmet/bascinet,
@@ -6828,23 +6488,6 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/lighthouse)
-"TU" = (
-/obj/structure/fluff/railing/border{
-	dir = 1
-	},
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/obj/structure/industrial_lift/tram{
-	icon_state = "wooden_floor"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 10;
-	pixel_x = 24;
-	pixel_y = 24
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "TX" = (
 /turf/open/floor/church,
 /area/under/cave/oldtown)
@@ -6981,13 +6624,6 @@
 "UX" = (
 /turf/closed/wall/mineral/tent,
 /area/under/cavewet)
-"UY" = (
-/obj/effect/landmark/tram/queued_path{
-	next_path_id = "point_4";
-	platform_code = "point_1"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "UZ" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10
@@ -7020,13 +6656,6 @@
 /obj/structure/ladder,
 /turf/open/floor/blocks,
 /area/indoors/shelter/woods)
-"Vx" = (
-/obj/effect/landmark/tram/queued_path{
-	next_path_id = "cargo_return_2";
-	platform_code = "cargo_return_1"
-	},
-/turf/open/openspace,
-/area/outdoors/river)
 "Vz" = (
 /obj/structure/stairs/stone,
 /turf/open/floor/grass/yel,
@@ -7295,10 +6924,6 @@
 	},
 /turf/open/floor/cobble/mossy,
 /area/indoors/lighthouse)
-"XN" = (
-/obj/structure/industrial_lift/tram,
-/turf/open/openspace,
-/area/outdoors/river)
 "XQ" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/blood/tracks{
@@ -11204,25 +10829,25 @@ HE
 HE
 "}
 (15,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -11461,25 +11086,25 @@ HE
 HE
 "}
 (16,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -11718,25 +11343,25 @@ HE
 HE
 "}
 (17,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -11975,25 +11600,25 @@ HE
 HE
 "}
 (18,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -12232,25 +11857,25 @@ HE
 HE
 "}
 (19,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -12489,25 +12114,25 @@ HE
 HE
 "}
 (20,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -12746,25 +12371,25 @@ HE
 HE
 "}
 (21,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -13003,25 +12628,25 @@ HE
 HE
 "}
 (22,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -13260,25 +12885,25 @@ HE
 HE
 "}
 (23,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -13517,25 +13142,25 @@ HE
 HE
 "}
 (24,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -13774,25 +13399,25 @@ HE
 HE
 "}
 (25,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -14031,25 +13656,25 @@ HE
 HE
 "}
 (26,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -14288,25 +13913,25 @@ HE
 HE
 "}
 (27,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -14545,25 +14170,25 @@ HE
 HE
 "}
 (28,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -14802,25 +14427,25 @@ HE
 HE
 "}
 (29,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -15059,25 +14684,25 @@ HE
 HE
 "}
 (30,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -15316,25 +14941,25 @@ HE
 HE
 "}
 (31,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -15573,25 +15198,25 @@ HE
 HE
 "}
 (32,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -15830,25 +15455,25 @@ HE
 HE
 "}
 (33,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -16087,25 +15712,25 @@ HE
 HE
 "}
 (34,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -16344,25 +15969,25 @@ HE
 HE
 "}
 (35,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -16601,25 +16226,25 @@ HE
 HE
 "}
 (36,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -16858,25 +16483,25 @@ HE
 HE
 "}
 (37,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -17115,25 +16740,25 @@ HE
 HE
 "}
 (38,1,1) = {"
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
-pM
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 pM
 pM
 pM
@@ -51041,24 +50666,24 @@ HE
 "}
 (15,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -51298,24 +50923,24 @@ HE
 "}
 (16,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -51555,24 +51180,24 @@ HE
 "}
 (17,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -51812,24 +51437,24 @@ HE
 "}
 (18,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -52069,24 +51694,24 @@ HE
 "}
 (19,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -52326,24 +51951,24 @@ HE
 "}
 (20,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -52583,24 +52208,24 @@ HE
 "}
 (21,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -52840,24 +52465,24 @@ HE
 "}
 (22,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -53097,24 +52722,24 @@ HE
 "}
 (23,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -53354,24 +52979,24 @@ HE
 "}
 (24,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -53611,24 +53236,24 @@ HE
 "}
 (25,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -53868,24 +53493,24 @@ HE
 "}
 (26,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -54125,24 +53750,24 @@ HE
 "}
 (27,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -54382,24 +54007,24 @@ HE
 "}
 (28,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -54639,24 +54264,24 @@ HE
 "}
 (29,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-vW
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -54896,6 +54521,24 @@ HE
 "}
 (30,1,2) = {"
 HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -54945,24 +54588,6 @@ di
 di
 di
 di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-ts
 di
 di
 di
@@ -55153,24 +54778,24 @@ HE
 "}
 (31,1,2) = {"
 HE
-di
-PR
-Hk
-fN
-fN
-fl
-RK
-RK
-RK
-Pb
-fN
-fN
-fN
-EZ
-EZ
-EZ
-BQ
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -55410,23 +55035,24 @@ HE
 "}
 (32,1,2) = {"
 HE
-nl
-Dk
-RK
-XN
-XN
-XN
-XN
-RK
-Hd
-Hd
-Hd
-Hd
-RK
-Hd
-Hd
-Hd
-rb
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -55476,7 +55102,6 @@ di
 di
 di
 di
-Vx
 di
 di
 di
@@ -55667,24 +55292,24 @@ HE
 "}
 (33,1,2) = {"
 HE
-KI
-Fo
-RK
-XN
-XN
-XN
-XN
-Fo
-Hd
-Hd
-Hd
-Hd
-Fo
-Ns
-Ns
-Cl
-ji
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -55924,49 +55549,24 @@ HE
 "}
 (34,1,2) = {"
 HE
-TU
-vu
-RK
-XN
-XN
-XN
-XN
-Dy
-Hd
-Hd
-Hd
-Hd
-hn
-Fe
-Fe
-Mi
-di
-di
-di
-di
-di
-di
-di
-di
-qO
-di
-GW
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-BS
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -55986,7 +55586,32 @@ di
 di
 di
 di
-Ip
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
+di
 di
 di
 di
@@ -56181,24 +55806,24 @@ HE
 "}
 (35,1,2) = {"
 HE
-di
-xL
-Fe
-wH
-wH
-my
-RK
-RK
-RK
-OC
-wH
-wH
-Mi
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -56438,24 +56063,24 @@ HE
 "}
 (36,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -56695,28 +56320,28 @@ HE
 "}
 (37,1,2) = {"
 HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
 di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-UY
 di
 di
 di
@@ -56952,24 +56577,24 @@ HE
 "}
 (38,1,2) = {"
 HE
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
-di
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 di
 di
 di
@@ -57209,24 +56834,24 @@ HE
 "}
 (39,1,2) = {"
 HE
-by
-by
-by
-by
-by
-by
-by
-by
-by
-by
-by
-by
-by
-by
-by
-by
-by
-by
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
+HE
 by
 by
 by

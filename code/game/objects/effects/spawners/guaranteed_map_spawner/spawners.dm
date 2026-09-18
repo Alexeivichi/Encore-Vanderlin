@@ -61,11 +61,39 @@
 
 
 /obj/effect/spawner/guaranteed_map_spawner/listed/cutlery
+	name = "Wooden Cutlery Spawner"
 	spawned = list(
 		/obj/item/reagent_containers/glass/bowl = 6,
 		/obj/item/plate = 8,
+		/obj/item/kitchen/fork = 6,
+		/obj/item/kitchen/spoon = 6,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/cutlery/middlelow
+	name = "Copper Cutlery Spawner"
+	spawned = list(
+		/obj/item/reagent_containers/glass/bowl/clay = 6,
+		/obj/item/plate/copper = 8,
 		/obj/item/kitchen/fork/iron = 6,
 		/obj/item/kitchen/spoon/iron = 6,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/cutlery/middlehigh
+	name = "Iron Cutlery Spawner"
+	spawned = list(
+		/obj/item/reagent_containers/glass/bowl/iron = 6,
+		/obj/item/plate/pewter = 8,
+		/obj/item/kitchen/fork/iron = 6,
+		/obj/item/kitchen/spoon/iron = 6,
+	)
+
+/obj/effect/spawner/guaranteed_map_spawner/listed/cutlery/rich
+	name = "Silver Cutlery Spawner"
+	spawned = list(
+		/obj/item/reagent_containers/glass/bowl/pewter = 6,
+		/obj/item/plate/silver = 8,
+		/obj/item/kitchen/fork/pewter = 6,
+		/obj/item/kitchen/spoon/pewter = 6,
 	)
 
 /obj/effect/spawner/guaranteed_map_spawner/listed/cups

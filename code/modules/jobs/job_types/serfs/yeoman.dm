@@ -47,6 +47,7 @@
 		/obj/item/recipe_book/carpentry,
 		/obj/item/recipe_book/masonry,
 		/obj/item/weapon/knife/villager,
+		/obj/item/key/yeoman,
 	)
 
 /datum/attribute_holder/sheet/job/yeoman/handmason
@@ -112,6 +113,7 @@
 		/obj/item/weapon/knife/villager,
 		/obj/item/needle,
 		/obj/item/flashlight/flare/torch/lantern,
+		/obj/item/key/yeoman,
 	)
 	ring = /obj/item/clothing/ring/silver/makers_guild
 
@@ -128,8 +130,8 @@
 		/datum/attribute/skill/combat/unarmed = 20,
 		/datum/attribute/skill/craft/crafting = 30,
 		/datum/attribute/skill/craft/blacksmithing = 40,
-		/datum/attribute/skill/craft/armorsmithing = 30,
-		/datum/attribute/skill/craft/weaponsmithing = 30,
+		/datum/attribute/skill/craft/armorsmithing = 40,
+		/datum/attribute/skill/craft/weaponsmithing = 40,
 		/datum/attribute/skill/craft/smelting = 30,
 		/datum/attribute/skill/craft/traps = 20,
 		/datum/attribute/skill/misc/reading = 20,
@@ -170,14 +172,18 @@
 	beltr = /obj/item/weapon/knife/scissors
 	neck = /obj/item/storage/belt/pouch/coins/poor
 	backl = /obj/item/storage/backpack/backpack
+	backr = /obj/item/storage/backpack/satchel
 	backpack_contents = list(
 		/obj/item/needle = 1,
-		/obj/item/natural/bundle/cloth/full = 1,
-		/obj/item/natural/bundle/fibers/full = 1,
+		/obj/item/natural/bundle/cloth/full = 2,
+		/obj/item/natural/bundle/fibers/full = 2,
 		/obj/item/dye_pack/luxury = 1,
 		/obj/item/recipe_book/sewing_leather = 1,
 		/obj/item/weapon/knife/villager = 1,
 		/obj/item/recipe_book/sewing = 1,
+		/obj/item/key/yeoman,
+		/obj/item/natural/bundle/silk = 2,
+		/obj/item/natural/bundle/curred_hide = 1,
 	)
 
 
@@ -235,6 +241,7 @@
 		/obj/item/recipe_book/agriculture,
 		/obj/item/recipe_book/cooking,
 		/obj/item/needle,
+		/obj/item/key/yeoman,
 	)
 
 /datum/attribute_holder/sheet/job/yeoman/homesteader
@@ -300,7 +307,10 @@
 		/obj/item/flint = 1,
 		/obj/item/bait = 1,
 		/obj/item/weapon/knife/hunting = 1,
-		/obj/item/flashlight/flare/torch/lantern = 1
+		/obj/item/flashlight/flare/torch/lantern = 1,
+		/obj/item/key/yeoman,
+		/obj/item/needle,
+		/obj/item/recipe_book/sewing_leather = 1,
 	)
 
 /datum/attribute_holder/sheet/job/yeoman/woodsman
@@ -326,6 +336,8 @@
 		/datum/attribute/skill/misc/swimming = 10,
 		/datum/attribute/skill/misc/reading = 10,
 		/datum/attribute/skill/labor/fishing = 40,
+		/datum/attribute/skill/craft/masonry = 10,
+		/datum/attribute/skill/craft/carpentry = 10,
 	)
 
 

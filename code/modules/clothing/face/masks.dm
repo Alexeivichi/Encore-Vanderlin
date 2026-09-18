@@ -490,7 +490,7 @@
 	item_weight = 356 GRAMS
 
 /obj/item/clothing/face/phys
-	name = "physicker's mask"
+	name = "apothecary's mask"
 	desc = "Packed with herbs to conceal the rot."
 	icon_state = "surgmask"
 	item_state = "surgmask"
