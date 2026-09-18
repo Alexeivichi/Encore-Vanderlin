@@ -209,12 +209,12 @@
 			cloak = /obj/item/clothing/cloak/archdevils
 			backr = /obj/item/weapon/greataxe/steel/doublehead/archdevils
 		if(/datum/patron/inhumen/envy)
-			head = /obj/item/clothing/head/helmet/visored/envy
-			armor = /obj/item/clothing/armor/plate/full/envy
+			head = /obj/item/clothing/head/helmet/visored/evil
+			armor = /obj/item/clothing/armor/plate/full/evil
 			neck = /obj/item/clothing/neck/gorget
-			gloves = /obj/item/clothing/gloves/plate/envy
-			pants = /obj/item/clothing/pants/platelegs/envy
-			shoes = /obj/item/clothing/shoes/boots/armor/envy
+			gloves = /obj/item/clothing/gloves/plate/evil
+			pants = /obj/item/clothing/pants/platelegs/evil
+			shoes = /obj/item/clothing/shoes/boots/armor/evil
 			backr = /obj/item/weapon/sword/long/greatsword/envy
 		if(/datum/patron/inhumen/deceivers)
 			head = /obj/item/clothing/head/helmet/heavy/deceivers

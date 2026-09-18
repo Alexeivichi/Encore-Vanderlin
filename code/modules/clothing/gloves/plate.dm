@@ -83,9 +83,9 @@
 
 	//............... Evil Gloves ............... //
 
-/obj/item/clothing/gloves/plate/envy
+/obj/item/clothing/gloves/plate/evil
 	name = "darksteel gauntlets"
-	desc = "darksteel plate gauntlets. Called forth from the edge of what should be known. In Her name."
+	desc = "darksteel plate gauntlets. Called forth from the edge of what should be known."
 	icon_state = "zizogauntlets"
 	icon = 'icons/roguetown/clothing/special/evilarmor.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'

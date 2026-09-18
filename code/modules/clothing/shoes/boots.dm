@@ -44,7 +44,7 @@
 	break_sound = 'sound/foley/breaksound.ogg'
 	sellprice = 25
 	item_weight = 2.1 KILOGRAMS
-
+	smeltresult = /obj/item/ingot/steel
 	material_category = ARMOR_MAT_PLATE
 
 /obj/item/clothing/shoes/boots/armor/gold
@@ -284,17 +284,18 @@
 
 //............... Evil Boots ............... //
 
-/obj/item/clothing/shoes/boots/armor/envy
+/obj/item/clothing/shoes/boots/armor/evil
 	name = "darksteel boots"
-	desc = "Plate boots. Called forth from the edge of what should be known. In Her name."
+	desc = "Plate boots. Called forth from the edge of what should be known."
 	icon_state = "zizoboots"
 	item_state = "zizoboots"
 	icon = 'icons/roguetown/clothing/special/evilarmor.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
 	sleeved = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
 	sellprice = 0 // Incredibly evil Zizoid armor, this should be burnt, nobody wants this
+	smeltresult = /obj/item/ingot/steel_slag
 
-/obj/item/clothing/shoes/boots/armor/envy/Initialize()
+/obj/item/clothing/shoes/boots/armor/evil/Initialize()
 	. = ..()
 	AddComponent(/datum/component/squeak, custom_sounds = list(SFX_EVIL_BOOT_STEP))
 
@@ -307,6 +308,7 @@
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
 	sleeved = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
 	sellprice = 0 // See above comment
+	smeltresult = /obj/item/ingot/steel_slag
 
 /obj/item/clothing/shoes/boots/armor/deceivers/Initialize()
 	. = ..()
@@ -317,6 +319,7 @@
 	name = "lordly boots"
 	desc = "Boots terribly befitting of that of a tyrannical lord. Has a fake metal veneer to strike fear into the hearts of peasants."
 	armor_type = /datum/armor/none
+	smeltresult = null
 
 /obj/item/clothing/shoes/boots/armor/archdevils
 	name = "vicious boots"
@@ -327,6 +330,7 @@
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
 	sleeved = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
 	sellprice = 0 // See above comment
+	smeltresult = /obj/item/ingot/steel_slag
 
 /obj/item/clothing/shoes/boots/armor/graggar/Initialize()
 	. = ..()
@@ -344,6 +348,7 @@
 	icon = 'icons/roguetown/clothing/special/gronn.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/gronn.dmi'
 	sleeved = 'icons/roguetown/clothing/special/onmob/gronn.dmi'
+	smeltresult = /obj/item/ingot/iron
 
 
 /obj/item/clothing/shoes/boots/leather/kazengun

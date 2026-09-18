@@ -102,11 +102,11 @@
 			cloak = /obj/item/clothing/cloak/archdevils
 			H.cmode_music = 'sound/music/cmode/antag/combat_werewolf.ogg'
 		if(/datum/patron/inhumen/envy)
-			head = /obj/item/clothing/head/helmet/visored/envy
-			armor = /obj/item/clothing/armor/plate/full/envy
-			gloves = /obj/item/clothing/gloves/plate/envy
-			pants = /obj/item/clothing/pants/platelegs/envy
-			shoes = /obj/item/clothing/shoes/boots/armor/envy
+			head = /obj/item/clothing/head/helmet/visored/evil
+			armor = /obj/item/clothing/armor/plate/full/evil
+			gloves = /obj/item/clothing/gloves/plate/evil
+			pants = /obj/item/clothing/pants/platelegs/evil
+			shoes = /obj/item/clothing/shoes/boots/armor/evil
 		if(/datum/patron/inhumen/deceivers)
 			head = /obj/item/clothing/head/helmet/heavy/deceivers
 			armor = /obj/item/clothing/armor/plate/full/deceivers

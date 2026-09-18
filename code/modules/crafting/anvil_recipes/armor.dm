@@ -1126,7 +1126,7 @@
 /datum/anvil_recipe/armor/blacksteel/envy_plate_chest
 	name = "Darksteel Plate Armor (+Bar x3)"
 	additional_items = list(/obj/item/ingot/blacksteel, /obj/item/ingot/blacksteel, /obj/item/ingot/blacksteel)
-	created_item = /obj/item/clothing/armor/plate/full/envy
+	created_item = /obj/item/clothing/armor/plate/full/evil
 	craftdiff = 5
 
 /datum/anvil_recipe/armor/blacksteel/elven_plate_chest

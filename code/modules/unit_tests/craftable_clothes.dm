@@ -139,6 +139,13 @@ abstract types are automatically excluded.
 		/obj/item/clothing/gloves/plate/graggar/heavy,
 		/obj/item/clothing/cloak/graggar,
 
+		//evil clothes rawr
+		/obj/item/clothing/head/helmet/visored/evil,
+		/obj/item/clothing/gloves/plate/evil,
+		/obj/item/clothing/pants/platelegs/evil,
+		/obj/item/clothing/armor/plate/full/evil,
+		/obj/item/clothing/shoes/boots/armor/evil,
+
 		///all blackmeadow are pending blackmeadow features
 		/obj/item/clothing/cloak/kazengun,
 		/obj/item/clothing/neck/gorget/kazengun,
