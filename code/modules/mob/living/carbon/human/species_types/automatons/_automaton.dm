@@ -3,7 +3,6 @@
 	icon_state = MAP_SWITCH("human_basic", "at")
 	race = /datum/species/automaton
 	footstep_type = FOOTSTEP_MOB_METAL
-	job = "Automaton"
 	pronouns = IT_ITS
 	bodyparts = list(
 		/obj/item/bodypart/chest/automaton,
@@ -30,54 +29,34 @@
 
 /datum/attribute_holder/sheet/job/species/automaton
 	raw_attribute_list = list(
-		STAT_STRENGTH = 5,
-		STAT_INTELLIGENCE = -7,
-		STAT_CONSTITUTION = 5,
-		STAT_ENDURANCE = 6,
-		STAT_SPEED = -7,
-		STAT_FORTUNE = -3,
+		STAT_STRENGTH = 4,
+		STAT_CONSTITUTION = 4,
+		STAT_ENDURANCE = 4,
+		STAT_SPEED = -2,
+		STAT_FORTUNE = -4,
 		/datum/attribute/skill/combat/unarmed = 20,
 		/datum/attribute/skill/combat/wrestling = 20,
-		/datum/attribute/skill/craft/carpentry = 10,
-		/datum/attribute/skill/craft/cooking = 10,
-		/datum/attribute/skill/craft/crafting = 10,
-		/datum/attribute/skill/craft/masonry = 10,
-		/datum/attribute/skill/labor/butchering = 10,
-		/datum/attribute/skill/labor/farming = 10,
-		/datum/attribute/skill/labor/fishing = 10,
 		/datum/attribute/skill/labor/mathematics = 30,
 		/datum/attribute/skill/labor/mining = 10,
-		/datum/attribute/skill/misc/music = 10,
 		/datum/attribute/skill/misc/reading = 10,
-		/datum/attribute/skill/misc/sewing = 10,
 	)
 
 /datum/species/automaton
-	name = "Automaton"
+	name = "Automaton Golem"
 	id = SPEC_ID_AUTOMATON
-	desc = PLACEHOLDER_SPECIES_REBRANDING
+	desc = "Ancient Arnkin mechanisms long lost to history have frequently left only faded memories. One of the most striking of these are autonomous machines, simply called automatons by the masses. They are embraced at least somewhat inside by a smidgen of Thauma, usually by willing volunteer or harvested in nature, though it is oft used as a means of execution within the far south. Golems are merely automatons created from facsimiles of those same advanced robotic forms, and in their simplest revision. Golems are short-sighted, slow and often hardly the intellectual peer of their mortal counterparts. However, if maintained and held in good favor, these machines have been known to endure for centuries, giving the flicker of soul within time to grow and learn. The majority that don't make the cut never break free from the eternal servitude demanded of their rather costly upkeep."
 
 	skin_tone_wording = "plating"
 	default_color = "FFFFFF"
 
 	changesource_flags = WABBAJACK
-	meat = list()
-	no_equip = list(
-		ITEM_SLOT_SHIRT,
-		ITEM_SLOT_ARMOR,
-		ITEM_SLOT_MASK,
-		ITEM_SLOT_GLOVES,
-		ITEM_SLOT_SHOES,
-		ITEM_SLOT_PANTS,
-		ITEM_SLOT_CLOAK,
-		ITEM_SLOT_BELT,
-		ITEM_SLOT_BACK_R,
-		ITEM_SLOT_BACK_L
-	)
+	meat = list(/obj/item/gear/metal = 2, /obj/item/ingot/thaumic = 3, /obj/item/ingot/steel = 2)
 
 	species_traits = list(
 		NO_UNDERWEAR,
 		NOTRANSSTING,
+		EYECOLOR,
+		CUSCOLORS
 	)
 	inherent_traits = list(
 		TRAIT_NOBLOOD,
@@ -116,6 +95,17 @@
 	soundpack_m = /datum/voicepack/silent/m
 	soundpack_f = /datum/voicepack/silent/f
 
+	customizers = list(
+		/datum/customizer/organ/eyes/humanoid,
+	)
+
+	descriptor_choices = list(
+		/datum/descriptor_choice/height,
+		/datum/descriptor_choice/body,
+		/datum/descriptor_choice/stature,
+		/datum/descriptor_choice/face,
+		/datum/descriptor_choice/face_exp,
+	)
 
 	enflamed_icon = "widefire"
 
@@ -123,8 +113,8 @@
 	exotic_bloodtype = /datum/blood_type/oil
 
 	bleed_mod = 0.7
-	punch_damage = 5
-	kick_damage = 5
+	punch_damage = 10
+	kick_damage = 15
 
 	custom_id = "automaton"
 	custom_clothes = FALSE
@@ -154,8 +144,6 @@
 
 	RegisterSignal(C, COMSIG_MOB_SAY, PROC_REF(handle_speech))
 	RegisterSignal(C, COMSIG_MOB_TOGGLE_CMODE, PROC_REF(cmode_changed))
-
-
 	C.grant_language(/datum/language/common)
 
 	for(var/datum/action/action as anything in actions)
@@ -170,13 +158,10 @@
 
 	UnregisterSignal(C, list(COMSIG_MOB_SAY, COMSIG_MOB_TOGGLE_CMODE))
 	C.remove_language(/datum/language/common)
-
+w
 
 /datum/species/automaton/check_roundstart_eligible()
-	return FALSE
-
-/datum/species/automaton/handle_speech(mob/living/carbon/human/speaker, list/speech_args)
-	return COMPONENT_SPEECH_CANCEL
+	return TRUE
 
 /datum/species/automaton/proc/cmode_changed(mob/living/carbon/source, cmode)
 	source.set_eye_color(cmode ? "#ff0000" : "#ff7b00")

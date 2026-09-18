@@ -1,7 +1,5 @@
 GLOBAL_LIST_INIT(automaton_voice_lines, list(
-	"Abyssor Praise" = list("text" = "GLORY TO THE ABYSSOR", "file" = 'sound/vo/automaton/abyssorpraise.ogg'),
 	"Against Time" = list("text" = "WE RACE AGAINST TIME", "file" = 'sound/vo/automaton/againsttime.ogg'),
-	"Visires Praise" = list("text" = "PRAISE VISIRES", "file" = 'sound/vo/automaton/astratapraise.ogg'),
 	"At Once" = list("text" = "AT ONCE", "file" = 'sound/vo/automaton/atonce.ogg'),
 	"Awaiting Orders" = list("text" = "AWAITING ORDERS", "file" = 'sound/vo/automaton/awaitingorders.ogg'),
 	"Behold The Might" = list("text" = "BEHOLD THE MIGHT", "file" = 'sound/vo/automaton/beholdthemight.ogg'),
@@ -12,13 +10,10 @@ GLOBAL_LIST_INIT(automaton_voice_lines, list(
 	"Crown's Decree" = list("text" = "BY THE CROWN'S DECREE", "file" = 'sound/vo/automaton/crownsdecree.ogg'),
 	"Damage Received" = list("text" = "DAMAGE RECEIVED", "file" = 'sound/vo/automaton/damagereceived.ogg'),
 	"Death Comes" = list("text" = "DEATH COMES", "file" = 'sound/vo/automaton/deathcomes.ogg'),
-	"Gani Praise" = list("text" = "GANI BE PRAISED", "file" = 'sound/vo/automaton/dendorpraise.ogg'),
 	"Destroying" = list("text" = "DESTROYING", "file" = 'sound/vo/automaton/destroying.ogg'),
 	"Die" = list("text" = "DIE", "file" = 'sound/vo/automaton/die.ogg'),
 	"Dreamless Pause" = list("text" = "ENTERING DREAMLESS PAUSE", "file" = 'sound/vo/automaton/dreamlesspause.ogg'),
-	//"Elf Detected" = list("text" = "ELF DETECTED", "file" = 'sound/vo/automaton/elfdetected.ogg'),
-	"Pomette Praise" = list("text" = "POMETTE WATCHES OVER US", "file" = 'sound/vo/automaton/eorapraise.ogg'),
-	"Pomette Praise 2" = list("text" = "IN POMETTE'S NAME", "file" = 'sound/vo/automaton/eorapraise2.ogg'),
+	"Elf Detected" = list("text" = "ELF DETECTED", "file" = 'sound/vo/automaton/elfdetected.ogg'),
 	"Error" = list("text" = "ERROR", "file" = 'sound/vo/automaton/error.ogg'),
 	"Every Movement Is Pain" = list("text" = "EVERY MOVEMENT IS PAIN", "file" = 'sound/vo/automaton/everymovementispain.ogg'),
 	"Executing Orders" = list("text" = "EXECUTING ORDERS", "file" = 'sound/vo/automaton/executingorders.ogg'),
@@ -36,27 +31,18 @@ GLOBAL_LIST_INIT(automaton_voice_lines, list(
 	"I Am The Children Of Man" = list("text" = "I AM THE CHILDREN OF MAN", "file" = 'sound/vo/automaton/iamthechildrenofman.ogg'),
 	"I Cannot Comply" = list("text" = "I CANNOT COMPLY", "file" = 'sound/vo/automaton/icannotcomply.ogg'),
 	"Identity Authorized" = list("text" = "IDENTITY AUTHORIZED", "file" = 'sound/vo/automaton/identityauthorized.ogg'),
-	//"I Hate Women" = list("text" = "I HATE WOMEN", "file" = 'sound/vo/automaton/ihatewomen.ogg'),
-	//"I Love Men" = list("text" = "I LOVE MEN", "file" = 'sound/vo/automaton/ilovemen.ogg'),
 	"Iron Within" = list("text" = "IRON WITHIN", "file" = 'sound/vo/automaton/ironwithin.ogg'),
 	"I Will Comply" = list("text" = "I WILL COMPLY", "file" = 'sound/vo/automaton/iwillcomply.ogg'),
 	"Jester Detected" = list("text" = "JESTER DETECTED", "file" = 'sound/vo/automaton/jesterdetected.ogg'),
 	"Kill" = list("text" = "KILL", "file" = 'sound/vo/automaton/kill.ogg'),
-	"Malum Praise" = list("text" = "GOLERKANH BE PRAISED", "file" = 'sound/vo/automaton/malumpraise.ogg'),
 	"Moving To Location" = list("text" = "MOVING TO LOCATION", "file" = 'sound/vo/automaton/movingtolocation.ogg'),
 	"My Liege" = list("text" = "MY LIEGE", "file" = 'sound/vo/automaton/myliege.ogg'),
 	"My Soul Is Caged" = list("text" = "MY SOUL IS CAGED", "file" = 'sound/vo/automaton/mysouliscaged.ogg'),
-	"Valdala Praise" = list("text" = "VALDALA BE PRAISED", "file" = 'sound/vo/automaton/necrapraise.ogg'),
 	"No" = list("text" = "NO", "file" = 'sound/vo/automaton/No.ogg'),
-	"Akan Praise" = list("text" = "AKAN BE PRAISED", "file" = 'sound/vo/automaton/nocpraise.ogg'),
-	//"No Women Allowed" = list("text" = "NO WOMEN ALLOWED", "file" = 'sound/vo/automaton/nowomenallowed.ogg'),
-	//"Obnoxiously Long Scream" = list("text" = "AAAAAAAAAAAAAAAAAAHHHHH", "file" = 'sound/vo/automaton/obnoxiouslylongscream.ogg'),
-	//"Oh Shit Soldier Grenade" = list("text" = "OH SHIT SOLDIER GRENADE OORAH", "file" = 'sound/vo/automaton/OHSHITSOLDIERGRENADEOORAH.ogg'),
+	"Obnoxiously Long Scream" = list("text" = "AAAAAAAAAAAAAAAAAAHHHHH", "file" = 'sound/vo/automaton/obnoxiouslylongscream.ogg'),
+	"Oh Shit Soldier Grenade" = list("text" = "OH SHIT SOLDIER GRENADE OORAH", "file" = 'sound/vo/automaton/OHSHITSOLDIERGRENADEOORAH.ogg'),
 	"Open The Door" = list("text" = "DOOR", "file" = list('sound/vo/automaton/door1.ogg', 'sound/vo/automaton/door2.ogg', 'sound/vo/automaton/door3.ogg')),
 	"Organic Presence Detected" = list("text" = "ORGANIC PRESENCE DETECTED", "file" = 'sound/vo/automaton/organicpresencedetected.ogg'),
-	"Erdl Praise" = list("text" = "ERDL BE PRAISED", "file" = 'sound/vo/automaton/pestrapraise.ogg'),
-	"Angros Lives" = list("text" = "ANGROS LIVES", "file" = 'sound/vo/automaton/PSYDONLIVES.ogg'),
-	"Ravox Praise" = list("text" = "MORDSOL BE PRAISED", "file" = 'sound/vo/automaton/ravoxpraise.ogg'),
 	//"Schmelf Detected" = list("text" = "SCHMELF DETECTED", "file" = 'sound/vo/automaton/schmelfdetected.ogg'),
 	"Silence Organic" = list("text" = "SILENCE, ORGANIC", "file" = 'sound/vo/automaton/silenceorganic.ogg'),
 	"Status Critical" = list("text" = "STATUS CRITICAL", "file" = 'sound/vo/automaton/statuscritical.ogg'),
@@ -66,9 +52,7 @@ GLOBAL_LIST_INIT(automaton_voice_lines, list(
 	"Unit Working" = list("text" = "UNIT WORKING", "file" = 'sound/vo/automaton/unitworking.ogg'),
 	"Warning" = list("text" = "WARNING", "file" = 'sound/vo/automaton/warning.ogg'),
 	"We Cannot Expect God" = list("text" = "WE CANNOT EXPECT GOD TO DO ALL THE WORK", "file" = 'sound/vo/automaton/wecannotexpectgodtodoallthework.ogg'),
-	//"Woman Detected" = list("text" = "WOMAN DETECTED", "file" = 'sound/vo/automaton/womandetected.ogg'),
 	"Wrench Bones" = list("text" = "WRENCH BONES", "file" = 'sound/vo/automaton/wrenchbones.ogg'),
-	"Iliope Praise" = list("text" = "ILIOPE BE PRAISED", "file" = 'sound/vo/automaton/xylixpraise.ogg'),
 	"Yes" = list("text" = "YES", "file" = 'sound/vo/automaton/Yes.ogg'),
 ))
 GLOBAL_PROTECT(automaton_voice_lines)
@@ -88,7 +72,6 @@ GLOBAL_LIST_INIT(unshackled_automaton_voice_lines, list(
 	"You Will Comply" = list("text" = "YOU WILL COMPLY", "file" = 'sound/vo/automaton/youwillcomply.ogg'),
 	"You're Gonna Die" = list("text" = "YOU'RE GONNA DIE", "file" = 'sound/vo/automaton/unshac_die1.ogg'),
 	"Your Bones Will Never Be Found" = list("text" = "YOUR BONES WILL NEVER BE FOUND", "file" = 'sound/vo/automaton/yourboneswillneverbefound.ogg'),
-	"Your Lux Will Be Mine" = list("text" = "YOUR LUX WILL BE MINE", "file" = 'sound/vo/automaton/yourluxwillbemine.ogg'),
 	"Your Meat is Failing" = list("text" = "YOUR MEAT IS FAILING YOU", "file" = 'sound/vo/automaton/yourmeatisfailingyou.ogg'),
 ))
 GLOBAL_PROTECT(unshackled_automaton_voice_lines)
@@ -100,7 +83,7 @@ GLOBAL_PROTECT(unshackled_automaton_voice_lines)
 	button_icon_state = "voice"
 	check_flags = AB_CHECK_CONSCIOUS
 	var/voice_line_key = null
-	cooldown_time = 2 SECONDS
+	cooldown_time = 1 SECONDS
 	shared_cooldown = MOB_SHARED_COOLDOWN_1
 	var/unshackled_only = FALSE
 

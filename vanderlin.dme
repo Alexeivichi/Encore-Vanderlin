@@ -3916,6 +3916,7 @@
 #include "code\modules\mob\living\carbon\human\npc\species_hostile\tiefling_hostile.dm"
 #include "code\modules\mob\living\carbon\human\npc\species_hostile\triton_hostile.dm"
 #include "code\modules\mob\living\carbon\human\npc\town_guard\human.dm"
+#include "code\modules\mob\living\carbon\human\species_types\automatons\_android.dm"
 #include "code\modules\mob\living\carbon\human\species_types\automatons\_automaton.dm"
 #include "code\modules\mob\living\carbon\human\species_types\automatons\action.dm"
 #include "code\modules\mob\living\carbon\human\species_types\automatons\assembly.dm"
