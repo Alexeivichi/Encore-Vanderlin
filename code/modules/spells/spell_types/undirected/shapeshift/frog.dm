@@ -19,5 +19,3 @@
 	. = ..()
 	if(!.)
 		return
-	var/mob/living/new_shape = .
-	new_shape.adjust_stat_modifier("[REF(src)]", list(STAT_SPEED = -5))
