@@ -1,0 +1,4 @@
+author: "crimsonFig"
+delete-after: True
+changes:
+  - rscadd: "Aded more infusion recipes for creating ores, coal, and gems"
