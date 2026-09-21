@@ -206,6 +206,8 @@
 		/obj/item/natural/stone = 3
 	)
 	supports_directions = TRUE
+	place_on_wall = TRUE
+	check_adjacent_wall = TRUE
 	craftdiff = 1
 
 /datum/blueprint_recipe/masonry/bench
