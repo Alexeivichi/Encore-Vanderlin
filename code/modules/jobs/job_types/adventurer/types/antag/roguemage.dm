@@ -1,10 +1,10 @@
 /datum/attribute_holder/sheet/job/roguemage
 	raw_attribute_list = list(
 		STAT_STRENGTH = -1,
-		STAT_INTELLIGENCE = 3,
-		STAT_CONSTITUTION = 1,
+		STAT_INTELLIGENCE = 5,
+		STAT_CONSTITUTION = 2,
 		STAT_ENDURANCE = -1,
-		/datum/attribute/skill/combat/polearms = 25,
+		/datum/attribute/skill/combat/polearms = 40,
 		/datum/attribute/skill/combat/bows = 10,
 		/datum/attribute/skill/combat/wrestling = 10,
 		/datum/attribute/skill/combat/unarmed = 10,
@@ -14,11 +14,13 @@
 		/datum/attribute/skill/combat/swords = 10,
 		/datum/attribute/skill/combat/knives = 10,
 		/datum/attribute/skill/craft/crafting = 10,
-		/datum/attribute/skill/misc/medicine = 10,
+		/datum/attribute/skill/misc/medicine = 30,
 		/datum/attribute/skill/misc/riding = 10,
 		/datum/attribute/skill/misc/reading = 40,
-		/datum/attribute/skill/craft/alchemy = 30,
-		/datum/attribute/skill/magic/arcane = 35,
+		/datum/attribute/skill/craft/alchemy = 40,
+		/datum/attribute/skill/magic/arcane = 50,
+		/datum/attribute/skill/craft/weapon_repair = 20,
+		/datum/attribute/skill/craft/armor_repair = 20,
 
 	)
 
@@ -26,11 +28,11 @@
 	raw_attribute_list = list(
 		STAT_STRENGTH = -1,
 		STAT_SPEED = -1,
-		STAT_INTELLIGENCE = 4,
-		STAT_CONSTITUTION = 1,
+		STAT_INTELLIGENCE = 5,
+		STAT_CONSTITUTION = 2,
 		STAT_PERCEPTION = 1,
 		STAT_ENDURANCE = -1,
-		/datum/attribute/skill/combat/polearms = 20,
+		/datum/attribute/skill/combat/polearms = 40,
 		/datum/attribute/skill/combat/bows = 10,
 		/datum/attribute/skill/combat/wrestling = 10,
 		/datum/attribute/skill/combat/unarmed = 10,
@@ -40,11 +42,13 @@
 		/datum/attribute/skill/combat/swords = 10,
 		/datum/attribute/skill/combat/knives = 10,
 		/datum/attribute/skill/craft/crafting = 10,
-		/datum/attribute/skill/misc/medicine = 10,
+		/datum/attribute/skill/misc/medicine = 30,
 		/datum/attribute/skill/misc/riding = 10,
 		/datum/attribute/skill/misc/reading = 40,
-		/datum/attribute/skill/craft/alchemy = 30,
-		/datum/attribute/skill/magic/arcane = 40,
+		/datum/attribute/skill/craft/alchemy = 40,
+		/datum/attribute/skill/magic/arcane = 50,
+		/datum/attribute/skill/craft/weapon_repair = 20,
+		/datum/attribute/skill/craft/armor_repair = 20,
 
 	)
 
@@ -58,7 +62,8 @@
 	cmode_music = 'sound/music/cmode/antag/CombatRogueMage.ogg'
 	exp_types_granted = list(EXP_TYPE_COMBAT, EXP_TYPE_MAGICK)
 	magic_user = TRUE
-	form_points = 4
+	form_points = 10
+	tech_points = 10
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/roguemage
 	attribute_sheet_old = /datum/attribute_holder/sheet/job/roguemage/old
@@ -112,11 +117,11 @@
 	name = "Rogue Mage (Bandit)"
 	shoes = /obj/item/clothing/shoes/simpleshoes
 	pants = /obj/item/clothing/pants/trou/leather
-	shirt = /obj/item/clothing/shirt/shortshirt
+	shirt = /obj/item/clothing/armor/gambeson/light/colored/black
 	belt = /obj/item/storage/belt/leather/bandit
 	beltr = /obj/item/reagent_containers/glass/bottle/manapot/labelled
 	backr = /obj/item/storage/backpack/satchel
-	backpack_contents = list(/obj/item/needle/thorn = 1, /obj/item/natural/cloth = 1, /obj/item/clothing/face/spectacles/sglasses, /obj/item/chalk = 1,  /obj/item/clothing/face/shepherd/rag = 1)
-	mask = /obj/item/clothing/face/facemask/steel
+	backpack_contents = list(/obj/item/needle = 1, /obj/item/natural/bundle/cloth/bandage/full = 1, /obj/item/clothing/face/spectacles/sglasses, /obj/item/chalk = 1,  /obj/item/clothing/face/shepherd/rag = 1, /obj/item/weapon/knife/dagger/silver/arcyne = 1)
+	mask = /obj/item/clothing/face/facemask/steel/ancient/bandit
 	neck = /obj/item/clothing/neck/coif
-	r_hand = /obj/item/weapon/polearm/woodstaff/quarterstaff/iron
+	r_hand = /obj/item/weapon/polearm/woodstaff/quarterstaff/steel
