@@ -36795,6 +36795,7 @@
 /area/outdoors/town)
 "wIT" = (
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/fluff/railing/wood,
 /turf/open/floor/ruinedwood/darker,
 /area/outdoors/town)
 "wJk" = (
