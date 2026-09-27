@@ -80,6 +80,75 @@
 	width = 15
 	height = 15
 
+<<<<<<< Updated upstream
+=======
+//Apartments
+//Lower profile and smaller houses that are somewhat more complete
+/datum/map_template/doma_apartment_one
+	name = "Old Doma Apartment One"
+	mappath = "_maps/map_files/domotan/house_templates/doma_apartment_one.dmm"
+	width = 5
+	height = 7
+
+/datum/map_template/doma_apartment_two
+	name = "Old Doma Apartment Two"
+	mappath = "_maps/map_files/domotan/house_templates/doma_apartment_two.dmm"
+	width = 5
+	height = 7
+
+/datum/map_template/doma_apartment_three
+	name = "Old Doma Apartment Three"
+	mappath = "_maps/map_files/domotan/house_templates/doma_apartment_three.dmm"
+	width = 5
+	height = 7
+
+/datum/map_template/doma_apartment_four
+	name = "Old Doma Apartment Four"
+	mappath = "_maps/map_files/domotan/house_templates/doma_apartment_four.dmm"
+	width = 5
+	height = 7
+
+/datum/map_template/doma_apartment_five
+	name = "Old Doma Apartment Five"
+	mappath = "_maps/map_files/domotan/house_templates/doma_apartment_five.dmm"
+	width = 5
+	height = 7
+
+//Encampments
+//Used strictly by outsider roles
+/datum/map_template/encampment_one
+	name = "Outsider Encampment One"
+	mappath = "_maps/map_files/domotan/house_templates/outsiders/encampment_one.dmm"
+	width = 9
+	height = 9
+
+/datum/map_template/encampment_two
+	name = "Outsider Encampment Two"
+	mappath = "_maps/map_files/domotan/house_templates/outsiders/encampment_two.dmm"
+	width = 9
+	height = 9
+
+/datum/map_template/encampment_three
+	name = "Outsider Encampment Three"
+	mappath = "_maps/map_files/domotan/house_templates/outsiders/encampment_three.dmm"
+	width = 9
+	height = 9
+
+/datum/map_template/encampment_four
+	name = "Outsider Encampment Four"
+	mappath = "_maps/map_files/domotan/house_templates/outsiders/encampment_four.dmm"
+	width = 9
+	height = 9
+
+//Bog Witches Hut
+//Is an outsider role, but not an encampment
+/datum/map_template/boghut
+	name = "Boghut"
+	mappath = "_maps/map_files/domotan/house_templates/outsiders/boghut.dmm"
+	width = 15
+	height = 18
+
+>>>>>>> Stashed changes
 //Vampire Lair
 /datum/map_template/vampire_lair
 	name = "Vampire Lair"

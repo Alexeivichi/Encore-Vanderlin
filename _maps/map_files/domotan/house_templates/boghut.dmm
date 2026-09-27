@@ -1,0 +1,189 @@
+"aa" = (/turf/open/openspace,/area/outdoors/bog/witch)
+"ab" = (/turf/open/floor/dirt/road,/area/outdoors/bog/witch)
+"ac" = (/turf/open/floor/grass/mixyel,/area/outdoors/bog/witch)
+"ad" = (/obj/structure/flora/grass/bush/wall,/turf/open/floor/grass/mixyel,/area/outdoors/bog/witch)
+"ae" = (/obj/structure/bars/cemetery,/turf/open/floor/grass/mixyel,/area/outdoors/bog/witch)
+"af" = (/obj/structure/door/iron/bars,/obj/effect/mapping_helpers/access/keyset/other/bogwitch,/turf/open/floor/cobble/mossy,/area/outdoors/bog/witch)
+"ag" = (/turf/open/floor/dirt,/area/outdoors/bog/witch)
+"ah" = (/obj/effect/decal/cobbleedge{icon_state = "mossyedge-e"},/turf/open/floor/dirt,/area/outdoors/bog/witch)
+"ai" = (/obj/effect/decal/cobbleedge{icon_state = "mossyedge-w"},/turf/open/floor/dirt,/area/outdoors/bog/witch)
+"aj" = (/obj/effect/decal/cobbleedge{icon_state = "mossyedge-w"},/obj/structure/closet/crate/chest/wicker,/obj/item/weapon/hoe/copper,/obj/item/weapon/shovel/small,/obj/item/neuFarm/seed/oat,/obj/item/neuFarm/seed/potato,/obj/item/neuFarm/seed/onion,/obj/item/neuFarm/seed/cabbage,/obj/item/neuFarm/seed/manabloom,/obj/item/neuFarm/seed/poppy,/obj/item/neuFarm/seed/swampleaf,/obj/item/neuFarm/seed/westleach,/obj/item/neuFarm/seed/wheat,/turf/open/floor/dirt,/area/outdoors/bog/witch)
+"ak" = (/obj/effect/decal/cobbleedge{icon_state = "mossyedge-e"},/obj/structure/closet/crate/chest/wicker,/obj/item/fishingrod,/obj/item/fishing/lure/gray,/obj/item/fishing/hook/thorn,/turf/open/floor/dirt,/area/outdoors/bog/witch)
+"al" = (/turf/open/floor/cobble/mossy,/area/outdoors/bog/witch)
+"am" = (/obj/effect/decal/cobbleedge{icon_state = "mossyedge-w"},/obj/effect/decal/cobbleedge{icon_state = "mossyedge-sread"},/turf/open/floor/dirt,/area/outdoors/bog/witch)
+"an" = (/obj/structure/composter/halffull,/turf/open/floor/dirt,/area/outdoors/bog/witch)
+"ao" = (/obj/effect/decal/cobbleedge{icon_state = "mossyedge-w"},/obj/structure/apiary/starter,/turf/open/floor/dirt,/area/outdoors/bog/witch)
+"ap" = (/obj/structure/well,/turf/open/floor/dirt,/area/outdoors/bog/witch)
+"aq" = (/obj/effect/decal/cobbleedge{icon_state = "mossyedge-e"},/obj/effect/decal/cobbleedge{icon_state = "mossyedge-n"},/obj/effect/decal/cobbleedge{icon_state = "mossyedge-sread"},/turf/open/floor/dirt,/area/outdoors/bog/witch)
+"ar" = (/turf/closed/wall/mineral/wooddark/slitted,/area/indoors/shelter/bog/witch)
+"as" = (/turf/closed/wall/mineral/wooddark/end{dir = 8},/area/indoors/shelter/bog/witch)
+"at" = (/turf/closed/wall/mineral/wooddark/end,/area/indoors/shelter/bog/witch)
+"au" = (/turf/closed/wall/mineral/wooddark/end{dir = 4},/area/indoors/shelter/bog/witch)
+"av" = (/obj/effect/decal/cobbleedge{icon_state = "mossyedge-w"},/obj/machinery/light/fueled/wallfire/candle/blue{pixel_y = -32},/turf/open/floor/dirt,/area/outdoors/bog/witch)
+"aw" = (/obj/effect/decal/cobbleedge{icon_state = "mossyedge-e"},/obj/machinery/light/fueled/wallfire/candle/blue{pixel_y = -32},/turf/open/floor/dirt,/area/outdoors/bog/witch)
+"ax" = (/obj/structure/chair/stool,/turf/open/floor/cobble/mossy,/area/outdoors/bog/witch)
+"ay" = (/obj/machinery/light/fueled/torchholder/hotspring/standing,/turf/open/floor/cobble/mossy,/area/outdoors/bog/witch)
+"az" = (/obj/structure/fluff/walldeco/vinez,/turf/closed/wall/mineral/wooddark/vertical,/area/indoors/shelter/bog/witch)
+"aA" = (/turf/open/floor/twig,/area/indoors/shelter/bog/witch)
+"aB" = (/obj/effect/decal/cleanable/dirt/dust,/obj/structure/stairs{dir = 8},/obj/structure/fluff/railing/wood{pixel_y = -8},/obj/machinery/light/fueled/wallfire/candle/blue,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"aC" = (/obj/effect/decal/cleanable/dirt/cobweb{dir = 1},/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"aD" = (/turf/closed/wall/mineral/wooddark/vertical,/area/indoors/shelter/bog/witch)
+"aE" = (/obj/effect/decal/borderfall{dir = 1},/obj/item/reagent_containers/glass/bucket/wooden,/turf/open/floor/twig,/area/outdoors/bog/witch)
+"aF" = (/obj/structure/stairs{dir = 1},/turf/open/floor/twig,/area/outdoors/bog/witch)
+"aG" = (/obj/effect/decal/borderfall{dir = 1},/obj/item/bin/water,/turf/open/floor/twig,/area/outdoors/bog/witch)
+"aH" = (/obj/structure/fluff/railing/wood{dir = 4},/obj/structure/stairs,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"aI" = (/obj/effect/decal/cleanable/dirt/dust,/obj/structure/fermentation_keg/water,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"aJ" = (/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"aK" = (/obj/structure/closet/crate/crafted_closet/inn/south,/obj/item/reagent_containers/glass/bowl,/obj/item/reagent_containers/glass/bowl,/obj/item/reagent_containers/glass/bowl,/obj/item/kitchen/spoon,/obj/item/kitchen/spoon,/obj/item/kitchen/spoon,/obj/item/kitchen/fork,/obj/item/kitchen/fork,/obj/item/kitchen/fork,/obj/item/plate,/obj/item/plate,/obj/item/plate,/obj/item/flint,/obj/item/reagent_containers/glass/cup/wooden,/obj/item/reagent_containers/glass/cup/wooden,/obj/item/reagent_containers/glass/cup/wooden,/obj/item/reagent_containers/glass/cup/wooden,/obj/item/reagent_containers/glass/cup/wooden,/obj/item/reagent_containers/glass/cup/wooden,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"aL" = (/obj/structure/table/wood/plain_alt,/obj/item/cooking/pan,/obj/item/kitchen/rollingpin,/obj/item/weapon/knife/villager,/obj/effect/decal/cleanable/dirt/cobweb,/turf/open/floor/tile/brick,/area/indoors/shelter/bog/witch)
+"aM" = (/obj/machinery/light/fueled/hearth,/obj/machinery/light/fueled/oven/south,/obj/item/reagent_containers/glass/bucket/pot/copper,/turf/open/floor/tile/brick,/area/indoors/shelter/bog/witch)
+"aN" = (/obj/structure/table/wood/plain_alt,/obj/structure/fluff/millstone{pixel_y = 8},/turf/open/floor/tile/brick,/area/indoors/shelter/bog/witch)
+"aO" = (/obj/structure/sign/property_sign/claim/outsider,/turf/closed/wall/mineral/wooddark/vertical,/area/indoors/shelter/bog/witch)
+"aP" = (/turf/open/floor/twig,/area/outdoors/bog/witch)
+"aQ" = (/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"aR" = (/obj/effect/decal/cleanable/dirt/dust,/obj/structure/door/green,/obj/effect/mapping_helpers/access/keyset/other/bogwitch,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"aS" = (/obj/structure/door/swing,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"aT" = (/turf/open/floor/tile/brick,/area/indoors/shelter/bog/witch)
+"aU" = (/obj/machinery/light/fueled/wallfire/candle/blue/r,/turf/open/floor/tile/brick,/area/indoors/shelter/bog/witch)
+"aV" = (/obj/structure/handcart{dir = 4},/turf/open/floor/twig,/area/outdoors/bog/witch)
+"aW" = (/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/cobweb{dir = 8},/turf/open/floor/twig,/area/outdoors/bog/witch)
+"aX" = (/obj/structure/bookcase,/obj/item/recipe_book/alchemy,/obj/item/recipe_book/underworld,/obj/item/recipe_book/cooking,/obj/item/recipe_book/arcyne,/obj/item/recipe_book/agriculture,/obj/item/recipe_book/survival,/obj/item/recipe_book/medical,/obj/item/recipe_book/leatherworking,/obj/item/recipe_book/sewing,/obj/item/recipe_book/sewing_leather,/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/cobweb{dir = 4},/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"aY" = (/obj/effect/decal/cleanable/dirt/dust,/obj/structure/closet/crate/chest/old_crate,/obj/item/reagent_containers/food/snacks/butter,/obj/item/reagent_containers/food/snacks/meat/steak,/obj/item/reagent_containers/food/snacks/meat/steak,/obj/item/reagent_containers/food/snacks/meat/steak,/obj/item/reagent_containers/food/snacks/egg,/obj/item/reagent_containers/food/snacks/egg,/obj/item/reagent_containers/food/snacks/egg,/obj/item/reagent_containers/food/snacks/produce/grain/oat,/obj/item/reagent_containers/food/snacks/produce/grain/oat,/obj/item/reagent_containers/food/snacks/produce/grain/oat,/obj/item/reagent_containers/food/snacks/produce/grain/oat,/obj/item/reagent_containers/food/snacks/produce/grain/oat,/obj/item/reagent_containers/food/snacks/produce/grain/oat,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"aZ" = (/obj/machinery/light/fueled/wallfire/candle/blue/l,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"ba" = (/obj/structure/table/wood/counter/end,/turf/open/floor/tile/brick,/area/indoors/shelter/bog/witch)
+"bb" = (/obj/structure/table/wood/counter{dir = 1},/turf/open/floor/tile/brick,/area/indoors/shelter/bog/witch)
+"bc" = (/obj/structure/table/wood/counter/end{dir = 1},/obj/item/natural/bundle/stick{pixel_y = 8; amount = 5},/obj/item/natural/bundle/stick{pixel_y = 4; amount = 5},/turf/open/floor/tile/brick,/area/indoors/shelter/bog/witch)
+"bd" = (/obj/structure/window/openclose/reinforced,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"be" = (/obj/structure/door/green{name = "witch home"},/obj/effect/mapping_helpers/access/keyset/other/bogwitch,/obj/effect/mapping_helpers/access/locker,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"bf" = (/turf/closed/wall/mineral/wooddark/horizontal,/area/indoors/shelter/bog/witch)
+"bg" = (/obj/structure/door/green,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"bh" = (/obj/structure/fake_machine/mail{mailtag = "Bog Witch Hut"},/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"bi" = (/obj/structure/chair/stool,/turf/open/floor/twig,/area/indoors/shelter/bog/witch)
+"bj" = (/obj/structure/chair/stool,/obj/structure/fluff/railing/tall/retaining{dir = 4},/turf/open/floor/twig,/area/indoors/shelter/bog/witch)
+"bk" = (/obj/structure/flora/grass/herb/random,/turf/open/floor/grass/mixyel,/area/indoors/shelter/bog/witch)
+"bl" = (/obj/structure/fluff/railing/tall/retaining{dir = 4},/obj/structure/fluff/railing/tall/retaining{dir = 8},/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"bm" = (/turf/closed/wall/mineral/stone/moss,/area/indoors/shelter/bog/witch)
+"bn" = (/obj/structure/fermentation_keg,/turf/open/floor/blocks/green,/area/indoors/shelter/bog/witch)
+"bo" = (/turf/open/floor/blocks/green,/area/indoors/shelter/bog/witch)
+"bp" = (/obj/structure/fermentation_keg,/turf/open/floor/greenstone,/area/indoors/shelter/bog/witch)
+"bq" = (/obj/structure/fluff/railing/tall/retaining{dir = 5},/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"br" = (/obj/structure/fluff/railing/tall/retaining{dir = 1},/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"bs" = (/obj/structure/fluff/railing/tall/retaining{dir = 1},/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"bt" = (/obj/structure/fluff/railing/tall/retaining{dir = 9},/obj/structure/fluff/railing/tall/retaining{dir = 5},/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"bu" = (/obj/structure/closet/crate/chest/old_crate,/obj/item/storage/sack,/obj/item/storage/sack,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"bv" = (/obj/machinery/light/fueled/wallfire/candle/blue{pixel_y = -32},/obj/structure/closet/crate/chest/old_crate,/obj/item/broom,/obj/item/natural/cloth,/obj/item/natural/cloth,/obj/item/natural/cloth,/obj/item/natural/cloth,/obj/item/soap/bath,/obj/item/soap/bath,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"bw" = (/obj/machinery/light/fueled/wallfire/candle/blue{pixel_y = -32},/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"bx" = (/obj/machinery/tanningrack,/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/cobweb{dir = 8},/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"by" = (/obj/structure/fluff/walldeco/vinez,/turf/closed/wall/mineral/stone/moss,/area/indoors/shelter/bog/witch)
+"bz" = (/obj/structure/stairs{dir = 1},/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"bA" = (/obj/structure/flora/grass/water/reeds,/turf/open/water/swamp,/area/outdoors/bog)
+"bB" = (/obj/structure/table/optable,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bC" = (/obj/structure/table/wood/plain_alt,/obj/item/storage/backpack/satchel/surgbag/shit,/obj/item/clothing/gloves/leather/feld,/obj/item/clothing/cloak/apron/cook{name = "barber's apron"},/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bD" = (/obj/structure/door/green{name = "alchemy laboratory"},/obj/effect/mapping_helpers/access/keyset/other/bogwitch,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bE" = (/obj/machinery/light/fueled/wallfire/candle/blue/l,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bF" = (/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bG" = (/obj/structure/door/green,/obj/effect/mapping_helpers/access/keyset/other/bogwitch,/obj/effect/mapping_helpers/access/locker,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bH" = (/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bI" = (/obj/structure/closet/crate/chest/old_crate,/obj/item/alch/sinew,/obj/item/alch/sinew,/obj/item/alch/sinew,/obj/item/alch/bone,/obj/item/alch/bone,/obj/item/alch/bone,/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,/obj/effect/spawner/map_spawner/loot/potion_ingredient,/obj/effect/spawner/map_spawner/loot/potion_ingredient,/obj/effect/spawner/map_spawner/loot/potion_ingredient,/obj/effect/spawner/map_spawner/loot/potion_ingredient,/obj/effect/spawner/map_spawner/loot/potion_ingredient,/obj/effect/spawner/map_spawner/loot/potion_ingredient,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bJ" = (/obj/structure/rack/shelf/biggest,/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,/obj/effect/spawner/map_spawner/loot/potion_ingredient/herb,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bK" = (/obj/structure/rack/shelf/biggest,/obj/effect/spawner/map_spawner/loot/potion_ingredient,/obj/effect/spawner/map_spawner/loot/potion_ingredient,/obj/effect/spawner/map_spawner/loot/potion_ingredient,/obj/effect/spawner/map_spawner/loot/potion_ingredient,/obj/effect/spawner/map_spawner/loot/potion_ingredient,/obj/effect/spawner/map_spawner/loot/potion_ingredient,/obj/effect/spawner/map_spawner/loot/potion_ingredient,/obj/effect/spawner/map_spawner/loot/potion_ingredient,/obj/effect/decal/cleanable/dirt/cobweb{dir = 1},/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bL" = (/turf/open/water/swamp/deep,/area/outdoors/bog)
+"bM" = (/obj/structure/closet/crate/chest/neu_iron/corpse,/obj/effect/mapping_helpers/access/keyset/other/bogwitch,/obj/item/reagent_containers/lux,/obj/effect/mapping_helpers/access/locker,/obj/item/reagent_containers/lux_tainted,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bN" = (/obj/item/bin/water/gross,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bO" = (/obj/structure/fluff/railing/tall/retaining,/obj/machinery/light/fueled/wallfire/candle/blue/l,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bP" = (/obj/structure/fluff/railing/tall/retaining,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bQ" = (/obj/structure/fluff/railing/tall/retaining{dir = 10},/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bR" = (/obj/machinery/light/fueled/wallfire/candle/blue/r,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bS" = (/turf/open/water/swamp,/area/outdoors/bog)
+"bT" = (/obj/item/natural/worms/leech,/obj/item/natural/worms/leech,/obj/item/natural/worms/leech,/turf/open/water/swamp,/area/indoors/shelter/bog/witch)
+"bU" = (/obj/structure/fluff/railing/tall/retaining{dir = 8},/obj/structure/closet/crate/chest/old_crate,/obj/item/reagent_containers/glass/bottle,/obj/item/reagent_containers/glass/bottle,/obj/item/reagent_containers/glass/bottle,/obj/item/reagent_containers/glass/bottle,/obj/item/reagent_containers/glass/bottle/vial,/obj/item/reagent_containers/glass/bottle/vial,/obj/item/reagent_containers/glass/bottle/vial,/obj/item/reagent_containers/glass/bottle/vial,/obj/item/reagent_containers/glass/bottle/vial,/obj/item/reagent_containers/glass/bottle/vial,/obj/item/reagent_containers/glass/bottle/vial,/obj/item/reagent_containers/glass/bottle/vial,/obj/item/reagent_containers/glass/bottle/vial,/obj/item/reagent_containers/glass/bottle/vial,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bV" = (/obj/structure/ladder,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"bW" = (/turf/open/openspace,/area/indoors/shelter/bog/witch)
+"bX" = (/obj/machinery/light/fueled/wallfire/candle/blue,/turf/open/openspace,/area/indoors/shelter/bog/witch)
+"bY" = (/obj/structure/door/green{name = "apprentice quarters"},/obj/effect/mapping_helpers/access/keyset/other/bogwitch,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"bZ" = (/obj/structure/stairs{dir = 8},/turf/open/floor/twig/platform,/area/indoors/shelter/bog/witch)
+"ca" = (/obj/structure/closet/crate/drawer{density = 0; pixel_y = 20; dense_when_open = 0},/obj/item/weapon/polearm/woodstaff,/obj/item/clothing/head/wizhat/witch,/obj/item/clothing/shirt/robe/phys,/obj/item/clothing/shirt/robe/colored/black,/obj/item/clothing/shirt/clothvest/colored/random,/turf/open/floor/twig/platform,/area/indoors/shelter/bog/witch)
+"cb" = (/obj/structure/bed/hay,/obj/item/bedsheet/cloth,/obj/machinery/light/fueled/wallfire/candle/blue/r,/turf/open/floor/twig/platform,/area/indoors/shelter/bog/witch)
+"cc" = (/obj/structure/stairs,/obj/structure/fluff/railing/wood{dir = 4},/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cd" = (/obj/structure/fluff/railing/wood{dir = 8},/obj/structure/fluff/railing/wood{dir = 1; layer = 2.7; pixel_y = 7},/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"ce" = (/obj/structure/door/green,/obj/effect/mapping_helpers/access/keyset/other/bogwitch,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cf" = (/turf/open/floor/twig/platform,/area/indoors/shelter/bog/witch)
+"cg" = (/obj/structure/fluff/railing/wood{dir = 1; layer = 2.7; pixel_y = 7},/obj/structure/stairs{dir = 4},/turf/open/floor/twig/platform,/area/indoors/shelter/bog/witch)
+"ch" = (/obj/structure/chair/wood{dir = 4},/turf/open/floor/carpet/royalblack,/area/indoors/shelter/bog/witch)
+"ci" = (/obj/machinery/light/fueled/wallfire{pixel_y = 32},/obj/structure/table/wood/folding,/obj/item/reagent_containers/glass/carafe/teapot/bronze,/turf/open/floor/carpet/royalblack,/area/indoors/shelter/bog/witch)
+"cj" = (/obj/structure/chair/wood{dir = 8},/turf/open/floor/carpet/royalblack,/area/indoors/shelter/bog/witch)
+"ck" = (/obj/structure/closet/crate/drawer{pixel_y = 20},/turf/open/floor/twig/platform,/area/indoors/shelter/bog/witch)
+"cl" = (/obj/machinery/light/fueled/wallfire{pixel_y = 32},/turf/open/floor/twig/platform,/area/indoors/shelter/bog/witch)
+"cm" = (/obj/structure/bed/wool/double,/obj/item/bedsheet/double_pelt,/turf/open/floor/twig/platform,/area/indoors/shelter/bog/witch)
+"cn" = (/turf/open/floor/carpet/royalblack,/area/indoors/shelter/bog/witch)
+"co" = (/obj/effect/decal/borderfall{dir = 1},/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cp" = (/obj/effect/decal/borderfall{dir = 1},/obj/machinery/light/fueled/wallfire/candle/blue/r,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cq" = (/obj/structure/fluff/railing/wood{dir = 8},/obj/structure/chair/wood{dir = 4},/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cr" = (/obj/structure/table/wood/plain_alt,/obj/item/candle/skull{pixel_y = 5},/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cs" = (/obj/structure/chair/wood{dir = 8},/obj/machinery/light/fueled/wallfire/candle/blue,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"ct" = (/obj/structure/door/green,/obj/effect/mapping_helpers/access/keyset/other/bogwitch,/obj/effect/mapping_helpers/access/locker,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cu" = (/obj/structure/door/green{name = "witch's room"},/obj/effect/mapping_helpers/access/keyset/other/bogwitch,/obj/effect/mapping_helpers/access/locker,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cv" = (/obj/structure/mirror{pixel_x = 32; pixel_y = 0},/obj/structure/chair/stool/bar{name = "comfortable stool"; desc = "A stool with a soft, cushioned seat. Comfortable."},/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cw" = (/obj/structure/fluff/railing/wood{dir = 8},/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cx" = (/obj/structure/bookcase/random/apocrypha,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cy" = (/obj/structure/bookcase/random/heretical,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cz" = (/obj/structure/closet/crate/crafted_closet/inn,/obj/item/clothing/head/wizhat/bogwitch,/obj/item/clothing/head/wizhat/witch,/obj/item/clothing/shirt/robe/bogwitch,/obj/item/clothing/shirt/robe/colored/black,/obj/item/clothing/shirt/robe/phys,/obj/item/clothing/armor/gambeson/heavy/dress,/obj/item/clothing/armor/gambeson/heavy/winterdress,/obj/item/weapon/polearm/woodstaff,/obj/item/weapon/knife/dagger/silver,/obj/item/weapon/scabbard/knife,/obj/item/clothing/neck/bogcowl,/obj/item/key/bogwitch,/obj/item/clothing/shirt/clothvest/colored/random,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cA" = (/obj/structure/table/wood/plain_alt,/obj/item/weapon/knife/scissors,/obj/item/reagent_containers/glass/cup/skull,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cB" = (/obj/structure/fluff/railing/wood{dir = 8},/obj/structure/fluff/railing/wood,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cC" = (/obj/structure/fluff/railing/wood,/turf/open/floor/ruinedwood/darker,/area/indoors/shelter/bog/witch)
+"cD" = (/obj/structure/door/green{name = "alchemy laboratory"},/obj/effect/mapping_helpers/access/keyset/other/bogwitch,/turf/open/floor/rooftop/green,/area/indoors/shelter/bog/witch)
+"cE" = (/turf/open/openspace,/area/outdoors/bog)
+"cF" = (/turf/open/floor/rooftop/green,/area/outdoors/bog/witch)
+"cG" = (/obj/structure/table/wood/large_new{icon_state = "alt_largetable"; dir = 4},/obj/machinery/essence/combiner,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"cH" = (/obj/structure/closet/crate/chest/old_crate,/obj/item/essence_vial,/obj/item/essence_vial,/obj/item/essence_vial,/obj/item/essence_vial,/obj/item/essence_vial,/obj/item/essence_vial,/obj/item/essence_vial,/obj/item/essence_vial,/obj/item/essence_vial,/obj/item/essence_vial,/obj/item/essence_node_jar,/obj/item/essence_connector,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"cI" = (/obj/structure/table/wood/large_new{icon_state = "alt_largetable"; dir = 4},/obj/machinery/essence/reservoir,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"cJ" = (/obj/machinery/light/fueled/cauldron,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"cK" = (/obj/structure/table/wood/counter/end,/obj/item/reagent_containers/glass/mortar,/obj/item/pestle,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"cL" = (/obj/structure/table/wood/counter/end{dir = 1},/obj/item/natural/bundle/stick{pixel_y = 8; amount = 5},/obj/item/natural/bundle/stick{pixel_y = 4; amount = 5},/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"cM" = (/obj/machinery/essence/reservoir,/obj/structure/table/wood/large_new{icon_state = "alt_largetable"; dir = 4},/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"cN" = (/obj/structure/chair/stool,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"cO" = (/obj/structure/table/wood/counter/end,/obj/machinery/essence/splitter,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"cP" = (/obj/structure/table/wood/counter/end{dir = 1},/obj/machinery/essence/harvester,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+"cQ" = (/obj/item/reagent_containers/glass/bucket/wooden,/obj/structure/fermentation_keg/random/water,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/hexstone,/area/indoors/shelter/bog/witch)
+
+(1,1,1) = {"
+abacacadadadadadadadaeafaeadad
+agagacadahaiahaiahajakalamanad
+agacacadahaiahaiahaiahalalaoad
+acacacadahaiahaiahaiapaqalamad
+arasatauaravahaiahaiawaxalayad
+azaAaBaCaDararasatauaraEaFaGad
+aDaHaIaJaraKaraLaMaNaOaPaPaPad
+aDaraJaQaRaQaSaTaTaUaDaVaPaWad
+aDaXaJaYaraZarbabbbcarbdbebdar
+arbfbgbfaraJbhbibibjbkbkblbkaD
+bmbnbobpaDaJaJaJaJbqbrbsbtbsaD
+bmbpbobnarbubvaQaJaJbwaQaJbxaD
+bybybmbmbmbmbmbmbzbmarasatauar
+bAabagbmbBbCbmbmbDbmbmbmbyacac
+bAbAabbmbEbFbGbHbFbIbJbKbyagab
+bLbAbAbybMbNbmbObPbQbHbRbmabbA
+bSbLbSbybybmbmbTbTbUbFbVbmabbA
+bAbAbAbLbLbSbybmbmbmbybybmagab
+"}
+
+(1,1,2) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+arasatauaraaaaaaaaaaaaaaaaaaaa
+aDbWbXbWaDbdarbfbdbfaraaaaaaaa
+aDbWbWbWaraJbYbZcacbaDaaaaaaaa
+aDccbWcdceaJaraDbmaDaDbdbmbdar
+aDcfcgaJaraJaJchcicjarckclcmaD
+arasatauaraJaJcncncnaDcobzcpaD
+cqcrcsaJctaJaJaJaJaJcuaJaJcvaD
+cwaJaJaJarcxaJaJaJcyaDaJczcAaD
+cBcCcCcCbmbmbmcDbmbmarasatauar
+cEaaaacFbycGbHbHcHbmbmbmbyaaaa
+cEcEaacFbycIbFbHbFcJcKcLbyaaaa
+cEcEcEcFbmcMbHbFbFbHcNbHbmaacE
+cEcEcEcFbybybmcOcPcQbHbVbyaacE
+cEcEcEcEcEcEbmbmbybybmbmbyaaaa
+"}
