@@ -265,7 +265,8 @@
 	property_id = "encampment_three";
 	save_id = "encampment_three";
 	template_y = 9;
-	template_x = 9
+	template_x = 9;
+	template_z = 2
 	},
 /turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
@@ -544,7 +545,8 @@
 	property_id = "encampment_two";
 	save_id = "encampment_two";
 	template_y = 9;
-	template_x = 9
+	template_x = 9;
+	template_z = 2
 	},
 /turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
@@ -1452,7 +1454,8 @@
 	property_id = "encampment_one";
 	save_id = "encampment_one";
 	template_y = 9;
-	template_x = 9
+	template_x = 9;
+	template_z = 2
 	},
 /turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
@@ -5847,7 +5850,8 @@
 	property_id = "encampment_four";
 	save_id = "encampment_four";
 	template_y = 9;
-	template_x = 9
+	template_x = 9;
+	template_z = 2
 	},
 /turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
