@@ -63,7 +63,7 @@
 	exp_types_granted = list(EXP_TYPE_COMBAT, EXP_TYPE_MAGICK)
 	magic_user = TRUE
 	form_points = 10
-	tech_points = 10
+	technique_points = 10
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/roguemage
 	attribute_sheet_old = /datum/attribute_holder/sheet/job/roguemage/old
@@ -100,15 +100,15 @@
 	spawned.select_equippable(player_client, selectablerobe, message = "Choose your robe of choice", title = "WIZARD")
 
 	var/static/list/selectable_books = list(
-		"Blazing Tome (Fire)" = /obj/item/spellbook/apprentice/starter/fire,
-		"Frostbound Tome (Ice)" = /obj/item/spellbook/apprentice/starter/ice,
-		"Storm-Charged Tome (Lightning)" = /obj/item/spellbook/apprentice/starter/lightning,
-		"Stoneveined Tome (Earth)" = /obj/item/spellbook/apprentice/starter/earth,
-		"Thrice-Warded Tome (Arcane)" = /obj/item/spellbook/apprentice/starter/arcane,
-		"Grave-Touched Tome (Death)" = /obj/item/spellbook/apprentice/starter/death,
-		"Verdant Tome (Life)" = /obj/item/spellbook/apprentice/starter/life,
-		"Windswept Tome (Air)" = /obj/item/spellbook/apprentice/starter/air,
-		"Tidebound Tome (Water)" = /obj/item/spellbook/apprentice/starter/water,
+		"Blazing Tome (Fire)" = /obj/item/spellbook/master/starter/fire,
+		"Frostbound Tome (Ice)" = /obj/item/spellbook/master/starter/ice,
+		"Storm-Charged Tome (Lightning)" = /obj/item/spellbook/master/starter/lightning,
+		"Stoneveined Tome (Earth)" = /obj/item/spellbook/master/starter/earth,
+		"Thrice-Warded Tome (Arcane)" = /obj/item/spellbook/master/starter/arcane,
+		"Grave-Touched Tome (Death)" = /obj/item/spellbook/master/starter/death,
+		"Verdant Tome (Life)" = /obj/item/spellbook/master/starter/life,
+		"Windswept Tome (Air)" = /obj/item/spellbook/master/starter/air,
+		"Tidebound Tome (Water)" = /obj/item/spellbook/master/starter/water,
 	)
 
 	grant_selected_spellbooks(spawned, selectable_books, 1)
