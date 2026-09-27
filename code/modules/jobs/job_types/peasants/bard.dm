@@ -39,7 +39,6 @@
 	allowed_races = RACES_PLAYER_ALL
 	allowed_sexes = list(MALE, FEMALE)
 	outfit = /datum/outfit/bard
-	category_tags = list(CTAG_ADVENTURER)
 	apprentice_name = "Aspiring Bard"
 	cmode_music = 'sound/music/cmode/adventurer/CombatIntense.ogg'
 	exp_types_granted = list(EXP_TYPE_BARD)
@@ -92,8 +91,9 @@
 	backl = /obj/item/storage/backpack/satchel
 	beltr = /obj/item/weapon/knife/dagger/steel/special
 	beltl = /obj/item/weapon/sword/short/iron
+	gloves = /obj/item/clothing/gloves/leather
 	backpack_contents = list(/obj/item/flint = 1, /obj/item/storage/belt/pouch/coins/poor = 1)
-	scabbards = list(/obj/item/weapon/scabbard/knife)
+	scabbards = list(/obj/item/weapon/scabbard/knife, /obj/item/weapon/scabbard/sword)
 
 /datum/outfit/bard/pre_equip(mob/living/carbon/human/H)
 	. = ..()
