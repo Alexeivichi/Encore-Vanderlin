@@ -91,14 +91,14 @@
 	backl = /obj/item/storage/backpack/satchel
 	beltr = /obj/item/weapon/knife/dagger/steel/special
 	beltl = /obj/item/weapon/sword/short/iron
-	gloves = /obj/item/clothing/gloves/leather
+	gloves = /obj/item/clothing/gloves/fingerless
 	backpack_contents = list(/obj/item/flint = 1, /obj/item/storage/belt/pouch/coins/poor = 1)
 	scabbards = list(/obj/item/weapon/scabbard/knife, /obj/item/weapon/scabbard/sword)
 
 /datum/outfit/bard/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 	if(prob(30))
-		gloves = /obj/item/clothing/gloves/fingerless
+		gloves = /obj/item/clothing/gloves/leather
 	if(prob(50))
 		cloak = /obj/item/clothing/cloak/raincloak/colored/red
 
