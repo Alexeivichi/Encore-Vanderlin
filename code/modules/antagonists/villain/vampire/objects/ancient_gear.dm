@@ -47,7 +47,7 @@
 /obj/item/clothing/face/facemask/steel/ancient/bandit
 	name = "ancient mask"
 	desc = "An ancient mask that hides an ancient evil. This one seems made of a strange alloy..."
-	max_integrity = INTEGRITY_STRONGEST
+	max_integrity = INTEGRITY_STRONG
 
 //................ Neck ............... //
 
@@ -63,7 +63,7 @@
 /obj/item/clothing/neck/chaincoif/ancient/bandit
 	name = "rusted alloy chain coif"
 	desc = "A very old coif. This one seems made of a strange alloy..."
-	max_integrity = INTEGRITY_STRONGEST
+	max_integrity = INTEGRITY_STRONG
 
 /obj/item/clothing/neck/gorget/ancient
 	name = "ancient gorget"
@@ -78,7 +78,7 @@
 	name = "rusted alloy gorget"
 	desc = "A very old gorget. This one seems made of a strange alloy..."
 	icon_state = "ancientgorget"
-	max_integrity = INTEGRITY_STRONGEST
+	max_integrity = INTEGRITY_STRONG
 
 //................ Armor ............... //
 
@@ -94,8 +94,8 @@
 /obj/item/clothing/armor/cuirass/ancient/bandit
 	name = "ancient alloy cuirass"
 	desc = "An old cuirass, deceptively sturdy. This one seems made of a strange alloy..."
-	armor_type = /datum/armor/plate/blacksteel
-	max_integrity = INTEGRITY_STRONGEST
+	armor_type = /datum/armor/plate
+	max_integrity = INTEGRITY_STRONG
 
 /obj/item/clothing/armor/plate/ancient
 	name = "ancient half-plate"
@@ -120,7 +120,7 @@
 /obj/item/clothing/armor/chainmail/ancient/bandit
 	name = "ancient alloy haubergeon"
 	desc = "A very old haubergeon. This one seems made of a strange alloy..."
-	max_integrity = INTEGRITY_STRONGEST
+	max_integrity = INTEGRITY_STRONG
 
 /obj/item/clothing/armor/chainmail/hauberk/ancient
 	name = "ancient hauberk"
@@ -134,7 +134,7 @@
 /obj/item/clothing/armor/chainmail/hauberk/ancient/bandit
 	name = "ancient alloy hauberk"
 	desc = "A very old hauberk. This one seems made of a strange alloy..."
-	max_integrity = INTEGRITY_STRONGEST
+	max_integrity = INTEGRITY_STRONG
 
 //................ Wrists ............... //
 
@@ -150,8 +150,8 @@
 /obj/item/clothing/wrists/bracers/ancient/bandit
 	name = "ancient alloy vambraces"
 	desc = "Very old vambraces. This one seems made of a strange alloy..."
-	armor_type = /datum/armor/wrist/plate/psydon_thorns
-	max_integrity = INTEGRITY_STRONGEST
+	armor_type = /datum/armor/wrist/plate
+	max_integrity = INTEGRITY_STRONG
 
 //................ Gloves ............... //
 
@@ -167,7 +167,7 @@
 /obj/item/clothing/gloves/chain/ancient/bandit
 	name = "ancient alloy chain gauntlets"
 	desc = "Weathered gauntlets with an ancient design. This one seems made of a strange alloy..."
-	max_integrity = INTEGRITY_STRONGEST
+	max_integrity = INTEGRITY_STRONG
 
 /obj/item/clothing/gloves/plate/ancient
 	name = "ancient plate gauntlets"
@@ -181,8 +181,8 @@
 /obj/item/clothing/gloves/plate/ancient/bandit
 	name = "ancient alloy plate gauntlets"
 	desc = "Weathered gauntlets with an ancient design. This one seems made of a strange alloy..."
-	armor_type = /datum/armor/gloves/plate/blacksteel
-	max_integrity = INTEGRITY_STRONGEST
+	armor_type = /datum/armor/gloves/plate
+	max_integrity = INTEGRITY_STRONG
 
 //................ Legs ............... //
 
@@ -202,7 +202,7 @@
 /obj/item/clothing/pants/chainlegs/kilt/ancient/bandit
 	name = "ancient alloy chain kilt"
 	desc = "A very old chain kilt. This one seems made of a strange alloy..."
-	max_integrity = INTEGRITY_STRONGEST
+	max_integrity = INTEGRITY_STRONG
 
 /obj/item/clothing/pants/platelegs/ancient
 	name = "ancient chausses"
@@ -219,7 +219,8 @@
 /obj/item/clothing/pants/platelegs/ancient/bandit
 	name = "ancient alloy chausses"
 	desc = "Chausses made of an ancient steel. This one seems made of a strange alloy..."
-	max_integrity = INTEGRITY_STRONGEST
+	armor_type = /datum/armor/pants/plate
+	max_integrity = INTEGRITY_STRONG
 
 //................ Shoes ............... //
 
@@ -237,7 +238,7 @@
 /obj/item/clothing/shoes/boots/armor/ironmaille/ancient/bandit
 	name = "ancient alloy sandals"
 	desc = "An uncomfortable looking pair of old metal sandals. Surprisingly protective. This one seems made of a strange alloy..."
-	max_integrity = INTEGRITY_STRONGEST
+	max_integrity = INTEGRITY_STRONG
 
 /obj/item/clothing/shoes/boots/armor/ancient
 	name = "ancient boots"
@@ -252,5 +253,6 @@
 /obj/item/clothing/shoes/boots/armor/ancient/bandit
 	name = "ancient alloy boots"
 	desc = "Ancient boots with ceremonial ornaments from ages past. This one seems made of a strange alloy..."
-	max_integrity = INTEGRITY_STRONGEST
+	armor_type = /datum/armor/boots/plate
+	max_integrity = INTEGRITY_STRONG
 

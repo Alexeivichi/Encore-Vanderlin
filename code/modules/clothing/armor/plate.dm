@@ -131,8 +131,8 @@
 /obj/item/clothing/armor/plate/rust/bandit
 	name = "rusted alloy half-plate"
 	desc = "Old glory, old defeats, most of the rust comes from damp and not the blood of previous wearers, one would hope. This one seems made of a strange alloy..."
-	armor_type = /datum/armor/plate/blacksteel
-	max_integrity = INTEGRITY_STRONGEST
+	armor_type = /datum/armor/plate
+	max_integrity = INTEGRITY_STRONG
 
 /obj/item/clothing/armor/plate/silver
 	name = "templar's half-plate"

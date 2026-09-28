@@ -112,8 +112,8 @@
 /obj/item/clothing/shoes/boots/armor/light/rust/bandit
 	name = "rusted alloy light plate boots"
 	desc = "Rusted armored boots made from iron offering protection against both melee and ranged attacks. They smell stained of blood and urine. This one seems made of a strange alloy..."
-	armor_type = /datum/armor/boots/plate/good
-	max_integrity = INTEGRITY_STRONGEST
+	armor_type = /datum/armor/boots/plate
+	max_integrity = INTEGRITY_STRONG
 
 /obj/item/clothing/shoes/boots/armor/blkknight
 	name = "blacksteel boots"

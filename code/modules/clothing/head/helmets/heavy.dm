@@ -123,8 +123,8 @@
 /obj/item/clothing/head/helmet/heavy/rust/bandit
 	name = "rusted alloy barbute"
 	desc = "A rusted barbute. Might turn your hair brown, but offers good protection. This one seems made of a strange alloy... "
-	armor_type = /datum/armor/head/plate/blacksteel
-	max_integrity = INTEGRITY_STRONGEST
+	armor_type = /datum/armor/head/plate
+	max_integrity = INTEGRITY_STRONG
 
 /obj/item/clothing/head/helmet/heavy/kabuto
 	name = "kabuto"
