@@ -138,6 +138,14 @@
 	width = 9
 	height = 9
 
+//Bog Witch Hut
+//Outsider role, but meant only for Bog Witch.
+/datum/map_template/bogwitchhut
+	name = "Bog Witch Hut"
+	mappath = "_maps/map_files/domotan/house_templates/outsiders/bogwitchhut.dmm"
+	width = 15
+	height = 18
+
 //Vampire Lair
 //Used by the vampire lord. Duh.
 /datum/map_template/vampire_lair
