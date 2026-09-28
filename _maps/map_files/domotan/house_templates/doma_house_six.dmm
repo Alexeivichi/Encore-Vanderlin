@@ -185,8 +185,8 @@
 /turf/open/water/bath,
 /area/indoors/town)
 "Fy" = (
-/obj/machinery/light/fueled/wallfire/candle/l,
 /obj/structure/fluff/railing/wood,
+/obj/machinery/light/fueled/wallfire/candle,
 /turf/open/floor/tile/bath,
 /area/indoors/town)
 "FN" = (
@@ -327,8 +327,8 @@
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town)
 "Ym" = (
-/obj/structure/sign/property_sign/claim,
-/turf/closed/wall/mineral/stone/moss,
+/obj/structure/sign/property_sign/claim/town,
+/turf/closed/wall/mineral/stone,
 /area/indoors/town)
 "Ys" = (
 /turf/open/floor/tile,
@@ -345,7 +345,7 @@
 (1,1,1) = {"
 pH
 pH
-CF
+Ym
 CF
 CF
 CF
@@ -353,7 +353,7 @@ CF
 (2,1,1) = {"
 Wy
 PN
-Fy
+sR
 DY
 CH
 CF
@@ -361,7 +361,7 @@ CF
 (3,1,1) = {"
 pH
 pH
-sR
+Fy
 Pe
 bO
 CF
@@ -453,7 +453,7 @@ pH
 uM
 uM
 pH
-Ym
+pH
 "}
 
 (1,1,3) = {"

@@ -78,10 +78,6 @@
 /obj/structure/fake_machine/mail{
 	mailtag = "Hand"
 	},
-/obj/structure/sign/property_sign/claim{
-	pixel_y = 31;
-	pixel_x = -11
-	},
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/hand)
 "N" = (
@@ -106,6 +102,10 @@
 /obj/item/paper/scroll,
 /obj/item/natural/feather,
 /turf/open/floor/ruinedwood/two,
+/area/indoors/town/keep/hand)
+"X" = (
+/obj/structure/sign/property_sign/claim/hand,
+/turf/closed/wall/mineral/stonebrick,
 /area/indoors/town/keep/hand)
 "Y" = (
 /obj/structure/chair/wood{
@@ -158,7 +158,7 @@ j
 (5,1,1) = {"
 j
 j
-j
+X
 l
 j
 j

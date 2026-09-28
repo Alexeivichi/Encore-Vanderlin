@@ -38,7 +38,7 @@
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/shop)
 "t" = (
-/obj/structure/sign/property_sign/claim,
+/obj/structure/sign/property_sign/claim/yeoman,
 /turf/closed/wall/mineral/stone/moss,
 /area/indoors/town/shop)
 "w" = (
@@ -85,12 +85,14 @@
 /obj/structure/curtain/bounty{
 	icon_state = "bounty-closed"
 	},
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
 "P" = (
 /obj/structure/door{
 	name = "Maker's Quarter"
 	},
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
 "Q" = (

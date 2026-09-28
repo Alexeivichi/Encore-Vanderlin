@@ -88,7 +88,7 @@
 /turf/open/floor/twig,
 /area/indoors/town)
 "G" = (
-/obj/structure/sign/property_sign/claim,
+/obj/structure/sign/property_sign/claim/town,
 /turf/closed/wall/mineral/stone/moss,
 /area/indoors/town)
 "I" = (

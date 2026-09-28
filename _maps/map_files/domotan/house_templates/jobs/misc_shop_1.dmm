@@ -80,8 +80,8 @@
 /turf/closed/wall/mineral/decowood/vert,
 /area/template_noop)
 "sh" = (
-/obj/structure/sign/property_sign/claim,
-/turf/closed/wall/mineral/decowood,
+/obj/structure/sign/property_sign/claim/town,
+/turf/closed/wall/mineral/wood,
 /area/template_noop)
 "sG" = (
 /obj/structure/fluff/railing/wood{
@@ -146,6 +146,11 @@
 	icon_state = "bounty-closed"
 	},
 /turf/closed/wall/mineral/wood/window,
+/area/template_noop)
+"Eu" = (
+/obj/structure/door/red,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/ruinedwood,
 /area/template_noop)
 "EG" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
@@ -298,12 +303,12 @@ cv
 gt
 "}
 (5,1,1) = {"
-cG
+Eu
 Cg
 Cg
 AB
 AB
-cG
+Eu
 "}
 (6,1,1) = {"
 gt
@@ -311,7 +316,7 @@ vs
 Cg
 AB
 lo
-gt
+sh
 "}
 (7,1,1) = {"
 Dr
@@ -327,7 +332,7 @@ gt
 Kg
 AB
 iC
-sh
+Gd
 "}
 (9,1,1) = {"
 gt

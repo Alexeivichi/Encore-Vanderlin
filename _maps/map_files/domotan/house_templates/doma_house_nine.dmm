@@ -27,13 +27,12 @@
 /turf/open/floor/twig,
 /area/indoors/town)
 "dw" = (
-/obj/structure/bars,
-/turf/open/floor/naturalstone,
+/obj/structure/toilet,
+/obj/structure/curtain/bounty,
+/turf/open/floor/tile/bath,
 /area/indoors/town)
 "fe" = (
-/obj/item/natural/stone,
-/obj/structure/barricade/wooden,
-/turf/open/floor/naturalstone,
+/turf/open/water/bath,
 /area/indoors/town)
 "fT" = (
 /obj/item/bin/water,
@@ -65,8 +64,7 @@
 /turf/open/floor/twig,
 /area/indoors/town)
 "ph" = (
-/obj/item/natural/stone,
-/turf/open/floor/naturalstone,
+/turf/open/floor/tile/bath,
 /area/indoors/town)
 "qK" = (
 /obj/structure/fake_machine/scomm/r,
@@ -98,7 +96,7 @@
 /turf/open/floor/twig,
 /area/indoors/town)
 "xW" = (
-/obj/structure/sign/property_sign/claim,
+/obj/structure/sign/property_sign/claim/town,
 /turf/closed/wall/mineral/stone/moss,
 /area/indoors/town)
 "yl" = (
@@ -125,6 +123,10 @@
 "BZ" = (
 /obj/structure/closet/crate/crafted_closet/inn,
 /turf/open/floor/twig,
+/area/indoors/town)
+"DW" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/tile/bath,
 /area/indoors/town)
 "DZ" = (
 /obj/effect/mapping_helpers/access/locker,
@@ -194,8 +196,20 @@
 "Ox" = (
 /turf/closed/wall/mineral/stone,
 /area/indoors/town)
+"Pz" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/tile/bath,
+/area/indoors/town)
 "Sa" = (
 /obj/structure/fake_machine/scomm/r,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town)
+"SC" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/naturalstone,
+/area/indoors/town)
+"VC" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town)
 "VX" = (
@@ -209,6 +223,12 @@
 /area/indoors/town)
 "Wj" = (
 /turf/closed/wall/mineral/wood,
+/area/indoors/town)
+"YE" = (
+/obj/item/soap/bath,
+/obj/item/natural/cloth,
+/obj/structure/well/fountain/sink,
+/turf/open/floor/tile/bath,
 /area/indoors/town)
 "YR" = (
 /obj/structure/handcart{
@@ -226,35 +246,35 @@
 /area/indoors/town)
 
 (1,1,1) = {"
+xW
 YW
-dw
-vm
+YW
 Ox
 Ox
 Ox
 "}
 (2,1,1) = {"
 YW
-vm
-vm
-vm
+fe
+fe
+Pz
 BS
 Ox
 "}
 (3,1,1) = {"
+YW
+YE
+DW
 ph
-vm
-vm
-vm
 yl
 Ox
 "}
 (4,1,1) = {"
-fe
+YW
 YR
+DW
 vm
-vm
-vm
+SC
 Ox
 "}
 (5,1,1) = {"
@@ -262,23 +282,23 @@ YW
 YW
 NM
 vm
-vm
-dw
+DW
+YW
 "}
 (6,1,1) = {"
 YW
 Ev
 vm
-vm
-vm
+YW
 dw
+YW
 "}
 (7,1,1) = {"
 YW
 YW
 Ox
-vm
-vm
+YW
+YW
 YW
 "}
 
@@ -319,7 +339,7 @@ YW
 YW
 gI
 gI
-jp
+VC
 bL
 "}
 (6,1,2) = {"
@@ -328,7 +348,7 @@ JS
 Sa
 fT
 bM
-xW
+YW
 "}
 (7,1,2) = {"
 YW

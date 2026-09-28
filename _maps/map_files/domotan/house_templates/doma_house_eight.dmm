@@ -125,8 +125,8 @@
 /turf/open/floor/twig,
 /area/indoors/town)
 "xW" = (
-/obj/structure/sign/property_sign/claim,
-/turf/closed/wall/mineral/stone/moss,
+/obj/structure/sign/property_sign/claim/town,
+/turf/closed/wall/mineral/stone,
 /area/indoors/town)
 "yl" = (
 /turf/open/water/clean,
@@ -341,7 +341,7 @@ cH
 qK
 pu
 BS
-Ox
+xW
 "}
 (3,1,1) = {"
 YW
@@ -438,7 +438,7 @@ YW
 HG
 HG
 YW
-xW
+YW
 "}
 
 (1,1,3) = {"

@@ -50,7 +50,7 @@
 /turf/closed/wall/mineral/wood,
 /area/template_noop)
 "J" = (
-/obj/structure/sign/property_sign/claim,
+/obj/structure/sign/property_sign/claim/yeoman,
 /turf/closed/wall/mineral/wood,
 /area/template_noop)
 "N" = (
@@ -71,6 +71,7 @@
 /obj/structure/door/red{
 	name = "Shop Stall I"
 	},
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/ruinedwood/two,
 /area/template_noop)
 "U" = (
@@ -94,6 +95,7 @@
 /obj/structure/door/red{
 	name = "Shop Stall I"
 	},
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/ruinedwood/chevron,
 /area/template_noop)
 

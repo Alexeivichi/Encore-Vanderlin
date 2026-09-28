@@ -320,10 +320,13 @@ GLOBAL_LIST_EMPTY(save_whitelist)
 	obj_blacklist -= typesof(/obj/effect/decal)
 	obj_blacklist -= typesof(/obj/effect/turf_decal)
 	obj_blacklist -= typesof(/obj/effect/landmark) // most landmarks get deleted except for latejoin arrivals shuttle
+	obj_blacklist += typesof(/obj/structure/blueprint)//this bricks the server if allowed
+	obj_blacklist += typesof(/obj/structure/soil)//ditto
 	obj_blacklist += /obj/effect/landmark/house_spot
 	obj_blacklist += /obj/effect/fog_parter
 	obj_blacklist += /obj/structure/sign/property_sign
-	obj_blacklist += /obj/item/clothing/armor //Prevents armor from getting saved to prevent people hoarding steel plate
+	obj_blacklist += typesof(/obj/item/clothing/armor) //Prevents armor from getting saved to prevent people hoarding steel plate
+	obj_blacklist += typesof(/obj/item/storage/belt/pouch/coins) //spawns with money
 	if(save_flag & SAVE_WHITELIST)
 		obj_blacklist += typesof(/obj/effect/landmark/start)
 

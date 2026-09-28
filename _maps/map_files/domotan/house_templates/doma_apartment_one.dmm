@@ -1,0 +1,166 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/indoors/town)
+"d" = (
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"e" = (
+/obj/machinery/light/fueled/wallfire{
+	pixel_y = 32
+	},
+/obj/item/natural/stone{
+	pixel_y = 11;
+	pixel_x = -9
+	},
+/obj/item/natural/bundle/stick{
+	pixel_y = 9
+	},
+/obj/structure/chair/stool,
+/obj/machinery/light/fueled/wallfire/candle/l,
+/turf/open/floor/tile,
+/area/indoors/town)
+"h" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/key/apartments/apartment1,
+/obj/item/natural/cloth,
+/obj/item/broom,
+/obj/machinery/light/fueled/wallfire/candle/r,
+/obj/item/soap,
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"n" = (
+/obj/effect/decal/carpet{
+	dir = 8
+	},
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"p" = (
+/obj/structure/well/fountain/sink,
+/turf/open/floor/tile/bath,
+/area/indoors/town)
+"s" = (
+/obj/structure/chair/wood/alt{
+	dir = 4
+	},
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"y" = (
+/obj/structure/sign/property_sign/claim/town,
+/turf/closed/wall/mineral/wooddark,
+/area/indoors/town)
+"z" = (
+/obj/structure/bed/wool,
+/obj/item/bedsheet/cloth,
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"B" = (
+/turf/closed/wall/mineral/wood,
+/area/indoors/town)
+"F" = (
+/obj/structure/toilet,
+/obj/structure/curtain/bounty,
+/obj/machinery/light/fueled/wallfire/candle/r,
+/turf/open/floor/tile/bath,
+/area/indoors/town)
+"K" = (
+/obj/structure/window/openclose{
+	dir = 1
+	},
+/obj/structure/curtain/bounty/dir{
+	dir = 1;
+	opacity = 1
+	},
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"N" = (
+/turf/open/floor/tile,
+/area/indoors/town)
+"P" = (
+/turf/closed/wall/mineral/wooddark,
+/area/indoors/town)
+"Q" = (
+/turf/closed/wall/mineral/decowood/vert,
+/area/indoors/town)
+"R" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/glass/bottle{
+	layer = 7;
+	pixel_x = 8;
+	pixel_y = 10
+	},
+/obj/item/natural/feather,
+/obj/item/paper{
+	pixel_x = -4;
+	pixel_y = -3
+	},
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/candle/yellow,
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"S" = (
+/obj/structure/door{
+	lockid = "apartment1";
+	name = "Apartment I"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/tile,
+/area/indoors/town)
+"U" = (
+/turf/open/water/bath,
+/area/indoors/town)
+"X" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town)
+"Y" = (
+/obj/structure/door/weak/bolt{
+	dir = 1
+	},
+/turf/open/floor/tile/bath,
+/area/indoors/town)
+
+(1,1,1) = {"
+P
+B
+P
+Q
+Q
+Q
+y
+"}
+(2,1,1) = {"
+B
+U
+X
+e
+N
+N
+S
+"}
+(3,1,1) = {"
+B
+p
+Y
+d
+n
+s
+K
+"}
+(4,1,1) = {"
+B
+F
+B
+z
+R
+h
+K
+"}
+(5,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+"}

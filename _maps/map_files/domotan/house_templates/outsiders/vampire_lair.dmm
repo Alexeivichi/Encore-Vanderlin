@@ -1342,7 +1342,7 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/vampire_manor)
 "Hw" = (
-/obj/structure/sign/property_sign/claim,
+/obj/structure/sign/property_sign/claim/outsider,
 /turf/closed/wall/mineral/stone,
 /area/indoors/vampire_manor)
 "Hy" = (
