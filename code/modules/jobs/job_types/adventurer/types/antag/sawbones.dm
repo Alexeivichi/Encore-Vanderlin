@@ -2,7 +2,7 @@
 	raw_attribute_list = list(
 		STAT_INTELLIGENCE = 3,
 		STAT_FORTUNE = 1,
-		/datum/attribute/skill/combat/knives = 50,
+		/datum/attribute/skill/combat/knives = 40,
 		/datum/attribute/skill/combat/wrestling = 20,
 		/datum/attribute/skill/craft/crafting = 20,
 		/datum/attribute/skill/craft/carpentry = 20,
@@ -24,7 +24,7 @@
 		STAT_PERCEPTION = 1,
 		STAT_FORTUNE = 1,
 		STAT_SPEED = -1,
-		/datum/attribute/skill/combat/knives = 50,
+		/datum/attribute/skill/combat/knives = 40,
 		/datum/attribute/skill/combat/wrestling = 20,
 		/datum/attribute/skill/craft/crafting = 20,
 		/datum/attribute/skill/craft/carpentry = 20,
