@@ -1056,7 +1056,7 @@
 /turf/open/water/swamp,
 /area/indoors/shelter/bog/witch)
 "eO" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /obj/machinery/light/fueled/wallfire/candle/l,
 /turf/open/floor/cobble/alt,
 /area/indoors/shelter/bog)
@@ -3805,7 +3805,7 @@
 /turf/open/floor/sand/sandstone,
 /area/outdoors/woods/crossroads)
 "sb" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/hexstone,
 /area/indoors/shelter/bog/witch)
 "sd" = (
@@ -6524,7 +6524,7 @@
 /turf/open/floor/naturalstone,
 /area/indoors/shelter)
 "Ed" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/cobble/alt,
 /area/indoors/shelter/woods)
 "Ef" = (

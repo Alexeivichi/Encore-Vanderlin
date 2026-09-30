@@ -18831,7 +18831,7 @@
 /turf/open/floor/tile/diamond,
 /area/under/town/basement)
 "lvF" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/cobble,
 /area/indoors/town/keep/magician)
 "lvL" = (
@@ -20815,7 +20815,7 @@
 /turf/open/floor/blocks,
 /area/outdoors/town/roofs)
 "mJb" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/cobblerock,
 /area/indoors/town/keep/magician)
 "mJj" = (
@@ -27309,7 +27309,7 @@
 /turf/open/floor/grass/cold,
 /area/indoors/town/keep/magician)
 "qVz" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/cobble,
 /area/under/cave)
 "qVG" = (
@@ -35076,7 +35076,7 @@
 /turf/closed/wall/mineral/decorstone,
 /area/indoors/town/keep/halls/w)
 "vVn" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/hexstone,
 /area/indoors/town/clinic_large/apothecary)
 "vVq" = (

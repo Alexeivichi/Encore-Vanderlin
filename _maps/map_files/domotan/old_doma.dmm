@@ -12477,7 +12477,7 @@
 /turf/open/floor/churchrough,
 /area/indoors/town/keep/archivist)
 "ixA" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/clinic_large)
 "ixV" = (
@@ -28460,7 +28460,7 @@
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern)
 "ttO" = (
-/obj/machinery/light/fueled/cauldron{
+/obj/machinery/essence/cauldron_alchemy{
 	pixel_y = 7
 	},
 /obj/structure/table/wood/plain_alt,

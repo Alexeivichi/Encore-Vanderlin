@@ -4348,7 +4348,7 @@
 /turf/open/floor/dirt,
 /area/indoors/town/cell)
 "cdg" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/blocks,
 /area/indoors/town/keep/magician)
 "cdk" = (
@@ -20684,7 +20684,7 @@
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/town/merc_guild)
 "jWk" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/cobble,
 /area/indoors/town/keep/magician)
 "jWm" = (
@@ -28863,7 +28863,7 @@
 /obj/structure/fluff/walldeco/med2{
 	pixel_y = 31
 	},
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/cobble,
 /area/under/cave)
 "nUg" = (
@@ -30079,7 +30079,7 @@
 /turf/open/floor/cobble,
 /area/indoors/town)
 "osT" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/blocks/newstone,
 /area/indoors/town/bath)
 "osX" = (
@@ -45693,7 +45693,7 @@
 /turf/closed/wall/window,
 /area/indoors/town/keep)
 "wbf" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /obj/machinery/light/fueled/wallfire/candle/blue/r,
 /turf/open/floor/tile,
 /area/indoors/town/keep/magician)

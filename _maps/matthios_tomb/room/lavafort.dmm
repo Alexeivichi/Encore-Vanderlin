@@ -498,7 +498,7 @@
 /turf/open/floor/grass/red,
 /area/under/tomb/cave/lava)
 "Fu" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /obj/effect/decal/cleanable/sigil/N,
 /obj/structure/fluff/walldeco/church/line,
 /turf/open/floor/hexstone,

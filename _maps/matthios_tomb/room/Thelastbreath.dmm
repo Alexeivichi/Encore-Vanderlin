@@ -702,7 +702,7 @@
 /turf/open/floor/grass,
 /area/under/tomb/wilds)
 "jB" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/hexstone,
 /area/under/tomb/indoors)
 "jC" = (
