@@ -1,0 +1,451 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/twig,
+/area/indoors/town/shop)
+"b" = (
+/obj/effect/mapping_helpers/access/keyset/town/yeoman,
+/obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/violet{
+	name = "Shop 3"
+	},
+/turf/open/floor/twig,
+/area/indoors/town/shop)
+"d" = (
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"f" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/spider/stickyweb/solo,
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"g" = (
+/obj/structure/fake_machine/scomm,
+/turf/open/floor/twig,
+/area/indoors/town/shop)
+"h" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"i" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"j" = (
+/obj/structure/window/solid,
+/obj/structure/water_pipe,
+/turf/open/floor/twig,
+/area/indoors/town/shop)
+"k" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/turf/open/openspace,
+/area/indoors/town/shop)
+"l" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/wood,
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"m" = (
+/turf/closed/wall/mineral/decowood,
+/area/indoors/town/shop)
+"n" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/fueled/torchholder/r,
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"p" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/turf/open/openspace,
+/area/indoors/town/shop)
+"q" = (
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/twig,
+/area/indoors/town/shop)
+"r" = (
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"s" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/twig,
+/area/indoors/town/shop)
+"t" = (
+/obj/structure/window/openclose,
+/obj/structure/curtain/bounty/dir{
+	opacity = 1
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/shop)
+"u" = (
+/obj/structure/fluff/walldeco/sign/merchantsign,
+/turf/closed/wall/mineral/decowood,
+/area/indoors/town/shop)
+"v" = (
+/obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/violet{
+	name = "Shop 3"
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area/indoors/town/shop)
+"w" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"x" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/indoors/town/shop)
+"y" = (
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/twig,
+/area/indoors/town/shop)
+"z" = (
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/twig,
+/area/indoors/town/shop)
+"A" = (
+/obj/machinery/light/fueled/torchholder/c,
+/obj/structure/chair/stool,
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"B" = (
+/obj/structure/door/window{
+	name = "Shop 3"
+	},
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 8
+	},
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/ruinedwood/turned/alt,
+/area/indoors/town/shop)
+"C" = (
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"D" = (
+/turf/closed/wall/mineral/decowood/vert,
+/area/indoors/town/shop)
+"E" = (
+/obj/structure/stairs{
+	dir = 8
+	},
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"F" = (
+/obj/structure/curtain/bounty/dir{
+	opacity = 1
+	},
+/obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/window{
+	name = "Shop 3"
+	},
+/turf/open/floor/ruinedwood/turned/alt,
+/area/indoors/town/shop)
+"G" = (
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/twig,
+/area/indoors/town/shop)
+"H" = (
+/obj/structure/sign/property_sign/claim/yeoman,
+/turf/closed/wall/mineral/stone/moss,
+/area/indoors/town/shop)
+"I" = (
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/shop)
+"J" = (
+/obj/structure/spider/stickyweb,
+/turf/open/floor/twig,
+/area/indoors/town/shop)
+"K" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/wood,
+/obj/item/candle/yellow,
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"L" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/fueled/torchholder/l,
+/obj/structure/fake_machine/scomm/l,
+/obj/effect/decal/cleanable/dirt/cobweb,
+/obj/structure/fake_machine/mail{
+	mailtag = "Shop Five"
+	},
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"M" = (
+/obj/structure/spider/stickyweb/solo,
+/turf/open/floor/twig,
+/area/indoors/town/shop)
+"N" = (
+/obj/structure/chair/stool,
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"O" = (
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 1
+	},
+/obj/structure/window/openclose{
+	dir = 1
+	},
+/turf/open/floor/cobble/alt,
+/area/indoors/town/shop)
+"P" = (
+/obj/structure/table/wood,
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"Q" = (
+/obj/structure/stairs{
+	dir = 8
+	},
+/turf/open/floor/twig,
+/area/indoors/town/shop)
+"R" = (
+/obj/structure/fluff/walldeco/vinez,
+/turf/closed/wall/mineral/stone/moss,
+/area/indoors/town/shop)
+"S" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
+"U" = (
+/obj/machinery/light/fueled/torchholder/c,
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/twig,
+/area/indoors/town/shop)
+"V" = (
+/turf/closed/wall/mineral/wooddark,
+/area/indoors/town/shop)
+"X" = (
+/obj/structure/window/openclose{
+	dir = 8
+	},
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/shop)
+"Y" = (
+/obj/effect/mapping_helpers/access/keyset/town/yeoman,
+/obj/structure/door/red{
+	name = "Machinery Access"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/church/violet,
+/area/indoors/town/shop)
+
+(1,1,1) = {"
+x
+x
+x
+x
+x
+x
+x
+x
+"}
+(2,1,1) = {"
+I
+U
+z
+a
+y
+J
+y
+x
+"}
+(3,1,1) = {"
+I
+g
+s
+a
+a
+s
+a
+x
+"}
+(4,1,1) = {"
+x
+G
+a
+s
+a
+a
+a
+x
+"}
+(5,1,1) = {"
+x
+q
+a
+s
+s
+a
+q
+x
+"}
+(6,1,1) = {"
+x
+x
+s
+a
+s
+a
+x
+x
+"}
+(7,1,1) = {"
+x
+G
+s
+a
+s
+a
+Q
+H
+"}
+(8,1,1) = {"
+x
+J
+a
+a
+a
+a
+a
+b
+"}
+(9,1,1) = {"
+x
+G
+a
+a
+q
+M
+q
+x
+"}
+(10,1,1) = {"
+x
+Y
+R
+j
+x
+x
+x
+x
+"}
+
+(1,1,2) = {"
+x
+x
+x
+I
+I
+x
+x
+x
+"}
+(2,1,2) = {"
+x
+L
+S
+S
+h
+d
+r
+v
+"}
+(3,1,2) = {"
+I
+w
+d
+N
+d
+f
+d
+x
+"}
+(4,1,2) = {"
+V
+P
+P
+K
+d
+S
+d
+O
+"}
+(5,1,2) = {"
+m
+A
+d
+d
+S
+S
+d
+O
+"}
+(6,1,2) = {"
+t
+d
+d
+d
+S
+S
+E
+x
+"}
+(7,1,2) = {"
+t
+d
+f
+d
+d
+S
+k
+O
+"}
+(8,1,2) = {"
+F
+d
+d
+S
+d
+d
+p
+O
+"}
+(9,1,2) = {"
+F
+C
+P
+l
+i
+S
+n
+x
+"}
+(10,1,2) = {"
+m
+u
+X
+X
+X
+B
+D
+x
+"}
