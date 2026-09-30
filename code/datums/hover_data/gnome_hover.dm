@@ -108,7 +108,7 @@
 			create_range_box(source, range, "#FF00FF", "splitter_source", viewer) // Magenta
 
 	if(controller.blackboard[BB_GNOME_ALCHEMY_MODE])
-		var/obj/machinery/light/fueled/cauldron/cauldron = controller.blackboard[BB_GNOME_TARGET_CAULDRON]
+		var/obj/machinery/essence/cauldron_alchemy/cauldron = controller.blackboard[BB_GNOME_TARGET_CAULDRON]
 		var/obj/structure/well/well = controller.blackboard[BB_GNOME_TARGET_WELL]
 
 		if(cauldron)
@@ -135,7 +135,7 @@
 		add_client_image(extractor_image, viewer)
 		target_overlays += extractor_image
 
-	var/obj/machinery/light/fueled/cauldron/cauldron = controller.blackboard[BB_GNOME_TARGET_CAULDRON]
+	var/obj/machinery/essence/cauldron_alchemy/cauldron = controller.blackboard[BB_GNOME_TARGET_CAULDRON]
 	if(cauldron)
 		var/image/cauldron_image = image('icons/effects/overlays.dmi', cauldron, "target_marker")
 		cauldron_image.color = "#800080" // Purple
