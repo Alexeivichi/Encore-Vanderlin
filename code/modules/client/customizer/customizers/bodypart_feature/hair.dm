@@ -378,7 +378,12 @@
 		/datum/sprite_accessory/hair/head/shopkeep,
 		/datum/sprite_accessory/hair/head/the_talker,
 		/datum/sprite_accessory/hair/head/lone_wolfcut,
-		/datum/sprite_accessory/hair/head/innocent_curls
+		/datum/sprite_accessory/hair/head/innocent_curls,
+		/datum/sprite_accessory/hair/head/ponytail_dinky1,
+		/datum/sprite_accessory/hair/head/ponytail_dinky2,
+		/datum/sprite_accessory/hair/head/ponytail_tied,
+		/datum/sprite_accessory/hair/head/hair_gentle,
+		/datum/sprite_accessory/hair/head/hair_gentle2
 		)
 
 /datum/customizer/bodypart_feature/hair/head/humanoid/triton
