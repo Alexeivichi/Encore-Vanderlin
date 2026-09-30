@@ -4180,7 +4180,7 @@
 /turf/open/floor/cobble,
 /area/under/mountains/anvil/lower)
 "Id" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/ruinedwood/spiral,
 /area/under/mountains/anvil/lower)
 "Ie" = (
@@ -4491,7 +4491,7 @@
 /turf/open/floor/cobble,
 /area/under/mountains/anvil/lower)
 "Kr" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/herringbone,
 /area/under/mountains/anvil/dungeon/lower)
 "Ks" = (
@@ -5225,7 +5225,7 @@
 /turf/open/floor/cobble,
 /area/under/mountains/anvil/lower)
 "PU" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/ruinedwood/chevron,
 /area/under/mountains/anvil/dungeon/lower)
 "PW" = (

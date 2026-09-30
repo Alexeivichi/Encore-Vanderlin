@@ -2057,7 +2057,7 @@
 /turf/open/floor/blocks,
 /area/under/tomb/indoors/royal)
 "Tb" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/metal/barograte,
 /area/under/tomb/indoors/magic)
 "Th" = (

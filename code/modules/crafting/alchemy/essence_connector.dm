@@ -32,10 +32,6 @@
 	if(istype(target, /obj/machinery/essence))
 		return target
 
-	if(istype(target, /obj/machinery/light/fueled/cauldron))
-		var/obj/machinery/light/fueled/cauldron/C = target
-		return C.essence_node
-
 	return null
 
 /obj/item/essence_connector/proc/complete_connection(obj/machinery/essence/target, mob/user)
@@ -50,10 +46,6 @@
 
 	var/obj/machinery/essence/link_from = from
 	var/obj/machinery/essence/link_to = target
-
-	if(istype(from, /obj/machinery/essence/cauldron_node) && !istype(target, /obj/machinery/essence/cauldron_node))
-		link_from = target
-		link_to = from
 
 	for(var/datum/essence_link/existing in link_from.links)
 		if(existing.source == link_from && existing.sink == link_to)
@@ -132,9 +124,6 @@
 	to_chat(user, span_info("Connection started from [get_display_name(machine)]. Click another device to complete the link, or use in hand to cancel."))
 
 /obj/item/essence_connector/proc/get_display_name(obj/machinery/essence/machine)
-	if(istype(machine, /obj/machinery/essence/cauldron_node))
-		var/obj/machinery/essence/cauldron_node/node = machine
-		return node.owner ? node.owner.name : machine.name
 	return machine.name
 
 /obj/item/essence_connector/proc/get_connection_overlay(state)

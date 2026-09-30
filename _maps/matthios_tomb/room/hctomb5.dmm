@@ -72,7 +72,7 @@
 /turf/open/floor/wood,
 /area/under/tomb/indoors/rest)
 "ic" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/blocks/green,
 /area/under/tomb/indoors/rest)

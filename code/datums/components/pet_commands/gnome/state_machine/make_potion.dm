@@ -12,7 +12,7 @@
 	if(!controller.blackboard[BB_GNOME_ALCHEMY_MODE])
 		return GNOME_PRIORITY_NONE
 
-	var/obj/machinery/light/fueled/cauldron/cauldron = controller.blackboard[BB_GNOME_TARGET_CAULDRON]
+	var/obj/machinery/essence/cauldron_alchemy/cauldron = controller.blackboard[BB_GNOME_TARGET_CAULDRON]
 	var/obj/structure/well/well = controller.blackboard[BB_GNOME_TARGET_WELL]
 
 	if(!cauldron || !well)
@@ -41,7 +41,7 @@
 		return ACTION_STATE_COMPLETE
 
 	var/mob/living/pawn = controller.pawn
-	var/obj/machinery/light/fueled/cauldron/cauldron = controller.blackboard[BB_GNOME_TARGET_CAULDRON]
+	var/obj/machinery/essence/cauldron_alchemy/cauldron = controller.blackboard[BB_GNOME_TARGET_CAULDRON]
 	var/obj/structure/well/well = controller.blackboard[BB_GNOME_TARGET_WELL]
 
 	if(!cauldron || !well)
@@ -210,7 +210,7 @@
 /datum/action_state/alchemy/proc/find_suitable_bottle(datum/ai_controller/controller)
 	var/mob/living/pawn = controller.pawn
 	var/turf/bottle_storage = controller.blackboard[BB_GNOME_BOTTLE_STORAGE]
-	var/obj/machinery/light/fueled/cauldron/cauldron = controller.blackboard[BB_GNOME_TARGET_CAULDRON]
+	var/obj/machinery/essence/cauldron_alchemy/cauldron = controller.blackboard[BB_GNOME_TARGET_CAULDRON]
 
 	var/list/search_areas = list()
 	if(bottle_storage)

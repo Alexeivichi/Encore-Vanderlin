@@ -217,7 +217,7 @@
 		to_chat(user, span_info("[src] has no ethereal links."))
 		return
 	var/choice = input(user, "Link management", "Essence Links") as null|anything in opts
-	if(!choice || (!Adjacent(user) && !istype(src, /obj/machinery/essence/cauldron_node)))
+	if(!choice || !Adjacent(user))
 		return
 	switch(opts[choice])
 		if("out")   show_link_list(user, "outbound", TRUE)
@@ -353,9 +353,6 @@
 		src.Beam(other_turf, icon_state = "light_beam", time = 1.5 SECONDS, beam_color = beam_color)
 
 /obj/machinery/essence/proc/resolve_beam_turf(obj/machinery/essence/machine)
-	if(istype(machine, /obj/machinery/essence/cauldron_node))
-		var/obj/machinery/essence/cauldron_node/node = machine
-		return node.owner ? get_turf(node.owner) : null
 	return get_turf(machine)
 
 /obj/machinery/essence/MouseEntered(location, control, params)
@@ -366,19 +363,6 @@
 	if(!istype(user.get_active_held_item(), /obj/item/essence_connector))
 		return
 	show_link_beams()
-
-// Cauldrons aren't essence machines so they need their own hook,
-// proxying through to the hidden node's links.
-/obj/machinery/light/fueled/cauldron/MouseEntered(location, control, params)
-	. = ..()
-	var/mob/user = usr
-	if(!istype(user))
-		return
-	if(!istype(user.get_active_held_item(), /obj/item/essence_connector))
-		return
-	if(!essence_node || QDELETED(essence_node) || !essence_node.links.len)
-		return
-	essence_node.show_link_beams()
 
 /obj/effect/temp_visual/sparkle
 	icon = 'icons/effects/effects.dmi'
