@@ -2232,17 +2232,9 @@
 /turf/closed/wall/mineral/pipe,
 /area/indoors/town/keep/magician/greenhouse)
 "bwC" = (
-/obj/structure/fake_machine/merchantvend/public/tailor,
-/obj/structure/table/wood,
-/obj/structure/bars/passage/shutter/open{
-	redstone_id = "nite_shutter"
-	},
-/obj/structure/bars{
-	icon_state = "barsbent";
-	layer = 2.81
-	},
-/turf/open/floor/blocks,
-/area/indoors/town/steward)
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/wood,
+/area/outdoors/town)
 "bwD" = (
 /obj/structure/table/wood/large_new{
 	dir = 2;
@@ -5256,6 +5248,7 @@
 /obj/structure/chair/bench{
 	dir = 8
 	},
+/obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/wood,
 /area/outdoors/town)
 "duC" = (
@@ -7371,6 +7364,11 @@
 	},
 /turf/open/floor/churchmarble/violet,
 /area/indoors/town/church/inquisition)
+"eLp" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/wood,
+/area/outdoors/town)
 "eLI" = (
 /obj/effect/waterfall{
 	pixel_y = 22
@@ -20594,7 +20592,6 @@
 /turf/open/floor/cobblerock,
 /area/outdoors/town)
 "mAA" = (
-/obj/structure/fake_machine/merchantvend/public/artificer,
 /obj/structure/table/wood,
 /obj/structure/bars/passage/shutter/open{
 	redstone_id = "nite_shutter"
@@ -25468,11 +25465,10 @@
 /turf/open/floor/blocks/stonered/tiny,
 /area/outdoors/town)
 "pwp" = (
-/mob/living/simple_animal/hostile/retaliate/banker,
-/obj/structure/fluff/railing/border,
-/obj/structure/bars/wooden_arch,
-/turf/open/floor/wood,
-/area/indoors/town/steward)
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/keep/magician)
 "pwr" = (
 /obj/item/storage/crucible/random,
 /obj/item/storage/crucible/random,
@@ -25551,8 +25547,8 @@
 /turf/open/floor/blocks/green,
 /area/under/town/sewer)
 "pzg" = (
-/obj/structure/fake_machine/stockpile,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/fake_machine/stockpile,
 /turf/open/floor/ruinedwood/turned,
 /area/outdoors/town)
 "pzj" = (
@@ -70409,7 +70405,7 @@ iEE
 pkf
 dBn
 rNl
-dBn
+pwp
 dBn
 dBn
 xek
@@ -70928,7 +70924,7 @@ qEy
 vpt
 snf
 jwV
-xyj
+bwC
 jgF
 wSV
 woR
@@ -71063,7 +71059,7 @@ qsC
 xyj
 aFv
 jgF
-xyQ
+eLp
 obA
 xek
 rNl
@@ -71856,7 +71852,7 @@ gVW
 lSl
 xyQ
 bKC
-aJX
+rGo
 aJX
 aJX
 aJX
@@ -72779,7 +72775,7 @@ mQa
 cEb
 erI
 rzU
-rzU
+dXP
 bKC
 aJX
 aFK
@@ -73043,7 +73039,7 @@ sol
 rHI
 mpo
 pzg
-rzU
+jgF
 bKC
 fbR
 ttP
@@ -73173,9 +73169,9 @@ wHP
 sol
 sol
 sol
-bwC
-rzU
-rzU
+mAA
+jgF
+efC
 bKC
 aJX
 aFK
@@ -73307,7 +73303,7 @@ eQT
 sol
 mAA
 rzU
-rzU
+jgF
 bKC
 aJX
 ttP
@@ -73433,7 +73429,7 @@ nFu
 nLS
 hTq
 hTq
-pwp
+nFu
 sol
 sol
 mcV
