@@ -1,0 +1,8 @@
+author: "Alexeivichi"
+delete-after: True
+changes:
+  - rscadd: "adventurer bard outfit to local bard"
+  - rscadd: "songbook open proc to inspiration tab for bard & bard subtypes"
+  - rscadd: "gloves to bard"
+  - rscdel: "combat/bard.dm (adventurer bard .dm file)"
+  - balance: "minor stat increase to bring them up to par as bards are"
