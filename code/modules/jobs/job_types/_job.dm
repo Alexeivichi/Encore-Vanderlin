@@ -234,10 +234,7 @@
 
 	/// Blacklisted from the actor
 
-	var/static/list/actors_list_blacklist = list(
-		/datum/job/adventurer,
-		/datum/job/pilgrim,
-	)
+	var/static/list/actors_list_blacklist = list()
 
 	/// List of whitelisted ckeys. This is protected from varedits and should not be renamed.
 	var/list/whitelisted_ckeys = list()
