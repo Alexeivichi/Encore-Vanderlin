@@ -128,6 +128,12 @@
 	max_integrity = INTEGRITY_STANDARD
 	item_weight = 8.75 KILOGRAMS
 
+/obj/item/clothing/armor/plate/rust/bandit
+	name = "rusted alloy half-plate"
+	desc = "Old glory, old defeats, most of the rust comes from damp and not the blood of previous wearers, one would hope. This one seems made of a strange alloy..."
+	armor_type = /datum/armor/plate
+	max_integrity = INTEGRITY_STRONG
+
 /obj/item/clothing/armor/plate/silver
 	name = "templar's half-plate"
 	desc = "Akan's holy silver, one fifth. Steel, three fifths. Chosen Material, one fifth. The armor of the Templar, protector and warrior of the Aspect's Faithful."

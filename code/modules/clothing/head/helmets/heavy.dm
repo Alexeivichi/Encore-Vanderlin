@@ -120,6 +120,12 @@
 	max_integrity = INTEGRITY_STANDARD
 	item_weight = 2.4 KILOGRAMS
 
+/obj/item/clothing/head/helmet/heavy/rust/bandit
+	name = "rusted alloy barbute"
+	desc = "A rusted barbute. Might turn your hair brown, but offers good protection. This one seems made of a strange alloy... "
+	armor_type = /datum/armor/head/plate
+	max_integrity = INTEGRITY_STRONG
+
 /obj/item/clothing/head/helmet/heavy/kabuto
 	name = "kabuto"
 	desc = "A Blackmeadow helmet of steel plates, gilded in blacksteel and gold trim alike to evoke feelings of nobility and strength. Commonly worn with a mask or mouthguard."

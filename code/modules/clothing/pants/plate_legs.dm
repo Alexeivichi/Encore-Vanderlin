@@ -65,6 +65,12 @@
 	armor_type = /datum/armor/pants/plate/bad
 	max_integrity = INTEGRITY_STANDARD
 
+/obj/item/clothing/pants/platelegs/rust/bandit
+	name = "rusted alloy chausses"
+	desc = "Old rusted chausses made of plated iron. They'll still protect your legs quite well. This one seems made of a strange alloy..."
+	armor_type = /datum/armor/pants/plate
+	max_integrity = INTEGRITY_STRONG
+
 /obj/item/clothing/pants/platelegs/blk
 	name = "blacksteel legs"
 	desc = "Leg armor of blacksteel, resilient and surprisingly light."
