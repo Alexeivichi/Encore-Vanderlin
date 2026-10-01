@@ -186,9 +186,6 @@
 	)
 	craftdiff = 3
 	supports_directions = TRUE
-	check_adjacent_wall = TRUE
-	supports_directions = TRUE
-	place_on_wall = TRUE
 
 /datum/blueprint_recipe/engineering/streetlamporange
 	name = "orange streetlamp"
@@ -210,9 +207,6 @@
 	)
 	craftdiff = 3
 	supports_directions = TRUE
-	check_adjacent_wall = TRUE
-	supports_directions = TRUE
-	place_on_wall = TRUE
 
 /datum/blueprint_recipe/engineering/sink
 	name = "sink"

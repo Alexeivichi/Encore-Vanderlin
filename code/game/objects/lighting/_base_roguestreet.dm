@@ -38,7 +38,7 @@
 /obj/machinery/light/fueledstreet/orange/wall
 	icon_state = "o_wlamp1_nozap"
 	base_state = "o_wlamp"
-	state_suffix = "_nozap"
+	state_suffix = "1_nozap"
 
 /obj/machinery/light/fueledstreet/proc/lights_out(permanent)
 	on = FALSE
