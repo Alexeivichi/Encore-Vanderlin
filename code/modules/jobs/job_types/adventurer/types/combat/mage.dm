@@ -37,7 +37,8 @@
 	cmode_music = 'sound/music/cmode/adventurer/CombatSorcerer.ogg'
 	exp_types_granted = list(EXP_TYPE_ADVENTURER, EXP_TYPE_COMBAT, EXP_TYPE_MAGICK)
 	magic_user = TRUE
-	form_points = 4
+	form_points = 6
+	technique_points = 6
 
 	spells = list(
 		/datum/action/cooldown/spell/undirected/touch/prestidigitation
