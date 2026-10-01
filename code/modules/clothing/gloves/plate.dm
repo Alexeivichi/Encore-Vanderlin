@@ -54,6 +54,12 @@
 	armor_type = /datum/armor/gloves/plate/bad
 	max_integrity = INTEGRITY_STANDARD
 
+/obj/item/clothing/gloves/plate/rust/bandit
+	name = "rusted riveted alloy gauntlets"
+	desc = "Riveted gauntlets made out of iron. They're covered in rust.. at least the glove liner is good still. This one seems made of a strange alloy..."
+	armor_type = /datum/armor/gloves/plate
+	max_integrity = INTEGRITY_STRONG
+
 /obj/item/clothing/gloves/plate/blk
 	name = "blacksteel gauntlets"
 	desc = "Gauntlets of blacksteel, offering unmatched protection for the hands."

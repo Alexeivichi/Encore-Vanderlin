@@ -39,11 +39,11 @@
 	color = CLOTHING_FOREST_GREEN
 
 /obj/item/clothing/shirt/undershirt/colored/guard
-	color = CLOTHING_PLUM_PURPLE
+	color = COLOR_SHIRLEIGH_BLUE
 	uses_lord_coloring = LORD_PRIMARY
 
 /obj/item/clothing/shirt/undershirt/colored/guardsecond
-	color = CLOTHING_BLOOD_RED
+	color = COLOR_WHITE
 	uses_lord_coloring = LORD_SECONDARY
 
 /obj/item/clothing/shirt/undershirt/colored/random/Initialize()

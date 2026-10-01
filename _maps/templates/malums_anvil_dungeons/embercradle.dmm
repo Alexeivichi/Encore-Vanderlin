@@ -60,7 +60,7 @@
 /turf/open/floor/naturalstone,
 /area/under/mountains/anvil/dungeon/lower)
 "bG" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/cobble,
 /area/under/mountains/anvil/dungeon/lower)
 "bN" = (
@@ -2445,7 +2445,7 @@
 /turf/open/floor/cobble,
 /area/under/mountains/anvil/dungeon/lower)
 "Hq" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/cobblerock,
 /area/under/mountains/anvil/dungeon)
 "Ht" = (
@@ -3106,7 +3106,7 @@
 /turf/open/floor/cobble,
 /area/under/mountains/anvil/dungeon)
 "Po" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/cobble,
 /area/under/mountains/anvil/dungeon)
 "Pp" = (

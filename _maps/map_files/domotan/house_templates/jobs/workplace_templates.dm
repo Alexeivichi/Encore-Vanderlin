@@ -49,3 +49,15 @@
 	mappath = "_maps/map_files/domotan/house_templates/jobs/misc_shop_2.dmm"
 	width = 12
 	height = 12
+
+/datum/map_template/misc_shop_3
+	name = "Miscellaneous Shop Three"
+	mappath = "_maps/map_files/domotan/house_templates/jobs/misc_shop_3.dmm"
+	width = 10
+	height = 8
+
+/datum/map_template/misc_shop_4
+	name = "Miscellaneous Shop Four"
+	mappath = "_maps/map_files/domotan/house_templates/jobs/misc_shop_4.dmm"
+	width = 11
+	height = 7

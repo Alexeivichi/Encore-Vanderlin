@@ -13,6 +13,7 @@
 	spawn_positions = 99
 	bypass_lastclass = TRUE
 	selection_color = "#920909"
+	max_apprentices = 2
 
 	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED

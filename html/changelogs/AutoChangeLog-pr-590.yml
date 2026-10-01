@@ -1,0 +1,7 @@
+author: "crimsonFig"
+delete-after: True
+changes:
+  - bugfix: "fixes cauldrons clogging and not brewing"
+  - map: "replaces the old cauldron references with the new cauldron references"
+  - qol: "gives the cauldron a nicer menu with more convenience options"
+  - refactor: "overhauls the cauldron to be essence only"

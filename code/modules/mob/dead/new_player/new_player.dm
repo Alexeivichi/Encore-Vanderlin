@@ -543,6 +543,8 @@ GLOBAL_LIST_INIT(roleplay_readme, file2list("strings/rt/Lore_Primer.txt"))
 					cat_name = "Outsiders"
 				if (INQUISITION)
 					cat_name = "Inquisition"
+				if (ADMIN_SPECIAL)
+					cat_name = "Event"
 
 			dat += "<fieldset style='width: 185px; border: 2px solid [cat_color]; display: inline'>"
 			dat += "<legend align='center' style='font-weight: bold; color: [cat_color]'>[cat_name]</legend>"

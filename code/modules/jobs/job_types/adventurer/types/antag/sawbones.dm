@@ -2,7 +2,7 @@
 	raw_attribute_list = list(
 		STAT_INTELLIGENCE = 3,
 		STAT_FORTUNE = 1,
-		/datum/attribute/skill/combat/knives = 30,
+		/datum/attribute/skill/combat/knives = 40,
 		/datum/attribute/skill/combat/wrestling = 20,
 		/datum/attribute/skill/craft/crafting = 20,
 		/datum/attribute/skill/craft/carpentry = 20,
@@ -13,7 +13,9 @@
 		/datum/attribute/skill/misc/sneaking = 10,
 		/datum/attribute/skill/misc/medicine = 50,
 		/datum/attribute/skill/misc/sewing = 30,
-		/datum/attribute/skill/craft/alchemy = 20,
+		/datum/attribute/skill/craft/alchemy = 50,
+		/datum/attribute/skill/craft/weapon_repair = 20,
+		/datum/attribute/skill/craft/armor_repair = 20,
 	)
 
 /datum/attribute_holder/sheet/job/sawbones/old
@@ -22,7 +24,7 @@
 		STAT_PERCEPTION = 1,
 		STAT_FORTUNE = 1,
 		STAT_SPEED = -1,
-		/datum/attribute/skill/combat/knives = 30,
+		/datum/attribute/skill/combat/knives = 40,
 		/datum/attribute/skill/combat/wrestling = 20,
 		/datum/attribute/skill/craft/crafting = 20,
 		/datum/attribute/skill/craft/carpentry = 20,
@@ -33,7 +35,9 @@
 		/datum/attribute/skill/misc/sneaking = 10,
 		/datum/attribute/skill/misc/medicine = 50,
 		/datum/attribute/skill/misc/sewing = 30,
-		/datum/attribute/skill/craft/alchemy = 20,
+		/datum/attribute/skill/craft/alchemy = 50,
+		/datum/attribute/skill/craft/weapon_repair = 20,
+		/datum/attribute/skill/craft/armor_repair = 20,
 	)
 /datum/job/advclass/bandit/sawbones // doctor class. like the pilgrim, but more evil
 	title = "Sawbones"
@@ -48,6 +52,9 @@
 
 	traits = list(
 		TRAIT_FORAGER,
+		TRAIT_CLOSECOMBAT,
+		TRAIT_STEELHEARTED,
+		TRAIT_DEADNOSE,
 	)
 
 	spells = list(
@@ -56,14 +63,14 @@
 
 /datum/outfit/bandit/sawbones
 	name = "Sawbones (Bandit)"
-	mask = /obj/item/clothing/face/facemask/steel
+	mask = /obj/item/clothing/face/facemask/steel/ancient/bandit
 	head = /obj/item/clothing/head/tophat
 	armor = /obj/item/clothing/armor/leather/vest
-	shirt = /obj/item/clothing/shirt/shortshirt
+	shirt = /obj/item/clothing/armor/gambeson/light/colored/black
 	belt = /obj/item/storage/belt/leather
 	beltr = /obj/item/weapon/knife/cleaver
-	pants = /obj/item/clothing/pants/trou
+	pants = /obj/item/clothing/pants/trou/leather
 	shoes = /obj/item/clothing/shoes/simpleshoes
 	backr = /obj/item/storage/backpack/satchel
 	backl = /obj/item/storage/backpack/satchel/surgbag
-	backpack_contents = list(/obj/item/natural/worms/leech = 1, /obj/item/natural/cloth = 2, /obj/item/clothing/face/shepherd/rag = 1)
+	backpack_contents = list(/obj/item/natural/worms/leech = 1, /obj/item/natural/bundle/cloth/bandage/full = 2, /obj/item/clothing/face/shepherd/rag = 1)

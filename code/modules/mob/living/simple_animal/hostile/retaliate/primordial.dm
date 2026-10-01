@@ -111,8 +111,8 @@
 	move_to_delay = 3
 
 	base_intents = list(/datum/intent/simple/claw/primordial)
-	health = 525
-	maxHealth = 525
+	health = 175
+	maxHealth = 175
 	melee_damage_lower = 30
 	melee_damage_upper = 40
 	vision_range = 10
@@ -188,8 +188,8 @@
 
 	base_intents = list(/datum/intent/simple/claw/primordial)
 
-	health = 650
-	maxHealth = 650
+	health = 200
+	maxHealth = 200
 	melee_damage_lower = 30
 	melee_damage_upper = 35
 	vision_range = 10
@@ -290,8 +290,8 @@
 
 	base_intents = list(/datum/intent/simple/claw/primordial)
 
-	health = 450
-	maxHealth = 450
+	health = 125
+	maxHealth = 125
 	melee_damage_lower = 35
 	melee_damage_upper = 45
 	vision_range = 10

@@ -325,7 +325,7 @@
 /turf/open/floor/herringbone,
 /area/indoors/town/keep/captain)
 "apg" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /obj/machinery/light/fueled/wallfire/candle/blue,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/keep/magician)
@@ -26628,7 +26628,7 @@
 /turf/open/floor/grass,
 /area/outdoors/basin/safe)
 "xoT" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/blocks,
 /area/under/town/sewer)
 "xoU" = (
@@ -27311,7 +27311,7 @@
 /turf/open/floor/blocks/newstone,
 /area/under/town/basement)
 "xVP" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /obj/effect/decal/cleanable/food/tomato_smudge,
 /turf/open/floor/twig,
 /area/indoors/town/bath)

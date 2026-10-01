@@ -2,8 +2,8 @@
 	raw_attribute_list = list(
 		STAT_PERCEPTION = 1,
 		STAT_SPEED = 2,
-		STAT_STRENGTH = -1,
-		/datum/attribute/skill/combat/knives = 10,
+		/datum/attribute/skill/combat/knives = 15,
+		/datum/attribute/skill/combat/swords = 25,
 		/datum/attribute/skill/combat/unarmed = 20,
 		/datum/attribute/skill/craft/crafting = 10,
 		/datum/attribute/skill/misc/swimming = 20,
@@ -15,8 +15,8 @@
 		/datum/attribute/skill/misc/sneaking = 30,
 		/datum/attribute/skill/misc/stealing = 10,
 		/datum/attribute/skill/misc/lockpicking = 10,
-		/datum/attribute/skill/misc/music = 41,
-		/datum/attribute/skill/misc/athletics = 20
+		/datum/attribute/skill/misc/music = 40,
+		/datum/attribute/skill/misc/athletics = 30
 	)
 
 /datum/job/bard
@@ -37,7 +37,9 @@
 	known_by_the_town = TRUE
 
 	allowed_races = RACES_PLAYER_ALL
+	allowed_sexes = list(MALE, FEMALE)
 	outfit = /datum/outfit/bard
+	apprentice_name = "Aspiring Bard"
 	cmode_music = 'sound/music/cmode/adventurer/CombatIntense.ogg'
 	exp_types_granted = list(EXP_TYPE_BARD)
 
@@ -82,20 +84,21 @@
 	head = /obj/item/clothing/head/bardhat
 	shoes = /obj/item/clothing/shoes/boots/darkboots
 	pants = /obj/item/clothing/pants/tights/colored/random
-	shirt = /obj/item/clothing/shirt/tunic/noblecoat
+	shirt = /obj/item/clothing/armor/gambeson
 	belt = /obj/item/storage/belt/leather
-	armor = /obj/item/clothing/armor/leather/vest
+	armor = /obj/item/clothing/shirt/tunic/noblecoat
 	cloak = /obj/item/clothing/cloak/raincloak/colored/blue
 	backl = /obj/item/storage/backpack/satchel
 	beltr = /obj/item/weapon/knife/dagger/steel/special
-	beltl = /obj/item/storage/belt/pouch/coins/poor
-	backpack_contents = list(/obj/item/flint)
-	scabbards = list(/obj/item/weapon/scabbard/knife)
+	beltl = /obj/item/weapon/sword/short/iron
+	gloves = /obj/item/clothing/gloves/fingerless
+	backpack_contents = list(/obj/item/flint = 1, /obj/item/storage/belt/pouch/coins/poor = 1)
+	scabbards = list(/obj/item/weapon/scabbard/knife, /obj/item/weapon/scabbard/sword)
 
 /datum/outfit/bard/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 	if(prob(30))
-		gloves = /obj/item/clothing/gloves/fingerless
+		gloves = /obj/item/clothing/gloves/leather
 	if(prob(50))
 		cloak = /obj/item/clothing/cloak/raincloak/colored/red
 

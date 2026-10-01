@@ -15,6 +15,7 @@
 	cmode_music = 'sound/music/cmode/towner/CombatTowner.ogg'
 	job_bitflag = BITFLAG_CONSTRUCTOR
 	give_bank_account = 200//To rent their workplace at least once a round
+	max_apprentices = 2
 
 /datum/job/advclass/yeoman
 	factions = list(FACTION_TOWN)

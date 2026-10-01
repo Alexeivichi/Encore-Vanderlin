@@ -1444,7 +1444,7 @@
 /turf/open/floor/hay,
 /area/ship/middeck)
 "jm" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /obj/machinery/light/fueled/wallfire/candle/r,
 /turf/open/floor/wood,
 /area/ship/middeck)
@@ -3446,7 +3446,7 @@
 /area/outdoors/beach)
 "wq" = (
 /obj/structure/carpet/red,
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/ruinedwood/two,
 /area/ship/nobledeck)
 "wu" = (

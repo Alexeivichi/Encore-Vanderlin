@@ -70,9 +70,9 @@
 
 /obj/item/clothing/cloak/stabard/guard
 	desc = "A tabard with the lord's heraldic colors. This one is worn typically by guards."
-	color = CLOTHING_BLOOD_RED
+	color = COLOR_WHITE
 	detail_tag = "_spl"
-	detail_color = CLOTHING_PLUM_PURPLE
+	detail_color = COLOR_SHIRLEIGH_BLUE
 	uses_lord_coloring = LORD_PRIMARY | LORD_DETAIL_AND_COLOR
 
 /obj/item/clothing/cloak/stabard/guard/attack_hand_secondary(mob/user, list/modifiers)
@@ -288,9 +288,9 @@
 
 /obj/item/clothing/cloak/stabard/jupon/guard
 	desc = "A jupon with the lord's heraldic colors."
-	color = CLOTHING_BLOOD_RED
+	color = COLOR_WHITE
 	detail_tag = "_quad"
-	detail_color = CLOTHING_PLUM_PURPLE
+	detail_color = COLOR_SHIRLEIGH_BLUE
 	uses_lord_coloring = LORD_PRIMARY | LORD_DETAIL_AND_COLOR
 
 /obj/item/clothing/cloak/stabard/jupon/guard/attack_hand_secondary(mob/user, list/modifiers)

@@ -4624,7 +4624,7 @@
 /turf/open/floor/cobble,
 /area/outdoors/town)
 "chO" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/clinic_large/apothecary)
 "chS" = (
@@ -19033,7 +19033,7 @@
 	pixel_y = -32;
 	pixel_x = 18
 	},
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/blocks,
 /area/indoors/town/keep/magician)
 "iOl" = (
@@ -52539,7 +52539,7 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/under/town/basement)
 "xon" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/blocks,
 /area/indoors/town/keep/magician)
 "xoW" = (

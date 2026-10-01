@@ -260,9 +260,6 @@
 		var/mob/living/L = AM
 		if(L.anchored || (L.buckled && L.buckled != src) || L.incorporeal_move || L.has_buckled_mobs())
 			return FALSE
-		if(L.mob_size > MOB_SIZE_TINY) // Tiny mobs are treated as items.
-			if(L.density)
-				return FALSE
 		L.stop_pulling()
 		return TRUE
 	if(isobj(AM))

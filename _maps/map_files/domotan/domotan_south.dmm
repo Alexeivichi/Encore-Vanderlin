@@ -983,7 +983,6 @@
 /turf/open/floor/twig/platform,
 /area/indoors/shelter/bog)
 "eO" = (
-/obj/machinery/light/fueled/cauldron,
 /obj/machinery/light/fueled/wallfire/candle/l,
 /turf/open/floor/cobble/alt,
 /area/indoors/shelter/bog)
@@ -6022,10 +6021,6 @@
 /obj/machinery/light/fueled/campfire/densefire,
 /turf/open/floor/naturalstone,
 /area/indoors/shelter)
-"Ed" = (
-/obj/machinery/light/fueled/cauldron,
-/turf/open/floor/cobble/alt,
-/area/indoors/shelter/woods)
 "Ef" = (
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-s"
@@ -122326,7 +122321,7 @@ Xr
 Xr
 kp
 HA
-Ed
+fb
 ao
 zm
 Md

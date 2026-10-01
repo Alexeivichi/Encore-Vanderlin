@@ -75,8 +75,8 @@
 	picked = TRUE
 
 /obj/item/clothing/cloak/tabard/knight
-	detail_color = CLOTHING_RED_OCHRE
-	color = CLOTHING_PLUM_PURPLE
+	detail_color = COLOR_WHITE
+	color = COLOR_SHIRLEIGH_BLUE
 	uses_lord_coloring = LORD_PRIMARY
 
 /obj/item/clothing/cloak/tabard/knight/attack_hand_secondary(mob/user, list/modifiers)
@@ -161,9 +161,9 @@
 
 /obj/item/clothing/cloak/tabard/knight/guard
 	desc = "A tabard with the lord's heraldic colors."
-	color = CLOTHING_BLOOD_RED
+	color = COLOR_SHIRLEIGH_BLUE
 	detail_tag = "_spl"
-	detail_color = CLOTHING_PLUM_PURPLE
+	detail_color = COLOR_WHITE
 	uses_lord_coloring = LORD_PRIMARY
 
 /obj/item/clothing/cloak/tabard/knight/guard/attack_hand_secondary(mob/user, list/modifiers)

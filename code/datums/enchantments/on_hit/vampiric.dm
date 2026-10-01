@@ -8,7 +8,7 @@
 		/datum/thaumaturgical_essence/void = 35,
 		/datum/thaumaturgical_essence/poison = 20
 	)
-	cooldown_time = 4 SECONDS
+	cooldown_time = 15 SECONDS
 
 /datum/enchantment/on_hit/vampiric/apply_attack_effects(obj/item/source, mob/living/carbon/human/attacked, mob/living/carbon/attacker, actual_damage)
 	if(!isliving(attacker))

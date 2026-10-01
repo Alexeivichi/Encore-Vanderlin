@@ -19,7 +19,8 @@
 #define ROLE_ZOMBIE				"Zombie"
 #define ROLE_NECRO_SKELETON		"Necromancer Skeleton"
 #define ROLE_WRETCH				"Wretch"
-
+#define ROLE_SHIRLEIGH_QUEEN	"Shirleigh Queen"
+#define ROLE_SHIRLEIGH_LACKEY	"Shirleigh Lackey"
 
 GLOBAL_LIST_INIT(special_roles_rogue, list(
 	ROLE_MANIAC = /datum/antagonist/maniac,
@@ -31,7 +32,9 @@ GLOBAL_LIST_INIT(special_roles_rogue, list(
 	ROLE_ASPIRANT = /datum/antagonist/aspirant,
 	ROLE_LICH = /datum/antagonist/lich,
 	ROLE_HARLEQUINN = /datum/antagonist/harlequinn,
-	ROLE_WRETCH = /datum/antagonist/wretch
+	ROLE_WRETCH = /datum/antagonist/wretch,
+	ROLE_SHIRLEIGH_QUEEN = /datum/job/shirleigh_queen,
+	ROLE_SHIRLEIGH_LACKEY = /datum/job/shirleigh_lackey,
 ))
 
 //Job defines for what happens when you fail to qualify for any job during job selection

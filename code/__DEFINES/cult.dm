@@ -27,3 +27,4 @@
 //misc
 #define SOULS_TO_REVIVE 3
 #define BLOODCULT_EYE "#f00"
+#define ENVY_EYE "#ff6f00"

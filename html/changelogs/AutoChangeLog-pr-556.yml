@@ -1,0 +1,5 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - rscadd: "Adds an alt-title to the Innkeeper - the Guildmaster."
+  - rscadd: "Adds an alt-title to the Tapster (Servant Subclass) - the Guild Attendant."

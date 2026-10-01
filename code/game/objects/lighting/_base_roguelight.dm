@@ -9,7 +9,7 @@
 	pass_flags_self = LETPASSTHROW
 	var/cookonme = FALSE
 	var/crossfire = TRUE
-	var/can_damage = FALSE
+	var/can_damage = TRUE
 
 	var/temperature_change = 20
 	var/temperature_weight = 1

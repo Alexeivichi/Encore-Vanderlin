@@ -93,7 +93,7 @@
 	belt = /obj/item/storage/belt/leather/rope/dark
 	pants = /obj/item/clothing/pants/tights/colored/black
 	cloak = /obj/item/clothing/cloak/cape/inquisitor
-	head = /obj/item/clothing/head/headband/naledi
+	head = /obj/item/clothing/head/headband/monk/naledi
 	mask = /obj/item/clothing/face/lordmask/naledi/sojourner
 	gloves = /obj/item/clothing/gloves/bandages/pugilist
 	neck = /obj/item/clothing/neck/psycross/gold
