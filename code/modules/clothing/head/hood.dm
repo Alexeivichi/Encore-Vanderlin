@@ -77,7 +77,7 @@
 	return ..()
 
 /obj/item/clothing/head/roguehood/colored/guard
-	color = CLOTHING_PLUM_PURPLE
+	color = COLOR_SHIRLEIGH_BLUE
 	uses_lord_coloring = LORD_PRIMARY
 
 /obj/item/clothing/head/roguehood/colored/guardsecond

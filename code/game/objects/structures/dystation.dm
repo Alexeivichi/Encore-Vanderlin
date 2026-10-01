@@ -29,6 +29,12 @@
 		/obj/item/dye_pack/mage,
 	)
 
+/obj/structure/dye_bin/shirleigh
+	icon_state = "dye_bin_shirleigh"
+	initial_packs = list(
+		/obj/item/dye_pack/shirleigh,
+	)
+
 /obj/structure/dye_bin/atom_deconstruct(disassembled)
 	visible_message( \
 		span_warning("[src] falls over, spilling out [p_their()] contents!"), \
@@ -280,4 +286,12 @@
 		"Mage Yellow" = CLOTHING_MAGE_YELLOW,
 		"Mage Orange" = CLOTHING_MAGE_ORANGE,
 		"Mage Blue" = CLOTHING_MAGE_BLUE,
+	)
+
+/obj/item/dye_pack/shirleigh
+	name = "shirleigh dyes"
+	desc = "This pack only contains two dyes - a vibrant azure, and a bright silver; the colours of Queen Alyssandrine and King Malryck."
+	selectable_colors = list(
+		"Alyssandrine's Azure" = COLOR_SHIRLEIGH_BLUE,
+		"Malryck's Silver" = COLOR_WHITE,
 	)
