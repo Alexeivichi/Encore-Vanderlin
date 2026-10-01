@@ -3477,7 +3477,6 @@
 /area/indoors/town/keep/garrison)
 "col" = (
 /obj/structure/fluff/railing/wood,
-/obj/structure/bars,
 /turf/open/floor/church/pale,
 /area/under/town/basement)
 "com" = (
@@ -4759,11 +4758,7 @@
 /turf/open/floor/ruinedwood,
 /area/outdoors/town)
 "daj" = (
-/obj/machinery/light/fueled/torchholder/r,
-/obj/structure/fluff/railing/border{
-	dir = 1
-	},
-/turf/open/floor/church/rust,
+/turf/closed/mineral/bedrock,
 /area/under/town/basement)
 "daq" = (
 /turf/closed/wall/mineral/wooddark,
@@ -11955,6 +11950,9 @@
 	},
 /turf/open/floor/carpet/red,
 /area/indoors/town/keep/garrison)
+"hwQ" = (
+/turf/open/floor/cobble/alt,
+/area/under/town/basement)
 "hxa" = (
 /obj/structure/fluff/ship_hull{
 	icon_state = "3,5"
@@ -13783,6 +13781,15 @@
 "izQ" = (
 /turf/closed/wall/mineral/decowood/vert,
 /area/outdoors/town/roofs)
+"izS" = (
+/obj/structure/bars/passage/shutter{
+	redstone_id = "admin_keep_shutter";
+	name = "Closed Waste Chute";
+	desc = "It smells. Opening this is probably a stupid idea."
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/church/rust,
+/area/under/town/basement)
 "izX" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/fluff/railing/tall/retaining{
@@ -17110,10 +17117,6 @@
 /turf/open/floor/blocks/stonered,
 /area/indoors/shelter/town)
 "kxB" = (
-/obj/structure/bars{
-	icon_state = "barsbent";
-	layer = 2.81
-	},
 /obj/structure/fluff/railing/border{
 	dir = 9
 	},
@@ -18010,6 +18013,10 @@
 	},
 /turf/open/floor/wood,
 /area/indoors/town/keep/guest/meeting)
+"lhL" = (
+/obj/structure/barricade/wooden,
+/turf/open/floor/church/pale,
+/area/under/town/basement)
 "lia" = (
 /obj/machinery/essence/cauldron_alchemy,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -29518,6 +29525,15 @@
 /obj/effect/landmark/start/clinicapprentice,
 /turf/open/floor/blocks/paving,
 /area/indoors/town/clinic_large)
+"sfA" = (
+/obj/structure/fluff/traveltile{
+	aallmig = "admin_keep";
+	aportalgoesto = "admin_return";
+	aportalid = "admin_keep";
+	icon_state = "event"
+	},
+/turf/open/floor/ruinedwood,
+/area/under/town/basement)
 "sfC" = (
 /obj/structure/closet/crate/chest/neu,
 /turf/open/floor/naturalstone,
@@ -32039,6 +32055,15 @@
 /obj/structure/table/wood/folding,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/keep/magician)
+"tLQ" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/obj/structure/lever{
+	redstone_id = "admin_keep_shutter"
+	},
+/turf/open/floor/church/rust,
+/area/under/town/basement)
 "tLW" = (
 /obj/structure/fake_machine/scomm,
 /turf/open/floor/greenstone,
@@ -33322,6 +33347,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 5
 	},
+/obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/church/rust,
 /area/under/town/basement)
 "uDZ" = (
@@ -71396,10 +71422,10 @@ iCf
 iCf
 iCf
 iCf
-iCf
-iCf
-iCf
-bZh
+daj
+daj
+daj
+daj
 aRH
 guP
 miA
@@ -71528,11 +71554,11 @@ iCf
 iCf
 iCf
 iCf
-iCf
-iCf
-iCf
-bZh
 daj
+sfA
+tLQ
+izS
+aMR
 fjt
 miA
 kxb
@@ -71660,10 +71686,10 @@ iCf
 mcK
 iCf
 vpf
-vpf
-iCf
-iCf
-bZh
+daj
+daj
+daj
+daj
 bZh
 uDY
 miA
@@ -71923,8 +71949,8 @@ mcK
 mcK
 mcK
 mcK
-vpf
-vpf
+hwQ
+rCt
 vpf
 vpf
 glm
@@ -72586,7 +72612,7 @@ kxB
 mJF
 mJF
 mJF
-mJF
+lhL
 col
 mJF
 fVL

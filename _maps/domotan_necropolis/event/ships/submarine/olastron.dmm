@@ -82,6 +82,12 @@
 /obj/structure/fluff/walldeco/bath/wallpipes/outie{
 	dir = 10
 	},
+/obj/structure/lever/wall{
+	dir = 4;
+	pixel_x = 5;
+	redstone_id = "subreactor";
+	pixel_y = -7
+	},
 /turf/open/floor/herringbone,
 /area/under/olastron)
 "ex" = (
@@ -237,6 +243,13 @@
 	dir = 4
 	},
 /turf/open/floor/metal/barograte,
+/area/under/olastron)
+"vW" = (
+/obj/structure/bars/passage/shutter{
+	redstone_id = "subreactor"
+	},
+/obj/structure/door/violet,
+/turf/open/floor/ruinedwood/two,
 /area/under/olastron)
 "wZ" = (
 /obj/structure/fluff/walldeco/painting/crown,
@@ -476,7 +489,7 @@
 /turf/open/floor/ruinedwood/two,
 /area/under/olastron)
 "LB" = (
-/obj/structure/bars/pipe,
+/obj/structure/tentdoor/purpledeco,
 /turf/open/floor/herringbone,
 /area/under/olastron)
 "LQ" = (
@@ -551,6 +564,13 @@
 "SH" = (
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 8
+	},
+/obj/structure/fluff/traveltile{
+	aallmig = "admin_submarine";
+	aportalgoesto = "admin_return";
+	aportalid = "admin_submarine";
+	icon_state = "event";
+	dir = 1
 	},
 /turf/open/floor/herringbone,
 /area/under/olastron)
@@ -819,7 +839,7 @@ IC
 Ro
 Ro
 DG
-DG
+vW
 DG
 lF
 Rr
