@@ -20,17 +20,17 @@
 /datum/enchantment/lightning/proc/on_hit(obj/item/source, atom/target, mob/user, proximity_flag, click_parameters)
 	if(!proximity_flag)
 		return
-	if(world.time < (last_used + 100 SECONDS))
+	if(world.time < (last_used + 120 SECONDS))
 		return
 
 	if(isliving(target))
 		var/mob/living/L = target
-		L.electrocute_act(10, source, 1)
+		L.electrocute_act(4, source, 1)
 
 		for(var/mob/living/nearby in range(2, target))
 			if(nearby == target || nearby == user)
 				continue
 			if(prob(30))
-				nearby.electrocute_act(5, source, 1)
+				nearby.electrocute_act(1, source, 1)
 				new /obj/effect/temp_visual/lightning(get_turf(target), get_turf(nearby))
 	last_used = world.time
