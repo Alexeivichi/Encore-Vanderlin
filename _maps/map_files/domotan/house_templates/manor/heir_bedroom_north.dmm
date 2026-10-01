@@ -48,7 +48,7 @@
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/heir/heir2)
 "C" = (
-/obj/structure/sign/property_sign/claim,
+/obj/structure/sign/property_sign/claim/prince,
 /turf/closed/wall/mineral/stonebrick,
 /area/indoors/town/keep/heir/heir2)
 "F" = (
@@ -76,6 +76,11 @@
 /obj/structure/carpet/green,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/heir/heir2)
+"T" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/innie,
+/obj/structure/fluff/walldeco/bath/wallpipes/outie,
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/keep/heir/heir2)
 "V" = (
 /obj/structure/door/violet{
 	name = "Heir's Chambers"
@@ -90,6 +95,7 @@
 	pixel_x = -6;
 	pixel_y = 12
 	},
+/obj/structure/fluff/walldeco/bigpainting,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/heir/heir2)
 "Z" = (
@@ -104,7 +110,7 @@
 (1,1,1) = {"
 a
 a
-a
+T
 a
 a
 "}
@@ -113,7 +119,7 @@ u
 Y
 F
 B
-a
+C
 "}
 (3,1,1) = {"
 a
@@ -127,7 +133,7 @@ a
 y
 L
 d
-C
+a
 "}
 (5,1,1) = {"
 V

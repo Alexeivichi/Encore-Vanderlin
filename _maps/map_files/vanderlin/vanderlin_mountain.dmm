@@ -13152,7 +13152,7 @@
 /obj/structure/fluff/railing/tall/stone{
 	dir = 5
 	},
-/obj/machinery/light/fueled/cauldron{
+/obj/machinery/essence/cauldron_alchemy{
 	pixel_x = -5
 	},
 /turf/open/floor/cobble,

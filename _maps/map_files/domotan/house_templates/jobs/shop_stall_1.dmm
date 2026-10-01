@@ -15,13 +15,24 @@
 "e" = (
 /obj/structure/table/wood/crafted,
 /obj/structure/bars/wood,
-/obj/structure/curtain/bounty{
-	icon_state = "bounty-closed"
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 4
 	},
 /turf/open/openspace,
 /area/template_noop)
 "f" = (
 /turf/closed/wall/mineral/decowood,
+/area/template_noop)
+"g" = (
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 1
+	},
+/obj/structure/window/openclose{
+	dir = 1
+	},
+/turf/open/floor/cobble/alt,
 /area/template_noop)
 "j" = (
 /turf/open/floor/ruinedwood/chevron,
@@ -35,10 +46,11 @@
 /turf/open/floor/ruinedwood/chevron,
 /area/template_noop)
 "n" = (
-/obj/structure/curtain/bounty{
-	icon_state = "bounty-closed"
+/obj/structure/window/openclose,
+/obj/structure/curtain/bounty/dir{
+	opacity = 1
 	},
-/turf/closed/wall/mineral/wood/window,
+/turf/open/floor/cobble/alt,
 /area/template_noop)
 "r" = (
 /obj/machinery/light/fueled/wallfire/candle/r,
@@ -50,7 +62,7 @@
 /turf/closed/wall/mineral/wood,
 /area/template_noop)
 "J" = (
-/obj/structure/sign/property_sign/claim,
+/obj/structure/sign/property_sign/claim/yeoman,
 /turf/closed/wall/mineral/wood,
 /area/template_noop)
 "N" = (
@@ -71,6 +83,7 @@
 /obj/structure/door/red{
 	name = "Shop Stall I"
 	},
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/ruinedwood/two,
 /area/template_noop)
 "U" = (
@@ -94,6 +107,7 @@
 /obj/structure/door/red{
 	name = "Shop Stall I"
 	},
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/ruinedwood/chevron,
 /area/template_noop)
 
@@ -109,7 +123,7 @@ f
 O
 X
 j
-n
+g
 "}
 (3,1,1) = {"
 n
@@ -145,7 +159,7 @@ f
 b
 a
 a
-n
+g
 "}
 (3,1,2) = {"
 n

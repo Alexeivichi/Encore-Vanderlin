@@ -20,6 +20,12 @@
 /obj/structure/rack/shelf/biggest,
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors)
+"dd" = (
+/obj/structure/window/openclose{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
 "dg" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/debris/glass,
@@ -46,6 +52,12 @@
 /obj/structure/table/wood,
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors)
+"hm" = (
+/obj/structure/fake_machine/mail{
+	mailtag = "Shop Two"
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
 "jp" = (
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors)
@@ -70,6 +82,11 @@
 "kI" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
 	},
 /turf/template_noop,
 /area/template_noop)
@@ -131,12 +148,25 @@
 /turf/open/floor/ruinedwood/two,
 /area/template_noop)
 "tl" = (
-/obj/structure/sign/property_sign/claim,
+/obj/structure/sign/property_sign/claim/yeoman,
 /turf/closed/wall/mineral/wooddark,
 /area/template_noop)
+"tx" = (
+/obj/structure/window/openclose{
+	dir = 4
+	},
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
 "tG" = (
 /obj/structure/door/window,
-/obj/structure/curtain/bounty/dir,
+/obj/effect/mapping_helpers/access/locker,
+/obj/structure/curtain/bounty/dir{
+	opacity = 1
+	},
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors)
 "uF" = (
@@ -157,6 +187,10 @@
 	},
 /turf/open/floor/ruinedwood/two,
 /area/template_noop)
+"ws" = (
+/obj/structure/fake_machine/scomm,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
 "wN" = (
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors)
@@ -171,8 +205,9 @@
 /obj/structure/window/openclose{
 	dir = 1
 	},
-/obj/structure/curtain/bounty{
-	icon_state = "bounty-closed"
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 1
 	},
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors)
@@ -190,9 +225,6 @@
 /obj/structure/window/openclose{
 	dir = 4
 	},
-/obj/structure/curtain/bounty{
-	icon_state = "bounty-closed"
-	},
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors)
 "AO" = (
@@ -206,8 +238,8 @@
 /area/indoors)
 "Bw" = (
 /obj/structure/window/openclose,
-/obj/structure/curtain/bounty{
-	icon_state = "bounty-closed"
+/obj/structure/curtain/bounty/dir{
+	opacity = 1
 	},
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors)
@@ -253,8 +285,9 @@
 /obj/structure/window/openclose{
 	dir = 8
 	},
-/obj/structure/curtain/bounty{
-	icon_state = "bounty-closed"
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 8
 	},
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors)
@@ -266,10 +299,24 @@
 /obj/effect/decal/cleanable/debris/glass,
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors)
+"Is" = (
+/obj/structure/window/openclose{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
 "IC" = (
 /obj/structure/table/wood/crafted,
 /obj/machinery/light/fueled/torchholder/metal_torch/west,
 /turf/open/floor/ruinedwood/two,
+/area/template_noop)
+"Jd" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/turf/template_noop,
 /area/template_noop)
 "Jl" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -363,6 +410,10 @@
 /obj/effect/decal/cleanable/debris/wood,
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors)
+"YH" = (
+/obj/structure/window/openclose,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors)
 "YV" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -379,16 +430,16 @@
 /area/indoors)
 
 (1,1,1) = {"
-EQ
+Jd
 sr
 sL
 lU
 pV
 wW
 wW
-zU
-zU
-zU
+tx
+tx
+tx
 wW
 wW
 "}
@@ -449,7 +500,7 @@ jp
 xx
 "}
 (6,1,1) = {"
-EQ
+Jd
 sr
 IC
 we
@@ -464,9 +515,9 @@ wW
 "}
 (7,1,1) = {"
 wW
-zU
+tx
 wW
-zU
+tx
 wW
 wW
 ak
@@ -483,7 +534,7 @@ YV
 wN
 Wr
 wW
-jp
+hm
 jp
 fZ
 RI
@@ -496,8 +547,8 @@ dT
 wN
 wN
 wN
-DI
-jp
+wW
+ws
 Zb
 fZ
 KU
@@ -534,7 +585,7 @@ wW
 "}
 (12,1,1) = {"
 wW
-Bw
+GZ
 wW
 GZ
 wW
@@ -573,7 +624,7 @@ kn
 jp
 jp
 Yc
-xx
+Is
 "}
 (3,1,2) = {"
 EQ
@@ -581,7 +632,7 @@ EQ
 EQ
 EQ
 EQ
-Bw
+YH
 Zb
 jp
 Zb
@@ -601,7 +652,7 @@ Jl
 Zb
 dA
 jp
-xx
+Is
 "}
 (5,1,2) = {"
 EQ
@@ -609,7 +660,7 @@ EQ
 EQ
 EQ
 EQ
-Bw
+YH
 jp
 jp
 Zb
@@ -629,7 +680,7 @@ UW
 Zb
 jp
 jp
-xx
+Is
 "}
 (7,1,2) = {"
 wW
@@ -643,7 +694,7 @@ jp
 Zb
 jp
 jp
-xx
+Is
 "}
 (8,1,2) = {"
 wW
@@ -671,7 +722,7 @@ Zb
 AZ
 AZ
 vm
-xx
+Is
 "}
 (10,1,2) = {"
 wW
@@ -699,19 +750,19 @@ jp
 jp
 fZ
 BQ
-xx
+Is
 "}
 (12,1,2) = {"
 wW
-GZ
+dd
 wW
-GZ
+dd
 wW
 wW
 wW
-GZ
-GZ
-GZ
+dd
+dd
+dd
 wW
 wW
 "}

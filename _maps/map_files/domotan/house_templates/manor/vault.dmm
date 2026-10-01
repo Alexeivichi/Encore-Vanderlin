@@ -179,7 +179,7 @@
 /turf/open/floor/tile/masonic/moonbw,
 /area/indoors/town/keep)
 "Q" = (
-/obj/structure/sign/property_sign/claim,
+/obj/structure/sign/property_sign/claim/lord,
 /turf/closed/wall/mineral/stone/moss/red,
 /area/indoors/town/keep)
 "R" = (

@@ -1,0 +1,1383 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"am" = (
+/turf/open/floor/metal,
+/area/outdoors/town)
+"au" = (
+/obj/structure/fluff/walldeco/churchbanner/jealousgod,
+/turf/closed/wall/mineral/wood,
+/area/under/olastron)
+"aL" = (
+/obj/structure/fluff/walldeco/banner,
+/turf/closed/wall/mineral/pipe,
+/area/under/olastron)
+"aO" = (
+/obj/item/candle/scandelabra/lit{
+	pixel_y = 13
+	},
+/obj/structure/table/wood/fancy/black,
+/obj/item/reagent_containers/glass/cup/skull,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"bR" = (
+/obj/structure/bars/pipe{
+	dir = 4
+	},
+/obj/structure/fluff/walldeco/bath/wallpipes/outie{
+	dir = 8
+	},
+/obj/structure/fluff/steamvent,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/metal/alt,
+/area/under/olastron)
+"cq" = (
+/obj/structure/fluff/steamvent,
+/obj/structure/water_vent{
+	dir = 4
+	},
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"cr" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 8
+	},
+/turf/open/floor/metal/barograte,
+/area/under/olastron)
+"cP" = (
+/mob/living/simple_animal/hostile/retaliate/droid_warden/shirleigh,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"cT" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/obj/structure/chair/wood/alt/chair_noble,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"dF" = (
+/obj/structure/carpet/purple,
+/obj/structure/fluff/wallclock/l,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"dQ" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/outie{
+	dir = 4
+	},
+/obj/structure/fluff/steamvent,
+/turf/open/floor/metal/alt,
+/area/under/olastron)
+"dY" = (
+/obj/structure/carpet/purple,
+/obj/structure/chair/wood/alt/chair_noble/fancyplush,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"eo" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/outie{
+	dir = 10
+	},
+/obj/structure/lever/wall{
+	dir = 4;
+	pixel_x = 5;
+	redstone_id = "subreactor";
+	pixel_y = -7
+	},
+/turf/open/floor/herringbone,
+/area/under/olastron)
+"ex" = (
+/obj/structure/chair/wood/alt/chair_noble/purple{
+	dir = 8
+	},
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"eW" = (
+/obj/machinery/light/fueledstreet/midlamp,
+/obj/structure/fluff/walldeco/gear,
+/turf/open/floor/metal/barograte,
+/area/under/olastron)
+"fs" = (
+/obj/item/clothing/shoes/high_heels/gold{
+	pixel_x = 10;
+	pixel_y = 7
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"gs" = (
+/turf/open/water/ocean/abyss,
+/area/outdoors/town)
+"gK" = (
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"ho" = (
+/obj/structure/water_vent{
+	dir = 8
+	},
+/turf/open/floor/metal,
+/area/outdoors/town)
+"hB" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 1
+	},
+/obj/structure/chair/wood/alt/chair_noble{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"ih" = (
+/obj/structure/closet/crate/chest/wickertrunk/red,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"jq" = (
+/obj/structure/carpet/purple,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"jP" = (
+/obj/structure/fluff/statue/droid,
+/turf/closed/wall/mineral/wood,
+/area/under/olastron)
+"kr" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"kW" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/outie{
+	dir = 8
+	},
+/obj/structure/bars/pipe{
+	dir = 6
+	},
+/turf/open/floor/herringbone,
+/area/under/olastron)
+"kX" = (
+/obj/structure/fluff/statue/droid,
+/turf/closed/wall/mineral/pipe,
+/area/under/olastron)
+"lr" = (
+/obj/structure/fluff/walldeco/wallshield,
+/turf/closed/wall/mineral/pipe,
+/area/under/olastron)
+"lF" = (
+/turf/closed/wall/mineral/wood,
+/area/under/olastron)
+"nJ" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/outie{
+	dir = 8
+	},
+/obj/structure/fluff/steamvent,
+/obj/structure/bars/pipe{
+	dir = 4
+	},
+/turf/open/floor/metal/alt,
+/area/under/olastron)
+"nW" = (
+/turf/open/openspace,
+/area/under/olastron)
+"oj" = (
+/obj/structure/stairs,
+/turf/open/floor/metal,
+/area/under/olastron)
+"om" = (
+/obj/structure/table/wood,
+/turf/open/floor/metal,
+/area/under/olastron)
+"oP" = (
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"rT" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/turf/open/floor/metal/red,
+/area/under/olastron)
+"sl" = (
+/turf/open/floor/metal/barograte,
+/area/under/olastron)
+"sy" = (
+/obj/structure/table/wood/fancy/black,
+/obj/item/clothing/neck/psycross/heretical,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/natural/feather,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"sP" = (
+/obj/structure/chair/bench/coucha/redleft,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"sW" = (
+/obj/structure/fluff/steamvent,
+/turf/open/floor/metal,
+/area/outdoors/town)
+"tl" = (
+/obj/item/candle/scandle/lit{
+	pixel_y = 9
+	},
+/obj/structure/table/wood/fancy/black,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"tu" = (
+/obj/structure/bars/pipe{
+	dir = 4
+	},
+/turf/open/floor/metal,
+/area/under/olastron)
+"vH" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/outie{
+	dir = 8
+	},
+/obj/structure/bars/pipe{
+	dir = 4
+	},
+/turf/open/floor/metal/barograte,
+/area/under/olastron)
+"vW" = (
+/obj/structure/bars/passage/shutter{
+	redstone_id = "subreactor"
+	},
+/obj/structure/door/violet,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"wZ" = (
+/obj/structure/fluff/walldeco/painting/crown,
+/turf/closed/wall/mineral/wood,
+/area/under/olastron)
+"xb" = (
+/obj/structure/stairs,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"xL" = (
+/obj/structure/bars/pipe,
+/turf/open/floor/metal,
+/area/under/olastron)
+"xS" = (
+/obj/structure/bars/pipe,
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"yj" = (
+/turf/open/floor/metal/red,
+/area/under/olastron)
+"yG" = (
+/obj/structure/bars/pipe{
+	dir = 6
+	},
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"yI" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/metal/barograte,
+/area/under/olastron)
+"za" = (
+/obj/structure/chair/bench/church/smallbench{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"Aa" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair/stool,
+/turf/open/floor/metal,
+/area/under/olastron)
+"Ac" = (
+/obj/structure/lever/wall{
+	dir = 8;
+	pixel_x = -2;
+	redstone_id = "subgate"
+	},
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"Au" = (
+/obj/structure/closet/crate/chest/shippingcrate,
+/turf/open/floor/metal,
+/area/under/olastron)
+"Aw" = (
+/obj/structure/bars/pipe{
+	dir = 6
+	},
+/turf/open/floor/metal,
+/area/under/olastron)
+"AB" = (
+/obj/structure/bars/pipe{
+	dir = 5
+	},
+/turf/open/floor/metal,
+/area/under/olastron)
+"AF" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/turf/open/floor/metal/barograte,
+/area/under/olastron)
+"Cb" = (
+/obj/structure/fluff/steamvent,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"Ck" = (
+/obj/structure/bars/pipe{
+	dir = 8
+	},
+/obj/structure/fluff/walldeco/bath/wallpipes/outie{
+	dir = 4
+	},
+/obj/structure/fluff/steamvent,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/metal/alt,
+/area/under/olastron)
+"CI" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/metal,
+/area/under/olastron)
+"Dr" = (
+/obj/structure/fluff/telescope,
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"DB" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 4
+	},
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"DE" = (
+/obj/structure/chair/stool/bar/fancyplush,
+/obj/structure/fluff/clutter/books,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"DG" = (
+/obj/structure/bars/passage/shutter{
+	redstone_id = "subreactor"
+	},
+/obj/structure/window/solid,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"DW" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/metal/red,
+/area/under/olastron)
+"En" = (
+/mob/living/simple_animal/hostile/retaliate/droid_warden/shirleigh,
+/turf/open/floor/metal/red,
+/area/under/olastron)
+"Er" = (
+/obj/structure/carpet/red,
+/obj/structure/table/vtable,
+/obj/item/natural/feather{
+	pixel_y = 6
+	},
+/obj/item/paper/scroll{
+	pixel_y = 6;
+	pixel_x = 14
+	},
+/obj/item/candle/yellow/lit/infinite{
+	pixel_y = 4;
+	pixel_x = -8
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"EI" = (
+/obj/structure/fluff/statue/gargoyle/candles,
+/turf/closed/wall/mineral/wood,
+/area/under/olastron)
+"EL" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/decal/cleanable/dirt/cobweb,
+/obj/structure/closet/crate/chest/shippingcrate,
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"GF" = (
+/obj/structure/chair/bench/coucha/redright,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"Hx" = (
+/obj/structure/window/stained/envy,
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"Ig" = (
+/turf/open/water/ocean,
+/area/outdoors/town)
+"Iq" = (
+/obj/structure/fluff/walldeco/painting/flower,
+/turf/closed/wall/mineral/pipe,
+/area/under/olastron)
+"Iz" = (
+/obj/structure/chair/wood/alt/chair_noble{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"IC" = (
+/obj/structure/fluff/steamvent,
+/obj/structure/water_vent{
+	dir = 8
+	},
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"IP" = (
+/obj/structure/tentdoor/purpledeco,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"JY" = (
+/obj/structure/fluff/walldeco/church/line{
+	dir = 8
+	},
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"Kp" = (
+/obj/structure/bars/passage/shutter{
+	redstone_id = "subgate"
+	},
+/turf/open/floor/metal,
+/area/under/olastron)
+"KJ" = (
+/turf/template_noop,
+/area/outdoors/town)
+"KP" = (
+/obj/structure/lever/wall{
+	dir = 8;
+	pixel_x = -2;
+	redstone_id = "subreactor"
+	},
+/obj/structure/table/wood,
+/obj/item/candle/yellow{
+	pixel_y = 6;
+	pixel_x = 8
+	},
+/obj/item/broom,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"Lh" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"Lo" = (
+/obj/structure/table/map{
+	dir = 10
+	},
+/obj/structure/fluff/clutter/shrub/tundra{
+	pixel_y = 15;
+	density = 0
+	},
+/obj/structure/carpet/purple,
+/obj/item/weapon/umbrella/basic{
+	pixel_y = 9;
+	pixel_x = 10;
+	color = "#45228f"
+	},
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"LB" = (
+/obj/structure/tentdoor/purpledeco,
+/turf/open/floor/herringbone,
+/area/under/olastron)
+"LQ" = (
+/obj/structure/carpet/red,
+/obj/structure/table/vtable/v2,
+/obj/item/candle/yellow{
+	pixel_y = 6
+	},
+/obj/item/candle/yellow{
+	pixel_y = 6;
+	pixel_x = 8
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"LY" = (
+/obj/structure/water_vent{
+	dir = 4
+	},
+/turf/open/floor/metal,
+/area/outdoors/town)
+"MJ" = (
+/turf/open/floor/metal,
+/area/under/olastron)
+"NE" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/glass/cup/teacup/fancy,
+/obj/item/reagent_containers/glass/cup/teacup/fancy,
+/obj/item/reagent_containers/glass/carafe/teapot/tea,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"NT" = (
+/obj/item/clothing/armor/basiceast{
+	pixel_x = 20
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"Pq" = (
+/obj/structure/fluff/globe,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"Ri" = (
+/obj/structure/crystalreactor,
+/turf/open/floor/metal/barograte,
+/area/under/olastron)
+"Ro" = (
+/turf/closed/wall/mineral/pipe,
+/area/under/olastron)
+"Rr" = (
+/obj/structure/fluff/walldeco/painting/moon,
+/turf/closed/wall/mineral/wood,
+/area/under/olastron)
+"Se" = (
+/obj/structure/bookcase/fancy/random/myths,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"Sg" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/turf/open/openspace,
+/area/under/olastron)
+"SF" = (
+/obj/structure/window/stained/envy,
+/obj/structure/bars/passage/shutter{
+	redstone_id = "subgate"
+	},
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"SH" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/obj/structure/fluff/traveltile{
+	aallmig = "admin_submarine";
+	aportalgoesto = "admin_return";
+	aportalid = "admin_submarine";
+	icon_state = "event";
+	dir = 1
+	},
+/turf/open/floor/herringbone,
+/area/under/olastron)
+"SK" = (
+/obj/structure/table/map,
+/obj/structure/rack/shelf/notdense,
+/obj/structure/carpet/purple,
+/obj/structure/fluff/statue/one_envy{
+	pixel_y = 10
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"Ua" = (
+/obj/structure/fluff/hanging_banners,
+/turf/closed/wall/mineral/wood,
+/area/under/olastron)
+"Uk" = (
+/obj/effect/decal/carpet/kover_purple{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"UR" = (
+/obj/structure/window/solid,
+/obj/structure/bars/passage/shutter{
+	redstone_id = "subreactor"
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"Vc" = (
+/obj/effect/decal/carpet/kover_purple,
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"Vr" = (
+/turf/open/lava/flow,
+/area/under/olastron)
+"Wt" = (
+/obj/machinery/light/fueled/wallfire/big_fireplace{
+	pixel_y = 32
+	},
+/obj/item/natural/stone{
+	pixel_y = 8;
+	pixel_x = -4
+	},
+/obj/item/natural/stoneblock{
+	pixel_y = 11
+	},
+/obj/structure/chair/bench/church/smallbench{
+	dir = 4
+	},
+/obj/structure/fluff/walldeco/painting{
+	pixel_y = 32;
+	desc = "A painting of a cloaked feminine figure, the face is obscured beneath a veil of shadows. Their only features are two burning eyes, both of which follow you despite having no visible contraption or illusion at play. This image is not borne of good intent.";
+	pixel_x = -23
+	},
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"Ww" = (
+/turf/open/floor/ruinedwood/two,
+/area/under/olastron)
+"XJ" = (
+/obj/structure/fluff/steamvent,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/metal/red/alt,
+/area/under/olastron)
+"Yn" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/rack,
+/turf/open/floor/metal,
+/area/under/olastron)
+"ZS" = (
+/obj/structure/bars/pipe{
+	dir = 10
+	},
+/obj/structure/fluff/walldeco/bath/wallpipes/outie{
+	dir = 4
+	},
+/turf/open/floor/metal/barograte,
+/area/under/olastron)
+
+(1,1,1) = {"
+gs
+gs
+gs
+Ig
+Ig
+Ig
+Ro
+Ro
+Ro
+Ro
+Ro
+Ro
+Ro
+Ro
+Ro
+Ig
+Ig
+Ig
+Ig
+Ig
+"}
+(2,1,1) = {"
+gs
+gs
+Ro
+Ro
+Ro
+Ro
+Ro
+bR
+vH
+nJ
+kW
+lF
+lF
+Ro
+Ro
+Ro
+Ro
+Ig
+Ig
+Ig
+"}
+(3,1,1) = {"
+gs
+Ro
+Ro
+Vr
+Vr
+cq
+Ro
+Ro
+DG
+DG
+DG
+Ua
+Wt
+dF
+jq
+Iz
+Iq
+Ro
+Ro
+Ig
+"}
+(4,1,1) = {"
+Ro
+Ro
+XJ
+cr
+JY
+JY
+lr
+jP
+cT
+NE
+hB
+Ua
+DE
+za
+Er
+Ww
+Pq
+jP
+Ro
+Ro
+"}
+(5,1,1) = {"
+Ro
+Hx
+oP
+Ri
+oP
+oP
+UR
+KP
+cP
+Uk
+Ww
+IP
+Ww
+Ww
+LQ
+Ww
+Ww
+aO
+Hx
+Ro
+"}
+(6,1,1) = {"
+Ro
+Ro
+MJ
+eW
+MJ
+MJ
+UR
+sP
+Ww
+Ww
+Ww
+IP
+fs
+Ww
+Ww
+Ww
+Vc
+NT
+lF
+lr
+"}
+(7,1,1) = {"
+Ro
+Hx
+oP
+Ri
+oP
+oP
+UR
+GF
+Ww
+Ww
+xb
+lF
+Lo
+jq
+Ww
+Ww
+Ww
+Se
+Hx
+Ro
+"}
+(8,1,1) = {"
+Ro
+Ro
+Cb
+AF
+DB
+DB
+lr
+au
+Lh
+Ww
+xb
+lF
+SK
+dY
+ih
+tl
+ex
+wZ
+Ro
+Ro
+"}
+(9,1,1) = {"
+gs
+Ro
+Ro
+Vr
+Vr
+IC
+Ro
+Ro
+DG
+vW
+DG
+lF
+Rr
+lF
+EI
+sy
+Ro
+Ro
+Ro
+Ig
+"}
+(10,1,1) = {"
+gs
+Ig
+Ro
+Ro
+Ro
+Ro
+Ro
+Ck
+ZS
+dQ
+eo
+LB
+SH
+Ro
+Ro
+Ro
+Ro
+Ig
+Ig
+Ig
+"}
+(11,1,1) = {"
+gs
+gs
+Ig
+Ig
+Ig
+Ig
+Ro
+Ro
+Ro
+Ro
+Ro
+Ro
+Ro
+Ro
+Ro
+Ig
+Ig
+Ig
+Ig
+Ig
+"}
+
+(1,1,2) = {"
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+am
+am
+am
+am
+am
+am
+am
+am
+am
+KJ
+KJ
+KJ
+KJ
+KJ
+"}
+(2,1,2) = {"
+KJ
+KJ
+am
+am
+am
+sW
+ho
+am
+am
+sW
+ho
+am
+am
+sW
+ho
+am
+am
+KJ
+KJ
+KJ
+"}
+(3,1,2) = {"
+KJ
+am
+am
+Ro
+SF
+Ro
+Ro
+Ro
+SF
+Ro
+Ro
+Ro
+SF
+Ro
+Ro
+Ro
+am
+am
+am
+KJ
+"}
+(4,1,2) = {"
+am
+am
+Ro
+Ro
+Au
+xL
+xL
+xS
+Dr
+AB
+tu
+Aw
+oP
+Ac
+MJ
+Ro
+kX
+am
+am
+am
+"}
+(5,1,2) = {"
+am
+sW
+SF
+EL
+yI
+Ro
+kX
+yG
+kr
+sl
+MJ
+sl
+kr
+kr
+sl
+MJ
+Kp
+sW
+am
+am
+"}
+(6,1,2) = {"
+am
+am
+Ro
+oP
+En
+yj
+DW
+kr
+kr
+rT
+rT
+rT
+kr
+kr
+yj
+MJ
+Kp
+am
+am
+am
+"}
+(7,1,2) = {"
+am
+sW
+SF
+oP
+sl
+CI
+sl
+oP
+kr
+Sg
+nW
+oj
+oP
+oP
+sl
+MJ
+Kp
+sW
+am
+am
+"}
+(8,1,2) = {"
+am
+am
+Ro
+Ro
+om
+Aa
+Yn
+aL
+gK
+Sg
+nW
+oj
+oP
+oP
+MJ
+Ro
+Ro
+am
+am
+am
+"}
+(9,1,2) = {"
+KJ
+am
+am
+Ro
+SF
+Ro
+Ro
+Ro
+SF
+Ro
+Ro
+Ro
+SF
+Ro
+Ro
+Ro
+am
+am
+am
+KJ
+"}
+(10,1,2) = {"
+KJ
+KJ
+am
+am
+am
+sW
+LY
+am
+am
+sW
+LY
+am
+am
+sW
+LY
+am
+am
+KJ
+KJ
+KJ
+"}
+(11,1,2) = {"
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+am
+am
+am
+am
+am
+am
+am
+am
+am
+KJ
+KJ
+KJ
+KJ
+KJ
+"}
+
+(1,1,3) = {"
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+"}
+(2,1,3) = {"
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+"}
+(3,1,3) = {"
+KJ
+KJ
+KJ
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+KJ
+KJ
+KJ
+KJ
+"}
+(4,1,3) = {"
+KJ
+KJ
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+KJ
+KJ
+KJ
+"}
+(5,1,3) = {"
+KJ
+KJ
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+KJ
+KJ
+KJ
+"}
+(6,1,3) = {"
+KJ
+KJ
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+KJ
+KJ
+KJ
+"}
+(7,1,3) = {"
+KJ
+KJ
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+KJ
+KJ
+KJ
+"}
+(8,1,3) = {"
+KJ
+KJ
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+KJ
+KJ
+KJ
+"}
+(9,1,3) = {"
+KJ
+KJ
+KJ
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+am
+KJ
+KJ
+KJ
+KJ
+"}
+(10,1,3) = {"
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+"}
+(11,1,3) = {"
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+KJ
+"}

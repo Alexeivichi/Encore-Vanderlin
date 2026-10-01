@@ -6499,7 +6499,7 @@
 /turf/open/floor/cobble,
 /area/indoors/bandit_lair)
 "JR" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/tile,
 /area/indoors/vampire_manor)
 "JT" = (

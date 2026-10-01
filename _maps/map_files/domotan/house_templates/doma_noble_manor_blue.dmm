@@ -79,7 +79,7 @@
 /turf/open/floor/tile/bath,
 /area/indoors/town/noble_manor/blue)
 "dx" = (
-/obj/structure/sign/property_sign,
+/obj/structure/sign/property_sign/claim/noble,
 /turf/closed/wall/mineral/stone/moss,
 /area/indoors/town/noble_manor/blue)
 "ej" = (

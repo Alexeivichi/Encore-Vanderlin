@@ -7,11 +7,12 @@
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
 "e" = (
-/obj/structure/window/openclose/reinforced{
+/obj/structure/window/openclose{
 	dir = 8
 	},
-/obj/structure/curtain/bounty{
-	icon_state = "bounty-closed"
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 8
 	},
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
@@ -27,26 +28,38 @@
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
+"n" = (
+/obj/structure/door/window{
+	name = "Maker's Quarter"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 4
+	},
+/turf/open/floor/tile/brick,
+/area/indoors/town/shop)
 "p" = (
 /turf/closed/wall/mineral/stone,
 /area/indoors/town/shop)
 "r" = (
-/obj/structure/window/openclose/reinforced,
-/obj/structure/curtain/bounty{
-	icon_state = "bounty-closed"
+/obj/structure/curtain/bounty/dir{
+	opacity = 1
 	},
+/obj/structure/window/openclose,
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/shop)
 "t" = (
-/obj/structure/sign/property_sign/claim,
+/obj/structure/sign/property_sign/claim/yeoman,
 /turf/closed/wall/mineral/stone/moss,
 /area/indoors/town/shop)
 "w" = (
-/obj/structure/window/openclose/reinforced{
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
 	dir = 1
 	},
-/obj/structure/curtain/bounty{
-	icon_state = "bounty-closed"
+/obj/structure/window/openclose{
+	dir = 1
 	},
 /turf/open/floor/cobble/alt,
 /area/indoors/town/shop)
@@ -63,11 +76,12 @@
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
 "G" = (
-/obj/structure/window/openclose/reinforced{
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
 	dir = 4
 	},
-/obj/structure/curtain/bounty{
-	icon_state = "bounty-closed"
+/obj/structure/window/openclose{
+	dir = 4
 	},
 /turf/open/floor/cobble/alt,
 /area/indoors/town/shop)
@@ -82,8 +96,10 @@
 /obj/structure/door/window{
 	name = "Maker's Quarter"
 	},
-/obj/structure/curtain/bounty{
-	icon_state = "bounty-closed"
+/obj/effect/mapping_helpers/access/locker,
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 1
 	},
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
@@ -91,6 +107,7 @@
 /obj/structure/door{
 	name = "Maker's Quarter"
 	},
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/tile/brick,
 /area/indoors/town/shop)
 "Q" = (
@@ -113,8 +130,8 @@
 (1,1,1) = {"
 y
 G
-L
-L
+n
+n
 G
 y
 "}

@@ -41,14 +41,8 @@
 
 	// Visual confirmation
 	var/atom/sink_target = sink
-	if(istype(sink, /obj/machinery/essence/cauldron_node))
-		var/obj/machinery/essence/cauldron_node/proxy = sink
-		sink_target = proxy.owner
 
 	var/atom/source_target = source
-	if(istype(source, /obj/machinery/essence/cauldron_node))
-		var/obj/machinery/essence/cauldron_node/proxy = source
-		source_target = proxy.owner
 
 	source_target.Beam(sink_target, "light_beam", time = 1 SECONDS)
 
@@ -312,17 +306,11 @@
 
 /datum/essence_storage/proc/create_essence_transfer_effect(obj/machinery/target, essence_type, amount)
 	var/turf/source_turf = get_turf(owner)
-	if(istype(owner, /obj/machinery/essence/cauldron_node))
-		var/obj/machinery/essence/cauldron_node/proxy = owner
-		source_turf = get_turf(proxy.owner)
 
 	if(!source_turf)
 		return
 
 	var/atom/target_proxy = target
-	if(istype(target, /obj/machinery/essence/cauldron_node))
-		var/obj/machinery/essence/cauldron_node/proxy = target
-		target_proxy = proxy.owner
 
 	var/turf/target_turf = get_turf(target_proxy)
 	var/distance = get_dist(source_turf, target_turf)

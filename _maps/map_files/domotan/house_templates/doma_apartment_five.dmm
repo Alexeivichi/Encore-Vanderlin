@@ -1,0 +1,180 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/curtain/bounty/dir{
+	dir = 8;
+	opacity = 1
+	},
+/obj/structure/window/openclose{
+	dir = 8
+	},
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"b" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/natural/cloth,
+/obj/item/broom,
+/obj/item/soap,
+/obj/item/key/apartments/apartment5,
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"d" = (
+/turf/closed/wall/mineral/decowood/vert,
+/area/indoors/town)
+"e" = (
+/obj/structure/window/openclose{
+	dir = 8
+	},
+/obj/structure/curtain/bounty/dir{
+	dir = 8;
+	opacity = 1
+	},
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"f" = (
+/turf/open/floor/tile/bath,
+/area/indoors/town)
+"i" = (
+/obj/effect/decal/carpet/kover_black{
+	dir = 1
+	},
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"j" = (
+/obj/structure/door/weak/bolt,
+/turf/open/floor/tile/bath,
+/area/indoors/town)
+"l" = (
+/obj/structure/bed/wool,
+/obj/item/bedsheet/cloth,
+/obj/machinery/light/fueled/wallfire/candle/l,
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"p" = (
+/turf/closed/wall/mineral/wooddark,
+/area/indoors/town)
+"q" = (
+/obj/structure/well/fountain/sink,
+/turf/open/floor/tile,
+/area/indoors/town)
+"r" = (
+/obj/structure/chair/wood/alt{
+	dir = 8
+	},
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"t" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town)
+"u" = (
+/obj/structure/curtain/bounty/dir{
+	opacity = 1
+	},
+/obj/structure/window/openclose,
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"w" = (
+/obj/structure/toilet,
+/obj/structure/curtain/bounty,
+/obj/machinery/light/fueled/wallfire/candle/r,
+/turf/open/floor/tile/bath,
+/area/indoors/town)
+"z" = (
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"D" = (
+/obj/structure/door{
+	lockid = "apartment5";
+	name = "Apartment V"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/tile,
+/area/indoors/town)
+"J" = (
+/turf/open/floor/tile,
+/area/indoors/town)
+"L" = (
+/turf/closed/wall/mineral/wood,
+/area/indoors/town)
+"M" = (
+/obj/structure/sign/property_sign/claim/town,
+/turf/closed/wall/mineral/wooddark,
+/area/indoors/town)
+"N" = (
+/turf/open/water/bath,
+/area/indoors/town)
+"Q" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/glass/bottle{
+	layer = 7;
+	pixel_x = 8;
+	pixel_y = 10
+	},
+/obj/item/natural/feather,
+/obj/item/paper{
+	pixel_x = -4;
+	pixel_y = -3
+	},
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/candle/yellow,
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town)
+"W" = (
+/obj/machinery/light/fueled/wallfire{
+	pixel_y = 32
+	},
+/obj/item/natural/stone{
+	pixel_y = 11;
+	pixel_x = -9
+	},
+/obj/item/natural/bundle/stick{
+	pixel_y = 9
+	},
+/obj/structure/chair/stool,
+/turf/open/floor/tile,
+/area/indoors/town)
+
+(1,1,1) = {"
+p
+d
+d
+d
+p
+L
+p
+"}
+(2,1,1) = {"
+t
+W
+b
+l
+L
+N
+L
+"}
+(3,1,1) = {"
+L
+q
+i
+z
+j
+f
+L
+"}
+(4,1,1) = {"
+u
+J
+Q
+r
+L
+w
+L
+"}
+(5,1,1) = {"
+M
+D
+a
+e
+p
+L
+p
+"}

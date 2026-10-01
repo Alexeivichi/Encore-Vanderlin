@@ -107,7 +107,7 @@
 /datum/blueprint_recipe/masonry/cauldron
 	name = "cauldron"
 	desc = "A large iron cauldron for brewing and cooking."
-	result_type = /obj/machinery/light/fueled/cauldron
+	result_type = /obj/machinery/essence/cauldron_alchemy
 	required_materials = list(
 		/obj/item/ingot/iron = 1,
 		/obj/item/natural/stone = 3,
