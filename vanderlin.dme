@@ -3408,6 +3408,7 @@
 #include "code\modules\jobs\job_types\admin_restricted\lunar_champion.dm"
 #include "code\modules\jobs\job_types\admin_restricted\lunar_oracle.dm"
 #include "code\modules\jobs\job_types\admin_restricted\lunar_sentinel.dm"
+#include "code\modules\jobs\job_types\admin_restricted\shirleigh.dm"
 #include "code\modules\jobs\job_types\adventurer\adventurer.dm"
 #include "code\modules\jobs\job_types\adventurer\bandit.dm"
 #include "code\modules\jobs\job_types\adventurer\pilgrim.dm"

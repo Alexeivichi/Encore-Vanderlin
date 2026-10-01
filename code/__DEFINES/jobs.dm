@@ -186,6 +186,9 @@
 #define JDO_SUNLORD 0.1
 #define JDO_SUNDWELLER 40
 
+#define JDO_SHIRLEIGHQUEEN 0.2
+#define JDO_SHIRLEIGHLACKEY 0.3
+
 
 #define JDO_PURITAN 40
 #define JDO_ORTHODOXIST	40.1
@@ -304,3 +307,7 @@
 #define JOB_ADMIN_LUNAR_SENTINEL "Lunar Order Sentinel"
 #define JOB_ADMIN_LUNAR_CHAMPION "Lunar Order Champion"
 #define JOB_ADMIN_DARKSPAWN "Darkspawn"
+
+#define JOB_ADMIN_SHIRLEIGH_QUEEN "Queen of Etgard"
+#define JOB_ADMIN_SHIRLEIGH_KING "King of Etgard"
+#define JOB_ADMIN_SHIRLEIGH_LACKEY "Eternal Hand"
