@@ -341,6 +341,14 @@
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
+/datum/repeatable_crafting_recipe/sewing/weaving/monk_robe
+	name = "holy monk vestiments"
+	output = /obj/item/clothing/shirt/robe/monk
+	requirements = list(/obj/item/natural/cloth = 6,
+				/obj/item/natural/fibers = 4)
+	craftdiff = 4
+	category = "Armor"
+
 /datum/repeatable_crafting_recipe/sewing/weaving/merchant_robe
 	name = "merchant robe"
 	output = /obj/item/clothing/shirt/robe/merchant

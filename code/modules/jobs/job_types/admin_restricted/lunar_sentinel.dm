@@ -80,9 +80,9 @@
 		return
 	switch(choice)
 		if("Moonlight Khopesh")
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/akan/sword)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/holyknight/patron/akan/sword)
 		if("Lunar Flail")
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/akan/flail)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/holyknight/patron/akan/flail)
 
 /datum/outfit/lunar_sentinel
 	name = JOB_ADMIN_LUNAR_SENTINEL

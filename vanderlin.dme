@@ -3500,6 +3500,8 @@
 #include "code\modules\jobs\job_types\church\monk.dm"
 #include "code\modules\jobs\job_types\church\priest.dm"
 #include "code\modules\jobs\job_types\church\templar.dm"
+#include "code\modules\jobs\job_types\church\templar_classes\holyknight.dm"
+#include "code\modules\jobs\job_types\church\templar_classes\pugilist.dm"
 #include "code\modules\jobs\job_types\gallowband\bog_apprentice.dm"
 #include "code\modules\jobs\job_types\gallowband\bogwitch.dm"
 #include "code\modules\jobs\job_types\garrison\dungeoneer.dm"
