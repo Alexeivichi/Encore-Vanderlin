@@ -310,9 +310,7 @@
 	lockids = list(ACCESS_ARTIFICER)
 	unlocked_cats = list(
 		"Armor(Light)",
-		"Armor(Steel)",
 		"Weapons (Iron)",
-		"Weapons (Steel)",
 		"Weapons (Ranged)",
 		"Shields",
 	)
