@@ -1,0 +1,6 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - rscadd: "Added access locks to instancer crystals to line up with role expectations."
+  - rscadd: "Added apartments in Old Doma's waterworks."
+  - bugfix: "Fixed all the broken house templates in Old Doma."
