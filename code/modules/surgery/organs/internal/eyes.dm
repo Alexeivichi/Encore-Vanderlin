@@ -235,6 +235,16 @@
 	zone = BODY_ZONE_PRECISE_L_EYE
 	side = LEFT_SIDE
 
+/obj/item/organ/eyes/night_vision/envy
+	name = "burning eyes of amber"
+	desc = ""
+	eye_color = ENVY_EYE
+	glows = TRUE
+
+/obj/item/organ/eyes/night_vision/envy/left
+	zone = BODY_ZONE_PRECISE_L_EYE
+	side = LEFT_SIDE
+
 /obj/item/organ/eyes/night_vision/mushroom
 	name = "fung-eye"
 	desc = ""

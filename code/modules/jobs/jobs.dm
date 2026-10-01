@@ -25,6 +25,8 @@ GLOBAL_LIST_INIT(noble_courthand_positions, list(
 	/datum/job/minor_noble::title,
 	/datum/job/courtagent::title,
 	/datum/job/sunlord::title,
+	/datum/job/shirleigh_queen::title,
+	/datum/job/shirleigh_lackey::title,
 ))
 GLOBAL_PROTECT(noble_courthand_positions)
 
@@ -168,6 +170,7 @@ GLOBAL_LIST_EMPTY(job_assignment_order)
 	sorting_order += GLOB.apprentices_positions
 	sorting_order += GLOB.allmig_positions
 	sorting_order += GLOB.youngfolk_positions
+	sorting_order += GLOB.admin_special_positions
 	return sorting_order
 
 GLOBAL_LIST_INIT(exp_specialmap, list(
