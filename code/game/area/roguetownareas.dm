@@ -302,11 +302,17 @@
 	ambient_index = AMBIENCE_CAVE
 	ambush_times = list(NIGHT,DAWN,DUSK,DAY)
 	ambush_types = list(
-				/turf/open/floor/dirt)
+				/turf/open/floor/dirt, /turf/open/floor/naturalstone)
 	ambush_mobs = list(
-				/mob/living/simple_animal/hostile/retaliate/bigrat = 30,
-				/mob/living/carbon/human/species/skeleton/npc/ambush = 10,
-				/mob/living/carbon/human/species/goblin/npc/hell = 20)
+				new /datum/ambush_config/hell_goblin_party = 25,
+				new /datum/ambush_config/hard_orc_trio = 25,
+				new /datum/ambush_config/lamia_duo = 15,
+				new /datum/ambush_config/headless_duo = 15,
+				new /datum/ambush_config/scarab_swarm = 35,
+				new /datum/ambush_config/cyclops_mean = 10,
+				new /datum/ambush_config/cyclops_duo = 10,
+				new /datum/ambush_config/absurd_skeleton_party = 15,
+				)
 	background_track = 'sound/music/area/decap.ogg'
 	background_track_dusk = null
 	background_track_night = null
