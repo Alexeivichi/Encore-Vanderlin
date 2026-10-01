@@ -129,7 +129,9 @@
 /datum/job/tapster
 	title = JOB_TAPSTER
 	f_title = "Alemaid"
-	tutorial = "The Innkeeper needed waiters and extra hands. So here am I, serving the food and drinks while ensuring the tavern rooms are kept clean."
+	alt_titles = list("Guild Attendant")
+	tutorial = "The Innkeeper needed waiters and extra hands. So here am I, serving the food and drinks while ensuring the tavern rooms are kept clean, \
+	and constantly serving the adventurers and mercenaries affiliated with the Guild downstairs."
 	department_flag = APPRENTICES
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_SERVANT
