@@ -1,0 +1,4 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - rscadd: "Adds a pugilist Monk subclass to Templar."
