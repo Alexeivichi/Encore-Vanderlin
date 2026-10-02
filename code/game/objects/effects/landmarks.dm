@@ -443,6 +443,17 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	. = ..()
 	GLOB.lich_starts += loc
 
+/obj/effect/landmark/start/shirleigh
+	name = "Shirleigh Spawn"
+	icon = 'icons/mob/landmarks.dmi'
+	icon_state = "arrow_purple"
+	jobs_to_spawn = list(ROLE_SHIRLEIGH_LACKEY, ROLE_SHIRLEIGH_QUEEN)
+	custom_handling = TRUE
+
+/obj/effect/landmark/start/shirleigh/Initialize()
+	. = ..()
+	GLOB.shirleigh_starts += loc
+
 /obj/effect/landmark/admin
 	name = "admin"
 	icon = 'icons/mob/landmarks.dmi'

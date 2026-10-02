@@ -8606,7 +8606,7 @@
 /turf/open/floor/ruinedwood,
 /area/outdoors/bog/beach)
 "haE" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/church/rust,
 /area/indoors/shelter/bog/witch)
 "haY" = (

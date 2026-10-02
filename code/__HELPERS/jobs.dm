@@ -19,4 +19,6 @@
 		return "company"
 	if(department_flag & INQUISITION)
 		return "inquisition"
+	if(department_flag & ADMIN_SPECIAL)
+		return "event"
 	return null

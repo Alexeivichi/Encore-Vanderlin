@@ -44,6 +44,11 @@
 	desc = "An ancient mask that hides an ancient evil."
 	misc_flags = CRAFTING_TEST_EXCLUDE
 
+/obj/item/clothing/face/facemask/steel/ancient/bandit
+	name = "ancient mask"
+	desc = "An ancient mask that hides an ancient evil. This one seems made of a strange alloy..."
+	max_integrity = INTEGRITY_STRONG
+
 //................ Neck ............... //
 
 /obj/item/clothing/neck/chaincoif/ancient
@@ -55,6 +60,11 @@
 
 	armor_type = /datum/armor/neck/maille/good
 
+/obj/item/clothing/neck/chaincoif/ancient/bandit
+	name = "rusted alloy chain coif"
+	desc = "A very old coif. This one seems made of a strange alloy..."
+	max_integrity = INTEGRITY_STRONG
+
 /obj/item/clothing/neck/gorget/ancient
 	name = "ancient gorget"
 	desc = "A very old gorget."
@@ -63,6 +73,12 @@
 
 	armor_type = /datum/armor/neck/plate
 	max_integrity = INTEGRITY_STRONG + 100
+
+/obj/item/clothing/neck/gorget/ancient/bandit
+	name = "rusted alloy gorget"
+	desc = "A very old gorget. This one seems made of a strange alloy..."
+	icon_state = "ancientgorget"
+	max_integrity = INTEGRITY_STRONG
 
 //................ Armor ............... //
 
@@ -74,6 +90,12 @@
 
 	armor_type = /datum/armor/plate/good
 	item_weight = 8.5 KILOGRAMS
+
+/obj/item/clothing/armor/cuirass/ancient/bandit
+	name = "ancient alloy cuirass"
+	desc = "An old cuirass, deceptively sturdy. This one seems made of a strange alloy..."
+	armor_type = /datum/armor/plate
+	max_integrity = INTEGRITY_STRONG
 
 /obj/item/clothing/armor/plate/ancient
 	name = "ancient half-plate"
@@ -95,6 +117,11 @@
 	armor_type = /datum/armor/maille/good
 	item_weight = 10 KILOGRAMS
 
+/obj/item/clothing/armor/chainmail/ancient/bandit
+	name = "ancient alloy haubergeon"
+	desc = "A very old haubergeon. This one seems made of a strange alloy..."
+	max_integrity = INTEGRITY_STRONG
+
 /obj/item/clothing/armor/chainmail/hauberk/ancient
 	name = "ancient hauberk"
 	desc = "A very old hauberk."
@@ -103,6 +130,11 @@
 
 	armor_type = /datum/armor/maille/good
 	item_weight = 11 KILOGRAMS
+
+/obj/item/clothing/armor/chainmail/hauberk/ancient/bandit
+	name = "ancient alloy hauberk"
+	desc = "A very old hauberk. This one seems made of a strange alloy..."
+	max_integrity = INTEGRITY_STRONG
 
 //................ Wrists ............... //
 
@@ -115,6 +147,12 @@
 
 	armor_type = /datum/armor/wrist/plate/good
 
+/obj/item/clothing/wrists/bracers/ancient/bandit
+	name = "ancient alloy vambraces"
+	desc = "Very old vambraces. This one seems made of a strange alloy..."
+	armor_type = /datum/armor/wrist/plate
+	max_integrity = INTEGRITY_STRONG
+
 //................ Gloves ............... //
 
 /obj/item/clothing/gloves/chain/ancient
@@ -126,6 +164,11 @@
 	item_weight = 1.2 KILOGRAMS
 	armor_type = /datum/armor/gloves/maille/good
 
+/obj/item/clothing/gloves/chain/ancient/bandit
+	name = "ancient alloy chain gauntlets"
+	desc = "Weathered gauntlets with an ancient design. This one seems made of a strange alloy..."
+	max_integrity = INTEGRITY_STRONG
+
 /obj/item/clothing/gloves/plate/ancient
 	name = "ancient plate gauntlets"
 	desc = "Weathered gauntlets with an ancient design."
@@ -134,6 +177,12 @@
 
 	armor_type = /datum/armor/gloves/plate/good
 	item_weight = 1.45 KILOGRAMS
+
+/obj/item/clothing/gloves/plate/ancient/bandit
+	name = "ancient alloy plate gauntlets"
+	desc = "Weathered gauntlets with an ancient design. This one seems made of a strange alloy..."
+	armor_type = /datum/armor/gloves/plate
+	max_integrity = INTEGRITY_STRONG
 
 //................ Legs ............... //
 
@@ -150,6 +199,11 @@
 	armor_type = /datum/armor/pants/maille/good
 	item_weight = 5.4 KILOGRAMS
 
+/obj/item/clothing/pants/chainlegs/kilt/ancient/bandit
+	name = "ancient alloy chain kilt"
+	desc = "A very old chain kilt. This one seems made of a strange alloy..."
+	max_integrity = INTEGRITY_STRONG
+
 /obj/item/clothing/pants/platelegs/ancient
 	name = "ancient chausses"
 	desc = "Chausses made of an ancient steel."
@@ -161,6 +215,12 @@
 
 	armor_type = /datum/armor/pants/plate/good
 	item_weight = 5.5 KILOGRAMS
+
+/obj/item/clothing/pants/platelegs/ancient/bandit
+	name = "ancient alloy chausses"
+	desc = "Chausses made of an ancient steel. This one seems made of a strange alloy..."
+	armor_type = /datum/armor/pants/plate
+	max_integrity = INTEGRITY_STRONG
 
 //................ Shoes ............... //
 
@@ -175,6 +235,11 @@
 	armor_type = /datum/armor/boots/maille/good
 	item_weight = 1.2 KILOGRAMS
 
+/obj/item/clothing/shoes/boots/armor/ironmaille/ancient/bandit
+	name = "ancient alloy sandals"
+	desc = "An uncomfortable looking pair of old metal sandals. Surprisingly protective. This one seems made of a strange alloy..."
+	max_integrity = INTEGRITY_STRONG
+
 /obj/item/clothing/shoes/boots/armor/ancient
 	name = "ancient boots"
 	desc = "Ancient boots with ceremonial ornaments from ages past."
@@ -184,4 +249,10 @@
 
 	armor_type = /datum/armor/boots/plate/good
 	item_weight = 2 KILOGRAMS
+
+/obj/item/clothing/shoes/boots/armor/ancient/bandit
+	name = "ancient alloy boots"
+	desc = "Ancient boots with ceremonial ornaments from ages past. This one seems made of a strange alloy..."
+	armor_type = /datum/armor/boots/plate
+	max_integrity = INTEGRITY_STRONG
 

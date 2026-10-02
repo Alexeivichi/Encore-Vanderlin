@@ -205,6 +205,8 @@ GLOBAL_LIST_INIT(RATS_DONT_EAT, typecacheof(list(
 	#define is_vagrant_job(job_type) (istype(job_type, /datum/job/vagrant))
 	#define is_sunlord_job(job_type) (istype(job_type, /datum/job/sunlord))
 	#define is_servant_job(job_type) (istype(job_type, /datum/job/servant))
+	#define is_shirleigh_queen_job(job_type) (istype(job_type, /datum/job/shirleigh_queen))
+	#define is_shirleigh_lackey_job(job_type) (istype(job_type, /datum/job/shirleigh_lackey))
 // Villains
 	#define is_skeleton_job(job_type) (istype(job_type, /datum/job/skeleton))
 		#define is_skeleton_knight_job(job_type) (istype(job_type, /datum/job/skeleton/knight))

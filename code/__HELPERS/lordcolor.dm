@@ -78,6 +78,8 @@ GLOBAL_VAR(lordsecondary)
 		addtimer(CALLBACK(src, PROC_REF(lord_color_choice)), 5 SECONDS)
 		return
 	var/list/lordcolors = list(
+		"ALYSSANDRINE'S CERULEAN"="#007FFF",
+		"MALRYCK'S SILVER"="#EEEEEE",
 		"PURPLE"="#865c9c",
 		"RED"="#8f3636",
 		"BLACK"="#2f352f",
@@ -86,10 +88,11 @@ GLOBAL_VAR(lordsecondary)
 		"BLUE"="#395480",
 		"YELLOW"="#b5b004",
 		"TEAL"="#249589",
-		"WHITE"="#c7c0b5",
+		"LIGHT GREY"="#c7c0b5",
 		"ORANGE"="#b47011",
 		"MAJENTA"="#822b52",
-		"GOLD"="#d4af37"
+		"GOLD"="#d4af37",
+
 	)
 	var/choice = browser_input_list(src, "Choose a Primary Color", "ENCORE", lordcolors)
 	if(!choice)

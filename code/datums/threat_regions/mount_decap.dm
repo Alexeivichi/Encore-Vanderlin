@@ -3,6 +3,6 @@
 	latent_ambush = DANGER_DANGEROUS_FLOOR
 	min_ambush = DANGER_LOW_FLOOR
 	max_ambush = DANGER_DIRE_LIMIT
-	fixed_ambush = FALSE
+	fixed_ambush = TRUE
 	lowpop_tick = 1
 	highpop_tick = 2

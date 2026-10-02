@@ -102,6 +102,17 @@
 	icon_state = "priestrobe"
 	dropshrink = 0.8
 
+/obj/item/clothing/shirt/robe/monk
+	name = "holy monk vestments"
+	desc = "Holy vestments, worn by those who pursue faith above all else. Hundreds of heavy leather strips have been meticulously sheared-and-stitched onto the cloth, resulting in unparalleled comfort and protection."
+	icon_state = "monkvestments"
+	item_state = "monkvestments"
+	salvage_result = /obj/item/natural/hide/cured
+	salvage_amount = 1
+	sellprice = VALUE_HEAVY_GAMBESSON
+	armor_type = /datum/armor/padded/good
+	item_weight = 4 KILOGRAMS
+
 //................ Wizard Robes ............... //
 /obj/item/clothing/shirt/robe/colored/courtmage
 	color = CLOTHING_CHALK_WHITE

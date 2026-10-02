@@ -138,7 +138,6 @@
 
 	traits = list(
 		TRAIT_SEEPRICES,
-		TRAIT_FAT,
 		TRAIT_NOBLE_BLOOD,
 		TRAIT_NOBLE_POWER
 	)

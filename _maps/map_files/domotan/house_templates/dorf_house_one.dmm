@@ -177,7 +177,7 @@
 /turf/open/floor/twig,
 /area/under/town/basement)
 "KJ" = (
-/obj/structure/sign/property_sign/claim,
+/obj/structure/sign/property_sign/claim/town,
 /turf/closed/wall/mineral/stone/moss,
 /area/under/town/basement)
 "MM" = (

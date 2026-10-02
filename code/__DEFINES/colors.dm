@@ -25,6 +25,7 @@
 #define COLOR_TEAL             "#008080"
 #define COLOR_BLUE             "#0000FF"
 #define COLOR_BLUE_LIGHT       "#33CCFF"
+#define COLOR_SHIRLEIGH_BLUE   "#007FFF"
 #define COLOR_NAVY             "#000080"
 #define COLOR_PINK             "#FFC0CB"
 #define COLOR_MAGENTA          "#FF00FF"

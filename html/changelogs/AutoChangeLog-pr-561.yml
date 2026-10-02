@@ -1,0 +1,7 @@
+author: "kyres1"
+delete-after: True
+changes:
+  - bugfix: "Fixes some descriptions for forcewalls lying to you."
+  - bugfix: "Fixes surrendering being forced even when you say no."
+  - bugfix: "Fixes Yeomen having no ability to take apprentices."
+  - bugfix: "The dock bell has a now much longer cooldown for people who aren't sanctioned to do so."

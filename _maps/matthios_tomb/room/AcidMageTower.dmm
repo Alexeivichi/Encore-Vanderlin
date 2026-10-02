@@ -964,7 +964,7 @@
 /turf/open/lava/acid,
 /area/under/tomb/cave/wet)
 "LA" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/tile/masonic/spiral,
 /area/under/tomb/indoors/magic)
 "LS" = (

@@ -1,0 +1,241 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/dirt,
+/area/template_noop)
+"g" = (
+/obj/item/natural/stone,
+/obj/item/natural/stone{
+	pixel_y = 9
+	},
+/turf/template_noop,
+/area/template_noop)
+"j" = (
+/obj/item/natural/stone,
+/turf/open/floor/dirt,
+/area/template_noop)
+"p" = (
+/obj/structure/sign/property_sign/claim/outsider,
+/turf/closed/wall/mineral/wooddark,
+/area/template_noop)
+"v" = (
+/obj/item/natural/stone,
+/obj/item/natural/stone{
+	pixel_x = 7
+	},
+/turf/template_noop,
+/area/template_noop)
+"y" = (
+/obj/item/natural/stone{
+	pixel_y = 9
+	},
+/obj/item/natural/stone{
+	pixel_x = 7
+	},
+/turf/template_noop,
+/area/template_noop)
+"F" = (
+/turf/open/floor/dirt/road,
+/area/template_noop)
+"L" = (
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+g
+L
+a
+a
+L
+a
+a
+L
+v
+"}
+(2,1,1) = {"
+L
+a
+a
+a
+a
+F
+F
+F
+L
+"}
+(3,1,1) = {"
+a
+a
+a
+a
+F
+F
+F
+a
+a
+"}
+(4,1,1) = {"
+a
+a
+a
+a
+F
+F
+F
+a
+F
+"}
+(5,1,1) = {"
+a
+a
+F
+a
+j
+F
+a
+a
+p
+"}
+(6,1,1) = {"
+L
+a
+F
+F
+F
+F
+a
+a
+a
+"}
+(7,1,1) = {"
+L
+a
+F
+F
+a
+F
+F
+F
+L
+"}
+(8,1,1) = {"
+L
+a
+F
+F
+F
+F
+F
+L
+L
+"}
+(9,1,1) = {"
+v
+L
+a
+a
+a
+L
+L
+L
+y
+"}
+
+(1,1,2) = {"
+L
+L
+L
+L
+L
+L
+L
+L
+L
+"}
+(2,1,2) = {"
+L
+L
+L
+L
+L
+L
+L
+L
+L
+"}
+(3,1,2) = {"
+L
+L
+L
+L
+L
+L
+L
+L
+L
+"}
+(4,1,2) = {"
+L
+L
+L
+L
+L
+L
+L
+L
+L
+"}
+(5,1,2) = {"
+L
+L
+L
+L
+L
+L
+L
+L
+L
+"}
+(6,1,2) = {"
+L
+L
+L
+L
+L
+L
+L
+L
+L
+"}
+(7,1,2) = {"
+L
+L
+L
+L
+L
+L
+L
+L
+L
+"}
+(8,1,2) = {"
+L
+L
+L
+L
+L
+L
+L
+L
+L
+"}
+(9,1,2) = {"
+L
+L
+L
+L
+L
+L
+L
+L
+L
+"}

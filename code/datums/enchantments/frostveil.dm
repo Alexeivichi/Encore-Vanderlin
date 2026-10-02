@@ -17,4 +17,4 @@
 		return
 	if(isliving(attacker))
 		apply_frost_stack(attacker, 3)
-		COOLDOWN_START(src, frost_stack_cooldown, 10 SECONDS)
+		COOLDOWN_START(src, frost_stack_cooldown, 60 SECONDS)

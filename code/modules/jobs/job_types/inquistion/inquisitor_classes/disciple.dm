@@ -63,7 +63,7 @@
 		"Discipline - Unarmed" = /obj/item/clothing/gloves/bandages/pugilist,
 		"Katar" = /obj/item/weapon/katar/angros,
 		"Knuckledusters" = /obj/item/weapon/knuckles/angros,
-		"Quarterstaff" = /obj/item/weapon/polearm/woodstaff/quarterstaff/steel,
+		"Quarterstaff" = /obj/item/weapon/polearm/woodstaff/quarterstaff/silver,
 	)
 	var/weapon_choice = spawned.select_equippable(player_client, weapons, message = "TAKE UP ANGROS'S ARMS!")
 	spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE) // this will fail on the unarmed discipline

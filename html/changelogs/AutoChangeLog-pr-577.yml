@@ -1,0 +1,5 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - rscadd: "Adds Rusted Alloy armour, a unique set of armour for Bandits."
+  - balance: "Buffs Bandit, and all of its subclasses."

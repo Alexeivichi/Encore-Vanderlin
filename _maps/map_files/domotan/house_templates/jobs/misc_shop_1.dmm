@@ -22,6 +22,16 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/ruinedwood,
 /area/template_noop)
+"gq" = (
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 8
+	},
+/obj/structure/window/openclose{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood,
+/area/template_noop)
 "gt" = (
 /turf/closed/wall/mineral/wood,
 /area/template_noop)
@@ -62,6 +72,16 @@
 /obj/machinery/light/fueled/wallfire/candle/r,
 /turf/open/floor/ruinedwood,
 /area/template_noop)
+"pm" = (
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 1
+	},
+/obj/structure/window/openclose{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood,
+/area/template_noop)
 "qn" = (
 /obj/structure/closet/crate/chest,
 /obj/machinery/light/fueled/torchholder/c,
@@ -80,8 +100,8 @@
 /turf/closed/wall/mineral/decowood/vert,
 /area/template_noop)
 "sh" = (
-/obj/structure/sign/property_sign/claim,
-/turf/closed/wall/mineral/decowood,
+/obj/structure/sign/property_sign/claim/town,
+/turf/closed/wall/mineral/wood,
 /area/template_noop)
 "sG" = (
 /obj/structure/fluff/railing/wood{
@@ -142,15 +162,24 @@
 /turf/open/floor/ruinedwood,
 /area/template_noop)
 "Dr" = (
-/obj/structure/curtain/bounty{
-	icon_state = "bounty-closed"
+/obj/structure/curtain/bounty/dir{
+	opacity = 1
 	},
-/turf/closed/wall/mineral/wood/window,
+/obj/structure/window/openclose,
+/turf/open/floor/ruinedwood,
+/area/template_noop)
+"Eu" = (
+/obj/structure/door/red,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/ruinedwood,
 /area/template_noop)
 "EG" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/cobweb,
+/obj/structure/fake_machine/mail{
+	mailtag = "Shop One"
+	},
 /turf/open/floor/ruinedwood,
 /area/template_noop)
 "Fu" = (
@@ -222,6 +251,16 @@
 /obj/structure/rack/shelf/biggest,
 /turf/open/floor/twig,
 /area/template_noop)
+"No" = (
+/obj/structure/curtain/bounty/dir{
+	opacity = 1;
+	dir = 4
+	},
+/obj/structure/window/openclose{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood,
+/area/template_noop)
 "Np" = (
 /turf/open/glass,
 /area/template_noop)
@@ -269,7 +308,7 @@
 sg
 gt
 sg
-Dr
+No
 gt
 gt
 "}
@@ -287,7 +326,7 @@ Cg
 AB
 AB
 Cg
-Dr
+pm
 "}
 (4,1,1) = {"
 gt
@@ -298,12 +337,12 @@ cv
 gt
 "}
 (5,1,1) = {"
-cG
+Eu
 Cg
 Cg
 AB
 AB
-cG
+Eu
 "}
 (6,1,1) = {"
 gt
@@ -311,7 +350,7 @@ vs
 Cg
 AB
 lo
-gt
+sh
 "}
 (7,1,1) = {"
 Dr
@@ -319,7 +358,7 @@ iC
 sG
 AB
 Cg
-Dr
+pm
 "}
 (8,1,1) = {"
 gt
@@ -327,13 +366,13 @@ gt
 Kg
 AB
 iC
-sh
+Gd
 "}
 (9,1,1) = {"
 gt
 gt
 Gd
-Dr
+gq
 gt
 sg
 "}
@@ -341,7 +380,7 @@ sg
 (1,1,2) = {"
 gt
 sg
-Dr
+aC
 Gd
 gt
 Gd
@@ -363,12 +402,12 @@ Jd
 gt
 "}
 (4,1,2) = {"
-Dr
+aC
 Cg
 LC
 AB
 Tz
-Dr
+aC
 "}
 (5,1,2) = {"
 Gd
@@ -395,17 +434,17 @@ gt
 sg
 "}
 (8,1,2) = {"
-Dr
+aC
 Kg
 tf
 ZS
 Mo
-Dr
+aC
 "}
 (9,1,2) = {"
 gt
 sg
-Dr
+aC
 sg
 gt
 Gd
@@ -414,7 +453,7 @@ Gd
 (1,1,3) = {"
 Gd
 gt
-Dr
+aC
 NR
 kV
 kV
@@ -433,7 +472,7 @@ hB
 Cg
 hh
 Ir
-Dr
+aC
 "}
 (4,1,3) = {"
 gt
@@ -460,12 +499,12 @@ AB
 gt
 "}
 (7,1,3) = {"
-Dr
+aC
 zd
 AB
 tm
 Mo
-Dr
+aC
 "}
 (8,1,3) = {"
 gt
@@ -480,7 +519,7 @@ gt
 Gd
 sg
 sg
-Dr
+aC
 gt
 "}
 

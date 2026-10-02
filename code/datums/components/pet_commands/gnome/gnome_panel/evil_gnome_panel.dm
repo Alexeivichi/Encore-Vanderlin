@@ -135,7 +135,7 @@
 			gnome.visible_message(span_notice("[gnome] will now prioritize [object.name] items."))
 
 		if(GNOME_WP_CAULDRON)
-			if(!istype(object, /obj/machinery/light/fueled/cauldron))
+			if(!istype(object, /obj/machinery/essence/cauldron_alchemy))
 				to_chat(commander(), span_warning("That's not a cauldron!"))
 				return TRUE
 			c.set_blackboard_key(BB_GNOME_TARGET_CAULDRON, object)

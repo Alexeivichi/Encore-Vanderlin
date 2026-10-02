@@ -19,10 +19,10 @@
 		return
 	if(attacker == I.loc)
 		return
-	if(world.time < last_used + 10 SECONDS)
+	if(world.time < last_used + 60 SECONDS)
 		return
 
-	attacker.adjust_fire_stacks(5)
+	attacker.adjust_fire_stacks(2)
 	attacker.IgniteMob()
 	attacker.visible_message(span_danger("[I] sets [attacker] on fire!"))
 	last_used = world.time

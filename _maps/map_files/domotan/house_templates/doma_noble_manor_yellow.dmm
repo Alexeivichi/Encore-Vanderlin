@@ -25,10 +25,6 @@
 /obj/item/natural/cloth,
 /turf/open/floor/tile/bath,
 /area/indoors/town/noble_manor/yellow)
-"bb" = (
-/obj/item/soap/bath,
-/turf/open/floor/tile/bath,
-/area/indoors/town/noble_manor/yellow)
 "bk" = (
 /obj/structure/window,
 /obj/structure/curtain/bounty/dir{
@@ -51,39 +47,19 @@
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/town/noble_manor/yellow)
 "bP" = (
-/obj/structure/sign/property_sign/claim,
+/obj/structure/sign/property_sign/claim/noble,
 /turf/closed/wall/mineral/stone/moss,
 /area/indoors/town/noble_manor/yellow)
 "cm" = (
 /turf/closed/wall/mineral/stone/moss,
 /area/indoors/town/noble_manor/yellow)
-"ds" = (
-/turf/open/floor/tile/checkeralt,
-/area/indoors/town/noble_manor/yellow)
 "dC" = (
 /turf/closed/wall/mineral/wood,
-/area/indoors/town/noble_manor/yellow)
-"dJ" = (
-/obj/structure/closet/crate/crafted_closet/inn,
-/turf/open/floor/tile/checkeralt,
 /area/indoors/town/noble_manor/yellow)
 "eh" = (
 /obj/structure/chair/bench/coucha/r,
 /obj/structure/carpet,
 /turf/open/floor/ruinedwood/turned/darker,
-/area/indoors/town/noble_manor/yellow)
-"ek" = (
-/obj/structure/handcart{
-	dir = 4
-	},
-/turf/open/floor/dirt,
-/area/indoors/town/noble_manor/yellow)
-"fz" = (
-/obj/machinery/light/fueledstreet/orange/wall{
-	dir = 8
-	},
-/obj/structure/fake_machine/scomm/r,
-/turf/open/floor/tile/bath,
 /area/indoors/town/noble_manor/yellow)
 "gd" = (
 /obj/structure/closet/crate/chest/crate,
@@ -105,18 +81,13 @@
 /obj/item/reagent_containers/food/snacks/butter,
 /turf/open/floor/cobble,
 /area/indoors/town/noble_manor/yellow)
-"gi" = (
-/obj/structure/fluff/walldeco/bath/wallrope,
-/turf/closed/wall/mineral/stone,
-/area/indoors/town/noble_manor/yellow)
 "gI" = (
-/obj/structure/fermentation_keg/water,
-/turf/open/floor/blocks,
-/area/indoors/town/noble_manor/yellow)
-"hf" = (
-/obj/item/natural/stone,
-/obj/structure/barricade/wooden,
-/turf/open/floor/naturalstone,
+/obj/machinery/light/fueled/wallfire{
+	pixel_y = 32
+	},
+/obj/structure/fake_machine/scomm/l,
+/obj/structure/fluff/steamvent,
+/turf/open/floor/tile/bath,
 /area/indoors/town/noble_manor/yellow)
 "hC" = (
 /obj/structure/curtain/bounty,
@@ -145,18 +116,14 @@
 /turf/open/floor/wood,
 /area/indoors/town/noble_manor/yellow)
 "il" = (
-/obj/structure/stairs/stone{
-	dir = 4
-	},
-/turf/open/floor/church/green,
+/obj/machinery/light/fueledstreet/orange/wall,
+/obj/structure/well/fountain/sink,
+/turf/open/floor/tile/bath,
 /area/indoors/town/noble_manor/yellow)
 "iw" = (
 /obj/structure/carpet,
 /obj/structure/closet/crate/crafted_closet/inn,
 /turf/open/floor/tile/diamond,
-/area/indoors/town/noble_manor/yellow)
-"iO" = (
-/turf/open/floor/blocks,
 /area/indoors/town/noble_manor/yellow)
 "jn" = (
 /obj/structure/carpet,
@@ -183,30 +150,12 @@
 /obj/item/natural/feather,
 /turf/open/floor/tile/diamond,
 /area/indoors/town/noble_manor/yellow)
-"jE" = (
-/obj/structure/carpet,
-/obj/structure/bed/wool/double,
-/obj/item/bedsheet/double_pelt,
-/turf/open/floor/tile/checkeralt,
-/area/indoors/town/noble_manor/yellow)
-"jP" = (
-/turf/open/floor/naturalstone,
-/area/indoors/town/noble_manor/yellow)
 "kA" = (
 /obj/effect/mapping_helpers/access/keyset/manor/Noble2,
 /obj/structure/door/fancy{
 	name = "Bedchamber"
 	},
 /turf/open/floor/tile/checkeralt,
-/area/indoors/town/noble_manor/yellow)
-"kE" = (
-/obj/structure/fluff/railing/tall/retaining/stone{
-	dir = 1
-	},
-/obj/structure/fluff/railing/tall/retaining/stone{
-	dir = 8
-	},
-/turf/open/water/bath,
 /area/indoors/town/noble_manor/yellow)
 "kN" = (
 /obj/structure/window,
@@ -244,10 +193,6 @@
 /obj/structure/stairs/stone,
 /turf/open/floor/churchrough,
 /area/indoors/town/noble_manor/yellow)
-"nn" = (
-/obj/structure/barricade/wooden,
-/turf/open/floor/church,
-/area/indoors/town/noble_manor/yellow)
 "nV" = (
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/noble_manor/yellow)
@@ -263,12 +208,6 @@
 "pw" = (
 /turf/open/openspace,
 /area/indoors/town/noble_manor/yellow)
-"px" = (
-/obj/structure/chair/wood/alt/chair_noble{
-	dir = 4
-	},
-/turf/open/floor/tile/checkeralt,
-/area/indoors/town/noble_manor/yellow)
 "pU" = (
 /turf/open/openspace,
 /area/outdoors/town/roofs)
@@ -283,13 +222,14 @@
 /turf/open/floor/tile/diamond,
 /area/indoors/town/noble_manor/yellow)
 "rz" = (
-/obj/structure/door/viewport{
-	name = "Blue Noble Manor";
-	dir = 4
-	},
-/obj/effect/mapping_helpers/access/keyset/manor/Noble2,
-/obj/effect/mapping_helpers/access/locker,
-/turf/open/floor/cobble,
+/obj/structure/rack/shelf/biggest,
+/obj/item/clothing/pants/tights,
+/obj/item/clothing/pants/tights,
+/obj/item/clothing/shirt/robe/colored,
+/obj/item/clothing/shirt/robe/colored,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
+/turf/open/floor/tile/bath,
 /area/indoors/town/noble_manor/yellow)
 "rQ" = (
 /obj/structure/chair/wood/alt{
@@ -300,22 +240,9 @@
 	},
 /turf/open/floor/tile/brownbrick,
 /area/indoors/town/noble_manor/yellow)
-"rR" = (
-/obj/item/weapon/shovel/small,
-/turf/open/floor/blocks,
-/area/indoors/town/noble_manor/yellow)
-"rU" = (
-/obj/structure/toilet,
-/obj/machinery/light/fueledstreet/orange/wall,
-/obj/structure/fluff/walldeco/bath/wallpipes,
-/turf/open/floor/church,
-/area/indoors/town/noble_manor/yellow)
 "rY" = (
-/obj/item/natural/stone,
-/turf/open/floor/naturalstone,
-/area/indoors/town/noble_manor/yellow)
-"sf" = (
-/turf/open/floor/blocks/bluestone,
+/obj/structure/fluff/steamvent,
+/turf/open/floor/tile/bath,
 /area/indoors/town/noble_manor/yellow)
 "sn" = (
 /obj/machinery/light/fueledstreet/orange/wall{
@@ -342,10 +269,8 @@
 /turf/open/floor/wood,
 /area/indoors/town/noble_manor/yellow)
 "sS" = (
-/obj/structure/fluff/railing/tall/retaining/stone{
-	dir = 8
-	},
-/turf/open/water/bath,
+/obj/structure/fermentation_keg/water,
+/turf/open/floor/wood,
 /area/indoors/town/noble_manor/yellow)
 "te" = (
 /obj/structure/fluff/railing/wood{
@@ -365,15 +290,6 @@
 "tL" = (
 /obj/structure/carpet,
 /turf/open/floor/wood,
-/area/indoors/town/noble_manor/yellow)
-"uj" = (
-/turf/open/floor/church,
-/area/indoors/town/noble_manor/yellow)
-"vq" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/turf/open/floor/tile/bath,
 /area/indoors/town/noble_manor/yellow)
 "wk" = (
 /obj/item/bin,
@@ -437,7 +353,7 @@
 /turf/open/floor/wood,
 /area/indoors/town/noble_manor/yellow)
 "zu" = (
-/turf/closed/wall/mineral/stone,
+/turf/open/floor/churchrough,
 /area/indoors/town/noble_manor/yellow)
 "zB" = (
 /obj/structure/carpet,
@@ -478,23 +394,12 @@
 /obj/item/bin,
 /turf/open/floor/wood,
 /area/indoors/town/noble_manor/yellow)
-"BM" = (
-/obj/item/weapon/pick/stone,
-/turf/open/floor/dirt,
-/area/indoors/town/noble_manor/yellow)
 "Cx" = (
 /obj/effect/mapping_helpers/access/keyset/manor/Noble2,
 /obj/structure/door/fancy{
 	name = "Bedchamber"
 	},
 /turf/open/floor/tile/diamond,
-/area/indoors/town/noble_manor/yellow)
-"CK" = (
-/obj/machinery/light/fueled/wallfire{
-	pixel_y = 32
-	},
-/obj/structure/fake_machine/scomm/l,
-/turf/open/floor/tile/checkeralt,
 /area/indoors/town/noble_manor/yellow)
 "CV" = (
 /obj/structure/fluff/railing/wood{
@@ -506,18 +411,6 @@
 /obj/structure/chair/bench/coucha,
 /obj/structure/carpet,
 /turf/open/floor/ruinedwood/turned/darker,
-/area/indoors/town/noble_manor/yellow)
-"Ej" = (
-/obj/structure/fluff/railing/tall/retaining/stone{
-	dir = 1
-	},
-/obj/structure/fluff/railing/tall/retaining/stone{
-	dir = 4
-	},
-/obj/structure/fluff/railing/tall/retaining/stone{
-	dir = 6
-	},
-/turf/open/water/bath,
 /area/indoors/town/noble_manor/yellow)
 "EL" = (
 /obj/machinery/light/fueledstreet/orange/wall{
@@ -585,12 +478,15 @@
 /turf/open/floor/cobble,
 /area/indoors/town/noble_manor/yellow)
 "Ij" = (
-/obj/structure/table/wood,
-/turf/open/floor/tile/checkeralt,
+/obj/structure/fluff/railing/wood,
+/obj/structure/closet/crate/crafted_closet/inn,
+/turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/town/noble_manor/yellow)
 "IO" = (
-/obj/structure/bars,
-/turf/open/water/bath,
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 4
+	},
+/turf/open/floor/church,
 /area/indoors/town/noble_manor/yellow)
 "Jp" = (
 /obj/machinery/light/fueledstreet/orange/wall{
@@ -623,11 +519,9 @@
 /turf/open/floor/tile/checkeralt,
 /area/indoors/town/noble_manor/yellow)
 "Lp" = (
-/obj/effect/mapping_helpers/access/keyset/manor/Noble2,
-/obj/structure/door/red{
-	name = "Cellar"
-	},
-/turf/open/floor/churchrough,
+/obj/structure/toilet,
+/obj/structure/curtain/bounty,
+/turf/open/floor/tile/bath,
 /area/indoors/town/noble_manor/yellow)
 "Lr" = (
 /obj/structure/window,
@@ -643,14 +537,6 @@
 	},
 /turf/open/openspace,
 /area/indoors/town/noble_manor/yellow)
-"LM" = (
-/obj/structure/barricade/wooden,
-/turf/open/floor/naturalstone,
-/area/indoors/town/noble_manor/yellow)
-"Ni" = (
-/obj/structure/carpet,
-/turf/open/floor/tile/checkeralt,
-/area/indoors/town/noble_manor/yellow)
 "NH" = (
 /turf/open/floor/tile/brownbrick,
 /area/indoors/town/noble_manor/yellow)
@@ -664,18 +550,6 @@
 /obj/item/natural/feather,
 /obj/item/natural/feather,
 /turf/open/floor/ruinedwood/turned/darker,
-/area/indoors/town/noble_manor/yellow)
-"Oo" = (
-/obj/structure/fluff/railing/wood,
-/turf/open/floor/ruinedwood/turned/darker,
-/area/indoors/town/noble_manor/yellow)
-"Ps" = (
-/obj/structure/door/weak/bolt{
-	dir = 1;
-	name = "Toilet"
-	},
-/obj/structure/fluff/walldeco/bath/wallrope,
-/turf/open/floor/church/pale,
 /area/indoors/town/noble_manor/yellow)
 "Qg" = (
 /obj/structure/table/wood/large/corner{
@@ -729,10 +603,6 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/indoors/town/noble_manor/yellow)
-"SS" = (
-/obj/item/natural/rock,
-/turf/open/floor/church,
 /area/indoors/town/noble_manor/yellow)
 "TT" = (
 /obj/structure/stairs{
@@ -795,21 +665,6 @@
 	},
 /turf/open/floor/tile/brownbrick,
 /area/indoors/town/noble_manor/yellow)
-"Xs" = (
-/obj/structure/bed/stone,
-/turf/open/floor/tile/bath,
-/area/indoors/town/noble_manor/yellow)
-"XX" = (
-/obj/structure/fluff/walldeco/bath/random,
-/obj/structure/rack/shelf/biggest,
-/obj/item/clothing/pants/tights,
-/obj/item/clothing/pants/tights,
-/obj/item/clothing/shirt/robe/colored,
-/obj/item/clothing/shirt/robe/colored,
-/obj/item/natural/cloth,
-/obj/item/natural/cloth,
-/turf/open/floor/tile/bath,
-/area/indoors/town/noble_manor/yellow)
 "Ya" = (
 /obj/structure/chair/wood/alt{
 	dir = 8
@@ -830,19 +685,14 @@
 /obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
 /turf/open/floor/wood,
 /area/indoors/town/noble_manor/yellow)
-"YB" = (
-/obj/structure/stairs/stone{
-	dir = 4
-	},
-/turf/open/floor/church,
-/area/indoors/town/noble_manor/yellow)
 "YM" = (
-/turf/closed/wall/mineral/pipe,
-/area/indoors/town/noble_manor/yellow)
-"Zf" = (
-/obj/machinery/light/fueledstreet/orange/wall,
-/obj/structure/carpet,
-/turf/open/floor/tile/checkeralt,
+/obj/effect/mapping_helpers/access/keyset/manor/Noble2,
+/obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/viewport{
+	name = "Yellow Noble Manor";
+	dir = 8
+	},
+/turf/open/floor/cobble,
 /area/indoors/town/noble_manor/yellow)
 "ZX" = (
 /obj/structure/fluff/railing/wood,
@@ -853,127 +703,6 @@
 /area/indoors/town/noble_manor/yellow)
 
 (1,1,1) = {"
-zu
-zu
-zu
-zu
-zu
-zu
-zu
-zu
-zu
-zu
-"}
-(2,1,1) = {"
-zu
-ek
-iO
-gI
-zu
-uj
-iO
-iO
-sf
-zu
-"}
-(3,1,1) = {"
-LM
-BM
-iO
-iO
-nn
-SS
-jP
-jP
-rY
-LM
-"}
-(4,1,1) = {"
-hf
-iO
-rR
-iO
-zu
-zu
-cm
-cm
-cm
-cm
-"}
-(5,1,1) = {"
-cm
-zu
-rz
-zu
-zu
-XX
-oN
-oN
-Xs
-cm
-"}
-(6,1,1) = {"
-gi
-tx
-oN
-oN
-oN
-oN
-bb
-oN
-ba
-cm
-"}
-(7,1,1) = {"
-zu
-oN
-oN
-oN
-fz
-oN
-kE
-sS
-sS
-IO
-"}
-(8,1,1) = {"
-zu
-il
-zu
-zu
-zu
-oN
-Ej
-yW
-yW
-IO
-"}
-(9,1,1) = {"
-zu
-zu
-zu
-rU
-Ps
-oN
-vq
-yW
-yW
-IO
-"}
-(10,1,1) = {"
-YM
-YM
-YM
-YM
-YM
-YM
-YM
-IO
-IO
-cm
-"}
-
-(1,1,2) = {"
 cm
 cm
 kN
@@ -985,7 +714,7 @@ dC
 cm
 FY
 "}
-(2,1,2) = {"
+(2,1,1) = {"
 cm
 jx
 Qo
@@ -997,7 +726,7 @@ VC
 sn
 FY
 "}
-(3,1,2) = {"
+(3,1,1) = {"
 Fg
 Qo
 HG
@@ -1009,7 +738,7 @@ Uk
 ib
 dC
 "}
-(4,1,2) = {"
+(4,1,1) = {"
 Fg
 Qo
 HG
@@ -1021,7 +750,7 @@ ae
 yR
 Lr
 "}
-(5,1,2) = {"
+(5,1,1) = {"
 Ih
 HG
 Qo
@@ -1033,7 +762,7 @@ Qg
 AD
 Lr
 "}
-(6,1,2) = {"
+(6,1,1) = {"
 cm
 yX
 gd
@@ -1045,7 +774,7 @@ GH
 tB
 dC
 "}
-(7,1,2) = {"
+(7,1,1) = {"
 cm
 cm
 cm
@@ -1054,12 +783,12 @@ Wt
 VC
 VC
 VC
-VC
+sS
 cm
 "}
-(8,1,2) = {"
+(8,1,1) = {"
 cm
-pw
+cm
 cm
 Yx
 VC
@@ -1069,10 +798,10 @@ VC
 cm
 cm
 "}
-(9,1,2) = {"
+(9,1,1) = {"
 FY
-YB
-Lp
+IO
+zu
 mW
 Sx
 VC
@@ -1081,9 +810,9 @@ VC
 wX
 Jp
 "}
-(10,1,2) = {"
+(10,1,1) = {"
 FY
-cm
+YM
 cm
 dC
 dC
@@ -1094,7 +823,7 @@ FY
 bP
 "}
 
-(1,1,3) = {"
+(1,1,2) = {"
 ab
 dC
 dC
@@ -1106,7 +835,7 @@ dC
 dC
 ab
 "}
-(2,1,3) = {"
+(2,1,2) = {"
 dC
 yi
 Gs
@@ -1118,7 +847,7 @@ pw
 pw
 dC
 "}
-(3,1,3) = {"
+(3,1,2) = {"
 dC
 dC
 dC
@@ -1130,19 +859,19 @@ pw
 pw
 dC
 "}
-(4,1,3) = {"
+(4,1,2) = {"
 dC
 Uo
 hQ
 eh
 Ub
 FQ
-Oo
+Ij
 pw
 pw
 dC
 "}
-(5,1,3) = {"
+(5,1,2) = {"
 dC
 nV
 nV
@@ -1154,55 +883,55 @@ dC
 dC
 dC
 "}
-(6,1,3) = {"
+(6,1,2) = {"
 dC
 yj
 nV
 nV
 nV
 dC
-CK
-ds
-Ij
+gI
+rz
+ba
 bk
 "}
-(7,1,3) = {"
+(7,1,2) = {"
 UN
 nV
 TT
 Jx
 nV
 kA
-ds
-ds
-px
+oN
+tx
+oN
 bk
 "}
-(8,1,3) = {"
+(8,1,2) = {"
 UN
 nV
 yC
 Ly
-nV
 dC
-Zf
-Ni
-ds
+dC
+il
+yW
+yW
 bk
 "}
-(9,1,3) = {"
+(9,1,2) = {"
 dC
 EL
 nV
-nV
 wk
 dC
-jE
-Ni
-dJ
+Lp
+rY
+yW
+yW
 bk
 "}
-(10,1,3) = {"
+(10,1,2) = {"
 ab
 dC
 KW
@@ -1215,7 +944,7 @@ dC
 ab
 "}
 
-(1,1,4) = {"
+(1,1,3) = {"
 ab
 dC
 sv
@@ -1227,7 +956,7 @@ CV
 Wv
 Sn
 "}
-(2,1,4) = {"
+(2,1,3) = {"
 dC
 of
 VC
@@ -1239,7 +968,7 @@ NH
 hO
 Bj
 "}
-(3,1,4) = {"
+(3,1,3) = {"
 dC
 Ah
 Jr
@@ -1251,7 +980,7 @@ NH
 Ya
 rQ
 "}
-(4,1,4) = {"
+(4,1,3) = {"
 dC
 pw
 qK
@@ -1263,7 +992,7 @@ dC
 dC
 ab
 "}
-(5,1,4) = {"
+(5,1,3) = {"
 dC
 Bw
 AR
@@ -1275,7 +1004,7 @@ Qo
 mP
 EU
 "}
-(6,1,4) = {"
+(6,1,3) = {"
 ab
 dC
 dC
@@ -1287,7 +1016,7 @@ Qo
 mF
 EU
 "}
-(7,1,4) = {"
+(7,1,3) = {"
 dC
 zB
 hL
@@ -1299,7 +1028,7 @@ hL
 Qo
 dC
 "}
-(8,1,4) = {"
+(8,1,3) = {"
 dC
 iw
 hL
@@ -1311,7 +1040,7 @@ hL
 Qo
 EU
 "}
-(9,1,4) = {"
+(9,1,3) = {"
 dC
 au
 Qo
@@ -1323,7 +1052,7 @@ jn
 HO
 EU
 "}
-(10,1,4) = {"
+(10,1,3) = {"
 ab
 dC
 Wf
@@ -1336,7 +1065,7 @@ dC
 ab
 "}
 
-(1,1,5) = {"
+(1,1,4) = {"
 Wh
 Wh
 Wh
@@ -1348,7 +1077,7 @@ pU
 pU
 pU
 "}
-(2,1,5) = {"
+(2,1,4) = {"
 Wh
 Wh
 Wh
@@ -1360,7 +1089,7 @@ pU
 pU
 pU
 "}
-(3,1,5) = {"
+(3,1,4) = {"
 Wh
 Wh
 Wh
@@ -1372,7 +1101,7 @@ pU
 pU
 pU
 "}
-(4,1,5) = {"
+(4,1,4) = {"
 Wh
 Wh
 Wh
@@ -1384,7 +1113,7 @@ Wh
 Wh
 Wh
 "}
-(5,1,5) = {"
+(5,1,4) = {"
 Wh
 Wh
 Wh
@@ -1396,7 +1125,7 @@ Wh
 Wh
 Wh
 "}
-(6,1,5) = {"
+(6,1,4) = {"
 Wh
 Wh
 Wh
@@ -1408,7 +1137,7 @@ Wh
 Wh
 Wh
 "}
-(7,1,5) = {"
+(7,1,4) = {"
 Wh
 Wh
 Wh
@@ -1420,7 +1149,7 @@ Wh
 Wh
 Wh
 "}
-(8,1,5) = {"
+(8,1,4) = {"
 Wh
 Wh
 Wh
@@ -1432,7 +1161,7 @@ Wh
 Wh
 Wh
 "}
-(9,1,5) = {"
+(9,1,4) = {"
 Wh
 Wh
 Wh
@@ -1444,7 +1173,7 @@ Wh
 Wh
 Wh
 "}
-(10,1,5) = {"
+(10,1,4) = {"
 Wh
 Wh
 Wh

@@ -27,5 +27,5 @@
 	return ..()
 
 /obj/item/clothing/head/chaperon/colored/greyscale/chaperonsecondary
-	color = CLOTHING_PLUM_PURPLE
+	color = COLOR_SHIRLEIGH_BLUE
 	uses_lord_coloring = LORD_SECONDARY

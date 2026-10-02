@@ -1,0 +1,7 @@
+author: "Meli"
+delete-after: True
+changes:
+  - map: "Adds Instancer Crystal to Bog Witch Hut."
+  - map: "Adds Paper and a quill to the Bog Witch Hut, for potion labeling."
+  - rscdel: "Bog Witch Hut removed from South Domotan map, spawned instead as Instancer blueprint."
+  - rscdel: "Removes magical floating table located to the Southeast of the hut on the 2nd Z-level."

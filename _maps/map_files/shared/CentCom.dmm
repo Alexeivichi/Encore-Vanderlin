@@ -451,6 +451,10 @@
 	},
 /turf/open/floor/cobble,
 /area/indoors)
+"bs" = (
+/obj/structure/carpet/navy,
+/turf/open/floor/church/purple,
+/area/latejoin_area)
 "bt" = (
 /obj/structure/chair/wood/alt{
 	dir = 8
@@ -1271,6 +1275,12 @@
 /obj/structure/train/carriage/not_train/far_travel,
 /turf/open/floor/metal,
 /area/outdoors/woods/tutorial)
+"eN" = (
+/obj/structure/carpet/red,
+/obj/structure/table/vtable/v2,
+/obj/item/book/manners,
+/turf/open/floor/church/purple,
+/area/latejoin_area)
 "eO" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -1665,6 +1675,10 @@
 /obj/structure/fluff/walldeco/wallshield,
 /turf/closed/wall/mineral/underbrick,
 /area/overlord_lair)
+"hk" = (
+/obj/structure/carpet/purple,
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "hm" = (
 /obj/structure/fermentation_keg/random/water,
 /turf/open/floor/tile/kitchen,
@@ -1727,6 +1741,10 @@
 /obj/structure/bars,
 /turf/open/floor/blocks,
 /area/indoors/vampire_manor)
+"hI" = (
+/obj/structure/door/swing,
+/turf/open/floor/churchrough/green,
+/area/latejoin_area)
 "hJ" = (
 /obj/structure/winch{
 	redstone_id = "vamplordthrone"
@@ -1906,6 +1924,13 @@
 /obj/structure/rack,
 /turf/open/floor/cobble,
 /area/outdoors/woods/tutorial)
+"iZ" = (
+/obj/structure/carpet/red,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/church/purple,
+/area/latejoin_area)
 "ja" = (
 /obj/structure/window/stained/envy,
 /turf/open/floor/cobble,
@@ -2149,6 +2174,7 @@
 /area/indoors/lich)
 "kx" = (
 /obj/structure/chair/bench/couch/right/lord_primary,
+/obj/machinery/light/fueledstreet/blue/wall,
 /turf/open/floor/wood,
 /area/latejoin_area)
 "ky" = (
@@ -2160,6 +2186,14 @@
 	},
 /turf/open/floor/grass/yel,
 /area/outdoors/bog/inhumen_camp)
+"kz" = (
+/turf/open/floor/church/purple,
+/area/latejoin_area)
+"kA" = (
+/obj/structure/table/wood,
+/obj/item/storage/hip/headhook/royal,
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "kB" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/maniac,
@@ -2358,6 +2392,15 @@
 	},
 /turf/open/floor/grass/yel,
 /area/outdoors/bog/inhumen_camp)
+"lM" = (
+/obj/item/reagent_containers/food/snacks/cooked/royal_truffle,
+/obj/item/reagent_containers/food/snacks/cooked/royal_truffle,
+/obj/structure/closet/crate/chest/wickertrunk/blue,
+/obj/machinery/light/fueledstreet/blue/wall,
+/obj/item/reagent_containers/glass/bottle/elfblue,
+/obj/item/reagent_containers/glass/bottle/water,
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "lO" = (
 /obj/structure/fluff/railing/border{
 	dir = 4;
@@ -2372,6 +2415,12 @@
 "lR" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass/healthy,
+/area/latejoin_area)
+"lU" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 8
+	},
+/turf/open/floor/tile/diamond/purple,
 /area/latejoin_area)
 "lV" = (
 /obj/machinery/light/fueled/firebowl/standing,
@@ -2449,6 +2498,10 @@
 /obj/structure/bars,
 /turf/open/floor/dirt,
 /area/indoors/bandit_lair)
+"mq" = (
+/obj/effect/landmark/start/shirleigh,
+/turf/open/floor/church/purple,
+/area/latejoin_area)
 "mr" = (
 /obj/structure/door{
 	name = "Tutorial Ship"
@@ -2487,6 +2540,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/carpet/green,
 /area/indoors/lich)
+"mD" = (
+/obj/structure/door/violet{
+	name = "Stargazing"
+	},
+/obj/structure/curtain/purplecurtain,
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "mE" = (
 /turf/open/floor/cobble/alt,
 /area/outdoors/bog/inhumen_camp)
@@ -2499,6 +2559,25 @@
 /obj/item/weapon/shovel/small,
 /turf/open/floor/dirt/road,
 /area/outdoors/woods_safe)
+"mN" = (
+/obj/machinery/light/fueledstreet/blue/wall,
+/obj/structure/table/wood/plain_alt,
+/obj/item/reagent_containers/food/snacks/produce/dry_westleach{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/food/snacks/produce/dry_westleach{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/obj/item/clothing/face/cigarette/pipe{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/obj/item/weapon/umbrella/basic,
+/obj/item/weapon/umbrella/basic,
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "mO" = (
 /obj/structure/table/wood{
 	icon_state = "map6"
@@ -2827,8 +2906,7 @@
 /turf/open/floor/churchbrick,
 /area/overlord_lair)
 "oC" = (
-/obj/machinery/light/fueledstreet/blue/wall,
-/turf/open/floor/wood,
+/turf/open/water/ocean,
 /area/latejoin_area)
 "oD" = (
 /obj/machinery/light/fueled/wallfire/candle/weak/l,
@@ -2895,6 +2973,16 @@
 /obj/item/reagent_containers/glass/bucket/pot/stone,
 /turf/open/floor/naturalstone,
 /area/under/cavelava/acid)
+"oU" = (
+/obj/structure/fluff/traveltile{
+	aportalgoesto = "admin_doma";
+	aportalid = "admin_return";
+	name = "To Old Doma";
+	icon_state = "event";
+	desc = null
+	},
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "oV" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/cobble,
@@ -3827,6 +3915,17 @@
 /obj/item/plate,
 /turf/open/floor/carpet/lord/left,
 /area/indoors/lich)
+"tZ" = (
+/obj/item/weapon/sword/rapier/dec/lord{
+	desc = "A royal heirloom of the Shirleighs, forged long ago and of a foreign steel far beyond the Goblet and its lands. Inscribed writing in Old Kui tells that it once belonged to someone named Rash Dequero, and that its implacable edge was driven through the Father of Sin. It gleams with a ferocious intent.";
+	name = "Sin Eater";
+	pixel_x = -5;
+	pixel_y = -7
+	},
+/obj/item/weapon/sword/katana,
+/obj/structure/rack/shelf/biggest,
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "ua" = (
 /obj/item/weapon/shovel,
 /obj/item/weapon/shovel,
@@ -3914,6 +4013,10 @@
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/woods_safe)
+"uG" = (
+/obj/item/rope,
+/turf/open/floor/church/purple,
+/area/latejoin_area)
 "uH" = (
 /obj/item/gun/ballistic/bow/cross,
 /obj/item/gun/ballistic/bow/cross,
@@ -3927,6 +4030,10 @@
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/blocks/green,
 /area/outdoors/woods/tutorial)
+"uK" = (
+/obj/structure/fluff/walldeco/churchbanner/jealousgod,
+/turf/closed/wall/mineral/stone/moss/blue,
+/area/latejoin_area)
 "uL" = (
 /obj/structure/well,
 /turf/open/floor/cobblerock,
@@ -4307,6 +4414,28 @@
 	},
 /turf/open/floor/cobble/mossy,
 /area/outdoors/woods/tutorial)
+"wG" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/clothing/cloak/lordcloak,
+/obj/item/clothing/shoes/boots/armor/evil,
+/obj/structure/carpet/navy,
+/obj/item/weapon/scabbard/sword/royal,
+/obj/item/weapon/scabbard/knife/royal,
+/obj/item/clothing/shirt/dress/royal/prince,
+/obj/item/clothing/armor/leather/jacket/leathercoat/duelcoat,
+/obj/item/clothing/cloak/cape/blkknight,
+/obj/item/clothing/pants/trou/leather/masterwork,
+/obj/item/clothing/shirt/undershirt/courtphysician,
+/obj/item/clothing/shirt/undershirt/sash/colored/mageblue,
+/obj/item/arcyne_spellobject/wand/greater,
+/obj/item/weapon/sword/sabre/dadao,
+/obj/item/weapon/sword/sabre/stalker,
+/obj/item/clothing/ring/dragon_ring,
+/obj/item/clothing/gloves/angle/atgervi/masterwork,
+/obj/item/reagent_containers/glass/bottle/manapot,
+/obj/item/storage/belt/leather/plaquegold,
+/turf/open/floor/church/purple,
+/area/latejoin_area)
 "wH" = (
 /obj/machinery/light/fueled/torchholder/c,
 /obj/structure/chair/bench/coucha/redleft,
@@ -4481,6 +4610,14 @@
 /obj/structure/hotspring/border/thirteen,
 /turf/open/floor/dirt/road,
 /area/outdoors)
+"xP" = (
+/obj/structure/table/wood/fancy/blue,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/obj/item/scrying,
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "xS" = (
 /turf/open/floor/blocks/green,
 /area/outdoors/woods/tutorial)
@@ -4495,6 +4632,21 @@
 "xX" = (
 /turf/closed/mineral/random/med,
 /area/indoors/tutorial)
+"xY" = (
+/obj/machinery/light/fueledstreet/blue/wall,
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/structure/fluff/traveltile{
+	aportalgoesto = "admin_submarine";
+	aportalid = "admin_return";
+	name = "To Olastron";
+	icon_state = "event";
+	desc = null;
+	dir = 4
+	},
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "ya" = (
 /obj/structure/table/wood/large/corner_new{
 	dir = 5
@@ -4552,6 +4704,18 @@
 	},
 /turf/open/floor/carpet/lord/right,
 /area/indoors/lich)
+"yk" = (
+/obj/structure/fluff/traveltile{
+	aportalgoesto = "admin_keep";
+	aportalid = "admin_return";
+	name = "To Etgard";
+	icon_state = "event";
+	desc = null;
+	dir = 8
+	},
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/floor/churchrough/green,
+/area/latejoin_area)
 "yn" = (
 /turf/open/floor/ruinedwood,
 /area/outdoors/bog/inhumen_camp)
@@ -4656,6 +4820,10 @@
 /obj/item/weapon/sword/long/heirloom,
 /turf/open/floor/cobble,
 /area/indoors)
+"yO" = (
+/obj/structure/carpet/red,
+/turf/open/floor/church/purple,
+/area/latejoin_area)
 "yP" = (
 /obj/structure/closet/crate/crafted_closet,
 /obj/item/clothing/face/shepherd/rag,
@@ -4746,6 +4914,12 @@
 	},
 /turf/open/floor/cobble,
 /area/outdoors/woods/tutorial)
+"zy" = (
+/obj/structure/fluff/statue/one_envy,
+/obj/structure/table/wood,
+/obj/machinery/light/fueledstreet/blue/wall,
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "zA" = (
 /obj/structure/stairs{
 	icon_state = "stairs";
@@ -4793,6 +4967,12 @@
 "zK" = (
 /turf/open/floor/carpet/green,
 /area/indoors/lich)
+"zM" = (
+/mob/living/simple_animal/hostile/retaliate/honse/male/tame/saddled{
+	name = "Celek"
+	},
+/turf/open/floor/churchrough/green,
+/area/latejoin_area)
 "zP" = (
 /obj/structure/fluff/statue/tdummy,
 /turf/open/floor/dirt,
@@ -5079,6 +5259,11 @@
 	dir = 8
 	},
 /turf/open/floor/churchmarble,
+/area/latejoin_area)
+"Bu" = (
+/obj/structure/carpet/red,
+/obj/structure/chair/stool,
+/turf/open/floor/church/purple,
 /area/latejoin_area)
 "Bw" = (
 /obj/structure/table/wood/plain,
@@ -5510,6 +5695,14 @@
 /obj/structure/rack/underworld,
 /turf/open/floor/grass/yel,
 /area/outdoors/bog/inhumen_camp)
+"EA" = (
+/obj/structure/table/wood/fancy/purple,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/obj/item/scrying,
+/turf/open/floor/church/purple,
+/area/latejoin_area)
 "EC" = (
 /obj/structure/toilet,
 /turf/open/floor/dirt/road,
@@ -5855,6 +6048,35 @@
 	},
 /turf/open/floor/grass/mixyel,
 /area/outdoors/bog/inhumen_camp)
+"Gr" = (
+/obj/structure/table/wood/plain_alt,
+/obj/item/paper/scroll{
+	pixel_y = 11
+	},
+/obj/item/paper/scroll{
+	pixel_y = 11
+	},
+/obj/item/paper/scroll{
+	pixel_y = 11
+	},
+/obj/item/paper/scroll{
+	pixel_y = 11
+	},
+/obj/item/paper/scroll{
+	pixel_y = 11
+	},
+/obj/item/paper/scroll{
+	pixel_y = 11
+	},
+/obj/item/paper/scroll{
+	pixel_y = 11
+	},
+/obj/item/natural/feather{
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "Gs" = (
 /obj/structure/fluff/walldeco/church/line,
 /turf/open/floor/herringbone,
@@ -6499,7 +6721,7 @@
 /turf/open/floor/cobble,
 /area/indoors/bandit_lair)
 "JR" = (
-/obj/machinery/light/fueled/cauldron,
+/obj/machinery/essence/cauldron_alchemy,
 /turf/open/floor/tile,
 /area/indoors/vampire_manor)
 "JT" = (
@@ -6829,6 +7051,10 @@
 /obj/item/clothing/head/helmet/leather/volfhelm,
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/bandit_lair)
+"Me" = (
+/obj/structure/fluff/steamvent,
+/turf/open/floor/church/purple,
+/area/latejoin_area)
 "Mf" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/volcanic,
@@ -6922,6 +7148,19 @@
 	},
 /turf/open/floor/grass/yel,
 /area/outdoors)
+"MD" = (
+/obj/item/clothing/armor/plate/shirleigh,
+/obj/item/clothing/gloves/plate/shirleigh,
+/obj/item/clothing/head/helmet/visored/shirleigh,
+/obj/item/clothing/pants/platelegs/shirleigh,
+/obj/item/clothing/shoes/boots/armor/shirleigh,
+/obj/structure/mannequin/male/female,
+/obj/structure/carpet/purple,
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "ME" = (
 /obj/structure/closet/crate/chest/crate,
 /obj/item/reagent_containers/glass/bottle/healthpot,
@@ -6951,6 +7190,10 @@
 /obj/structure/flora/grass/bush/wall/tall/bog,
 /turf/open/floor/grass/yel,
 /area/outdoors/bog/inhumen_camp)
+"MV" = (
+/obj/structure/fluff/steamvent,
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "MW" = (
 /obj/structure/table/wood/plain_alt,
 /obj/structure/handcart,
@@ -7238,6 +7481,33 @@
 /obj/machinery/light/fueled/forge,
 /turf/open/floor/hexstone,
 /area/indoors/vampire_manor)
+"OV" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/clothing/head/leather/duelhat,
+/obj/item/scomstone/bad,
+/obj/item/weapon/scabbard/knife/royal,
+/obj/item/weapon/scabbard/sword/royal,
+/obj/item/clothing/ring/duelist,
+/obj/item/clothing/shoes/nobleboot/duelboots,
+/obj/item/clothing/cloak/half/duelcape,
+/obj/item/clothing/armor/leather/jacket/leathercoat/duelcoat,
+/obj/item/clothing/pants/platelegs/captain,
+/obj/item/clothing/armor/gambeson/heavy/colored,
+/obj/item/gun/ballistic/powder/wheellock/blunderbuss,
+/obj/item/gun/ballistic/powder/musket,
+/obj/item/gun/ballistic/powder/wheellock/puffer,
+/obj/item/weapon/scabbard/kazengun,
+/obj/item/ammo_holder/bullet/bullets,
+/obj/item/ammo_holder/bullet/bullets,
+/obj/item/storage/belt/pouch/bullets,
+/obj/item/reagent_containers/glass/bottle/aflask,
+/obj/item/reagent_containers/glass/bottle/aflask,
+/obj/item/clothing/ring/active/nomag,
+/obj/item/clothing/ring/dragon_ring,
+/obj/item/clothing/gloves/angle/masterwork,
+/obj/item/storage/belt/leather/plaquesilver,
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "OX" = (
 /obj/item/weapon/sword/long/exe,
 /obj/item/weapon/sword/long/exe,
@@ -7357,6 +7627,13 @@
 	},
 /turf/open/floor/grass/yel,
 /area/outdoors)
+"PO" = (
+/obj/structure/carpet/red,
+/obj/structure/table/vtable,
+/obj/item/bouquet/matricaria,
+/obj/item/clothing/head/flowercrown/matricaria,
+/turf/open/floor/church/purple,
+/area/latejoin_area)
 "PR" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/wood,
@@ -7860,6 +8137,9 @@
 /obj/item/clothing/shirt/robe/necromancer,
 /turf/open/floor/wood,
 /area)
+"Sd" = (
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "Se" = (
 /obj/machinery/light/fueled/smelter,
 /turf/open/floor/cobble,
@@ -8367,6 +8647,10 @@
 /obj/structure/fluff/walldeco/maidendrape,
 /turf/open/floor/hexstone,
 /area/indoors/vampire_manor)
+"UE" = (
+/obj/structure/window/stained/envy,
+/turf/open/floor/churchrough/green,
+/area/latejoin_area)
 "UF" = (
 /obj/structure/chair/wood/alt/chair_noble/purple{
 	dir = 8
@@ -8994,6 +9278,32 @@
 /obj/item/clothing/face/shepherd/clothmask,
 /turf/open/floor/blocks/paving,
 /area/indoors/vampire_manor)
+"XY" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/clothing/cloak/matron{
+	name = "warm cloak"
+	},
+/obj/item/clothing/shoes/boots/armor/archdevils,
+/obj/item/lipstick/purple,
+/obj/structure/carpet/purple,
+/obj/item/weapon/scabbard/sword/royal,
+/obj/item/weapon/scabbard/knife/royal,
+/obj/item/clothing/shirt/dress/royal/prince,
+/obj/item/clothing/shirt/robe/courtphysician,
+/obj/item/clothing/shoes/high_heels/gold,
+/obj/item/clothing/pants/skirt/colored/blue,
+/obj/item/clothing/shirt/undershirt/sash/colored/mageblue,
+/obj/item/clothing/ring/gold/dorpel,
+/obj/item/clothing/gloves/angle/atgervi/masterwork,
+/obj/item/clothing/wrists/goldbracelet,
+/obj/item/storage/belt/leather/cloth/lady,
+/obj/item/weapon/sword/silver{
+	pixel_y = 4;
+	name = "Miserthorn";
+	desc = "An heirloom of the Shirleighs, this silver blade is renowned for often being seen at the side of Queen Alyssandrine in years since past."
+	},
+/turf/open/floor/tile/diamond/purple,
+/area/latejoin_area)
 "XZ" = (
 /obj/item/weapon/sword/iron,
 /obj/item/weapon/sword/iron,
@@ -9272,6 +9582,16 @@
 "Zl" = (
 /turf/open/floor/herringbone,
 /area/indoors/vampire_manor)
+"Zn" = (
+/obj/item/clothing/armor/plate/shirleigh,
+/obj/item/clothing/gloves/plate/shirleigh,
+/obj/item/clothing/head/helmet/visored/shirleigh,
+/obj/item/clothing/pants/platelegs/shirleigh,
+/obj/item/clothing/shoes/boots/armor/shirleigh,
+/obj/structure/mannequin/male,
+/obj/structure/carpet/navy,
+/turf/open/floor/church/purple,
+/area/latejoin_area)
 "Zr" = (
 /obj/effect/decal/shadow_floor{
 	dir = 4
@@ -9363,6 +9683,13 @@
 /obj/structure/rack/shelf/biggest,
 /turf/open/floor/blocks/stonered,
 /area/outdoors/woods/tutorial)
+"ZS" = (
+/obj/item/clothing/barding/honse/chain,
+/obj/item/caparison/honse,
+/obj/structure/rack/shelf/biggest,
+/obj/item/clothing/barding/honse,
+/turf/open/floor/churchrough/green,
+/area/latejoin_area)
 "ZT" = (
 /obj/structure/flora/grass/bush_meagre/yellow,
 /turf/open/floor/dirt,
@@ -9667,13 +9994,13 @@ rQ
 rQ
 rQ
 rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-ag
-ag
+zG
+uK
+UE
+zG
+UE
+zG
+zG
 zG
 zG
 zG
@@ -9766,16 +10093,16 @@ rQ
 rQ
 rQ
 rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-ag
-ag
+zG
+zG
+zG
+yk
+xP
+Zn
+wG
+EA
+MD
+XY
 zG
 Qa
 OD
@@ -9868,16 +10195,16 @@ rQ
 rQ
 rQ
 rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-ag
-ag
+UE
+zM
+hI
+vo
+Sd
+bs
+bs
+kz
+hk
+hk
 zG
 Tp
 QW
@@ -9970,16 +10297,16 @@ rQ
 rQ
 rQ
 rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-ag
-ag
+zG
+ZS
+zG
+zG
+mN
+kz
+kz
+mq
+Sd
+tZ
 zG
 kx
 BK
@@ -10072,18 +10399,18 @@ rQ
 rQ
 rQ
 rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-ag
-ag
 zG
-oC
+zG
+zG
+UE
+Gr
+kz
+Me
+kz
+MV
+Sd
+mD
+Xd
 Xd
 Xd
 fK
@@ -10177,13 +10504,13 @@ rQ
 rQ
 rQ
 rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-ag
-ag
+zG
+lM
+uG
+kz
+mq
+Sd
+OV
 zG
 zG
 hc
@@ -10279,14 +10606,14 @@ rQ
 rQ
 rQ
 rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-ag
-ag
-ag
+UE
+kA
+Bu
+PO
+yO
+Sd
+lU
+oU
 RN
 Fi
 td
@@ -10381,12 +10708,12 @@ rQ
 rQ
 rQ
 rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-ag
+zG
+zy
+iZ
+eN
+Bu
+Sd
 zG
 zG
 zG
@@ -10483,12 +10810,12 @@ rQ
 rQ
 rQ
 rQ
-rQ
-rQ
-rQ
-rQ
-rQ
-ag
+zG
+zG
+zG
+zG
+zG
+xY
 zG
 YE
 eI
@@ -10589,8 +10916,8 @@ rQ
 rQ
 rQ
 rQ
-rQ
-ag
+zG
+oC
 zG
 ii
 LQ
@@ -10691,8 +11018,8 @@ rQ
 rQ
 rQ
 rQ
-rQ
-ag
+zG
+zG
 zG
 zG
 XJ

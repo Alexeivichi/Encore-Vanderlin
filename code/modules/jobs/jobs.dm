@@ -13,6 +13,39 @@ GLOBAL_LIST_INIT(noble_positions, list(
 ))
 GLOBAL_PROTECT(noble_positions)
 
+GLOBAL_LIST_INIT(noble_positions_paths, list(
+	/datum/job/lord,
+	/datum/job/consort,
+	/datum/job/advclass/consort/highborn,
+	/datum/job/advclass/consort/courtesan,
+	/datum/job/advclass/consort/courtesan/night_spy,
+	/datum/job/advclass/consort/lowborn,
+	/datum/job/hand,
+	/datum/job/advclass/hand,
+	/datum/job/advclass/hand/spymaster,
+	/datum/job/advclass/hand/huntsmaster,
+	/datum/job/advclass/hand/advisor,
+	/datum/job/advclass/hand/magister,
+	/datum/job/prince,
+	/datum/job/advclass/heir/daring,
+	/datum/job/advclass/heir/aristocrat,
+	/datum/job/captain,
+	/datum/job/majordomo,
+	/datum/job/magician,
+	/datum/job/archivist,
+	/datum/job/advclass/archivist/chronicler,
+	/datum/job/advclass/archivist/dreamwatcher,
+	/datum/job/courtphys,
+	/datum/job/minor_noble,
+	/datum/job/advclass/minornoble/vassal,
+	/datum/job/advclass/minornoble/herald,
+	/datum/job/advclass/minornoble/former_commander,
+	/datum/job/advclass/minornoble/magnate,
+	/datum/job/advclass/minornoble/magickal_graduate,
+	/datum/job/sunlord,
+))
+GLOBAL_PROTECT(noble_positions_paths)//Direct paths used primarily for housing access
+
 GLOBAL_LIST_INIT(noble_courthand_positions, list(
 	/datum/job/lord::title,
 	/datum/job/consort::title,
@@ -25,8 +58,29 @@ GLOBAL_LIST_INIT(noble_courthand_positions, list(
 	/datum/job/minor_noble::title,
 	/datum/job/courtagent::title,
 	/datum/job/sunlord::title,
+	/datum/job/shirleigh_queen::title,
+	/datum/job/shirleigh_lackey::title,
 ))
 GLOBAL_PROTECT(noble_courthand_positions)
+
+GLOBAL_LIST_INIT(noble_courthand_positions_paths, list(
+	/datum/job/lord,
+	/datum/job/consort,
+	/datum/job/hand,
+	/datum/job/prince,
+	/datum/job/captain,
+	/datum/job/majordomo,
+	/datum/job/archivist,
+	/datum/job/courtphys,
+	/datum/job/minor_noble,
+	/datum/job/courtagent,
+	/datum/job/advclass/courtagent/bruiser,
+	/datum/job/advclass/courtagent/hitman,
+	/datum/job/advclass/courtagent/mystic,
+	/datum/job/advclass/courtagent/protector,
+	/datum/job/sunlord,
+))
+GLOBAL_PROTECT(noble_courthand_positions_paths)//Direct paths used primarily for housing access
 
 GLOBAL_LIST_INIT(garrison_positions, list(
 	/datum/job/royalknight::title,
@@ -41,6 +95,41 @@ GLOBAL_LIST_INIT(garrison_positions, list(
 	/datum/job/persistence/caravanguard::title,
 	))
 GLOBAL_PROTECT(garrison_positions)
+
+GLOBAL_LIST_INIT(garrison_positions_paths, list(
+	/datum/job/royalknight,
+	/datum/job/advclass/royalknight,
+	/datum/job/advclass/royalknight/steam,
+	/datum/job/guardsman,
+	/datum/job/lieutenant,
+	/datum/job/men_at_arms,
+	/datum/job/advclass/menatarms,
+	/datum/job/advclass/menatarms/watchman_pikeman,
+	/datum/job/advclass/menatarms/watchman_axeman,
+	/datum/job/advclass/menatarms/watchman_ranger,
+	/datum/job/advclass/menatarms/watchman_swordsman,
+	/datum/job/gatemaster,
+	/datum/job/advclass/gatemaster,
+	/datum/job/advclass/gatemaster/gatemaster_whip,
+	/datum/job/advclass/gatemaster/gatemaster_mace,
+	/datum/job/advclass/gatemaster/gatemaster_bow,
+	/datum/job/dungeoneer,
+	/datum/job/town_elder,
+	/datum/job/advclass/town_elder,
+	/datum/job/advclass/town_elder/mayor,
+	/datum/job/advclass/town_elder/master_of_crafts_and_labor,
+	/datum/job/advclass/town_elder/hearth_acolyte,
+	/datum/job/advclass/town_elder/lorekeeper,
+	/datum/job/forestwarden,
+	/datum/job/forestguard,
+	/datum/job/advclass/forestguard,
+	/datum/job/advclass/forestguard/infantry,
+	/datum/job/advclass/forestguard/ranger,
+	/datum/job/advclass/forestguard/reaver,
+	/datum/job/advclass/forestguard/rat,
+	/datum/job/persistence/caravanguard,
+	))
+GLOBAL_PROTECT(garrison_positions_paths)//Direct paths used primarily for housing access
 
 GLOBAL_LIST_INIT(garrison_no_rebellion, list(
 	/datum/job/royalknight::title,
@@ -61,6 +150,16 @@ GLOBAL_LIST_INIT(church_positions, list(
 	))
 GLOBAL_PROTECT(church_positions)
 
+GLOBAL_LIST_INIT(church_positions_paths, list(
+	/datum/job/priest,
+	/datum/job/gmtemplar,
+	/datum/job/monk,
+	/datum/job/undertaker,
+	/datum/job/templar,
+	/datum/job/sundweller,
+	))
+GLOBAL_PROTECT(church_positions_paths)//Direct paths used primarily for housing access
+
 GLOBAL_LIST_INIT(inquisition_positions, list(
 	/datum/job/inquisitor::title,
 	/datum/job/orthodoxist::title,
@@ -68,8 +167,6 @@ GLOBAL_LIST_INIT(inquisition_positions, list(
 	/datum/job/adept::title,
 	))
 GLOBAL_PROTECT(inquisition_positions)
-
-
 
 GLOBAL_LIST_INIT(serf_positions, list(
 	/datum/job/innkeep::title,
@@ -83,11 +180,40 @@ GLOBAL_LIST_INIT(serf_positions, list(
 	/datum/job/apothecary::title,
 	/datum/job/tomb_warden::title,
 	/datum/job/yeoman::title,
+	/datum/job/advclass/yeoman/handmason::title,
+	/datum/job/advclass/yeoman/tinker::title,
+	/datum/job/advclass/yeoman/weaver::title,
+	/datum/job/advclass/yeoman/homesteader::title,
+	/datum/job/advclass/yeoman/woodsman::title,
 	/datum/job/butler::title,
 	/datum/job/persistence/carpenter::title,
 	/datum/job/persistence/stonemason::title,
 	))
 GLOBAL_PROTECT(serf_positions)
+
+
+GLOBAL_LIST_INIT(serf_positions_paths, list(
+	/datum/job/innkeep,
+	/datum/job/blacksmith,
+	/datum/job/tailor,
+	/datum/job/magician,
+	/datum/job/tower_mage,
+	/datum/job/artificer,
+	/datum/job/matron,
+	/datum/job/feldsher,
+	/datum/job/apothecary,
+	/datum/job/tomb_warden,
+	/datum/job/yeoman,
+	/datum/job/advclass/yeoman/handmason,
+	/datum/job/advclass/yeoman/tinker,
+	/datum/job/advclass/yeoman/weaver,
+	/datum/job/advclass/yeoman/homesteader,
+	/datum/job/advclass/yeoman/woodsman,
+	/datum/job/butler,
+	/datum/job/persistence/carpenter,
+	/datum/job/persistence/stonemason,
+	))
+GLOBAL_PROTECT(serf_positions_paths)//Direct paths used primarily for housing access
 
 GLOBAL_LIST_INIT(peasant_positions, list(
 	/datum/job/farmer::title,
@@ -107,6 +233,25 @@ GLOBAL_LIST_INIT(peasant_positions, list(
 	/datum/job/persistence/farmer::title,
 ))
 GLOBAL_PROTECT(peasant_positions)
+
+GLOBAL_LIST_INIT(peasant_positions_paths, list(
+	/datum/job/farmer,
+	/datum/job/miner,
+	/datum/job/butcher,
+	/datum/job/cook,
+	/datum/job/carpenter,
+	/datum/job/mason,
+	/datum/job/jester,
+	/datum/job/hunter,
+	/datum/job/fisher,
+	/datum/job/bard,
+	/datum/job/prisoner,
+	/datum/job/vagrant,
+	/datum/job/persistence/woodsman,
+	/datum/job/persistence/miner,
+	/datum/job/persistence/farmer,
+))
+GLOBAL_PROTECT(peasant_positions_paths)//Direct paths used primarily for housing access
 
 GLOBAL_LIST_INIT(apprentices_positions, list(
 	/datum/job/squire::title,
@@ -139,6 +284,19 @@ GLOBAL_LIST_INIT(allmig_positions, list(
 	/datum/job/vampirelord::title,
 	))
 
+
+GLOBAL_LIST_INIT(allmig_positions_paths, list(
+	/datum/job/bogwitch,
+	/datum/job/bog_apprentice,
+	/datum/job/pilgrim,
+	/datum/job/adventurer,
+	/datum/job/mercenary,
+	/datum/job/bandit,
+	/datum/job/folkhero,
+	/datum/job/wretch,
+	/datum/job/vampirelord,
+	))//Direct paths used primarily for housing access
+
 GLOBAL_LIST_INIT(roguewar_positions, list(
 	JOB_ADVENTURER,
 	))
@@ -168,6 +326,7 @@ GLOBAL_LIST_EMPTY(job_assignment_order)
 	sorting_order += GLOB.apprentices_positions
 	sorting_order += GLOB.allmig_positions
 	sorting_order += GLOB.youngfolk_positions
+	sorting_order += GLOB.admin_special_positions
 	return sorting_order
 
 GLOBAL_LIST_INIT(exp_specialmap, list(

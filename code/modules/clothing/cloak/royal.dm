@@ -13,7 +13,7 @@
 	inhand_mod = TRUE
 	allowed_race = SPECIES_BASE_BODY
 	detail_tag = "_det"
-	detail_color = CLOTHING_PLUM_PURPLE
+	detail_color = COLOR_SHIRLEIGH_BLUE
 	uses_lord_coloring = LORD_PRIMARY
 	has_storage = TRUE
 	storage_component_path = /datum/component/storage/concrete/grid/cloak/lord

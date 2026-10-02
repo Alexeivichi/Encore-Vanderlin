@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/forcewall
 	name = "Forcewall"
-	desc = "Conjure a wall of arcyne force, preventing anyone and anything other than you from moving through it."
+	desc = "Conjure a wall of arcyne force, preventing anyone and anything, including you, from moving through it."
 	button_icon_state = "forcewall"
 
 	required_form = FORM_ARCANE

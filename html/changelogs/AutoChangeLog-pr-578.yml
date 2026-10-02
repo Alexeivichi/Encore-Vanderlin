@@ -1,0 +1,4 @@
+author: "furrycactus"
+delete-after: True
+changes:
+  - rscdel: "Removed Steel equipment from Silverfaces."

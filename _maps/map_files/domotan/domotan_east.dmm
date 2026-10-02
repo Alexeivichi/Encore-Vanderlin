@@ -665,6 +665,13 @@
 	},
 /turf/open/floor/churchbrick,
 /area/indoors/hellwatch)
+"hl" = (
+/obj/effect/landmark/mapGenerator/cave{
+	endTurfX = 207;
+	endTurfY = 205
+	},
+/turf/closed/sea_fog,
+/area/outdoors/mountains)
 "hn" = (
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/floor/grass,
@@ -1464,8 +1471,8 @@
 /area/outdoors/mountains)
 "ri" = (
 /obj/effect/landmark/mapGenerator/cave{
-	endTurfX = 61;
-	endTurfY = 139
+	endTurfX = 207;
+	endTurfY = 205
 	},
 /turf/closed/sea_fog,
 /area/outdoors/beach)
@@ -2280,8 +2287,8 @@
 /area/indoors/hellwatch)
 "DY" = (
 /obj/effect/landmark/mapGenerator/decap{
-	endTurfX = 255;
-	endTurfY = 255
+	endTurfX = 205;
+	endTurfY = 205
 	},
 /turf/closed/sea_fog,
 /area/outdoors/mountains)
@@ -3576,8 +3583,8 @@
 /area/outdoors/hellwatch)
 "Tn" = (
 /obj/effect/landmark/mapGenerator/decap{
-	endTurfX = 255;
-	endTurfY = 255
+	endTurfX = 205;
+	endTurfY = 205
 	},
 /turf/closed/sea_fog,
 /area/outdoors/beach)
@@ -90035,7 +90042,7 @@ IP
 IP
 IP
 IP
-IP
+hl
 DY
 "}
 (2,1,3) = {"

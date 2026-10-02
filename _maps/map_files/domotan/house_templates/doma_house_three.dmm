@@ -124,14 +124,15 @@
 	lockid = "house3";
 	name = "House III"
 	},
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/twig,
 /area/indoors/town)
 "D" = (
 /turf/closed/wall/mineral/stone/moss,
 /area/indoors/town)
 "F" = (
-/obj/structure/sign/property_sign/claim,
-/turf/closed/wall/mineral/wood,
+/obj/structure/sign/property_sign/claim/town,
+/turf/closed/wall/mineral/stone/moss,
 /area/indoors/town)
 "G" = (
 /turf/open/floor/wood,
@@ -263,7 +264,7 @@ D
 (6,1,1) = {"
 D
 D
-D
+F
 J
 D
 "}
@@ -307,7 +308,7 @@ a
 w
 a
 C
-F
+a
 w
 "}
 
